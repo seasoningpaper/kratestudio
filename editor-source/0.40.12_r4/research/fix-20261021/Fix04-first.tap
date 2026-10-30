@@ -1,0 +1,32 @@
+✔ Fix-04 asset options keep stable IDs, distinguish duplicate filenames and explicitly retain missing references (1.900947ms)
+✔ Fix-04 voice classification retains legacy unclassified and current wrong-role IDs without guessing substitutions (0.340564ms)
+✔ Fix-04 positional aliases stay strict and numeric zero is a real actor key, never a falsy no-target (0.876582ms)
+✔ Fix-04 valid multi-actor targets survive cross-chapter jump, repeated show/hide and save/load; real ambiguity remains an error (2.268833ms)
+✔ Fix-04 event Inspector and block voice options share values and keep an absent voice selected (617.408456ms)
+✔ R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events (910.623974ms)
+✔ R2-B Player DOM: waiting exit cleans only A in real Player and preserves B (607.639782ms)
+✔ R2-B Player DOM: parallel exit cleans only A in real Player and preserves B (520.890524ms)
+✔ R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue (827.163961ms)
+✔ R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor (300.414238ms)
+✔ R2-B: waiting exit retains target until completion, never removes other actors in same slot (2.758704ms)
+✔ R2-B: actual exit lifecycle fadeOut (0.378999ms)
+✔ R2-B: actual exit lifecycle exitLeft (0.278759ms)
+✔ R2-B: actual exit lifecycle exitRight (0.197486ms)
+✔ R2-B: actual exit lifecycle exitUp (0.267301ms)
+✔ R2-B: actual exit lifecycle exitDown (0.229024ms)
+✔ R2-B: legacy no-animation hide is immediate and isolates its exact key (0.203977ms)
+✔ R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone (0.408394ms)
+✔ R2-B: unique positional aliases work; exact numeric custom IDs take priority (0.437808ms)
+✔ R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor (0.340362ms)
+✔ R2-B: scene clear cancels pending exits; seeking past exit restores settled state (0.409375ms)
+✔ R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance (0.529095ms)
+✔ R2-B: repeated show/hide with expression, layer and wait stays independent across script copy (10.302675ms)
+✔ R2-B: native and legacy none syntax remain compatible and native directional exits are executable (3.04904ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4558.337107

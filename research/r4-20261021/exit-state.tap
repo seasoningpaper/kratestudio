@@ -1,0 +1,12 @@
+✔ R4: reconcile only the same completed exit, never remove other actors or mutate live state (1.780454ms)
+✔ R4: reappearance and slot replacement survive an old exit completion (0.747576ms)
+✔ R4: later exit token and explicit animation cancellation are not mistaken for completed exits (0.277849ms)
+✔ R4: pending and saved legacy actors without exit metadata are preserved (0.247884ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 94.026457

@@ -1,0 +1,30 @@
+✔ actor isolation: designer edits the selected animation event, not the earlier character cue (817.942181ms)
+✔ actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions (740.972593ms)
+✔ actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM (1293.094331ms)
+✔ event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch (382.202292ms)
+✔ motion controls: hidden waiting animation can be restored by tapping the stage (450.797551ms)
+✔ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (2.068496ms)
+✔ actor isolation: a new character cue without motion does not replay the previous one-shot (0.253171ms)
+✔ actor isolation: nested placement in visual state never aliases authored event parameters (2.00485ms)
+✔ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.402957ms)
+✔ actor isolation: numeric actor IDs survive event reordering as strings (0.316597ms)
+✔ actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names (11.231048ms)
+✔ actor isolation: every existing motion targets one actor without replacing or restarting other actors (0.897862ms)
+✔ actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state (0.273482ms)
+✔ actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent (2.864164ms)
+✔ actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity (0.400533ms)
+✔ actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source (1.898761ms)
+✔ actor isolation: moving A to center does not delete another actor already in that position (0.17922ms)
+✔ same imported actor changes slot without duplicates, but explicitly named instances remain independent (5.459935ms)
+✔ slot hide removes moved sprites, move-to-center replaces its occupant, and show clears stale fade-out (0.642338ms)
+✔ asset filters, range selection and deletion handle video backgrounds and font references (1.949892ms)
+✔ disabled block feedback does not allocate audio; enabled feedback reuses separate sound channels (1.132076ms)
+✔ module clips are sequential, rebind named resources, preserve animation targets and reject executable event types (1.006066ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4275.982082

@@ -1,0 +1,32 @@
+{
+  "splitBefore": {
+    "className": "scratch-block program-block selected block-dialogue",
+    "id": "sf-event-2",
+    "rect": {
+      "bottom": 567,
+      "height": 141,
+      "left": 564,
+      "right": 1024,
+      "top": 426,
+      "width": 460,
+      "x": 564,
+      "y": 426
+    },
+    "style": "--block-color: var(--category-story,#9966ff); position: absolute; left: 52px; top: 200px; width: 460px; height: 141px; overflow: hidden;"
+  },
+  "splitAfter": {
+    "className": "scratch-block program-block selected block-dialogue block-detached",
+    "id": "sf-event-2",
+    "rect": {
+      "bottom": 567,
+      "height": 141,
+      "left": 564,
+      "right": 1024,
+      "top": 426,
+      "width": 460,
+      "x": 564,
+      "y": 426
+    },
+    "style": "--block-color: var(--category-story,#9966ff); position: absolute; left: 52px; top: 200px; width: 460px; height: 141px; overflow: hidden;"
+  }
+}

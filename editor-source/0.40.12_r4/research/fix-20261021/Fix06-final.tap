@@ -1,0 +1,24 @@
+✔ Fix-06 logo opens an actual project-home work page and returns to the same editor without resetting history (502.998228ms)
+✔ Fix-06 logo confirms unsaved state or drafts; cancellation keeps editor, confirmation preserves exact project and Undo (412.835174ms)
+✔ Fix-06 project-home opens a stored project through existing switchProject and preserves the prior project (250.704818ms)
+✔ Fix-06 source protection retains official logos, colors, block silhouettes and original header/media rules (48.750252ms)
+✔ C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged (704.185356ms)
+✔ C4 reproduction: second touch cannot move or finish the first game-template gesture (581.033918ms)
+✔ C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later (409.689939ms)
+✔ C4 reproduction: second touch cannot move or finish the first menu-template gesture (478.49832ms)
+✔ C4 reproduction: lost pointer capture cancels a menu-template draft (396.484395ms)
+✔ C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom (482.394342ms)
+✔ C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect (540.489873ms)
+✔ C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe (465.791742ms)
+✔ C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas (791.11683ms)
+✔ C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas (781.610841ms)
+✔ C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration (722.878739ms)
+✔ C4: viewport resize cancels both template drafts without committing partial coordinates (756.809132ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9164.8687

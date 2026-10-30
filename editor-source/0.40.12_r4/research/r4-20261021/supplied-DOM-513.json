@@ -1,0 +1,13 @@
+{
+  "events": 513,
+  "elapsedMs": 2261.715408,
+  "modes": [
+    "event",
+    "blocks",
+    "code",
+    "flow",
+    "event"
+  ],
+  "checks": "all JSON event fields except diagnostic scriptLine; IDs, target strings, branches, asset references, Undo/Redo, IndexedDB",
+  "scope": "real bundles in JSDOM; synthetic byte buffers and test-only activity definitions, not original media/browser validation"
+}

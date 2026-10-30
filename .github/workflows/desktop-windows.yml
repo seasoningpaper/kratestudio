@@ -1,0 +1,70 @@
+name: Koi Maker Windows 開發驗證
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/desktop-0.41.0]
+    paths: [desktop/**, src/**, dist/**, package-lock.json, .github/workflows/desktop-windows.yml]
+permissions:
+  contents: read
+concurrency:
+  group: desktop-windows-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  windows-x64:
+    runs-on: windows-2022
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5.0.0
+      - uses: actions/setup-node@v5.0.0
+        with:
+          node-version: 24.19.0
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            desktop/package-lock.json
+      - name: 安裝鎖定依賴
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          npm ci --prefix desktop --no-audit --no-fund
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: 原版與桌面建置
+        run: |
+          npm run build
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          npm run typecheck --prefix desktop
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          npm run build --prefix desktop
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: 回歸與原生SQLite測試
+        run: |
+          npm test
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          npm test --prefix desktop
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Windows x64 解壓開發包
+        run: npm run pack:win:dir --prefix desktop
+      - name: 校驗與正式版門檻
+        run: |
+          Push-Location desktop
+          node verify-package.mjs
+          $verifyExit = $LASTEXITCODE
+          Pop-Location
+          if ($verifyExit -ne 0) { exit $verifyExit }
+          Get-FileHash desktop/artifacts/win-unpacked/KoiMaker.exe -Algorithm SHA256 | Format-List | Out-File desktop/artifacts/SHA256.txt
+          $status = Get-Content desktop/P0-STATUS.json | ConvertFrom-Json
+          if ($status.formalReleaseReady) {
+            npm run dist:win --prefix desktop
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          } else {
+            Write-Host "P0 尚未完成：只交付開發驗證包，不產生正式安裝版或Portable。"
+          }
+      - uses: actions/upload-artifact@v4.6.2
+        with:
+          name: KoiMaker-0.41.0-dev-Windows-x64
+          path: |
+            desktop/artifacts/win-unpacked/**
+            desktop/artifacts/SHA256.txt
+            desktop/artifacts/PACKAGE-VERIFICATION.json
+          retention-days: 14
+          if-no-files-found: error

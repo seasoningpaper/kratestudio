@@ -1,0 +1,22 @@
+✔ 0.41.0 keeps the actual engine, four-mode semantics, persistence and official branding (11.540893ms)
+✔ 0.41.0 retains every unique existing HTML control and the four-mode order (158.360381ms)
+✔ SoftFlow blue and lavender exactly use the selected design tokens; dark preserves official logo tone (40.371529ms)
+✔ SoftFlow appearance serializes with existing settings without touching authored data or unknown fields (8.167473ms)
+✔ HTTP preview compatibility produces cryptographic unique UUIDv4 and preserves native implementations (11.292469ms)
+✔ Online sources agree on release and retain hosting identity; browser entry never requires Electron (2.619033ms)
+✔ SoftFlow CSS scopes controls away from game UI and keeps responsive navigation and keyboard focus (0.736711ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (491.945237ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (334.419851ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (187.536759ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (298.508081ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (414.608911ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (413.801348ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (435.860258ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2977.048209

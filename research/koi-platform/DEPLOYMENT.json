@@ -1,0 +1,16 @@
+{
+  "site": "https://koimaker.briny-angel-8862.chatgpt.site/",
+  "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "sites_version": 69,
+  "source_commit": "2652e3ed3aab1e1f9aeee65e9d6cb477bcfc8595",
+  "deployment_id": "appgdep_6adf909698108191bc81cc98628f2dd8",
+  "status": "succeeded",
+  "rollback_sites_version": 61,
+  "editor_commit": "3fa39c9a7e8c9f0bb27b26cb5c4c929ad385f4b6",
+  "google_login": false,
+  "cloud_projects": false,
+  "cloud_quota_enabled": false,
+  "previous_sites_version": 68,
+  "homepage_version": "0.1.1",
+  "brand": "Krate Studio"
+}

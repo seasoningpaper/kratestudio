@@ -1,0 +1,13 @@
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (546.575042ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (416.876839ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (314.004404ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0 (346.84444ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180 (578.082124ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2699.46972

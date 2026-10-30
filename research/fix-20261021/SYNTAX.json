@@ -1,0 +1,62 @@
+[
+  {
+    "file": "dist/app.js",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "dist/workspace.js",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "dist/player.js",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "worker/index.js",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "dist/server/index.js",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/asset-options.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/motion-state.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/visual-state.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/value-sockets.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/block-measure.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/stack-model.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/event-references.mjs",
+    "exitCode": 0,
+    "error": ""
+  }
+]

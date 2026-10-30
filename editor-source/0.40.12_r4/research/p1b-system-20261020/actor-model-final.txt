@@ -1,0 +1,20 @@
+✔ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (4.803283ms)
+✔ actor isolation: a new character cue without motion does not replay the previous one-shot (0.330317ms)
+✔ actor isolation: nested placement in visual state never aliases authored event parameters (0.198258ms)
+✔ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.422836ms)
+✔ actor isolation: numeric actor IDs survive event reordering as strings (0.287943ms)
+✔ actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names (10.842778ms)
+✔ actor isolation: every existing motion targets one actor without replacing or restarting other actors (0.653664ms)
+✔ actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state (0.356847ms)
+✔ actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent (1.432678ms)
+✔ actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity (0.448055ms)
+✔ actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source (1.848714ms)
+✔ actor isolation: moving A to center does not delete another actor already in that position (0.17876ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 141.779492

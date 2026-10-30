@@ -1,0 +1,14 @@
+✔ 0.40.11 branding: current visible names, titles, templates and version are unified while KOI Script remains (91.541972ms)
+✔ 0.40.11 GUI contract: HTML structure, CSS, icon assets and wordmark strokes retain the prior design (101.756589ms)
+✔ 0.40.11 API contract: parser, engine, event types, data formats and public exports retain compatibility (471.17836ms)
+✔ 0.40.11 old project: author text, project/event/asset IDs, saves and IndexedDB schema remain intact (261.750178ms)
+✔ 0.40.11 localization: old keys remain aliases and translated product values use Koi Maker (1.219727ms)
+✔ 0.40.11 runtime branding: actual flow watermark and exported game title use Koi Maker (544.071463ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1862.119567

@@ -1,0 +1,14 @@
+✔ Fix-04 asset options keep stable IDs, distinguish duplicate filenames and explicitly retain missing references (1.537159ms)
+✔ Fix-04 voice classification retains legacy unclassified and current wrong-role IDs without guessing substitutions (0.351068ms)
+✔ Fix-04 positional aliases stay strict and numeric zero is a real actor key, never a falsy no-target (0.610658ms)
+✔ Fix-04 valid multi-actor targets survive cross-chapter jump, repeated show/hide and save/load; real ambiguity remains an error (2.365634ms)
+✔ Fix-04 event Inspector and block voice options share values and keep an absent voice selected (660.69015ms)
+✔ Fix-04 legacy unknown audio role labels remain selectable as unclassified without changing IDs or metadata (0.503727ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1091.155635

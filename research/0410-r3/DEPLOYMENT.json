@@ -1,0 +1,47 @@
+{
+  "source": {
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "checkout_path": "/workspace/sites/koimaker",
+    "commit_sha": "f2db20232f5349b2907c3836fdcf549e8c9b81ae",
+    "archive": "/workspace/scratch/koimaker-r3-site.tar"
+  },
+  "savedVersion": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_478d5161f36881918f0d22debfb405b6",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "version_number": 64,
+    "source": {
+      "commit_sha": "f2db20232f5349b2907c3836fdcf549e8c9b81ae"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000b3e481f89a71ee040a6365df",
+      "content_hash": "sha256:706ce45af6ec88f01590fca3dcab58b44add456f3906eca9e2d2633baedd1d62",
+      "size_bytes": 11847680,
+      "file_count": 41
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6adc59dbb85481918952c6c5f4f7a915",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 視覺化故事創作平台 0.41.0_r2 — SoftFlow 1 公開測試修訂版",
+    "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_478d5161f36881918f0d22debfb405b6",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad04b4f4db081918fe4a0e9d541130f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-24T07:10:33.393328+00:00"
+  },
+  "finalMetadata": {
+    "title": "Koi Maker 視覺化故事創作平台 0.41.0_r3 — SoftFlow 1 公開測試修訂版",
+    "version": 64,
+    "audience": "public",
+    "browserVerifiedVersion": "0.41.0_r3",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site/"
+  }
+}

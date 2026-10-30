@@ -1,0 +1,20 @@
+✔ C3: scroll rails project bounded camera at all zooms and restore identical world positions (2.29155ms)
+✔ C3: wheel pans by default, Shift pans horizontally, modifier zoom preserves pointer world location (1.08464ms)
+✔ C3: locate resolves exact numeric IDs before ordinal and diagnoses ambiguous or missing sections (2.164473ms)
+✔ C3 DOM: visible rails drag and keyboard navigation update only the camera; scale and story stay intact (801.868572ms)
+✔ C3 DOM: ordinary wheel pans, modifier wheel zooms, Space drag over a node never moves story positions (710.49649ms)
+✔ C3 DOM: locate hidden event expands its group and centers the real node without mutating layout (605.82798ms)
+✔ C3 DOM: view survives switching editor modes and rail drag cancellation does not move nodes (679.083341ms)
+✔ C3: bounded 300-event branches, cycles and cross-chapter links keep logic while producing finite scroll rails (31.574697ms)
+✔ C3: bounded 500-event branches, cycles and cross-chapter links keep logic while producing finite scroll rails (39.665562ms)
+✔ R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout (932.330278ms)
+✔ R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo (965.208135ms)
+✔ R2-C DOM: flow group drag uses scaled world delta and one Undo transaction (689.193103ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3310.359401

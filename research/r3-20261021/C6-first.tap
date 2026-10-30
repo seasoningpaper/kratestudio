@@ -1,0 +1,417 @@
+✖ C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution (30.704293ms)
+✖ C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution (60.81492ms)
+✖ C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution (111.962884ms)
+✖ C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (1480.355049ms)
+✖ C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2126.334326ms)
+✖ C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2980.749887ms)
+✔ C6 unsupported future event fails explicitly before source apply rather than being silently deleted (1.656754ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 1
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7229.971116
+
+✖ failing tests:
+
+test at tests/r3-sync.test.mjs:9:28
+✖ C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution (30.704293ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      state: {
+        activityLog: [],
+        actors: {},
+        avatar: '',
+  ...
+          scene: 'bg',
+  +       scriptLine: 42,
+          text: '事件40',
+          type: 'background'
+        },
+        chapter: 0,
+        effect: 'none',
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r3-sync.test.mjs:9:821)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      trace: [
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array]
+      ],
+      state: { chapter: 0, index: 49, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 15 }
+    },
+    expected: {
+      trace: [
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array]
+      ],
+      state: { chapter: 0, index: 49, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 15 }
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/r3-sync.test.mjs:9:28
+✖ C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution (60.81492ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      state: {
+        activityLog: [],
+        actors: {},
+        avatar: '',
+  ...
+          scene: 'bg',
+  +       scriptLine: 292,
+          text: '事件290',
+          type: 'background'
+        },
+        chapter: 0,
+        effect: 'none',
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r3-sync.test.mjs:9:821)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 21 more items
+      ],
+      state: { chapter: 0, index: 299, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 90 }
+    },
+    expected: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 21 more items
+      ],
+      state: { chapter: 0, index: 299, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 90 }
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/r3-sync.test.mjs:9:28
+✖ C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution (111.962884ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      state: {
+        activityLog: [],
+        actors: {},
+        avatar: '',
+  ...
+          scene: 'bg',
+  +       scriptLine: 492,
+          text: '事件490',
+          type: 'background'
+        },
+        chapter: 0,
+        effect: 'none',
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r3-sync.test.mjs:9:821)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 101 more items
+      ],
+      state: { chapter: 0, index: 499, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 150 }
+    },
+    expected: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 101 more items
+      ],
+      state: { chapter: 0, index: 499, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 150 }
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/r3-sync.test.mjs:10:28
+✖ C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (1480.355049ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      state: {
+        activityLog: [],
+        actors: {},
+        avatar: '',
+  ...
+          scene: 'bg',
+  +       scriptLine: 42,
+          text: '事件40',
+          type: 'background'
+        },
+        chapter: 0,
+        effect: 'none',
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r3-sync.test.mjs:10:1345)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      trace: [
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array]
+      ],
+      state: { chapter: 0, index: 49, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 15 }
+    },
+    expected: {
+      trace: [
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array],
+        [Array], [Array], [Array]
+      ],
+      state: { chapter: 0, index: 49, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 15 }
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/r3-sync.test.mjs:10:28
+✖ C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2126.334326ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      state: {
+        activityLog: [],
+        actors: {},
+        avatar: '',
+  ...
+          scene: 'bg',
+  +       scriptLine: 292,
+          text: '事件290',
+          type: 'background'
+        },
+        chapter: 0,
+        effect: 'none',
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r3-sync.test.mjs:10:1345)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 21 more items
+      ],
+      state: { chapter: 0, index: 299, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 90 }
+    },
+    expected: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 21 more items
+      ],
+      state: { chapter: 0, index: 299, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 90 }
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/r3-sync.test.mjs:10:28
+✖ C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2980.749887ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      state: {
+        activityLog: [],
+        actors: {},
+        avatar: '',
+  ...
+          scene: 'bg',
+  +       scriptLine: 492,
+          text: '事件490',
+          type: 'background'
+        },
+        chapter: 0,
+        effect: 'none',
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r3-sync.test.mjs:10:1345)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 101 more items
+      ],
+      state: { chapter: 0, index: 499, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 150 }
+    },
+    expected: {
+      trace: [
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array], [Array], [Array], [Array], [Array], [Array],
+        [Array], [Array],
+        ... 101 more items
+      ],
+      state: { chapter: 0, index: 499, vars: [Object], scene: 'bg', actors: {}, music: null, avatar: '', textboxVisible: true, fadeDark: 0, unlockedBgm: [], sounds: [], effect: 'none', log: [Array], seen: [Array], gallery: [], endings: [Array], error: null, loopFrames: {}, inventory: [], activityLog: [], background: [Object], visualSequence: 150 }
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

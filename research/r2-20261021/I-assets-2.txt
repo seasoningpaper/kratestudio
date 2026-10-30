@@ -1,0 +1,8 @@
+{
+  "assetCount": 22,
+  "allAssetsExact": true,
+  "rootStatus": 200,
+  "brand": "Koi Maker 視覺小說創作平台",
+  "version": "0.40.11_r2",
+  "scope": "local Worker fetch, not browser/production HTTP"
+}

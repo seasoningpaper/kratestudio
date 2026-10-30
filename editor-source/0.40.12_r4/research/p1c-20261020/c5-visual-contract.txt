@@ -1,0 +1,10 @@
+✔ P1-C visual contract: real renderer consumes camera follow, shake, split, weather and filter state (516.757329ms)
+✔ P1-C duplicate actor names: one ID replaces one actor, distinct custom IDs preserve independent instances (3.601534ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 866.535876

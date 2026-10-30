@@ -1,0 +1,31 @@
+✔ actor isolation: designer edits the selected animation event, not the earlier character cue (979.523067ms)
+✔ actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions (883.308132ms)
+✔ actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM (1335.906284ms)
+✖ event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch (404.877757ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4115.852894
+
+✖ failing tests:
+
+test at tests/actor-isolation-dom.test.mjs:10:1
+✖ event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch (404.877757ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!w.__p().chapters[0].events.some(e=>e.id===id))
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation-dom.test.mjs:10:882)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

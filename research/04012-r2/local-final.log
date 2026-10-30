@@ -1,0 +1,73 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.40.12-r2 test
+> node scripts/test-local.mjs
+
+✔ 04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged (5.124187ms)
+✔ 04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging (0.747252ms)
+✔ 04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution (1.266132ms)
+✔ 04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename (1.820444ms)
+✔ 04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs (844.224168ms)
+✔ 04012 R5: flag preset never overwrites an existing numeric variable or project input (0.722685ms)
+✔ 04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched (0.508273ms)
+✔ 04012 R6: typed operator 0 >= 0 connects and executes (4.84743ms)
+✔ 04012 R6: typed operator 0 <= 0 connects and executes (0.29272ms)
+✔ 04012 R6: typed operator 0 != 0 connects and executes (0.395554ms)
+✔ 04012 R6: typed operator abs(-1) connects and executes (0.396165ms)
+✔ 04012 R6: typed operator floor(1.5) connects and executes (0.263265ms)
+✔ 04012 R6: typed operator ceil(1.5) connects and executes (0.233751ms)
+✔ 04012 R6: typed operator sqrt(4) connects and executes (0.251738ms)
+✔ 04012 R6: typed operator min(1,2) connects and executes (0.219961ms)
+✔ 04012 R6: typed operator max(1,2) connects and executes (0.323556ms)
+✔ 04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow (1234.19483ms)
+✔ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (716.352115ms)
+✔ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (706.393195ms)
+✔ r2 editor: pending section delete refuses a changed ownership range (233.388404ms)
+✔ r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events (260.532345ms)
+✔ r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate (673.947314ms)
+✔ r2 layout: separator and all three densities persist without changing event data; legacy strong remains representable (957.147492ms)
+✔ r2 layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus (3.187938ms)
+✔ r2 capacity: display derives from real bytes and unchanged application limit, never claims unverified 5 GB (0.722335ms)
+✔ r2 reproduction: a cancelled drag plus its compatibility click never inserts a block (671.470878ms)
+✔ r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion (732.858079ms)
+✔ r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each (1019.615102ms)
+✔ r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once (620.134427ms)
+✔ r2 transaction: the same token is rejected before recursive mutation and replay after Undo (490.918182ms)
+✔ r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks (750.86819ms)
+✔ r2 palette: repeat is one container transaction with owned body/end, not three independent roots (577.904988ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer (1216.481125ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer (1073.259708ms)
+✔ r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged (475.523506ms)
+✔ r2 release: protected Logo, themes, fonts, categories and player styles match r1; selected outline is the only base CSS edit (18.658027ms)
+✔ r2 release: HTML keeps the original navigation/layout and package/lock/export branding agree (3.316681ms)
+✔ 04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role (1.097148ms)
+✔ 04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics (11.981574ms)
+✔ 04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative (1.163838ms)
+✔ 04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore (1078.98645ms)
+✔ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (645.716086ms)
+✔ input, interpolation, branching, and rollback restore the complete variable state (5.401109ms)
+✔ save/load preserves state, actors, history, background, and variables (0.99965ms)
+✔ logic loops are bounded and cross chapter jumps execute (0.909916ms)
+✔ visual and audio control events are applied before dialogue (1.613563ms)
+✔ save data follows stable event IDs after inserting a scene event (0.424968ms)
+✔ preview from a selected line restores preceding scene and character state (0.50596ms)
+✔ minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact (0.781223ms)
+✔ multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP (1448.381352ms)
+✔ local handoff: Windows and POSIX filesystem paths produce the same asset URL (0.916436ms)
+✔ local handoff: application source, Logo, HTML and CSS remain byte-identical (63.866606ms)
+✔ local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly (223.103332ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (440.993113ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (337.372877ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (164.806103ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (273.83233ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (362.940753ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (357.445168ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (228.164086ms)
+ℹ tests 60
+ℹ suites 0
+ℹ pass 60
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 23044.326651

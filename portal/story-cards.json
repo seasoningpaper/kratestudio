@@ -1,0 +1,86 @@
+[
+  {
+    "id": "01",
+    "title": "五月的那次相遇",
+    "caption": "原本平凡的一天，因為認識妳而有了名字。",
+    "image": "/images/story-card-01.png",
+    "sha256": "fe7e0ad18fd454834419803678310b4abce219c3f3cbd571bf82760b26f1567f"
+  },
+  {
+    "id": "02",
+    "title": "與妳在一起",
+    "caption": "好想再多陪陪妳呀，哪怕只是一起發呆 ~",
+    "image": "/images/story-card-02.png",
+    "sha256": "834e33f056f4334a866e2a17e3bdc5558186cbeb026a2e1ef269e0a8eb2d0cd3"
+  },
+  {
+    "id": "03",
+    "title": "第一次的心動",
+    "caption": "九月七日那天牽起的手，讓心裡偷偷排練的故事成了真。",
+    "image": "/images/story-card-03.png",
+    "sha256": "b71afe04a133b6dca6f0621d5c6ec75fc8006ede9be60f459777643c3aa05215"
+  },
+  {
+    "id": "04",
+    "title": "放學後再待一下",
+    "caption": "可是我還不想這麼快說再見啦",
+    "image": "/images/story-card-04.png",
+    "sha256": "1e3cbbd8e1abe0508b354804e3555502b119168056f2329af859700170faf6c8"
+  },
+  {
+    "id": "05",
+    "title": "哥哥~今天過得怎麼樣",
+    "caption": "曾經很期待，手機亮起時出現的是妳^^",
+    "image": "/images/story-card-05.png",
+    "sha256": "de2fc11a1361dfb8e1f4cc03491cfda61fe76bec661369ab5daf7efa78c0f86c"
+  },
+  {
+    "id": "06",
+    "title": "你看，我會料理哦 !",
+    "caption": "不太會說的關心，就藏在帶給妳的小點心裡。",
+    "image": "/images/story-card-06.png",
+    "sha256": "5d4a866335a5d7c68bf22fa6bd7f2bf23bd34bf1b5765de6fbe00b064efc901f"
+  },
+  {
+    "id": "07",
+    "title": "晴天咖啡社",
+    "caption": "今天想喝咖啡，還是先說說心事？",
+    "image": "/images/story-card-07.png",
+    "sha256": "f7813eb2a80fccd4b471017e1f52decd79284be29bffc93b559dcb5a28f44630"
+  },
+  {
+    "id": "08",
+    "title": "240g的心意",
+    "caption": "15g咖啡、225g水，慢慢用手沖出今天的溫柔。",
+    "image": "/images/story-card-08.png",
+    "sha256": "29eb6459d101576bc9c8e6795218c85bcc67a6c22f6d7c56bca7e88a9e8d2f50"
+  },
+  {
+    "id": "09",
+    "title": "把想念彈給妳聽",
+    "caption": "有些話還沒找到說法，就先寫進鋼琴的旋律裡。",
+    "image": "/images/story-card-09.png",
+    "sha256": "616a0f636e7688b1d59c232a6aa24142b137b5722297164769af520281274fe5"
+  },
+  {
+    "id": "10",
+    "title": "還沒一起看的煙火",
+    "caption": "那個聊過的夏日計畫，被我收進故事裡。",
+    "image": "/images/story-card-10.png",
+    "sha256": "1806f6132c4740fa054ca46cb4910be2e2556180b49560340bbae2a5643cbb97"
+  },
+  {
+    "id": "11",
+    "title": "故事書的日子",
+    "caption": "一張一起挑過的圖片，也能裝下好多回憶。",
+    "image": "/images/story-card-11.png",
+    "sha256": "5986a00be61bbf55f7b52093ae7696e1ec19f1b9273b4f605694ba35959ca6ef"
+  },
+  {
+    "id": "12",
+    "title": "晴天以後",
+    "caption": "還是會想念，也慢慢學著把自己照顧好。",
+    "image": "/images/story-card-12.png",
+    "sha256": "8b547bae5750045aef8e5b9741e584baa72124f604781548d464cfd9195162ed"
+  }
+]

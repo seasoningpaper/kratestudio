@@ -1,0 +1,19 @@
+✔ Fix-03 primitive animation numeric and boolean sockets reject incompatible or unevaluated values atomically (2.824406ms)
+✔ Fix-03 child detach, primitive editing and independent copies retain fallbacks and exact script/runtime semantics (12.587249ms)
+✔ Fix-03 actual numeric/boolean modules share global Undo/Redo and survive project save and reload (954.888ms)
+✔ P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation (678.542245ms)
+✔ P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets (634.221598ms)
+✔ P0-C string sockets retain exact Unicode, newlines, quotes, voice/speed, fallback and serialize in KOI Script (21.836504ms)
+✔ P0-C moving and replacing a value keeps one owner, preserves displaced values, and rejects illegal slots atomically (2.02952ms)
+✔ P0-C text variables interpolate and number expressions retain existing runtime semantics (2.290032ms)
+✔ P0-C copied value sockets get fresh identities and never change the original template (0.967629ms)
+✔ P0-C intrinsic field measurement expands and shrinks, and reflow supplies the actual snap connector at every zoom (0.594467ms)
+✔ P0-C string values beginning with equals stay literal and edits preserve the attached identity (1.478539ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3227.048205

@@ -1,0 +1,35 @@
+{
+  "environment": "Node headless model operations; not browser FPS",
+  "results": [
+    {
+      "count": 300,
+      "layoutMs": 0.7014259999999979,
+      "copyMs": 0.6953069999999997,
+      "detachMs": 3.8178279999999916,
+      "snapMs": 1.3113469999999978,
+      "reconnectMs": 2.7651730000000043,
+      "retained": 300,
+      "copied": 300
+    },
+    {
+      "count": 3000,
+      "layoutMs": 1.3270889999999866,
+      "copyMs": 7.061759000000009,
+      "detachMs": 12.622110000000006,
+      "snapMs": 5.721148999999997,
+      "reconnectMs": 8.258786,
+      "retained": 3000,
+      "copied": 3000
+    },
+    {
+      "count": 10000,
+      "layoutMs": 1.6309090000000026,
+      "copyMs": 21.23996799999999,
+      "detachMs": 20.934946999999994,
+      "snapMs": 14.084280000000007,
+      "reconnectMs": 64.95655399999998,
+      "retained": 10000,
+      "copied": 10000
+    }
+  ]
+}

@@ -1,0 +1,1745 @@
+TAP version 13
+# Subtest: sound track persists across dialogue changes, independently replaces voice, and stops explicitly
+ok 1 - sound track persists across dialogue changes, independently replaces voice, and stops explicitly
+  ---
+  duration_ms: 2.764559
+  type: 'test'
+  ...
+# Subtest: same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX
+ok 2 - same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX
+  ---
+  duration_ms: 0.891043
+  type: 'test'
+  ...
+# Subtest: ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops
+ok 3 - ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops
+  ---
+  duration_ms: 0.32261
+  type: 'test'
+  ...
+# Subtest: KOI sound loops and selective/all stops compile to runtime events
+ok 4 - KOI sound loops and selective/all stops compile to runtime events
+  ---
+  duration_ms: 2.158139
+  type: 'test'
+  ...
+# Subtest: KOI event source round-trips attributes, quotes, semicolons and existing numeric branches
+ok 5 - KOI event source round-trips attributes, quotes, semicolons and existing numeric branches
+  ---
+  duration_ms: 1.624728
+  type: 'test'
+  ...
+# Subtest: options, GUI, screens and modules apply to the same project with real activity references
+ok 6 - options, GUI, screens and modules apply to the same project with real activity references
+  ---
+  duration_ms: 6.051343
+  type: 'test'
+  ...
+# Subtest: continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters
+ok 7 - continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters
+  ---
+  duration_ms: 0.937715
+  type: 'test'
+  ...
+# Subtest: input, interpolation, branching, and rollback restore the complete variable state
+ok 8 - input, interpolation, branching, and rollback restore the complete variable state
+  ---
+  duration_ms: 3.943832
+  type: 'test'
+  ...
+# Subtest: save/load preserves state, actors, history, background, and variables
+ok 9 - save/load preserves state, actors, history, background, and variables
+  ---
+  duration_ms: 0.597207
+  type: 'test'
+  ...
+# Subtest: logic loops are bounded and cross chapter jumps execute
+ok 10 - logic loops are bounded and cross chapter jumps execute
+  ---
+  duration_ms: 1.09276
+  type: 'test'
+  ...
+# Subtest: visual and audio control events are applied before dialogue
+ok 11 - visual and audio control events are applied before dialogue
+  ---
+  duration_ms: 0.373027
+  type: 'test'
+  ...
+# Subtest: save data follows stable event IDs after inserting a scene event
+ok 12 - save data follows stable event IDs after inserting a scene event
+  ---
+  duration_ms: 1.027581
+  type: 'test'
+  ...
+# Subtest: preview from a selected line restores preceding scene and character state
+ok 13 - preview from a selected line restores preceding scene and character state
+  ---
+  duration_ms: 0.247445
+  type: 'test'
+  ...
+# Subtest: minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact
+ok 14 - minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact
+  ---
+  duration_ms: 0.529395
+  type: 'test'
+  ...
+# Subtest: P0-D derived synchronization is idempotent and never writes a competing event list
+ok 15 - P0-D derived synchronization is idempotent and never writes a competing event list
+  ---
+  duration_ms: 1.653512
+  type: 'test'
+  ...
+# Subtest: P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities
+ok 16 - P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities
+  ---
+  duration_ms: 12.642337
+  type: 'test'
+  ...
+# Subtest: P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation
+ok 17 - P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation
+  ---
+  duration_ms: 0.421951
+  type: 'test'
+  ...
+# Subtest: P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter
+ok 18 - P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter
+  ---
+  duration_ms: 0.260826
+  type: 'test'
+  ...
+# Subtest: P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity
+ok 19 - P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity
+  ---
+  duration_ms: 1.597457
+  type: 'test'
+  ...
+# Subtest: P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter
+ok 20 - P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter
+  ---
+  duration_ms: 0.642887
+  type: 'test'
+  ...
+# Subtest: P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal
+ok 21 - P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal
+  ---
+  duration_ms: 2.548431
+  type: 'test'
+  ...
+# Subtest: P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names
+ok 22 - P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names
+  ---
+  duration_ms: 0.688546
+  type: 'test'
+  ...
+# Subtest: P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names
+ok 23 - P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names
+  ---
+  duration_ms: 0.429773
+  type: 'test'
+  ...
+# Subtest: P0-D drafts also detect concurrent variable changes when chapter events did not change
+ok 24 - P0-D drafts also detect concurrent variable changes when chapter events did not change
+  ---
+  duration_ms: 0.306646
+  type: 'test'
+  ...
+# Subtest: P0-D invalid or duplicate value identities are rejected before source application
+ok 25 - P0-D invalid or duplicate value identities are rejected before source application
+  ---
+  duration_ms: 0.850733
+  type: 'test'
+  ...
+# Subtest: P0-D 1000 native statements retain identities with a prepended instruction in bounded work
+ok 26 - P0-D 1000 native statements retain identities with a prepended instruction in bounded work
+  ---
+  duration_ms: 45.747942
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 停止音訊
+ok 27 - P1-C reference: 停止音訊
+  ---
+  duration_ms: 12.139032
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 互動
+ok 28 - P1-C reference: 互動
+  ---
+  duration_ms: 1.065289
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 鏡頭
+ok 29 - P1-C reference: 鏡頭
+  ---
+  duration_ms: 0.61882
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 模型
+ok 30 - P1-C reference: 模型
+  ---
+  duration_ms: 1.503414
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 天氣
+ok 31 - P1-C reference: 天氣
+  ---
+  duration_ms: 0.494722
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 濾鏡
+ok 32 - P1-C reference: 濾鏡
+  ---
+  duration_ms: 0.627493
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 影片
+ok 33 - P1-C reference: 影片
+  ---
+  duration_ms: 0.543426
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 背景
+ok 34 - P1-C reference: 背景
+  ---
+  duration_ms: 0.458797
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 立繪
+ok 35 - P1-C reference: 立繪
+  ---
+  duration_ms: 0.747456
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 動作
+ok 36 - P1-C reference: 動作
+  ---
+  duration_ms: 3.998204
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 變形
+ok 37 - P1-C reference: 變形
+  ---
+  duration_ms: 1.107663
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 對話
+ok 38 - P1-C reference: 對話
+  ---
+  duration_ms: 0.967971
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 旁白
+ok 39 - P1-C reference: 旁白
+  ---
+  duration_ms: 0.647223
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 過場
+ok 40 - P1-C reference: 過場
+  ---
+  duration_ms: 0.576496
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 頭像
+ok 41 - P1-C reference: 頭像
+  ---
+  duration_ms: 0.547752
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 文字框
+ok 42 - P1-C reference: 文字框
+  ---
+  duration_ms: 0.455823
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 音樂
+ok 43 - P1-C reference: 音樂
+  ---
+  duration_ms: 0.536515
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 音效
+ok 44 - P1-C reference: 音效
+  ---
+  duration_ms: 0.587653
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 解鎖音樂
+ok 45 - P1-C reference: 解鎖音樂
+  ---
+  duration_ms: 0.644278
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 解鎖圖片
+ok 46 - P1-C reference: 解鎖圖片
+  ---
+  duration_ms: 0.517086
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 淡幕
+ok 47 - P1-C reference: 淡幕
+  ---
+  duration_ms: 0.533671
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 等待
+ok 48 - P1-C reference: 等待
+  ---
+  duration_ms: 0.475573
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 標籤
+ok 49 - P1-C reference: 標籤
+  ---
+  duration_ms: 0.36213
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 選項
+ok 50 - P1-C reference: 選項
+  ---
+  duration_ms: 0.689317
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 跳轉
+ok 51 - P1-C reference: 跳轉
+  ---
+  duration_ms: 1.018678
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 變數
+ok 52 - P1-C reference: 變數
+  ---
+  duration_ms: 0.564438
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 條件
+ok 53 - P1-C reference: 條件
+  ---
+  duration_ms: 0.582435
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 輸入
+ok 54 - P1-C reference: 輸入
+  ---
+  duration_ms: 0.314017
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 特效
+ok 55 - P1-C reference: 特效
+  ---
+  duration_ms: 0.282308
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 結束
+ok 56 - P1-C reference: 結束
+  ---
+  duration_ms: 0.256219
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 事件資料
+ok 57 - P1-C program reference: 事件資料
+  ---
+  duration_ms: 0.317533
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 設定檔
+ok 58 - P1-C program reference: 設定檔
+  ---
+  duration_ms: 0.221356
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 遊戲介面檔
+ok 59 - P1-C program reference: 遊戲介面檔
+  ---
+  duration_ms: 1.198281
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 功能畫面檔
+ok 60 - P1-C program reference: 功能畫面檔
+  ---
+  duration_ms: 1.661043
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 互動模組檔
+ok 61 - P1-C program reference: 互動模組檔
+  ---
+  duration_ms: 0.144669
+  type: 'test'
+  ...
+# Subtest: P1-C reference schema: 35 entries each retain all 15 required documentation fields
+not ok 62 - P1-C reference schema: 35 entries each retain all 15 required documentation fields
+  ---
+  duration_ms: 16.88644
+  type: 'test'
+  location: '/workspace/sites/galgame-studio/tests/p1c-script-reference.test.mjs:5:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    ... Skipped lines
+    
+      [
+        {
+          allowedValues: '內容：背景音樂／音樂／語音／音效／全部，或music／voice／sound／all；-素材=檔名只篩選音效',
+          assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼',
+          commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不支援以素材參數停止指定BGM；語音停止到下一句新語音',
+    ...
+        {
+    +     allowedValues: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱；-秒數；-等待=true/false；-變形=JSON',
+    -     allowedValues: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱（退場可用淡出／向左退場／向右退場／向上退場／向下退場）；-秒數；-等待=true/false；-變形=JSON',
+          assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼',
+    +     commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除',
+    -     commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除；有退場動作時保留到完成，只移除指定角色。位置別名不唯一時診斷；立即退場保留舊規則',
+          defaults: '位置中、底部；未指定id使用fig-位置並取代該位置；自訂id使用keep；未指定動畫無動作；原生等待true、舊changeFigure false',
+          editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留',
+          eventType: 'character',
+          legacySyntax: 'changeFigure',
+    +     limitations: '同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除',
+    -     limitations: '同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除；有退場動作時保留到完成，只移除指定角色。位置別名不唯一時診斷；立即退場保留舊規則',
+          name: '立繪',
+    +     parameters: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱；-秒數；-等待=true/false；-變形=JSON',
+    -     parameters: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱（退場可用淡出／向左退場／向右退場／向上退場／向下退場）；-秒數；-等待=true/false；-變形=JSON',
+          parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs',
+          playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗',
+          roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版',
+          syntax: '立繪:hero.png -左 -秒數=0.8;',
+          testResult: '對應「P1-C reference: 立繪」解析／重匯測試；C2測試與限制另見驗收報告',
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0:
+      name: '停止音訊'
+      eventType: 'audioStop'
+      syntax: '停止音訊:音效;'
+      parameters: '內容：背景音樂／音樂／語音／音效／全部，或music／voice／sound／all；-素材=檔名只篩選音效'
+      allowedValues: '內容：背景音樂／音樂／語音／音效／全部，或music／voice／sound／all；-素材=檔名只篩選音效'
+      defaults: '空白通道為all；未知通道診斷且不停止原音樂；素材省略即該通道全部'
+      timeUnits: '無'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'audioStop'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不支援以素材參數停止指定BGM；語音停止到下一句新語音'
+      testResult: '對應「P1-C reference: 停止音訊」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不支援以素材參數停止指定BGM；語音停止到下一句新語音'
+    1:
+      name: '互動'
+      eventType: 'activity'
+      syntax: '互動:校園訊息 -變數=互動分數;'
+      parameters: '內容=既有模組ID或名稱；-變數=結果變數'
+      allowedValues: '內容=既有模組ID或名稱；-變數=結果變數'
+      defaults: '變數=互動分數'
+      timeUnits: '由模組決定'
+      assetFormats: '模組可引用圖片／音訊／影片'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'activity'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；需先建立模組；不是外部任意JavaScript指令'
+      testResult: '對應「P1-C reference: 互動」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '需先建立模組；不是外部任意JavaScript指令'
+    2:
+      name: '鏡頭'
+      eventType: 'camera'
+      syntax: '鏡頭:特寫 -x=30 -y=50 -倍率=2 -秒數=1;'
+      parameters: '-x、-y=百分比；-倍率/-zoom=0.25～6；-秒數；-晃動/-shake=0～60；-跟隨/-follow=true/false'
+      allowedValues: '-x、-y=百分比；-倍率/-zoom=0.25～6；-秒數；-晃動/-shake=0～60；-跟隨/-follow=true/false'
+      defaults: 'x=50、y=50、倍率=1、1秒、晃動=0、跟隨=false'
+      timeUnits: '秒數為秒；duration為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'camera'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；跟隨使用目前對話name／voiceActor的精確角色鍵；不自動解析動態目標；split只可由事件JSON／GUI設定'
+      testResult: '對應「P1-C reference: 鏡頭」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '跟隨使用目前對話name／voiceActor的精確角色鍵；不自動解析動態目標；split只可由事件JSON／GUI設定'
+    3:
+      name: '模型'
+      eventType: 'model'
+      syntax: '模型:我的播放器;'
+      parameters: '內容=已匯入HTML播放器ID／名稱；none隱藏'
+      allowedValues: '內容=已匯入HTML播放器ID／名稱；none隱藏'
+      defaults: '省略名稱不會自動選模型'
+      timeUnits: '無'
+      assetFormats: '擴充中的自帶HTML播放器'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: 'HTML播放器橋接已實作；自帶模型內容未驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'model'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；有sandbox橋接，非原生Live2D／Spine載入器；實際模型由作者播放器提供'
+      testResult: '對應「P1-C reference: 模型」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '有sandbox橋接，非原生Live2D／Spine載入器；實際模型由作者播放器提供'
+    4:
+      name: '天氣'
+      eventType: 'effect'
+      syntax: '天氣:櫻花;'
+      parameters: '下雨/rain、落葉/leaves、飄雪/snow、櫻花/sakura、揚塵/dust、關閉/none'
+      allowedValues: '下雨/rain、落葉/leaves、飄雪/snow、櫻花/sakura、揚塵/dust、關閉/none'
+      defaults: '需明確指定'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'weather'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只改天氣軌，不改濾鏡；未知值不保證有效果'
+      testResult: '對應「P1-C reference: 天氣」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只改天氣軌，不改濾鏡；未知值不保證有效果'
+    5:
+      name: '濾鏡'
+      eventType: 'effect'
+      syntax: '濾鏡:泛黃;'
+      parameters: '泛黃/sepia、黑白/mono、夜視/nightvision、故障/glitch、暗角/vignette、關閉/none'
+      allowedValues: '泛黃/sepia、黑白/mono、夜視/nightvision、故障/glitch、暗角/vignette、關閉/none'
+      defaults: '需明確指定'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'filter'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只改濾鏡軌；實際視覺待真人'
+      testResult: '對應「P1-C reference: 濾鏡」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只改濾鏡軌；實際視覺待真人'
+    6:
+      name: '影片'
+      eventType: 'video'
+      syntax: '影片:opening.mp4 -可略過 -音量=80;'
+      parameters: '內容=影片檔名；-可略過/-skip、-靜音/-muted、-填滿/-cover=true/false；-音量/-volume=0～100'
+      allowedValues: '內容=影片檔名；-可略過/-skip、-靜音/-muted、-填滿/-cover=true/false；-音量/-volume=0～100'
+      defaults: '可略過=false、靜音=false、包含、音量=100；播放完成後繼續'
+      timeUnits: '影片素材的真實時間；裁切／倍速在素材設定'
+      assetFormats: 'MP4、WebM、OGV、MOV；建議H.264 MP4／WebM，須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'playVideo'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；拒播有播放入口；格式錯誤可繼續；預設暫停BGM。瀏覽器codec／音訊政策未驗'
+      testResult: '對應「P1-C reference: 影片」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '拒播有播放入口；格式錯誤可繼續；預設暫停BGM。瀏覽器codec／音訊政策未驗'
+    7:
+      name: '背景'
+      eventType: 'background'
+      syntax: '背景:room.png;'
+      parameters: '內容=圖片檔名或完整相對路徑；none清空素材使用預設場景'
+      allowedValues: '內容=圖片檔名或完整相對路徑；none清空素材使用預設場景'
+      defaults: '保留角色(clearActors=false)'
+      timeUnits: '無'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'changeBg'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；原生指令沒有fit／position參數，使用GUI或事件JSON的imageFit/bgX/bgY/bgScale'
+      testResult: '對應「P1-C reference: 背景」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '原生指令沒有fit／position參數，使用GUI或事件JSON的imageFit/bgX/bgY/bgScale'
+    8:
+      name: '立繪'
+      eventType: 'character'
+      syntax: '立繪:hero.png -左 -秒數=0.8;'
+      parameters: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱（退場可用淡出／向左退場／向右退場／向上退場／向下退場）；-秒數；-等待=true/false；-變形=JSON'
+      allowedValues: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱（退場可用淡出／向左退場／向右退場／向上退場／向下退場）；-秒數；-等待=true/false；-變形=JSON'
+      defaults: '位置中、底部；未指定id使用fig-位置並取代該位置；自訂id使用keep；未指定動畫無動作；原生等待true、舊changeFigure false'
+      timeUnits: '秒數為秒；duration為毫秒；只有有動作且等待才阻擋'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'changeFigure'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除；有退場動作時保留到完成，只移除指定角色。位置別名不唯一時診斷；立即退場保留舊規則'
+      testResult: '對應「P1-C reference: 立繪」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除；有退場動作時保留到完成，只移除指定角色。位置別名不唯一時診斷；立即退場保留舊規則'
+    9:
+      name: '動作'
+      eventType: 'animation'
+      syntax: '動作:左側進入 -目標=fig-left -秒數=1;'
+      parameters: '內容=淡入／淡出／左側進入／右側進入／上方進入／下方進入／移至中央／搖晃／彈跳／旋轉／呼吸／放大／縮小／平移／下方滑入淡入／左方滑入淡入／右方滑入淡入／柔和拉近／翻轉登場／關閉；-目標/-target=角色ID、位置別名、bg-main、stage-main；-秒數；-等待=true/false'
+      allowedValues: '內容=淡入／淡出／左側進入／右側進入／上方進入／下方進入／移至中央／搖晃／彈跳／旋轉／呼吸／放大／縮小／平移／下方滑入淡入／左方滑入淡入／右方滑入淡入／柔和拉近／翻轉登場／關閉；-目標/-target=角色ID、位置別名、bg-main、stage-main；-秒數；-等待=true/false'
+      defaults: '目標參數省略：保留最後立繪ID，初始fig-center；明確空字串錯誤；1秒；原生等待true、舊setAnimation false'
+      timeUnits: '秒數為秒；duration為毫秒，播放器100～120000毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'setAnimation'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；位置別名只有唯一角色才解析；精確角色鍵優先；角色已隱藏／不存在有執行診斷。省略目標的舊規則不會推斷所有角色'
+      testResult: '對應「P1-C reference: 動作」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '位置別名只有唯一角色才解析；精確角色鍵優先；角色已隱藏／不存在有執行診斷。省略目標的舊規則不會推斷所有角色'
+    10:
+      name: '變形'
+      eventType: 'animation'
+      syntax: '變形:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -目標=fig-left;'
+      parameters: '內容=JSON；position:{x,y}、scale:{x,y}、rotation、alpha；-目標；-秒數；-等待'
+      allowedValues: '內容=JSON；position:{x,y}、scale:{x,y}、rotation、alpha；-目標；-秒數；-等待'
+      defaults: '位置變動未指定不覆寫；scale預設1、alpha不指定不覆寫；預設無motion；原生等待true、舊setTransform false'
+      timeUnits: 'position以1920×1080設計座標換百分比；y正值向上；rotation為弧度；秒數為秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'setTransform'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；scale.y控制整體百分比，scale.x/y控制寬比例與水平翻轉；不是任意動畫曲線引擎'
+      testResult: '對應「P1-C reference: 變形」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: 'scale.y控制整體百分比，scale.x/y控制寬比例與水平翻轉；不是任意動畫曲線引擎'
+    11:
+      name: '對話'
+      eventType: 'dialogue'
+      syntax: '對話:小雪|今天辛苦了。 -語音=voice.wav -字速=35;'
+      parameters: '角色|內容；-語音/-voice=音訊檔；-字速/-speed=每秒字數；-字級/-fontSize=設計字級；-文字顏色/-fontColor=CSS色；-字體/-font=字型；**粗體**；{變數}'
+      allowedValues: '角色|內容；-語音/-voice=音訊檔；-字速/-speed=每秒字數；-字級/-fontSize=設計字級；-文字顏色/-fontColor=CSS色；-字體/-font=字型；**粗體**；{變數}'
+      defaults: '字速／字體／字級依專案與玩家偏好；語音省略不播放'
+      timeUnits: '字速=字／秒'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'dialogue 或 角色：內容'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；文字會去除前後空白；換行請用事件JSON的\\n；保留分號／|時用反斜線；數字或布林的純文字值以事件JSON明確指定'
+      testResult: '對應「P1-C reference: 對話」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '文字會去除前後空白；換行請用事件JSON的\\n；保留分號／|時用反斜線；數字或布林的純文字值以事件JSON明確指定'
+    12:
+      name: '旁白'
+      eventType: 'dialogue'
+      syntax: '旁白:窗外下起了雨。;'
+      parameters: '內容及對話相同文字／語音／字體參數；不帶角色|前綴'
+      allowedValues: '內容及對話相同文字／語音／字體參數；不帶角色|前綴'
+      defaults: 'name=旁白，showName=false'
+      timeUnits: '同對話'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'narration 或沒有冒號的文字'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不是新的獨立事件型別'
+      testResult: '對應「P1-C reference: 旁白」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不是新的獨立事件型別'
+    13:
+      name: '過場'
+      eventType: 'intro'
+      syntax: '過場:第一幕|回家的路 -秒數=1.5 -背景色=#000000 -文字顏色=#ffffff;'
+      parameters: '標題|副標；-秒數；-等待/-hold=true/false；-背景色；-文字顏色；-字級=數值或small/medium/large；-動畫=舊動畫代碼'
+      allowedValues: '標題|副標；-秒數；-等待/-hold=true/false；-背景色；-文字顏色；-字級=數值或small/medium/large；-動畫=舊動畫代碼'
+      defaults: '1.5秒、等待=false、字級36、黑底白字、fade；|轉換行'
+      timeUnits: '秒數為秒；舊delayTime為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'intro'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；等待true改為手動繼續；duration不是此舊指令的delayTime別名'
+      testResult: '對應「P1-C reference: 過場」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '等待true改為手動繼續；duration不是此舊指令的delayTime別名'
+    14:
+      name: '頭像'
+      eventType: 'avatar'
+      syntax: '頭像:face.png;'
+      parameters: '內容=圖片檔名或none'
+      allowedValues: '內容=圖片檔名或none'
+      defaults: 'none隱藏'
+      timeUnits: '無'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'miniAvatar'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；與舞台立繪分離'
+      testResult: '對應「P1-C reference: 頭像」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '與舞台立繪分離'
+    15:
+      name: '文字框'
+      eventType: 'textbox'
+      syntax: '文字框:隱藏;'
+      parameters: '顯示/show 或 隱藏/hide'
+      allowedValues: '顯示/show 或 隱藏/hide'
+      defaults: '除了hide之外目前皆為顯示，請使用列出值'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'setTextbox'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不清除角色或對話記錄；會保留到再次顯示'
+      testResult: '對應「P1-C reference: 文字框」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不清除角色或對話記錄；會保留到再次顯示'
+    16:
+      name: '音樂'
+      eventType: 'music'
+      syntax: '音樂:warm.mp3;'
+      parameters: '內容=配樂檔名或none；音量／循環欄位雖可解析，BGM主軌未逐事件套用'
+      allowedValues: '內容=配樂檔名或none；音量／循環欄位雖可解析，BGM主軌未逐事件套用'
+      defaults: '配樂由MusicMixer常駐循環；音量使用玩家偏好；none停止'
+      timeUnits: '跨淡化由專案musicCrossfade毫秒決定'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '基本配樂已實作；逐事件音量／循環未套用'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'bgm'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；逐事件-音量與-循環執行不完整，勿當已支援；使用專案／玩家音量。鑑賞焦點維持r51修復'
+      testResult: '對應「P1-C reference: 音樂」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '逐事件-音量與-循環執行不完整，勿當已支援；使用專案／玩家音量。鑑賞焦點維持r51修復'
+    17:
+      name: '音效'
+      eventType: 'sound'
+      syntax: '音效:door.wav;'
+      parameters: '內容=音效檔名；-循環/-loop=true/false；-音量/-volume=0～100'
+      allowedValues: '內容=音效檔名；-循環/-loop=true/false；-音量/-volume=0～100'
+      defaults: '循環=false，音量=100；跨對話保留已啟動音效'
+      timeUnits: '素材時間；循環需停止音訊解除'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'sound、playEffect'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；每個播放cue獨立；語音屬對話事件，不使用此指令代替'
+      testResult: '對應「P1-C reference: 音效」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '每個播放cue獨立；語音屬對話事件，不使用此指令代替'
+    18:
+      name: '解鎖音樂'
+      eventType: 'unlockBgm'
+      syntax: '解鎖音樂:warm.mp3 -名稱=溫暖的霧氣;'
+      parameters: '內容=音訊檔名；-名稱/-name=鑑賞名稱'
+      allowedValues: '內容=音訊檔名；-名稱/-name=鑑賞名稱'
+      defaults: '名稱=檔名'
+      timeUnits: '無'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'unlockBgm'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只解鎖，不自行試聽或切換BGM'
+      testResult: '對應「P1-C reference: 解鎖音樂」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只解鎖，不自行試聽或切換BGM'
+    19:
+      name: '解鎖圖片'
+      eventType: 'unlockCg'
+      syntax: '解鎖圖片:room.png -名稱=雨夜;'
+      parameters: '內容=圖片檔名；-名稱/-name=鑑賞名稱'
+      allowedValues: '內容=圖片檔名；-名稱/-name=鑑賞名稱'
+      defaults: '名稱=檔名'
+      timeUnits: '無'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'unlockCg'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只解鎖，不顯示全畫面CG；全畫面CG用GUI／事件JSON'
+      testResult: '對應「P1-C reference: 解鎖圖片」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只解鎖，不顯示全畫面CG；全畫面CG用GUI／事件JSON'
+    20:
+      name: '淡幕'
+      eventType: 'fade'
+      syntax: '淡幕:黑 -秒數=1;'
+      parameters: '黑/out或亮/in；-秒數'
+      allowedValues: '黑/out或亮/in；-秒數'
+      defaults: '方向非out為in；1秒'
+      timeUnits: '秒數為秒；duration為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'fade'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；會維持最後黑幕狀態到亮；不是背景圖片切換'
+      testResult: '對應「P1-C reference: 淡幕」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '會維持最後黑幕狀態到亮；不是背景圖片切換'
+    21:
+      name: '等待'
+      eventType: 'wait'
+      syntax: '等待:1.5;'
+      parameters: '內容=非負秒數'
+      allowedValues: '內容=非負秒數'
+      defaults: '無效內容目前回退0；請輸入有限非負數'
+      timeUnits: '原生等待／舊pause為秒；舊wait為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'pause、wait'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；等待時保持先前對話，不寫入等待說明到歷史'
+      testResult: '對應「P1-C reference: 等待」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '等待時保持先前對話，不寫入等待說明到歷史'
+    22:
+      name: '標籤'
+      eventType: 'section'
+      syntax: '標籤:回家;'
+      parameters: '內容=腳本內唯一標籤'
+      allowedValues: '內容=腳本內唯一標籤'
+      defaults: '不允許重複；位置為發出section事件的索引'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'label、scene；註解「; 場景:NAME」舊格式'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；作用域為這次匯入的腳本，不是跨檔案全域命名空間'
+      testResult: '對應「P1-C reference: 標籤」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '作用域為這次匯入的腳本，不是跨檔案全域命名空間'
+    23:
+      name: '選項'
+      eventType: 'choice'
+      syntax: '選項:要去哪裡？:回家:回家|留在這裡:留下;'
+      parameters: '問題:文字:標籤|文字:標籤；可省略問題；目的可為同腳本標籤或既有章節名／ID'
+      allowedValues: '問題:文字:標籤|文字:標籤；可省略問題；目的可為同腳本標籤或既有章節名／ID'
+      defaults: '問題省略=請選擇；目的缺少保持未連接並診斷'
+      timeUnits: '逾時只在GUI／事件JSON設定'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'choose'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；選項文字的冒號會參與拆分；避免歧義，複雜內容用事件JSON；分支後合流需明確跳轉'
+      testResult: '對應「P1-C reference: 選項」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '選項文字的冒號會參與拆分；避免歧義，複雜內容用事件JSON；分支後合流需明確跳轉'
+    24:
+      name: '跳轉'
+      eventType: 'jump'
+      syntax: '跳轉:回家;'
+      parameters: '內容=標籤或既有章節名／ID，可帶.txt副檔名'
+      allowedValues: '內容=標籤或既有章節名／ID，可帶.txt副檔名'
+      defaults: '目的需存在；不猜測無效索引／章節'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'jumpLabel、changeScene；callScene只作jump且有不相容診斷'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不提供call／return堆疊；章節同名時請用唯一ID'
+      testResult: '對應「P1-C reference: 跳轉」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不提供call／return堆疊；章節同名時請用唯一ID'
+    25:
+      name: '變數'
+      eventType: 'variable'
+      syntax: '變數:好感度 -運算=增加 -值=1;'
+      parameters: '內容=變數名；-運算/-operation=設定/set、增加/add、減少/subtract；-值/-value=數字、true、false、文字'
+      allowedValues: '內容=變數名；-運算/-operation=設定/set、增加/add、減少/subtract；-值/-value=數字、true、false、文字'
+      defaults: '運算set、值0；新增變數由既有模型補登記'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'variable'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；數字樣式字串與true/false會自動轉型；需要純字串"true"／"001"用事件JSON或變數編輯器；加減只用數值'
+      testResult: '對應「P1-C reference: 變數」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '數字樣式字串與true/false會自動轉型；需要純字串"true"／"001"用事件JSON或變數編輯器；加減只用數值'
+    26:
+      name: '條件'
+      eventType: 'condition'
+      syntax: '條件:好感度 -比較=>= -值=3 -成立=親近 -否則=普通;'
+      parameters: '內容=變數名；-比較/-operator===、!=、>、<、>=、<=；-值；-成立/-then=標籤；-否則/-else=標籤'
+      allowedValues: '內容=變數名；-比較/-operator===、!=、>、<、>=、<=；-值；-成立/-then=標籤；-否則/-else=標籤'
+      defaults: '比較>=、值1；兩個目的均須明確'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'condition'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；原生條件目的只解析這次腳本標籤；跨章條件先跳本地標籤，再使用跳轉；巢狀以多個條件及標籤組合'
+      testResult: '對應「P1-C reference: 條件」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '原生條件目的只解析這次腳本標籤；跨章條件先跳本地標籤，再使用跳轉；巢狀以多個條件及標籤組合'
+    27:
+      name: '輸入'
+      eventType: 'input'
+      syntax: '輸入:你的名字？ -變數=玩家名稱;'
+      parameters: '內容=問題；-變數/-variable=保存變數名'
+      allowedValues: '內容=問題；-變數/-variable=保存變數名'
+      defaults: '玩家名稱；最多80字'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'input'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；輸入後可在名稱／對話使用{變數}'
+      testResult: '對應「P1-C reference: 輸入」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '輸入後可在名稱／對話使用{變數}'
+    28:
+      name: '特效'
+      eventType: 'effect'
+      syntax: '特效:搖晃;'
+      parameters: '搖晃/shake、閃光/flash、淡入/fade、關閉/none'
+      allowedValues: '搖晃/shake、閃光/flash、淡入/fade、關閉/none'
+      defaults: '需明確指定；關閉同時清除一般特效／天氣／濾鏡'
+      timeUnits: '既有CSS時間'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'effect'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；一般特效軌與角色motion不同；重複相同特效是否重啟需真實視覺驗收'
+      testResult: '對應「P1-C reference: 特效」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '一般特效軌與角色motion不同；重複相同特效是否重啟需真實視覺驗收'
+    29:
+      name: '結束'
+      eventType: 'end'
+      syntax: '結束:晚安，明天見。;'
+      parameters: '內容=結局名稱'
+      allowedValues: '內容=結局名稱'
+      defaults: '空白為故事結束；解鎖以事件ID識別'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'end'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；可多個end，依分支抵達；章節接續依專案章節設定'
+      testResult: '對應「P1-C reference: 結束」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '可多個end，依分支抵達；章節接續依專案章節設定'
+    30:
+      name: '事件資料'
+      eventType: '依JSON的type'
+      syntax: '事件:{"type":"dialogue","name":"小春","text":"早安"};'
+      kind: 'script'
+      parameters: '完整事件JSON；id省略才產生新ID；type需為30種現有事件之一'
+      allowedValues: 'event-catalog.mjs的eventLabels；含cg、minigame、repeat／repeatEnd等無中文專用指令型別'
+      defaults: '各事件播放器預設；沒有自動猜測素材檔名'
+      timeUnits: 'duration通常秒；motionDuration／cameraDuration／crossfade為毫秒'
+      assetFormats: '使用已匯入素材ID，不是檔名；resourceRefs可保留來源'
+      legacySyntax: 'r49～r52既有事件JSON不改格式'
+      limitations: '重複積木須配對loopId；原型欄位被拒絕；重複或跨章事件ID會阻擋套用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '重複積木須配對loopId；原型欄位被拒絕；重複或跨章事件ID會阻擋套用'
+      testResult: '對應P1-C program reference測試'
+    31:
+      name: '設定檔'
+      eventType: '專案settings，非劇情事件'
+      syntax: '設定:{"textSpeed":35,"subtitle":"測試作品"};'
+      kind: 'options'
+      parameters: '設定JSON，與現有專案設定合併'
+      allowedValues: '既有settings欄位；不是任意腳本執行'
+      defaults: '未提供欄位維持原值'
+      timeUnits: 'textSpeed字／秒，其他依原settings欄位'
+      assetFormats: '素材ID'
+      legacySyntax: 'options.koi既有格式'
+      limitations: '應使用options檔案；不保證未知settings欄位有作用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '應使用options檔案；不保證未知settings欄位有作用'
+      testResult: '對應P1-C program reference測試'
+    32:
+      name: '遊戲介面檔'
+      eventType: 'settings.gameUI，非劇情事件'
+      syntax: '介面:desktop|{"elements":{"dialogue":{"x":5,"y":72,"w":90,"h":22}}};'
+      kind: 'gui'
+      parameters: 'desktop／mobile|JSON；elements／既有UI欄位'
+      allowedValues: 'desktop、mobile；x/y/w/h百分比、fontSize正值'
+      defaults: '未提供元件維持原值'
+      timeUnits: '無'
+      assetFormats: 'image／hoverImage為素材ID或唯一檔名'
+      legacySyntax: 'gui.koi既有格式'
+      limitations: '不是新的工程模式；錯誤尺寸或缺少資源阻擋套用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '不是新的工程模式；錯誤尺寸或缺少資源阻擋套用'
+      testResult: '對應P1-C program reference測試'
+    33:
+      name: '功能畫面檔'
+      eventType: 'settings.menuTemplates，非劇情事件'
+      syntax: '畫面:save@mobile|{"elements":{"header":{"fontSize":14}}};'
+      kind: 'screens'
+      parameters: '頁面[@裝置]|JSON'
+      allowedValues: 'save、load、history、settings、gallery；desktop／mobile'
+      defaults: '省略裝置為desktop；原元件維持，layoutActive=true'
+      timeUnits: '無'
+      assetFormats: 'image／hoverImage為素材ID或唯一檔名'
+      legacySyntax: 'screens.koi既有格式'
+      limitations: '一行一個指令；只編輯既有功能畫面'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '一行一個指令；只編輯既有功能畫面'
+      testResult: '對應P1-C program reference測試'
+    34:
+      name: '互動模組檔'
+      eventType: 'extensions.activities，非劇情事件'
+      syntax: '模組:{"id":"chat","kind":"messages","name":"放學訊息","items":[{"id":"m1","text":"校門口見"}]};'
+      kind: 'extensions'
+      parameters: '模組JSON；id、kind必填，最多1000項items'
+      allowedValues: 'messages、sns、call、map、investigate、qte、rhythm等現有activityKinds'
+      defaults: '同ID更新；新ID新增；items省略為空陣列'
+      timeUnits: '依模組欄位'
+      assetFormats: 'image/audio/endAudio/video與有效targetEvent'
+      legacySyntax: 'extensions.koi既有格式'
+      limitations: '不是任意外部程式；引用不存在事件或素材阻擋套用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '不是任意外部程式；引用不存在事件或素材阻擋套用'
+      testResult: '對應P1-C program reference測試'
+  actual:
+    0:
+      name: '停止音訊'
+      eventType: 'audioStop'
+      syntax: '停止音訊:音效;'
+      parameters: '內容：背景音樂／音樂／語音／音效／全部，或music／voice／sound／all；-素材=檔名只篩選音效'
+      allowedValues: '內容：背景音樂／音樂／語音／音效／全部，或music／voice／sound／all；-素材=檔名只篩選音效'
+      defaults: '空白通道為all；未知通道診斷且不停止原音樂；素材省略即該通道全部'
+      timeUnits: '無'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'audioStop'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不支援以素材參數停止指定BGM；語音停止到下一句新語音'
+      testResult: '對應「P1-C reference: 停止音訊」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不支援以素材參數停止指定BGM；語音停止到下一句新語音'
+    1:
+      name: '互動'
+      eventType: 'activity'
+      syntax: '互動:校園訊息 -變數=互動分數;'
+      parameters: '內容=既有模組ID或名稱；-變數=結果變數'
+      allowedValues: '內容=既有模組ID或名稱；-變數=結果變數'
+      defaults: '變數=互動分數'
+      timeUnits: '由模組決定'
+      assetFormats: '模組可引用圖片／音訊／影片'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'activity'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；需先建立模組；不是外部任意JavaScript指令'
+      testResult: '對應「P1-C reference: 互動」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '需先建立模組；不是外部任意JavaScript指令'
+    2:
+      name: '鏡頭'
+      eventType: 'camera'
+      syntax: '鏡頭:特寫 -x=30 -y=50 -倍率=2 -秒數=1;'
+      parameters: '-x、-y=百分比；-倍率/-zoom=0.25～6；-秒數；-晃動/-shake=0～60；-跟隨/-follow=true/false'
+      allowedValues: '-x、-y=百分比；-倍率/-zoom=0.25～6；-秒數；-晃動/-shake=0～60；-跟隨/-follow=true/false'
+      defaults: 'x=50、y=50、倍率=1、1秒、晃動=0、跟隨=false'
+      timeUnits: '秒數為秒；duration為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'camera'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；跟隨使用目前對話name／voiceActor的精確角色鍵；不自動解析動態目標；split只可由事件JSON／GUI設定'
+      testResult: '對應「P1-C reference: 鏡頭」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '跟隨使用目前對話name／voiceActor的精確角色鍵；不自動解析動態目標；split只可由事件JSON／GUI設定'
+    3:
+      name: '模型'
+      eventType: 'model'
+      syntax: '模型:我的播放器;'
+      parameters: '內容=已匯入HTML播放器ID／名稱；none隱藏'
+      allowedValues: '內容=已匯入HTML播放器ID／名稱；none隱藏'
+      defaults: '省略名稱不會自動選模型'
+      timeUnits: '無'
+      assetFormats: '擴充中的自帶HTML播放器'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: 'HTML播放器橋接已實作；自帶模型內容未驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'model'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；有sandbox橋接，非原生Live2D／Spine載入器；實際模型由作者播放器提供'
+      testResult: '對應「P1-C reference: 模型」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '有sandbox橋接，非原生Live2D／Spine載入器；實際模型由作者播放器提供'
+    4:
+      name: '天氣'
+      eventType: 'effect'
+      syntax: '天氣:櫻花;'
+      parameters: '下雨/rain、落葉/leaves、飄雪/snow、櫻花/sakura、揚塵/dust、關閉/none'
+      allowedValues: '下雨/rain、落葉/leaves、飄雪/snow、櫻花/sakura、揚塵/dust、關閉/none'
+      defaults: '需明確指定'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'weather'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只改天氣軌，不改濾鏡；未知值不保證有效果'
+      testResult: '對應「P1-C reference: 天氣」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只改天氣軌，不改濾鏡；未知值不保證有效果'
+    5:
+      name: '濾鏡'
+      eventType: 'effect'
+      syntax: '濾鏡:泛黃;'
+      parameters: '泛黃/sepia、黑白/mono、夜視/nightvision、故障/glitch、暗角/vignette、關閉/none'
+      allowedValues: '泛黃/sepia、黑白/mono、夜視/nightvision、故障/glitch、暗角/vignette、關閉/none'
+      defaults: '需明確指定'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'filter'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只改濾鏡軌；實際視覺待真人'
+      testResult: '對應「P1-C reference: 濾鏡」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只改濾鏡軌；實際視覺待真人'
+    6:
+      name: '影片'
+      eventType: 'video'
+      syntax: '影片:opening.mp4 -可略過 -音量=80;'
+      parameters: '內容=影片檔名；-可略過/-skip、-靜音/-muted、-填滿/-cover=true/false；-音量/-volume=0～100'
+      allowedValues: '內容=影片檔名；-可略過/-skip、-靜音/-muted、-填滿/-cover=true/false；-音量/-volume=0～100'
+      defaults: '可略過=false、靜音=false、包含、音量=100；播放完成後繼續'
+      timeUnits: '影片素材的真實時間；裁切／倍速在素材設定'
+      assetFormats: 'MP4、WebM、OGV、MOV；建議H.264 MP4／WebM，須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'playVideo'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；拒播有播放入口；格式錯誤可繼續；預設暫停BGM。瀏覽器codec／音訊政策未驗'
+      testResult: '對應「P1-C reference: 影片」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '拒播有播放入口；格式錯誤可繼續；預設暫停BGM。瀏覽器codec／音訊政策未驗'
+    7:
+      name: '背景'
+      eventType: 'background'
+      syntax: '背景:room.png;'
+      parameters: '內容=圖片檔名或完整相對路徑；none清空素材使用預設場景'
+      allowedValues: '內容=圖片檔名或完整相對路徑；none清空素材使用預設場景'
+      defaults: '保留角色(clearActors=false)'
+      timeUnits: '無'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'changeBg'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；原生指令沒有fit／position參數，使用GUI或事件JSON的imageFit/bgX/bgY/bgScale'
+      testResult: '對應「P1-C reference: 背景」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '原生指令沒有fit／position參數，使用GUI或事件JSON的imageFit/bgX/bgY/bgScale'
+    8:
+      name: '立繪'
+      eventType: 'character'
+      syntax: '立繪:hero.png -左 -秒數=0.8;'
+      parameters: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱；-秒數；-等待=true/false；-變形=JSON'
+      allowedValues: '內容=圖片檔名／none；-id=自訂角色ID；-左/-left、-中/-center、-右/-right；-上/-top、-下/-bottom、-垂直置中/-middle；-動畫=內建名稱；-秒數；-等待=true/false；-變形=JSON'
+      defaults: '位置中、底部；未指定id使用fig-位置並取代該位置；自訂id使用keep；未指定動畫無動作；原生等待true、舊changeFigure false'
+      timeUnits: '秒數為秒；duration為毫秒；只有有動作且等待才阻擋'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'changeFigure'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除'
+      testResult: '對應「P1-C reference: 立繪」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '同一ID代表替換同一角色，不是新增同名副本；多名顯示名稱相同者需不同-id；none以相同ID移除'
+    9:
+      name: '動作'
+      eventType: 'animation'
+      syntax: '動作:左側進入 -目標=fig-left -秒數=1;'
+      parameters: '內容=淡入／淡出／左側進入／右側進入／上方進入／下方進入／移至中央／搖晃／彈跳／旋轉／呼吸／放大／縮小／平移／下方滑入淡入／左方滑入淡入／右方滑入淡入／柔和拉近／翻轉登場／關閉；-目標/-target=角色ID、位置別名、bg-main、stage-main；-秒數；-等待=true/false'
+      allowedValues: '內容=淡入／淡出／左側進入／右側進入／上方進入／下方進入／移至中央／搖晃／彈跳／旋轉／呼吸／放大／縮小／平移／下方滑入淡入／左方滑入淡入／右方滑入淡入／柔和拉近／翻轉登場／關閉；-目標/-target=角色ID、位置別名、bg-main、stage-main；-秒數；-等待=true/false'
+      defaults: '目標參數省略：保留最後立繪ID，初始fig-center；明確空字串錯誤；1秒；原生等待true、舊setAnimation false'
+      timeUnits: '秒數為秒；duration為毫秒，播放器100～120000毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'setAnimation'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；位置別名只有唯一角色才解析；精確角色鍵優先；角色已隱藏／不存在有執行診斷。省略目標的舊規則不會推斷所有角色'
+      testResult: '對應「P1-C reference: 動作」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '位置別名只有唯一角色才解析；精確角色鍵優先；角色已隱藏／不存在有執行診斷。省略目標的舊規則不會推斷所有角色'
+    10:
+      name: '變形'
+      eventType: 'animation'
+      syntax: '變形:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -目標=fig-left;'
+      parameters: '內容=JSON；position:{x,y}、scale:{x,y}、rotation、alpha；-目標；-秒數；-等待'
+      allowedValues: '內容=JSON；position:{x,y}、scale:{x,y}、rotation、alpha；-目標；-秒數；-等待'
+      defaults: '位置變動未指定不覆寫；scale預設1、alpha不指定不覆寫；預設無motion；原生等待true、舊setTransform false'
+      timeUnits: 'position以1920×1080設計座標換百分比；y正值向上；rotation為弧度；秒數為秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'setTransform'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；scale.y控制整體百分比，scale.x/y控制寬比例與水平翻轉；不是任意動畫曲線引擎'
+      testResult: '對應「P1-C reference: 變形」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: 'scale.y控制整體百分比，scale.x/y控制寬比例與水平翻轉；不是任意動畫曲線引擎'
+    11:
+      name: '對話'
+      eventType: 'dialogue'
+      syntax: '對話:小雪|今天辛苦了。 -語音=voice.wav -字速=35;'
+      parameters: '角色|內容；-語音/-voice=音訊檔；-字速/-speed=每秒字數；-字級/-fontSize=設計字級；-文字顏色/-fontColor=CSS色；-字體/-font=字型；**粗體**；{變數}'
+      allowedValues: '角色|內容；-語音/-voice=音訊檔；-字速/-speed=每秒字數；-字級/-fontSize=設計字級；-文字顏色/-fontColor=CSS色；-字體/-font=字型；**粗體**；{變數}'
+      defaults: '字速／字體／字級依專案與玩家偏好；語音省略不播放'
+      timeUnits: '字速=字／秒'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'dialogue 或 角色：內容'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；文字會去除前後空白；換行請用事件JSON的\\n；保留分號／|時用反斜線；數字或布林的純文字值以事件JSON明確指定'
+      testResult: '對應「P1-C reference: 對話」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '文字會去除前後空白；換行請用事件JSON的\\n；保留分號／|時用反斜線；數字或布林的純文字值以事件JSON明確指定'
+    12:
+      name: '旁白'
+      eventType: 'dialogue'
+      syntax: '旁白:窗外下起了雨。;'
+      parameters: '內容及對話相同文字／語音／字體參數；不帶角色|前綴'
+      allowedValues: '內容及對話相同文字／語音／字體參數；不帶角色|前綴'
+      defaults: 'name=旁白，showName=false'
+      timeUnits: '同對話'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'narration 或沒有冒號的文字'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不是新的獨立事件型別'
+      testResult: '對應「P1-C reference: 旁白」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不是新的獨立事件型別'
+    13:
+      name: '過場'
+      eventType: 'intro'
+      syntax: '過場:第一幕|回家的路 -秒數=1.5 -背景色=#000000 -文字顏色=#ffffff;'
+      parameters: '標題|副標；-秒數；-等待/-hold=true/false；-背景色；-文字顏色；-字級=數值或small/medium/large；-動畫=舊動畫代碼'
+      allowedValues: '標題|副標；-秒數；-等待/-hold=true/false；-背景色；-文字顏色；-字級=數值或small/medium/large；-動畫=舊動畫代碼'
+      defaults: '1.5秒、等待=false、字級36、黑底白字、fade；|轉換行'
+      timeUnits: '秒數為秒；舊delayTime為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'intro'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；等待true改為手動繼續；duration不是此舊指令的delayTime別名'
+      testResult: '對應「P1-C reference: 過場」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '等待true改為手動繼續；duration不是此舊指令的delayTime別名'
+    14:
+      name: '頭像'
+      eventType: 'avatar'
+      syntax: '頭像:face.png;'
+      parameters: '內容=圖片檔名或none'
+      allowedValues: '內容=圖片檔名或none'
+      defaults: 'none隱藏'
+      timeUnits: '無'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'miniAvatar'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；與舞台立繪分離'
+      testResult: '對應「P1-C reference: 頭像」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '與舞台立繪分離'
+    15:
+      name: '文字框'
+      eventType: 'textbox'
+      syntax: '文字框:隱藏;'
+      parameters: '顯示/show 或 隱藏/hide'
+      allowedValues: '顯示/show 或 隱藏/hide'
+      defaults: '除了hide之外目前皆為顯示，請使用列出值'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'setTextbox'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不清除角色或對話記錄；會保留到再次顯示'
+      testResult: '對應「P1-C reference: 文字框」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不清除角色或對話記錄；會保留到再次顯示'
+    16:
+      name: '音樂'
+      eventType: 'music'
+      syntax: '音樂:warm.mp3;'
+      parameters: '內容=配樂檔名或none；音量／循環欄位雖可解析，BGM主軌未逐事件套用'
+      allowedValues: '內容=配樂檔名或none；音量／循環欄位雖可解析，BGM主軌未逐事件套用'
+      defaults: '配樂由MusicMixer常駐循環；音量使用玩家偏好；none停止'
+      timeUnits: '跨淡化由專案musicCrossfade毫秒決定'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '基本配樂已實作；逐事件音量／循環未套用'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'bgm'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；逐事件-音量與-循環執行不完整，勿當已支援；使用專案／玩家音量。鑑賞焦點維持r51修復'
+      testResult: '對應「P1-C reference: 音樂」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '逐事件-音量與-循環執行不完整，勿當已支援；使用專案／玩家音量。鑑賞焦點維持r51修復'
+    17:
+      name: '音效'
+      eventType: 'sound'
+      syntax: '音效:door.wav;'
+      parameters: '內容=音效檔名；-循環/-loop=true/false；-音量/-volume=0～100'
+      allowedValues: '內容=音效檔名；-循環/-loop=true/false；-音量/-volume=0～100'
+      defaults: '循環=false，音量=100；跨對話保留已啟動音效'
+      timeUnits: '素材時間；循環需停止音訊解除'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'sound、playEffect'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；每個播放cue獨立；語音屬對話事件，不使用此指令代替'
+      testResult: '對應「P1-C reference: 音效」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '每個播放cue獨立；語音屬對話事件，不使用此指令代替'
+    18:
+      name: '解鎖音樂'
+      eventType: 'unlockBgm'
+      syntax: '解鎖音樂:warm.mp3 -名稱=溫暖的霧氣;'
+      parameters: '內容=音訊檔名；-名稱/-name=鑑賞名稱'
+      allowedValues: '內容=音訊檔名；-名稱/-name=鑑賞名稱'
+      defaults: '名稱=檔名'
+      timeUnits: '無'
+      assetFormats: 'MP3、WAV、M4A、OGG、Opus、AAC、FLAC；匯入接受不等於瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'unlockBgm'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只解鎖，不自行試聽或切換BGM'
+      testResult: '對應「P1-C reference: 解鎖音樂」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只解鎖，不自行試聽或切換BGM'
+    19:
+      name: '解鎖圖片'
+      eventType: 'unlockCg'
+      syntax: '解鎖圖片:room.png -名稱=雨夜;'
+      parameters: '內容=圖片檔名；-名稱/-name=鑑賞名稱'
+      allowedValues: '內容=圖片檔名；-名稱/-name=鑑賞名稱'
+      defaults: '名稱=檔名'
+      timeUnits: '無'
+      assetFormats: 'PNG、JPG/JPEG、WebP、GIF、AVIF、SVG、BMP；須瀏覽器可解碼'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'unlockCg'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；只解鎖，不顯示全畫面CG；全畫面CG用GUI／事件JSON'
+      testResult: '對應「P1-C reference: 解鎖圖片」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '只解鎖，不顯示全畫面CG；全畫面CG用GUI／事件JSON'
+    20:
+      name: '淡幕'
+      eventType: 'fade'
+      syntax: '淡幕:黑 -秒數=1;'
+      parameters: '黑/out或亮/in；-秒數'
+      allowedValues: '黑/out或亮/in；-秒數'
+      defaults: '方向非out為in；1秒'
+      timeUnits: '秒數為秒；duration為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'fade'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；會維持最後黑幕狀態到亮；不是背景圖片切換'
+      testResult: '對應「P1-C reference: 淡幕」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '會維持最後黑幕狀態到亮；不是背景圖片切換'
+    21:
+      name: '等待'
+      eventType: 'wait'
+      syntax: '等待:1.5;'
+      parameters: '內容=非負秒數'
+      allowedValues: '內容=非負秒數'
+      defaults: '無效內容目前回退0；請輸入有限非負數'
+      timeUnits: '原生等待／舊pause為秒；舊wait為毫秒'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'pause、wait'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；等待時保持先前對話，不寫入等待說明到歷史'
+      testResult: '對應「P1-C reference: 等待」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '等待時保持先前對話，不寫入等待說明到歷史'
+    22:
+      name: '標籤'
+      eventType: 'section'
+      syntax: '標籤:回家;'
+      parameters: '內容=腳本內唯一標籤'
+      allowedValues: '內容=腳本內唯一標籤'
+      defaults: '不允許重複；位置為發出section事件的索引'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'label、scene；註解「; 場景:NAME」舊格式'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；作用域為這次匯入的腳本，不是跨檔案全域命名空間'
+      testResult: '對應「P1-C reference: 標籤」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '作用域為這次匯入的腳本，不是跨檔案全域命名空間'
+    23:
+      name: '選項'
+      eventType: 'choice'
+      syntax: '選項:要去哪裡？:回家:回家|留在這裡:留下;'
+      parameters: '問題:文字:標籤|文字:標籤；可省略問題；目的可為同腳本標籤或既有章節名／ID'
+      allowedValues: '問題:文字:標籤|文字:標籤；可省略問題；目的可為同腳本標籤或既有章節名／ID'
+      defaults: '問題省略=請選擇；目的缺少保持未連接並診斷'
+      timeUnits: '逾時只在GUI／事件JSON設定'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'choose'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；選項文字的冒號會參與拆分；避免歧義，複雜內容用事件JSON；分支後合流需明確跳轉'
+      testResult: '對應「P1-C reference: 選項」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '選項文字的冒號會參與拆分；避免歧義，複雜內容用事件JSON；分支後合流需明確跳轉'
+    24:
+      name: '跳轉'
+      eventType: 'jump'
+      syntax: '跳轉:回家;'
+      parameters: '內容=標籤或既有章節名／ID，可帶.txt副檔名'
+      allowedValues: '內容=標籤或既有章節名／ID，可帶.txt副檔名'
+      defaults: '目的需存在；不猜測無效索引／章節'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'jumpLabel、changeScene；callScene只作jump且有不相容診斷'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；不提供call／return堆疊；章節同名時請用唯一ID'
+      testResult: '對應「P1-C reference: 跳轉」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '不提供call／return堆疊；章節同名時請用唯一ID'
+    25:
+      name: '變數'
+      eventType: 'variable'
+      syntax: '變數:好感度 -運算=增加 -值=1;'
+      parameters: '內容=變數名；-運算/-operation=設定/set、增加/add、減少/subtract；-值/-value=數字、true、false、文字'
+      allowedValues: '內容=變數名；-運算/-operation=設定/set、增加/add、減少/subtract；-值/-value=數字、true、false、文字'
+      defaults: '運算set、值0；新增變數由既有模型補登記'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'variable'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；數字樣式字串與true/false會自動轉型；需要純字串"true"／"001"用事件JSON或變數編輯器；加減只用數值'
+      testResult: '對應「P1-C reference: 變數」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '數字樣式字串與true/false會自動轉型；需要純字串"true"／"001"用事件JSON或變數編輯器；加減只用數值'
+    26:
+      name: '條件'
+      eventType: 'condition'
+      syntax: '條件:好感度 -比較=>= -值=3 -成立=親近 -否則=普通;'
+      parameters: '內容=變數名；-比較/-operator===、!=、>、<、>=、<=；-值；-成立/-then=標籤；-否則/-else=標籤'
+      allowedValues: '內容=變數名；-比較/-operator===、!=、>、<、>=、<=；-值；-成立/-then=標籤；-否則/-else=標籤'
+      defaults: '比較>=、值1；兩個目的均須明確'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'condition'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；原生條件目的只解析這次腳本標籤；跨章條件先跳本地標籤，再使用跳轉；巢狀以多個條件及標籤組合'
+      testResult: '對應「P1-C reference: 條件」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '原生條件目的只解析這次腳本標籤；跨章條件先跳本地標籤，再使用跳轉；巢狀以多個條件及標籤組合'
+    27:
+      name: '輸入'
+      eventType: 'input'
+      syntax: '輸入:你的名字？ -變數=玩家名稱;'
+      parameters: '內容=問題；-變數/-variable=保存變數名'
+      allowedValues: '內容=問題；-變數/-variable=保存變數名'
+      defaults: '玩家名稱；最多80字'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'input'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；輸入後可在名稱／對話使用{變數}'
+      testResult: '對應「P1-C reference: 輸入」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '輸入後可在名稱／對話使用{變數}'
+    28:
+      name: '特效'
+      eventType: 'effect'
+      syntax: '特效:搖晃;'
+      parameters: '搖晃/shake、閃光/flash、淡入/fade、關閉/none'
+      allowedValues: '搖晃/shake、閃光/flash、淡入/fade、關閉/none'
+      defaults: '需明確指定；關閉同時清除一般特效／天氣／濾鏡'
+      timeUnits: '既有CSS時間'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'effect'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；一般特效軌與角色motion不同；重複相同特效是否重啟需真實視覺驗收'
+      testResult: '對應「P1-C reference: 特效」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '一般特效軌與角色motion不同；重複相同特效是否重啟需真實視覺驗收'
+    29:
+      name: '結束'
+      eventType: 'end'
+      syntax: '結束:晚安，明天見。;'
+      parameters: '內容=結局名稱'
+      allowedValues: '內容=結局名稱'
+      defaults: '空白為故事結束；解鎖以事件ID識別'
+      timeUnits: '無'
+      assetFormats: '無'
+      editorModes: '事件／積木／流程圖／KOI Script；進階參數以事件JSON完整保留'
+      parseStatus: '已由實際解析器辨識；測試tests/p1c-script-reference.test.mjs'
+      playbackStatus: '既有執行器已實作；真實視覺、聽感、觸控待驗'
+      roundTripStatus: 'serializeEvents輸出事件JSON，再compileProgram保留ID與參數；不是還原作者原始排版'
+      legacySyntax: 'end'
+      commonErrors: '缺少／重名素材、缺少標籤、錯誤檔案類型；可多個end，依分支抵達；章節接續依專案章節設定'
+      testResult: '對應「P1-C reference: 結束」解析／重匯測試；C2測試與限制另見驗收報告'
+      limitations: '可多個end，依分支抵達；章節接續依專案章節設定'
+    30:
+      name: '事件資料'
+      eventType: '依JSON的type'
+      syntax: '事件:{"type":"dialogue","name":"小春","text":"早安"};'
+      kind: 'script'
+      parameters: '完整事件JSON；id省略才產生新ID；type需為30種現有事件之一'
+      allowedValues: 'event-catalog.mjs的eventLabels；含cg、minigame、repeat／repeatEnd等無中文專用指令型別'
+      defaults: '各事件播放器預設；沒有自動猜測素材檔名'
+      timeUnits: 'duration通常秒；motionDuration／cameraDuration／crossfade為毫秒'
+      assetFormats: '使用已匯入素材ID，不是檔名；resourceRefs可保留來源'
+      legacySyntax: 'r49～r52既有事件JSON不改格式'
+      limitations: '重複積木須配對loopId；原型欄位被拒絕；重複或跨章事件ID會阻擋套用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '重複積木須配對loopId；原型欄位被拒絕；重複或跨章事件ID會阻擋套用'
+      testResult: '對應P1-C program reference測試'
+    31:
+      name: '設定檔'
+      eventType: '專案settings，非劇情事件'
+      syntax: '設定:{"textSpeed":35,"subtitle":"測試作品"};'
+      kind: 'options'
+      parameters: '設定JSON，與現有專案設定合併'
+      allowedValues: '既有settings欄位；不是任意腳本執行'
+      defaults: '未提供欄位維持原值'
+      timeUnits: 'textSpeed字／秒，其他依原settings欄位'
+      assetFormats: '素材ID'
+      legacySyntax: 'options.koi既有格式'
+      limitations: '應使用options檔案；不保證未知settings欄位有作用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '應使用options檔案；不保證未知settings欄位有作用'
+      testResult: '對應P1-C program reference測試'
+    32:
+      name: '遊戲介面檔'
+      eventType: 'settings.gameUI，非劇情事件'
+      syntax: '介面:desktop|{"elements":{"dialogue":{"x":5,"y":72,"w":90,"h":22}}};'
+      kind: 'gui'
+      parameters: 'desktop／mobile|JSON；elements／既有UI欄位'
+      allowedValues: 'desktop、mobile；x/y/w/h百分比、fontSize正值'
+      defaults: '未提供元件維持原值'
+      timeUnits: '無'
+      assetFormats: 'image／hoverImage為素材ID或唯一檔名'
+      legacySyntax: 'gui.koi既有格式'
+      limitations: '不是新的工程模式；錯誤尺寸或缺少資源阻擋套用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '不是新的工程模式；錯誤尺寸或缺少資源阻擋套用'
+      testResult: '對應P1-C program reference測試'
+    33:
+      name: '功能畫面檔'
+      eventType: 'settings.menuTemplates，非劇情事件'
+      syntax: '畫面:save@mobile|{"elements":{"header":{"fontSize":14}}};'
+      kind: 'screens'
+      parameters: '頁面[@裝置]|JSON'
+      allowedValues: 'save、load、history、settings、gallery；desktop／mobile'
+      defaults: '省略裝置為desktop；原元件維持，layoutActive=true'
+      timeUnits: '無'
+      assetFormats: 'image／hoverImage為素材ID或唯一檔名'
+      legacySyntax: 'screens.koi既有格式'
+      limitations: '一行一個指令；只編輯既有功能畫面'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '一行一個指令；只編輯既有功能畫面'
+      testResult: '對應P1-C program reference測試'
+    34:
+      name: '互動模組檔'
+      eventType: 'extensions.activities，非劇情事件'
+      syntax: '模組:{"id":"chat","kind":"messages","name":"放學訊息","items":[{"id":"m1","text":"校門口見"}]};'
+      kind: 'extensions'
+      parameters: '模組JSON；id、kind必填，最多1000項items'
+      allowedValues: 'messages、sns、call、map、investigate、qte、rhythm等現有activityKinds'
+      defaults: '同ID更新；新ID新增；items省略為空陣列'
+      timeUnits: '依模組欄位'
+      assetFormats: 'image/audio/endAudio/video與有效targetEvent'
+      legacySyntax: 'extensions.koi既有格式'
+      limitations: '不是任意外部程式；引用不存在事件或素材阻擋套用'
+      editorModes: '程式編輯器對應檔案類型；產生資料與GUI共用'
+      parseStatus: '由compileProgram處理；不要貼入錯誤檔案類型'
+      playbackStatus: '由既有專案設定／事件執行，不是逐行設定指令播放器'
+      roundTripStatus: '既有程式檔保存原source；劇情事件以JSON保留'
+      commonErrors: '不是任意外部程式；引用不存在事件或素材阻擋套用'
+      testResult: '對應P1-C program reference測試'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-script-reference.test.mjs:5:471)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+  ...
+# Subtest: P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization
+ok 63 - P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization
+  ---
+  duration_ms: 1.90215
+  type: 'test'
+  ...
+# Subtest: P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish
+ok 64 - P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish
+  ---
+  duration_ms: 8.518281
+  type: 'test'
+  ...
+# Subtest: P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish
+ok 65 - P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish
+  ---
+  duration_ms: 2.059629
+  type: 'test'
+  ...
+# Subtest: P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent
+ok 66 - P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent
+  ---
+  duration_ms: 0.26354
+  type: 'test'
+  ...
+# Subtest: P1-C diagnostic examples: intentional errors have lines and Chinese messages
+ok 67 - P1-C diagnostic examples: intentional errors have lines and Chinese messages
+  ---
+  duration_ms: 1.937424
+  type: 'test'
+  ...
+# Subtest: P1-C audio stop: invalid channels diagnose without muting all tracks
+ok 68 - P1-C audio stop: invalid channels diagnose without muting all tracks
+  ---
+  duration_ms: 0.328088
+  type: 'test'
+  ...
+# Subtest: R2-B: waiting exit retains target until completion, never removes other actors in same slot
+ok 69 - R2-B: waiting exit retains target until completion, never removes other actors in same slot
+  ---
+  duration_ms: 2.885333
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle fadeOut
+ok 70 - R2-B: actual exit lifecycle fadeOut
+  ---
+  duration_ms: 0.410814
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitLeft
+ok 71 - R2-B: actual exit lifecycle exitLeft
+  ---
+  duration_ms: 0.304032
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitRight
+ok 72 - R2-B: actual exit lifecycle exitRight
+  ---
+  duration_ms: 0.292594
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitUp
+ok 73 - R2-B: actual exit lifecycle exitUp
+  ---
+  duration_ms: 0.365516
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitDown
+ok 74 - R2-B: actual exit lifecycle exitDown
+  ---
+  duration_ms: 0.180985
+  type: 'test'
+  ...
+# Subtest: R2-B: legacy no-animation hide is immediate and isolates its exact key
+ok 75 - R2-B: legacy no-animation hide is immediate and isolates its exact key
+  ---
+  duration_ms: 0.264602
+  type: 'test'
+  ...
+# Subtest: R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone
+ok 76 - R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone
+  ---
+  duration_ms: 0.471396
+  type: 'test'
+  ...
+# Subtest: R2-B: unique positional aliases work; exact numeric custom IDs take priority
+ok 77 - R2-B: unique positional aliases work; exact numeric custom IDs take priority
+  ---
+  duration_ms: 3.235245
+  type: 'test'
+  ...
+# Subtest: R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor
+ok 78 - R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor
+  ---
+  duration_ms: 0.437565
+  type: 'test'
+  ...
+# Subtest: R2-B: scene clear cancels pending exits; seeking past exit restores settled state
+ok 79 - R2-B: scene clear cancels pending exits; seeking past exit restores settled state
+  ---
+  duration_ms: 0.382411
+  type: 'test'
+  ...
+# Subtest: R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance
+ok 80 - R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance
+  ---
+  duration_ms: 0.67126
+  type: 'test'
+  ...
+# Subtest: R2-B: repeated show/hide with expression, layer and wait stays independent across script copy
+ok 81 - R2-B: repeated show/hide with expression, layer and wait stays independent across script copy
+  ---
+  duration_ms: 10.358497
+  type: 'test'
+  ...
+# Subtest: R2-B: native and legacy none syntax remain compatible and native directional exits are executable
+ok 82 - R2-B: native and legacy none syntax remain compatible and native directional exits are executable
+  ---
+  duration_ms: 3.494178
+  type: 'test'
+  ...
+1..82
+# tests 82
+# suites 0
+# pass 81
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 615.267365

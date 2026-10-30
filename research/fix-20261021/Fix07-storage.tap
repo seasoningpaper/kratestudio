@@ -1,0 +1,12 @@
+✔ legacy Base64 project migrates only after durable save and verification (8.988136ms)
+✔ transaction failures leave the previous project and files intact (5.291866ms)
+✔ deleting an asset unlinks all scene, sprite, CG and audio references (1.270109ms)
+✔ font files and screen image references survive durable save and portable export (4.547281ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 130.909313

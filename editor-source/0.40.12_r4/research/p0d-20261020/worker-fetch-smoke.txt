@@ -1,0 +1,9 @@
+PASS / equals dist/index.html
+PASS /app.js equals dist/app.js
+PASS /workspace.js equals dist/workspace.js
+PASS /player.js equals dist/player.js
+PASS /style.css equals dist/style.css
+PASS GET /missing 404
+PASS GET /api/releases 410
+PASS POST / 405
+PASS HEAD /app.js no body

@@ -1,0 +1,78 @@
+{
+  "rwd": [
+    {
+      "font": "KrateSketchDisplay, system-ui, sans-serif",
+      "markers": [
+        {
+          "right": 216.03125,
+          "width": 185.109375,
+          "x": 30.921875
+        },
+        {
+          "right": 179,
+          "width": 148.078125,
+          "x": 30.921875
+        }
+      ],
+      "menu": "block",
+      "scroll": 305,
+      "title": "把你的故事做成遊戲",
+      "viewport": 305
+    },
+    {
+      "font": "KrateSketchDisplay, system-ui, sans-serif",
+      "markers": [
+        {
+          "right": 251.03125,
+          "width": 185.109375,
+          "x": 65.921875
+        },
+        {
+          "right": 214,
+          "width": 148.078125,
+          "x": 65.921875
+        }
+      ],
+      "menu": "block",
+      "scroll": 375,
+      "title": "把你的故事做成遊戲",
+      "viewport": 375
+    },
+    {
+      "font": "KrateSketchDisplay, system-ui, sans-serif",
+      "markers": [
+        {
+          "right": 240.125,
+          "width": 210.125,
+          "x": 30
+        },
+        {
+          "right": 198.078125,
+          "width": 168.078125,
+          "x": 30
+        }
+      ],
+      "menu": "block",
+      "scroll": 1009,
+      "title": "把你的故事做成遊戲",
+      "viewport": 1009
+    }
+  ],
+  "menu": {
+    "expanded": "true",
+    "headlineTop": 506.375,
+    "linkHeights": [
+      46.796875,
+      46.796875,
+      46.796875,
+      46.796875,
+      46.796875,
+      46.796875,
+      46.796875,
+      46.796875
+    ],
+    "navBottom": 452.375,
+    "scroll": 375,
+    "width": 375
+  }
+}

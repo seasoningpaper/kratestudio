@@ -1,0 +1,22 @@
+{
+  "repo": "creativetimofficial/soft-ui-dashboard",
+  "snapshotCommit": "0b2c9a81beb60640dc8c9b23df7e4bfe868457a5",
+  "snapshotDate": "2021-11-02T08:55:25Z",
+  "evidence": "https://github.com/creativetimofficial/soft-ui-dashboard/commit/0b2c9a81beb60640dc8c9b23df7e4bfe868457a5",
+  "source": "https://github.com/creativetimofficial/soft-ui-dashboard/tree/0b2c9a81beb60640dc8c9b23df7e4bfe868457a5",
+  "files": [
+    "LICENSE",
+    "assets/scss/soft-ui-dashboard/_buttons.scss",
+    "assets/scss/soft-ui-dashboard/_forms.scss",
+    "assets/scss/soft-ui-dashboard/_nav.scss",
+    "assets/scss/soft-ui-dashboard/_navbar-vertical-extend.scss",
+    "assets/scss/soft-ui-dashboard/_navbar-vertical.scss",
+    "assets/scss/soft-ui-dashboard/_navbar.scss",
+    "assets/scss/soft-ui-dashboard/_social-buttons.scss",
+    "assets/scss/soft-ui-dashboard/_variables.scss",
+    "assets/scss/soft-ui-dashboard/custom/_styles.scss",
+    "assets/scss/soft-ui-dashboard/custom/_variables.scss",
+    "assets/scss/soft-ui-dashboard/forms/_form-check.scss"
+  ],
+  "status": "source-downloaded-not-yet-reviewed"
+}

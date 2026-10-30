@@ -1,0 +1,132 @@
+[
+  {
+    "file": "dist/style.css",
+    "identicalToB3ec877": true,
+    "sha256": "451a7b71652370826b061b35ede1c04c58c53c98b865ccfb6e034d0845c80181"
+  },
+  {
+    "file": "dist/player.css",
+    "identicalToB3ec877": true,
+    "sha256": "65c451b70fd38010da49ff89ebc9049081c743673e4e2a717689bfa7e4a0f7fa"
+  },
+  {
+    "file": "dist/index.html",
+    "identicalToB3ec877": true,
+    "sha256": "9f42d97d257d5d2d70b2d26b64a4d212d84426d601278476bf0e9a2c88038a04"
+  },
+  {
+    "file": "dist/player.js",
+    "identicalToB3ec877": true,
+    "sha256": "0dff98a50a919618473b7f6e4bdfce5ac27fafd27087645308430bd002dba136"
+  },
+  {
+    "file": "src/blocks-editor.jsx",
+    "identicalToB3ec877": true,
+    "sha256": "b65c070267b6d2400997a85542c8d311770aacb0adf997db1ed002eb4f363776"
+  },
+  {
+    "file": "qa/p0-c-visual-review.html",
+    "identicalToB3ec877": true,
+    "sha256": "f8a29622ec1544e0be7359be7cdba5581adf45850e403a6504657ffd4d7c07ab"
+  },
+  {
+    "file": "qa/p0-c-visual-review-manifest.json",
+    "identicalToB3ec877": true,
+    "sha256": "bbafc8170d48c272b29ec18412d266bb920b3a5da587d95b9ef02494c3d6f0a7"
+  },
+  {
+    "file": "qa/P0-C-VISUAL-CHECKLIST.md",
+    "identicalToB3ec877": true,
+    "sha256": "bfc8e375af7e22fc7c9ff4fb37c92fefcc0fdd564b83a712695a74ae4870744b"
+  },
+  {
+    "file": "research/p0-20261020/BACKLOG.md",
+    "identicalToB3ec877": true,
+    "sha256": "b7adf32d1934c2c6525d46edd543e1a7006cb13b9327def4baf3943375058ba9"
+  },
+  {
+    "file": "research/p0-20261020/OPEN-SOURCE-RESEARCH.md",
+    "identicalToB3ec877": true,
+    "sha256": "5dd28672172209b61d961ac80b6029e259d1ba3e28197427618b1bf3efa24051"
+  },
+  {
+    "file": "research/p0-20261020/REPORT.md",
+    "identicalToB3ec877": true,
+    "sha256": "eba821d61beba7fd698e715601fc1232d8fa7344e5478fb8015d01967c8a3f98"
+  },
+  {
+    "file": "research/p0-20261020/baseline-tests.txt",
+    "identicalToB3ec877": true,
+    "sha256": "6d34f308998b76577b3c5102956aaa954b0bb5a830b009cd2f89239d10505b78"
+  },
+  {
+    "file": "research/p0-20261020/build-artifact-check.json",
+    "identicalToB3ec877": true,
+    "sha256": "bafb58e587652f8b96cd31018068955dfa6254ac8d07c47357d7dcfe16517f51"
+  },
+  {
+    "file": "research/p0-20261020/p0-a-dom-tests.txt",
+    "identicalToB3ec877": true,
+    "sha256": "1ab5beff49bb6746ea0921c7325665c3503c964e7153f5f0a4418793835e6eda"
+  },
+  {
+    "file": "research/p0-20261020/p0-a-tests.txt",
+    "identicalToB3ec877": true,
+    "sha256": "45bbf848902e57c011dc928f6244d4c82c9637cc74d50a901cdf9c5333f826f6"
+  },
+  {
+    "file": "research/p0-20261020/p0-b-tests.txt",
+    "identicalToB3ec877": true,
+    "sha256": "1de2487623437d6f5501fe949c3df002d27cdedcde6b8b8a735b8cedf56e7af7"
+  },
+  {
+    "file": "research/p0-20261020/p0-block-dom-final.txt",
+    "identicalToB3ec877": true,
+    "sha256": "769c95c7ffca0aed4fde6e3e8518386b770093c3e35afbbc267b6816fa1594a4"
+  },
+  {
+    "file": "research/p0-20261020/p0-c-dom-final.txt",
+    "identicalToB3ec877": true,
+    "sha256": "2f547813bf806c1eef19340f76463bc801e42a8c953bf8d7c7396da1ee2ffbbf"
+  },
+  {
+    "file": "research/p0-20261020/p0-compatibility.txt",
+    "identicalToB3ec877": true,
+    "sha256": "b12d4e8f5b660cba8353393c53e5b7f2e185f95ecf15c7578ef62cdff3b0ce3e"
+  },
+  {
+    "file": "research/p0-20261020/p0-regression-dom.txt",
+    "identicalToB3ec877": true,
+    "sha256": "dc6c36291298895d4af223ee358e3ed8a9772d1911b8b7a541a34b563b3be608"
+  },
+  {
+    "file": "research/p0-20261020/p0-regression-unit.txt",
+    "identicalToB3ec877": true,
+    "sha256": "552f71f27f98c5aacfd12901df6eebbf62fc5ee47459f76a7118d6a50f9d20aa"
+  },
+  {
+    "file": "research/p0-20261020/p0-video-comparison.txt",
+    "identicalToB3ec877": true,
+    "sha256": "2300164df9763ed8e3a7d413055eb99cc221f02c1b1e5b7afde12b6e9a7df78d"
+  },
+  {
+    "file": "research/p0-20261020/unchanged-runtime.json",
+    "identicalToB3ec877": true,
+    "sha256": "0d1faa2153097f7553b7c9cf5e4245f6fecd174607b8446f7082b1cdbc41a736"
+  },
+  {
+    "file": "research/p0-followup-20261020/PROGRESS.md",
+    "identicalToB3ec877": true,
+    "sha256": "08721037302f0f938bfdc8a964d7a3cab711cd91f5198a7bdb81d49d5219dca8"
+  },
+  {
+    "file": "research/p0-followup-20261020/product-unchanged.json",
+    "identicalToB3ec877": true,
+    "sha256": "2ff244c47588aeed22c523fe2e1bcb8f8d449faa9f9058d49f65d53e47af53d8"
+  },
+  {
+    "preservedZip": "/workspace/scratch/e00fc226fa87/KOI-Maker-0.40.10-visual-acceptance.zip",
+    "bytes": 600792,
+    "sha256": "84af2d019734c884eb0de4b441b1dfb40cab215ac55dcd5e51edcc19ef0a08f2"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "koi-maker-desktop",
+  "version": "0.41.0-dev.2",
+  "description": "Koi Maker Desktop Engine Foundation 開發驗證版",
+  "private": true,
+  "type": "module",
+  "main": "out/main.cjs",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --test-concurrency=1 --test-timeout=20000 tests/*.test.ts tests/*.test.mjs",
+    "build": "node build.mjs",
+    "start": "electron .",
+    "pack:win:dir": "electron-builder --win --x64 --dir --config electron-builder.json",
+    "dist:win": "node release-gate.mjs && electron-builder --win nsis portable --x64 --config electron-builder.json"
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.15.3",
+    "typescript": "5.9.3",
+    "@types/node": "24.10.1",
+    "esbuild": "0.25.12"
+  },
+  "engines": {
+    "node": "24.19.0"
+  }
+}

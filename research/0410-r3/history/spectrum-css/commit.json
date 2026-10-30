@@ -1,0 +1,82 @@
+{
+  "sha": "9a6a60b78a75a3f1c53b38eb56d7211d98f0090f",
+  "node_id": "C_kwDOCVBtHtoAKDlhNmE2MGI3OGE3NWEzZjFjNTNiMzhlYjU2ZDcyMTFkOThmMDA5MGY",
+  "commit": {
+    "author": {
+      "name": "Garth Braithwaite",
+      "email": "garthdb@gmail.com",
+      "date": "2021-12-10T21:27:35Z"
+    },
+    "committer": {
+      "name": "Garth Braithwaite",
+      "email": "garthdb@gmail.com",
+      "date": "2021-12-10T21:27:35Z"
+    },
+    "message": "chore(release): release\n\n - @spectrum-css/actionbar@3.0.11\n - @spectrum-css/actionbutton@1.1.0\n - @spectrum-css/actiongroup@1.0.11\n - @spectrum-css/actionmenu@3.0.11\n - @spectrum-css/breadcrumb@4.0.7\n - @spectrum-css/calendar@3.0.11\n - @spectrum-css/card@4.0.7\n - @spectrum-css/cyclebutton@3.0.11\n - @spectrum-css/dialog@3.0.12\n - @spectrum-css/divider@1.0.11\n - @spectrum-css/dropzone@3.0.11\n - @spectrum-css/fieldlabel@4.0.7\n - @spectrum-css/illustratedmessage@3.0.10\n - @spectrum-css/inputgroup@4.0.2\n - @spectrum-css/pagination@3.0.11\n - @spectrum-css/picker@1.1.5\n - @spectrum-css/pickerbutton@1.1.2\n - @spectrum-css/popover@3.0.11\n - @spectrum-css/progressbar@1.0.11\n - @spectrum-css/quickaction@3.0.11\n - @spectrum-css/searchwithin@3.2.2\n - @spectrum-css/site@2.1.0\n - @spectrum-css/stepper@3.0.11\n - @spectrum-css/tabs@3.1.7\n - @spectrum-css/tray@1.0.11\n - @spectrum-css/typography@4.0.7",
+    "tree": {
+      "sha": "f8a248d3bb789cfe936562f3436709299b021c0e",
+      "url": "https://api.github.com/repos/adobe/spectrum-css/git/trees/f8a248d3bb789cfe936562f3436709299b021c0e"
+    },
+    "url": "https://api.github.com/repos/adobe/spectrum-css/git/commits/9a6a60b78a75a3f1c53b38eb56d7211d98f0090f",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/adobe/spectrum-css/commits/9a6a60b78a75a3f1c53b38eb56d7211d98f0090f",
+  "html_url": "https://github.com/adobe/spectrum-css/commit/9a6a60b78a75a3f1c53b38eb56d7211d98f0090f",
+  "comments_url": "https://api.github.com/repos/adobe/spectrum-css/commits/9a6a60b78a75a3f1c53b38eb56d7211d98f0090f/comments",
+  "author": {
+    "login": "GarthDB",
+    "id": 125516,
+    "node_id": "MDQ6VXNlcjEyNTUxNg==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125516?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/GarthDB",
+    "html_url": "https://github.com/GarthDB",
+    "followers_url": "https://api.github.com/users/GarthDB/followers",
+    "following_url": "https://api.github.com/users/GarthDB/following{/other_user}",
+    "gists_url": "https://api.github.com/users/GarthDB/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/GarthDB/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/GarthDB/subscriptions",
+    "organizations_url": "https://api.github.com/users/GarthDB/orgs",
+    "repos_url": "https://api.github.com/users/GarthDB/repos",
+    "events_url": "https://api.github.com/users/GarthDB/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/GarthDB/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "GarthDB",
+    "id": 125516,
+    "node_id": "MDQ6VXNlcjEyNTUxNg==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125516?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/GarthDB",
+    "html_url": "https://github.com/GarthDB",
+    "followers_url": "https://api.github.com/users/GarthDB/followers",
+    "following_url": "https://api.github.com/users/GarthDB/following{/other_user}",
+    "gists_url": "https://api.github.com/users/GarthDB/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/GarthDB/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/GarthDB/subscriptions",
+    "organizations_url": "https://api.github.com/users/GarthDB/orgs",
+    "repos_url": "https://api.github.com/users/GarthDB/repos",
+    "events_url": "https://api.github.com/users/GarthDB/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/GarthDB/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0c6ae88bdef730f7bc0fe668c49b5377a0801784",
+      "url": "https://api.github.com/repos/adobe/spectrum-css/commits/0c6ae88bdef730f7bc0fe668c49b5377a0801784",
+      "html_url": "https://github.com/adobe/spectrum-css/commit/0c6ae88bdef730f7bc0fe668c49b5377a0801784"
+    }
+  ]
+}

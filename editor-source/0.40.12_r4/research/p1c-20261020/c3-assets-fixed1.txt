@@ -1,0 +1,15 @@
+✔ P1-C assets: duplicate or empty storage IDs cannot overwrite durable asset bytes (9.582384ms)
+✔ P1-C formats: real PNG/JPG/MP3/WAV/MP4 fixture bytes pass offline decoders and supported import paths (270.78255ms)
+✔ P1-C references: duplicate filenames require unique paths, missing assets diagnose and removing main references is immutable (2.489119ms)
+✔ P1-C capacity: application-size rejection preserves prior data without allocating multi-gigabyte fixtures (2.909833ms)
+{"environment":"Node.js + fake-indexeddb；不是實機瀏覽器效能","node":"v24.19.0","events":500,"assets":132,"bytes":8575234,"gameZipBytes":11483207,"timingsMilliseconds":{"parse500":23.92,"engineLoad500":1.98,"play250":28.17,"save500With132Assets":14.14,"load500With132Assets":5.91,"portableExport":23.79,"portableRestoreSave":768.04,"gameZipExport":76.78,"gameZipRead":23.5,"compile1000":11.93},"memoryBefore":{"rss":56987648,"heapTotal":20705280,"heapUsed":10531728,"external":4346480,"arrayBuffers":220591},"memoryAfter":{"rss":332595200,"heapTotal":175480832,"heapUsed":44925128,"external":63083602,"arrayBuffers":40349748},"limits":"60秒命令逾時；不跑512MiB/2GiB真實容量與長時間循環"}
+✔ P1-C pressure: 500 events, 132 assets, durable/portable/ZIP restores and bounded 1000-event compile retain IDs and parameters (1011.841467ms)
+✔ P1-C ZIP collisions: distinct custom asset IDs with the same sanitized filename retain different bytes (3.046088ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1494.123839

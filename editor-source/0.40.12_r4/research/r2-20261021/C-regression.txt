@@ -1,0 +1,47 @@
+TAP version 13
+1..0
+# Subtest: tests/event-order.test.mjs
+ok 1 - tests/event-order.test.mjs
+  ---
+  duration_ms: 73.415648
+  type: 'test'
+  ...
+# Subtest: displayed cards stay aligned to world coordinates within half a physical pixel at every zoom
+ok 2 - displayed cards stay aligned to world coordinates within half a physical pixel at every zoom
+  ---
+  duration_ms: 0.899637
+  type: 'test'
+  ...
+# Subtest: named sections retain original indices and aggregate event, option and extension counts
+ok 3 - named sections retain original indices and aggregate event, option and extension counts
+  ---
+  duration_ms: 0.953247
+  type: 'test'
+  ...
+# Subtest: mobile port dragging changes the real destination; wire removal and undo restore it
+ok 4 - mobile port dragging changes the real destination; wire removal and undo restore it
+  ---
+  duration_ms: 866.468598
+  type: 'test'
+  ...
+# Subtest: a backward choice cannot move the first imported node to the bottom, and collapsed groups remove hidden gaps
+ok 5 - a backward choice cannot move the first imported node to the bottom, and collapsed groups remove hidden gaps
+  ---
+  duration_ms: 2.148763
+  type: 'test'
+  ...
+# Subtest: fit places all nodes inside a phone viewport and branch layout has separate lanes
+ok 6 - fit places all nodes inside a phone viewport and branch layout has separate lanes
+  ---
+  duration_ms: 1.538011
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2046.633889

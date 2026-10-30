@@ -1,0 +1,23 @@
+✔ 04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged (4.942323ms)
+✔ 04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging (0.903619ms)
+✔ 04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution (1.759581ms)
+✔ 04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename (3.11226ms)
+✔ 04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs (885.905228ms)
+✔ 04012 R5: flag preset never overwrites an existing numeric variable or project input (0.358079ms)
+✔ 04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched (0.470067ms)
+✔ 04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role (1.116338ms)
+✔ 04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics (10.437426ms)
+✔ 04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative (1.153245ms)
+✔ 04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore (1130.946683ms)
+✔ Fix-03 primitive animation numeric and boolean sockets reject incompatible or unevaluated values atomically (2.802124ms)
+✔ Fix-03 child detach, primitive editing and independent copies retain fallbacks and exact script/runtime semantics (11.797261ms)
+✔ Fix-03 actual numeric/boolean modules share global Undo/Redo and survive project save and reload (1014.905495ms)
+✔ Fix-03 detaching an optional module restores absence and runtime defaults after JSON reload (1.319955ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1562.953966

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "dist/app.js",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/generate-feature-matrix.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/generate-features.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/generate-script-guide.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/prepare-block-visual-review.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/verify-static-assets.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/asset-references.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/asset-selection.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/bulk-cards.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/dialogs.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/engine.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/flow-layout.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/game-ui.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/layout-tools.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/motion-state.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/music-mixer.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/packaging.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/placement.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/program-files.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/script-import.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/script-reference.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/storage.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/template-operations.mjs",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "src/visual-state.mjs",
+    "exit": 0,
+    "error": ""
+  }
+]

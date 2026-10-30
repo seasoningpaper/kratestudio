@@ -1,0 +1,46 @@
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (2.463154ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (20.7756ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.600185ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.243719ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (3.466253ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.722466ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (3.715091ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (1.122506ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.723757ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.383495ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (1.397842ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (54.881153ms)
+✔ R2-D: left respects explicit canvas/selection frames and locks (2.871056ms)
+✔ R2-D: center-x respects explicit canvas/selection frames and locks (0.359099ms)
+✔ R2-D: right respects explicit canvas/selection frames and locks (0.25768ms)
+✔ R2-D: top respects explicit canvas/selection frames and locks (0.200696ms)
+✔ R2-D: center-y respects explicit canvas/selection frames and locks (0.311489ms)
+✔ R2-D: bottom respects explicit canvas/selection frames and locks (0.194677ms)
+✔ R2-D: distribute-x preserves equal spacing and endpoint bounds (0.24412ms)
+✔ R2-D: distribute-y preserves equal spacing and endpoint bounds (0.13559ms)
+✔ R2-D: canvas center, duplicate IDs, single-selection and group bounds preserve source (0.566977ms)
+✔ R2-D: nested templates use world coordinates for canvas centering and reject unsafe out-of-parent alignment atomically (2.742055ms)
+✔ R2-D: parent/child selection translates once and locked nested items remain intact (0.33209ms)
+✔ R2-D: desktop/mobile persistence retains logical coordinates without changing event formats (4.557183ms)
+✔ R2-B: waiting exit retains target until completion, never removes other actors in same slot (5.188189ms)
+✔ R2-B: actual exit lifecycle fadeOut (0.978393ms)
+✔ R2-B: actual exit lifecycle exitLeft (0.356736ms)
+✔ R2-B: actual exit lifecycle exitRight (0.357387ms)
+✔ R2-B: actual exit lifecycle exitUp (0.280655ms)
+✔ R2-B: actual exit lifecycle exitDown (0.253063ms)
+✔ R2-B: legacy no-animation hide is immediate and isolates its exact key (0.330878ms)
+✔ R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone (0.387823ms)
+✔ R2-B: unique positional aliases work; exact numeric custom IDs take priority (0.614487ms)
+✔ R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor (0.593035ms)
+✔ R2-B: scene clear cancels pending exits; seeking past exit restores settled state (0.751709ms)
+✔ R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance (0.672072ms)
+✔ R2-B: repeated show/hide with expression, layer and wait stays independent across script copy (12.158502ms)
+✔ R2-B: native and legacy none syntax remain compatible and native directional exits are executable (3.474295ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 211.682193

@@ -1,0 +1,15 @@
+{
+  "decision": "eligible-test-revision",
+  "productVersion": "0.40.11_r4",
+  "fromCheckpoint": "9af300c79cab5eedc9b0e337b56b430d586756e1",
+  "knownReproducedEngineCriticalHighUnresolved": [],
+  "fixed": ["R4-H1 stale parallel exit resurrected after scene preload", "R4-H2 legacy placement and target resolution mismatch", "R4-M1 misleading default target display"],
+  "originalData": "20 null animation targets remain invalid and are not silently rewritten; separately supplied explicit correction covers all 25 choice exits and seven endings in isolated actor tests",
+  "manualPending": true,
+  "notVerified": ["full original JSON chapter and extension data not supplied", "original media bytes and sound reference unavailable", "physical browser visuals, touch, audio", "all branch combinations and arbitrary legacy projects"],
+  "automated": {"uniquePassed": 138, "syntaxFiles": 14, "build": "passed", "workerAssetsExact": 31},
+  "rollbackSiteVersion": 56,
+  "rollbackSource": "03b922cd49c4be7348d394f39f15321bdb91d924",
+  "rollbackVersionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_1049a606188c8191b4d3f70b491c92d4",
+  "safety": "No persistent model migration, automatic story retargeting, storage-key change or user-project write. Nonblocking manual limits are disclosed; release is not a full original-project acceptance claim."
+}

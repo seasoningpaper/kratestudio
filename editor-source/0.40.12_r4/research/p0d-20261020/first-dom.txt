@@ -1,0 +1,55 @@
+✖ P0-D clean KOI file follows block/event edits without manual refresh (130.250819ms)
+✖ P0-D global Undo and Redo restore the same source draft in the code editor (66.605069ms)
+✖ P0-D applying reordered source preserves foreign jumps by destination event ID (31.455749ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 576.745482
+
+✖ failing tests:
+
+test at tests/p0d-dom.test.mjs:6:1
+✖ P0-D clean KOI file follows block/event edits without manual refresh (130.250819ms)
+  TypeError: Cannot read properties of undefined (reading 'subtitle')
+      at Qs (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:15:52)
+      at vr (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:24:5112)
+      at Object.Og [as synchronizeWorkspace] (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:24:7728)
+      at ensureProject (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:17:386)
+      at render (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:18:19)
+      at eval (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:71:190)
+      at eval (<anonymous>)
+      at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873)
+      at async TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:6:109)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+
+test at tests/p0d-dom.test.mjs:7:1
+✖ P0-D global Undo and Redo restore the same source draft in the code editor (66.605069ms)
+  TypeError: Cannot read properties of undefined (reading 'subtitle')
+      at Qs (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:15:52)
+      at vr (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:24:5112)
+      at Object.Og [as synchronizeWorkspace] (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:24:7728)
+      at ensureProject (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:17:386)
+      at render (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:18:19)
+      at eval (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:71:190)
+      at eval (<anonymous>)
+      at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873)
+      at async TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:7:115)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+
+test at tests/p0d-dom.test.mjs:8:1
+✖ P0-D applying reordered source preserves foreign jumps by destination event ID (31.455749ms)
+  TypeError: Cannot read properties of undefined (reading 'subtitle')
+      at Qs (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:15:52)
+      at vr (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:24:5112)
+      at Object.Og [as synchronizeWorkspace] (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:822), <anonymous>:24:7728)
+      at ensureProject (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:17:386)
+      at render (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:18:19)
+      at eval (eval at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873), <anonymous>:71:190)
+      at eval (<anonymous>)
+      at setup (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:4:873)
+      at async TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:8:119)
+      at async Test.run (node:internal/test_runner/test:1389:7)

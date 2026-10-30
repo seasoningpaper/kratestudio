@@ -1,0 +1,81 @@
+✔ each activity template is independently named and has stable editable item IDs (3.128761ms)
+✔ map spends AP, advances period/date, persists results and jumps to stable event IDs (2.966527ms)
+✔ map rejects insufficient AP and invalid destinations without partially changing state (0.183387ms)
+✔ investigation grants only authored evidence and SNS records only authored posts (0.893115ms)
+✔ QTE completion selects success/failure events and cannot silently skip without an explicit result (0.368524ms)
+✔ stack detach/attach moves the full tail and preserves animation targets and numeric story edges (1.504335ms)
+✔ sections remain in one continuous vertical story stack without overlapping (4.404963ms)
+✔ reordering or pasting animations never converts their actor targets into NaN; detached copies have distinct stack IDs (1.184423ms)
+✔ camera, model, weather and postprocessing compose and survive save/load (0.892474ms)
+✔ music crossfade keeps desired stems, fades removed sources, respects volume and disposes channels (110.752536ms)
+✔ activity artwork and call audio join resource references and can be safely unlinked (1.465326ms)
+✔ rest restores daily AP and advances calendar without requiring a clickable location (0.260121ms)
+✔ KOI text imports interactive modules, camera, weather, filters and renderer references without becoming dialogue (2.047403ms)
+✔ same-slot replacement removes stale sprites, inherits placement, and supports explicit overlay (2.010537ms)
+✔ connections control gameplay, cut branches stop, and reorder preserves destinations (1.640951ms)
+✔ named sections retain original indices and aggregate event, option and extension counts (0.257848ms)
+✔ mobile port dragging changes the real destination; wire removal and undo restore it (1095.531644ms)
+✔ user sections replace numbered groups and preferences persist in the project (607.568114ms)
+✔ image editor saves one asset identity and event shortcut opens the selected image (401.077066ms)
+✔ themed dialogs queue, cancel safely, restore focus, trap Tab and accept entered text (310.075141ms)
+✔ event chooser cancellation changes no nodes and chosen category creates the actual event (805.452826ms)
+✔ title menus hide gameplay history and saves; cancel then accept a save deletion through themed UI (622.018767ms)
+✔ toolbar presets stay inside canvas, preserve original artwork layouts and isolate the other device (15.784267ms)
+✔ alignment, equal gaps and snapping use selected geometry without changing artwork (0.866304ms)
+✔ chapter links skip chapters, end explicitly, continue from endings, survive saves and stop empty cycles (1.851258ms)
+✔ custom audio playback replaces native controls and starting another track pauses the first (284.42965ms)
+✔ WebGAL command import preserves options, transforms, voices and missing scene diagnostics (7.452351ms)
+✔ all imported stage actions execute and survive save/rollback in sequence (6.264813ms)
+✔ unresolved resources rebind after folder import and explicit manual selections stay intact (0.446612ms)
+✔ multi-project storage preserves same-named asset IDs and reloads the active project (117.779382ms)
+✔ plus creates a separate project, examples switch to full-name projects, sidebar restores and themes cover surfaces (1365.017684ms)
+✔ command importer previews diagnostics and opens the imported script as a new story tab (519.881996ms)
+✔ auto arrange clears old coordinates and immediately fits the freshly arranged visible nodes (419.547571ms)
+✔ top tab strip drags without selecting another tab, and white themes retain readable accent (534.883187ms)
+✔ player renders imported intro, actor avatar and timed fades without leaving the game canvas (519.839124ms)
+✔ unresolved branch names cause a visible runtime error instead of a guessed destination (0.853367ms)
+✖ native KOI text creates working variables, conditions, dialogue styles and second-based motion (3.95719ms)
+✔ native conditional import cannot silently jump to the beginning with a missing label (0.207864ms)
+✔ the downloadable native text example imports and both branches reach its ending (3.878582ms)
+✔ bounded operators handle numeric, boolean and string reporters without evaluating code (2.91669ms)
+✔ nested counted loops run, save and rollback in the shared runtime; copied loops retain their own pairing (6.584255ms)
+✔ blocks edit the same dialogue as event and flow modes, and loop insertion is visible in every mode (1164.958343ms)
+✔ seven text-only tools retain all features, twelve themes recolor the editor and English preserves authored text (1127.128692ms)
+✔ video trim, speed and delayed skip apply to runtime and finish at the edited endpoint (406.726839ms)
+✔ flow grid settings persist and navigation controls stay in the top toolbar (1297.661684ms)
+✔ tool page headings, form labels and help switch language while variable names and authored asset names remain unchanged (1321.406412ms)
+✔ English player menus and save pages localize without translating authored story or custom button labels (1012.375443ms)
+✔ block reorder animates the moved stack and keeps the same event content (438.559787ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 47
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 16291.162056
+
+✖ failing tests:
+
+test at tests/version407.test.mjs:38:1
+✖ native KOI text creates working variables, conditions, dialogue styles and second-based motion (3.95719ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'enter-from-left'
+  - '歡迎回家。'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/version407.test.mjs:38:550)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'enter-from-left',
+    expected: '歡迎回家。',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,18 @@
+✔ C5 migration preserves legacy desktop profiles, unknown fields and has exact reversible backup (2.994388ms)
+✔ C5 migration preserves legacy mobile profiles, unknown fields and has exact reversible backup (0.544773ms)
+✔ C5 migration of absent templates is lazy, reversible and cannot change other pages (0.417246ms)
+✔ C5 groups expand selection, ungroup atomically, move in shared coordinates and never change actions (0.667214ms)
+✔ C5 duplicate built-ins produces independent extras, preserves actions and remaps copied group membership (0.428322ms)
+✔ C5 rejects duplicate, missing, cyclic/nested and multiply-parented group references before any write (0.822924ms)
+✔ C5 standalone import/export retains optional groups, typed actions, layers and validates references (0.940007ms)
+✔ C5 alignment and distribution operate on existing components without action or identity loss (0.869983ms)
+✔ C5 actual template UI creates groups, clones built-in navigation and restores both history and legacy backup (1272.549909ms)
+✔ C5 grouping metadata never leaks profile identities, migration backups or group membership to other pages (1.052673ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1731.709031

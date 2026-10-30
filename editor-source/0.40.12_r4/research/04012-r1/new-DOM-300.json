@@ -1,0 +1,6 @@
+{
+  "n": 300,
+  "elapsedMs": 1076.3609510000001,
+  "checks": "all fields, IDs, source application, Undo/Redo, IndexedDB and Engine variables/trace",
+  "scope": "real bundles in JSDOM; not browser, physical touch or FPS"
+}

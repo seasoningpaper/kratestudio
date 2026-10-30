@@ -1,0 +1,172 @@
+TAP version 13
+# Subtest: multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP
+ok 1 - multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP
+  ---
+  duration_ms: 1445.421012
+  type: 'test'
+  ...
+# Subtest: P1-B linked stack disconnect plays before release exactly once and cancellation preserves data
+ok 2 - P1-B linked stack disconnect plays before release exactly once and cancellation preserves data
+  ---
+  duration_ms: 613.203545
+  type: 'test'
+  ...
+# Subtest: P1-B single-block extraction sounds before release and empty drop does not repeat disconnect
+ok 3 - P1-B single-block extraction sounds before release and empty drop does not repeat disconnect
+  ---
+  duration_ms: 568.182192
+  type: 'test'
+  ...
+# Subtest: P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect
+ok 4 - P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect
+  ---
+  duration_ms: 592.419888
+  type: 'test'
+  ...
+# Subtest: P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts
+ok 5 - P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts
+  ---
+  duration_ms: 577.433572
+  type: 'test'
+  ...
+# Subtest: P1-B context extraction still plays immediately and only after a successful detach
+ok 6 - P1-B context extraction still plays immediately and only after a successful detach
+  ---
+  duration_ms: 476.809685
+  type: 'test'
+  ...
+# Subtest: P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback
+ok 7 - P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback
+  ---
+  duration_ms: 395.001382
+  type: 'test'
+  ...
+# Subtest: P1-B dragging a tail out of a floating stack detects its real external connection
+ok 8 - P1-B dragging a tail out of a floating stack detects its real external connection
+  ---
+  duration_ms: 280.401307
+  type: 'test'
+  ...
+# Subtest: P1-B opening CG/music gallery preserves the existing title BGM instance and playback position
+ok 9 - P1-B opening CG/music gallery preserves the existing title BGM instance and playback position
+  ---
+  duration_ms: 293.672651
+  type: 'test'
+  ...
+# Subtest: P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM
+ok 10 - P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM
+  ---
+  duration_ms: 300.020274
+  type: 'test'
+  ...
+# Subtest: P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it
+ok 11 - P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it
+  ---
+  duration_ms: 500.656157
+  type: 'test'
+  ...
+# Subtest: P1-B gallery preview volume follows master/music/mute plus its own gain
+ok 12 - P1-B gallery preview volume follows master/music/mute plus its own gain
+  ---
+  duration_ms: 212.661764
+  type: 'test'
+  ...
+# Subtest: P1-B gallery audio rejection keeps BGM focus and reports an error without throwing
+ok 13 - P1-B gallery audio rejection keeps BGM focus and reports an error without throwing
+  ---
+  duration_ms: 215.862607
+  type: 'test'
+  ...
+# Subtest: P1-B game BGM also continues while viewing CG and respects gallery focus after returning
+ok 14 - P1-B game BGM also continues while viewing CG and respects gallery focus after returning
+  ---
+  duration_ms: 344.60449
+  type: 'test'
+  ...
+# Subtest: P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context
+ok 15 - P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context
+  ---
+  duration_ms: 277.789269
+  type: 'test'
+  ...
+# Subtest: P1-B muted preference is also applied to gallery music and remains muted after resuming BGM
+ok 16 - P1-B muted preference is also applied to gallery music and remains muted after resuming BGM
+  ---
+  duration_ms: 277.628186
+  type: 'test'
+  ...
+# Subtest: P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped
+ok 17 - P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped
+  ---
+  duration_ms: 213.506817
+  type: 'test'
+  ...
+# Subtest: P1-B an explicit script music stop is not undone when gallery music ends
+ok 18 - P1-B an explicit script music stop is not undone when gallery music ends
+  ---
+  duration_ms: 411.56278
+  type: 'test'
+  ...
+# Subtest: P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending
+ok 19 - P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending
+  ---
+  duration_ms: 3.32157
+  type: 'test'
+  ...
+# Subtest: P1-C branch: missing condition destinations and broken next references never fall into another event
+ok 20 - P1-C branch: missing condition destinations and broken next references never fall into another event
+  ---
+  duration_ms: 1.547952
+  type: 'test'
+  ...
+# Subtest: P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor
+ok 21 - P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor
+  ---
+  duration_ms: 2.638827
+  type: 'test'
+  ...
+# Subtest: P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera
+ok 22 - P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera
+  ---
+  duration_ms: 1.018017
+  type: 'test'
+  ...
+# Subtest: P1-C legacy: every directly parsed legacy command is recognized in automatic import mode
+ok 23 - P1-C legacy: every directly parsed legacy command is recognized in automatic import mode
+  ---
+  duration_ms: 0.444256
+  type: 'test'
+  ...
+# Subtest: P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable
+ok 24 - P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable
+  ---
+  duration_ms: 0.506569
+  type: 'test'
+  ...
+# Subtest: P1-C branches: nested conditions, both choice routes and rejoin retain variables, labels and IDs after round-trip
+ok 25 - P1-C branches: nested conditions, both choice routes and rejoin retain variables, labels and IDs after round-trip
+  ---
+  duration_ms: 10.429119
+  type: 'test'
+  ...
+# Subtest: P1-C targets: null, blank, missing, hidden, aliases, custom and numeric IDs are resolved without guessing
+ok 26 - P1-C targets: null, blank, missing, hidden, aliases, custom and numeric IDs are resolved without guessing
+  ---
+  duration_ms: 0.715553
+  type: 'test'
+  ...
+# Subtest: P1-C missing labels: diagnostics retain unresolved destinations and playback stops rather than picking a label
+ok 27 - P1-C missing labels: diagnostics retain unresolved destinations and playback stops rather than picking a label
+  ---
+  duration_ms: 0.509104
+  type: 'test'
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 27
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 9179.179905

@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: P1-C reference: 音樂
+ok 1 - P1-C reference: 音樂
+  ---
+  duration_ms: 13.182256
+  type: 'test'
+  ...
+# Subtest: P1-C reference schema: 35 entries each retain all 15 required documentation fields
+ok 2 - P1-C reference schema: 35 entries each retain all 15 required documentation fields
+  ---
+  duration_ms: 10.8679
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 119.497072

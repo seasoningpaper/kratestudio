@@ -1,0 +1,85 @@
+{
+  "baseline": "0cb21b6723ac6962b97200657169061bc26df1d0",
+  "htmlUnchangedExceptCache": true,
+  "method": "JSDOM legacy DOM comparison excluding input socket metadata; all existing CSS rules byte-identical; only new value/multiline selectors appended; no raster screenshots",
+  "results": [
+    {
+      "scenario": "basic",
+      "language": "zh-TW",
+      "equal": true,
+      "sha256": "7ac6ab3362d83a948b2a0c58f21e778096382cb0cb892702b88b55d56721d727"
+    },
+    {
+      "scenario": "basic",
+      "language": "en",
+      "equal": true,
+      "sha256": "b8e3eee3c06e58201ab574073ce072dc91866e171e425ca399dd686c8105fd9b"
+    },
+    {
+      "scenario": "nested",
+      "language": "zh-TW",
+      "equal": true,
+      "sha256": "3ebe12215909f3f4e3257adfc61adcf9c70db0f22b214b00149bb71076a34524"
+    },
+    {
+      "scenario": "nested",
+      "language": "en",
+      "equal": true,
+      "sha256": "cde1bf7f3e8d7f5503baa6af69d358abb3fc965c07be050e939e17f5f5deca0f"
+    },
+    {
+      "scenario": "choice",
+      "language": "zh-TW",
+      "equal": true,
+      "sha256": "a201c19e54788d271ed537d6da4d003525ef6077acea71eab66ca88e5a572afd"
+    },
+    {
+      "scenario": "choice",
+      "language": "en",
+      "equal": true,
+      "sha256": "78579e66d325213b94da9dd3b26972ec45f12d232b72024ea1c9741d20337f85"
+    },
+    {
+      "scenario": "floating",
+      "language": "zh-TW",
+      "equal": true,
+      "sha256": "edcad56c43ff3c7ad30ed88c9c9ab2578e736d146f5c834b8064f4c53b009d80"
+    },
+    {
+      "scenario": "floating",
+      "language": "en",
+      "equal": true,
+      "sha256": "348c5ada1270feffc5b7b1a360ffacf30927cd6d5b6fdcf7a496aa08c6236968"
+    },
+    {
+      "scenario": "empty",
+      "language": "zh-TW",
+      "equal": true,
+      "sha256": "c6a18b1b982e6e95cff43c1f564ccba666ce138f7d5b9c09e596d5190be7f351"
+    },
+    {
+      "scenario": "empty",
+      "language": "en",
+      "equal": true,
+      "sha256": "4007ccaa2153b1e09ded0c7976ec0154a537b80eaf6add05822b830e04a699f9"
+    }
+  ],
+  "css": [
+    {
+      "path": "src/game-skins.css",
+      "equal": true,
+      "sha256": "c6b0c8c424ed0132412b1b6aeb9db56dd50f0dfb315edc97ddc75522401863a9"
+    },
+    {
+      "path": "dist/style.css",
+      "existingRulesEqual": true,
+      "appendedBytes": 508,
+      "sha256": "451a7b71652370826b061b35ede1c04c58c53c98b865ccfb6e034d0845c80181"
+    },
+    {
+      "path": "dist/player.css",
+      "equal": true,
+      "sha256": "65c451b70fd38010da49ff89ebc9049081c743673e4e2a717689bfa7e4a0f7fa"
+    }
+  ]
+}

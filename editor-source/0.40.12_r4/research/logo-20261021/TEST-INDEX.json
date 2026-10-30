@@ -1,0 +1,245 @@
+{
+  "uniquePassed": 21,
+  "unresolvedFailures": 0,
+  "cases": [
+    {
+      "name": "official originals are byte-for-byte the two uploaded files and remain separate from deploy assets",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 30.651495
+        }
+      ]
+    },
+    {
+      "name": "transparent rasters and icons contain actual alpha, correct dimensions and only the original symbol",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 627.263583
+        }
+      ]
+    },
+    {
+      "name": "header and application markup stay identical outside brand button, cache keys and favicon links",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 2290.681402
+        }
+      ]
+    },
+    {
+      "name": "logo-only CSS removes the previous recoloring filter while preserving every header and responsive rule",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 117.73683
+        }
+      ]
+    },
+    {
+      "name": "both logo assets are fetched up front and remain hidden until the stored theme has initialized",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 459.978261
+        }
+      ]
+    },
+    {
+      "name": "all existing light and dark presets switch the correct logo without changing src, palette or project data",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 28749.245706
+        }
+      ]
+    },
+    {
+      "name": "persisted dark preference is restored by a fresh document using the real storage and startup path",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 3972.032228
+        }
+      ]
+    },
+    {
+      "name": "clean logo click uses the existing project hub, focuses the current project and never reloads or initializes a project",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 1938.484996
+        },
+        {
+          "file": "NAV-final.tap",
+          "elapsedMs": 1797.50723
+        }
+      ]
+    },
+    {
+      "name": "dirty navigation cancellation preserves the active editor, event IDs, data, history and existing draft",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 1339.123256
+        },
+        {
+          "file": "NAV-final.tap",
+          "elapsedMs": 1150.444261
+        }
+      ]
+    },
+    {
+      "name": "confirmed navigation preserves pending source and rapid click/touch events ask only once",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 823.086582
+        },
+        {
+          "file": "NAV-final.tap",
+          "elapsedMs": 893.846456
+        }
+      ]
+    },
+    {
+      "name": "saved but unapplied program drafts and failed saves still request the existing confirmation dialog",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 897.626868
+        },
+        {
+          "file": "NAV-final.tap",
+          "elapsedMs": 999.728732
+        }
+      ]
+    },
+    {
+      "name": "secondary mouse buttons do not navigate; Enter/Space remain native accessible button activation",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 886.303446
+        },
+        {
+          "file": "NAV-final.tap",
+          "elapsedMs": 541.215787
+        }
+      ]
+    },
+    {
+      "name": "favicon paths reference only needed transparent 16/32/180 PNGs and no new PWA or user-game logo is introduced",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "LOGO-built-final.tap",
+          "elapsedMs": 604.057712
+        }
+      ]
+    },
+    {
+      "name": "translated unsaved status cannot bypass logo navigation confirmation",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "NAV-final.tap",
+          "elapsedMs": 1906.6601
+        }
+      ]
+    },
+    {
+      "name": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "REGRESSION.tap",
+          "elapsedMs": 1804.874937
+        }
+      ]
+    },
+    {
+      "name": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "REGRESSION.tap",
+          "elapsedMs": 968.487412
+        }
+      ]
+    },
+    {
+      "name": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "REGRESSION.tap",
+          "elapsedMs": 1360.958932
+        }
+      ]
+    },
+    {
+      "name": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "REGRESSION.tap",
+          "elapsedMs": 2198.284143
+        }
+      ]
+    },
+    {
+      "name": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "REGRESSION.tap",
+          "elapsedMs": 1450.265901
+        }
+      ]
+    },
+    {
+      "name": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "REGRESSION.tap",
+          "elapsedMs": 1989.583583
+        }
+      ]
+    },
+    {
+      "name": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "status": "passed",
+      "evidence": [
+        {
+          "file": "REGRESSION.tap",
+          "elapsedMs": 1678.181213
+        }
+      ]
+    }
+  ],
+  "syntax": [
+    "dist/app.js",
+    "worker/index.js",
+    "dist/server/index.js"
+  ],
+  "build": "BUILD-final.log + WORKER-final.log; ESM validation passed",
+  "workerAssets": 29,
+  "initialFailures": "LOGO-first two environment assertions, resolved; preserved history",
+  "manual": "See MANUAL-ACCEPTANCE.md; not passed by automation"
+}

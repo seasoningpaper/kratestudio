@@ -1,0 +1,7 @@
+{
+  "assetCount": 30,
+  "allAssetsExact": true,
+  "rootStatus": 200,
+  "version": "0.40.11_r3",
+  "scope": "local Worker fetch; no production/browser verification"
+}

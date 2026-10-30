@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo
+ok 1 - R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo
+  ---
+  duration_ms: 1120.358507
+  type: 'test'
+  ...
+# Subtest: auto arrange clears old coordinates and immediately fits the freshly arranged visible nodes
+ok 2 - auto arrange clears old coordinates and immediately fits the freshly arranged visible nodes
+  ---
+  duration_ms: 632.076464
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2468.350406

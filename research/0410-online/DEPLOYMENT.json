@@ -1,0 +1,38 @@
+{
+  "version": "0.41.0 線上公開測試版",
+  "design": "SoftFlow 1",
+  "siteVersion": 62,
+  "projectId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_08c13b0b149081919820c5d4a77e504b",
+  "deployment": {
+    "id": "appgdep_6adb810e774481919e35569f947ac97a",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 視覺化故事創作平台 0.41.0 — 線上公開測試版",
+    "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_08c13b0b149081919820c5d4a77e504b",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad04b4f4db081918fe4a0e9d541130f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-23T15:45:32.670872+00:00"
+  },
+  "source": "baf3da10fedb9ec4fbb74dbc4f90ae04be9e1699",
+  "accessMode": "public (preserved)",
+  "rollback": {
+    "siteVersion": 61,
+    "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_12f1906f9e988191beaa02938de23991",
+    "source": "3fa39c9a7e8c9f0bb27b26cb5c4c929ad385f4b6"
+  },
+  "qa": {
+    "automatedPassed": 111,
+    "workerAssetsExact": 38,
+    "productionBrowser": "not executed: managed preview browser cannot reach deployment URLs",
+    "touchDevice": "pending",
+    "audioListening": "pending",
+    "frame240fps": "pending"
+  },
+  "desktopStatus": "retained dev.2; not Windows production acceptance"
+}

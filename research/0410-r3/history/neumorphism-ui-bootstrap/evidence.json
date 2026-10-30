@@ -1,0 +1,22 @@
+{
+  "repo": "themesberg/neumorphism-ui-bootstrap",
+  "snapshotCommit": "ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "snapshotDate": "2020-12-21T18:25:58Z",
+  "evidence": "https://github.com/themesberg/neumorphism-ui-bootstrap/commit/ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "source": "https://github.com/themesberg/neumorphism-ui-bootstrap/tree/ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "files": [
+    "LICENSE",
+    "src/scss/neumorphism/_variables.scss",
+    "src/scss/neumorphism/components/_buttons.scss",
+    "src/scss/neumorphism/components/_custom-forms.scss",
+    "src/scss/neumorphism/components/_forms.scss",
+    "src/scss/neumorphism/components/_input-group.scss",
+    "src/scss/neumorphism/components/_nav.scss",
+    "src/scss/neumorphism/layout/_navbar.scss",
+    "src/scss/neumorphism/mixins/_buttons.scss",
+    "src/scss/neumorphism/mixins/_forms.scss",
+    "src/scss/neumorphism/mixins/_transform.scss",
+    "src/scss/neumorphism/utilities/_shadows.scss"
+  ],
+  "status": "source-downloaded-not-yet-reviewed"
+}

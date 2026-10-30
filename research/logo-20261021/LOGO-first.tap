@@ -1,0 +1,57 @@
+✔ official originals are byte-for-byte the two uploaded files and remain separate from deploy assets (26.68401ms)
+✔ transparent rasters and icons contain actual alpha, correct dimensions and only the original symbol (236.819808ms)
+✔ header and application markup stay identical outside brand button, cache keys and favicon links (267.858689ms)
+✔ logo-only CSS removes the previous recoloring filter while preserving every header and responsive rule (126.092572ms)
+✖ both logo assets are fetched up front and remain hidden until the stored theme has initialized (252.769466ms)
+✖ all existing light and dark presets switch the correct logo without changing src, palette or project data (1112.97433ms)
+✔ persisted dark preference is restored by a fresh document using the real storage and startup path (2616.046314ms)
+✔ clean logo click uses the existing project hub, focuses the current project and never reloads or initializes a project (1078.410817ms)
+✔ dirty navigation cancellation preserves the active editor, event IDs, data, history and existing draft (583.747831ms)
+✔ confirmed navigation preserves pending source and rapid click/touch events ask only once (514.825738ms)
+✔ saved but unapplied program drafts and failed saves still request the existing confirmation dialog (648.195217ms)
+✔ secondary mouse buttons do not navigate; Enter/Space remain native accessible button activation (503.482803ms)
+✔ favicon paths reference only needed transparent 16/32/180 PNGs and no new PWA or user-game logo is introduced (423.242286ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 11
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10647.859976
+
+✖ failing tests:
+
+test at tests/official-logo.test.mjs:51:1
+✖ both logo assets are fetched up front and remain hidden until the stored theme has initialized (252.769466ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(images.every(im=>im.src.includes('/assets/brand/')&&!im.hasAttribute('loading')))
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/official-logo.test.mjs:56:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/official-logo.test.mjs:60:1
+✖ all existing light and dark presets switch the correct logo without changing src, palette or project data (1112.97433ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  '' !== 'block'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/official-logo.test.mjs:62:322)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: 'block',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,1282 @@
+{
+  "uniquePassed": 113,
+  "unresolvedFinalAutomatedFailures": 0,
+  "syntax": 12,
+  "workerAssets": 30,
+  "evidenceLogs": [
+    "Fix02-final.tap",
+    "Fix03-final.tap",
+    "Fix04-first.tap",
+    "Fix04-assets.tap",
+    "Fix05-first.tap",
+    "Fix06-final.tap",
+    "Fix07-integration.tap",
+    "Fix07-brand.tap",
+    "Fix07-legacy-assets.tap",
+    "Fix07-import.tap",
+    "Fix07-export.tap",
+    "Fix07-storage.tap"
+  ],
+  "cases": [
+    {
+      "name": "Fix-02 actual measured content can shrink a detailed character block below the estimated 310px",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 1.198515
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1.546484
+        }
+      ]
+    },
+    {
+      "name": "Fix-02 intrinsic measurement uses unscaled content, expands then shrinks and keeps connector padding",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 0.46507
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 0.279121
+        }
+      ]
+    },
+    {
+      "name": "Fix-02 dialogue captions and controls remain separate layout units, with auto-sized multiline text",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 550.934722
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 611.461394
+        }
+      ]
+    },
+    {
+      "name": "P0-B legal independent nested stacks are validated by ownership rather than flat array order",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 2.493906
+        }
+      ]
+    },
+    {
+      "name": "P0-B default tail includes section markers, while single extraction heals and reconnects by identity",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 0.485891
+        }
+      ]
+    },
+    {
+      "name": "P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 554.49503
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 682.876943
+        }
+      ]
+    },
+    {
+      "name": "P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 484.21509
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 512.448353
+        }
+      ]
+    },
+    {
+      "name": "P0-C string sockets retain exact Unicode, newlines, quotes, voice/speed, fallback and serialize in KOI Script",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 12.704152
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 13.013509
+        }
+      ]
+    },
+    {
+      "name": "P0-C moving and replacing a value keeps one owner, preserves displaced values, and rejects illegal slots atomically",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 1.49451
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 1.538465
+        }
+      ]
+    },
+    {
+      "name": "P0-C text variables interpolate and number expressions retain existing runtime semantics",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 1.928865
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 2.83802
+        }
+      ]
+    },
+    {
+      "name": "P0-C copied value sockets get fresh identities and never change the original template",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 0.842599
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.988778
+        }
+      ]
+    },
+    {
+      "name": "P0-C intrinsic field measurement expands and shrinks, and reflow supplies the actual snap connector at every zoom",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 0.588917
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.674534
+        }
+      ]
+    },
+    {
+      "name": "P0-C string values beginning with equals stay literal and edits preserve the attached identity",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix02-final.tap",
+          "ms": 1.588442
+        },
+        {
+          "log": "Fix03-final.tap",
+          "ms": 1.384252
+        }
+      ]
+    },
+    {
+      "name": "Fix-03 primitive animation numeric and boolean sockets reject incompatible or unevaluated values atomically",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 2.540672
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 3.189689
+        }
+      ]
+    },
+    {
+      "name": "Fix-03 child detach, primitive editing and independent copies retain fallbacks and exact script/runtime semantics",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 11.265309
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 14.664916
+        }
+      ]
+    },
+    {
+      "name": "Fix-03 actual numeric/boolean modules share global Undo/Redo and survive project save and reload",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 922.419534
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 914.459982
+        }
+      ]
+    },
+    {
+      "name": "Fix-03 detaching an optional module restores absence and runtime defaults after JSON reload",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.884621
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1.117777
+        }
+      ]
+    },
+    {
+      "name": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 1.55527
+        }
+      ]
+    },
+    {
+      "name": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 13.204397
+        }
+      ]
+    },
+    {
+      "name": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.416437
+        }
+      ]
+    },
+    {
+      "name": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.302766
+        }
+      ]
+    },
+    {
+      "name": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 2.407072
+        }
+      ]
+    },
+    {
+      "name": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.597499
+        }
+      ]
+    },
+    {
+      "name": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 2.504678
+        }
+      ]
+    },
+    {
+      "name": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.967866
+        }
+      ]
+    },
+    {
+      "name": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.376156
+        }
+      ]
+    },
+    {
+      "name": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.315745
+        }
+      ]
+    },
+    {
+      "name": "P0-D invalid or duplicate value identities are rejected before source application",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 0.944341
+        }
+      ]
+    },
+    {
+      "name": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix03-final.tap",
+          "ms": 46.786135
+        }
+      ]
+    },
+    {
+      "name": "Fix-04 asset options keep stable IDs, distinguish duplicate filenames and explicitly retain missing references",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 1.900947
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1.37805
+        },
+        {
+          "log": "Fix07-legacy-assets.tap",
+          "ms": 1.537159
+        }
+      ]
+    },
+    {
+      "name": "Fix-04 voice classification retains legacy unclassified and current wrong-role IDs without guessing substitutions",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.340564
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 0.40439
+        },
+        {
+          "log": "Fix07-legacy-assets.tap",
+          "ms": 0.351068
+        }
+      ]
+    },
+    {
+      "name": "Fix-04 positional aliases stay strict and numeric zero is a real actor key, never a falsy no-target",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.876582
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 0.849152
+        },
+        {
+          "log": "Fix07-legacy-assets.tap",
+          "ms": 0.610658
+        }
+      ]
+    },
+    {
+      "name": "Fix-04 valid multi-actor targets survive cross-chapter jump, repeated show/hide and save/load; real ambiguity remains an error",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 2.268833
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1.823582
+        },
+        {
+          "log": "Fix07-legacy-assets.tap",
+          "ms": 2.365634
+        }
+      ]
+    },
+    {
+      "name": "Fix-04 event Inspector and block voice options share values and keep an absent voice selected",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 617.408456
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 700.294318
+        },
+        {
+          "log": "Fix07-legacy-assets.tap",
+          "ms": 660.69015
+        }
+      ]
+    },
+    {
+      "name": "R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 910.623974
+        }
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: waiting exit cleans only A in real Player and preserves B",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 607.639782
+        }
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: parallel exit cleans only A in real Player and preserves B",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 520.890524
+        }
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 827.163961
+        }
+      ]
+    },
+    {
+      "name": "R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 300.414238
+        }
+      ]
+    },
+    {
+      "name": "R2-B: waiting exit retains target until completion, never removes other actors in same slot",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 2.758704
+        }
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle fadeOut",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.378999
+        }
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitLeft",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.278759
+        }
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitRight",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.197486
+        }
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitUp",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.267301
+        }
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitDown",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.229024
+        }
+      ]
+    },
+    {
+      "name": "R2-B: legacy no-animation hide is immediate and isolates its exact key",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.203977
+        }
+      ]
+    },
+    {
+      "name": "R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.408394
+        }
+      ]
+    },
+    {
+      "name": "R2-B: unique positional aliases work; exact numeric custom IDs take priority",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.437808
+        }
+      ]
+    },
+    {
+      "name": "R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.340362
+        }
+      ]
+    },
+    {
+      "name": "R2-B: scene clear cancels pending exits; seeking past exit restores settled state",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.409375
+        }
+      ]
+    },
+    {
+      "name": "R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 0.529095
+        }
+      ]
+    },
+    {
+      "name": "R2-B: repeated show/hide with expression, layer and wait stays independent across script copy",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 10.302675
+        }
+      ]
+    },
+    {
+      "name": "R2-B: native and legacy none syntax remain compatible and native directional exits are executable",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-first.tap",
+          "ms": 3.04904
+        }
+      ]
+    },
+    {
+      "name": "R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-assets.tap",
+          "ms": 742.42308
+        }
+      ]
+    },
+    {
+      "name": "R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-assets.tap",
+          "ms": 2.130589
+        }
+      ]
+    },
+    {
+      "name": "R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-assets.tap",
+          "ms": 0.7574
+        }
+      ]
+    },
+    {
+      "name": "R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-assets.tap",
+          "ms": 0.580625
+        }
+      ]
+    },
+    {
+      "name": "R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-assets.tap",
+          "ms": 0.566673
+        }
+      ]
+    },
+    {
+      "name": "R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix04-assets.tap",
+          "ms": 0.515666
+        }
+      ]
+    },
+    {
+      "name": "Fix-05 reference warning distinguishes cross-chapter jumps and choices from numeric actor IDs",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 1.573026
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1.527696
+        }
+      ]
+    },
+    {
+      "name": "Fix-05 single trash cancels without changes then deletes only its event and supports full Undo",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 564.79655
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 585.069897
+        }
+      ]
+    },
+    {
+      "name": "Fix-05 cross-chapter reference risk is confirmed before deleting and Undo restores exact destination",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 382.438137
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 354.692748
+        }
+      ]
+    },
+    {
+      "name": "Fix-05 pending delete is cancelled if its event or chapter changes; repeat group delete has no undefined guards",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 323.845822
+        },
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 303.781786
+        }
+      ]
+    },
+    {
+      "name": "C2: checkbox selection, active editing, all and clear remain independent without touching canonical events",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 949.952215
+        }
+      ]
+    },
+    {
+      "name": "C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 756.484771
+        }
+      ]
+    },
+    {
+      "name": "C2: section checkbox participates in selection; closed groups do not hide a newly located cursor",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 675.762716
+        }
+      ]
+    },
+    {
+      "name": "C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 788.208789
+        }
+      ]
+    },
+    {
+      "name": "C2: batch move preserves order, unknown fields and incoming cross-chapter destinations",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 755.409847
+        }
+      ]
+    },
+    {
+      "name": "C2: batch delete requires confirmation, clears dangling branch targets and is undoable",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 644.688949
+        }
+      ]
+    },
+    {
+      "name": "C2: changing chapters while deletion is pending cancels the old operation",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 648.104003
+        }
+      ]
+    },
+    {
+      "name": "C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 717.891684
+        }
+      ]
+    },
+    {
+      "name": "C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 697.392694
+        }
+      ]
+    },
+    {
+      "name": "C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 698.645475
+        }
+      ]
+    },
+    {
+      "name": "C2: bounded 500-event list selection and bulk movement retain all event semantics",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 1179.656534
+        }
+      ]
+    },
+    {
+      "name": "C2: bounded 1000-event list selection and bulk movement retain all event semantics",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 1706.115768
+        }
+      ]
+    },
+    {
+      "name": "C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix05-first.tap",
+          "ms": 730.608028
+        }
+      ]
+    },
+    {
+      "name": "Fix-06 logo opens an actual project-home work page and returns to the same editor without resetting history",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 502.998228
+        }
+      ]
+    },
+    {
+      "name": "Fix-06 logo confirms unsaved state or drafts; cancellation keeps editor, confirmation preserves exact project and Undo",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 412.835174
+        }
+      ]
+    },
+    {
+      "name": "Fix-06 project-home opens a stored project through existing switchProject and preserves the prior project",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 250.704818
+        }
+      ]
+    },
+    {
+      "name": "Fix-06 source protection retains official logos, colors, block silhouettes and original header/media rules",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 48.750252
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 704.185356
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first game-template gesture",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 581.033918
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 409.689939
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first menu-template gesture",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 478.49832
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a menu-template draft",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 396.484395
+        }
+      ]
+    },
+    {
+      "name": "C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 482.394342
+        }
+      ]
+    },
+    {
+      "name": "C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 540.489873
+        }
+      ]
+    },
+    {
+      "name": "C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 465.791742
+        }
+      ]
+    },
+    {
+      "name": "C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 791.11683
+        }
+      ]
+    },
+    {
+      "name": "C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 781.610841
+        }
+      ]
+    },
+    {
+      "name": "C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 722.878739
+        }
+      ]
+    },
+    {
+      "name": "C4: viewport resize cancels both template drafts without committing partial coordinates",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix06-final.tap",
+          "ms": 756.809132
+        }
+      ]
+    },
+    {
+      "name": "C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 30.401775
+        }
+      ]
+    },
+    {
+      "name": "C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 81.163357
+        }
+      ]
+    },
+    {
+      "name": "C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 137.535612
+        }
+      ]
+    },
+    {
+      "name": "C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1411.02155
+        }
+      ]
+    },
+    {
+      "name": "C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1887.871235
+        }
+      ]
+    },
+    {
+      "name": "C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 2852.746827
+        }
+      ]
+    },
+    {
+      "name": "C6 unsupported future event fails explicitly before source apply rather than being silently deleted",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 1.644378
+        }
+      ]
+    },
+    {
+      "name": "C6 CRUD 50: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 6.923191
+        }
+      ]
+    },
+    {
+      "name": "C6 CRUD 300: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 16.303204
+        }
+      ]
+    },
+    {
+      "name": "C6 CRUD 500: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-integration.tap",
+          "ms": 39.063376
+        }
+      ]
+    },
+    {
+      "name": "official originals are byte-for-byte the two uploaded files and remain separate from deploy assets",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-brand.tap",
+          "ms": 7.37995
+        }
+      ]
+    },
+    {
+      "name": "transparent rasters and icons contain actual alpha, correct dimensions and only the original symbol",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-brand.tap",
+          "ms": 80.048047
+        }
+      ]
+    },
+    {
+      "name": "all existing light and dark presets switch the correct logo without changing src, palette or project data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-brand.tap",
+          "ms": 3737.42444
+        }
+      ]
+    },
+    {
+      "name": "persisted dark preference is restored by a fresh document using the real storage and startup path",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-brand.tap",
+          "ms": 557.618143
+        }
+      ]
+    },
+    {
+      "name": "Fix-04 legacy unknown audio role labels remain selectable as unclassified without changing IDs or metadata",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-legacy-assets.tap",
+          "ms": 0.503727
+        }
+      ]
+    },
+    {
+      "name": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-import.tap",
+          "ms": 1502.107107
+        }
+      ]
+    },
+    {
+      "name": "r3 exported playable game ZIP preserves the project and embeds current generator",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-export.tap",
+          "ms": 1012.841639
+        }
+      ]
+    },
+    {
+      "name": "legacy Base64 project migrates only after durable save and verification",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-storage.tap",
+          "ms": 8.988136
+        }
+      ]
+    },
+    {
+      "name": "transaction failures leave the previous project and files intact",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-storage.tap",
+          "ms": 5.291866
+        }
+      ]
+    },
+    {
+      "name": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-storage.tap",
+          "ms": 1.270109
+        }
+      ]
+    },
+    {
+      "name": "font files and screen image references survive durable save and portable export",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "Fix07-storage.tap",
+          "ms": 4.547281
+        }
+      ]
+    }
+  ],
+  "notCountedAsPassed": [
+    "真人瀏覽器排版",
+    "實機觸控／鍵盤原生行為",
+    "音訊聽感",
+    "使用者原專案fig-right／fig-center錯誤",
+    "完整巢狀值積木／素材reporter模組",
+    "全部模板表單響應式"
+  ],
+  "initialFailuresPreserved": [
+    "Fix02-before.tap",
+    "Fix02-after.tap",
+    "Fix06-first.tap"
+  ],
+  "method": "完整測試名稱去重，不加總歷史173、Logo21或多次重跑"
+}

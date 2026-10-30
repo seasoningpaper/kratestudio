@@ -1,0 +1,1582 @@
+{
+  "uniquePassed": 243,
+  "knownUnresolvedTestFailures": 0,
+  "scope": "模型、JSDOM、離線格式與模擬IndexedDB，不等同真人驗收",
+  "runs": [
+    {
+      "log": "c1-baseline.txt",
+      "pass": 39,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c2-fixed1.txt",
+      "pass": 48,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c2-player-audio-ui.txt",
+      "pass": 57,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c2-engine-features.txt",
+      "pass": 47,
+      "failAtThatRun": 1
+    },
+    {
+      "log": "c2-legacy-wait-test-corrected.txt",
+      "pass": 1,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c3-assets-fixed1.txt",
+      "pass": 6,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c3-storage-regression.txt",
+      "pass": 4,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c3-app-import-package.txt",
+      "pass": 1,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c4-reference-tests1.txt",
+      "pass": 51,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c5-integration.txt",
+      "pass": 35,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c5-visual-contract.txt",
+      "pass": 2,
+      "failAtThatRun": 0
+    },
+    {
+      "log": "c5-audio-model.txt",
+      "pass": 7,
+      "failAtThatRun": 0
+    }
+  ],
+  "cases": [
+    {
+      "name": "actor isolation: explicit waiting animations remain sequential engine steps with separate durations",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: a new character cue without motion does not replay the previous one-shot",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: nested placement in visual state never aliases authored event parameters",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: numeric actor IDs survive event reordering as strings",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: every existing motion targets one actor without replacing or restarting other actors",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: moving A to center does not delete another actor already in that position",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: simultaneous A/B/C cues keep separate targets, durations and replay tokens",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "sound track persists across dialogue changes, independently replaces voice, and stops explicitly",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt",
+        "c5-audio-model.txt"
+      ]
+    },
+    {
+      "name": "same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt",
+        "c5-audio-model.txt"
+      ]
+    },
+    {
+      "name": "ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt",
+        "c5-audio-model.txt"
+      ]
+    },
+    {
+      "name": "KOI sound loops and selective/all stops compile to runtime events",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt",
+        "c5-audio-model.txt"
+      ]
+    },
+    {
+      "name": "KOI event source round-trips attributes, quotes, semicolons and existing numeric branches",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt",
+        "c5-audio-model.txt"
+      ]
+    },
+    {
+      "name": "options, GUI, screens and modules apply to the same project with real activity references",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt",
+        "c5-audio-model.txt"
+      ]
+    },
+    {
+      "name": "continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt",
+        "c5-audio-model.txt"
+      ]
+    },
+    {
+      "name": "input, interpolation, branching, and rollback restore the complete variable state",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "save/load preserves state, actors, history, background, and variables",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "logic loops are bounded and cross chapter jumps execute",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "visual and audio control events are applied before dialogue",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "save data follows stable event IDs after inserting a scene event",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "preview from a selected line restores preceding scene and character state",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D invalid or duplicate value identities are rejected before source application",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "logs": [
+        "c1-baseline.txt",
+        "c2-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C branch: missing condition destinations and broken next references never fall into another event",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C legacy: every directly parsed legacy command is recognized in automatic import mode",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C branches: nested conditions, both choice routes and rejoin retain variables, labels and IDs after round-trip",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C targets: null, blank, missing, hidden, aliases, custom and numeric IDs are resolved without guessing",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C missing labels: diagnostics retain unresolved destinations and playback stops rather than picking a label",
+      "logs": [
+        "c2-fixed1.txt",
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "legacy desktop geometry is preserved while mobile defaults have two rows and independent overrides",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "project categories are text only and designer edits, resets and saves phone and desktop separately",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "phone player preserves the portrait canvas ratio and switching preview layouts preserves progress and saves",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "editor preview selector controls playback and standalone auto layout omits editor controls",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "deleting artwork or fonts detaches both layout profiles without editing the source object",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "profile feature visibility, title styling and orientation persist independently",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "canvas dimensions and typography fit portrait and landscape viewports without rotation gates",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "game menus share the selected canvas profile and navigate without resetting progress",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "portrait phone can use every desktop game-menu page, with legacy rotation preferences ignored",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A screen background profiles, template export and asset references remain separate",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A game designer selects library backgrounds, creates one missing background and persists configuration",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A title library background, fit and position reach desktop/mobile designer and player",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A importing a background in game designer keeps the asset and one new background through portable restore",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-A mobile menu background saves independently and reloads alongside title and scene defaults",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B linked stack disconnect plays before release exactly once and cancellation preserves data",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B single-block extraction sounds before release and empty drop does not repeat disconnect",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B context extraction still plays immediately and only after a successful detach",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B dragging a tail out of a floating stack detects its real external connection",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B opening CG/music gallery preserves the existing title BGM instance and playback position",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B gallery preview volume follows master/music/mute plus its own gain",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B gallery audio rejection keeps BGM focus and reports an error without throwing",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B game BGM also continues while viewing CG and respects gallery focus after returning",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B muted preference is also applied to gallery music and remains muted after resuming BGM",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "P1-B an explicit script music stop is not undone when gallery music ends",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "player title, quick save/load, history, settings, ending collection, and nine save slots",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "standalone guest runtime launches safely without the editor or return-to-maker control",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "ten direct controls, seen-only skip, hide restore, home resume, and choice stop",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "grouped settings apply and persist text, display, audio and reset preferences",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "automatic advance waits for voice completion",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "click template completes into a score variable and custom iframe validates its sender",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "resource database inserts playable templates and applies sprite presets to editor and player",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "memory template can be solved through visible card values and returns a score",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "CG hides actors temporarily and explicit background clear removes them in editor and player",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "project feature switches hide selected player controls and keep configured controls usable",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "event picker has a persistent SVG close key; X cancels without creating an event",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "video import verifies metadata, saves binary files, reloads, exports correct MP4 and unlinks every use",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "native and legacy video scripts resolve filenames, register missing assets and stop at video before dialogue",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "startup logos and videos play in order, title video loops, event video advances only when finished, and home does not replay opening",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "autoplay rejection offers a themed play action and broken title video falls back to the title background",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "opening settings append, reorder and delete logo/movie entries, and assign a homepage video",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "returning to the same video event restarts the media rather than leaving the finished frame stuck",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "opening effects persist separately for logos and videos using the existing settings layout",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "logo entry, hold and exit run in order; repeated skip cannot skip the next opening item",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "opening video fades before its trimmed endpoint, then advances once despite ended and repeated clicks",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "reduced motion skips opening animation durations while keeping logo hold time and no skip label",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "opening reorder controls use SVG arrows and keep accessible labels and ordering behavior",
+      "logs": [
+        "c2-player-audio-ui.txt"
+      ]
+    },
+    {
+      "name": "each activity template is independently named and has stable editable item IDs",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "map spends AP, advances period/date, persists results and jumps to stable event IDs",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "map rejects insufficient AP and invalid destinations without partially changing state",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "investigation grants only authored evidence and SNS records only authored posts",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "QTE completion selects success/failure events and cannot silently skip without an explicit result",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "stack detach/attach moves the full tail and preserves animation targets and numeric story edges",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "sections remain in one continuous vertical story stack without overlapping",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "reordering or pasting animations never converts their actor targets into NaN; detached copies have distinct stack IDs",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "camera, model, weather and postprocessing compose and survive save/load",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "music crossfade keeps desired stems, fades removed sources, respects volume and disposes channels",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "activity artwork and call audio join resource references and can be safely unlinked",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "rest restores daily AP and advances calendar without requiring a clickable location",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "KOI text imports interactive modules, camera, weather, filters and renderer references without becoming dialogue",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "same-slot replacement removes stale sprites, inherits placement, and supports explicit overlay",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "connections control gameplay, cut branches stop, and reorder preserves destinations",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "named sections retain original indices and aggregate event, option and extension counts",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "mobile port dragging changes the real destination; wire removal and undo restore it",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "user sections replace numbered groups and preferences persist in the project",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "image editor saves one asset identity and event shortcut opens the selected image",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "themed dialogs queue, cancel safely, restore focus, trap Tab and accept entered text",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "event chooser cancellation changes no nodes and chosen category creates the actual event",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "title menus hide gameplay history and saves; cancel then accept a save deletion through themed UI",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "toolbar presets stay inside canvas, preserve original artwork layouts and isolate the other device",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "alignment, equal gaps and snapping use selected geometry without changing artwork",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "chapter links skip chapters, end explicitly, continue from endings, survive saves and stop empty cycles",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "custom audio playback replaces native controls and starting another track pauses the first",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "WebGAL command import preserves options, transforms, voices and missing scene diagnostics",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "all imported stage actions execute and survive save/rollback in sequence",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "unresolved resources rebind after folder import and explicit manual selections stay intact",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "multi-project storage preserves same-named asset IDs and reloads the active project",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "plus creates a separate project, examples switch to full-name projects, sidebar restores and themes cover surfaces",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "command importer previews diagnostics and opens the imported script as a new story tab",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "auto arrange clears old coordinates and immediately fits the freshly arranged visible nodes",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "top tab strip drags without selecting another tab, and white themes retain readable accent",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "player renders imported intro, actor avatar and timed fades without leaving the game canvas",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "unresolved branch names cause a visible runtime error instead of a guessed destination",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "native conditional import cannot silently jump to the beginning with a missing label",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "the downloadable native text example imports and both branches reach its ending",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "bounded operators handle numeric, boolean and string reporters without evaluating code",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "nested counted loops run, save and rollback in the shared runtime; copied loops retain their own pairing",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "blocks edit the same dialogue as event and flow modes, and loop insertion is visible in every mode",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "seven text-only tools retain all features, twelve themes recolor the editor and English preserves authored text",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "video trim, speed and delayed skip apply to runtime and finish at the edited endpoint",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "flow grid settings persist and navigation controls stay in the top toolbar",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "tool page headings, form labels and help switch language while variable names and authored asset names remain unchanged",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "English player menus and save pages localize without translating authored story or custom button labels",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "block reorder animates the moved stack and keeps the same event content",
+      "logs": [
+        "c2-engine-features.txt"
+      ]
+    },
+    {
+      "name": "native KOI text creates working variables, conditions, dialogue styles and second-based motion",
+      "logs": [
+        "c2-legacy-wait-test-corrected.txt"
+      ]
+    },
+    {
+      "name": "P1-C assets: duplicate or empty storage IDs cannot overwrite durable asset bytes",
+      "logs": [
+        "c3-assets-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P1-C formats: real PNG/JPG/MP3/WAV/MP4 fixture bytes pass offline decoders and supported import paths",
+      "logs": [
+        "c3-assets-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P1-C references: duplicate filenames require unique paths, missing assets diagnose and removing main references is immutable",
+      "logs": [
+        "c3-assets-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P1-C capacity: application-size rejection preserves prior data without allocating multi-gigabyte fixtures",
+      "logs": [
+        "c3-assets-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P1-C pressure: 500 events, 132 assets, durable/portable/ZIP restores and bounded 1000-event compile retain IDs and parameters",
+      "logs": [
+        "c3-assets-fixed1.txt"
+      ]
+    },
+    {
+      "name": "P1-C ZIP collisions: distinct custom asset IDs with the same sanitized filename retain different bytes",
+      "logs": [
+        "c3-assets-fixed1.txt"
+      ]
+    },
+    {
+      "name": "legacy Base64 project migrates only after durable save and verification",
+      "logs": [
+        "c3-storage-regression.txt"
+      ]
+    },
+    {
+      "name": "many images beyond the old localStorage quota save as blobs and reload intact",
+      "logs": [
+        "c3-storage-regression.txt"
+      ]
+    },
+    {
+      "name": "transaction failures leave the previous project and files intact",
+      "logs": [
+        "c3-storage-regression.txt"
+      ]
+    },
+    {
+      "name": "font files and screen image references survive durable save and portable export",
+      "logs": [
+        "c3-storage-regression.txt"
+      ]
+    },
+    {
+      "name": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "logs": [
+        "c3-app-import-package.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 停止音訊",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 互動",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 鏡頭",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 模型",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 天氣",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 濾鏡",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 影片",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 背景",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 立繪",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 動作",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變形",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 對話",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 旁白",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 過場",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 頭像",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 文字框",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音樂",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音效",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖音樂",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖圖片",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 淡幕",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 等待",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 標籤",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 選項",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 跳轉",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變數",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 條件",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 輸入",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 特效",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference: 結束",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 事件資料",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 設定檔",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 遊戲介面檔",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 功能畫面檔",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 互動模組檔",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C reference schema: 35 entries each retain all 15 required documentation fields",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C diagnostic examples: intentional errors have lines and Chinese messages",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "P1-C audio stop: invalid channels diagnose without muting all tracks",
+      "logs": [
+        "c4-reference-tests1.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: designer edits the selected animation event, not the earlier character cue",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "motion controls: hidden waiting animation can be restored by tapping the stage",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "typed variables rename all references, delete safely, and SQL mutations are atomic",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "visual tables and SQL share records, export in project and resolve in runtime dialogue",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "interface geometry clamps to canvas and repeated actor swaps retain new image and motion state",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "game interface designer drag, touch coordinates, labels, hover assets and motion persist through tabs and player",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "variable CRUD and table editor are visual, stay synchronized, and old font preferences do not mask authored styles",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "displayed cards stay aligned to world coordinates within half a physical pixel at every zoom",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "template group movement moves nested slots once and clamps the complete group inside the canvas",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "copying local save elements uses world coordinates and pasting creates independent IDs",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "dropped images retain their aspect ratio in both portrait and landscape logical canvases",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "template text is in logical pixels and image fill never silently stretches artwork",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "migrated default font sizes do not overwrite new creator-authored font choices",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "r2 reduces prior defaults but retains explicitly authored typography from the previous schema",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "imported new typed variables are registered without changing names or existing initial values",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "a backward choice cannot move the first imported node to the bottom, and collapsed groups remove hidden gaps",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "wait events keep dialogue while timing passes, never show editor instructions or log them",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "save browser has nine slots, twelve pages, preserves old slots and grows durably to fifty pages",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "project tools is one reusable tab, project selector is beside the version, and sidebar project CRUD preserves others",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "property variable select retains an imported variable and a single project tool tab retains its script draft",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "custom game fills its canvas without an implementation heading",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "desktop hold and drag reorders tabs without opening another page",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "active project duplication, rename and deletion keep independent assets and leave a usable last project",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "validation respects external option chapters, diagnoses typed arithmetic, and repaired imported conditions play",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "editing an animation target retains its actor key rather than converting it to a numeric jump index",
+      "logs": [
+        "c5-integration.txt"
+      ]
+    },
+    {
+      "name": "P1-C visual contract: real renderer consumes camera follow, shake, split, weather and filter state",
+      "logs": [
+        "c5-visual-contract.txt"
+      ]
+    },
+    {
+      "name": "P1-C duplicate actor names: one ID replaces one actor, distinct custom IDs preserve independent instances",
+      "logs": [
+        "c5-visual-contract.txt"
+      ]
+    }
+  ]
+}

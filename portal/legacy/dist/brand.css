@@ -1,0 +1,9 @@
+/* Official supplied rasters: reserve the existing image box; no recoloring. */
+:root .wordmark{padding:0;border:0;background:transparent;flex:none;gap:0;line-height:0}
+:root .wordmark:hover,:root .wordmark:disabled{background:transparent;opacity:1}
+:root .wordmark:focus-visible{outline:2px solid var(--pink);outline-offset:2px}
+:root .wordmark img,:root[data-editor-tone=dark] .wordmark img{filter:none;object-fit:contain;transition:none}
+:root .wordmark img[data-logo-tone=dark]{display:none}
+:root[data-editor-tone=dark] .wordmark img[data-logo-tone=light]{display:none}
+:root[data-editor-tone=dark] .wordmark img[data-logo-tone=dark]{display:block}
+:root:not([data-brand-ready=true]) .wordmark img{visibility:hidden}

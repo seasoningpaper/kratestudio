@@ -1,0 +1,22 @@
+[
+  {
+    "route": "/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "route": "/app.js",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "route": "/workspace.js",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "route": "/player.js",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "route": "/style.css",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

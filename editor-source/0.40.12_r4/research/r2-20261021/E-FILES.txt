@@ -1,0 +1,15 @@
+dist/koi-script-guide.html
+dist/koi-script-reference.json
+dist/koi-script-reference.md
+dist/player.js
+dist/server/index.js
+dist/workspace.js
+src/asset-selection.mjs
+src/engine.mjs
+src/music-mixer.mjs
+src/player.jsx
+src/project-tools.jsx
+src/script-import.mjs
+src/script-reference.mjs
+src/storage.mjs
+worker/index.js

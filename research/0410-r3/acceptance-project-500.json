@@ -1,0 +1,6316 @@
+{
+  "id": "softflow-acceptance-500",
+  "title": "SoftFlow 500 事件驗收副本",
+  "variables": {
+    "score": 0
+  },
+  "images": [],
+  "audio": [],
+  "videos": [],
+  "editorSettings": {
+    "softflowVariant": "blue"
+  },
+  "chapters": [
+    {
+      "id": "sf-main",
+      "title": "代表性劇情",
+      "events": [
+        {
+          "id": "sf-event-0",
+          "type": "repeat",
+          "name": "小春",
+          "text": "第 1 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 0
+            }
+          },
+          "count": 2,
+          "loopId": "sf-event-0"
+        },
+        {
+          "id": "sf-event-1",
+          "type": "repeat",
+          "name": "小春",
+          "text": "第 2 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 1
+            }
+          },
+          "count": 2,
+          "loopId": "sf-event-1"
+        },
+        {
+          "id": "sf-event-2",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 3 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 2
+            }
+          }
+        },
+        {
+          "id": "sf-event-3",
+          "type": "repeatEnd",
+          "name": "小春",
+          "text": "第 4 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 3
+            }
+          },
+          "loopId": "sf-event-1"
+        },
+        {
+          "id": "sf-event-4",
+          "type": "repeatEnd",
+          "name": "小春",
+          "text": "第 5 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 4
+            }
+          },
+          "loopId": "sf-event-0"
+        },
+        {
+          "id": "sf-event-5",
+          "type": "background",
+          "name": "小春",
+          "text": "第 6 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 5
+            }
+          },
+          "scene": "classroom",
+          "clearActors": true
+        },
+        {
+          "id": "sf-event-6",
+          "type": "variable",
+          "name": "小春",
+          "text": "第 7 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 6
+            }
+          },
+          "key": "score",
+          "operation": "set",
+          "value": 1
+        },
+        {
+          "id": "sf-event-7",
+          "type": "section",
+          "name": "小春",
+          "text": "合流",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 7
+            }
+          }
+        },
+        {
+          "id": "sf-event-8",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 9 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 8
+            }
+          },
+          "blockInputs": {
+            "text": {
+              "id": "sf-value-string",
+              "kind": "string",
+              "value": "第 9 個事件：保留資料、角色與分支。"
+            }
+          }
+        },
+        {
+          "id": "sf-event-9",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 10 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 9
+            }
+          }
+        },
+        {
+          "id": "sf-event-10",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 11 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 10
+            }
+          }
+        },
+        {
+          "id": "sf-event-11",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 12 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 11
+            }
+          }
+        },
+        {
+          "id": "sf-event-12",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 13 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 12
+            }
+          }
+        },
+        {
+          "id": "sf-event-13",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 14 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 13
+            }
+          }
+        },
+        {
+          "id": "sf-event-14",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 15 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 14
+            }
+          }
+        },
+        {
+          "id": "sf-event-15",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 16 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 15
+            }
+          }
+        },
+        {
+          "id": "sf-event-16",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 17 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 16
+            }
+          }
+        },
+        {
+          "id": "sf-event-17",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 18 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 17
+            }
+          }
+        },
+        {
+          "id": "sf-event-18",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 19 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 18
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 19
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-19",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 20 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 19
+            }
+          }
+        },
+        {
+          "id": "sf-event-20",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 21 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 20
+            }
+          }
+        },
+        {
+          "id": "sf-event-21",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 22 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 21
+            }
+          }
+        },
+        {
+          "id": "sf-event-22",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 23 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 22
+            }
+          }
+        },
+        {
+          "id": "sf-event-23",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 24 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 23
+            }
+          }
+        },
+        {
+          "id": "sf-event-24",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 25 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 24
+            }
+          }
+        },
+        {
+          "id": "sf-event-25",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 26 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 25
+            }
+          }
+        },
+        {
+          "id": "sf-event-26",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 27 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 26
+            }
+          }
+        },
+        {
+          "id": "sf-event-27",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 28 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 27
+            }
+          }
+        },
+        {
+          "id": "sf-event-28",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 29 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 28
+            }
+          }
+        },
+        {
+          "id": "sf-event-29",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 30 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 29
+            }
+          }
+        },
+        {
+          "id": "sf-event-30",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 31 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 30
+            }
+          }
+        },
+        {
+          "id": "sf-event-31",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 32 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 31
+            }
+          }
+        },
+        {
+          "id": "sf-event-32",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 33 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 32
+            }
+          }
+        },
+        {
+          "id": "sf-event-33",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 34 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 33
+            }
+          }
+        },
+        {
+          "id": "sf-event-34",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 35 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 34
+            }
+          }
+        },
+        {
+          "id": "sf-event-35",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 36 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 35
+            }
+          }
+        },
+        {
+          "id": "sf-event-36",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 37 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 36
+            }
+          }
+        },
+        {
+          "id": "sf-event-37",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 38 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 37
+            }
+          }
+        },
+        {
+          "id": "sf-event-38",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 39 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 38
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 39
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-39",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 40 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 39
+            }
+          }
+        },
+        {
+          "id": "sf-event-40",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 41 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 40
+            }
+          }
+        },
+        {
+          "id": "sf-event-41",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 42 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 41
+            }
+          }
+        },
+        {
+          "id": "sf-event-42",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 43 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 42
+            }
+          }
+        },
+        {
+          "id": "sf-event-43",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 44 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 43
+            }
+          }
+        },
+        {
+          "id": "sf-event-44",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 45 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 44
+            }
+          }
+        },
+        {
+          "id": "sf-event-45",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 46 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 45
+            }
+          }
+        },
+        {
+          "id": "sf-event-46",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 47 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 46
+            }
+          }
+        },
+        {
+          "id": "sf-event-47",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 48 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 47
+            }
+          }
+        },
+        {
+          "id": "sf-event-48",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 49 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 48
+            }
+          }
+        },
+        {
+          "id": "sf-event-49",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 50 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 49
+            }
+          }
+        },
+        {
+          "id": "sf-event-50",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 51 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 50
+            }
+          }
+        },
+        {
+          "id": "sf-event-51",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 52 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 51
+            }
+          }
+        },
+        {
+          "id": "sf-event-52",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 53 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 52
+            }
+          }
+        },
+        {
+          "id": "sf-event-53",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 54 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 53
+            }
+          }
+        },
+        {
+          "id": "sf-event-54",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 55 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 54
+            }
+          }
+        },
+        {
+          "id": "sf-event-55",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 56 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 55
+            }
+          }
+        },
+        {
+          "id": "sf-event-56",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 57 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 56
+            }
+          }
+        },
+        {
+          "id": "sf-event-57",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 58 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 57
+            }
+          }
+        },
+        {
+          "id": "sf-event-58",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 59 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 58
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 59
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-59",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 60 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 59
+            }
+          }
+        },
+        {
+          "id": "sf-event-60",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 61 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 60
+            }
+          }
+        },
+        {
+          "id": "sf-event-61",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 62 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 61
+            }
+          }
+        },
+        {
+          "id": "sf-event-62",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 63 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 62
+            }
+          }
+        },
+        {
+          "id": "sf-event-63",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 64 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 63
+            }
+          }
+        },
+        {
+          "id": "sf-event-64",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 65 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 64
+            }
+          }
+        },
+        {
+          "id": "sf-event-65",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 66 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 65
+            }
+          }
+        },
+        {
+          "id": "sf-event-66",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 67 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 66
+            }
+          }
+        },
+        {
+          "id": "sf-event-67",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 68 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 67
+            }
+          }
+        },
+        {
+          "id": "sf-event-68",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 69 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 68
+            }
+          }
+        },
+        {
+          "id": "sf-event-69",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 70 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 69
+            }
+          }
+        },
+        {
+          "id": "sf-event-70",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 71 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 70
+            }
+          }
+        },
+        {
+          "id": "sf-event-71",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 72 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 71
+            }
+          }
+        },
+        {
+          "id": "sf-event-72",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 73 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 72
+            }
+          }
+        },
+        {
+          "id": "sf-event-73",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 74 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 73
+            }
+          }
+        },
+        {
+          "id": "sf-event-74",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 75 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 74
+            }
+          }
+        },
+        {
+          "id": "sf-event-75",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 76 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 75
+            }
+          }
+        },
+        {
+          "id": "sf-event-76",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 77 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 76
+            }
+          }
+        },
+        {
+          "id": "sf-event-77",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 78 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 77
+            }
+          }
+        },
+        {
+          "id": "sf-event-78",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 79 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 78
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 79
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-79",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 80 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 79
+            }
+          }
+        },
+        {
+          "id": "sf-event-80",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 81 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 80
+            }
+          }
+        },
+        {
+          "id": "sf-event-81",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 82 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 81
+            }
+          }
+        },
+        {
+          "id": "sf-event-82",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 83 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 82
+            }
+          }
+        },
+        {
+          "id": "sf-event-83",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 84 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 83
+            }
+          }
+        },
+        {
+          "id": "sf-event-84",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 85 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 84
+            }
+          }
+        },
+        {
+          "id": "sf-event-85",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 86 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 85
+            }
+          }
+        },
+        {
+          "id": "sf-event-86",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 87 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 86
+            }
+          }
+        },
+        {
+          "id": "sf-event-87",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 88 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 87
+            }
+          }
+        },
+        {
+          "id": "sf-event-88",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 89 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 88
+            }
+          }
+        },
+        {
+          "id": "sf-event-89",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 90 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 89
+            }
+          }
+        },
+        {
+          "id": "sf-event-90",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 91 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 90
+            }
+          }
+        },
+        {
+          "id": "sf-event-91",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 92 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 91
+            }
+          }
+        },
+        {
+          "id": "sf-event-92",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 93 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 92
+            }
+          }
+        },
+        {
+          "id": "sf-event-93",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 94 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 93
+            }
+          }
+        },
+        {
+          "id": "sf-event-94",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 95 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 94
+            }
+          }
+        },
+        {
+          "id": "sf-event-95",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 96 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 95
+            }
+          }
+        },
+        {
+          "id": "sf-event-96",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 97 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 96
+            }
+          }
+        },
+        {
+          "id": "sf-event-97",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 98 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 97
+            }
+          }
+        },
+        {
+          "id": "sf-event-98",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 99 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 98
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 99
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-99",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 100 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 99
+            }
+          }
+        },
+        {
+          "id": "sf-event-100",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 101 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 100
+            }
+          }
+        },
+        {
+          "id": "sf-event-101",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 102 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 101
+            }
+          }
+        },
+        {
+          "id": "sf-event-102",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 103 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 102
+            }
+          }
+        },
+        {
+          "id": "sf-event-103",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 104 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 103
+            }
+          }
+        },
+        {
+          "id": "sf-event-104",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 105 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 104
+            }
+          }
+        },
+        {
+          "id": "sf-event-105",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 106 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 105
+            }
+          }
+        },
+        {
+          "id": "sf-event-106",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 107 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 106
+            }
+          }
+        },
+        {
+          "id": "sf-event-107",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 108 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 107
+            }
+          }
+        },
+        {
+          "id": "sf-event-108",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 109 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 108
+            }
+          }
+        },
+        {
+          "id": "sf-event-109",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 110 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 109
+            }
+          }
+        },
+        {
+          "id": "sf-event-110",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 111 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 110
+            }
+          }
+        },
+        {
+          "id": "sf-event-111",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 112 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 111
+            }
+          }
+        },
+        {
+          "id": "sf-event-112",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 113 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 112
+            }
+          }
+        },
+        {
+          "id": "sf-event-113",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 114 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 113
+            }
+          }
+        },
+        {
+          "id": "sf-event-114",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 115 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 114
+            }
+          }
+        },
+        {
+          "id": "sf-event-115",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 116 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 115
+            }
+          }
+        },
+        {
+          "id": "sf-event-116",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 117 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 116
+            }
+          }
+        },
+        {
+          "id": "sf-event-117",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 118 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 117
+            }
+          }
+        },
+        {
+          "id": "sf-event-118",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 119 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 118
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 119
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-119",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 120 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 119
+            }
+          }
+        },
+        {
+          "id": "sf-event-120",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 121 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 120
+            }
+          }
+        },
+        {
+          "id": "sf-event-121",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 122 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 121
+            }
+          }
+        },
+        {
+          "id": "sf-event-122",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 123 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 122
+            }
+          }
+        },
+        {
+          "id": "sf-event-123",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 124 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 123
+            }
+          }
+        },
+        {
+          "id": "sf-event-124",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 125 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 124
+            }
+          }
+        },
+        {
+          "id": "sf-event-125",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 126 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 125
+            }
+          }
+        },
+        {
+          "id": "sf-event-126",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 127 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 126
+            }
+          }
+        },
+        {
+          "id": "sf-event-127",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 128 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 127
+            }
+          }
+        },
+        {
+          "id": "sf-event-128",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 129 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 128
+            }
+          }
+        },
+        {
+          "id": "sf-event-129",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 130 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 129
+            }
+          }
+        },
+        {
+          "id": "sf-event-130",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 131 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 130
+            }
+          }
+        },
+        {
+          "id": "sf-event-131",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 132 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 131
+            }
+          }
+        },
+        {
+          "id": "sf-event-132",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 133 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 132
+            }
+          }
+        },
+        {
+          "id": "sf-event-133",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 134 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 133
+            }
+          }
+        },
+        {
+          "id": "sf-event-134",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 135 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 134
+            }
+          }
+        },
+        {
+          "id": "sf-event-135",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 136 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 135
+            }
+          }
+        },
+        {
+          "id": "sf-event-136",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 137 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 136
+            }
+          }
+        },
+        {
+          "id": "sf-event-137",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 138 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 137
+            }
+          }
+        },
+        {
+          "id": "sf-event-138",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 139 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 138
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 139
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-139",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 140 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 139
+            }
+          }
+        },
+        {
+          "id": "sf-event-140",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 141 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 140
+            }
+          }
+        },
+        {
+          "id": "sf-event-141",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 142 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 141
+            }
+          }
+        },
+        {
+          "id": "sf-event-142",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 143 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 142
+            }
+          }
+        },
+        {
+          "id": "sf-event-143",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 144 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 143
+            }
+          }
+        },
+        {
+          "id": "sf-event-144",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 145 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 144
+            }
+          }
+        },
+        {
+          "id": "sf-event-145",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 146 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 145
+            }
+          }
+        },
+        {
+          "id": "sf-event-146",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 147 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 146
+            }
+          }
+        },
+        {
+          "id": "sf-event-147",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 148 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 147
+            }
+          }
+        },
+        {
+          "id": "sf-event-148",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 149 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 148
+            }
+          }
+        },
+        {
+          "id": "sf-event-149",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 150 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 149
+            }
+          }
+        },
+        {
+          "id": "sf-event-150",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 151 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 150
+            }
+          }
+        },
+        {
+          "id": "sf-event-151",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 152 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 151
+            }
+          }
+        },
+        {
+          "id": "sf-event-152",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 153 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 152
+            }
+          }
+        },
+        {
+          "id": "sf-event-153",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 154 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 153
+            }
+          }
+        },
+        {
+          "id": "sf-event-154",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 155 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 154
+            }
+          }
+        },
+        {
+          "id": "sf-event-155",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 156 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 155
+            }
+          }
+        },
+        {
+          "id": "sf-event-156",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 157 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 156
+            }
+          }
+        },
+        {
+          "id": "sf-event-157",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 158 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 157
+            }
+          }
+        },
+        {
+          "id": "sf-event-158",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 159 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 158
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 159
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-159",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 160 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 159
+            }
+          }
+        },
+        {
+          "id": "sf-event-160",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 161 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 160
+            }
+          }
+        },
+        {
+          "id": "sf-event-161",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 162 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 161
+            }
+          }
+        },
+        {
+          "id": "sf-event-162",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 163 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 162
+            }
+          }
+        },
+        {
+          "id": "sf-event-163",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 164 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 163
+            }
+          }
+        },
+        {
+          "id": "sf-event-164",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 165 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 164
+            }
+          }
+        },
+        {
+          "id": "sf-event-165",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 166 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 165
+            }
+          }
+        },
+        {
+          "id": "sf-event-166",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 167 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 166
+            }
+          }
+        },
+        {
+          "id": "sf-event-167",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 168 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 167
+            }
+          }
+        },
+        {
+          "id": "sf-event-168",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 169 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 168
+            }
+          }
+        },
+        {
+          "id": "sf-event-169",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 170 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 169
+            }
+          }
+        },
+        {
+          "id": "sf-event-170",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 171 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 170
+            }
+          }
+        },
+        {
+          "id": "sf-event-171",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 172 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 171
+            }
+          }
+        },
+        {
+          "id": "sf-event-172",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 173 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 172
+            }
+          }
+        },
+        {
+          "id": "sf-event-173",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 174 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 173
+            }
+          }
+        },
+        {
+          "id": "sf-event-174",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 175 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 174
+            }
+          }
+        },
+        {
+          "id": "sf-event-175",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 176 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 175
+            }
+          }
+        },
+        {
+          "id": "sf-event-176",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 177 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 176
+            }
+          }
+        },
+        {
+          "id": "sf-event-177",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 178 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 177
+            }
+          }
+        },
+        {
+          "id": "sf-event-178",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 179 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 178
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 179
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-179",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 180 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 179
+            }
+          }
+        },
+        {
+          "id": "sf-event-180",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 181 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 180
+            }
+          }
+        },
+        {
+          "id": "sf-event-181",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 182 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 181
+            }
+          }
+        },
+        {
+          "id": "sf-event-182",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 183 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 182
+            }
+          }
+        },
+        {
+          "id": "sf-event-183",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 184 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 183
+            }
+          }
+        },
+        {
+          "id": "sf-event-184",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 185 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 184
+            }
+          }
+        },
+        {
+          "id": "sf-event-185",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 186 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 185
+            }
+          }
+        },
+        {
+          "id": "sf-event-186",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 187 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 186
+            }
+          }
+        },
+        {
+          "id": "sf-event-187",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 188 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 187
+            }
+          }
+        },
+        {
+          "id": "sf-event-188",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 189 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 188
+            }
+          }
+        },
+        {
+          "id": "sf-event-189",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 190 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 189
+            }
+          }
+        },
+        {
+          "id": "sf-event-190",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 191 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 190
+            }
+          }
+        },
+        {
+          "id": "sf-event-191",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 192 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 191
+            }
+          }
+        },
+        {
+          "id": "sf-event-192",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 193 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 192
+            }
+          }
+        },
+        {
+          "id": "sf-event-193",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 194 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 193
+            }
+          }
+        },
+        {
+          "id": "sf-event-194",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 195 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 194
+            }
+          }
+        },
+        {
+          "id": "sf-event-195",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 196 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 195
+            }
+          }
+        },
+        {
+          "id": "sf-event-196",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 197 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 196
+            }
+          }
+        },
+        {
+          "id": "sf-event-197",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 198 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 197
+            }
+          }
+        },
+        {
+          "id": "sf-event-198",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 199 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 198
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 199
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-199",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 200 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 199
+            }
+          }
+        },
+        {
+          "id": "sf-event-200",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 201 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 200
+            }
+          }
+        },
+        {
+          "id": "sf-event-201",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 202 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 201
+            }
+          }
+        },
+        {
+          "id": "sf-event-202",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 203 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 202
+            }
+          }
+        },
+        {
+          "id": "sf-event-203",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 204 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 203
+            }
+          }
+        },
+        {
+          "id": "sf-event-204",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 205 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 204
+            }
+          }
+        },
+        {
+          "id": "sf-event-205",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 206 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 205
+            }
+          }
+        },
+        {
+          "id": "sf-event-206",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 207 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 206
+            }
+          }
+        },
+        {
+          "id": "sf-event-207",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 208 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 207
+            }
+          }
+        },
+        {
+          "id": "sf-event-208",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 209 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 208
+            }
+          }
+        },
+        {
+          "id": "sf-event-209",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 210 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 209
+            }
+          }
+        },
+        {
+          "id": "sf-event-210",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 211 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 210
+            }
+          }
+        },
+        {
+          "id": "sf-event-211",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 212 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 211
+            }
+          }
+        },
+        {
+          "id": "sf-event-212",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 213 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 212
+            }
+          }
+        },
+        {
+          "id": "sf-event-213",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 214 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 213
+            }
+          }
+        },
+        {
+          "id": "sf-event-214",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 215 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 214
+            }
+          }
+        },
+        {
+          "id": "sf-event-215",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 216 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 215
+            }
+          }
+        },
+        {
+          "id": "sf-event-216",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 217 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 216
+            }
+          }
+        },
+        {
+          "id": "sf-event-217",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 218 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 217
+            }
+          }
+        },
+        {
+          "id": "sf-event-218",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 219 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 218
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 219
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-219",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 220 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 219
+            }
+          }
+        },
+        {
+          "id": "sf-event-220",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 221 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 220
+            }
+          }
+        },
+        {
+          "id": "sf-event-221",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 222 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 221
+            }
+          }
+        },
+        {
+          "id": "sf-event-222",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 223 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 222
+            }
+          }
+        },
+        {
+          "id": "sf-event-223",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 224 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 223
+            }
+          }
+        },
+        {
+          "id": "sf-event-224",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 225 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 224
+            }
+          }
+        },
+        {
+          "id": "sf-event-225",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 226 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 225
+            }
+          }
+        },
+        {
+          "id": "sf-event-226",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 227 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 226
+            }
+          }
+        },
+        {
+          "id": "sf-event-227",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 228 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 227
+            }
+          }
+        },
+        {
+          "id": "sf-event-228",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 229 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 228
+            }
+          }
+        },
+        {
+          "id": "sf-event-229",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 230 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 229
+            }
+          }
+        },
+        {
+          "id": "sf-event-230",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 231 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 230
+            }
+          }
+        },
+        {
+          "id": "sf-event-231",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 232 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 231
+            }
+          }
+        },
+        {
+          "id": "sf-event-232",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 233 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 232
+            }
+          }
+        },
+        {
+          "id": "sf-event-233",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 234 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 233
+            }
+          }
+        },
+        {
+          "id": "sf-event-234",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 235 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 234
+            }
+          }
+        },
+        {
+          "id": "sf-event-235",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 236 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 235
+            }
+          }
+        },
+        {
+          "id": "sf-event-236",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 237 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 236
+            }
+          }
+        },
+        {
+          "id": "sf-event-237",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 238 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 237
+            }
+          }
+        },
+        {
+          "id": "sf-event-238",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 239 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 238
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 239
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-239",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 240 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 239
+            }
+          }
+        },
+        {
+          "id": "sf-event-240",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 241 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 240
+            }
+          }
+        },
+        {
+          "id": "sf-event-241",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 242 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 241
+            }
+          }
+        },
+        {
+          "id": "sf-event-242",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 243 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 242
+            }
+          }
+        },
+        {
+          "id": "sf-event-243",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 244 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 243
+            }
+          }
+        },
+        {
+          "id": "sf-event-244",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 245 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 244
+            }
+          }
+        },
+        {
+          "id": "sf-event-245",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 246 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 245
+            }
+          }
+        },
+        {
+          "id": "sf-event-246",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 247 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 246
+            }
+          }
+        },
+        {
+          "id": "sf-event-247",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 248 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 247
+            }
+          }
+        },
+        {
+          "id": "sf-event-248",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 249 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 248
+            }
+          }
+        },
+        {
+          "id": "sf-event-249",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 250 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 249
+            }
+          }
+        },
+        {
+          "id": "sf-event-250",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 251 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 250
+            }
+          }
+        },
+        {
+          "id": "sf-event-251",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 252 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 251
+            }
+          }
+        },
+        {
+          "id": "sf-event-252",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 253 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 252
+            }
+          }
+        },
+        {
+          "id": "sf-event-253",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 254 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 253
+            }
+          }
+        },
+        {
+          "id": "sf-event-254",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 255 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 254
+            }
+          }
+        },
+        {
+          "id": "sf-event-255",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 256 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 255
+            }
+          }
+        },
+        {
+          "id": "sf-event-256",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 257 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 256
+            }
+          }
+        },
+        {
+          "id": "sf-event-257",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 258 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 257
+            }
+          }
+        },
+        {
+          "id": "sf-event-258",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 259 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 258
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 259
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-259",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 260 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 259
+            }
+          }
+        },
+        {
+          "id": "sf-event-260",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 261 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 260
+            }
+          }
+        },
+        {
+          "id": "sf-event-261",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 262 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 261
+            }
+          }
+        },
+        {
+          "id": "sf-event-262",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 263 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 262
+            }
+          }
+        },
+        {
+          "id": "sf-event-263",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 264 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 263
+            }
+          }
+        },
+        {
+          "id": "sf-event-264",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 265 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 264
+            }
+          }
+        },
+        {
+          "id": "sf-event-265",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 266 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 265
+            }
+          }
+        },
+        {
+          "id": "sf-event-266",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 267 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 266
+            }
+          }
+        },
+        {
+          "id": "sf-event-267",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 268 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 267
+            }
+          }
+        },
+        {
+          "id": "sf-event-268",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 269 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 268
+            }
+          }
+        },
+        {
+          "id": "sf-event-269",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 270 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 269
+            }
+          }
+        },
+        {
+          "id": "sf-event-270",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 271 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 270
+            }
+          }
+        },
+        {
+          "id": "sf-event-271",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 272 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 271
+            }
+          }
+        },
+        {
+          "id": "sf-event-272",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 273 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 272
+            }
+          }
+        },
+        {
+          "id": "sf-event-273",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 274 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 273
+            }
+          }
+        },
+        {
+          "id": "sf-event-274",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 275 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 274
+            }
+          }
+        },
+        {
+          "id": "sf-event-275",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 276 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 275
+            }
+          }
+        },
+        {
+          "id": "sf-event-276",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 277 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 276
+            }
+          }
+        },
+        {
+          "id": "sf-event-277",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 278 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 277
+            }
+          }
+        },
+        {
+          "id": "sf-event-278",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 279 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 278
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 279
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-279",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 280 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 279
+            }
+          }
+        },
+        {
+          "id": "sf-event-280",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 281 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 280
+            }
+          }
+        },
+        {
+          "id": "sf-event-281",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 282 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 281
+            }
+          }
+        },
+        {
+          "id": "sf-event-282",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 283 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 282
+            }
+          }
+        },
+        {
+          "id": "sf-event-283",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 284 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 283
+            }
+          }
+        },
+        {
+          "id": "sf-event-284",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 285 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 284
+            }
+          }
+        },
+        {
+          "id": "sf-event-285",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 286 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 285
+            }
+          }
+        },
+        {
+          "id": "sf-event-286",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 287 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 286
+            }
+          }
+        },
+        {
+          "id": "sf-event-287",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 288 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 287
+            }
+          }
+        },
+        {
+          "id": "sf-event-288",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 289 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 288
+            }
+          }
+        },
+        {
+          "id": "sf-event-289",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 290 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 289
+            }
+          }
+        },
+        {
+          "id": "sf-event-290",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 291 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 290
+            }
+          }
+        },
+        {
+          "id": "sf-event-291",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 292 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 291
+            }
+          }
+        },
+        {
+          "id": "sf-event-292",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 293 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 292
+            }
+          }
+        },
+        {
+          "id": "sf-event-293",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 294 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 293
+            }
+          }
+        },
+        {
+          "id": "sf-event-294",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 295 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 294
+            }
+          }
+        },
+        {
+          "id": "sf-event-295",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 296 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 295
+            }
+          }
+        },
+        {
+          "id": "sf-event-296",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 297 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 296
+            }
+          }
+        },
+        {
+          "id": "sf-event-297",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 298 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 297
+            }
+          }
+        },
+        {
+          "id": "sf-event-298",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 299 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 298
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 299
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-299",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 300 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 299
+            }
+          }
+        },
+        {
+          "id": "sf-event-300",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 301 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 300
+            }
+          }
+        },
+        {
+          "id": "sf-event-301",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 302 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 301
+            }
+          }
+        },
+        {
+          "id": "sf-event-302",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 303 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 302
+            }
+          }
+        },
+        {
+          "id": "sf-event-303",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 304 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 303
+            }
+          }
+        },
+        {
+          "id": "sf-event-304",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 305 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 304
+            }
+          }
+        },
+        {
+          "id": "sf-event-305",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 306 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 305
+            }
+          }
+        },
+        {
+          "id": "sf-event-306",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 307 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 306
+            }
+          }
+        },
+        {
+          "id": "sf-event-307",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 308 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 307
+            }
+          }
+        },
+        {
+          "id": "sf-event-308",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 309 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 308
+            }
+          }
+        },
+        {
+          "id": "sf-event-309",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 310 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 309
+            }
+          }
+        },
+        {
+          "id": "sf-event-310",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 311 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 310
+            }
+          }
+        },
+        {
+          "id": "sf-event-311",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 312 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 311
+            }
+          }
+        },
+        {
+          "id": "sf-event-312",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 313 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 312
+            }
+          }
+        },
+        {
+          "id": "sf-event-313",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 314 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 313
+            }
+          }
+        },
+        {
+          "id": "sf-event-314",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 315 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 314
+            }
+          }
+        },
+        {
+          "id": "sf-event-315",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 316 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 315
+            }
+          }
+        },
+        {
+          "id": "sf-event-316",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 317 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 316
+            }
+          }
+        },
+        {
+          "id": "sf-event-317",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 318 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 317
+            }
+          }
+        },
+        {
+          "id": "sf-event-318",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 319 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 318
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 319
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-319",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 320 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 319
+            }
+          }
+        },
+        {
+          "id": "sf-event-320",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 321 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 320
+            }
+          }
+        },
+        {
+          "id": "sf-event-321",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 322 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 321
+            }
+          }
+        },
+        {
+          "id": "sf-event-322",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 323 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 322
+            }
+          }
+        },
+        {
+          "id": "sf-event-323",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 324 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 323
+            }
+          }
+        },
+        {
+          "id": "sf-event-324",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 325 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 324
+            }
+          }
+        },
+        {
+          "id": "sf-event-325",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 326 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 325
+            }
+          }
+        },
+        {
+          "id": "sf-event-326",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 327 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 326
+            }
+          }
+        },
+        {
+          "id": "sf-event-327",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 328 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 327
+            }
+          }
+        },
+        {
+          "id": "sf-event-328",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 329 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 328
+            }
+          }
+        },
+        {
+          "id": "sf-event-329",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 330 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 329
+            }
+          }
+        },
+        {
+          "id": "sf-event-330",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 331 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 330
+            }
+          }
+        },
+        {
+          "id": "sf-event-331",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 332 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 331
+            }
+          }
+        },
+        {
+          "id": "sf-event-332",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 333 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 332
+            }
+          }
+        },
+        {
+          "id": "sf-event-333",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 334 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 333
+            }
+          }
+        },
+        {
+          "id": "sf-event-334",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 335 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 334
+            }
+          }
+        },
+        {
+          "id": "sf-event-335",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 336 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 335
+            }
+          }
+        },
+        {
+          "id": "sf-event-336",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 337 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 336
+            }
+          }
+        },
+        {
+          "id": "sf-event-337",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 338 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 337
+            }
+          }
+        },
+        {
+          "id": "sf-event-338",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 339 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 338
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 339
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-339",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 340 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 339
+            }
+          }
+        },
+        {
+          "id": "sf-event-340",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 341 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 340
+            }
+          }
+        },
+        {
+          "id": "sf-event-341",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 342 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 341
+            }
+          }
+        },
+        {
+          "id": "sf-event-342",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 343 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 342
+            }
+          }
+        },
+        {
+          "id": "sf-event-343",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 344 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 343
+            }
+          }
+        },
+        {
+          "id": "sf-event-344",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 345 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 344
+            }
+          }
+        },
+        {
+          "id": "sf-event-345",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 346 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 345
+            }
+          }
+        },
+        {
+          "id": "sf-event-346",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 347 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 346
+            }
+          }
+        },
+        {
+          "id": "sf-event-347",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 348 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 347
+            }
+          }
+        },
+        {
+          "id": "sf-event-348",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 349 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 348
+            }
+          }
+        },
+        {
+          "id": "sf-event-349",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 350 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 349
+            }
+          }
+        },
+        {
+          "id": "sf-event-350",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 351 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 350
+            }
+          }
+        },
+        {
+          "id": "sf-event-351",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 352 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 351
+            }
+          }
+        },
+        {
+          "id": "sf-event-352",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 353 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 352
+            }
+          }
+        },
+        {
+          "id": "sf-event-353",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 354 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 353
+            }
+          }
+        },
+        {
+          "id": "sf-event-354",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 355 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 354
+            }
+          }
+        },
+        {
+          "id": "sf-event-355",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 356 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 355
+            }
+          }
+        },
+        {
+          "id": "sf-event-356",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 357 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 356
+            }
+          }
+        },
+        {
+          "id": "sf-event-357",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 358 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 357
+            }
+          }
+        },
+        {
+          "id": "sf-event-358",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 359 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 358
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 359
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-359",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 360 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 359
+            }
+          }
+        },
+        {
+          "id": "sf-event-360",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 361 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 360
+            }
+          }
+        },
+        {
+          "id": "sf-event-361",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 362 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 361
+            }
+          }
+        },
+        {
+          "id": "sf-event-362",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 363 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 362
+            }
+          }
+        },
+        {
+          "id": "sf-event-363",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 364 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 363
+            }
+          }
+        },
+        {
+          "id": "sf-event-364",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 365 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 364
+            }
+          }
+        },
+        {
+          "id": "sf-event-365",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 366 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 365
+            }
+          }
+        },
+        {
+          "id": "sf-event-366",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 367 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 366
+            }
+          }
+        },
+        {
+          "id": "sf-event-367",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 368 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 367
+            }
+          }
+        },
+        {
+          "id": "sf-event-368",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 369 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 368
+            }
+          }
+        },
+        {
+          "id": "sf-event-369",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 370 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 369
+            }
+          }
+        },
+        {
+          "id": "sf-event-370",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 371 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 370
+            }
+          }
+        },
+        {
+          "id": "sf-event-371",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 372 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 371
+            }
+          }
+        },
+        {
+          "id": "sf-event-372",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 373 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 372
+            }
+          }
+        },
+        {
+          "id": "sf-event-373",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 374 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 373
+            }
+          }
+        },
+        {
+          "id": "sf-event-374",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 375 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 374
+            }
+          }
+        },
+        {
+          "id": "sf-event-375",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 376 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 375
+            }
+          }
+        },
+        {
+          "id": "sf-event-376",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 377 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 376
+            }
+          }
+        },
+        {
+          "id": "sf-event-377",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 378 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 377
+            }
+          }
+        },
+        {
+          "id": "sf-event-378",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 379 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 378
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 379
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-379",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 380 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 379
+            }
+          }
+        },
+        {
+          "id": "sf-event-380",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 381 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 380
+            }
+          }
+        },
+        {
+          "id": "sf-event-381",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 382 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 381
+            }
+          }
+        },
+        {
+          "id": "sf-event-382",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 383 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 382
+            }
+          }
+        },
+        {
+          "id": "sf-event-383",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 384 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 383
+            }
+          }
+        },
+        {
+          "id": "sf-event-384",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 385 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 384
+            }
+          }
+        },
+        {
+          "id": "sf-event-385",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 386 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 385
+            }
+          }
+        },
+        {
+          "id": "sf-event-386",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 387 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 386
+            }
+          }
+        },
+        {
+          "id": "sf-event-387",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 388 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 387
+            }
+          }
+        },
+        {
+          "id": "sf-event-388",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 389 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 388
+            }
+          }
+        },
+        {
+          "id": "sf-event-389",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 390 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 389
+            }
+          }
+        },
+        {
+          "id": "sf-event-390",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 391 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 390
+            }
+          }
+        },
+        {
+          "id": "sf-event-391",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 392 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 391
+            }
+          }
+        },
+        {
+          "id": "sf-event-392",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 393 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 392
+            }
+          }
+        },
+        {
+          "id": "sf-event-393",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 394 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 393
+            }
+          }
+        },
+        {
+          "id": "sf-event-394",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 395 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 394
+            }
+          }
+        },
+        {
+          "id": "sf-event-395",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 396 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 395
+            }
+          }
+        },
+        {
+          "id": "sf-event-396",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 397 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 396
+            }
+          }
+        },
+        {
+          "id": "sf-event-397",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 398 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 397
+            }
+          }
+        },
+        {
+          "id": "sf-event-398",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 399 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 398
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 399
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-399",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 400 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 399
+            }
+          }
+        },
+        {
+          "id": "sf-event-400",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 401 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 400
+            }
+          }
+        },
+        {
+          "id": "sf-event-401",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 402 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 401
+            }
+          }
+        },
+        {
+          "id": "sf-event-402",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 403 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 402
+            }
+          }
+        },
+        {
+          "id": "sf-event-403",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 404 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 403
+            }
+          }
+        },
+        {
+          "id": "sf-event-404",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 405 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 404
+            }
+          }
+        },
+        {
+          "id": "sf-event-405",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 406 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 405
+            }
+          }
+        },
+        {
+          "id": "sf-event-406",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 407 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 406
+            }
+          }
+        },
+        {
+          "id": "sf-event-407",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 408 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 407
+            }
+          }
+        },
+        {
+          "id": "sf-event-408",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 409 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 408
+            }
+          }
+        },
+        {
+          "id": "sf-event-409",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 410 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 409
+            }
+          }
+        },
+        {
+          "id": "sf-event-410",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 411 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 410
+            }
+          }
+        },
+        {
+          "id": "sf-event-411",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 412 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 411
+            }
+          }
+        },
+        {
+          "id": "sf-event-412",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 413 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 412
+            }
+          }
+        },
+        {
+          "id": "sf-event-413",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 414 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 413
+            }
+          }
+        },
+        {
+          "id": "sf-event-414",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 415 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 414
+            }
+          }
+        },
+        {
+          "id": "sf-event-415",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 416 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 415
+            }
+          }
+        },
+        {
+          "id": "sf-event-416",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 417 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 416
+            }
+          }
+        },
+        {
+          "id": "sf-event-417",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 418 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 417
+            }
+          }
+        },
+        {
+          "id": "sf-event-418",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 419 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 418
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 419
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-419",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 420 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 419
+            }
+          }
+        },
+        {
+          "id": "sf-event-420",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 421 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 420
+            }
+          }
+        },
+        {
+          "id": "sf-event-421",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 422 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 421
+            }
+          }
+        },
+        {
+          "id": "sf-event-422",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 423 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 422
+            }
+          }
+        },
+        {
+          "id": "sf-event-423",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 424 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 423
+            }
+          }
+        },
+        {
+          "id": "sf-event-424",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 425 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 424
+            }
+          }
+        },
+        {
+          "id": "sf-event-425",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 426 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 425
+            }
+          }
+        },
+        {
+          "id": "sf-event-426",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 427 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 426
+            }
+          }
+        },
+        {
+          "id": "sf-event-427",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 428 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 427
+            }
+          }
+        },
+        {
+          "id": "sf-event-428",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 429 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 428
+            }
+          }
+        },
+        {
+          "id": "sf-event-429",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 430 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 429
+            }
+          }
+        },
+        {
+          "id": "sf-event-430",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 431 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 430
+            }
+          }
+        },
+        {
+          "id": "sf-event-431",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 432 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 431
+            }
+          }
+        },
+        {
+          "id": "sf-event-432",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 433 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 432
+            }
+          }
+        },
+        {
+          "id": "sf-event-433",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 434 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 433
+            }
+          }
+        },
+        {
+          "id": "sf-event-434",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 435 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 434
+            }
+          }
+        },
+        {
+          "id": "sf-event-435",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 436 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 435
+            }
+          }
+        },
+        {
+          "id": "sf-event-436",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 437 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 436
+            }
+          }
+        },
+        {
+          "id": "sf-event-437",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 438 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 437
+            }
+          }
+        },
+        {
+          "id": "sf-event-438",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 439 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 438
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 439
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-439",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 440 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 439
+            }
+          }
+        },
+        {
+          "id": "sf-event-440",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 441 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 440
+            }
+          }
+        },
+        {
+          "id": "sf-event-441",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 442 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 441
+            }
+          }
+        },
+        {
+          "id": "sf-event-442",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 443 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 442
+            }
+          }
+        },
+        {
+          "id": "sf-event-443",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 444 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 443
+            }
+          }
+        },
+        {
+          "id": "sf-event-444",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 445 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 444
+            }
+          }
+        },
+        {
+          "id": "sf-event-445",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 446 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 445
+            }
+          }
+        },
+        {
+          "id": "sf-event-446",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 447 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 446
+            }
+          }
+        },
+        {
+          "id": "sf-event-447",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 448 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 447
+            }
+          }
+        },
+        {
+          "id": "sf-event-448",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 449 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 448
+            }
+          }
+        },
+        {
+          "id": "sf-event-449",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 450 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 449
+            }
+          }
+        },
+        {
+          "id": "sf-event-450",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 451 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 450
+            }
+          }
+        },
+        {
+          "id": "sf-event-451",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 452 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 451
+            }
+          }
+        },
+        {
+          "id": "sf-event-452",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 453 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 452
+            }
+          }
+        },
+        {
+          "id": "sf-event-453",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 454 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 453
+            }
+          }
+        },
+        {
+          "id": "sf-event-454",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 455 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 454
+            }
+          }
+        },
+        {
+          "id": "sf-event-455",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 456 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 455
+            }
+          }
+        },
+        {
+          "id": "sf-event-456",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 457 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 456
+            }
+          }
+        },
+        {
+          "id": "sf-event-457",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 458 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 457
+            }
+          }
+        },
+        {
+          "id": "sf-event-458",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 459 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 458
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 459
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-459",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 460 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 459
+            }
+          }
+        },
+        {
+          "id": "sf-event-460",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 461 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 460
+            }
+          }
+        },
+        {
+          "id": "sf-event-461",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 462 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 461
+            }
+          }
+        },
+        {
+          "id": "sf-event-462",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 463 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 462
+            }
+          }
+        },
+        {
+          "id": "sf-event-463",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 464 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 463
+            }
+          }
+        },
+        {
+          "id": "sf-event-464",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 465 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 464
+            }
+          }
+        },
+        {
+          "id": "sf-event-465",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 466 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 465
+            }
+          }
+        },
+        {
+          "id": "sf-event-466",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 467 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 466
+            }
+          }
+        },
+        {
+          "id": "sf-event-467",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 468 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 467
+            }
+          }
+        },
+        {
+          "id": "sf-event-468",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 469 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 468
+            }
+          }
+        },
+        {
+          "id": "sf-event-469",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 470 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 469
+            }
+          }
+        },
+        {
+          "id": "sf-event-470",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 471 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 470
+            }
+          }
+        },
+        {
+          "id": "sf-event-471",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 472 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 471
+            }
+          }
+        },
+        {
+          "id": "sf-event-472",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 473 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 472
+            }
+          }
+        },
+        {
+          "id": "sf-event-473",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 474 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 473
+            }
+          }
+        },
+        {
+          "id": "sf-event-474",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 475 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 474
+            }
+          }
+        },
+        {
+          "id": "sf-event-475",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 476 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 475
+            }
+          }
+        },
+        {
+          "id": "sf-event-476",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 477 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 476
+            }
+          }
+        },
+        {
+          "id": "sf-event-477",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 478 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 477
+            }
+          }
+        },
+        {
+          "id": "sf-event-478",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 479 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 478
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 479
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-479",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 480 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 479
+            }
+          }
+        },
+        {
+          "id": "sf-event-480",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 481 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 480
+            }
+          }
+        },
+        {
+          "id": "sf-event-481",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 482 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 481
+            }
+          }
+        },
+        {
+          "id": "sf-event-482",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 483 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 482
+            }
+          }
+        },
+        {
+          "id": "sf-event-483",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 484 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 483
+            }
+          }
+        },
+        {
+          "id": "sf-event-484",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 485 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 484
+            }
+          }
+        },
+        {
+          "id": "sf-event-485",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 486 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 485
+            }
+          }
+        },
+        {
+          "id": "sf-event-486",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 487 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 486
+            }
+          }
+        },
+        {
+          "id": "sf-event-487",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 488 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 487
+            }
+          }
+        },
+        {
+          "id": "sf-event-488",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 489 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 488
+            }
+          }
+        },
+        {
+          "id": "sf-event-489",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 490 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 489
+            }
+          }
+        },
+        {
+          "id": "sf-event-490",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 491 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 490
+            }
+          }
+        },
+        {
+          "id": "sf-event-491",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 492 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 491
+            }
+          }
+        },
+        {
+          "id": "sf-event-492",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 493 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 492
+            }
+          }
+        },
+        {
+          "id": "sf-event-493",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 494 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 493
+            }
+          }
+        },
+        {
+          "id": "sf-event-494",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 495 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 494
+            }
+          }
+        },
+        {
+          "id": "sf-event-495",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 496 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 495
+            }
+          }
+        },
+        {
+          "id": "sf-event-496",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 497 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 496
+            }
+          }
+        },
+        {
+          "id": "sf-event-497",
+          "type": "dialogue",
+          "name": "小春",
+          "text": "第 498 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 497
+            }
+          }
+        },
+        {
+          "id": "sf-event-498",
+          "type": "choice",
+          "name": "小春",
+          "text": "第 499 個事件：保留資料、角色與分支。",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 498
+            }
+          },
+          "options": [
+            {
+              "text": "繼續",
+              "target": 499
+            },
+            {
+              "text": "前往結尾",
+              "target": 499
+            }
+          ]
+        },
+        {
+          "id": "sf-event-499",
+          "type": "end",
+          "name": "小春",
+          "text": "驗收結束",
+          "custom": {
+            "future": true,
+            "nested": {
+              "index": 499
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-other",
+      "title": "跨章節參照",
+      "events": [
+        {
+          "id": "sf-foreign-jump",
+          "type": "jump",
+          "text": "跨章節跳轉",
+          "targetChapter": "sf-main",
+          "target": 7,
+          "custom": {
+            "keep": "foreign"
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [],
+  "minigames": [],
+  "tables": [],
+  "fonts": [],
+  "variableTypes": {},
+  "settings": {
+    "subtitle": "一段屬於你的春日物語",
+    "textSpeed": 35,
+    "autoDelay": 1800,
+    "accent": "#b77390"
+  }
+}

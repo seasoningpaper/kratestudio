@@ -1,0 +1,28 @@
+✖ motion controls: hidden waiting animation can be restored by tapping the stage (665.782603ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1031.241596
+
+✖ failing tests:
+
+test at tests/actor-isolation-dom.test.mjs:12:1
+✖ motion controls: hidden waiting animation can be restored by tapping the stage (665.782603ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(d.querySelector('.game-quick'))
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation-dom.test.mjs:12:565)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

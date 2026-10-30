@@ -1,0 +1,13 @@
+✔ 0.40.11 branding: current visible names, titles, templates and version are unified while KOI Script remains (82.912391ms)
+✔ 0.40.11 GUI contract: HTML structure, CSS, icon assets and wordmark strokes retain the prior design (107.745076ms)
+✔ 0.40.11 API contract: parser, engine, event types, data formats and public exports retain compatibility (472.702613ms)
+✔ 0.40.11 old project: author text, project/event/asset IDs, saves and IndexedDB schema remain intact (280.048583ms)
+✔ 0.40.11 localization: old keys remain aliases and translated product values use Koi Maker (1.252989ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1300.233559

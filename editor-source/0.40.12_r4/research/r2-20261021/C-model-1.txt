@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: R2-C: 20 events with bounded layered layout, intact story and no card crossings
+ok 1 - R2-C: 20 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 5.363942
+  type: 'test'
+  ...
+# Subtest: R2-C: 100 events with bounded layered layout, intact story and no card crossings
+ok 2 - R2-C: 100 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 9.077522
+  type: 'test'
+  ...
+# Subtest: R2-C: 300 events with bounded layered layout, intact story and no card crossings
+ok 3 - R2-C: 300 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 16.14162
+  type: 'test'
+  ...
+# Subtest: R2-C: 500 events with bounded layered layout, intact story and no card crossings
+ok 4 - R2-C: 500 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 33.937133
+  type: 'test'
+  ...
+# Subtest: R2-C: merges center, branches occupy neighboring columns and port order is deterministic
+ok 5 - R2-C: merges center, branches occupy neighboring columns and port order is deterministic
+  ---
+  duration_ms: 2.665726
+  type: 'test'
+  ...
+# Subtest: R2-C: loops, repeated jumps, self links, conditions and cross-chapter jumps never mutate destinations
+ok 6 - R2-C: loops, repeated jumps, self links, conditions and cross-chapter jumps never mutate destinations
+  ---
+  duration_ms: 0.899255
+  type: 'test'
+  ...
+# Subtest: R2-C: explicit manual coordinates stay intact until the auto action and serialized snapshots restore them
+ok 7 - R2-C: explicit manual coordinates stay intact until the auto action and serialized snapshots restore them
+  ---
+  duration_ms: 0.69684
+  type: 'test'
+  ...
+# Subtest: R2-C: group reordering retains event IDs and all same/cross-chapter references
+ok 8 - R2-C: group reordering retains event IDs and all same/cross-chapter references
+  ---
+  duration_ms: 0.961819
+  type: 'test'
+  ...
+# Subtest: R2-C: a too-large layout fails before touching original project coordinates
+ok 9 - R2-C: a too-large layout fails before touching original project coordinates
+  ---
+  duration_ms: 1.226248
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 177.981805

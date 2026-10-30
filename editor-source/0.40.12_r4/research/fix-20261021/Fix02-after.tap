@@ -1,0 +1,44 @@
+✔ Fix-02 actual measured content can shrink a detailed character block below the estimated 310px (1.082915ms)
+✔ Fix-02 intrinsic measurement uses unscaled content, expands then shrinks and keeps connector padding (0.167833ms)
+✔ Fix-02 dialogue captions and controls remain separate layout units, with auto-sized multiline text (553.559023ms)
+✔ P0-B legal independent nested stacks are validated by ownership rather than flat array order (3.235696ms)
+✔ P0-B default tail includes section markers, while single extraction heals and reconnects by identity (0.638655ms)
+✖ P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation (731.134146ms)
+✔ P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets (514.861581ms)
+✔ P0-C string sockets retain exact Unicode, newlines, quotes, voice/speed, fallback and serialize in KOI Script (17.293797ms)
+✔ P0-C moving and replacing a value keeps one owner, preserves displaced values, and rejects illegal slots atomically (1.547452ms)
+✔ P0-C text variables interpolate and number expressions retain existing runtime semantics (2.052964ms)
+✔ P0-C copied value sockets get fresh identities and never change the original template (1.116042ms)
+✔ P0-C intrinsic field measurement expands and shrinks, and reflow supplies the actual snap connector at every zoom (0.625563ms)
+✔ P0-C string values beginning with equals stay literal and edits preserve the attached identity (1.462253ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2804.405986
+
+✖ failing tests:
+
+test at tests/p0-c-dom.test.mjs:7:1
+✖ P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation (731.134146ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '原內容'
+  - '第一行\n' +
+  -   '中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話\n' +
+  -   '結尾'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0-c-dom.test.mjs:7:1628)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '原內容',
+    expected: '第一行\n中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話中文長對話\n結尾',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

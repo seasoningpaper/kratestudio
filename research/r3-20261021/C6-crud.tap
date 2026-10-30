@@ -1,0 +1,11 @@
+✔ C6 CRUD 50: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (19.400133ms)
+✔ C6 CRUD 300: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (25.56149ms)
+✔ C6 CRUD 500: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (34.403426ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 489.893753

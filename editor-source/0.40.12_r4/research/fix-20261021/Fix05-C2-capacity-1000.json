@@ -1,0 +1,9 @@
+{
+  "environment": "Node/JSDOM, includes fixed 85ms settling, not real browser paint or touch",
+  "n": 1000,
+  "renderMs": 682.4123999999993,
+  "selectionMs": 185.66074500000104,
+  "moveMs": 156.73380999999972,
+  "events": 1000,
+  "uniqueIds": 1000
+}

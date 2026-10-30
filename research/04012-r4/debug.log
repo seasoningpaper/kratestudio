@@ -1,0 +1,10 @@
+✔ r4 Debug is a detached read-only projection of the actual Engine, with explicit checkpoint limitations (1.760045ms)
+✔ r4 Debug preview entry inspects the current event, pauses without project mutation, and is absent from standalone games (811.659412ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1183.286291

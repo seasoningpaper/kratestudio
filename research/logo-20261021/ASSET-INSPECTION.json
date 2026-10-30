@@ -1,0 +1,79 @@
+{
+  "method": "local known-background unmatting; 2px edge support; opaque source RGB preserved; no AI redraw or CSS filter",
+  "assets": [
+    {
+      "tone": "light",
+      "original": "design/official-logo/originals/light.jpeg",
+      "originalSha256": "6ff772a6c84068e6fc0b738258e335d49e07085dbc08f416da73f4413e60cdf6",
+      "originalSize": [
+        2170,
+        725
+      ],
+      "sourceAlpha": false,
+      "contentBounds": [
+        419,
+        202,
+        1753,
+        517
+      ],
+      "sourceContentRatio": 4.234920634920635,
+      "normalizedCanvas": [
+        1440,
+        360
+      ],
+      "normalizedContentSize": [
+        1355,
+        320
+      ],
+      "scaleUniform": 1.0158730158730158,
+      "opaqueInteriorChangedPixels": 0,
+      "recompositeMeanAbsoluteError": 0.8398824397325146,
+      "recomposite99thPercentileError": 7.0,
+      "backgroundCornersAlpha": [
+        0,
+        0
+      ],
+      "output": "assets/brand/koi-maker-light.png"
+    },
+    {
+      "tone": "dark",
+      "original": "design/official-logo/originals/dark.png",
+      "originalSha256": "43582c9944c8ef85d533e433708b424f0be9a41d8b786e4449a76859f8dd61b4",
+      "originalSize": [
+        2170,
+        725
+      ],
+      "sourceAlpha": false,
+      "contentBounds": [
+        399,
+        197,
+        1787,
+        530
+      ],
+      "sourceContentRatio": 4.168168168168168,
+      "normalizedCanvas": [
+        1440,
+        360
+      ],
+      "normalizedContentSize": [
+        1334,
+        320
+      ],
+      "scaleUniform": 0.960960960960961,
+      "opaqueInteriorChangedPixels": 0,
+      "recompositeMeanAbsoluteError": 0.3558991267924986,
+      "recomposite99thPercentileError": 7.0,
+      "backgroundCornersAlpha": [
+        0,
+        0
+      ],
+      "output": "assets/brand/koi-maker-dark.png"
+    }
+  ],
+  "icons": [
+    16,
+    32,
+    180
+  ],
+  "pwa": "No manifest or existing PWA; 192/512 not created"
+}

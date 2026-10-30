@@ -1,0 +1,4 @@
+curl: (28) Proxy CONNECT aborted due to timeout
+HTTP 000
+
+僅執行一次。代理CONNECT階段逾時，沒有取得網站HTTP回應。這不是應用回傳失敗證據，也不能當作正式網頁可開啟已驗證；未重試或改用替代瀏覽器。

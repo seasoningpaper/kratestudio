@@ -1,0 +1,12 @@
+✔ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (679.236503ms)
+✔ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (663.386493ms)
+✔ r2 editor: pending section delete refuses a changed ownership range (243.97795ms)
+✔ r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events (224.912266ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2178.932481

@@ -1,0 +1,1187 @@
+{
+  "scope": "unique named passing tests in this r2 task; repeated runs counted once; diagnostic fixture failures resolved separately",
+  "passed": 190,
+  "tests": [
+    {
+      "name": "04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0",
+      "logs": [
+        "R2-5-player.log"
+      ]
+    },
+    {
+      "name": "04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180",
+      "logs": [
+        "R2-5-player.log"
+      ]
+    },
+    {
+      "name": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 35",
+      "logs": [
+        "R2-5-player.log"
+      ]
+    },
+    {
+      "name": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 5",
+      "logs": [
+        "R2-5-player.log"
+      ]
+    },
+    {
+      "name": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 80",
+      "logs": [
+        "R2-5-player.log"
+      ]
+    },
+    {
+      "name": "04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5: flag preset never overwrites an existing numeric variable or project input",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator 0 != 0 connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator 0 <= 0 connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator 0 >= 0 connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator abs(-1) connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator ceil(1.5) connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator floor(1.5) connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator max(1,2) connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator min(1,2) connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator sqrt(4) connects and executes",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "400 deterministic split/join operations preserve event identities, every branch destination and independent roots",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: batch delete requires confirmation, clears dangling branch targets and is undoable",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: batch move preserves order, unknown fields and incoming cross-chapter destinations",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: bounded 1000-event list selection and bulk movement retain all event semantics",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: bounded 500-event list selection and bulk movement retain all event semantics",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: changing chapters while deletion is pending cancels the old operation",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: checkbox selection, active editing, all and clear remain independent without touching canonical events",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C2: section checkbox participates in selection; closed groups do not hide a newly located cursor",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a menu-template draft",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first game-template gesture",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first menu-template gesture",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "C4: viewport resize cancels both template drafts without committing partial coordinates",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "Fix-05 cross-chapter reference risk is confirmed before deleting and Undo restores exact destination",
+      "logs": [
+        "R2-3-regression.log"
+      ]
+    },
+    {
+      "name": "Fix-05 pending delete is cancelled if its event or chapter changes; repeat group delete has no undefined guards",
+      "logs": [
+        "R2-3-regression.log"
+      ]
+    },
+    {
+      "name": "Fix-05 reference warning distinguishes cross-chapter jumps and choices from numeric actor IDs",
+      "logs": [
+        "R2-3-regression.log"
+      ]
+    },
+    {
+      "name": "Fix-05 single trash cancels without changes then deletes only its event and supports full Undo",
+      "logs": [
+        "R2-3-regression.log"
+      ]
+    },
+    {
+      "name": "P0-A chapter imports cannot reuse IDs owned by reporters or attached value blocks",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-A imported chapter IDs reserve non-colliding incoming IDs before remapping others",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-A pasted events never reuse existing IDs even if the UUID provider repeats",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-B default tail includes section markers, while single extraction heals and reconnects by identity",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-B legal independent nested stacks are validated by ownership rather than flat array order",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-C copied value sockets get fresh identities and never change the original template",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-C intrinsic field measurement expands and shrinks, and reflow supplies the actual snap connector at every zoom",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-C moving and replacing a value keeps one owner, preserves displaced values, and rejects illegal slots atomically",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-C string sockets retain exact Unicode, newlines, quotes, voice/speed, fallback and serialize in KOI Script",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-C string values beginning with equals stay literal and edits preserve the attached identity",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-C text variables interpolate and number expressions retain existing runtime semantics",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "logs": [
+        "R2-3-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "logs": [
+        "R2-3-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "logs": [
+        "R2-3-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "logs": [
+        "R2-3-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "logs": [
+        "R2-3-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "logs": [
+        "R2-3-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "logs": [
+        "R2-3-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B an explicit script music stop is not undone when gallery music ends",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B context extraction still plays immediately and only after a successful detach",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B dragging a tail out of a floating stack detects its real external connection",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B gallery audio rejection keeps BGM focus and reports an error without throwing",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B gallery preview volume follows master/music/mute plus its own gain",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B game BGM also continues while viewing CG and respects gallery focus after returning",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B linked stack disconnect plays before release exactly once and cancellation preserves data",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B muted preference is also applied to gallery music and remains muted after resuming BGM",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B opening CG/music gallery preserves the existing title BGM instance and playback position",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B single-block extraction sounds before release and empty drop does not repeat disconnect",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context",
+      "logs": [
+        "R2-7-sync-audio.log"
+      ]
+    },
+    {
+      "name": "P1-C audio stop: invalid channels diagnose without muting all tracks",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C diagnostic examples: intentional errors have lines and Chinese messages",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 事件資料",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 互動模組檔",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 功能畫面檔",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 設定檔",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 遊戲介面檔",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference schema: 35 entries each retain all 15 required documentation fields",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 互動",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 停止音訊",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 動作",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 天氣",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 對話",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 影片",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 文字框",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 旁白",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 條件",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 標籤",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 模型",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 淡幕",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 濾鏡",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 特效",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 立繪",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 等待",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 結束",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 背景",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖圖片",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖音樂",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變形",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變數",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 跳轉",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 輸入",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 過場",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 選項",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 鏡頭",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音效",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音樂",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "P1-C reference: 頭像",
+      "logs": [
+        "script-compatibility.log"
+      ]
+    },
+    {
+      "name": "R4 Player: completed parallel exit is not resurrected by a pending image transition",
+      "logs": [
+        "R2-5-player.log"
+      ]
+    },
+    {
+      "name": "arbitrary reorder retains target event identities in choices, conditions, jumps and other chapters",
+      "logs": [
+        "R2-3-regression.log"
+      ]
+    },
+    {
+      "name": "context reconnect restores original predecessor and every local/cross-chapter destination by event ID",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "logs": [
+        "storage-bounded.log"
+      ]
+    },
+    {
+      "name": "external choices remap in their destination chapter and never acquire phantom local flow edges",
+      "logs": [
+        "R2-3-regression.log"
+      ]
+    },
+    {
+      "name": "extracting a floating head keeps its healed child stack anchored and rejoining never resets it to defaults",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "floating cards use cumulative actual heights, including expanded scenes, choices and legacy stack positions",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "font files and screen image references survive durable save and portable export",
+      "logs": [
+        "storage-bounded.log"
+      ]
+    },
+    {
+      "name": "input, interpolation, branching, and rollback restore the complete variable state",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "invalid self-connections do not mutate events or targets; stale floating IDs never bridge attached cards",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "joined floating components get one root, stay connected after dragging their root, and split correctly",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "legacy Base64 project migrates only after durable save and verification",
+      "logs": [
+        "storage-bounded.log"
+      ]
+    },
+    {
+      "name": "local handoff: Windows and POSIX filesystem paths produce the same asset URL",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "local handoff: application source, Logo, HTML and CSS remain byte-identical",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "logic loops are bounded and cross chapter jumps execute",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "nested-loop tail extraction carries siblings inside its container without detaching enclosing loops",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "new loop and choice snap previews use the same expanded and compact geometry as the inserted stack",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "preview from a selected line restores preceding scene and character state",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged",
+      "logs": [
+        "R2-5-export-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer",
+      "logs": [
+        "R2-5-player.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer",
+      "logs": [
+        "R2-5-player.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 capacity: display derives from real bytes and unchanged application limit, never claims unverified 5 GB",
+      "logs": [
+        "R2-4-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events",
+      "logs": [
+        "editor-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes",
+      "logs": [
+        "R2-3-regression.log",
+        "editor-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 editor: pending section delete refuses a changed ownership range",
+      "logs": [
+        "editor-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo",
+      "logs": [
+        "R2-3-regression.log",
+        "editor-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus",
+      "logs": [
+        "R2-4-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate",
+      "logs": [
+        "R2-4-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 layout: separator and all three densities persist without changing event data; legacy strong remains representable",
+      "logs": [
+        "R2-4-final.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 palette: repeat is one container transaction with owned body/end, not three independent roots",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 release: HTML keeps the original navigation/layout and package/lock/export branding agree",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 release: protected Logo, themes, fonts, categories and player styles match r1; selected outline is the only base CSS edit",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 reproduction: a cancelled drag plus its compatibility click never inserts a block",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "r2 transaction: the same token is rejected before recursive mutation and replay after Undo",
+      "logs": [
+        "R2-2-regression.log",
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "repeat boundaries move together, insertion cannot create crossed loops, and reconnected execution matches the original",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "save data follows stable event IDs after inserting a scene event",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "save/load preserves state, actors, history, background, and variables",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "single unplug heals the remaining chain and reconnect restores the same execution and branch identities",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "snapping before a target uses the bottom of the complete stack, and tolerances remain in screen pixels",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "transaction failures leave the previous project and files intact",
+      "logs": [
+        "storage-bounded.log"
+      ]
+    },
+    {
+      "name": "visual and audio control events are applied before dialogue",
+      "logs": [
+        "local-final.log"
+      ]
+    },
+    {
+      "name": "whole story stack reconnects to the start dock when no other blocks remain",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    },
+    {
+      "name": "whole-stack mode includes named sections but excludes unrelated floating stacks",
+      "logs": [
+        "R2-2-regression.log"
+      ]
+    }
+  ],
+  "logs": [
+    "R2-2-regression.log",
+    "R2-3-regression.log",
+    "editor-final.log",
+    "R2-4-final.log",
+    "R2-5-player.log",
+    "R2-5-export-final.log",
+    "R2-7-sync-audio.log",
+    "local-final.log",
+    "script-compatibility.log",
+    "storage-bounded.log"
+  ],
+  "manual": "not passed: real touch, 240FPS, listening, new multi-resolution pixels"
+}

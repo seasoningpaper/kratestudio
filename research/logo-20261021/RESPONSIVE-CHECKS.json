@@ -1,0 +1,207 @@
+{
+  "method": "原有CSS/header與media規則逐位元組保留；新Logo object-fit contain及同1440x360畫布。此為約束檢查，不是實際viewport排版測試。",
+  "rows": [
+    {
+      "viewport": [
+        5120,
+        2880
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        3840,
+        2160
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        2560,
+        1600
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        1920,
+        1200
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        1600,
+        900
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "originalHeaderRules": "unchanged",
+      "originalLogoBoxRules": "unchanged",
+      "imageFit": "contain",
+      "sourceCanvas": [
+        1440,
+        360
+      ],
+      "geometryConstraint": "pass: uniform fit, no clip; no header sizing rule added",
+      "realBrowserStatus": "待人工驗收"
+    }
+  ],
+  "highDPI": {
+    "testedGeometryRatios": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "originalNominalImageBox": [
+      146,
+      40
+    ],
+    "newCanvas": [
+      1440,
+      360
+    ],
+    "requiredPixelsAt4x": [
+      584,
+      160
+    ],
+    "sourceSufficient": true,
+    "physicalDisplay": "待驗"
+  }
+}

@@ -1,0 +1,34 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.40.12-r3 build
+> node scripts/generate-feature-matrix.mjs && node scripts/generate-script-guide.mjs && node scripts/generate-features.mjs && node scripts/generate-game-skins.mjs && node scripts/bundle.mjs && node scripts/build-worker.mjs && node scripts/validate-worker.mjs
+
+{"total":126,"counts":{"A":100,"B":0,"C":2,"D":5,"E":2,"F":17}}
+✘ [ERROR] Expected ";" but found ")"
+
+    src/game-designer.jsx:18:2340:
+      18 │ ...pe}]},device,{font:'font:'+id}));setStatus('字體已匯入並�...
+         │                                   ^
+         ╵                                   ;
+
+/workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:1467
+  let error = new Error(text);
+              ^
+
+Error: Build failed with 1 error:
+src/game-designer.jsx:18:2340: ERROR: Expected ";" but found ")"
+    at failureErrorWithLog (/workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:1467:15)
+    at /workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:926:25
+    at /workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:878:52
+    at buildResponseToResult (/workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:924:7)
+    at /workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:951:16
+    at responseCallbacks.<computed> (/workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/workspace/sites/galgame-studio/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12) {
+  errors: [Getter/Setter],
+  warnings: [Getter/Setter]
+}
+
+Node.js v24.19.0

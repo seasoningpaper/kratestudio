@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {inspectBlocks} from '../src/block-integrity.mjs';
+import {transferStack,stackSpan} from '../src/stack-model.mjs';
+const e=(id,extra={})=>({id,type:'dialogue',...extra});
+test('P0-B legal independent nested stacks are validated by ownership rather than flat array order',()=>{const events=[e('r',{type:'repeat'}),e('float',{type:'repeat',blockDetached:true,blockStack:'float'}),e('end-float',{type:'repeatEnd',loopId:'float',blockDetached:true,blockStack:'float'}),e('end-r',{type:'repeatEnd',loopId:'r'}),e('a'),e('b')];const p={chapters:[{id:'c',events}]};assert.deepEqual(inspectBlocks(events),[]);assert.equal(transferStack(p,0,['a'],null,{detach:true,x:600,y:200}),true);assert.deepEqual(inspectBlocks(p.chapters[0].events),[]);assert.equal(transferStack(p,0,['a'],'b',{before:true}),true);assert.deepEqual(inspectBlocks(p.chapters[0].events),[])});
+test('P0-B default tail includes section markers, while single extraction heals and reconnects by identity',()=>{const p={chapters:[{id:'c',events:[e('a'),e('b'),e('s',{type:'section'}),e('c'),e('d')]}]};assert.deepEqual(stackSpan(p.chapters[0].events,1),['b','s','c','d']);assert.equal(transferStack(p,0,['b'],null,{detach:true}),true);assert.deepEqual(p.chapters[0].events.filter(e=>!e.blockDetached).map(e=>e.id),['a','s','c','d']);assert.equal(transferStack(p,0,['b'],null,{reconnect:true}),true);assert.deepEqual(p.chapters[0].events.map(e=>e.id),['a','b','s','c','d'])});

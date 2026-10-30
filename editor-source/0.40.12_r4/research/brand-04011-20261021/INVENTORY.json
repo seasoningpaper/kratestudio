@@ -1,0 +1,72 @@
+{
+  "base": "34a1e05fe8ff8f54b5a82ec42f153599cd52f486",
+  "productName": "Koi Maker",
+  "version": "0.40.11",
+  "files": [
+    {
+      "file": "dist/index.html",
+      "brandOccurrences": 4,
+      "versionOccurrences": 2
+    },
+    {
+      "file": "dist/assets/koi.svg",
+      "brandOccurrences": 1,
+      "versionOccurrences": 0
+    },
+    {
+      "file": "src/workspace.jsx",
+      "brandOccurrences": 1,
+      "versionOccurrences": 0
+    },
+    {
+      "file": "src/storage.mjs",
+      "brandOccurrences": 1,
+      "versionOccurrences": 0
+    },
+    {
+      "file": "src/packaging.mjs",
+      "brandOccurrences": 1,
+      "versionOccurrences": 0
+    },
+    {
+      "file": "src/i18n-extra.mjs",
+      "brandOccurrences": 4,
+      "versionOccurrences": 0
+    },
+    {
+      "file": "scripts/generate-script-guide.mjs",
+      "brandOccurrences": 1,
+      "versionOccurrences": 4
+    },
+    {
+      "file": "scripts/generate-features.mjs",
+      "brandOccurrences": 4,
+      "versionOccurrences": 15
+    },
+    {
+      "file": "scripts/generate-feature-matrix.mjs",
+      "brandOccurrences": 1,
+      "versionOccurrences": 1
+    },
+    {
+      "file": "scripts/prepare-block-visual-review.mjs",
+      "brandOccurrences": 2,
+      "versionOccurrences": 2
+    },
+    {
+      "file": "package.json",
+      "brandOccurrences": 0,
+      "versionOccurrences": 1
+    }
+  ],
+  "keep": [
+    "KOI Script",
+    ".koi",
+    "koi-maker-files",
+    "galgame-studio-v1",
+    "JavaScript identifiers",
+    "project/event/asset IDs",
+    "historical logs",
+    "existing URL"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "n": 500,
+  "options": 26,
+  "elapsedMs": 34.73754800000006,
+  "overlaps": 0,
+  "cardIntersections": 0,
+  "crossings": 20,
+  "scope": "Node layout/routing/rails, no browser paint or touch"
+}

@@ -1,0 +1,12 @@
+{
+  "baseline": "532b93bc73b9cb54c3eb7c19adaaa0e0a22c0811",
+  "paths": [
+    "src",
+    "dist",
+    "worker"
+  ],
+  "unchanged": true,
+  "browserQa": "blocked",
+  "p0D": "not_started",
+  "published": false
+}

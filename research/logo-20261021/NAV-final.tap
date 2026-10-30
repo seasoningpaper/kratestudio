@@ -1,0 +1,14 @@
+✔ clean logo click uses the existing project hub, focuses the current project and never reloads or initializes a project (1797.50723ms)
+✔ dirty navigation cancellation preserves the active editor, event IDs, data, history and existing draft (1150.444261ms)
+✔ confirmed navigation preserves pending source and rapid click/touch events ask only once (893.846456ms)
+✔ saved but unapplied program drafts and failed saves still request the existing confirmation dialog (999.728732ms)
+✔ secondary mouse buttons do not navigate; Enter/Space remain native accessible button activation (541.215787ms)
+✔ translated unsaved status cannot bypass logo navigation confirmation (1906.6601ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9562.570238

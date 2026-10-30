@@ -1,0 +1,50 @@
+{
+  "product": "Koi Maker 視覺化故事創作平台",
+  "version": "0.40.11_r3",
+  "change": "正式Logo更新",
+  "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "source": "03b922cd49c4be7348d394f39f15321bdb91d924",
+  "saved_version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_1049a606188c8191b4d3f70b491c92d4",
+  "site_version": 56,
+  "deployment_id": "appgdep_6ad86f8c4e1c8191bcb905b8ab4d967a",
+  "status": "succeeded",
+  "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+  "deployed_at": "2026-10-21T07:54:02.324967+00:00",
+  "after_publish": {
+    "status": "active",
+    "audience": "public",
+    "title": "Koi Maker 視覺化故事創作平台 0.40.11_r3",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "latest": 56
+  },
+  "archive": "/workspace/scratch/e00fc226fa87/Koi-Maker-0.40.11_r3-official-logo-deployment.tar.gz",
+  "archive_sha256": "fd50473dae195e9b75b0a2842e4d67f5be4aecaa2b82e81cae12753849e61b7b",
+  "published_source_zip": "/workspace/scratch/e00fc226fa87/Koi-Maker-0.40.11_r3-official-logo-published-source.zip",
+  "published_source_zip_sha256": "5e391fa94049eb23b4f4a267aea9ffd06b473cfe711720ddb6d4248e586437b0",
+  "before": {
+    "checkpoint": "dfcbc25bf165be7cb08c4c3acc13caea7e569e75",
+    "zip": "/workspace/scratch/e00fc226fa87/Koi-Maker-before-official-logo-dfcbc25.zip",
+    "sha256": "103f6543eaa930bb6d76d2f86a2c75ad1100f52059af4cf67a271b979e117e72"
+  },
+  "rollback": {
+    "site_version": 55,
+    "source": "1d7d0ce84d8b6d775173de0f01dc3f033adb0d7d",
+    "saved_version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_7caf64234f3081919b20c3a9867cdfd4",
+    "older_site_version": 54,
+    "older_source": "5b004f31b8ebfddfe9523703c73269af58cf71f1",
+    "method": "沿用同一專案部署原已保存版本，保留public與URL；不清除使用者資料。"
+  },
+  "tests": {
+    "unique_cases_passed": 21,
+    "syntax_files": 3,
+    "worker_assets": 29,
+    "build": "passed",
+    "core_source": "byte-identical outside logo-specific app navigation, HTML and added asset/style files",
+    "gui_protection": "original shared CSS and player CSS unchanged; header/media rules unchanged",
+    "manual_browser_visual": "pending",
+    "physical_touch": "pending",
+    "keyboard_browser_default": "pending",
+    "system_theme": "not applicable: no existing system-follow option"
+  },
+  "note": "部署確認僅原生succeeded與get_site active/public/latest56；未宣稱正式站真人操作通過。交接commit只補文件，執行資產與此source相同。"
+}

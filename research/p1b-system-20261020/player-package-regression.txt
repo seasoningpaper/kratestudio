@@ -1,0 +1,19 @@
+✔ multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP (1523.293476ms)
+✔ player title, quick save/load, history, settings, ending collection, and nine save slots (850.863105ms)
+✔ standalone guest runtime launches safely without the editor or return-to-maker control (88.240318ms)
+✔ ten direct controls, seen-only skip, hide restore, home resume, and choice stop (851.758641ms)
+✔ grouped settings apply and persist text, display, audio and reset preferences (887.295676ms)
+✔ automatic advance waits for voice completion (1322.092846ms)
+✔ click template completes into a score variable and custom iframe validates its sender (521.94495ms)
+✔ resource database inserts playable templates and applies sprite presets to editor and player (1190.505181ms)
+✔ memory template can be solved through visible card values and returns a score (1278.613193ms)
+✔ CG hides actors temporarily and explicit background clear removes them in editor and player (745.604622ms)
+✔ project feature switches hide selected player controls and keep configured controls usable (141.906004ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10182.928213

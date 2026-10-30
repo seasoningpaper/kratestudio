@@ -1,0 +1,34 @@
+✔ blocks share clipboard shortcuts, use context actions and accept palette drops at the target row (2215.587383ms)
+✔ two fingers pan blocks and flow without changing scale; minimap navigation obeys the same bounds (1250.800807ms)
+✔ detached blocks and repeat stacks are inactive, keep stable destinations, and copied layouts are offset (16.17224ms)
+✔ blocks detach under the pointer, reconnect, zoom and navigate through their bounded minimap (1778.094762ms)
+✔ blocks grid settings persist and blank-space dragging pans the bounded world without changing events (1154.760358ms)
+✔ blocks use undo, redo and Delete shortcuts while focused text fields keep their own keyboard behavior (2419.501717ms)
+✔ 0.40.10 large blocks keep a bounded DOM, preserve all events and reveal a distant selection (2403.39891ms)
+✔ 0.40.10 block audio defaults on, can be disabled and stays separate from game sound preferences (799.257853ms)
+✔ 0.40.10 phone palette drag shows a shaped ghost, inserts once, and two fingers still pan (851.040071ms)
+✔ r2 dragging a stack into the palette deletes it once and Undo restores every event (1083.640132ms)
+✔ r3 free operator blocks remain deletable and keyboard copy/paste does not copy story cards (871.797416ms)
+✔ r5 palette pointer drop inserts at the visible snap boundary rather than appending to the story (974.770112ms)
+✔ r5 changing the chapter resets its block viewport and cancels an unfinished drag (1105.510383ms)
+✔ r6 right-click exposes single, following and whole-stack detach with one-step undo (1825.650596ms)
+✔ r6 mouse and touch palette drops in left-side blank space create one independent inactive block (1262.726781ms)
+✔ r6 adding inside a floating stack preserves its complete downstream connection, targets and storage (810.218711ms)
+✔ r6 clicking Add in a floating stack joins the new loop without splitting siblings and undo restores exactly once (982.817387ms)
+✔ r6 Alt-drag extracts a single statement and its original neighbors remain connected (678.412563ms)
+✔ r6 newly inserted choices lead to the following story event instead of pointing back to themselves (704.300156ms)
+✔ R7 ten rapid Add clicks retain creation order, unique IDs and all ten undo/redo transactions (1655.875084ms)
+✔ R7 zoomed and panned mouse and touch single drags preserve their pickup offset in world coordinates (1872.480397ms)
+✔ R7 shared data changes cancel stale drags and same-ID event type updates its block geometry (757.71964ms)
+✔ R7 second pointer cannot leave a duplicate palette ghost and cancellation creates no event (557.527059ms)
+✔ R7 edited blocks survive event/flow/code mode changes, source refresh, storage and real player preview (1947.612175ms)
+✔ R7 raw KOI import creates a new shared chapter with unique IDs, restores nested blocks and rejects broken import without clearing its draft (1158.004819ms)
+✔ R7 dragging on a deep panned canvas stays under the pointer instead of clamping to an obsolete height (712.1527ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 33853.349089

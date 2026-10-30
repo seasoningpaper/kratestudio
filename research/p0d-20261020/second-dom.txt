@@ -1,0 +1,11 @@
+✔ P0-D clean KOI file follows block/event edits without manual refresh (358.161308ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (255.414584ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (100.714952ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1050.068559

@@ -1,0 +1,38 @@
+✔ policy uses exactly 5,000,000,000 bytes with exact decimal boundaries (35.37051ms)
+✔ quota estimates are optional shared-origin estimates, never a guaranteed project allowance (1.491144ms)
+✔ capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets (3.738461ms)
+✔ same filename with distinct IDs is stored twice; duplicate IDs are rejected (0.781931ms)
+✖ atomic save/reload retains unknown data and exact bytes (12.947108ms)
+✔ quota and interrupted transaction leave previous snapshot and assets intact (7.234579ms)
+✔ asset deletion saves with accurate reduced payload without damaging other projects (6.701213ms)
+✔ stream backup roundtrip retains every field and binary asset with checksum (13.00226ms)
+✔ stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data (5.352489ms)
+✔ cancelled and failed writes abort the writer and never report a complete backup (1.070119ms)
+✔ legacy Base64 assets still save, load and export with original identifiers (3.390224ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 10
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 349.579776
+
+✖ failing tests:
+
+test at tests/04012-r3-storage.test.mjs:16:1
+✖ atomic save/reload retains unknown data and exact bytes (12.947108ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  275 !== 285
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r3-storage.test.mjs:16:188)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 275,
+    expected: 285,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

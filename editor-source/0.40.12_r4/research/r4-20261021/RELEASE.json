@@ -1,0 +1,37 @@
+{
+  "productVersion": "0.40.11_r4",
+  "kind": "測試修訂版",
+  "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "source": "d855a55fb7981cc71db50bc977fbe276af976a69",
+  "siteVersion": 57,
+  "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_22224ccfd248819191fc73558f062c91",
+  "deploymentId": "appgdep_6ad8a1c4a1a481919003f0793167780b",
+  "status": "succeeded",
+  "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+  "updated_at": "2026-10-21T11:28:18.401477+00:00",
+  "access_mode": "public",
+  "siteStatus": "active",
+  "title": "Koi Maker 視覺化故事創作平台 0.40.11_r4",
+  "sourceZip": "Koi-Maker-0.40.11_r4-published-source.zip",
+  "sourceZipSha256": "c086b8c8a3889d5c219a86480d7ecacca5e4d35100af976b391315aa119f2d10",
+  "archiveSha256": "sha256:7309f9daba87c3ab81c3231e94de63f5a5f0d096a52518021500025c6f1fd0a9",
+  "rollback": {
+    "siteVersion": 56,
+    "source": "03b922cd49c4be7348d394f39f15321bdb91d924",
+    "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_1049a606188c8191b4d3f70b491c92d4"
+  },
+  "beforeDevelopment": "9af300c79cab5eedc9b0e337b56b430d586756e1",
+  "tests": {
+    "uniquePassed": 138,
+    "syntaxFiles": 14,
+    "build": "passed",
+    "workerAssetsExact": 31
+  },
+  "verification": "Sites native deploy succeeded + get_site active/public/title/URL/version57; no real browser session",
+  "manualPending": [
+    "完整原專案JSON、章節／互動定義、原素材／音訊",
+    "真實瀏覽器視覺、觸控、聽感",
+    "所有分支組合、任意舊專案與裝置quota"
+  ],
+  "noDataMigration": true
+}

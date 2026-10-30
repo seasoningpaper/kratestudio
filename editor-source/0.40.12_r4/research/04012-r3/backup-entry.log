@@ -1,0 +1,10 @@
+✔ backup entry: original export button streams to file picker; original import button validates and restores the same complete project (699.236526ms)
+✔ backup entry: picker cancellation and corrupted import leave the current project untouched (427.280679ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1867.38303

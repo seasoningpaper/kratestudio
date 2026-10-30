@@ -1,0 +1,20 @@
+✔ C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged (689.815814ms)
+✔ C4 reproduction: second touch cannot move or finish the first game-template gesture (578.814317ms)
+✔ C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later (388.799841ms)
+✔ C4 reproduction: second touch cannot move or finish the first menu-template gesture (499.029676ms)
+✔ C4 reproduction: lost pointer capture cancels a menu-template draft (385.537468ms)
+✔ C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom (508.211492ms)
+✔ C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect (492.701919ms)
+✔ C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe (469.595257ms)
+✔ C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas (772.259084ms)
+✔ C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas (774.755063ms)
+✔ C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration (682.47556ms)
+✔ C4: viewport resize cancels both template drafts without committing partial coordinates (784.963447ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7402.91708

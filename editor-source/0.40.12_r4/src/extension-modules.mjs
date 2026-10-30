@@ -1,0 +1,3 @@
+import{resolveScriptAssets}from'./script-import.mjs';
+export const moduleTypes=new Set(['dialogue','background','character','animation','wait','effect','music','sound','textbox','avatar','fade','intro','video','camera','model']);
+export function moduleEvents(events,p){if(!Array.isArray(events)||events.length>2000)throw Error('無效的模組格式');if(events.some(e=>!e||!moduleTypes.has(e.type)))throw Error('模組含有未支援的事件');const clean=events.map(raw=>{const e=structuredClone(raw);for(const key of ['id','next','elseTarget','targetChapter','options','scriptTarget','blockDetached','blockPos','pos'])delete e[key];if(e.type!=='animation')delete e.target;e.text=String(e.text||'');return e});return resolveScriptAssets({...p,chapters:[{events:clean}]}).chapters[0].events}

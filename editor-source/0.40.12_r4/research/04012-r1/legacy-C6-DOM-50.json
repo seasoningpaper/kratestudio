@@ -1,0 +1,13 @@
+{
+  "n": 50,
+  "elapsedMs": 870.9067480000001,
+  "modes": [
+    "event",
+    "blocks",
+    "code",
+    "flow",
+    "event"
+  ],
+  "comparison": "all fields, resource IDs, order, branches, cross-chapter references, nested unknowns and Engine state/trace",
+  "scope": "actual bundles with JSDOM; not physical browser/touch"
+}

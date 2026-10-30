@@ -1,0 +1,5 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker-desktop@0.41.0-dev.1 typecheck
+> tsc --noEmit
+

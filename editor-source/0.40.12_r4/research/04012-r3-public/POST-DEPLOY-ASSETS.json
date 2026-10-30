@@ -1,0 +1,16 @@
+{
+  "uploadBytes": 6819610,
+  "uploadSHA256": "8caf6c5553069b7eba247ba61e4c9d3ccbeffd691bf76fc542f2f36b6af2fe6b",
+  "decodedTarBytes": 11130880,
+  "decodedTarSHA256": "29ab828855f4919c402f2d9145100d41cc1579a3b030628ac3e62d672348f81f",
+  "nativeStoredArchiveHash": "sha256:5def11d6acf00b11eb57fba113b8c401ca404bffa2ff9f6383a89b16ac3e0371",
+  "localFileCount": 37,
+  "nativeFileCount": 37,
+  "localWorkerMatchesValidatedOutput": true,
+  "nativeSavedSource": "49fa62c2988f103739486d8fad2d2ed61fa41bc8",
+  "nativeVersion": 60,
+  "nativeDeploymentStatus": "succeeded",
+  "localWorkerAssets": 35,
+  "liveHttpProbe": "Root and release note URL not accessible via search tool; no real browser success claimed",
+  "scope": "Native source/version/receipt verified; local submitted archive Worker exact. Native archive hash is recorded separately, not claimed byte-identical to local TAR; no native per-file download comparison."
+}

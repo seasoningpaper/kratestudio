@@ -1,0 +1,29 @@
+✔ C5 migration preserves legacy desktop profiles, unknown fields and has exact reversible backup (3.618419ms)
+✔ C5 migration preserves legacy mobile profiles, unknown fields and has exact reversible backup (0.842153ms)
+✔ C5 migration of absent templates is lazy, reversible and cannot change other pages (0.483444ms)
+✔ C5 groups expand selection, ungroup atomically, move in shared coordinates and never change actions (0.763596ms)
+✔ C5 duplicate built-ins produces independent extras, preserves actions and remaps copied group membership (0.67063ms)
+✔ C5 rejects duplicate, missing, cyclic/nested and multiply-parented group references before any write (0.8946ms)
+✔ C5 standalone import/export retains optional groups, typed actions, layers and validates references (1.302221ms)
+✔ C5 alignment and distribution operate on existing components without action or identity loss (0.732872ms)
+✔ C5 actual template UI creates groups, clones built-in navigation and restores both history and legacy backup (1339.965446ms)
+✔ C5 grouping metadata never leaks profile identities, migration backups or group membership to other pages (1.247971ms)
+✔ C5 unsupported future versions and malformed backups fail before mutating project data (0.769876ms)
+✔ C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution (46.357417ms)
+✔ C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution (102.547328ms)
+✔ C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution (218.006366ms)
+✔ C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (1493.30322ms)
+✔ C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2011.723921ms)
+✔ C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2824.986706ms)
+✔ C6 unsupported future event fails explicitly before source apply rather than being silently deleted (1.173031ms)
+✔ C6 CRUD 50: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (5.769554ms)
+✔ C6 CRUD 300: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (16.854551ms)
+✔ C6 CRUD 500: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (37.288836ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7211.052239

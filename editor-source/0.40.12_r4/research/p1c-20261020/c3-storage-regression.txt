@@ -1,0 +1,12 @@
+✔ legacy Base64 project migrates only after durable save and verification (8.53078ms)
+✔ many images beyond the old localStorage quota save as blobs and reload intact (10.647855ms)
+✔ transaction failures leave the previous project and files intact (3.259376ms)
+✔ font files and screen image references survive durable save and portable export (2.342821ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 132.912231

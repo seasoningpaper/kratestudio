@@ -1,0 +1,98 @@
+TAP version 13
+# Subtest: R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout
+ok 1 - R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout
+  ---
+  duration_ms: 801.586821
+  type: 'test'
+  ...
+# Subtest: R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo
+not ok 2 - R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo
+  ---
+  duration_ms: 899.903274
+  type: 'test'
+  location: '/workspace/sites/galgame-studio/tests/r2-flow-dom.test.mjs:5:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    2 !== 5
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 5
+  actual: 2
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r2-flow-dom.test.mjs:5:1171)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+  ...
+# Subtest: R2-C DOM: flow group drag uses scaled world delta and one Undo transaction
+ok 3 - R2-C DOM: flow group drag uses scaled world delta and one Undo transaction
+  ---
+  duration_ms: 667.386212
+  type: 'test'
+  ...
+# Subtest: R2-C: 20 events with bounded layered layout, intact story and no card crossings
+ok 4 - R2-C: 20 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 5.007639
+  type: 'test'
+  ...
+# Subtest: R2-C: 100 events with bounded layered layout, intact story and no card crossings
+ok 5 - R2-C: 100 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 9.530441
+  type: 'test'
+  ...
+# Subtest: R2-C: 300 events with bounded layered layout, intact story and no card crossings
+ok 6 - R2-C: 300 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 17.051859
+  type: 'test'
+  ...
+# Subtest: R2-C: 500 events with bounded layered layout, intact story and no card crossings
+ok 7 - R2-C: 500 events with bounded layered layout, intact story and no card crossings
+  ---
+  duration_ms: 32.532781
+  type: 'test'
+  ...
+# Subtest: R2-C: merges center, branches occupy neighboring columns and port order is deterministic
+ok 8 - R2-C: merges center, branches occupy neighboring columns and port order is deterministic
+  ---
+  duration_ms: 1.724651
+  type: 'test'
+  ...
+# Subtest: R2-C: loops, repeated jumps, self links, conditions and cross-chapter jumps never mutate destinations
+ok 9 - R2-C: loops, repeated jumps, self links, conditions and cross-chapter jumps never mutate destinations
+  ---
+  duration_ms: 0.827367
+  type: 'test'
+  ...
+# Subtest: R2-C: explicit manual coordinates stay intact until the auto action and serialized snapshots restore them
+ok 10 - R2-C: explicit manual coordinates stay intact until the auto action and serialized snapshots restore them
+  ---
+  duration_ms: 0.554693
+  type: 'test'
+  ...
+# Subtest: R2-C: group reordering retains event IDs and all same/cross-chapter references
+ok 11 - R2-C: group reordering retains event IDs and all same/cross-chapter references
+  ---
+  duration_ms: 0.83594
+  type: 'test'
+  ...
+# Subtest: R2-C: a too-large layout fails before touching original project coordinates
+ok 12 - R2-C: a too-large layout fails before touching original project coordinates
+  ---
+  duration_ms: 1.306315
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 11
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2895.230423

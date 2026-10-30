@@ -1,0 +1,115 @@
+{
+  "base": "5114690",
+  "unchangedFiles": [
+    {
+      "file": "dist/index.html",
+      "unchanged": true,
+      "sha256": "e572abb5934b831762fb1cc1e37547853742deda582e0c56300e3040c8d7a099"
+    },
+    {
+      "file": "package.json",
+      "unchanged": true,
+      "sha256": "c14e4a91d9a1a865e246cd2b98e5f659079d73dc17b38c2d2cca870811674b69"
+    },
+    {
+      "file": "pnpm-lock.yaml",
+      "unchanged": true,
+      "sha256": "1da27a4b2174b99e767a6cea66b272eec8bc0f30827fb6635bb5bec1a4378000"
+    },
+    {
+      "file": ".openai/hosting.json",
+      "unchanged": true,
+      "sha256": "976f9ef3cc76219b958bb9bc64734655b754d7a5f51c93e76a49f6199635fa8a"
+    },
+    {
+      "file": "src/storage.mjs",
+      "unchanged": true,
+      "sha256": "5711aa8f960b2fa8c2207d4c9ce0bd150975c6599d49eb7d275b948380c29e3d"
+    },
+    {
+      "file": "src/engine.mjs",
+      "unchanged": true,
+      "sha256": "246e03613927f924017f1024582f5d7e57b46006ff2e79ea7de7e15b98356678"
+    },
+    {
+      "file": "src/script-import.mjs",
+      "unchanged": true,
+      "sha256": "5808ed4f631329dd49ca455266db6e7a341a3f23b45159e17355ccbac05b69a8"
+    },
+    {
+      "file": "src/script-reference.mjs",
+      "unchanged": true,
+      "sha256": "38e93bea227e6d9a9a1825950d35e79fdc5a99e0dae5ab920739f1e8ad0bdc7b"
+    },
+    {
+      "file": "src/program-sync.mjs",
+      "unchanged": true,
+      "sha256": "997fd8dadd152fb374e3ee94ea02108f7384d5f524f9792603e95ce58d6a4897"
+    },
+    {
+      "file": "src/event-order.mjs",
+      "unchanged": true,
+      "sha256": "1a80f7f998e673055737a05d8e159e11495a1046bddc9e7e51b4ec7c5607d8ca"
+    },
+    {
+      "file": "src/screen-layout.mjs",
+      "unchanged": true,
+      "sha256": "d55c2124adb50d7128990a1e6929b6858c248161de566163c6e47ef07d4e9a23"
+    },
+    {
+      "file": "src/game-ui.mjs",
+      "unchanged": true,
+      "sha256": "50ecf7b79d9e1b8b973eee986a15d82e5348ce2e8bada27f1615936e05bf88c3"
+    },
+    {
+      "file": "src/packaging.mjs",
+      "unchanged": true,
+      "sha256": "2df033418ff307c12289dfa40da4a5171008e09e6bcf34d632aef051dfeefc86"
+    },
+    {
+      "file": "dist/assets/classroom.png",
+      "unchanged": true,
+      "sha256": "ac0cc05a480712ba5a76ec791f8741a5ee783b92ed1eab917f22a3247aed6f52"
+    },
+    {
+      "file": "dist/assets/icons.svg",
+      "unchanged": true,
+      "sha256": "7140839d0ef6c771ead17e0810c5143c776d9d983b1871cb0c1f115fd338735c"
+    },
+    {
+      "file": "dist/assets/koi.svg",
+      "unchanged": true,
+      "sha256": "ab6740872224f6cba608fefa31cb0575f6351c4f09fb507592c61549cdc5605f"
+    },
+    {
+      "file": "dist/assets/ui/click.mp3",
+      "unchanged": true,
+      "sha256": "1048f2539ac47e4eaa4bd1688968c0d7b9956bd6fef507644ee5131924c6517c"
+    },
+    {
+      "file": "dist/assets/ui/delete.mp3",
+      "unchanged": true,
+      "sha256": "6ea0afab062cb3ba5409dc65d7a9fdf85d602b1870d231d80bdf3cc5b32432b6"
+    },
+    {
+      "file": "dist/assets/ui/disconnect.wav",
+      "unchanged": true,
+      "sha256": "af6be7442f17223421cc012c59bf72bd5303e2878d0287acb4d0368d3995cf8a"
+    }
+  ],
+  "cssAppendOnly": [
+    {
+      "file": "dist/style.css",
+      "originalBytes": 210860,
+      "originalPrefixUnchanged": true,
+      "addedBytes": 3449
+    },
+    {
+      "file": "dist/player.css",
+      "originalBytes": 136907,
+      "originalPrefixUnchanged": true,
+      "addedBytes": 165
+    }
+  ],
+  "scope": "Source integrity only; not a visual regression pass. New scoped rules intentionally override relevant interaction styles."
+}

@@ -1,0 +1,38 @@
+{
+  "version": "0.40.12_r1",
+  "base": "73931c876fe2bafcf61bde95c88ae2595d3433c8",
+  "environment": {
+    "platform": "linux",
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "windowsActuallyExecuted": false
+  },
+  "cleanNpmCi": "passed",
+  "productionBuild": "passed",
+  "localSmoke": {
+    "passed": 40,
+    "failed": 0,
+    "skipped": 0,
+    "durationMs": 10044.808165
+  },
+  "finalLocalSubset": {
+    "passed": 3,
+    "failed": 0,
+    "alreadyCountedIn40": true
+  },
+  "workerAssets": {
+    "count": 33,
+    "exact": true
+  },
+  "unchangedApplicationFiles": 147,
+  "syntaxFiles": 6,
+  "deployed": false,
+  "pending": [
+    "Windows11 actual install and browser use",
+    "real touch",
+    "240FPS and intro flash",
+    "audio listening",
+    "5GB architecture",
+    "Windows EXE"
+  ]
+}

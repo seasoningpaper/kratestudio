@@ -1,0 +1,28 @@
+✖ P1-C ZIP collisions: distinct custom asset IDs with the same sanitized filename retain different bytes (16.914561ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 169.76286
+
+✖ failing tests:
+
+test at tests/p1c-assets.test.mjs:11:1
+✖ P1-C ZIP collisions: distinct custom asset IDs with the same sanitized filename retain different bytes (16.914561ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-assets.test.mjs:11:488)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

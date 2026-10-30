@@ -1,0 +1,118 @@
+TAP version 13
+# Subtest: R2-D: left respects explicit canvas/selection frames and locks
+ok 1 - R2-D: left respects explicit canvas/selection frames and locks
+  ---
+  duration_ms: 1.947975
+  type: 'test'
+  ...
+# Subtest: R2-D: center-x respects explicit canvas/selection frames and locks
+ok 2 - R2-D: center-x respects explicit canvas/selection frames and locks
+  ---
+  duration_ms: 0.374204
+  type: 'test'
+  ...
+# Subtest: R2-D: right respects explicit canvas/selection frames and locks
+ok 3 - R2-D: right respects explicit canvas/selection frames and locks
+  ---
+  duration_ms: 0.158138
+  type: 'test'
+  ...
+# Subtest: R2-D: top respects explicit canvas/selection frames and locks
+ok 4 - R2-D: top respects explicit canvas/selection frames and locks
+  ---
+  duration_ms: 0.122034
+  type: 'test'
+  ...
+# Subtest: R2-D: center-y respects explicit canvas/selection frames and locks
+ok 5 - R2-D: center-y respects explicit canvas/selection frames and locks
+  ---
+  duration_ms: 0.150877
+  type: 'test'
+  ...
+# Subtest: R2-D: bottom respects explicit canvas/selection frames and locks
+ok 6 - R2-D: bottom respects explicit canvas/selection frames and locks
+  ---
+  duration_ms: 0.103847
+  type: 'test'
+  ...
+# Subtest: R2-D: distribute-x preserves equal spacing and endpoint bounds
+ok 7 - R2-D: distribute-x preserves equal spacing and endpoint bounds
+  ---
+  duration_ms: 0.207623
+  type: 'test'
+  ...
+# Subtest: R2-D: distribute-y preserves equal spacing and endpoint bounds
+ok 8 - R2-D: distribute-y preserves equal spacing and endpoint bounds
+  ---
+  duration_ms: 0.087692
+  type: 'test'
+  ...
+# Subtest: R2-D: canvas center, duplicate IDs, single-selection and group bounds preserve source
+ok 9 - R2-D: canvas center, duplicate IDs, single-selection and group bounds preserve source
+  ---
+  duration_ms: 0.454776
+  type: 'test'
+  ...
+# Subtest: R2-D: nested templates use world coordinates for canvas centering and reject unsafe out-of-parent alignment atomically
+ok 10 - R2-D: nested templates use world coordinates for canvas centering and reject unsafe out-of-parent alignment atomically
+  ---
+  duration_ms: 1.992982
+  type: 'test'
+  ...
+# Subtest: R2-D: parent/child selection translates once and locked nested items remain intact
+ok 11 - R2-D: parent/child selection translates once and locked nested items remain intact
+  ---
+  duration_ms: 0.244108
+  type: 'test'
+  ...
+# Subtest: R2-D: desktop/mobile persistence retains logical coordinates without changing event formats
+ok 12 - R2-D: desktop/mobile persistence retains logical coordinates without changing event formats
+  ---
+  duration_ms: 3.857081
+  type: 'test'
+  ...
+# Subtest: template group movement moves nested slots once and clamps the complete group inside the canvas
+ok 13 - template group movement moves nested slots once and clamps the complete group inside the canvas
+  ---
+  duration_ms: 1.927984
+  type: 'test'
+  ...
+# Subtest: copying local save elements uses world coordinates and pasting creates independent IDs
+ok 14 - copying local save elements uses world coordinates and pasting creates independent IDs
+  ---
+  duration_ms: 0.426843
+  type: 'test'
+  ...
+# Subtest: dropped images retain their aspect ratio in both portrait and landscape logical canvases
+ok 15 - dropped images retain their aspect ratio in both portrait and landscape logical canvases
+  ---
+  duration_ms: 1.069571
+  type: 'test'
+  ...
+# Subtest: template text is in logical pixels and image fill never silently stretches artwork
+ok 16 - template text is in logical pixels and image fill never silently stretches artwork
+  ---
+  duration_ms: 0.417789
+  type: 'test'
+  ...
+# Subtest: migrated default font sizes do not overwrite new creator-authored font choices
+ok 17 - migrated default font sizes do not overwrite new creator-authored font choices
+  ---
+  duration_ms: 2.290721
+  type: 'test'
+  ...
+# Subtest: r2 reduces prior defaults but retains explicitly authored typography from the previous schema
+ok 18 - r2 reduces prior defaults but retains explicitly authored typography from the previous schema
+  ---
+  duration_ms: 0.248154
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 100.668611

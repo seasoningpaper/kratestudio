@@ -1,0 +1,23 @@
+✔ C2: checkbox selection, active editing, all and clear remain independent without touching canonical events (919.204597ms)
+✔ C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work (760.360178ms)
+✔ C2: section checkbox participates in selection; closed groups do not hide a newly located cursor (698.667094ms)
+✔ C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic (797.223023ms)
+✔ C2: batch move preserves order, unknown fields and incoming cross-chapter destinations (754.364174ms)
+✔ C2: batch delete requires confirmation, clears dangling branch targets and is undoable (643.526435ms)
+✔ C2: changing chapters while deletion is pending cancels the old operation (632.293807ms)
+✔ C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact (638.28199ms)
+✔ C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity (583.999433ms)
+✔ C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection (669.998653ms)
+✔ C2: bounded 500-event list selection and bulk movement retain all event semantics (1124.697685ms)
+✔ C2: bounded 1000-event list selection and bulk movement retain all event semantics (1459.42475ms)
+✔ R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout (782.745136ms)
+✔ R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo (922.170876ms)
+✔ R2-C DOM: flow group drag uses scaled world delta and one Undo transaction (670.740251ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10244.224896

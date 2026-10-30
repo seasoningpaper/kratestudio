@@ -1,0 +1,145 @@
+✔ R4 supplied source: missing original modules remain an explicit untested dependency (8.42797ms)
+✔ R4 supplied original: null is invalid even after a successful fig-right show; never auto-repair story data (6.609982ms)
+✖ R4 supplied correction: real branch execution covers all option edges and seven endings without alias errors (13.543703ms)
+✖ R4 supplied correction: Script roundtrip preserves all fields, IDs, target types and branch execution (35.749092ms)
+✔ R4 lifecycle: conditional branch skips invalid off-route targets; jump carries the actual actors across chapters and save/load (1.950898ms)
+✔ R4 lifecycle: repeat center/right show, replacement and waiting exit 20 times without stale aliases (4.130229ms)
+✔ R4 target namespaces: filename, role ID and empty position never alias an unrelated actor (0.485962ms)
+✔ R4 edit lifecycle: reordering and copied events keep string targets and independent parameters (2.157128ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 6
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 205.753213
+
+✖ failing tests:
+
+test at tests/r4-story.test.mjs:17:1
+✖ R4 supplied correction: real branch execution covers all option edges and seven endings without alias errors (13.543703ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      activityLog: [
+        {
+          activity: '74f5da82-7bc9-420c-b335-207c83416ed9',
+          comments: {},
+  ...
+        {
+  -       actor: undefined,
+          audio: '08f12b2e-d1f6-4d4d-acb4-0f7a91405e76',
+          id: '2a87714e-21eb-4a5f-9534-7185e06daae7-1',
+          loop: false,
+          volume: 100
+        }
+  
+      at play (file:///workspace/sites/galgame-studio/tests/r4-story.test.mjs:10:167)
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r4-story.test.mjs:18:126)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      chapter: 0,
+      index: 37,
+      vars: { '好感度': 1, '互動分數': 100, '小瑾好感': 0, '依君好感': 0, '勇氣': 0, '路線': 0, '雅婷好感': 0 },
+      scene: '638fe941-3387-47bf-9002-99559f729732',
+      actors: { 'fig-right': [Object], 'fig-center': [Object] },
+      music: null,
+      avatar: '',
+      textboxVisible: true,
+      fadeDark: 0,
+      unlockedBgm: [],
+      sounds: [ [Object] ],
+      effect: 'shake',
+      log: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ],
+      seen: [ '65b8b480-5b60-49e0-a015-3db1315bd2c7', 'c460ab3e-c610-41ae-8bf5-36968b5de83d', '4d2d3399-24ad-4cec-a3da-46a636d21331', '334cab81-1315-49b1-85c3-0297f112d530', '82793c65-40c1-4c48-abda-2969f502d597', '70824465-46f2-44bf-b7e6-6a4a2d7782aa', 'b35846b8-93fe-4717-a762-dd9c7eb89ddb', 'bad41f8d-45a8-4bf8-9fa1-03ee4fe56228', 'de3a16c5-69b6-4a42-b63c-6b5cfb685245', '83f57140-2430-4ab4-8148-fa0be0c80455', '1a7b8504-6b61-4996-bce9-e6f90ad586e2', '50830f7d-080d-4284-9cfc-9bebecc7f635', '0e6c0941-31e6-4c21-80f9-276a10efdc73', 'b2b3f117-a2f4-4954-a415-deb5e62c7477' ],
+      gallery: [],
+      endings: [],
+      error: null,
+      loopFrames: {},
+      inventory: [],
+      activityLog: [ [Object], [Object] ],
+      fadeDuration: 0.7,
+      audioSequence: 1,
+      background: { id: 'f914c370-532b-4f1b-8a4d-a209527da23e', type: 'background', text: '測試事件 24', clearActors: false, scriptLine: 29, resourceRefs: [Array], scene: '638fe941-3387-47bf-9002-99559f729732' },
+      visualSequence: 10
+    },
+    expected: {
+      chapter: 0,
+      index: 37,
+      vars: { '好感度': 1, '互動分數': 100, '小瑾好感': 0, '依君好感': 0, '勇氣': 0, '路線': 0, '雅婷好感': 0 },
+      scene: '638fe941-3387-47bf-9002-99559f729732',
+      actors: { 'fig-right': [Object], 'fig-center': [Object] },
+      music: null,
+      avatar: '',
+      textboxVisible: true,
+      fadeDark: 0,
+      unlockedBgm: [],
+      sounds: [ [Object] ],
+      effect: 'shake',
+      log: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ],
+      seen: [ '65b8b480-5b60-49e0-a015-3db1315bd2c7', 'c460ab3e-c610-41ae-8bf5-36968b5de83d', '4d2d3399-24ad-4cec-a3da-46a636d21331', '334cab81-1315-49b1-85c3-0297f112d530', '82793c65-40c1-4c48-abda-2969f502d597', '70824465-46f2-44bf-b7e6-6a4a2d7782aa', 'b35846b8-93fe-4717-a762-dd9c7eb89ddb', 'bad41f8d-45a8-4bf8-9fa1-03ee4fe56228', 'de3a16c5-69b6-4a42-b63c-6b5cfb685245', '83f57140-2430-4ab4-8148-fa0be0c80455', '1a7b8504-6b61-4996-bce9-e6f90ad586e2', '50830f7d-080d-4284-9cfc-9bebecc7f635', '0e6c0941-31e6-4c21-80f9-276a10efdc73', 'b2b3f117-a2f4-4954-a415-deb5e62c7477' ],
+      gallery: [],
+      endings: [],
+      error: null,
+      loopFrames: {},
+      inventory: [],
+      activityLog: [ [Object], [Object] ],
+      fadeDuration: 0.7,
+      audioSequence: 1,
+      background: { id: 'f914c370-532b-4f1b-8a4d-a209527da23e', type: 'background', text: '測試事件 24', clearActors: false, scriptLine: 29, resourceRefs: [Array], scene: '638fe941-3387-47bf-9002-99559f729732' },
+      visualSequence: 10
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/r4-story.test.mjs:23:1
+✖ R4 supplied correction: Script roundtrip preserves all fields, IDs, target types and branch execution (35.749092ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   {
+  +     line: 10,
+  +     message: '缺少或有重複名稱的素材：08f12b2e-d1f6-4d4d-acb4-0f7a91405e76',
+  +     severity: 'warning'
+  +   }
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r4-story.test.mjs:24:135)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ { line: 10, message: '缺少或有重複名稱的素材：08f12b2e-d1f6-4d4d-acb4-0f7a91405e76', severity: 'warning' } ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

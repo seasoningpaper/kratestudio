@@ -1,0 +1,41 @@
+/* Fix-02: keep each caption/control together; preserve existing block silhouettes. */
+.blocks-world .block-fields{align-self:flex-start}
+.blocks-world .block-fields>label{flex:0 0 auto;max-inline-size:100%;overflow:visible;align-items:center}
+.blocks-world .block-field-label{flex:none;white-space:nowrap}
+.blocks-world .block-fields>label>input:not([type=checkbox]),.blocks-world .block-fields>label>select,.blocks-world .block-fields>label>textarea{flex:0 1 auto;min-inline-size:min(8em,100%);max-inline-size:100%}
+.blocks-world .block-fields>label>input[type=checkbox]{flex:none}
+.blocks-world .block-fields textarea{overflow:hidden;resize:vertical}
+
+/* Project home uses the existing heading, buttons and project list language. */
+.project-home{height:100%;display:flex;flex-direction:column;min-height:0}
+.project-home .tools-body{overflow:auto;min-height:0}
+.project-home .project-root-row{margin-block:6px}
+.project-home .other-project-root{max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:left}
+
+/* 0.40.12 r2: scoped list/header fixes; preserve structure, colors and focus. */
+.event-group-heading{display:grid;grid-template-columns:32px minmax(0,1fr) 32px 32px;align-items:center;gap:2px;min-width:0}
+.event-group-heading>.event-check{margin:0 auto}
+.event-group-heading>.event-group-toggle{min-width:0;max-width:none;width:100%;gap:8px}
+.event-group-heading>.event-group-toggle>span{min-width:0;display:flex;align-items:center;gap:4px}
+.event-group-heading [data-authored]{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.event-group-heading small{flex:none;white-space:nowrap}
+.event-group-heading>button:not(.event-group-toggle){margin:0;padding:6px;min-width:0;width:32px;min-height:32px}
+.event-group-heading>button:not(.event-group-toggle) .icon{margin:0}
+.app-header .modes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:40px;width:min(100%,576px);gap:2px}
+.app-header .modes button{display:flex;justify-content:center;align-items:center;width:100%;height:100%;min-width:0;box-sizing:border-box;white-space:nowrap}
+.event-items.event-density-relaxed .event-row{min-height:92px}
+.event-items.event-density-relaxed .event-select{padding-top:16px;padding-bottom:16px}
+@media(max-width:900px){.app-header .modes{grid-auto-rows:33px}.event-group-heading{grid-template-columns:26px minmax(0,1fr) 32px 32px}}
+
+/* R4: capacity panel only; original navigation, editors and game UI unchanged. */
+.capacity-panel .capacity-segments{display:flex;height:20px;min-height:20px;width:100%;overflow:hidden;background:#dce6ef;border-radius:1px}
+.capacity-panel .capacity-segments>i{display:block;flex-shrink:0;height:100%}
+.capacity-panel .capacity-totals{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.capacity-panel .capacity-legend{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 24px;margin:0;padding:0;min-width:0}
+.capacity-panel .capacity-legend>li{display:grid;grid-template-columns:9px minmax(0,1fr) auto;align-items:center;gap:7px;font-size:inherit;min-width:0;overflow-wrap:anywhere}
+.capacity-panel .capacity-legend>li>span:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.capacity-panel .capacity-legend>li[data-empty]{color:var(--theme-muted,var(--theme-text))}
+.capacity-panel .capacity-legend i{display:block;width:9px;height:9px}
+.capacity-panel details{width:100%;min-width:0}
+.capacity-panel details p{margin:8px 0;line-height:1.6}
+@media(max-width:600px){.capacity-panel .capacity-legend{grid-template-columns:minmax(0,1fr)}}

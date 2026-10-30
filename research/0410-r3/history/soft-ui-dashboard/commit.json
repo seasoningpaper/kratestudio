@@ -1,0 +1,82 @@
+{
+  "sha": "0b2c9a81beb60640dc8c9b23df7e4bfe868457a5",
+  "node_id": "C_kwDOFQpN99oAKDBiMmM5YTgxYmViNjA2NDBkYzhjOWIyM2RmN2U0YmZlODY4NDU3YTU",
+  "commit": {
+    "author": {
+      "name": "dragosct",
+      "email": "17456857+dragosct10@users.noreply.github.com",
+      "date": "2021-11-02T08:55:25Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2021-11-02T08:55:25Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "2b73e6f29cc56cb7532988197b2795cad7c6b826",
+      "url": "https://api.github.com/repos/creativetimofficial/soft-ui-dashboard/git/trees/2b73e6f29cc56cb7532988197b2795cad7c6b826"
+    },
+    "url": "https://api.github.com/repos/creativetimofficial/soft-ui-dashboard/git/commits/0b2c9a81beb60640dc8c9b23df7e4bfe868457a5",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhgPz9CRBK7hj4Ov3rIwAADxIIAEWLyQCSVara5QoUAjh8Fh0C\ndDKdTPDZch2ouig5MtqH2ySGB6kFQpTB4fhpo0Q5PScx5Rz1VGRJUs+tvRujuf/n\nQ6TdResdcm/lwb8eE2/xJh7UjybgqeUkIhefcdybqEEJjS4cKWvtbIIUUQ39tSvY\nSqLt4dIts4XqR4j4AUH6oZ7h0ltFYhzfpV7KoF07xy4jFTU4z9gi20qiN6zaGjm+\nn8RwqPvQ/OGBsqZaf+Fs4p8SN8WQ5X8SNX83mlzLadyU81Ih+uBOaAimcGV4npA1\naSRweBBvAU4+NmadIFWSi9E3cnfSKVlETMiKqnP/UkRc07FEgWL25Awp1Cst2po=\n=svg+\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 2b73e6f29cc56cb7532988197b2795cad7c6b826\nparent 6649a0c363aa2801cdf9686ff2e23be7c27b00ad\nauthor dragosct <17456857+dragosct10@users.noreply.github.com> 1635843325 +0200\ncommitter GitHub <noreply@github.com> 1635843325 +0200\n\nUpdate README.md",
+      "verified_at": "2024-01-16T19:59:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/creativetimofficial/soft-ui-dashboard/commits/0b2c9a81beb60640dc8c9b23df7e4bfe868457a5",
+  "html_url": "https://github.com/creativetimofficial/soft-ui-dashboard/commit/0b2c9a81beb60640dc8c9b23df7e4bfe868457a5",
+  "comments_url": "https://api.github.com/repos/creativetimofficial/soft-ui-dashboard/commits/0b2c9a81beb60640dc8c9b23df7e4bfe868457a5/comments",
+  "author": {
+    "login": "dragosct",
+    "id": 17456857,
+    "node_id": "MDQ6VXNlcjE3NDU2ODU3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17456857?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dragosct",
+    "html_url": "https://github.com/dragosct",
+    "followers_url": "https://api.github.com/users/dragosct/followers",
+    "following_url": "https://api.github.com/users/dragosct/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dragosct/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dragosct/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dragosct/subscriptions",
+    "organizations_url": "https://api.github.com/users/dragosct/orgs",
+    "repos_url": "https://api.github.com/users/dragosct/repos",
+    "events_url": "https://api.github.com/users/dragosct/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dragosct/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "6649a0c363aa2801cdf9686ff2e23be7c27b00ad",
+      "url": "https://api.github.com/repos/creativetimofficial/soft-ui-dashboard/commits/6649a0c363aa2801cdf9686ff2e23be7c27b00ad",
+      "html_url": "https://github.com/creativetimofficial/soft-ui-dashboard/commit/6649a0c363aa2801cdf9686ff2e23be7c27b00ad"
+    }
+  ]
+}

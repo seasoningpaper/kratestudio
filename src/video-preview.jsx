@@ -1,0 +1,3 @@
+import React from'react';import{createRoot}from'react-dom/client';import MediaVideo from'./media-video.jsx';
+let root,host,stamp='';
+window.KoiVideoPreview={render(asset,event){if(!event){root?.unmount();host?.remove();root=null;host=null;stamp='';return}const key=JSON.stringify([asset?.data,event.id,event.imageFit]);if(root&&stamp===key)return;if(!root){host=document.createElement('div');host.className='editor-video-preview';document.getElementById('stage').append(host);root=createRoot(host)}stamp=key;root.render(<MediaVideo edit={asset?.edit} src={asset?.data} label={asset?.name||'影片預覽'} fit={event.imageFit||'contain'} paused controls muted/>)} };

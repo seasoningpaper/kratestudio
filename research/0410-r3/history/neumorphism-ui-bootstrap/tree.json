@@ -1,0 +1,2687 @@
+{
+  "sha": "ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2a9a4d7c17180c0cc0a89baf9ab92826579fa0",
+      "size": 68,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/5f2a9a4d7c17180c0cc0a89baf9ab92826579fa0"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7bc06a538054fe04812f27c592e4d0f9edb3d18",
+      "size": 1067,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d7bc06a538054fe04812f27c592e4d0f9edb3d18"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81f56150842d436f1e690f9636294874ff88b6e5",
+      "size": 13590,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/81f56150842d436f1e690f9636294874ff88b6e5"
+    },
+    {
+      "path": "gulpfile.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b434dbe9edeeb4eb0296bfc3802dcb9f57c88ec7",
+      "size": 8846,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b434dbe9edeeb4eb0296bfc3802dcb9f57c88ec7"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f1e7ab8616f2711a1d96a5b87dad98a007e5514",
+      "size": 376444,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0f1e7ab8616f2711a1d96a5b87dad98a007e5514"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24a1f89a0ee8940c7549fcde2d7cce2a0ec9d2d",
+      "size": 2097,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d24a1f89a0ee8940c7549fcde2d7cce2a0ec9d2d"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30c435a8d405abf8460ed1f4ac7e1db9287eb209",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/30c435a8d405abf8460ed1f4ac7e1db9287eb209"
+    },
+    {
+      "path": "src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eed8892fd27242b4b32bd04f11750aa9406f739e",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/eed8892fd27242b4b32bd04f11750aa9406f739e"
+    },
+    {
+      "path": "src/assets/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d64d1e92d1cd926176bc063689af9e93c1cfd00a",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/d64d1e92d1cd926176bc063689af9e93c1cfd00a"
+    },
+    {
+      "path": "src/assets/img/about-us-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a31381699c9abc01851991ef29a7f45ddab1f25",
+      "size": 189507,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/5a31381699c9abc01851991ef29a7f45ddab1f25"
+    },
+    {
+      "path": "src/assets/img/blog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cf043e32ab59cb4bf67c3249bd6158827de1677",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/4cf043e32ab59cb4bf67c3249bd6158827de1677"
+    },
+    {
+      "path": "src/assets/img/blog/blog-article-1.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88cf8e4a38c935d447af1a19d8390ea835617576",
+      "size": 158577,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/88cf8e4a38c935d447af1a19d8390ea835617576"
+    },
+    {
+      "path": "src/assets/img/blog/blog-article-2.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9617d5d124572c41b7f8fea7dfba9b04c5108e67",
+      "size": 185942,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9617d5d124572c41b7f8fea7dfba9b04c5108e67"
+    },
+    {
+      "path": "src/assets/img/blog/blog-article-3.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c98068bd269cc1822f28f04b2e9da3d79aacdbe5",
+      "size": 139936,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c98068bd269cc1822f28f04b2e9da3d79aacdbe5"
+    },
+    {
+      "path": "src/assets/img/blog/blog-article-4.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ca393e21c5e72293d1ee0f4b2ccf7da514c29b66",
+      "size": 228972,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ca393e21c5e72293d1ee0f4b2ccf7da514c29b66"
+    },
+    {
+      "path": "src/assets/img/blog/blog-article-5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2341921b8157ed42d14969c6851316d1bbf1b3e9",
+      "size": 302012,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2341921b8157ed42d14969c6851316d1bbf1b3e9"
+    },
+    {
+      "path": "src/assets/img/brand",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2383601b2722fad7c5a12430f612143bd23b002e",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/2383601b2722fad7c5a12430f612143bd23b002e"
+    },
+    {
+      "path": "src/assets/img/brand/dark.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237086c182dabf4aacaee3eefc01919a277632d7",
+      "size": 759,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/237086c182dabf4aacaee3eefc01919a277632d7"
+    },
+    {
+      "path": "src/assets/img/brand/light.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62ef8faeebf271dc20b881f6bb519143f5efdaf",
+      "size": 759,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e62ef8faeebf271dc20b881f6bb519143f5efdaf"
+    },
+    {
+      "path": "src/assets/img/carousel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ea72f40725ef4b5182041dce81da6b9b9c66448",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/8ea72f40725ef4b5182041dce81da6b9b9c66448"
+    },
+    {
+      "path": "src/assets/img/carousel/image-1.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eb61b9866a2d0fb879900079bc05af6a00d2ab07",
+      "size": 25604,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/eb61b9866a2d0fb879900079bc05af6a00d2ab07"
+    },
+    {
+      "path": "src/assets/img/carousel/image-2.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "72f9d5e7f1aca19ac864de6c2b7c150d228e37bf",
+      "size": 31640,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/72f9d5e7f1aca19ac864de6c2b7c150d228e37bf"
+    },
+    {
+      "path": "src/assets/img/carousel/image-3.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "abf62d1b6d59584882fb369e675eeb80f4b04206",
+      "size": 36253,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/abf62d1b6d59584882fb369e675eeb80f4b04206"
+    },
+    {
+      "path": "src/assets/img/checker_logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76706bd2bececbd1a66f370d695a090c629c2f06",
+      "size": 4848,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/76706bd2bececbd1a66f370d695a090c629c2f06"
+    },
+    {
+      "path": "src/assets/img/clients",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69e7c35c80a9559c5b06d7f0f784fbc3b2c00251",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/69e7c35c80a9559c5b06d7f0f784fbc3b2c00251"
+    },
+    {
+      "path": "src/assets/img/clients/airbnb.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cef12287df54440fe956e208bbcc9dfe0a3e4a7",
+      "size": 4057,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0cef12287df54440fe956e208bbcc9dfe0a3e4a7"
+    },
+    {
+      "path": "src/assets/img/clients/business-school.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3421db78d3aadca0e0ceb9f009dcb849ae23095",
+      "size": 5680,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c3421db78d3aadca0e0ceb9f009dcb849ae23095"
+    },
+    {
+      "path": "src/assets/img/clients/corsair.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93719ca008f33fe021e9698e38b4e9d3b8bc64d7",
+      "size": 4039,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/93719ca008f33fe021e9698e38b4e9d3b8bc64d7"
+    },
+    {
+      "path": "src/assets/img/clients/docker.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424268998415f5951071e2c42e814e00956bc8d2",
+      "size": 9571,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/424268998415f5951071e2c42e814e00956bc8d2"
+    },
+    {
+      "path": "src/assets/img/clients/ebay.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11c4c6fb2c06c2fa457fd19e5e6b1050e5cf321a",
+      "size": 1518,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/11c4c6fb2c06c2fa457fd19e5e6b1050e5cf321a"
+    },
+    {
+      "path": "src/assets/img/clients/elastic.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a14d0ab9a79ce7304ed7f8ddfbb51cc0a30ec4",
+      "size": 2640,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/64a14d0ab9a79ce7304ed7f8ddfbb51cc0a30ec4"
+    },
+    {
+      "path": "src/assets/img/clients/forbes.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f90683820994f258e8be6ff87923af8ce61a72d9",
+      "size": 94852,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f90683820994f258e8be6ff87923af8ce61a72d9"
+    },
+    {
+      "path": "src/assets/img/clients/google.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eb8c82786d8e87c8e547b766646184861904ec3",
+      "size": 2484,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8eb8c82786d8e87c8e547b766646184861904ec3"
+    },
+    {
+      "path": "src/assets/img/clients/northwestern.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93a2fa82be8ecbc3b4a5898b2ff1ed6a4874d8f3",
+      "size": 43822,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/93a2fa82be8ecbc3b4a5898b2ff1ed6a4874d8f3"
+    },
+    {
+      "path": "src/assets/img/clients/paypal.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "559c8fbf61a791e81f86bf0d33482a00bd1a0bbf",
+      "size": 4428,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/559c8fbf61a791e81f86bf0d33482a00bd1a0bbf"
+    },
+    {
+      "path": "src/assets/img/clients/pinterest.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fbd772c5721890fa98606fd230563aefd18b8fc",
+      "size": 5614,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9fbd772c5721890fa98606fd230563aefd18b8fc"
+    },
+    {
+      "path": "src/assets/img/clients/university-of-chicago.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee85491a91041dbc6a1425dedc12d8b3e3f38fb4",
+      "size": 25685,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ee85491a91041dbc6a1425dedc12d8b3e3f38fb4"
+    },
+    {
+      "path": "src/assets/img/favicon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7e80c9f32c509d4277e255c95d5b18281aaa093",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/f7e80c9f32c509d4277e255c95d5b18281aaa093"
+    },
+    {
+      "path": "src/assets/img/favicon/android-chrome-192x192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ba83b385f508ac5ad370b69ff1575705530a7c",
+      "size": 11832,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/49ba83b385f508ac5ad370b69ff1575705530a7c"
+    },
+    {
+      "path": "src/assets/img/favicon/android-chrome-512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d0ca3c08332d33e4054c014d60be91ce7b279d",
+      "size": 32392,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c4d0ca3c08332d33e4054c014d60be91ce7b279d"
+    },
+    {
+      "path": "src/assets/img/favicon/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a90cff347e2f3eb9cab7f73620c1f0255b7365d",
+      "size": 5617,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0a90cff347e2f3eb9cab7f73620c1f0255b7365d"
+    },
+    {
+      "path": "src/assets/img/favicon/browserconfig.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d416bc536fbc9391e90070bdffacdc962fcfb346",
+      "size": 246,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d416bc536fbc9391e90070bdffacdc962fcfb346"
+    },
+    {
+      "path": "src/assets/img/favicon/favicon-16x16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28549014e630678ccf38e0c39866ef767b2a79e3",
+      "size": 1102,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/28549014e630678ccf38e0c39866ef767b2a79e3"
+    },
+    {
+      "path": "src/assets/img/favicon/favicon-32x32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7f3178b5009df0e9a9735215792647a7fb3e14",
+      "size": 1775,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ed7f3178b5009df0e9a9735215792647a7fb3e14"
+    },
+    {
+      "path": "src/assets/img/favicon/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266009f6f8f9880b9a7e1ef40aba5957cfaa9e07",
+      "size": 15086,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/266009f6f8f9880b9a7e1ef40aba5957cfaa9e07"
+    },
+    {
+      "path": "src/assets/img/favicon/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d22e99213ecf1986053176312371862438176f4",
+      "size": 472,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/1d22e99213ecf1986053176312371862438176f4"
+    },
+    {
+      "path": "src/assets/img/favicon/mstile-150x150.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b22dd79932dd485c8fc8fec08107322625d3e188",
+      "size": 5015,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b22dd79932dd485c8fc8fec08107322625d3e188"
+    },
+    {
+      "path": "src/assets/img/favicon/safari-pinned-tab.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bb494ebc508310a989cf758d1a5222b327c7ccb",
+      "size": 2337,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/4bb494ebc508310a989cf758d1a5222b327c7ccb"
+    },
+    {
+      "path": "src/assets/img/favicon/site.webmanifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f1069460fecbbe9dba45fe08b868df7a6f281c9",
+      "size": 446,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9f1069460fecbbe9dba45fe08b868df7a6f281c9"
+    },
+    {
+      "path": "src/assets/img/illustrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6552a4d4dae92c6ba221db24f8b5804b337088b4",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/6552a4d4dae92c6ba221db24f8b5804b337088b4"
+    },
+    {
+      "path": "src/assets/img/illustrations/404.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b33b1a935062fbecd1e47bab0e1e735df59fbcec",
+      "size": 13026,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b33b1a935062fbecd1e47bab0e1e735df59fbcec"
+    },
+    {
+      "path": "src/assets/img/illustrations/reading-side.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3873e190e3b24e0c8a57261f13230173cf13ed25",
+      "size": 34060,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3873e190e3b24e0c8a57261f13230173cf13ed25"
+    },
+    {
+      "path": "src/assets/img/macbook-mockup.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2688f014daa1df64c8a676ff781aaef2c0d73c10",
+      "size": 320465,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2688f014daa1df64c8a676ff781aaef2c0d73c10"
+    },
+    {
+      "path": "src/assets/img/megamenu-image.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "845de8c1152e999d272cd6941339e1c638277953",
+      "size": 63385,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/845de8c1152e999d272cd6941339e1c638277953"
+    },
+    {
+      "path": "src/assets/img/presentation-mockup.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c3656069b8a09f859a65e5d84ac02955e3903b4",
+      "size": 409002,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6c3656069b8a09f859a65e5d84ac02955e3903b4"
+    },
+    {
+      "path": "src/assets/img/presentation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eeffc0fdee99768aee1b5a5fa76bcad7a141744e",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/eeffc0fdee99768aee1b5a5fa76bcad7a141744e"
+    },
+    {
+      "path": "src/assets/img/presentation/all-pages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b166c38799d0ed6293a90ece7591d79e23fcb2d2",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/b166c38799d0ed6293a90ece7591d79e23fcb2d2"
+    },
+    {
+      "path": "src/assets/img/presentation/all-pages/about.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae200f3e5f430e15d6651d345b6dd08cbb364150",
+      "size": 47844,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ae200f3e5f430e15d6651d345b6dd08cbb364150"
+    },
+    {
+      "path": "src/assets/img/presentation/all-pages/contact.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6fb40bf71e43df01b9a824625c7bf03f2b12d5",
+      "size": 44059,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ec6fb40bf71e43df01b9a824625c7bf03f2b12d5"
+    },
+    {
+      "path": "src/assets/img/presentation/all-pages/pricing.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "856645703199a01bc99a2efef88c8e1b76903379",
+      "size": 50600,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/856645703199a01bc99a2efef88c8e1b76903379"
+    },
+    {
+      "path": "src/assets/img/presentation/all-pages/sign-in.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ba3bda22ec5e7a9f8fcf78251b287dd5225ba60",
+      "size": 8481,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9ba3bda22ec5e7a9f8fcf78251b287dd5225ba60"
+    },
+    {
+      "path": "src/assets/img/presentation/all-pages/sign-up.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb73e759e1d7e048c9555b15000ead95eb416c49",
+      "size": 8717,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/eb73e759e1d7e048c9555b15000ead95eb416c49"
+    },
+    {
+      "path": "src/assets/img/signature.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a1ff78b27256071e73b5a1545afdd111d4eb5095",
+      "size": 7566,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a1ff78b27256071e73b5a1545afdd111d4eb5095"
+    },
+    {
+      "path": "src/assets/img/team",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc7d3df34496612f125c41e54522f575523255fb",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/bc7d3df34496612f125c41e54522f575523255fb"
+    },
+    {
+      "path": "src/assets/img/team/big-profile-picture-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "824dcb42c257aa063af4e37fc32b66f9415ed4af",
+      "size": 141290,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/824dcb42c257aa063af4e37fc32b66f9415ed4af"
+    },
+    {
+      "path": "src/assets/img/team/big-profile-picture-2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "175df94187c3ea3f7f0006e87f1ac8531181c3d0",
+      "size": 186015,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/175df94187c3ea3f7f0006e87f1ac8531181c3d0"
+    },
+    {
+      "path": "src/assets/img/team/big-profile-picture-3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4971268170100d8ce54f66a6474528eadfaa5b4a",
+      "size": 130879,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/4971268170100d8ce54f66a6474528eadfaa5b4a"
+    },
+    {
+      "path": "src/assets/img/team/cover-profile-2.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2f4f1be200f2cfeabcfa38f895aca5064b36420b",
+      "size": 105703,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2f4f1be200f2cfeabcfa38f895aca5064b36420b"
+    },
+    {
+      "path": "src/assets/img/team/cover-profile.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8d83cdd305e7f556b3587132d3dec0d6444f1102",
+      "size": 174204,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8d83cdd305e7f556b3587132d3dec0d6444f1102"
+    },
+    {
+      "path": "src/assets/img/team/profile-picture-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f858651725cddaa95c5a95b3fc5d15930678de3a",
+      "size": 24385,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f858651725cddaa95c5a95b3fc5d15930678de3a"
+    },
+    {
+      "path": "src/assets/img/team/profile-picture-2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d67b3ea3d10c27625b4110dee894654f591e504",
+      "size": 26813,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7d67b3ea3d10c27625b4110dee894654f591e504"
+    },
+    {
+      "path": "src/assets/img/team/profile-picture-3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b00f97c99a94154292a2c53eeb10c4acdb1074",
+      "size": 43213,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/05b00f97c99a94154292a2c53eeb10c4acdb1074"
+    },
+    {
+      "path": "src/assets/img/team/profile-picture-4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9bc0c778e47e153f553ab3d6839cfeb54f4b13b",
+      "size": 27751,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a9bc0c778e47e153f553ab3d6839cfeb54f4b13b"
+    },
+    {
+      "path": "src/assets/img/team/profile-picture-5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d330e65b093ae6c7fde857c3d854a42828668ecc",
+      "size": 54018,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d330e65b093ae6c7fde857c3d854a42828668ecc"
+    },
+    {
+      "path": "src/assets/img/team/profile-picture-6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f6807ca897b467597af169976e121ffdfc06e2",
+      "size": 54774,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/12f6807ca897b467597af169976e121ffdfc06e2"
+    },
+    {
+      "path": "src/assets/img/themesberg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28fdc3f1e391c6157aadaf0376523b6729e9589",
+      "size": 2234,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b28fdc3f1e391c6157aadaf0376523b6729e9589"
+    },
+    {
+      "path": "src/assets/img/wavelogo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29dd6aa6d599dfcbacf787554c8aaee4321c83a1",
+      "size": 11346,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/29dd6aa6d599dfcbacf787554c8aaee4321c83a1"
+    },
+    {
+      "path": "src/assets/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64f0434871dfb6f0c94dfee6d0eaf81d75212bf7",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/64f0434871dfb6f0c94dfee6d0eaf81d75212bf7"
+    },
+    {
+      "path": "src/assets/js/neumorphism.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "318adbfd0516f17d25f8aaac368b9734f9044c8c",
+      "size": 12781,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/318adbfd0516f17d25f8aaac368b9734f9044c8c"
+    },
+    {
+      "path": "src/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d40c71244f3ea0c8b134233657daafa4f37a3898",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/d40c71244f3ea0c8b134233657daafa4f37a3898"
+    },
+    {
+      "path": "src/docs/changelog.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3970dac77bcf4788ff93681f4290ebdb5bd636",
+      "size": 5116,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9d3970dac77bcf4788ff93681f4290ebdb5bd636"
+    },
+    {
+      "path": "src/docs/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0371c6c465c76d7f2ad73465de91cc138a3fc9f6",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/0371c6c465c76d7f2ad73465de91cc138a3fc9f6"
+    },
+    {
+      "path": "src/docs/components/accordions.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def4bc059681ef81e4852011c1640b2a538955db",
+      "size": 28045,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/def4bc059681ef81e4852011c1640b2a538955db"
+    },
+    {
+      "path": "src/docs/components/alerts.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c4e85f3bb97c2a9c1621b8a18501c270c72d3ec",
+      "size": 34761,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9c4e85f3bb97c2a9c1621b8a18501c270c72d3ec"
+    },
+    {
+      "path": "src/docs/components/badges.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae9178194765c68b3cad206204e33e1267ce301",
+      "size": 28470,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2ae9178194765c68b3cad206204e33e1267ce301"
+    },
+    {
+      "path": "src/docs/components/blog-cards.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a592b65f2aeb62536bf45ecd4ce104692df5fa",
+      "size": 89592,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/76a592b65f2aeb62536bf45ecd4ce104692df5fa"
+    },
+    {
+      "path": "src/docs/components/bootstrap-carousels.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3c16428c2679d6ea92130dda1c998ddccb64a43",
+      "size": 35481,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a3c16428c2679d6ea92130dda1c998ddccb64a43"
+    },
+    {
+      "path": "src/docs/components/breadcrumbs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "780298e188bf23ed97d5dd929c2fbd5099666c79",
+      "size": 36683,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/780298e188bf23ed97d5dd929c2fbd5099666c79"
+    },
+    {
+      "path": "src/docs/components/buttons.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cdd6840229fc0fcf4752c0051be4b8c0627ab05",
+      "size": 89294,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7cdd6840229fc0fcf4752c0051be4b8c0627ab05"
+    },
+    {
+      "path": "src/docs/components/collapse.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a62c79e879552b94eb81aaf703fabc68b59a980f",
+      "size": 58814,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a62c79e879552b94eb81aaf703fabc68b59a980f"
+    },
+    {
+      "path": "src/docs/components/counters.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781803e8545379165bfc144e47a389770a48f01e",
+      "size": 25977,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/781803e8545379165bfc144e47a389770a48f01e"
+    },
+    {
+      "path": "src/docs/components/forms.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbe3919d29cf16b5c0d3e2854bce3e0df7b04c74",
+      "size": 92833,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/fbe3919d29cf16b5c0d3e2854bce3e0df7b04c74"
+    },
+    {
+      "path": "src/docs/components/icon-boxes.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a1216cd187477e92a9d08269d1b12f0a1a1cc63",
+      "size": 93147,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8a1216cd187477e92a9d08269d1b12f0a1a1cc63"
+    },
+    {
+      "path": "src/docs/components/modals.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7728151bed740cd5320a9cb4a5471d73c66d7c89",
+      "size": 78481,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7728151bed740cd5320a9cb4a5471d73c66d7c89"
+    },
+    {
+      "path": "src/docs/components/navbars.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68019b12ff6845a897a3b4069eaa1a567555665",
+      "size": 108108,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d68019b12ff6845a897a3b4069eaa1a567555665"
+    },
+    {
+      "path": "src/docs/components/navs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baab696ec045462a78e0330d7b00c8636a9a0623",
+      "size": 79511,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/baab696ec045462a78e0330d7b00c8636a9a0623"
+    },
+    {
+      "path": "src/docs/components/owl-carousels.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27f2ad1afebf9fcee7086d5f8c7a514398236939",
+      "size": 51832,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/27f2ad1afebf9fcee7086d5f8c7a514398236939"
+    },
+    {
+      "path": "src/docs/components/pagination.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce2e8ad9144495adab0384f4d432116fe4a3f50c",
+      "size": 44749,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ce2e8ad9144495adab0384f4d432116fe4a3f50c"
+    },
+    {
+      "path": "src/docs/components/popovers.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6a95e2ab5e516216e68e970a2b546c965a0ff5",
+      "size": 18422,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7f6a95e2ab5e516216e68e970a2b546c965a0ff5"
+    },
+    {
+      "path": "src/docs/components/pricing-cards.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b5ac1ce87e53852318ee1fcdd3541468076e4e",
+      "size": 86197,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c1b5ac1ce87e53852318ee1fcdd3541468076e4e"
+    },
+    {
+      "path": "src/docs/components/profile-cards.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2851f72aacd39a7e0a6df73db132f440fd01c10",
+      "size": 125202,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b2851f72aacd39a7e0a6df73db132f440fd01c10"
+    },
+    {
+      "path": "src/docs/components/progress.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "684659eae6ab90186dff8bcd93832ac882cec9cf",
+      "size": 69206,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/684659eae6ab90186dff8bcd93832ac882cec9cf"
+    },
+    {
+      "path": "src/docs/components/steps.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902ca23a4e2c6bca8a30a318617581bdedb520a5",
+      "size": 85118,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/902ca23a4e2c6bca8a30a318617581bdedb520a5"
+    },
+    {
+      "path": "src/docs/components/tabs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04a3c0ddeb186dbbe90d48194ff049dd10f10a2f",
+      "size": 107472,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/04a3c0ddeb186dbbe90d48194ff049dd10f10a2f"
+    },
+    {
+      "path": "src/docs/components/timelines.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910e77503e92a82bcc5a3a6fefec9f2d56213bb7",
+      "size": 121169,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/910e77503e92a82bcc5a3a6fefec9f2d56213bb7"
+    },
+    {
+      "path": "src/docs/components/tooltips.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647441044bd41c6a335e22ce8d4906ab62695f47",
+      "size": 16433,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/647441044bd41c6a335e22ce8d4906ab62695f47"
+    },
+    {
+      "path": "src/docs/components/typography.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e42dff5d35a7487621d68ab4819b70b6d6304b8",
+      "size": 37341,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2e42dff5d35a7487621d68ab4819b70b6d6304b8"
+    },
+    {
+      "path": "src/docs/components/widgets.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a02cb4e895ee8dba12a9a1b82436a1307a26f01",
+      "size": 70666,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9a02cb4e895ee8dba12a9a1b82436a1307a26f01"
+    },
+    {
+      "path": "src/docs/file-structure.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a29d95edd3afff7e2df7d7bbd90cba86e4988bb8",
+      "size": 13369,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a29d95edd3afff7e2df7d7bbd90cba86e4988bb8"
+    },
+    {
+      "path": "src/docs/gulp.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f30d4b63cd219a8322ff044a4d0729a2d37b26b",
+      "size": 6564,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3f30d4b63cd219a8322ff044a4d0729a2d37b26b"
+    },
+    {
+      "path": "src/docs/how-to",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75ef75b92890f4b8de777aa29e82e26f0d979ea3",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/75ef75b92890f4b8de777aa29e82e26f0d979ea3"
+    },
+    {
+      "path": "src/docs/how-to/color-scheme.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35e1bd56b72edd9d39fec8894d0c772e89350201",
+      "size": 6437,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/35e1bd56b72edd9d39fec8894d0c772e89350201"
+    },
+    {
+      "path": "src/docs/how-to/fonts.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3797b309334093d43bd2152effed6754ebf6077",
+      "size": 5174,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d3797b309334093d43bd2152effed6754ebf6077"
+    },
+    {
+      "path": "src/docs/introduction.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "568b8263fca5b4526c61fbc2e08a3e88672ee61d",
+      "size": 7575,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/568b8263fca5b4526c61fbc2e08a3e88672ee61d"
+    },
+    {
+      "path": "src/docs/javascript.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fba81716bc6ef6abec0a90cd0df1a2b26a6eaa4",
+      "size": 5020,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/1fba81716bc6ef6abec0a90cd0df1a2b26a6eaa4"
+    },
+    {
+      "path": "src/docs/utilities.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a978710578ae86bf841d3339d09d27e688e9000",
+      "size": 46441,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7a978710578ae86bf841d3339d09d27e688e9000"
+    },
+    {
+      "path": "src/html",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8327ef94d54b44e8cd2b3804113cc680fe20cb86",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/8327ef94d54b44e8cd2b3804113cc680fe20cb86"
+    },
+    {
+      "path": "src/html/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1baec4342ad7c0b757f45dbc3b5d04b2cd2e01f4",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/1baec4342ad7c0b757f45dbc3b5d04b2cd2e01f4"
+    },
+    {
+      "path": "src/html/components/accordions.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c100a6b2f44c1221981b9908b2a7442f0917397c",
+      "size": 2654,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c100a6b2f44c1221981b9908b2a7442f0917397c"
+    },
+    {
+      "path": "src/html/components/alerts.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3a20caf02a3815092238ff1f02f6e6f0c6081785",
+      "size": 2618,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3a20caf02a3815092238ff1f02f6e6f0c6081785"
+    },
+    {
+      "path": "src/html/components/all.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aa3fba3b92f5f3c1968ed1b45d7f43c12e6cf2d",
+      "size": 4395,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7aa3fba3b92f5f3c1968ed1b45d7f43c12e6cf2d"
+    },
+    {
+      "path": "src/html/components/badges.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8c8b90d42af99f2db558529836189fdb497e0e24",
+      "size": 2580,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8c8b90d42af99f2db558529836189fdb497e0e24"
+    },
+    {
+      "path": "src/html/components/bootstrap-carousels.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0fb784f582dabfc1b68290df5e932d53e89ccce8",
+      "size": 2728,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0fb784f582dabfc1b68290df5e932d53e89ccce8"
+    },
+    {
+      "path": "src/html/components/breadcrumbs.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "08d91686afbab77060f43d937b3e90e703fa908e",
+      "size": 2655,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/08d91686afbab77060f43d937b3e90e703fa908e"
+    },
+    {
+      "path": "src/html/components/buttons.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d6adda9e8d42adfcc0315e0a6ebd0a0802df7bf6",
+      "size": 3132,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d6adda9e8d42adfcc0315e0a6ebd0a0802df7bf6"
+    },
+    {
+      "path": "src/html/components/cards.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6292f2b66f7177a9d7be30ff7b19211f83c02db0",
+      "size": 2613,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6292f2b66f7177a9d7be30ff7b19211f83c02db0"
+    },
+    {
+      "path": "src/html/components/forms.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b402b11e90199f5eeed24375d4fe82f17044c08f",
+      "size": 2516,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b402b11e90199f5eeed24375d4fe82f17044c08f"
+    },
+    {
+      "path": "src/html/components/modals.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "91e688a0bf34dc50d3d717d64b99a480e6f70882",
+      "size": 2516,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/91e688a0bf34dc50d3d717d64b99a480e6f70882"
+    },
+    {
+      "path": "src/html/components/navs.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3defb28439a7441a535c5002e6c1f325a6c499cb",
+      "size": 2510,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3defb28439a7441a535c5002e6c1f325a6c499cb"
+    },
+    {
+      "path": "src/html/components/pagination.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "94cc8f330f554a3bd4f0ab145a0344cd183087be",
+      "size": 2511,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/94cc8f330f554a3bd4f0ab145a0344cd183087be"
+    },
+    {
+      "path": "src/html/components/popovers.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2afd7463ac67c4149adf84265b06055c3b890a54",
+      "size": 2419,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2afd7463ac67c4149adf84265b06055c3b890a54"
+    },
+    {
+      "path": "src/html/components/progress-bars.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a2ac642ad6bf270e8280cbd75b18e56abce875ef",
+      "size": 1840,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a2ac642ad6bf270e8280cbd75b18e56abce875ef"
+    },
+    {
+      "path": "src/html/components/tables.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb4e7f754054b240d7f4b9487b741fcc21899fa8",
+      "size": 2419,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/cb4e7f754054b240d7f4b9487b741fcc21899fa8"
+    },
+    {
+      "path": "src/html/components/tabs.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "afc0f1b30f47b23be2d556de25981bcda44e974a",
+      "size": 2693,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/afc0f1b30f47b23be2d556de25981bcda44e974a"
+    },
+    {
+      "path": "src/html/components/toasts.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "161355fe484681985fda2804682a915e6fa5e193",
+      "size": 2418,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/161355fe484681985fda2804682a915e6fa5e193"
+    },
+    {
+      "path": "src/html/components/tooltips.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "30c33e796d717b584b3d8fa914bd228c62c1fd7b",
+      "size": 2597,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/30c33e796d717b584b3d8fa914bd228c62c1fd7b"
+    },
+    {
+      "path": "src/html/components/typography.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "29b392dadc40efa26021b55bbdfb560790e5daf9",
+      "size": 2643,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/29b392dadc40efa26021b55bbdfb560790e5daf9"
+    },
+    {
+      "path": "src/html/pages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba73d4a58c82785c1e01ed0024ee10b73d9fcb3b",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/ba73d4a58c82785c1e01ed0024ee10b73d9fcb3b"
+    },
+    {
+      "path": "src/html/pages/about.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b860f947b84a602d667cc9e207d4b37b7b4f750",
+      "size": 16254,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/5b860f947b84a602d667cc9e207d4b37b7b4f750"
+    },
+    {
+      "path": "src/html/pages/contact.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59867eb314c7747093a8b5e1f9ebdf7aff81595b",
+      "size": 7789,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/59867eb314c7747093a8b5e1f9ebdf7aff81595b"
+    },
+    {
+      "path": "src/html/pages/pricing.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b167f9fd3f5373870192c32e2a762c30ba1b56be",
+      "size": 20076,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b167f9fd3f5373870192c32e2a762c30ba1b56be"
+    },
+    {
+      "path": "src/html/pages/sign-in.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e02790c97ab7e949904766d666a13f89106ffbfe",
+      "size": 5988,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e02790c97ab7e949904766d666a13f89106ffbfe"
+    },
+    {
+      "path": "src/html/pages/sign-up.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada2f30e23cb4f944765670ee7ccee18d89c28c7",
+      "size": 6644,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ada2f30e23cb4f944765670ee7ccee18d89c28c7"
+    },
+    {
+      "path": "src/index.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bba1f0ea9141944c9b9dd8dbf30d501bea5501df",
+      "size": 33311,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/bba1f0ea9141944c9b9dd8dbf30d501bea5501df"
+    },
+    {
+      "path": "src/partials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfa251fb84d663787a0a24cfaeb7d121ddcdfce7",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/bfa251fb84d663787a0a24cfaeb7d121ddcdfce7"
+    },
+    {
+      "path": "src/partials/_analytics.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1701b9c62bc24747f6394e20795f107ea75c0df2",
+      "size": 311,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/1701b9c62bc24747f6394e20795f107ea75c0df2"
+    },
+    {
+      "path": "src/partials/_footer.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "000be9e50d66e7dcaf9e8ca50d91b2f44ed79e70",
+      "size": 6169,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/000be9e50d66e7dcaf9e8ca50d91b2f44ed79e70"
+    },
+    {
+      "path": "src/partials/_head.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36f2cad6edb8641896de50ec621ab4069d272b5",
+      "size": 4090,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a36f2cad6edb8641896de50ec621ab4069d272b5"
+    },
+    {
+      "path": "src/partials/_navigation.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcd7661d9eeb450d48dab0363e603101619fa5bf",
+      "size": 12249,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/bcd7661d9eeb450d48dab0363e603101619fa5bf"
+    },
+    {
+      "path": "src/partials/_pages-preview.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56adf9e6172d70721ca7eddd08bf9303eeb7dd54",
+      "size": 2454,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/56adf9e6172d70721ca7eddd08bf9303eeb7dd54"
+    },
+    {
+      "path": "src/partials/_pricing.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91988f1b8e7c66eb3648a5f678a2805e1d94c75d",
+      "size": 7797,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/91988f1b8e7c66eb3648a5f678a2805e1d94c75d"
+    },
+    {
+      "path": "src/partials/_scripts.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06dbfb2f12f1e4a2532d8140e33b5b756a774a1c",
+      "size": 1163,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/06dbfb2f12f1e4a2532d8140e33b5b756a774a1c"
+    },
+    {
+      "path": "src/partials/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "729c071079f4e0efa21454b525373c85eb5dfbb3",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/729c071079f4e0efa21454b525373c85eb5dfbb3"
+    },
+    {
+      "path": "src/partials/components/_accordions.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d4433ecaf8aaa9de641cc56f4d0a477a23cd08",
+      "size": 8607,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/79d4433ecaf8aaa9de641cc56f4d0a477a23cd08"
+    },
+    {
+      "path": "src/partials/components/_alerts.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e26ddcf56e31b30ddfb9d914abfe16672c2bed69",
+      "size": 15122,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e26ddcf56e31b30ddfb9d914abfe16672c2bed69"
+    },
+    {
+      "path": "src/partials/components/_badges.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b8c19f117051229097092c0016aae6d668c4a9",
+      "size": 2287,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f6b8c19f117051229097092c0016aae6d668c4a9"
+    },
+    {
+      "path": "src/partials/components/_bootstrap-carousels.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79298131e97d632c9a3f4ac5929a2da99a127512",
+      "size": 8820,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/79298131e97d632c9a3f4ac5929a2da99a127512"
+    },
+    {
+      "path": "src/partials/components/_breadcrumbs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e53837fe32359523885ac5cb8c76c6f7899ca81",
+      "size": 4392,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6e53837fe32359523885ac5cb8c76c6f7899ca81"
+    },
+    {
+      "path": "src/partials/components/_buttons.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3676b79c5bcf86aee25645becbe7493f8c436e2b",
+      "size": 15533,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3676b79c5bcf86aee25645becbe7493f8c436e2b"
+    },
+    {
+      "path": "src/partials/components/_cards.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "177a998cce5055865bf4a0523c1224c3d4f52e1d",
+      "size": 37747,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/177a998cce5055865bf4a0523c1224c3d4f52e1d"
+    },
+    {
+      "path": "src/partials/components/_forms.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e534ce8915919d48cecc2878cf101ae3f6b38e37",
+      "size": 16526,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e534ce8915919d48cecc2878cf101ae3f6b38e37"
+    },
+    {
+      "path": "src/partials/components/_modals.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbac09cad599e5f2b6f87fb210db0fec51bc9462",
+      "size": 22785,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/bbac09cad599e5f2b6f87fb210db0fec51bc9462"
+    },
+    {
+      "path": "src/partials/components/_navs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "614b86e85cea628f305e32a7a9e12fd1d2582f39",
+      "size": 9337,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/614b86e85cea628f305e32a7a9e12fd1d2582f39"
+    },
+    {
+      "path": "src/partials/components/_pagination.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b1b05e48ff7b85c49c0bada832ada1e2f4e8cc",
+      "size": 8588,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/15b1b05e48ff7b85c49c0bada832ada1e2f4e8cc"
+    },
+    {
+      "path": "src/partials/components/_popovers.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09ecaf708f6999197e70a4d8b8c502d03790a1b6",
+      "size": 1544,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/09ecaf708f6999197e70a4d8b8c502d03790a1b6"
+    },
+    {
+      "path": "src/partials/components/_progress-bars.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec16ec716e9088aabf475815be4311e794c78dd0",
+      "size": 13008,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ec16ec716e9088aabf475815be4311e794c78dd0"
+    },
+    {
+      "path": "src/partials/components/_tables.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67de3cc6aa840ee7c9f8218b1b54268d10e83931",
+      "size": 7713,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/67de3cc6aa840ee7c9f8218b1b54268d10e83931"
+    },
+    {
+      "path": "src/partials/components/_tabs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d25a93265da7b01f32c3de36c44033abfaa35a8a",
+      "size": 8275,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d25a93265da7b01f32c3de36c44033abfaa35a8a"
+    },
+    {
+      "path": "src/partials/components/_toasts.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7f59f15020246a07629025ca57bec421792b4b",
+      "size": 1827,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2a7f59f15020246a07629025ca57bec421792b4b"
+    },
+    {
+      "path": "src/partials/components/_tooltips.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f9425616a7a8e5d05ea36e299cbf508658a113b",
+      "size": 1147,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/1f9425616a7a8e5d05ea36e299cbf508658a113b"
+    },
+    {
+      "path": "src/partials/components/_typography.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a6bf99d9857eb66b9d01b674babedd3a5af4cd",
+      "size": 8223,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/60a6bf99d9857eb66b9d01b674babedd3a5af4cd"
+    },
+    {
+      "path": "src/scss",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fdb6b4a58f8e051b76f66214b8f1e43a95f305a",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/1fdb6b4a58f8e051b76f66214b8f1e43a95f305a"
+    },
+    {
+      "path": "src/scss/bootstrap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c481657ee34eaa8a448cc598946b3616657dca8",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/0c481657ee34eaa8a448cc598946b3616657dca8"
+    },
+    {
+      "path": "src/scss/bootstrap/_alert.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "da2a98af94e82f0a26b2a1f26e7b05afe07d3608",
+      "size": 1148,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/da2a98af94e82f0a26b2a1f26e7b05afe07d3608"
+    },
+    {
+      "path": "src/scss/bootstrap/_badge.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2082f058ecebf3dc74b6e95780de71122c6428c5",
+      "size": 1119,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2082f058ecebf3dc74b6e95780de71122c6428c5"
+    },
+    {
+      "path": "src/scss/bootstrap/_breadcrumb.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "be309506903bea488037819734c641b657ef5c48",
+      "size": 1278,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/be309506903bea488037819734c641b657ef5c48"
+    },
+    {
+      "path": "src/scss/bootstrap/_button-group.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d7220029ad180bf28266b90ad95445b0f57f610e",
+      "size": 3624,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d7220029ad180bf28266b90ad95445b0f57f610e"
+    },
+    {
+      "path": "src/scss/bootstrap/_buttons.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b1f3fb0fa8a034835c86b6259a6364591c81cfce",
+      "size": 2556,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b1f3fb0fa8a034835c86b6259a6364591c81cfce"
+    },
+    {
+      "path": "src/scss/bootstrap/_card.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c6b67ce05d5c3c9abbc5f030adfa497cdd8b5883",
+      "size": 5872,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c6b67ce05d5c3c9abbc5f030adfa497cdd8b5883"
+    },
+    {
+      "path": "src/scss/bootstrap/_carousel.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "97051dae461686d717d89b51a88c59160c36c5c8",
+      "size": 4758,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/97051dae461686d717d89b51a88c59160c36c5c8"
+    },
+    {
+      "path": "src/scss/bootstrap/_close.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5cc96f573e1678cfbaebf33f4b049b45f225fcb1",
+      "size": 956,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/5cc96f573e1678cfbaebf33f4b049b45f225fcb1"
+    },
+    {
+      "path": "src/scss/bootstrap/_code.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "74b6e1c89be5057882650eb91148f69c7f7a93a3",
+      "size": 1013,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/74b6e1c89be5057882650eb91148f69c7f7a93a3"
+    },
+    {
+      "path": "src/scss/bootstrap/_custom-forms.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03f3fc5be2dafceb717340c65c909f710013fbbb",
+      "size": 14866,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/03f3fc5be2dafceb717340c65c909f710013fbbb"
+    },
+    {
+      "path": "src/scss/bootstrap/_dropdown.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ac3c8c8a2c5a851abb91bc52cc4d40298e170177",
+      "size": 4363,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ac3c8c8a2c5a851abb91bc52cc4d40298e170177"
+    },
+    {
+      "path": "src/scss/bootstrap/_forms.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ec9c335591b3e7c91108f74047bb9b06b1dd5b9b",
+      "size": 8816,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ec9c335591b3e7c91108f74047bb9b06b1dd5b9b"
+    },
+    {
+      "path": "src/scss/bootstrap/_functions.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d2cc91d57a6650f9ab2f5d3ae17de0fb55b1e29b",
+      "size": 2719,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d2cc91d57a6650f9ab2f5d3ae17de0fb55b1e29b"
+    },
+    {
+      "path": "src/scss/bootstrap/_grid.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a227515379c4bd9979039bc0e86ca3626123b96b",
+      "size": 1016,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a227515379c4bd9979039bc0e86ca3626123b96b"
+    },
+    {
+      "path": "src/scss/bootstrap/_images.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cb9795e272abc2823f87cbf933471d9f4176e7cc",
+      "size": 1153,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/cb9795e272abc2823f87cbf933471d9f4176e7cc"
+    },
+    {
+      "path": "src/scss/bootstrap/_input-group.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ac49f696cb302d4bb58e26581c8f07931de7178c",
+      "size": 5855,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ac49f696cb302d4bb58e26581c8f07931de7178c"
+    },
+    {
+      "path": "src/scss/bootstrap/_jumbotron.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bcd7dcad996db4ed4a1c8451f04f623a01cc069b",
+      "size": 405,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/bcd7dcad996db4ed4a1c8451f04f623a01cc069b"
+    },
+    {
+      "path": "src/scss/bootstrap/_list-group.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3f80687ab4869da1a9e3a21bc8be542b369d070f",
+      "size": 3752,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3f80687ab4869da1a9e3a21bc8be542b369d070f"
+    },
+    {
+      "path": "src/scss/bootstrap/_media.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b573052c14affa5bdca02ac9e3e7a4168768925b",
+      "size": 83,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b573052c14affa5bdca02ac9e3e7a4168768925b"
+    },
+    {
+      "path": "src/scss/bootstrap/_mixins.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cc957843f26ca15503c8a09b440634da12838f11",
+      "size": 1059,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/cc957843f26ca15503c8a09b440634da12838f11"
+    },
+    {
+      "path": "src/scss/bootstrap/_modal.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6b6770b32c24cce8f3079cdf42596c5c7bfb8422",
+      "size": 5930,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6b6770b32c24cce8f3079cdf42596c5c7bfb8422"
+    },
+    {
+      "path": "src/scss/bootstrap/_nav.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e5519b3a4d2d2e0b0111faf5a18fc01deb262f26",
+      "size": 2069,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e5519b3a4d2d2e0b0111faf5a18fc01deb262f26"
+    },
+    {
+      "path": "src/scss/bootstrap/_navbar.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5c6e96399e49c7de1d8b042da8bac7c88de381bc",
+      "size": 6415,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/5c6e96399e49c7de1d8b042da8bac7c88de381bc"
+    },
+    {
+      "path": "src/scss/bootstrap/_pagination.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b4345311d366c61e1ca4ead057df4d5c3ee871db",
+      "size": 1740,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b4345311d366c61e1ca4ead057df4d5c3ee871db"
+    },
+    {
+      "path": "src/scss/bootstrap/_popover.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f205e66818cff53deaf6a02a537e71b827a7626e",
+      "size": 4797,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f205e66818cff53deaf6a02a537e71b827a7626e"
+    },
+    {
+      "path": "src/scss/bootstrap/_print.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "61b60b9807c77031ee90d82a1b1df45645da307e",
+      "size": 3001,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/61b60b9807c77031ee90d82a1b1df45645da307e"
+    },
+    {
+      "path": "src/scss/bootstrap/_progress.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ab9ea0ffbefcdaff765f22df36367013501359af",
+      "size": 1068,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ab9ea0ffbefcdaff765f22df36367013501359af"
+    },
+    {
+      "path": "src/scss/bootstrap/_reboot.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c55d42e44a37743c2737a73b31ddccd3288b1b89",
+      "size": 11187,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c55d42e44a37743c2737a73b31ddccd3288b1b89"
+    },
+    {
+      "path": "src/scss/bootstrap/_root.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ad550df3b49b5374b82c0266a00a9c6e416b6155",
+      "size": 572,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ad550df3b49b5374b82c0266a00a9c6e416b6155"
+    },
+    {
+      "path": "src/scss/bootstrap/_spinners.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "364a5c1a65f71e0828a23752934a95e42e511236",
+      "size": 1051,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/364a5c1a65f71e0828a23752934a95e42e511236"
+    },
+    {
+      "path": "src/scss/bootstrap/_tables.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b7ab3d5062dd099ee02baf29522042905f670011",
+      "size": 3520,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b7ab3d5062dd099ee02baf29522042905f670011"
+    },
+    {
+      "path": "src/scss/bootstrap/_toasts.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6aa5352a383ccb41d3c6871bed0df5a17f03c10a",
+      "size": 990,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6aa5352a383ccb41d3c6871bed0df5a17f03c10a"
+    },
+    {
+      "path": "src/scss/bootstrap/_tooltip.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6b3aa62dd619bad73540ede3459a4db91d31c7a6",
+      "size": 2512,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6b3aa62dd619bad73540ede3459a4db91d31c7a6"
+    },
+    {
+      "path": "src/scss/bootstrap/_transitions.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "40be4d918add473357851dcd32b3b17f54afae27",
+      "size": 261,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/40be4d918add473357851dcd32b3b17f54afae27"
+    },
+    {
+      "path": "src/scss/bootstrap/_type.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f8ed09065eb2f85ad404d3c6897967c27d1511c2",
+      "size": 2244,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f8ed09065eb2f85ad404d3c6897967c27d1511c2"
+    },
+    {
+      "path": "src/scss/bootstrap/_utilities.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a5de31ba6a50de2e58a4a9227c5e753de79cf206",
+      "size": 502,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a5de31ba6a50de2e58a4a9227c5e753de79cf206"
+    },
+    {
+      "path": "src/scss/bootstrap/_variables.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a7434f57ca73252c9a1b28411d901b06e47dd189",
+      "size": 47842,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a7434f57ca73252c9a1b28411d901b06e47dd189"
+    },
+    {
+      "path": "src/scss/bootstrap/bootstrap-grid.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5f92a16ac3f409a2cd6def1aeee3ac3476018e7",
+      "size": 572,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d5f92a16ac3f409a2cd6def1aeee3ac3476018e7"
+    },
+    {
+      "path": "src/scss/bootstrap/bootstrap-reboot.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2983f3f6df08cead70cf98e1165e7b573a4dc54e",
+      "size": 411,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2983f3f6df08cead70cf98e1165e7b573a4dc54e"
+    },
+    {
+      "path": "src/scss/bootstrap/bootstrap.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9f15c2a8bc835aef69053600ed2c71de7f20215d",
+      "size": 920,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9f15c2a8bc835aef69053600ed2c71de7f20215d"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb47d6ae06389c2a7ce2c410748ebdd0f5d77b5d",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/cb47d6ae06389c2a7ce2c410748ebdd0f5d77b5d"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_alert.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "db5a7eb4549ec1406985347113efa74287a2f219",
+      "size": 242,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/db5a7eb4549ec1406985347113efa74287a2f219"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_background-variant.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "494439d2b45fd21205a9cc4880dc83501c63d5f3",
+      "size": 474,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/494439d2b45fd21205a9cc4880dc83501c63d5f3"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_badge.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "64b29cb579138e814cfcab45c6bf3e73e0090e68",
+      "size": 318,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/64b29cb579138e814cfcab45c6bf3e73e0090e68"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_border-radius.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88aeb37d818c3fa50abf6f27e9be69b87d5db40b",
+      "size": 1340,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/88aeb37d818c3fa50abf6f27e9be69b87d5db40b"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_box-shadow.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0726d4359a8f30eef0d0ca097a17994456343675",
+      "size": 532,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0726d4359a8f30eef0d0ca097a17994456343675"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_breakpoints.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "23a5de96be0dfd0bcbf342a67ef62b1039500a77",
+      "size": 4482,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/23a5de96be0dfd0bcbf342a67ef62b1039500a77"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_buttons.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eee903f83ce5b56fa645152f23810953c92a62e7",
+      "size": 3369,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/eee903f83ce5b56fa645152f23810953c92a62e7"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_caret.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8ecef65b47689d9c15071d4292c2baa03cc5f3f5",
+      "size": 1406,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8ecef65b47689d9c15071d4292c2baa03cc5f3f5"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_clearfix.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "11a977b7373dab15046354e1b27b88f29acdf44f",
+      "size": 93,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/11a977b7373dab15046354e1b27b88f29acdf44f"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_deprecate.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "df070bc59634213b5f9d49b4d6169d61dd6ac40d",
+      "size": 613,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/df070bc59634213b5f9d49b4d6169d61dd6ac40d"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_float.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "adff88e7909d8948958fec75b62ca7f17c82291b",
+      "size": 386,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/adff88e7909d8948958fec75b62ca7f17c82291b"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_forms.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ea8a91a024776c1e7fe00bce32185524a5e321f7",
+      "size": 4912,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ea8a91a024776c1e7fe00bce32185524a5e321f7"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_gradients.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88c4d64b7f7ef50faabf977b168076bb9750da17",
+      "size": 2050,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/88c4d64b7f7ef50faabf977b168076bb9750da17"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_grid-framework.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "649c28bf77a57f24283a120319b039b11220d609",
+      "size": 1828,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/649c28bf77a57f24283a120319b039b11220d609"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_grid.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "924eb0cfc0f88cb70b7ea1aab134678b48bae06c",
+      "size": 1568,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/924eb0cfc0f88cb70b7ea1aab134678b48bae06c"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_hover.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "192f847e17e08cebb04fb1f5a62d75213a9ad168",
+      "size": 749,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/192f847e17e08cebb04fb1f5a62d75213a9ad168"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_image.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a76a6082bac749c009ecbf84c17da6d750972009",
+      "size": 1159,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a76a6082bac749c009ecbf84c17da6d750972009"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_list-group.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cd47a4e9fa86d1468055d65fc88146e92bd073c7",
+      "size": 431,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/cd47a4e9fa86d1468055d65fc88146e92bd073c7"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_lists.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "25185626698393b1365199f93aadd8d3350dc9d5",
+      "size": 168,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/25185626698393b1365199f93aadd8d3350dc9d5"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_nav-divider.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4fb37b6224720ec2ee926c8932cc4286acfe3624",
+      "size": 261,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/4fb37b6224720ec2ee926c8932cc4286acfe3624"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_pagination.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "af8e16d6a911c097666e54a7abcb091187b07f0c",
+      "size": 462,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/af8e16d6a911c097666e54a7abcb091187b07f0c"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_reset-text.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bfa9f6e9ad88ce10eac705bfc0559fcc2c5890c6",
+      "size": 479,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/bfa9f6e9ad88ce10eac705bfc0559fcc2c5890c6"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_resize.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "66f233a63c988deb5a59dde3bba962082fbdfd57",
+      "size": 202,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/66f233a63c988deb5a59dde3bba962082fbdfd57"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_screen-reader.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "812591bc5e32312505a4cee99d9dcd4289e44349",
+      "size": 733,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/812591bc5e32312505a4cee99d9dcd4289e44349"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_size.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69e056d2c1ef94f63abe42f9fba78fbcd85feae0",
+      "size": 148,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/69e056d2c1ef94f63abe42f9fba78fbcd85feae0"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_table-row.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f8d61869a482e169f0649934f285a838bacaed41",
+      "size": 792,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f8d61869a482e169f0649934f285a838bacaed41"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_text-emphasis.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "155d6ca8cf2fca3281952aa3f114bb278ef377bd",
+      "size": 364,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/155d6ca8cf2fca3281952aa3f114bb278ef377bd"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_text-hide.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3a923011ec73de336b6d89f731b0a81dcc14c4a7",
+      "size": 326,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3a923011ec73de336b6d89f731b0a81dcc14c4a7"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_text-truncate.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3504bb1aa5d7aa2c3d75aedd4a03916afaa7e4d9",
+      "size": 168,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3504bb1aa5d7aa2c3d75aedd4a03916afaa7e4d9"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_transition.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8ce35a6b836cb212af9cc5045796fcc0adce419b",
+      "size": 364,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8ce35a6b836cb212af9cc5045796fcc0adce419b"
+    },
+    {
+      "path": "src/scss/bootstrap/mixins/_visibility.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f174673117839c3ff29949edf212248fe3132e3a",
+      "size": 189,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f174673117839c3ff29949edf212248fe3132e3a"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d6b9941c8bfe45a3ce40a32115f4337dd4ef141",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/6d6b9941c8bfe45a3ce40a32115f4337dd4ef141"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_align.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8b7df9f76c2c8ddaf8468d9e536bc04da761e63d",
+      "size": 420,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8b7df9f76c2c8ddaf8468d9e536bc04da761e63d"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_background.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1f18b2f3f36483973876a382d6e1bdc1f346361a",
+      "size": 397,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/1f18b2f3f36483973876a382d6e1bdc1f346361a"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_borders.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "302f6bf8490b04f36c9588303d7a7238482e6012",
+      "size": 1765,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/302f6bf8490b04f36c9588303d7a7238482e6012"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_clearfix.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e92522a94d82a571b84ac1de470bcb70b176023c",
+      "size": 37,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e92522a94d82a571b84ac1de470bcb70b176023c"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_display.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "130367998fec2ff269df68a152d12e93c09d9d36",
+      "size": 519,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/130367998fec2ff269df68a152d12e93c09d9d36"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_embed.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4497ac0400fbfacc098868f93fb1d55bf3d2ac77",
+      "size": 846,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/4497ac0400fbfacc098868f93fb1d55bf3d2ac77"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_flex.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3d4266e0d087794f655ecceb7a367859a1ac513a",
+      "size": 2769,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3d4266e0d087794f655ecceb7a367859a1ac513a"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_float.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "54250844ff611e8faa31cf0cd5e7ec6cb6cc299d",
+      "size": 376,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/54250844ff611e8faa31cf0cd5e7ec6cb6cc299d"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_overflow.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8326c30641e6dfce3b23d018edb30c7d044a7d1a",
+      "size": 133,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8326c30641e6dfce3b23d018edb30c7d044a7d1a"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_position.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cdf6c115f3d378cebe5ebc27d9f32b6b8b949c8c",
+      "size": 484,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/cdf6c115f3d378cebe5ebc27d9f32b6b8b949c8c"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_screenreaders.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9f26fde03538350e750a76cf2415a62f960976af",
+      "size": 115,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9f26fde03538350e750a76cf2415a62f960976af"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_shadows.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f5d03fcd59c1fc62db7549347003ae43ff6ec709",
+      "size": 249,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f5d03fcd59c1fc62db7549347003ae43ff6ec709"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_sizing.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f3764880228bff11cab2ec034ef5a3848c441e5e",
+      "size": 498,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f3764880228bff11cab2ec034ef5a3848c441e5e"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_spacing.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "351136790a48a33a2622627e4267425a2ec90b61",
+      "size": 2101,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/351136790a48a33a2622627e4267425a2ec90b61"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_stretched-link.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fb5066bf55dd2d56afad94f322968414775d1638",
+      "size": 431,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/fb5066bf55dd2d56afad94f322968414775d1638"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_text.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b76b4caa3b241d5aadec1a7e465b9f36dc4dc866",
+      "size": 1967,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b76b4caa3b241d5aadec1a7e465b9f36dc4dc866"
+    },
+    {
+      "path": "src/scss/bootstrap/utilities/_visibility.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7756c3bfacf76d2ff6e7852cdc6ee4e8b3e1aa3d",
+      "size": 174,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7756c3bfacf76d2ff6e7852cdc6ee4e8b3e1aa3d"
+    },
+    {
+      "path": "src/scss/bootstrap/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71c713351213bd68396142770a6e189b694bdd81",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/71c713351213bd68396142770a6e189b694bdd81"
+    },
+    {
+      "path": "src/scss/bootstrap/vendor/_rfs.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "497e07eda913871b1d61e8488e70cf156d038ccf",
+      "size": 6473,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/497e07eda913871b1d61e8488e70cf156d038ccf"
+    },
+    {
+      "path": "src/scss/neumorphism.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3fc9799e2846072bf200c860b1e177fc6c8b4ef3",
+      "size": 1204,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3fc9799e2846072bf200c860b1e177fc6c8b4ef3"
+    },
+    {
+      "path": "src/scss/neumorphism",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "294f7cd603daa5b1affdf178ff134378370eec5b",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/294f7cd603daa5b1affdf178ff134378370eec5b"
+    },
+    {
+      "path": "src/scss/neumorphism/_components.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "218299773ecc07d60748d861a25485b618627b73",
+      "size": 818,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/218299773ecc07d60748d861a25485b618627b73"
+    },
+    {
+      "path": "src/scss/neumorphism/_functions.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "91971a5a2dcfdc79a7266e6ccbed22edbcad9435",
+      "size": 590,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/91971a5a2dcfdc79a7266e6ccbed22edbcad9435"
+    },
+    {
+      "path": "src/scss/neumorphism/_layout.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ca60fa28b499a7fa2f45f8424616de5e8be222",
+      "size": 102,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/52ca60fa28b499a7fa2f45f8424616de5e8be222"
+    },
+    {
+      "path": "src/scss/neumorphism/_mixins.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc22b49f7539d90259fa09910918a5d84237e00d",
+      "size": 309,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/fc22b49f7539d90259fa09910918a5d84237e00d"
+    },
+    {
+      "path": "src/scss/neumorphism/_reboot.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "404fbd2a789a6530b8911301a8f625723328859b",
+      "size": 224,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/404fbd2a789a6530b8911301a8f625723328859b"
+    },
+    {
+      "path": "src/scss/neumorphism/_utilities.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5c8a8f68c7934fd2aa099ba4f6512b26338e54a2",
+      "size": 306,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/5c8a8f68c7934fd2aa099ba4f6512b26338e54a2"
+    },
+    {
+      "path": "src/scss/neumorphism/_variables.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d3b45b8bdf4ff636a392ef28da541b93d2ec67ec",
+      "size": 30746,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d3b45b8bdf4ff636a392ef28da541b93d2ec67ec"
+    },
+    {
+      "path": "src/scss/neumorphism/_vendor.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c75e8c60b90c47226d18b41303a786e048e363f",
+      "size": 128,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0c75e8c60b90c47226d18b41303a786e048e363f"
+    },
+    {
+      "path": "src/scss/neumorphism/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b5a245306a978cd8bc11806bf4776fb1f758b3ad",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/b5a245306a978cd8bc11806bf4776fb1f758b3ad"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_accordions.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1660e562bc612a0d1c8ad1ab7a25cb1e1f0f8abd",
+      "size": 933,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/1660e562bc612a0d1c8ad1ab7a25cb1e1f0f8abd"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_alerts.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a2dbe1e8afe3a33d697f3f453d513cc9f640cf7a",
+      "size": 1248,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a2dbe1e8afe3a33d697f3f453d513cc9f640cf7a"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_avatars.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "12baabe76e4443f224969a77976e2de9366db351",
+      "size": 397,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/12baabe76e4443f224969a77976e2de9366db351"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_badge.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "43cda8b6583488e80f0442462e159c2332e3c818",
+      "size": 1645,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/43cda8b6583488e80f0442462e159c2332e3c818"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_breadcrumb.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "668ff785fb0d0c79a6c617726b908ad07d7e4dc6",
+      "size": 1390,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/668ff785fb0d0c79a6c617726b908ad07d7e4dc6"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_buttons.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ff14fa8de96ffa18a70d9468f0564c6d7fbcb22c",
+      "size": 4497,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ff14fa8de96ffa18a70d9468f0564c6d7fbcb22c"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_card.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e2093b248fb3d9c8c96d7c0503b85ea0ae62765",
+      "size": 3062,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/5e2093b248fb3d9c8c96d7c0503b85ea0ae62765"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_carousel.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ff991d74aa78b1c6afc24175f1928637079800bc",
+      "size": 944,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ff991d74aa78b1c6afc24175f1928637079800bc"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_close.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ce2c116095d8c92f5c2ce31e1d69ea37caaa0bc8",
+      "size": 714,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/ce2c116095d8c92f5c2ce31e1d69ea37caaa0bc8"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_components.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38116b0f4928d662d70653a0ae8e5dac9da65921",
+      "size": 590,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/38116b0f4928d662d70653a0ae8e5dac9da65921"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_counters.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0861f4d3d3b984bae7a4dafc83a50d9a7d51e331",
+      "size": 23,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0861f4d3d3b984bae7a4dafc83a50d9a7d51e331"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_custom-forms.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6bd6fba0c400d3b9714899a4e9485b9180eee291",
+      "size": 3418,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6bd6fba0c400d3b9714899a4e9485b9180eee291"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_datepicker.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "36126cee64426784e3f9996f130a910b2197d25e",
+      "size": 457,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/36126cee64426784e3f9996f130a910b2197d25e"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_dropdown.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2dd4a2328da6e61a80c508ca84eb4be23c445c1d",
+      "size": 1385,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2dd4a2328da6e61a80c508ca84eb4be23c445c1d"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_forms.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7d1d6a0dd813073844b5df2af5ad5c0ef77fcf78",
+      "size": 6608,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7d1d6a0dd813073844b5df2af5ad5c0ef77fcf78"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_icon-box.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6e734c239a9ae624e1f020e20e581ba88e011b18",
+      "size": 869,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6e734c239a9ae624e1f020e20e581ba88e011b18"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_images.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9276d82316c153d12bf09303b388224d0565c5a",
+      "size": 782,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a9276d82316c153d12bf09303b388224d0565c5a"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_input-group.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fb0dc177b074502798b1c91345456cac22b583fd",
+      "size": 599,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/fb0dc177b074502798b1c91345456cac22b583fd"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_list-group.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cc65324b29b0d81b6f145d6f26e6fe63a45a565a",
+      "size": 1566,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/cc65324b29b0d81b6f145d6f26e6fe63a45a565a"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_maps.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fcedc7d8eafee588930775ca7815e6978eceb0a",
+      "size": 93,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/9fcedc7d8eafee588930775ca7815e6978eceb0a"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_modal.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6994835304112a4ac66a787a309c921ec2514386",
+      "size": 1025,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6994835304112a4ac66a787a309c921ec2514386"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_nav.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "11b3608acf7d582adb8e1bdec0a58af38f5e359c",
+      "size": 4169,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/11b3608acf7d582adb8e1bdec0a58af38f5e359c"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_pagination.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "04318a9a8491193cae897042a8f00d34e30a2801",
+      "size": 1382,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/04318a9a8491193cae897042a8f00d34e30a2801"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_popover.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "29dbaa84a697a8718c98cfcb7d08f25a660f7b4c",
+      "size": 274,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/29dbaa84a697a8718c98cfcb7d08f25a660f7b4c"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_pricing-cards.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8c77cb22d628c2557f51b2064d69b7c350c945fb",
+      "size": 334,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8c77cb22d628c2557f51b2064d69b7c350c945fb"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_profile-cards.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b125e30ad4fe5f9b7a70c5dd73299e36217e1bfa",
+      "size": 372,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b125e30ad4fe5f9b7a70c5dd73299e36217e1bfa"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_progress.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "849cda87132ef666872b4d248fb514cfab6c9b4c",
+      "size": 1663,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/849cda87132ef666872b4d248fb514cfab6c9b4c"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_shapes.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f26b37070ad102d58b56e57d05aefa1aeb060745",
+      "size": 843,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/f26b37070ad102d58b56e57d05aefa1aeb060745"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_tooltip.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "573ba49965163e81fd6fa8ffa727d0b6a7e24707",
+      "size": 96,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/573ba49965163e81fd6fa8ffa727d0b6a7e24707"
+    },
+    {
+      "path": "src/scss/neumorphism/components/_type.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cdfdcfa7a6e48cf4bbd03db3c18b679abe87d80d",
+      "size": 3196,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/cdfdcfa7a6e48cf4bbd03db3c18b679abe87d80d"
+    },
+    {
+      "path": "src/scss/neumorphism/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b22332e7422e8bd6613ab1be0dd5a13ea90630fb",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/b22332e7422e8bd6613ab1be0dd5a13ea90630fb"
+    },
+    {
+      "path": "src/scss/neumorphism/layout/_footer.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "007fbf0385f99e8c45abee82349d95702cfb18fc",
+      "size": 839,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/007fbf0385f99e8c45abee82349d95702cfb18fc"
+    },
+    {
+      "path": "src/scss/neumorphism/layout/_navbar.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8341b93a018dfc7df1c2c2784b0da2f591072aa4",
+      "size": 10283,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8341b93a018dfc7df1c2c2784b0da2f591072aa4"
+    },
+    {
+      "path": "src/scss/neumorphism/layout/_section.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f112f7644b7c36405fc5808c1d53b857bf4cb6d",
+      "size": 4556,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/4f112f7644b7c36405fc5808c1d53b857bf4cb6d"
+    },
+    {
+      "path": "src/scss/neumorphism/layout/_sidebar.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc2cad95f7be3b5ac2291ce0f1e018d44e033260",
+      "size": 639,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/fc2cad95f7be3b5ac2291ce0f1e018d44e033260"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd13b13ada9841bc4aa7037634045a4aae69ac48",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/fd13b13ada9841bc4aa7037634045a4aae69ac48"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_alert.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "be876a28cdf5763b3dbeee40110458fd74dad009",
+      "size": 287,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/be876a28cdf5763b3dbeee40110458fd74dad009"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_animations.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "149b26897e94e48af5cbd92aab935aae6d510baf",
+      "size": 1344,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/149b26897e94e48af5cbd92aab935aae6d510baf"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_background-variant.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4270c0b9d7d01e411a3d1c73eebcadc04ee70698",
+      "size": 658,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/4270c0b9d7d01e411a3d1c73eebcadc04ee70698"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_badges.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d28c5ed0cbe47021ec0377ef704969ed60ef9d57",
+      "size": 159,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d28c5ed0cbe47021ec0377ef704969ed60ef9d57"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_buttons.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1ca6086cbebd0ad4e7f5d223c0c36dd7807aa907",
+      "size": 2849,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/1ca6086cbebd0ad4e7f5d223c0c36dd7807aa907"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_forms.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e1604e2cf0e3397ef2fa4b31485d8bb76f68369b",
+      "size": 4473,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e1604e2cf0e3397ef2fa4b31485d8bb76f68369b"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_icon.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4d382ad767677e66c3ee0cfcdb9ccb880b99a20f",
+      "size": 637,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/4d382ad767677e66c3ee0cfcdb9ccb880b99a20f"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_modals.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6c2f79544c767f2485b6a81fca47736c493aeabc",
+      "size": 412,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/6c2f79544c767f2485b6a81fca47736c493aeabc"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_popover.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d3d4483d850f6486e9bf5ca2c7bc2949cc70ead7",
+      "size": 651,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/d3d4483d850f6486e9bf5ca2c7bc2949cc70ead7"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_transform.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e087fa431008b95969586c0ad4453dac472527e5",
+      "size": 361,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/e087fa431008b95969586c0ad4453dac472527e5"
+    },
+    {
+      "path": "src/scss/neumorphism/mixins/_utilities.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e7cf68c338f629dbdfa4d8eb85c803f2cd6ad3",
+      "size": 2644,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/78e7cf68c338f629dbdfa4d8eb85c803f2cd6ad3"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d54fcb734fd1f7948c5f4a2359efa18c4cfdd92",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/6d54fcb734fd1f7948c5f4a2359efa18c4cfdd92"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_animations.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26cfe95433c43d45780ce80aa0a0d952c94d7a48",
+      "size": 2412,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/26cfe95433c43d45780ce80aa0a0d952c94d7a48"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_backgrounds.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a41439dcd51f5bf9b950d62c7db3fdf968af9e6c",
+      "size": 1341,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/a41439dcd51f5bf9b950d62c7db3fdf968af9e6c"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_floating.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3e3fedc7985914bde7f87bdd89fc07eb0c412e37",
+      "size": 979,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3e3fedc7985914bde7f87bdd89fc07eb0c412e37"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_helper.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c46e06eb9243667a550d8b97ab9d25226347b779",
+      "size": 786,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/c46e06eb9243667a550d8b97ab9d25226347b779"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_position.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b0d70fc1ce8332f33a307837bee42ca66594dae7",
+      "size": 471,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b0d70fc1ce8332f33a307837bee42ca66594dae7"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_shadows.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2e246154a1861e86b2d5056d6d1e752d37aa3982",
+      "size": 291,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/2e246154a1861e86b2d5056d6d1e752d37aa3982"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_sizing.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dca0ae9bcf66b8798abd7d8bf87c82e33b7be23c",
+      "size": 635,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/dca0ae9bcf66b8798abd7d8bf87c82e33b7be23c"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_spacing.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8e2533a781296b82ffd023e2ed726cef3da534de",
+      "size": 2355,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/8e2533a781296b82ffd023e2ed726cef3da534de"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_text.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3c148bc8e212f4f65849bff3460e2a301187c34f",
+      "size": 1548,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/3c148bc8e212f4f65849bff3460e2a301187c34f"
+    },
+    {
+      "path": "src/scss/neumorphism/utilities/_transform.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0b2951726e37a746ff49443a2f7a913a2d39d03f",
+      "size": 357,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/0b2951726e37a746ff49443a2f7a913a2d39d03f"
+    },
+    {
+      "path": "src/scss/neumorphism/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d4e552ed991d836911d194649023ba766702687",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/2d4e552ed991d836911d194649023ba766702687"
+    },
+    {
+      "path": "src/scss/neumorphism/vendor/_bootstrap-datepicker.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "82782ef3f34d3aaba1b1537afb59309399d1ca59",
+      "size": 7353,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/82782ef3f34d3aaba1b1537afb59309399d1ca59"
+    },
+    {
+      "path": "src/scss/neumorphism/vendor/_headroom.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "66090b28a4238f1fab53019171f7366dc0a5179b",
+      "size": 905,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/66090b28a4238f1fab53019171f7366dc0a5179b"
+    },
+    {
+      "path": "src/scss/neumorphism/vendor/_nouislider.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7338072a2c59ba18b28a50bd6944bb643fa1aca2",
+      "size": 8764,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/7338072a2c59ba18b28a50bd6944bb643fa1aca2"
+    },
+    {
+      "path": "src/scss/neumorphism/vendor/_prism.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b173f3f24034f67f2486bda8cbf08efb0ffc2893",
+      "size": 2533,
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/blobs/b173f3f24034f67f2486bda8cbf08efb0ffc2893"
+    }
+  ],
+  "truncated": false
+}

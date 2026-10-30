@@ -1,0 +1,47 @@
+[
+  {
+    "file": "dist/style.css",
+    "identicalToPublishedR49": true,
+    "sha256": "451a7b71652370826b061b35ede1c04c58c53c98b865ccfb6e034d0845c80181"
+  },
+  {
+    "file": "dist/player.css",
+    "identicalToPublishedR49": true,
+    "sha256": "65c451b70fd38010da49ff89ebc9049081c743673e4e2a717689bfa7e4a0f7fa"
+  },
+  {
+    "file": "dist/index.html",
+    "identicalToPublishedR49": true,
+    "sha256": "9f42d97d257d5d2d70b2d26b64a4d212d84426d601278476bf0e9a2c88038a04"
+  },
+  {
+    "file": "src/blocks-editor.jsx",
+    "identicalToPublishedR49": true,
+    "sha256": "b65c070267b6d2400997a85542c8d311770aacb0adf997db1ed002eb4f363776"
+  },
+  {
+    "file": "src/engine.mjs",
+    "identicalToPublishedR49": true,
+    "sha256": "9da7a8e6a595e93d714bf2263a7b71904ce9ad1fe3298380457338abceec0b3a"
+  },
+  {
+    "file": "src/storage.mjs",
+    "identicalToPublishedR49": true,
+    "sha256": "bfb17a50a0eea8f41ce015a18bae1850330fe4b416424888a5e48b5ad09b4586"
+  },
+  {
+    "file": "qa/p0-c-visual-review.html",
+    "identicalToPublishedR49": true,
+    "sha256": "f8a29622ec1544e0be7359be7cdba5581adf45850e403a6504657ffd4d7c07ab"
+  },
+  {
+    "file": "qa/p0-c-visual-review-manifest.json",
+    "identicalToPublishedR49": true,
+    "sha256": "bbafc8170d48c272b29ec18412d266bb920b3a5da587d95b9ef02494c3d6f0a7"
+  },
+  {
+    "file": "qa/P0-C-VISUAL-CHECKLIST.md",
+    "identicalToPublishedR49": true,
+    "sha256": "bfc8e375af7e22fc7c9ff4fb37c92fefcc0fdd564b83a712695a74ae4870744b"
+  }
+]

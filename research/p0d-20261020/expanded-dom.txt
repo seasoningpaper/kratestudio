@@ -1,0 +1,47 @@
+✔ P0-D clean KOI file follows block/event edits without manual refresh (368.279829ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (308.960702ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (151.222267ms)
+✖ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (1458.74323ms)
+✖ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (1363.771949ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (272.365723ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (241.083808ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 5
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4506.293961
+
+✖ failing tests:
+
+test at tests/p0d-dom.test.mjs:9:1
+✖ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (1458.74323ms)
+  AssertionError [ERR_ASSERTION]: 同步條件未在時限內成立
+      at until (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:2:131)
+      at async TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:9:502)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/p0d-dom.test.mjs:10:1
+✖ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (1363.771949ms)
+  AssertionError [ERR_ASSERTION]: 同步條件未在時限內成立
+      at until (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:2:131)
+      at async TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:10:742)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

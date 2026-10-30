@@ -1,0 +1,15 @@
+✔ public safety: 5GB format policy is separate from the retained r2 write limit (1.261037ms)
+✔ public safety: oversized save is rejected before IndexedDB access and preserves an existing save (9.643589ms)
+✔ public safety: oversized .koib manifest is rejected before payload read or object URL creation (1.313545ms)
+✔ public safety: large JSON and game ZIP are refused before buffered materialization (0.852753ms)
+✔ public safety: ordinary legacy JSON backup works without file picker, edits and reload preserve IDs (594.119931ms)
+✔ public safety: oversized JSON import refuses before reading and leaves project and events unchanged (291.910886ms)
+✔ public safety: visible capacity labels and footer disclose the write boundary without claiming 5GB browser support (418.670056ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1688.293895

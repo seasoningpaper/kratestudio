@@ -1,0 +1,140 @@
+✖ P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending (3.873782ms)
+✖ P1-C branch: missing condition destinations and broken next references never fall into another event (1.173435ms)
+✖ P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor (7.093175ms)
+✖ P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera (1.264403ms)
+✖ P1-C legacy: every directly parsed legacy command is recognized in automatic import mode (0.350393ms)
+✖ P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable (0.668627ms)
+✔ P1-C branches: nested conditions, both choice routes and rejoin retain variables, labels and IDs after round-trip (18.990538ms)
+✔ P1-C targets: null, blank, missing, hidden, aliases, custom and numeric IDs are resolved without guessing (1.254498ms)
+✔ P1-C missing labels: diagnostics retain unresolved destinations and playback stops rather than picking a label (0.474262ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 3
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 163.920858
+
+✖ failing tests:
+
+test at tests/p1c-story.test.mjs:3:1
+✖ P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending (3.873782ms)
+  AssertionError [ERR_ASSERTION]: patch={"target":999}
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-story.test.mjs:3:364)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: /跳轉/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/p1c-story.test.mjs:4:1
+✖ P1-C branch: missing condition destinations and broken next references never fall into another event (1.173435ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /跳轉/. Input:
+  
+  ''
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-story.test.mjs:4:501)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: /跳轉/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/p1c-story.test.mjs:5:1
+✖ P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor (7.093175ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(r.diagnostics.some(d=>/目標.*空/.test(d.message)))
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-story.test.mjs:5:210)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/p1c-story.test.mjs:6:1
+✖ P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera (1.264403ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-story.test.mjs:6:290)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p1c-story.test.mjs:7:1
+✖ P1-C legacy: every directly parsed legacy command is recognized in automatic import mode (0.350393ms)
+  AssertionError [ERR_ASSERTION]: audioStop
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-story.test.mjs:7:473)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p1c-story.test.mjs:8:1
+✖ P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable (0.668627ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1c-story.test.mjs:8:363)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

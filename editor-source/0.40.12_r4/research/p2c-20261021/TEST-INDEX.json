@@ -1,0 +1,617 @@
+{
+  "uniquePassed": 99,
+  "finalFailed": 0,
+  "scope": "Only actually executed cases; historical tests not added; repeated Flow cases deduplicated. Not full-system/manual acceptance.",
+  "records": [
+    {
+      "name": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 2.463154,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 20.7756,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.600185,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.243719,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 3.466253,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.722466,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 3.715091,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 1.122506,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.723757,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.383495,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D invalid or duplicate value identities are rejected before source application",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 1.397842,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 54.881153,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: left respects explicit canvas/selection frames and locks",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 2.871056,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: center-x respects explicit canvas/selection frames and locks",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.359099,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: right respects explicit canvas/selection frames and locks",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.25768,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: top respects explicit canvas/selection frames and locks",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.200696,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: center-y respects explicit canvas/selection frames and locks",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.311489,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: bottom respects explicit canvas/selection frames and locks",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.194677,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: distribute-x preserves equal spacing and endpoint bounds",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.24412,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: distribute-y preserves equal spacing and endpoint bounds",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.13559,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: canvas center, duplicate IDs, single-selection and group bounds preserve source",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.566977,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: nested templates use world coordinates for canvas centering and reject unsafe out-of-parent alignment atomically",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 2.742055,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: parent/child selection translates once and locked nested items remain intact",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.33209,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D: desktop/mobile persistence retains logical coordinates without changing event formats",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 4.557183,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: waiting exit retains target until completion, never removes other actors in same slot",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 5.188189,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle fadeOut",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.978393,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitLeft",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.356736,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitRight",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.357387,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitUp",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.280655,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitDown",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.253063,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: legacy no-animation hide is immediate and isolates its exact key",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.330878,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.387823,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: unique positional aliases work; exact numeric custom IDs take priority",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.614487,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.593035,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: scene clear cancels pending exits; seeking past exit restores settled state",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.751709,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 0.672072,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: repeated show/hide with expression, layer and wait stays independent across script copy",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 12.158502,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B: native and legacy none syntax remain compatible and native directional exits are executable",
+      "lastLog": "C1-baseline.tap",
+      "durationMs": 3.474295,
+      "status": "passed"
+    },
+    {
+      "name": "C2: checkbox selection, active editing, all and clear remain independent without touching canonical events",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 919.204597,
+      "status": "passed"
+    },
+    {
+      "name": "C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 760.360178,
+      "status": "passed"
+    },
+    {
+      "name": "C2: section checkbox participates in selection; closed groups do not hide a newly located cursor",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 698.667094,
+      "status": "passed"
+    },
+    {
+      "name": "C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 797.223023,
+      "status": "passed"
+    },
+    {
+      "name": "C2: batch move preserves order, unknown fields and incoming cross-chapter destinations",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 754.364174,
+      "status": "passed"
+    },
+    {
+      "name": "C2: batch delete requires confirmation, clears dangling branch targets and is undoable",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 643.526435,
+      "status": "passed"
+    },
+    {
+      "name": "C2: changing chapters while deletion is pending cancels the old operation",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 632.293807,
+      "status": "passed"
+    },
+    {
+      "name": "C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 638.28199,
+      "status": "passed"
+    },
+    {
+      "name": "C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 583.999433,
+      "status": "passed"
+    },
+    {
+      "name": "C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 669.998653,
+      "status": "passed"
+    },
+    {
+      "name": "C2: bounded 500-event list selection and bulk movement retain all event semantics",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 1124.697685,
+      "status": "passed"
+    },
+    {
+      "name": "C2: bounded 1000-event list selection and bulk movement retain all event semantics",
+      "lastLog": "C2-retest.tap",
+      "durationMs": 1459.42475,
+      "status": "passed"
+    },
+    {
+      "name": "R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout",
+      "lastLog": "C3-test.tap",
+      "durationMs": 932.330278,
+      "status": "passed"
+    },
+    {
+      "name": "R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo",
+      "lastLog": "C3-test.tap",
+      "durationMs": 965.208135,
+      "status": "passed"
+    },
+    {
+      "name": "R2-C DOM: flow group drag uses scaled world delta and one Undo transaction",
+      "lastLog": "C3-test.tap",
+      "durationMs": 689.193103,
+      "status": "passed"
+    },
+    {
+      "name": "C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict",
+      "lastLog": "C2-draft.tap",
+      "durationMs": 763.639199,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 350.973461,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 289.769768,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 126.948814,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 243.699346,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 318.479908,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 263.954697,
+      "status": "passed"
+    },
+    {
+      "name": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 228.678706,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 938.51659,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B Player DOM: waiting exit cleans only A in real Player and preserves B",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 613.149784,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B Player DOM: parallel exit cleans only A in real Player and preserves B",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 538.309698,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 835.98471,
+      "status": "passed"
+    },
+    {
+      "name": "R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor",
+      "lastLog": "C2-regression.tap",
+      "durationMs": 306.907845,
+      "status": "passed"
+    },
+    {
+      "name": "C3: scroll rails project bounded camera at all zooms and restore identical world positions",
+      "lastLog": "C3-test.tap",
+      "durationMs": 2.29155,
+      "status": "passed"
+    },
+    {
+      "name": "C3: wheel pans by default, Shift pans horizontally, modifier zoom preserves pointer world location",
+      "lastLog": "C3-test.tap",
+      "durationMs": 1.08464,
+      "status": "passed"
+    },
+    {
+      "name": "C3: locate resolves exact numeric IDs before ordinal and diagnoses ambiguous or missing sections",
+      "lastLog": "C3-test.tap",
+      "durationMs": 2.164473,
+      "status": "passed"
+    },
+    {
+      "name": "C3 DOM: visible rails drag and keyboard navigation update only the camera; scale and story stay intact",
+      "lastLog": "C3-test.tap",
+      "durationMs": 801.868572,
+      "status": "passed"
+    },
+    {
+      "name": "C3 DOM: ordinary wheel pans, modifier wheel zooms, Space drag over a node never moves story positions",
+      "lastLog": "C3-test.tap",
+      "durationMs": 710.49649,
+      "status": "passed"
+    },
+    {
+      "name": "C3 DOM: locate hidden event expands its group and centers the real node without mutating layout",
+      "lastLog": "C3-test.tap",
+      "durationMs": 605.82798,
+      "status": "passed"
+    },
+    {
+      "name": "C3 DOM: view survives switching editor modes and rail drag cancellation does not move nodes",
+      "lastLog": "C3-test.tap",
+      "durationMs": 679.083341,
+      "status": "passed"
+    },
+    {
+      "name": "C3: bounded 300-event branches, cycles and cross-chapter links keep logic while producing finite scroll rails",
+      "lastLog": "C3-test.tap",
+      "durationMs": 31.574697,
+      "status": "passed"
+    },
+    {
+      "name": "C3: bounded 500-event branches, cycles and cross-chapter links keep logic while producing finite scroll rails",
+      "lastLog": "C3-test.tap",
+      "durationMs": 39.665562,
+      "status": "passed"
+    },
+    {
+      "name": "C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 622.83436,
+      "status": "passed"
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first game-template gesture",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 604.696286,
+      "status": "passed"
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 390.254819,
+      "status": "passed"
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first menu-template gesture",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 439.587592,
+      "status": "passed"
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a menu-template draft",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 400.494009,
+      "status": "passed"
+    },
+    {
+      "name": "C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 442.226977,
+      "status": "passed"
+    },
+    {
+      "name": "C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 455.350745,
+      "status": "passed"
+    },
+    {
+      "name": "C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 381.788749,
+      "status": "passed"
+    },
+    {
+      "name": "C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 754.746528,
+      "status": "passed"
+    },
+    {
+      "name": "C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 781.544901,
+      "status": "passed"
+    },
+    {
+      "name": "C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 665.52544,
+      "status": "passed"
+    },
+    {
+      "name": "C4: viewport resize cancels both template drafts without committing partial coordinates",
+      "lastLog": "C4-complete-test.tap",
+      "durationMs": 734.318892,
+      "status": "passed"
+    },
+    {
+      "name": "P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 719.024903,
+      "status": "passed"
+    },
+    {
+      "name": "P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 516.834789,
+      "status": "passed"
+    },
+    {
+      "name": "P1-B linked stack disconnect plays before release exactly once and cancellation preserves data",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 640.059578,
+      "status": "passed"
+    },
+    {
+      "name": "P1-B single-block extraction sounds before release and empty drop does not repeat disconnect",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 609.812356,
+      "status": "passed"
+    },
+    {
+      "name": "P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 578.837389,
+      "status": "passed"
+    },
+    {
+      "name": "P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 548.90015,
+      "status": "passed"
+    },
+    {
+      "name": "P1-B context extraction still plays immediately and only after a successful detach",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 499.236815,
+      "status": "passed"
+    },
+    {
+      "name": "P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 383.049356,
+      "status": "passed"
+    },
+    {
+      "name": "P1-B dragging a tail out of a floating stack detects its real external connection",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 269.77599,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 1222.695873,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D DOM: template group drag and nudge share world deltas and one undo transaction",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 969.654687,
+      "status": "passed"
+    },
+    {
+      "name": "R2-D DOM: nested template canvas alignment persists and local editor undo restores",
+      "lastLog": "C4-regression.tap",
+      "durationMs": 686.447883,
+      "status": "passed"
+    }
+  ],
+  "initialFailureLogs": [
+    "C2-first.tap",
+    "C4-reproduction.tap"
+  ],
+  "initialFailuresResolved": "C2: two fixture assumptions and one collapse bug; C4: five reproduced failures passed after first fix. Initial JSX syntax error corrected once.",
+  "syntaxFiles": 10,
+  "build": "passed",
+  "workerAssets": 22,
+  "browser": "attempted, blocked by crypto.randomUUID missing on HTTP preview",
+  "physicalTouch": "not executed",
+  "pendingPackages": [
+    "C5",
+    "C6",
+    "C7",
+    "C8"
+  ]
+}

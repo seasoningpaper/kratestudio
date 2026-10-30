@@ -1,0 +1,43 @@
+✔ actor isolation: designer edits the selected animation event, not the earlier character cue (882.023758ms)
+✔ actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions (765.188204ms)
+✔ actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM (1285.684598ms)
+✔ event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch (449.842317ms)
+✔ motion controls: hidden waiting animation can be restored by tapping the stage (461.958465ms)
+✔ typed variables rename all references, delete safely, and SQL mutations are atomic (6.573736ms)
+✔ visual tables and SQL share records, export in project and resolve in runtime dialogue (1.491999ms)
+✔ interface geometry clamps to canvas and repeated actor swaps retain new image and motion state (2.445105ms)
+✔ game interface designer drag, touch coordinates, labels, hover assets and motion persist through tabs and player (1324.200822ms)
+✔ variable CRUD and table editor are visual, stay synchronized, and old font preferences do not mask authored styles (822.505195ms)
+✔ displayed cards stay aligned to world coordinates within half a physical pixel at every zoom (1.373169ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (379.164058ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (290.852433ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (162.850626ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (301.592867ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (371.557401ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (299.96658ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (235.95671ms)
+✔ template group movement moves nested slots once and clamps the complete group inside the canvas (2.166437ms)
+✔ copying local save elements uses world coordinates and pasting creates independent IDs (0.390757ms)
+✔ dropped images retain their aspect ratio in both portrait and landscape logical canvases (0.703547ms)
+✔ template text is in logical pixels and image fill never silently stretches artwork (0.503677ms)
+✔ migrated default font sizes do not overwrite new creator-authored font choices (1.125542ms)
+✔ r2 reduces prior defaults but retains explicitly authored typography from the previous schema (1.011851ms)
+✔ imported new typed variables are registered without changing names or existing initial values (5.732177ms)
+✔ a backward choice cannot move the first imported node to the bottom, and collapsed groups remove hidden gaps (1.370941ms)
+✔ wait events keep dialogue while timing passes, never show editor instructions or log them (987.15782ms)
+✔ save browser has nine slots, twelve pages, preserves old slots and grows durably to fifty pages (394.891885ms)
+✔ project tools is one reusable tab, project selector is beside the version, and sidebar project CRUD preserves others (571.362707ms)
+✔ property variable select retains an imported variable and a single project tool tab retains its script draft (511.60479ms)
+✔ custom game fills its canvas without an implementation heading (100.069752ms)
+✔ desktop hold and drag reorders tabs without opening another page (598.466515ms)
+✔ active project duplication, rename and deletion keep independent assets and leave a usable last project (316.03682ms)
+✔ validation respects external option chapters, diagnoses typed arithmetic, and repaired imported conditions play (3.099301ms)
+✔ editing an animation target retains its actor key rather than converting it to a numeric jump index (316.515588ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13457.808794

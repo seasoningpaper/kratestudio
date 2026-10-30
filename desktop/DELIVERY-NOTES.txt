@@ -1,0 +1,15 @@
+Koi Maker 0.41.0-dev.2 — Desktop Engine Foundation 開發驗證包
+
+請先解壓整個資料夾，再執行 KoiMaker.exe。
+這是真實 Windows x64 開發 EXE，但尚未在 Windows 10/11 啟動驗收。
+不是正式安裝版，也不是單檔 Portable；請勿只複製 EXE。
+
+只使用測試專案副本。正式網站與瀏覽器原資料不會被自動搬移或清除。
+關閉／重載會先嘗試儲存，失敗時請選擇留在程式、重試或明確放棄。首次測試後請重開驗證資料。
+請勿以唯一的重要專案測試意外終止或大容量寫入。
+
+目前仍待：完整遷移與復原、原生另存新檔、koimaker封裝、Engine Core完整分離、
+獨立遊戲EXE、Rollback、Windows安裝/Portable/實機功能驗收、正式圖示與簽章。
+
+GUI、Logo及CSS沿用原專案；只有桌面版版本文字與原生選單有所不同。
+本包不會更新原網站。詳細報告與可重現的指令在原始碼內 desktop/README.md。

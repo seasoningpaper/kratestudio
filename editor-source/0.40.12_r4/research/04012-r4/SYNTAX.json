@@ -1,0 +1,67 @@
+[
+  {
+    "file": "src/engine.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/stack-model.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/block-integrity.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/runtime-debug.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/storage.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/storage-policy.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/storage-format.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/storage-capacity.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/packaging.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/app.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/workspace.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/player.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "worker/index.js",
+    "exit": 0,
+    "output": ""
+  }
+]

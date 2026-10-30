@@ -1,0 +1,12 @@
+✔ r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate (633.500939ms)
+✔ r2 layout: separator and all three densities persist without changing event data; legacy strong remains representable (925.10201ms)
+✔ r2 layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus (2.301482ms)
+✔ r2 capacity: display derives from real bytes and unchanged application limit, never claims unverified 5 GB (0.338137ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1955.240658

@@ -1,0 +1,21 @@
+✔ public safety: 5GB format policy is separate from the retained r2 write limit (1.087751ms)
+✔ public safety: oversized save is rejected before IndexedDB access and preserves an existing save (8.20153ms)
+✔ public safety: oversized .koib manifest is rejected before payload read or object URL creation (1.294343ms)
+✔ public safety: large JSON and game ZIP are refused before buffered materialization (1.221382ms)
+✔ public safety: ordinary legacy JSON backup works without file picker, edits and reload preserve IDs (640.518372ms)
+✔ public safety: oversized JSON import refuses before reading and leaves project and events unchanged (279.727916ms)
+✔ public safety: visible capacity labels and footer disclose the write boundary without claiming 5GB browser support (442.215131ms)
+✔ public safety: font import and edited-image copies cannot bypass the common write boundary (1018.412348ms)
+✔ r4 capacity uses compact decimal units without altering underlying bytes (0.718784ms)
+✔ r4 capacity real panel: eight aligned categories, exact totals, readable free space and folded engineering details (640.01466ms)
+✔ r4 capacity CSS remains strictly local: 20px flat bar, aligned grid, mobile column and no global color/font changes (1.138807ms)
+✔ r4 Debug is a detached read-only projection of the actual Engine, with explicit checkpoint limitations (1.309254ms)
+✔ r4 Debug preview entry inspects the current event, pauses without project mutation, and is absent from standalone games (761.025803ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4831.043512

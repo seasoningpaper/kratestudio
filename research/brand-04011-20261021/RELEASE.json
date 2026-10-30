@@ -1,0 +1,42 @@
+{
+  "deployment": {
+    "id": "appgdep_6ad79ec29c9881919498692339af25a4",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 0.40.11",
+    "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_9827e9ae67048191b994ecf2771948f2",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad04b4f4db081918fe4a0e9d541130f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-20T17:03:11.994233+00:00"
+  },
+  "savedVersion": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_9827e9ae67048191b994ecf2771948f2",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "version_number": 53,
+    "source": {
+      "commit_sha": "48b545768e0e124776d269acc2138eb0e6522b46"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000a68c8209a4830b258b8a0230",
+      "content_hash": "sha256:7f2808766ce49c8b07a19b3ac8f4963c3d7663f28e940f323449a754f3c6ee09",
+      "size_bytes": 9973760,
+      "file_count": 24
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "metadata": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 0.40.11",
+    "status": "active",
+    "version": 53,
+    "access_mode": "public",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site"
+  }
+}

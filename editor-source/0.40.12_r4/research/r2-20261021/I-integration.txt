@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: P0-D clean KOI file follows block/event edits without manual refresh
+ok 1 - P0-D clean KOI file follows block/event edits without manual refresh
+  ---
+  duration_ms: 416.470782
+  type: 'test'
+  ...
+# Subtest: P0-D global Undo and Redo restore the same source draft in the code editor
+ok 2 - P0-D global Undo and Redo restore the same source draft in the code editor
+  ---
+  duration_ms: 327.16355
+  type: 'test'
+  ...
+# Subtest: P0-D applying reordered source preserves foreign jumps by destination event ID
+ok 3 - P0-D applying reordered source preserves foreign jumps by destination event ID
+  ---
+  duration_ms: 129.978138
+  type: 'test'
+  ...
+# Subtest: P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history
+ok 4 - P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history
+  ---
+  duration_ms: 260.612014
+  type: 'test'
+  ...
+# Subtest: P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history
+ok 5 - P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history
+  ---
+  duration_ms: 375.062409
+  type: 'test'
+  ...
+# Subtest: P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration
+ok 6 - P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration
+  ---
+  duration_ms: 302.580079
+  type: 'test'
+  ...
+# Subtest: P0-D chapter changes show the correctly bound script and preserve both chapters independently
+ok 7 - P0-D chapter changes show the correctly bound script and preserve both chapters independently
+  ---
+  duration_ms: 227.602442
+  type: 'test'
+  ...
+# Subtest: R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events
+ok 8 - R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events
+  ---
+  duration_ms: 1123.623649
+  type: 'test'
+  ...
+# Subtest: R2-D DOM: template group drag and nudge share world deltas and one undo transaction
+ok 9 - R2-D DOM: template group drag and nudge share world deltas and one undo transaction
+  ---
+  duration_ms: 1005.64309
+  type: 'test'
+  ...
+# Subtest: R2-D DOM: nested template canvas alignment persists and local editor undo restores
+ok 10 - R2-D DOM: nested template canvas alignment persists and local editor undo restores
+  ---
+  duration_ms: 706.646308
+  type: 'test'
+  ...
+# Subtest: R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID
+ok 11 - R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID
+  ---
+  duration_ms: 720.881822
+  type: 'test'
+  ...
+# Subtest: R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events
+ok 12 - R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events
+  ---
+  duration_ms: 891.266905
+  type: 'test'
+  ...
+# Subtest: R2-B Player DOM: waiting exit cleans only A in real Player and preserves B
+ok 13 - R2-B Player DOM: waiting exit cleans only A in real Player and preserves B
+  ---
+  duration_ms: 621.003349
+  type: 'test'
+  ...
+# Subtest: R2-B Player DOM: parallel exit cleans only A in real Player and preserves B
+ok 14 - R2-B Player DOM: parallel exit cleans only A in real Player and preserves B
+  ---
+  duration_ms: 536.315307
+  type: 'test'
+  ...
+# Subtest: R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue
+ok 15 - R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue
+  ---
+  duration_ms: 838.949669
+  type: 'test'
+  ...
+# Subtest: R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout
+ok 16 - R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout
+  ---
+  duration_ms: 824.21205
+  type: 'test'
+  ...
+# Subtest: R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo
+ok 17 - R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo
+  ---
+  duration_ms: 987.822812
+  type: 'test'
+  ...
+# Subtest: R2-C DOM: flow group drag uses scaled world delta and one Undo transaction
+ok 18 - R2-C DOM: flow group drag uses scaled world delta and one Undo transaction
+  ---
+  duration_ms: 660.358111
+  type: 'test'
+  ...
+# Subtest: R2-E Player DOM: synthetic BGM uses per-cue gain and stops scheduling after one melody when loop=false
+ok 19 - R2-E Player DOM: synthetic BGM uses per-cue gain and stops scheduling after one melody when loop=false
+  ---
+  duration_ms: 501.725334
+  type: 'test'
+  ...
+# Subtest: R2-G: real asset reference dialog shows primary and secondary typed usages without changing the project
+ok 20 - R2-G: real asset reference dialog shows primary and secondary typed usages without changing the project
+  ---
+  duration_ms: 763.31009
+  type: 'test'
+  ...
+# Subtest: R2-H: formal product/description/version and script language names are consistent
+ok 21 - R2-H: formal product/description/version and script language names are consistent
+  ---
+  duration_ms: 106.871673
+  type: 'test'
+  ...
+# Subtest: R2-H: logo/styles/icons/fonts/audio retain prior design except explicit exit keyframes
+ok 22 - R2-H: logo/styles/icons/fonts/audio retain prior design except explicit exit keyframes
+  ---
+  duration_ms: 34.350577
+  type: 'test'
+  ...
+# Subtest: R2-H: prior public API names, event types and database schema remain compatible
+ok 23 - R2-H: prior public API names, event types and database schema remain compatible
+  ---
+  duration_ms: 507.600587
+  type: 'test'
+  ...
+# Subtest: R2-H: exported game retains content and carries precise maker generator metadata
+ok 24 - R2-H: exported game retains content and carries precise maker generator metadata
+  ---
+  duration_ms: 558.651069
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 16270.413408

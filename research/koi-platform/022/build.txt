@@ -1,0 +1,6 @@
+
+> koi-maker@0.41.0-r4 build
+> node portal/build.mjs && node scripts/validate-worker.mjs
+
+Koi portal: 33 pages; retained 0.40.12_r4 editor.
+Artifact is valid ESM and exports default.fetch

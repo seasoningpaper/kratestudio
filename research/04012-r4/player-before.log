@@ -1,0 +1,79 @@
+✖ r4 intro cover remains opaque while only title text animates: fade (456.142864ms)
+✖ r4 intro cover remains opaque while only title text animates: fadeOut (339.894105ms)
+✖ r4 intro cover remains opaque while only title text animates: left (254.980011ms)
+✖ r4 intro-to-black first commit cannot transition from the revealed old scene (284.460852ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 0
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1663.327467
+
+✖ failing tests:
+
+test at tests/04012-r4-player.test.mjs:4:47
+✖ r4 intro cover remains opaque while only title text animates: fade (456.142864ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to:
+  
+  'koi-motion-fade'
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r4-player.test.mjs:4:253)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'koi-motion-fade',
+    expected: 'koi-motion-fade',
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/04012-r4-player.test.mjs:4:47
+✖ r4 intro cover remains opaque while only title text animates: fadeOut (339.894105ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to:
+  
+  'koi-motion-fadeOut'
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r4-player.test.mjs:4:253)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'koi-motion-fadeOut',
+    expected: 'koi-motion-fadeOut',
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/04012-r4-player.test.mjs:4:47
+✖ r4 intro cover remains opaque while only title text animates: left (254.980011ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to:
+  
+  'koi-motion-left'
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r4-player.test.mjs:4:253)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'koi-motion-left',
+    expected: 'koi-motion-left',
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/04012-r4-player.test.mjs:5:1
+✖ r4 intro-to-black first commit cannot transition from the revealed old scene (284.460852ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  '1s' !== '0s'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r4-player.test.mjs:5:264)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '1s',
+    expected: '0s',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

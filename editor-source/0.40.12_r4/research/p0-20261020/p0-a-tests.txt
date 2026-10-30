@@ -1,0 +1,37 @@
+✔ R7 copy of a repeat start includes its complete nested body and independent remapped closing IDs (34.387287ms)
+✔ R7 pasted floating blocks do not split the source component or inherit stale return anchors (3.905608ms)
+✔ R7 invalid duplicate IDs, orphan repeat endings and disjoint moving statements are rejected without mutation (4.648723ms)
+✔ R7 compiling malformed stack structure reports errors before changing live shared events (28.646992ms)
+✔ R7 KOI serialization preserves nested blocks, detached state, arbitrary parameters and input project immutability (5.401122ms)
+✔ R7 legacy floating loops without stack IDs and body coordinates are preserved and become reconnectable (5.793209ms)
+✔ R7 paste into a floating host inherits its component and nested-loop reorder cannot cross its own boundary (5.968179ms)
+✔ R7 source missing IDs, duplicate clipboard IDs, missing live IDs and self-connection do not mutate data (2.56871ms)
+✔ R7 nested selection closure excludes unrelated floating blocks between main loop statements (3.925109ms)
+✔ R7 compiling a bound source cannot steal another chapter event ID (1.712512ms)
+✔ R7 1000 nested detach/reconnect operations preserve every event, legal ownership and branch destination (2069.562266ms)
+✔ R7 start dock wins when a new block head and tail simultaneously match different connectors (2.733267ms)
+✔ R7 single and full stacks prepend, insert between siblings and append without losing the downstream chain (2.643804ms)
+✔ R7 deep-canvas stack copies retain their source height instead of jumping to the old 15000 limit (1.644717ms)
+✔ P0-A pasted events never reuse existing IDs even if the UUID provider repeats (4.892195ms)
+✔ P0-A imported chapter IDs reserve non-colliding incoming IDs before remapping others (0.557845ms)
+✔ whole story stack reconnects to the start dock when no other blocks remain (12.629695ms)
+✔ joined floating components get one root, stay connected after dragging their root, and split correctly (2.879859ms)
+✔ floating cards use cumulative actual heights, including expanded scenes, choices and legacy stack positions (1.519876ms)
+✔ snapping before a target uses the bottom of the complete stack, and tolerances remain in screen pixels (4.454751ms)
+✔ context reconnect restores original predecessor and every local/cross-chapter destination by event ID (1.200307ms)
+✔ repeat boundaries move together, insertion cannot create crossed loops, and reconnected execution matches the original (4.098802ms)
+✔ invalid self-connections do not mutate events or targets; stale floating IDs never bridge attached cards (0.435056ms)
+✔ 400 deterministic split/join operations preserve event identities, every branch destination and independent roots (143.279262ms)
+✔ single unplug heals the remaining chain and reconnect restores the same execution and branch identities (2.245069ms)
+✔ nested-loop tail extraction carries siblings inside its container without detaching enclosing loops (3.257388ms)
+✔ whole-stack mode includes named sections but excludes unrelated floating stacks (0.913496ms)
+✔ extracting a floating head keeps its healed child stack anchored and rejoining never resets it to defaults (0.830258ms)
+✔ new loop and choice snap previews use the same expanded and compact geometry as the inserted stack (1.540498ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3641.465499

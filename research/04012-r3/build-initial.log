@@ -1,0 +1,8 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.40.12-r2 build
+> node scripts/generate-feature-matrix.mjs && node scripts/generate-script-guide.mjs && node scripts/generate-features.mjs && node scripts/generate-game-skins.mjs && node scripts/bundle.mjs && node scripts/build-worker.mjs && node scripts/validate-worker.mjs
+
+{"total":126,"counts":{"A":100,"B":0,"C":2,"D":5,"E":2,"F":17}}
+Worker built with 34 app files, 6186 KB
+Artifact is valid ESM and exports default.fetch

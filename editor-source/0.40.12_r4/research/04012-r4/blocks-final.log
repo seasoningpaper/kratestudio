@@ -1,0 +1,22 @@
+✔ r2 reproduction: a cancelled drag plus its compatibility click never inserts a block (623.76054ms)
+✔ r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion (698.713285ms)
+✔ r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each (1006.890147ms)
+✔ r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once (591.06199ms)
+✔ r2 transaction: the same token is rejected before recursive mutation and replay after Undo (467.013316ms)
+✔ r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks (731.044024ms)
+✔ r2 palette: repeat is one container transaction with owned body/end, not three independent roots (582.39918ms)
+✔ r4 video reproduction: extracting a floating head must preserve the remaining tail world position (2.350224ms)
+✔ r4 statement inputs: 1 nested containers have measured spines, independent body detach and legal reinsert (0.801909ms)
+✔ r4 statement inputs: 2 nested containers have measured spines, independent body detach and legal reinsert (0.362166ms)
+✔ r4 statement inputs: 3 nested containers have measured spines, independent body detach and legal reinsert (0.317309ms)
+✔ r4 real editor pointer replay: floating head detach preserves tail DOM geometry, cancellation and Undo restore data (919.564206ms)
+✔ r4 real editor: paired C spines render and follow parent drag, no persistence on cancel (465.837862ms)
+✔ r4 video trash replay: deleting a floating stack never pans the viewport to the final story event (756.604176ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7579.136021

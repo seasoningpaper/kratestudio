@@ -1,0 +1,49 @@
+✔ P0-D clean KOI file follows block/event edits without manual refresh (357.055921ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (305.446933ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (126.455551ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.322465ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (6.367493ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.501256ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.294143ms)
+✖ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (12.943632ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.647616ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (2.520211ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.703231ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.41774ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 11
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1283.271941
+
+✖ failing tests:
+
+test at tests/p0d-model.test.mjs:13:1
+✖ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (12.943632ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'a',
+      '3d409548-4923-4d7b-9a1f-a5fe37eb7ee2',
+  +   '8f50d464-fef2-49dd-b5d9-bbed7b791168'
+  -   '56b7caa9-0844-4476-a392-2d271900441c'
+    ]
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0d-model.test.mjs:13:607)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'a', '3d409548-4923-4d7b-9a1f-a5fe37eb7ee2', '8f50d464-fef2-49dd-b5d9-bbed7b791168' ],
+    expected: [ 'a', '3d409548-4923-4d7b-9a1f-a5fe37eb7ee2', '56b7caa9-0844-4476-a392-2d271900441c' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

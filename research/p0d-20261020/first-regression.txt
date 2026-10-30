@@ -1,0 +1,20 @@
+✔ sound track persists across dialogue changes, independently replaces voice, and stops explicitly (3.123087ms)
+✔ same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX (0.788521ms)
+✔ ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops (0.468742ms)
+✔ KOI sound loops and selective/all stops compile to runtime events (2.135528ms)
+✔ KOI event source round-trips attributes, quotes, semicolons and existing numeric branches (1.440878ms)
+✔ options, GUI, screens and modules apply to the same project with real activity references (5.258074ms)
+✔ continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters (0.925736ms)
+✔ arbitrary reorder retains target event identities in choices, conditions, jumps and other chapters (2.016079ms)
+✔ external choices remap in their destination chapter and never acquire phantom local flow edges (5.71629ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (371.608223ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (281.000615ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (140.896974ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1299.761891

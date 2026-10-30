@@ -1,0 +1,1257 @@
+{
+  "uniquePassed": 199,
+  "cases": [
+    {
+      "name": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 5",
+      "logs": [
+        "R2-after.tap",
+        "R7-frames-final.tap"
+      ]
+    },
+    {
+      "name": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 35",
+      "logs": [
+        "R2-after.tap",
+        "R7-new.tap",
+        "R7-frames-final.tap"
+      ]
+    },
+    {
+      "name": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 80",
+      "logs": [
+        "R2-after.tap",
+        "R7-new.tap",
+        "R7-frames-final.tap"
+      ]
+    },
+    {
+      "name": "04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0",
+      "logs": [
+        "R2-after.tap",
+        "R7-new.tap",
+        "R7-frames-final.tap"
+      ]
+    },
+    {
+      "name": "04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180",
+      "logs": [
+        "R2-after.tap",
+        "R7-new.tap",
+        "R7-frames-final.tap"
+      ]
+    },
+    {
+      "name": "R4 Player: completed parallel exit is not resurrected by a pending image transition",
+      "logs": [
+        "R2-after.tap",
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position",
+      "logs": [
+        "R3-regression.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "R7 copy of a repeat start includes its complete nested body and independent remapped closing IDs",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 pasted floating blocks do not split the source component or inherit stale return anchors",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 invalid duplicate IDs, orphan repeat endings and disjoint moving statements are rejected without mutation",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 compiling malformed stack structure reports errors before changing live shared events",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 KOI serialization preserves nested blocks, detached state, arbitrary parameters and input project immutability",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 legacy floating loops without stack IDs and body coordinates are preserved and become reconnectable",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 paste into a floating host inherits its component and nested-loop reorder cannot cross its own boundary",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 source missing IDs, duplicate clipboard IDs, missing live IDs and self-connection do not mutate data",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 nested selection closure excludes unrelated floating blocks between main loop statements",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 compiling a bound source cannot steal another chapter event ID",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 1000 nested detach/reconnect operations preserve every event, legal ownership and branch destination",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 start dock wins when a new block head and tail simultaneously match different connectors",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 single and full stacks prepend, insert between siblings and append without losing the downstream chain",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "R7 deep-canvas stack copies retain their source height instead of jumping to the old 15000 limit",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "Fix-03 primitive animation numeric and boolean sockets reject incompatible or unevaluated values atomically",
+      "logs": [
+        "R3-regression.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "Fix-03 child detach, primitive editing and independent copies retain fallbacks and exact script/runtime semantics",
+      "logs": [
+        "R3-regression.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "Fix-03 actual numeric/boolean modules share global Undo/Redo and survive project save and reload",
+      "logs": [
+        "R3-regression.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "Fix-03 detaching an optional module restores absence and runtime defaults after JSON reload",
+      "logs": [
+        "R3-regression.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "whole story stack reconnects to the start dock when no other blocks remain",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "joined floating components get one root, stay connected after dragging their root, and split correctly",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "floating cards use cumulative actual heights, including expanded scenes, choices and legacy stack positions",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "snapping before a target uses the bottom of the complete stack, and tolerances remain in screen pixels",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "context reconnect restores original predecessor and every local/cross-chapter destination by event ID",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "repeat boundaries move together, insertion cannot create crossed loops, and reconnected execution matches the original",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "invalid self-connections do not mutate events or targets; stale floating IDs never bridge attached cards",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "400 deterministic split/join operations preserve event identities, every branch destination and independent roots",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "single unplug heals the remaining chain and reconnect restores the same execution and branch identities",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "nested-loop tail extraction carries siblings inside its container without detaching enclosing loops",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "whole-stack mode includes named sections but excludes unrelated floating stacks",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "extracting a floating head keeps its healed child stack anchored and rejoining never resets it to defaults",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "new loop and choice snap previews use the same expanded and compact geometry as the inserted stack",
+      "logs": [
+        "R3-regression.tap"
+      ]
+    },
+    {
+      "name": "04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5: flag preset never overwrites an existing numeric variable or project input",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore",
+      "logs": [
+        "R5-final.tap",
+        "R7-new.tap",
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator 0 >= 0 connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator 0 <= 0 connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator 0 != 0 connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator abs(-1) connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator floor(1.5) connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator ceil(1.5) connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator sqrt(4) connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator min(1,2) connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6: typed operator max(1,2) connects and executes",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow",
+      "logs": [
+        "R6-operators.tap",
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "logs": [
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "logs": [
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "logs": [
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields",
+      "logs": [
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields",
+      "logs": [
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields",
+      "logs": [
+        "R7-new.tap"
+      ]
+    },
+    {
+      "name": "04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched",
+      "logs": [
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role",
+      "logs": [
+        "R7-compatibility.tap"
+      ]
+    },
+    {
+      "name": "04012 R8: frozen CSS, Logo, themes, storage and HTML skeleton match the saved r4 baseline",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "04012 R8: new downloadable bounded-until example parses, roundtrips and actually runs to n=3",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "04012 R8: exported game retains project fields and includes the current real player",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "Fix-04 asset options keep stable IDs, distinguish duplicate filenames and explicitly retain missing references",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "Fix-04 voice classification retains legacy unclassified and current wrong-role IDs without guessing substitutions",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "Fix-04 positional aliases stay strict and numeric zero is a real actor key, never a falsy no-target",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "Fix-04 valid multi-actor targets survive cross-chapter jump, repeated show/hide and save/load; real ambiguity remains an error",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "Fix-04 event Inspector and block voice options share values and keep an absent voice selected",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "Fix-04 legacy unknown audio role labels remain selectable as unclassified without changing IDs or metadata",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B linked stack disconnect plays before release exactly once and cancellation preserves data",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B single-block extraction sounds before release and empty drop does not repeat disconnect",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B context extraction still plays immediately and only after a successful detach",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B dragging a tail out of a floating stack detects its real external connection",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B opening CG/music gallery preserves the existing title BGM instance and playback position",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B gallery preview volume follows master/music/mute plus its own gain",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B gallery audio rejection keeps BGM focus and reports an error without throwing",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B game BGM also continues while viewing CG and respects gallery focus after returning",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B muted preference is also applied to gallery music and remains muted after resuming BGM",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B an explicit script music stop is not undone when gallery music ends",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 停止音訊",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 互動",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 鏡頭",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 模型",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 天氣",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 濾鏡",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 影片",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 背景",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 立繪",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 動作",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變形",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 對話",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 旁白",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 過場",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 頭像",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 文字框",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音樂",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音效",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖音樂",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖圖片",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 淡幕",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 等待",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 標籤",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 選項",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 跳轉",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變數",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 條件",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 輸入",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 特效",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 結束",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 事件資料",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 設定檔",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 遊戲介面檔",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 功能畫面檔",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 互動模組檔",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference schema: 35 entries each retain all 15 required documentation fields",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C diagnostic examples: intentional errors have lines and Chinese messages",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C audio stop: invalid channels diagnose without muting all tracks",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "player title, quick save/load, history, settings, ending collection, and nine save slots",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "standalone guest runtime launches safely without the editor or return-to-maker control",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "ten direct controls, seen-only skip, hide restore, home resume, and choice stop",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "grouped settings apply and persist text, display, audio and reset preferences",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "automatic advance waits for voice completion",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "click template completes into a score variable and custom iframe validates its sender",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "resource database inserts playable templates and applies sprite presets to editor and player",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "memory template can be solved through visible card values and returns a score",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "CG hides actors temporarily and explicit background clear removes them in editor and player",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "project feature switches hide selected player controls and keep configured controls usable",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: waiting exit cleans only A in real Player and preserves B",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: parallel exit cleans only A in real Player and preserves B",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: waiting exit retains target until completion, never removes other actors in same slot",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle fadeOut",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitLeft",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitRight",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitUp",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitDown",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: legacy no-animation hide is immediate and isolates its exact key",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: unique positional aliases work; exact numeric custom IDs take priority",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: scene clear cancels pending exits; seeking past exit restores settled state",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: repeated show/hide with expression, layer and wait stays independent across script copy",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B: native and legacy none syntax remain compatible and native directional exits are executable",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 unsupported future event fails explicitly before source apply rather than being silently deleted",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 CRUD 50: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 CRUD 300: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "C6 CRUD 500: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 legacy: center alias matches the renderer default for a saved actor with no position",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 legacy: default positions still require uniqueness, and exact custom IDs keep priority",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied source: missing original modules remain an explicit untested dependency",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied original: null is invalid even after a successful fig-right show; never auto-repair story data",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied correction: real branch execution covers all option edges and seven endings without alias errors",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied correction: Script roundtrip preserves all fields, IDs, target types and branch execution",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 lifecycle: conditional branch skips invalid off-route targets; jump carries the actual actors across chapters and save/load",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 lifecycle: repeat center/right show, replacement and waiting exit 20 times without stale aliases",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 target namespaces: filename, role ID and empty position never alias an unrelated actor",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "R4 edit lifecycle: reordering and copied events keep string targets and independent parameters",
+      "logs": [
+        "R7-regression.tap"
+      ]
+    },
+    {
+      "name": "04012 R8 DOM: Header brand, six category order/colors and workspace toolbar retain exact existing markup",
+      "logs": [
+        "R7-toolbar-mobile-home.tap"
+      ]
+    },
+    {
+      "name": "Fix-06 logo opens an actual project-home work page and returns to the same editor without resetting history",
+      "logs": [
+        "R7-toolbar-mobile-home.tap"
+      ]
+    },
+    {
+      "name": "Fix-06 logo confirms unsaved state or drafts; cancellation keeps editor, confirmation preserves exact project and Undo",
+      "logs": [
+        "R7-toolbar-mobile-home.tap"
+      ]
+    },
+    {
+      "name": "Fix-06 project-home opens a stored project through existing switchProject and preserves the prior project",
+      "logs": [
+        "R7-toolbar-mobile-home.tap"
+      ]
+    },
+    {
+      "name": "Fix-06 source protection retains official logos, colors, block silhouettes and original header/media rules",
+      "logs": [
+        "R7-toolbar-mobile-home.tap"
+      ]
+    },
+    {
+      "name": "C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first game-template gesture",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first menu-template gesture",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a menu-template draft",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    },
+    {
+      "name": "C4: viewport resize cancels both template drafts without committing partial coordinates",
+      "logs": [
+        "R7-mobile.tap"
+      ]
+    }
+  ],
+  "syntaxFiles": 20,
+  "build": "passed full + affected workspace/Worker incremental",
+  "workerAssets": 33,
+  "manualVisualTouchAudio": "pending",
+  "failedHistoricalBaselines": [
+    "R2-before.tap",
+    "R3-before.tap"
+  ],
+  "resolvedTestPreparation": [
+    "R6-first-fixture.tap: input type and selection corrected; expectations unchanged",
+    "R7-first-readiness.tap: bounded readiness before test click"
+  ],
+  "resolvedUnauthorizedGUI": [
+    "R7-before-toolbar-rollback.tap: new preset options removed from frozen toolbar; comparison not relaxed"
+  ]
+}

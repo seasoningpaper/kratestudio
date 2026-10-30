@@ -1,0 +1,33 @@
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (634.643924ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (426.057035ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (282.275669ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0 (309.887555ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180 (517.90671ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer (1168.761744ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer (1054.87ms)
+✔ r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged (450.85776ms)
+✔ r4 intro cover remains opaque while only title text animates: fade (480.320582ms)
+✔ r4 intro cover remains opaque while only title text animates: fadeOut (350.919874ms)
+✔ r4 intro cover remains opaque while only title text animates: left (261.454773ms)
+✔ r4 intro-to-black first commit cannot transition from the revealed old scene (285.671031ms)
+✔ r4 zero-second fade remains immediate instead of silently becoming a one-second CSS transition (0.900257ms)
+✔ r4 protected GUI: original Logo, base CSS, typography, block silhouettes and navigation are preserved (14.486209ms)
+✔ r4 parser, four-mode sources and storage identity remain unchanged; release sources agree (4.492656ms)
+✔ input, interpolation, branching, and rollback restore the complete variable state (4.056668ms)
+✔ save/load preserves state, actors, history, background, and variables (0.628878ms)
+✔ logic loops are bounded and cross chapter jumps execute (1.020929ms)
+✔ visual and audio control events are applied before dialogue (1.202253ms)
+✔ save data follows stable event IDs after inserting a scene event (0.438482ms)
+✔ preview from a selected line restores preceding scene and character state (0.303538ms)
+✔ minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact (0.482748ms)
+✔ local handoff: Windows and POSIX filesystem paths produce the same asset URL (1.032617ms)
+✔ local handoff: application source, Logo, HTML and CSS remain byte-identical (57.083539ms)
+✔ local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly (216.996135ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7886.087662

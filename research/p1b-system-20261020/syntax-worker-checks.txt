@@ -1,0 +1,16 @@
+語法通過：dist/app.js
+語法通過：scripts/generate-game-skins.mjs
+語法通過：src/card-clipboard.mjs
+語法通過：src/engine.mjs
+語法通過：src/event-order.mjs
+語法通過：src/motion-state.mjs
+語法通過：src/script-import.mjs
+語法通過：src/visual-state.mjs
+Worker 200、部署內嵌內容與檔案一致：/
+Worker 200、部署內嵌內容與檔案一致：/app.js
+Worker 200、部署內嵌內容與檔案一致：/workspace.js
+Worker 200、部署內嵌內容與檔案一致：/player.js
+Worker 200、部署內嵌內容與檔案一致：/style.css
+Worker 200、部署內嵌內容與檔案一致：/player.css
+Worker 200、部署內嵌內容與檔案一致：/assets/ui/disconnect.wav
+不存在路由404、非讀取方法405：通過

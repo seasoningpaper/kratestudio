@@ -1,0 +1,33 @@
+✔ Fix-06 logo opens an actual project-home work page and returns to the same editor without resetting history (599.490821ms)
+✔ Fix-06 logo confirms unsaved state or drafts; cancellation keeps editor, confirmation preserves exact project and Undo (522.620465ms)
+✖ Fix-06 project-home opens a stored project through existing switchProject and preserves the prior project (206.171745ms)
+✔ Fix-06 source protection retains official logos, colors, block silhouettes and original header/media rules (48.068587ms)
+✔ C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged (677.511531ms)
+✔ C4 reproduction: second touch cannot move or finish the first game-template gesture (583.284238ms)
+✔ C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later (402.120742ms)
+✔ C4 reproduction: second touch cannot move or finish the first menu-template gesture (513.722028ms)
+✔ C4 reproduction: lost pointer capture cancels a menu-template draft (411.65033ms)
+✔ C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom (462.746363ms)
+✔ C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect (496.325237ms)
+✔ C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe (397.386255ms)
+✔ C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas (780.81516ms)
+✔ C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas (779.550099ms)
+✔ C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration (689.56895ms)
+✔ C4: viewport resize cancels both template drafts without committing partial coordinates (761.770509ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 15
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9140.377331
+
+✖ failing tests:
+
+test at tests/fix-home.test.mjs:4:1
+✖ Fix-06 project-home opens a stored project through existing switchProject and preserves the prior project (206.171745ms)
+  TypeError: Cannot read properties of null (reading 'click')
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/fix-home.test.mjs:4:587)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

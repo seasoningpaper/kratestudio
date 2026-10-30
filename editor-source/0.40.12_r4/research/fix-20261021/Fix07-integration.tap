@@ -1,0 +1,34 @@
+✔ Fix-04 asset options keep stable IDs, distinguish duplicate filenames and explicitly retain missing references (1.37805ms)
+✔ Fix-04 voice classification retains legacy unclassified and current wrong-role IDs without guessing substitutions (0.40439ms)
+✔ Fix-04 positional aliases stay strict and numeric zero is a real actor key, never a falsy no-target (0.849152ms)
+✔ Fix-04 valid multi-actor targets survive cross-chapter jump, repeated show/hide and save/load; real ambiguity remains an error (1.823582ms)
+✔ Fix-04 event Inspector and block voice options share values and keep an absent voice selected (700.294318ms)
+✔ Fix-05 reference warning distinguishes cross-chapter jumps and choices from numeric actor IDs (1.527696ms)
+✔ Fix-05 single trash cancels without changes then deletes only its event and supports full Undo (585.069897ms)
+✔ Fix-05 cross-chapter reference risk is confirmed before deleting and Undo restores exact destination (354.692748ms)
+✔ Fix-05 pending delete is cancelled if its event or chapter changes; repeat group delete has no undefined guards (303.781786ms)
+✔ Fix-02 actual measured content can shrink a detailed character block below the estimated 310px (1.546484ms)
+✔ Fix-02 intrinsic measurement uses unscaled content, expands then shrinks and keeps connector padding (0.279121ms)
+✔ Fix-02 dialogue captions and controls remain separate layout units, with auto-sized multiline text (611.461394ms)
+✔ Fix-03 primitive animation numeric and boolean sockets reject incompatible or unevaluated values atomically (3.189689ms)
+✔ Fix-03 child detach, primitive editing and independent copies retain fallbacks and exact script/runtime semantics (14.664916ms)
+✔ Fix-03 actual numeric/boolean modules share global Undo/Redo and survive project save and reload (914.459982ms)
+✔ Fix-03 detaching an optional module restores absence and runtime defaults after JSON reload (1.117777ms)
+✔ C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution (30.401775ms)
+✔ C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution (81.163357ms)
+✔ C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution (137.535612ms)
+✔ C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (1411.02155ms)
+✔ C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (1887.871235ms)
+✔ C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2852.746827ms)
+✔ C6 unsupported future event fails explicitly before source apply rather than being silently deleted (1.644378ms)
+✔ C6 CRUD 50: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (6.923191ms)
+✔ C6 CRUD 300: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (16.303204ms)
+✔ C6 CRUD 500: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source (39.063376ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12006.694189

@@ -1,0 +1,15 @@
+✔ P0-D clean KOI file follows block/event edits without manual refresh (531.89454ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (323.116857ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (182.810445ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (274.059241ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (391.559228ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (313.013432ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (283.129251ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2679.021066

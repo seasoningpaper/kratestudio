@@ -1,0 +1,837 @@
+{
+  "uniquePassed": 138,
+  "cases": [
+    {
+      "name": "sound track persists across dialogue changes, independently replaces voice, and stops explicitly",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "KOI sound loops and selective/all stops compile to runtime events",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "KOI event source round-trips attributes, quotes, semicolons and existing numeric branches",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "options, GUI, screens and modules apply to the same project with real activity references",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B linked stack disconnect plays before release exactly once and cancellation preserves data",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B single-block extraction sounds before release and empty drop does not repeat disconnect",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B context extraction still plays immediately and only after a successful detach",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B dragging a tail out of a floating stack detects its real external connection",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B opening CG/music gallery preserves the existing title BGM instance and playback position",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B gallery preview volume follows master/music/mute plus its own gain",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B gallery audio rejection keeps BGM focus and reports an error without throwing",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B game BGM also continues while viewing CG and respects gallery focus after returning",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B muted preference is also applied to gallery music and remains muted after resuming BGM",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-B an explicit script music stop is not undone when gallery music ends",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 停止音訊",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 互動",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 鏡頭",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 模型",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 天氣",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 濾鏡",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 影片",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 背景",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 立繪",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 動作",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變形",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 對話",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 旁白",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 過場",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 頭像",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 文字框",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音樂",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 音效",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖音樂",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖圖片",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 淡幕",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 等待",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 標籤",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 選項",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 跳轉",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 變數",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 條件",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 輸入",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 特效",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference: 結束",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 事件資料",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 設定檔",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 遊戲介面檔",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 功能畫面檔",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C program reference: 互動模組檔",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C reference schema: 35 entries each retain all 15 required documentation fields",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C diagnostic examples: intentional errors have lines and Chinese messages",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C audio stop: invalid channels diagnose without muting all tracks",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "player title, quick save/load, history, settings, ending collection, and nine save slots",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "standalone guest runtime launches safely without the editor or return-to-maker control",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "ten direct controls, seen-only skip, hide restore, home resume, and choice stop",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "grouped settings apply and persist text, display, audio and reset preferences",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "automatic advance waits for voice completion",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "click template completes into a score variable and custom iframe validates its sender",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "resource database inserts playable templates and applies sprite presets to editor and player",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "memory template can be solved through visible card values and returns a score",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "CG hides actors temporarily and explicit background clear removes them in editor and player",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "project feature switches hide selected player controls and keep configured controls usable",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: waiting exit cleans only A in real Player and preserves B",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: parallel exit cleans only A in real Player and preserves B",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 unsupported future event fails explicitly before source apply rather than being silently deleted",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 CRUD 50: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 CRUD 300: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "C6 CRUD 500: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R4 Player: completed parallel exit is not resurrected by a pending image transition",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R4 release: requested version, brand, script docs and game generator agree",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R4 release: logo, CSS, parser, storage keys and UI markup remain unchanged apart from version strings",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "R4 exported game: current generator and real player assets preserve all project fields",
+      "logs": [
+        "regression.tap"
+      ]
+    },
+    {
+      "name": "P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C branch: missing condition destinations and broken next references never fall into another event",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C legacy: every directly parsed legacy command is recognized in automatic import mode",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C branches: nested conditions, both choice routes and rejoin retain variables, labels and IDs after round-trip",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C targets: null, blank, missing, hidden, aliases, custom and numeric IDs are resolved without guessing",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "P1-C missing labels: diagnostics retain unresolved destinations and playback stops rather than picking a label",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: waiting exit retains target until completion, never removes other actors in same slot",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle fadeOut",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitLeft",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitRight",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitUp",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitDown",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: legacy no-animation hide is immediate and isolates its exact key",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: unique positional aliases work; exact numeric custom IDs take priority",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: scene clear cancels pending exits; seeking past exit restores settled state",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: repeated show/hide with expression, layer and wait stays independent across script copy",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R2-B: native and legacy none syntax remain compatible and native directional exits are executable",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R4: reconcile only the same completed exit, never remove other actors or mutate live state",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R4: reappearance and slot replacement survive an old exit completion",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R4: later exit token and explicit animation cancellation are not mistaken for completed exits",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R4: pending and saved legacy actors without exit metadata are preserved",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R4 legacy: center alias matches the renderer default for a saved actor with no position",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R4 legacy: default positions still require uniqueness, and exact custom IDs keep priority",
+      "logs": [
+        "legacy-after.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied source: missing original modules remain an explicit untested dependency",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied original: null is invalid even after a successful fig-right show; never auto-repair story data",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied correction: real branch execution covers all option edges and seven endings without alias errors",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 supplied correction: Script roundtrip preserves all fields, IDs, target types and branch execution",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 lifecycle: conditional branch skips invalid off-route targets; jump carries the actual actors across chapters and save/load",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 lifecycle: repeat center/right show, replacement and waiting exit 20 times without stale aliases",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 target namespaces: filename, role ID and empty position never alias an unrelated actor",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 edit lifecycle: reordering and copied events keep string targets and independent parameters",
+      "logs": [
+        "story.tap"
+      ]
+    },
+    {
+      "name": "R4 Inspector: null animation target stays visibly unspecified, not a fake fig-center default",
+      "logs": [
+        "target-DOM.tap"
+      ]
+    },
+    {
+      "name": "R4 DOM 513: target editing, four modes, Undo/Redo and storage preserve full supplied event semantics",
+      "logs": [
+        "target-DOM.tap"
+      ]
+    },
+    {
+      "name": "transaction failures leave the previous project and files intact",
+      "logs": [
+        "storage.tap"
+      ]
+    },
+    {
+      "name": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "logs": [
+        "storage.tap"
+      ]
+    },
+    {
+      "name": "font files and screen image references survive durable save and portable export",
+      "logs": [
+        "storage.tap"
+      ]
+    },
+    {
+      "name": "legacy Base64 project migrates only after durable save and verification",
+      "logs": [
+        "legacy-project.tap"
+      ]
+    }
+  ],
+  "syntaxFiles": 14,
+  "build": "passed",
+  "workerAssets": 31,
+  "scope": "bounded automated engine, actual bundles in JSDOM and local Worker; not manual visual, touch, audio, original full JSON or media acceptance"
+}

@@ -1,0 +1,58 @@
+✔ multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP (4503.856216ms)
+✔ P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation (4663.61244ms)
+✔ P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets (5106.313898ms)
+✔ pan bounds keep content recoverable at every scale, including distant authored nodes (7.119245ms)
+✔ screen layout import validates actions, isolates mobile geometry and retains real slot positions (27.426364ms)
+✔ image dimensions, alpha keying and editable document validation produce bounded output (12.538352ms)
+✔ only an image tab can remain, edits do not resurrect the story tab, and an empty workspace can reopen the story (2079.035ms)
+✔ blocks share clipboard shortcuts, use context actions and accept palette drops at the target row (1499.624216ms)
+✔ two fingers pan blocks and flow without changing scale; minimap navigation obeys the same bounds (1028.976035ms)
+✔ custom save layout reaches the real player, moves slots and executes a configured quick-save button (3522.547621ms)
+✔ image layers render, undo changes, paint strokes and save a resized copy without breaking scene references (2583.466466ms)
+✔ dark editor colors and uniform category colors persist together across all modes (1955.674103ms)
+✔ an input event previews an input control, then runs with the entered value without changing initial variables (820.462354ms)
+✔ game layout elements can resize, nudge and lock without losing focus or changing the story (1416.714335ms)
+✔ runtime controls stay above the story tap plane on desktop and mobile and execute real actions (3595.916272ms)
+✔ template navigation has one route per screen and left-side changes immediately update the preview (1854.606849ms)
+✔ focused game buttons do not advance the story on Enter, and minigames never cover the title screen (957.349173ms)
+✔ detached blocks and repeat stacks are inactive, keep stable destinations, and copied layouts are offset (12.590427ms)
+✔ blocks detach under the pointer, reconnect, zoom and navigate through their bounded minimap (1852.947465ms)
+✔ tab drag follows the cursor without switching the active page and cleans up on cancellation (1108.608203ms)
+✔ legacy menu records cannot restore the old shell and settings preview uses the real settings widget (1167.738252ms)
+✔ reference canvas scales the entire game and all system pages together through device and viewport changes (3599.220238ms)
+✔ ten screen presets stay within the canvas and shared chrome and save slots synchronize without copying page labels (17.714748ms)
+✔ screen templates import through drag and drop, share the actual save browser, and resize from the left edge (2622.902482ms)
+
+Interrupted while running:
+
+⚠ tests/pro-revision.test.mjs (tests/pro-revision.test.mjs:1:1)
+✖ tests/pro-revision.test.mjs (43107.4424ms)
+✖ tests/storage.test.mjs
+✖ tests/version409.test.mjs
+✖ tests/work-tabs-clipboard.test.mjs
+ℹ tests 28
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 4
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 62899.377418
+
+✖ failing tests:
+
+test at tests/pro-revision.test.mjs:1:1
+✖ tests/pro-revision.test.mjs (43107.4424ms)
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/storage.test.mjs:1:1
+✖ tests/storage.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/version409.test.mjs:1:1
+✖ tests/version409.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/work-tabs-clipboard.test.mjs:1:1
+✖ tests/work-tabs-clipboard.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'

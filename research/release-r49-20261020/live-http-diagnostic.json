@@ -1,0 +1,17 @@
+{
+  "status": 403,
+  "headers": {
+    "date": "Tue, 20 Oct 2026 12:03:44 GMT",
+    "content-type": "text/plain; charset=UTF-8",
+    "content-length": "17",
+    "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "referrer-policy": "same-origin",
+    "x-frame-options": "SAMEORIGIN",
+    "server": "envoy",
+    "cf-ray": "a4d7e18d2ab933ce-DFW",
+    "x-envoy-upstream-service-time": "24",
+    "connection": "close"
+  },
+  "bodyPrefix": "error code: 1010\n"
+}

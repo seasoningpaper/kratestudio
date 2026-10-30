@@ -1,0 +1,47 @@
+✔ public pages and internal links resolve, including trailing slash refresh (1434.743514ms)
+✔ account and write routes fail closed without fake cloud persistence (2.402739ms)
+✔ all retained editor runtime files match actual historical git blobs (590.315351ms)
+✔ playable demo handles both branches, local save/load, restart and corrupt saves (30.012504ms)
+✔ works filter actually hides the example rather than only changing its selected state (91.37513ms)
+✔ public pages contain no decorative English captions or banned separators (207.012939ms)
+✔ automatic background respects system motion and hidden tabs without controls or storage writes (83.927511ms)
+✔ creation walkthrough supports click, arrow keys, Home and End without touching stored projects (40.858909ms)
+✔ work keyword search combines with category and recovers after clearing an empty result (20.006219ms)
+✔ downloaded practice script parses with the actual 0.40.12_r4 parser and both branches finish (22.219417ms)
+✔ continuous showcase keeps real destinations, one keyboard copy and no visible motion controls (140.007824ms)
+✔ news categories filter the actual messages and recover to all (11.789671ms)
+✔ mobile menu closes on Escape, link selection and desktop resize (13.882077ms)
+✔ news sharing copies the current article and reports clipboard rejection honestly (17.486559ms)
+✔ removed characters and their artwork are no longer publicly available (185.043087ms)
+✔ twelve supplied illustrations and the approved copy stay correctly paired (152.00663ms)
+✔ dates use calendar days across leap day and DST; validate reversed and malformed dates (1.687723ms)
+✔ BMI computes numeric ratio and rejects invalid values (0.221165ms)
+✔ draws preserve original entries, sample without replacement, allow opt-in repeats and reject invalid counts (1.608053ms)
+✔ random rejection sampling excludes modulo bias (0.135315ms)
+✔ passwords include each selected set and exclude ambiguous characters without storage (6.545881ms)
+✔ selection sort preserves duplicate values and emits actual comparison/swap states (1.065842ms)
+✔ timer formats long durations and rounded remaining seconds (0.149186ms)
+✔ currency renders fetched values and errors without hardcoded fallback (127.948248ms)
+✔ draw renders untrusted names as text and timer transitions pause/resume/reset (45.203165ms)
+✔ sort GUI steps, plays, stops and resets actual numeric states (91.238359ms)
+✔ hero changes actual slides without changing focus, storage or layout controls (72.286012ms)
+✔ CWA public feed normalization preserves measurements, WGS84 and missing-value semantics (2.39995ms)
+✔ precise location selects nearest valid station; county selection remains isolated (0.412844ms)
+✔ CWA upstream failures degrade partially, never switch to another provider or leak a key (8.54222ms)
+✔ line comparison preserves untrusted text, blank lines, changes and CRLF equivalence (0.764907ms)
+✔ time zone conversion handles midnight crossing and DST nonexistent/repeated times (21.521201ms)
+✔ wheel landing points selected sector at twelve oclock for every index and repeat spin (0.377931ms)
+✔ Unicode styles transform Latin/digits while retaining Chinese, spaces and emoji (0.508769ms)
+✔ weather defaults New Taipei; no automatic GPS; denial preserves manual lookup and success stays local (183.304744ms)
+✔ weather offline state permits retry and never shows a fake temperature (27.110215ms)
+✔ scoreboard plus/minus, reset, undo and negative permission are real local state (21.032211ms)
+✔ text comparison GUI escapes markup and translation handles success, quota and request byte limit (62.32639ms)
+✔ new directory exposes fifteen real routes and no project state writes (30.157314ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3561.664976

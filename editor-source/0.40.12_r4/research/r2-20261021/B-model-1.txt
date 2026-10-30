@@ -1,0 +1,71 @@
+✔ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (2.066821ms)
+✔ actor isolation: a new character cue without motion does not replay the previous one-shot (0.184618ms)
+✔ actor isolation: nested placement in visual state never aliases authored event parameters (0.190717ms)
+✔ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.380773ms)
+✔ actor isolation: numeric actor IDs survive event reordering as strings (0.275555ms)
+✔ actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names (10.003847ms)
+✔ actor isolation: every existing motion targets one actor without replacing or restarting other actors (0.63788ms)
+✔ actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state (0.3187ms)
+✔ actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent (1.108379ms)
+✔ actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity (0.316055ms)
+✔ actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source (1.039935ms)
+✔ actor isolation: moving A to center does not delete another actor already in that position (0.164768ms)
+✔ actor isolation: simultaneous A/B/C cues keep separate targets, durations and replay tokens (0.501966ms)
+✔ R2-B: waiting exit retains target until completion, never removes other actors in same slot (2.583459ms)
+✔ R2-B: actual exit lifecycle fadeOut (0.407874ms)
+✔ R2-B: actual exit lifecycle exitLeft (0.363057ms)
+✔ R2-B: actual exit lifecycle exitRight (0.294964ms)
+✔ R2-B: actual exit lifecycle exitUp (0.235364ms)
+✔ R2-B: actual exit lifecycle exitDown (0.170277ms)
+✔ R2-B: legacy no-animation hide is immediate and isolates its exact key (0.269235ms)
+✔ R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone (0.35827ms)
+✔ R2-B: unique positional aliases work; exact numeric custom IDs take priority (0.496307ms)
+✔ R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor (0.343968ms)
+✔ R2-B: scene clear cancels pending exits; seeking past exit restores settled state (0.386802ms)
+✔ R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance (0.561996ms)
+✔ R2-B: repeated show/hide with expression, layer and wait stays independent across script copy (9.438097ms)
+✔ R2-B: native and legacy none syntax remain compatible and native directional exits are executable (2.053752ms)
+✖ background and character tracks remain independent, swaps retain placement, hides affect one actor (4.096727ms)
+✔ editor timeline and runtime use the same actor and background reduction (0.917191ms)
+✔ new actor defaults do not choose backgrounds or merge unrelated unbound sprites (0.337398ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 29
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 292.373975
+
+✖ failing tests:
+
+test at tests/visual-state.test.mjs:3:1
+✖ background and character tracks remain independent, swaps retain placement, hides affect one actor (4.096727ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      actorIdentity: '',
+      eventId: 'a1',
+      flip: true,
+      image: 'a',
+  ...
+      position: 'left',
+  -   replaceMode: undefined,
+      scale: 65,
+      vertical: 'middle'
+    }
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/visual-state.test.mjs:3:870)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { motion: 'none', motionLoop: false, motionDuration: 800, motionEase: 'ease-out', position: 'left', vertical: 'middle', scale: 65, offsetX: 2, flip: true, actorIdentity: '', image: 'a', offsetY: 0, eventId: 'a1', motionToken: 'a1:1' },
+    expected: { motion: 'none', motionLoop: false, motionDuration: 800, motionEase: 'ease-out', position: 'left', vertical: 'middle', scale: 65, offsetX: 2, flip: true, actorIdentity: '', replaceMode: undefined, image: 'a', offsetY: 0, eventId: 'a1', motionToken: 'a1:1' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

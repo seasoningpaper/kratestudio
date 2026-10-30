@@ -1,0 +1,12 @@
+diff --git a/dist/style.css b/dist/style.css
+index f7af03a..af05835 100644
+--- a/dist/style.css
++++ b/dist/style.css
+@@ -378,7 +378,3 @@ body.code-mode #editorToolbar,body.code-mode #addSection,body.code-mode #addEven
+ .blocks-world>.program-block{margin-top:0}
+ .blocks-world>.blocks-hat{display:flex;align-items:center;white-space:nowrap;line-height:20px;touch-action:none}
+ .block-context{max-height:calc(100dvh - 12px);overflow-y:auto;overscroll-behavior:contain}
+-/* Multiline dialogue fields retain the existing input typography and colours. */
+-.block-fields textarea{background:#fff;color:#222;border:0;border-radius:0;padding:5px 6px;font:inherit;font-size:12px;line-height:normal;width:230px;max-width:100%;min-width:0;box-sizing:border-box;resize:vertical;white-space:pre-wrap;overflow-wrap:anywhere}
+-.block-fields .reporter button{background:transparent;color:inherit;padding:0 3px;border:0;font:inherit}
+-@media(max-width:900px){.block-fields textarea{width:165px}}

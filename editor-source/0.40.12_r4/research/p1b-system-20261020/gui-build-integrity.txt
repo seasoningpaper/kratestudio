@@ -1,0 +1,12 @@
+dist/style.css：移除新增範圍註解後與第51版完全相同；451a7b71652370826b061b35ede1c04c58c53c98b865ccfb6e034d0845c80181
+dist/player.css：移除新增範圍註解後與第51版完全相同；65c451b70fd38010da49ff89ebc9049081c743673e4e2a717689bfa7e4a0f7fa
+dist/index.html：第51版內容與雜湊不變
+dist/assets/icons.svg：第51版內容與雜湊不變
+dist/assets/koi.svg：第51版內容與雜湊不變
+dist/assets/ui/disconnect.wav：第51版內容與雜湊不變
+dist/assets/ui/delete.mp3：第51版內容與雜湊不變
+dist/assets/ui/click.mp3：第51版內容與雜湊不變
+design/ENGINEERING-MODE-0.41.11.md：第51版內容與雜湊不變
+樣式產生器重複執行：結果一致，P0-C規則保留
+發布候選版本文字：側欄 r50 → r52；除此之外 HTML 與第51版完全相同。原生版本若不是52即停止部署。
+r52版本文字加入後：七項Worker資產再比對通過。

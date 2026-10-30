@@ -1,0 +1,20 @@
+✔ P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation (719.024903ms)
+✔ P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets (516.834789ms)
+✔ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (640.059578ms)
+✔ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (609.812356ms)
+✔ P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect (578.837389ms)
+✔ P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts (548.90015ms)
+✔ P1-B context extraction still plays immediately and only after a successful detach (499.236815ms)
+✔ P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback (383.049356ms)
+✔ P1-B dragging a tail out of a floating stack detects its real external connection (269.77599ms)
+✔ R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events (1222.695873ms)
+✔ R2-D DOM: template group drag and nudge share world deltas and one undo transaction (969.654687ms)
+✔ R2-D DOM: nested template canvas alignment persists and local editor undo restores (686.447883ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3912.419226

@@ -1,0 +1,67 @@
+{
+  "product": "Koi Maker 視覺化故事創作平台",
+  "version": "0.40.11_r3",
+  "channel": "待人工回報的測試修訂版",
+  "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "published_source": "1d7d0ce84d8b6d775173de0f01dc3f033adb0d7d",
+  "site_version": 55,
+  "saved_version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_7caf64234f3081919b20c3a9867cdfd4",
+  "deployment_id": "appgdep_6ad85a9752548191b73ed437877295ba",
+  "deployment_status": "succeeded",
+  "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+  "deployed_at": "2026-10-21T06:24:38.965479+00:00",
+  "site_after_publish": {
+    "status": "active",
+    "audience": "public",
+    "title": "Koi Maker 視覺化故事創作平台 0.40.11_r3",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "latest_version": 55
+  },
+  "deployment_archive": "/workspace/scratch/e00fc226fa87/Koi-Maker-0.40.11_r3-deployment.tar.gz",
+  "deployment_archive_sha256": "043a2ff5bbd4642de480d9809d4d6cfcce73ab2a1cd897a9471c041e834d17ca",
+  "archive_storage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_0000000024c08230a68481ae3ea46b28",
+    "content_hash": "sha256:35975afaca3f99528e6de1dd8ddf560cda87a0b071151d1701e0a43a5f92ad44",
+    "size_bytes": 10117120,
+    "file_count": 25
+  },
+  "published_source_zip": "/workspace/scratch/e00fc226fa87/Koi-Maker-0.40.11_r3-published-source.zip",
+  "published_source_zip_sha256": "3b412dddbbc625ea127f116bfa4ce1591ee8edfa09808d03ff95410cb3209a21",
+  "before_development": {
+    "source": "d898715db696ff537bbde21bf4655b93c08655e6",
+    "zip": "/workspace/scratch/e00fc226fa87/Koi-Maker-before-r3-d898715.zip",
+    "sha256": "be07f004928ca98b932a2f69e839f0dbd219e085e3acb44e2a5f460efb6fb80c"
+  },
+  "rollback": {
+    "site_version": 54,
+    "product_version": "0.40.11_r2",
+    "source": "5b004f31b8ebfddfe9523703c73269af58cf71f1",
+    "saved_version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_b839568b70e08191b5699f446715e55f",
+    "deployment_id": "appgdep_6ad7b385130c8191bdfb2a5814eb9473",
+    "handoff": "5114690",
+    "zip": "/workspace/scratch/e00fc226fa87/Koi-Maker-0.40.11_r2-complete-source.zip",
+    "older_site_version": 53,
+    "older_source": "48b545768e0e124776d269acc2138eb0e6522b46",
+    "older_saved_version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_9827e9ae67048191b994ecf2771948f2"
+  },
+  "checks": {
+    "unique_automated_cases_passed": 173,
+    "syntax_files": 18,
+    "worker_assets": 23,
+    "build": "passed",
+    "css_byte_identical_to": "d898715",
+    "unknown_event_data": "preserved or explicit rejection",
+    "template_migration": "opt-in, raw backup, exact restore, future-version rejection tested",
+    "source_zip_crc": "passed",
+    "production_confirmation": "native deployment succeeded + get_site active/public/latest55; no live browser functional claim"
+  },
+  "manual_pending": [
+    "正式站真人視覺",
+    "實機觸控",
+    "音訊聽感",
+    "任意舊專案窮舉",
+    "內部閱讀／音量表單細粒度元件化仍未實作"
+  ],
+  "note": "部署後僅追加交付文件，完整ZIP對應最新交接commit，dist/src/worker/package/scripts與published_source完全一致。Sites卡片舊description無更新參數，HTML meta正確。"
+}

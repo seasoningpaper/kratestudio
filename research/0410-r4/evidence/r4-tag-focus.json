@@ -1,0 +1,18 @@
+{
+  "after": "none",
+  "before": "none",
+  "focused": true,
+  "offset": "-2px",
+  "outline": "rgb(52, 106, 154) solid 2px",
+  "rect": {
+    "bottom": 533.5,
+    "height": 34,
+    "left": 436,
+    "right": 650.5,
+    "top": 499.5,
+    "width": 214.5,
+    "x": 436,
+    "y": 499.5
+  },
+  "shadow": "none"
+}

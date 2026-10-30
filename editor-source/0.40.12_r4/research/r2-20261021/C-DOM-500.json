@@ -1,0 +1,9 @@
+{
+  "environment": "JSDOM; no browser paint, includes fixed 100ms test settling intervals",
+  "events": 500,
+  "options": 25,
+  "renderMs": 277.6453929999999,
+  "arrangeAndCommitMs": 278.75315,
+  "retainedNodes": 500,
+  "storyUnchanged": true
+}

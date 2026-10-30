@@ -1,0 +1,36 @@
+{
+  "children": [
+    {
+      "height": 35,
+      "scroll": 174,
+      "text": "  春日物語",
+      "width": 174
+    },
+    {
+      "height": 21,
+      "scroll": 58,
+      "text": "春日物語",
+      "width": 58
+    },
+    {
+      "height": 32,
+      "scroll": 24,
+      "text": "",
+      "width": 24
+    },
+    {
+      "height": 32,
+      "scroll": 24,
+      "text": "",
+      "width": 24
+    },
+    {
+      "height": 32,
+      "scroll": 24,
+      "text": "",
+      "width": 24
+    }
+  ],
+  "columns": "102px 24px 24px 24px",
+  "display": "grid"
+}

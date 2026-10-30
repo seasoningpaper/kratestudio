@@ -1,0 +1,21 @@
+✔ policy uses exactly 5,000,000,000 bytes with exact decimal boundaries (22.310595ms)
+✔ quota estimates are optional shared-origin estimates, never a guaranteed project allowance (1.779196ms)
+✔ capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets (3.075763ms)
+✔ same filename with distinct IDs is stored twice; duplicate IDs are rejected (1.042925ms)
+✔ atomic save/reload retains unknown data and exact bytes (14.306814ms)
+✔ quota and interrupted transaction leave previous snapshot and assets intact (6.496516ms)
+✔ asset deletion saves with accurate reduced payload without damaging other projects (5.310277ms)
+✔ stream backup roundtrip retains every field and binary asset with checksum (10.532657ms)
+✔ stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data (2.402477ms)
+✔ cancelled and failed writes abort the writer and never report a complete backup (1.103861ms)
+✔ legacy Base64 assets still save, load and export with original identifiers (2.46465ms)
+✔ single-file import caps are enforced before decoding or allocating oversized data (0.596297ms)
+✔ quota preflight rejects a changed project without beginning a transaction or overwriting saved state (1.532814ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 274.204605

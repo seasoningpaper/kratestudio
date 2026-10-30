@@ -1,0 +1,36 @@
+✔ R7 copy of a repeat start includes its complete nested body and independent remapped closing IDs (4.517078ms)
+✔ R7 pasted floating blocks do not split the source component or inherit stale return anchors (0.476047ms)
+✔ R7 invalid duplicate IDs, orphan repeat endings and disjoint moving statements are rejected without mutation (0.581495ms)
+✔ R7 compiling malformed stack structure reports errors before changing live shared events (2.127352ms)
+✔ R7 KOI serialization preserves nested blocks, detached state, arbitrary parameters and input project immutability (7.409369ms)
+✔ R7 legacy floating loops without stack IDs and body coordinates are preserved and become reconnectable (0.761737ms)
+✔ R7 paste into a floating host inherits its component and nested-loop reorder cannot cross its own boundary (0.669508ms)
+✔ R7 source missing IDs, duplicate clipboard IDs, missing live IDs and self-connection do not mutate data (0.16631ms)
+✔ R7 nested selection closure excludes unrelated floating blocks between main loop statements (0.712542ms)
+✔ R7 compiling a bound source cannot steal another chapter event ID (0.621155ms)
+✔ R7 1000 nested detach/reconnect operations preserve every event, legal ownership and branch destination (223.842543ms)
+✔ R7 start dock wins when a new block head and tail simultaneously match different connectors (0.528616ms)
+✔ R7 single and full stacks prepend, insert between siblings and append without losing the downstream chain (0.957921ms)
+✔ R7 deep-canvas stack copies retain their source height instead of jumping to the old 15000 limit (0.298499ms)
+✔ arbitrary reorder retains target event identities in choices, conditions, jumps and other chapters (1.407087ms)
+✔ external choices remap in their destination chapter and never acquire phantom local flow edges (5.759617ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.738476ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (12.787643ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.486992ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.35888ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (2.341233ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (1.540919ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (2.522937ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.703749ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.359811ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.301684ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (0.775907ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (42.113521ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 577.012876

@@ -1,0 +1,7 @@
+{
+ "appId":"tw.koimaker.desktop","productName":"KoiMaker","asar":true,
+ "directories":{"output":"artifacts"},"files":["out/**/*","package.json"],
+ "win":{"target":["nsis","portable"],"signAndEditExecutable":false},
+ "nsis":{"artifactName":"KoiMaker-Setup-${version}-${arch}.${ext}","oneClick":false,"allowToChangeInstallationDirectory":true,"deleteAppDataOnUninstall":false},
+ "portable":{"artifactName":"KoiMaker-Portable-${version}-${arch}.${ext}"}
+}

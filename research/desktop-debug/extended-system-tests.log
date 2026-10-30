@@ -1,0 +1,29 @@
+✔ 04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow (25.861176ms)
+✔ 04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow (29.87871ms)
+✔ 04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow (44.09775ms)
+✔ 04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields (1345.00804ms)
+✔ 04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields (1498.326064ms)
+✔ 04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields (1677.519604ms)
+✔ Fix-04 asset options keep stable IDs, distinguish duplicate filenames and explicitly retain missing references (1.712009ms)
+✔ Fix-04 voice classification retains legacy unclassified and current wrong-role IDs without guessing substitutions (0.374013ms)
+✔ Fix-04 positional aliases stay strict and numeric zero is a real actor key, never a falsy no-target (0.614908ms)
+✔ Fix-04 valid multi-actor targets survive cross-chapter jump, repeated show/hide and save/load; real ambiguity remains an error (3.300466ms)
+✔ Fix-04 event Inspector and block voice options share values and keep an absent voice selected (615.194911ms)
+✔ Fix-04 legacy unknown audio role labels remain selectable as unclassified without changing IDs or metadata (0.404447ms)
+✔ P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing (1.004594ms)
+✔ P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations (1.118442ms)
+✔ P1-A screen background profiles, template export and asset references remain separate (4.281023ms)
+✔ P1-A game designer selects library backgrounds, creates one missing background and persists configuration (1035.048573ms)
+✔ P1-A title library background, fit and position reach desktop/mobile designer and player (1092.07451ms)
+✔ P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings (1624.602146ms)
+✔ P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue (453.158944ms)
+✔ P1-A importing a background in game designer keeps the asset and one new background through portable restore (490.506852ms)
+✔ P1-A mobile menu background saves independently and reloads alongside title and scene defaults (1146.042261ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12070.905498

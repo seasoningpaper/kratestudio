@@ -1,0 +1,190 @@
+TAP version 13
+# Subtest: actor isolation: explicit waiting animations remain sequential engine steps with separate durations
+ok 1 - actor isolation: explicit waiting animations remain sequential engine steps with separate durations
+  ---
+  duration_ms: 2.745926
+  type: 'test'
+  ...
+# Subtest: actor isolation: a new character cue without motion does not replay the previous one-shot
+ok 2 - actor isolation: a new character cue without motion does not replay the previous one-shot
+  ---
+  duration_ms: 0.318429
+  type: 'test'
+  ...
+# Subtest: actor isolation: nested placement in visual state never aliases authored event parameters
+ok 3 - actor isolation: nested placement in visual state never aliases authored event parameters
+  ---
+  duration_ms: 0.201143
+  type: 'test'
+  ...
+# Subtest: actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping
+ok 4 - actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping
+  ---
+  duration_ms: 0.467654
+  type: 'test'
+  ...
+# Subtest: actor isolation: numeric actor IDs survive event reordering as strings
+ok 5 - actor isolation: numeric actor IDs survive event reordering as strings
+  ---
+  duration_ms: 0.415145
+  type: 'test'
+  ...
+# Subtest: actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names
+ok 6 - actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names
+  ---
+  duration_ms: 11.224908
+  type: 'test'
+  ...
+# Subtest: actor isolation: every existing motion targets one actor without replacing or restarting other actors
+ok 7 - actor isolation: every existing motion targets one actor without replacing or restarting other actors
+  ---
+  duration_ms: 0.75669
+  type: 'test'
+  ...
+# Subtest: actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state
+ok 8 - actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state
+  ---
+  duration_ms: 0.483899
+  type: 'test'
+  ...
+# Subtest: actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent
+ok 9 - actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent
+  ---
+  duration_ms: 1.337565
+  type: 'test'
+  ...
+# Subtest: actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity
+ok 10 - actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity
+  ---
+  duration_ms: 0.37849
+  type: 'test'
+  ...
+# Subtest: actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source
+ok 11 - actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source
+  ---
+  duration_ms: 1.267589
+  type: 'test'
+  ...
+# Subtest: actor isolation: moving A to center does not delete another actor already in that position
+ok 12 - actor isolation: moving A to center does not delete another actor already in that position
+  ---
+  duration_ms: 0.170096
+  type: 'test'
+  ...
+# Subtest: actor isolation: simultaneous A/B/C cues keep separate targets, durations and replay tokens
+ok 13 - actor isolation: simultaneous A/B/C cues keep separate targets, durations and replay tokens
+  ---
+  duration_ms: 0.688677
+  type: 'test'
+  ...
+# Subtest: R2-B: waiting exit retains target until completion, never removes other actors in same slot
+ok 14 - R2-B: waiting exit retains target until completion, never removes other actors in same slot
+  ---
+  duration_ms: 2.607848
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle fadeOut
+ok 15 - R2-B: actual exit lifecycle fadeOut
+  ---
+  duration_ms: 0.448746
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitLeft
+ok 16 - R2-B: actual exit lifecycle exitLeft
+  ---
+  duration_ms: 0.336467
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitRight
+ok 17 - R2-B: actual exit lifecycle exitRight
+  ---
+  duration_ms: 0.262896
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitUp
+ok 18 - R2-B: actual exit lifecycle exitUp
+  ---
+  duration_ms: 0.222515
+  type: 'test'
+  ...
+# Subtest: R2-B: actual exit lifecycle exitDown
+ok 19 - R2-B: actual exit lifecycle exitDown
+  ---
+  duration_ms: 0.169105
+  type: 'test'
+  ...
+# Subtest: R2-B: legacy no-animation hide is immediate and isolates its exact key
+ok 20 - R2-B: legacy no-animation hide is immediate and isolates its exact key
+  ---
+  duration_ms: 0.229005
+  type: 'test'
+  ...
+# Subtest: R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone
+ok 21 - R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone
+  ---
+  duration_ms: 0.399862
+  type: 'test'
+  ...
+# Subtest: R2-B: unique positional aliases work; exact numeric custom IDs take priority
+ok 22 - R2-B: unique positional aliases work; exact numeric custom IDs take priority
+  ---
+  duration_ms: 0.461295
+  type: 'test'
+  ...
+# Subtest: R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor
+ok 23 - R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor
+  ---
+  duration_ms: 0.459812
+  type: 'test'
+  ...
+# Subtest: R2-B: scene clear cancels pending exits; seeking past exit restores settled state
+ok 24 - R2-B: scene clear cancels pending exits; seeking past exit restores settled state
+  ---
+  duration_ms: 0.455045
+  type: 'test'
+  ...
+# Subtest: R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance
+ok 25 - R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance
+  ---
+  duration_ms: 0.547685
+  type: 'test'
+  ...
+# Subtest: R2-B: repeated show/hide with expression, layer and wait stays independent across script copy
+ok 26 - R2-B: repeated show/hide with expression, layer and wait stays independent across script copy
+  ---
+  duration_ms: 9.785338
+  type: 'test'
+  ...
+# Subtest: R2-B: native and legacy none syntax remain compatible and native directional exits are executable
+ok 27 - R2-B: native and legacy none syntax remain compatible and native directional exits are executable
+  ---
+  duration_ms: 2.286444
+  type: 'test'
+  ...
+# Subtest: background and character tracks remain independent, swaps retain placement, hides affect one actor
+ok 28 - background and character tracks remain independent, swaps retain placement, hides affect one actor
+  ---
+  duration_ms: 4.457273
+  type: 'test'
+  ...
+# Subtest: editor timeline and runtime use the same actor and background reduction
+ok 29 - editor timeline and runtime use the same actor and background reduction
+  ---
+  duration_ms: 0.944363
+  type: 'test'
+  ...
+# Subtest: new actor defaults do not choose backgrounds or merge unrelated unbound sprites
+ok 30 - new actor defaults do not choose backgrounds or merge unrelated unbound sprites
+  ---
+  duration_ms: 0.403908
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 337.939112

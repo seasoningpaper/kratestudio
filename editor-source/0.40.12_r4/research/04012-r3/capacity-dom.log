@@ -1,0 +1,23 @@
+✖ capacity panel renders eight real categories and separate decimal browser estimate without altering events (224.990254ms)
+✔ capacity CSS is the sole new GUI CSS and remains scoped, flat and wrapping (10.031723ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 1
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1140.259653
+
+✖ failing tests:
+
+test at tests/04012-r3-capacity-dom.test.mjs:5:1
+✖ capacity panel renders eight real categories and separate decimal browser estimate without altering events (224.990254ms)
+  ReferenceError: TextEncoder is not defined
+      at eval (eval at setup (file:///workspace/sites/galgame-studio/tests/p1c-dom-harness.mjs:3:1529), <anonymous>:52:2811)
+      at eval (eval at setup (file:///workspace/sites/galgame-studio/tests/p1c-dom-harness.mjs:3:1529), <anonymous>:54:26807)
+      at eval (<anonymous>)
+      at setup (file:///workspace/sites/galgame-studio/tests/p1c-dom-harness.mjs:3:1529)
+      at async TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r3-capacity-dom.test.mjs:5:151)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)

@@ -1,0 +1,73 @@
+TAP version 13
+# Subtest: actor isolation: designer edits the selected animation event, not the earlier character cue
+ok 1 - actor isolation: designer edits the selected animation event, not the earlier character cue
+  ---
+  duration_ms: 825.448408
+  type: 'test'
+  ...
+# Subtest: actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions
+ok 2 - actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions
+  ---
+  duration_ms: 761.000989
+  type: 'test'
+  ...
+# Subtest: actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM
+ok 3 - actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM
+  ---
+  duration_ms: 1298.561074
+  type: 'test'
+  ...
+# Subtest: event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch
+ok 4 - event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch
+  ---
+  duration_ms: 402.306791
+  type: 'test'
+  ...
+# Subtest: motion controls: hidden waiting animation can be restored by tapping the stage
+ok 5 - motion controls: hidden waiting animation can be restored by tapping the stage
+  ---
+  duration_ms: 463.312406
+  type: 'test'
+  ...
+# Subtest: R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events
+not ok 6 - R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events
+  ---
+  duration_ms: 592.765988
+  type: 'test'
+  location: '/workspace/sites/galgame-studio/tests/r2-character-dom.test.mjs:4:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of null (reading 'click')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r2-character-dom.test.mjs:4:417)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+# Subtest: R2-B Player DOM: waiting exit cleans only A in real Player and preserves B
+ok 7 - R2-B Player DOM: waiting exit cleans only A in real Player and preserves B
+  ---
+  duration_ms: 620.779014
+  type: 'test'
+  ...
+# Subtest: R2-B Player DOM: parallel exit cleans only A in real Player and preserves B
+ok 8 - R2-B Player DOM: parallel exit cleans only A in real Player and preserves B
+  ---
+  duration_ms: 538.783019
+  type: 'test'
+  ...
+# Subtest: R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue
+ok 9 - R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue
+  ---
+  duration_ms: 841.292197
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 8
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7066.528006

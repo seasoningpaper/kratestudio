@@ -1,0 +1,46 @@
+✖ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (633.442472ms)
+✖ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (497.303458ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1550.02859
+
+✖ failing tests:
+
+test at tests/p1b-block-audio.test.mjs:8:1
+✖ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (633.442472ms)
+  AssertionError [ERR_ASSERTION]: 解除音效必須在 pointerup 之前發生
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1b-block-audio.test.mjs:8:423)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p1b-block-audio.test.mjs:9:1
+✖ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (497.303458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1b-block-audio.test.mjs:9:347)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

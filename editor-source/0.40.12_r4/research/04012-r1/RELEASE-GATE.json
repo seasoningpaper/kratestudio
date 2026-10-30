@@ -1,0 +1,19 @@
+{
+  "version": "0.40.12_r1",
+  "decision": "eligible-test-revision",
+  "uniqueAutomatedPassed": 199,
+  "syntaxFiles": 20,
+  "build": "passed full build and affected workspace/Worker rebuild",
+  "workerAssetsExact": 33,
+  "gui": "CSS, Logo, theme and HTML skeleton frozen; exact Header/category/toolbar DOM passed after reverting unintended preset options",
+  "knownReproducedCriticalHighUnresolved": [],
+  "unconfirmedReport": "240FPS old-scene flash after intro not independently reproduced; no claim of full repair",
+  "manualPending": ["240FPS and real refresh-rate frame capture", "browser screenshot/pixel comparison", "physical touch/audio", "original full project JSON, chapter/extension definitions and media"],
+  "dataSafety": "No storage migration or key changes; additive until mode explicitly gated by repeatMode; canonical event semantics and typed references verified",
+  "rollback": {
+    "siteVersion": 57,
+    "source": "d855a55fb7981cc71db50bc977fbe276af976a69",
+    "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_22224ccfd248819191fc73558f062c91",
+    "developmentBefore": "f9169682dc2283a1513d9b43d4945fe54fbe2f1c"
+  }
+}

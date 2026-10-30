@@ -1,0 +1,22 @@
+✔ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (623.188275ms)
+✔ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (558.345622ms)
+✔ P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect (682.930306ms)
+✖ P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts (397.556233ms)
+✔ P1-B context extraction still plays immediately and only after a successful detach (541.205392ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3197.63963
+
+✖ failing tests:
+
+test at tests/p1b-block-audio.test.mjs:11:1
+✖ P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts (397.556233ms)
+  TypeError: Cannot set properties of undefined (setting 'blockSounds')
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1b-block-audio.test.mjs:11:244)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

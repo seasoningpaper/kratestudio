@@ -1,0 +1,28 @@
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (565.334295ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (464.557322ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (251.979308ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0 (335.49802ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180 (575.964057ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer (1214.005144ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer (1121.30137ms)
+✖ r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged (473.829564ms)
+✔ R4 Player: completed parallel exit is not resurrected by a pending image transition (1098.049382ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 8
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7263.083828
+
+✖ failing tests:
+
+test at tests/04012-r2-player.test.mjs:11:1
+✖ r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged (473.829564ms)
+  TypeError: r.readAsArrayBuffer is not a function
+      at bytes (file:///workspace/sites/galgame-studio/tests/04012-r2-player.test.mjs:11:707)
+      at new Promise (<anonymous>)
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r2-player.test.mjs:11:597)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

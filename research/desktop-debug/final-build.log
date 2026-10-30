@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker-desktop@0.41.0-dev.2 build
+> node build.mjs
+
+桌面 Main／Preload／Renderer 建置完成；網頁版 dist 未修改。

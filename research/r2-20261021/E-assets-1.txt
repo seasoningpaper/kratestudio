@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references
+ok 1 - R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references
+  ---
+  duration_ms: 2.218668
+  type: 'test'
+  ...
+# Subtest: R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid
+ok 2 - R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid
+  ---
+  duration_ms: 0.719242
+  type: 'test'
+  ...
+# Subtest: R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently
+ok 3 - R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently
+  ---
+  duration_ms: 0.413368
+  type: 'test'
+  ...
+# Subtest: R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts
+ok 4 - R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts
+  ---
+  duration_ms: 0.769568
+  type: 'test'
+  ...
+# Subtest: R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs
+ok 5 - R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs
+  ---
+  duration_ms: 0.460699
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 91.817365

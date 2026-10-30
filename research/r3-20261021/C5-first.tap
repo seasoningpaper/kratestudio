@@ -1,0 +1,20 @@
+✔ R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events (1139.799643ms)
+✔ R2-D DOM: template group drag and nudge share world deltas and one undo transaction (979.333266ms)
+✔ R2-D DOM: nested template canvas alignment persists and local editor undo restores (682.803479ms)
+✔ C5 migration preserves legacy desktop profiles, unknown fields and has exact reversible backup (2.76576ms)
+✔ C5 migration preserves legacy mobile profiles, unknown fields and has exact reversible backup (0.570943ms)
+✔ C5 migration of absent templates is lazy, reversible and cannot change other pages (0.373811ms)
+✔ C5 groups expand selection, ungroup atomically, move in shared coordinates and never change actions (0.595849ms)
+✔ C5 duplicate built-ins produces independent extras, preserves actions and remaps copied group membership (0.458206ms)
+✔ C5 rejects duplicate, missing, cyclic/nested and multiply-parented group references before any write (0.528529ms)
+✔ C5 standalone import/export retains optional groups, typed actions, layers and validates references (0.940968ms)
+✔ C5 alignment and distribution operate on existing components without action or identity loss (0.566786ms)
+✔ C5 actual template UI creates groups, clones built-in navigation and restores both history and legacy backup (1284.347427ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3148.932623

@@ -1,0 +1,13 @@
+✔ P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it (570.35706ms)
+✔ P1-B gallery preview volume follows master/music/mute plus its own gain (237.4485ms)
+✔ P1-B gallery audio rejection keeps BGM focus and reports an error without throwing (215.966834ms)
+✔ P1-B game BGM also continues while viewing CG and respects gallery focus after returning (345.19846ms)
+✔ P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context (282.397095ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2067.755691

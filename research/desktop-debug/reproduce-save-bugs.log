@@ -1,0 +1,89 @@
+✖ 儲存期間替換素材後，下一次儲存必須保存新檔案而非舊快取 (56.171348ms)
+✖ SQLite開啟失敗會解除交易，不能永遠卡在同一專案儲存中 (30.217105ms)
+✖ project.json鏡像無法更新時仍可從完好的SQLite開啟專案 (17.374691ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 235.592681
+
+✖ failing tests:
+
+test at tests/save-safety.test.mjs:13:1
+✖ 儲存期間替換素材後，下一次儲存必須保存新檔案而非舊快取 (56.171348ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Buffer(4) [Uint8Array] [
+  +   0,
+  +   1,
+  +   2,
+  +   3
+  -   4,
+  -   5,
+  -   6,
+  -   7
+    ]
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/desktop/tests/save-safety.test.mjs:19:31)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 00 01 02 03>,
+    expected: <Buffer 04 05 06 07>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/save-safety.test.mjs:21:1
+✖ SQLite開啟失敗會解除交易，不能永遠卡在同一專案儲存中 (30.217105ms)
+  AssertionError [ERR_ASSERTION]: Got unwanted exception.
+  Actual message: "同一專案已有儲存交易進行中"
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/desktop/tests/save-safety.test.mjs:25:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: Error: 同一專案已有儲存交易進行中
+        at ProjectStore.begin (file:///workspace/sites/galgame-studio/desktop/src/project-store.ts:153:15)
+        at file:///workspace/sites/galgame-studio/desktop/tests/save-safety.test.mjs:25:36
+        at getActual (node:assert:611:5)
+        at strict.doesNotThrow (node:assert:779:32)
+        at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/desktop/tests/save-safety.test.mjs:25:9)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1382:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+        at Test.postRun (node:internal/test_runner/test:1522:19)
+        at Test.run (node:internal/test_runner/test:1447:12),
+    expected: undefined,
+    operator: 'doesNotThrow',
+    diff: 'simple'
+  }
+
+test at tests/save-safety.test.mjs:27:1
+✖ project.json鏡像無法更新時仍可從完好的SQLite開啟專案 (17.374691ms)
+  Error: EISDIR: illegal operation on a directory, rename '/tmp/koi-save-safety-LXLgtS/projects/9cd0b1c6-f83d-4cf8-8a56-29d64fe41990/project.json.tmp-91e284e8-599a-4101-a99c-423cfa2e9beb' -> '/tmp/koi-save-safety-LXLgtS/projects/9cd0b1c6-f83d-4cf8-8a56-29d64fe41990/project.json'
+      at Module.renameSync (node:fs:1074:11)
+      at atomicJSON (file:///workspace/sites/galgame-studio/desktop/src/project-store.ts:103:6)
+      at ProjectStore.load (file:///workspace/sites/galgame-studio/desktop/src/project-store.ts:282:9)
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/desktop/tests/save-safety.test.mjs:30:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    errno: -21,
+    code: 'EISDIR',
+    syscall: 'rename',
+    path: '/tmp/koi-save-safety-LXLgtS/projects/9cd0b1c6-f83d-4cf8-8a56-29d64fe41990/project.json.tmp-91e284e8-599a-4101-a99c-423cfa2e9beb',
+    dest: '/tmp/koi-save-safety-LXLgtS/projects/9cd0b1c6-f83d-4cf8-8a56-29d64fe41990/project.json'
+  }

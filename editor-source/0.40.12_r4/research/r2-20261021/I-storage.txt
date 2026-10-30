@@ -1,0 +1,86 @@
+TAP version 13
+# Subtest: legacy Base64 project migrates only after durable save and verification
+ok 1 - legacy Base64 project migrates only after durable save and verification
+  ---
+  duration_ms: 10.287476
+  type: 'test'
+  ...
+# Subtest: transaction failures leave the previous project and files intact
+not ok 2 - transaction failures leave the previous project and files intact
+  ---
+  duration_ms: 4.470509
+  type: 'test'
+  location: '/workspace/sites/galgame-studio/tests/storage.test.mjs:8:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    1 !== 9
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 9
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/storage.test.mjs:8:525)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+  ...
+# Subtest: deleting an asset unlinks all scene, sprite, CG and audio references
+not ok 3 - deleting an asset unlinks all scene, sprite, CG and audio references
+  ---
+  duration_ms: 1.442283
+  type: 'test'
+  location: '/workspace/sites/galgame-studio/tests/storage.test.mjs:9:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    1 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/storage.test.mjs:9:392)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1382:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+    Test.postRun (node:internal/test_runner/test:1522:19)
+    Test.run (node:internal/test_runner/test:1447:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+  ...
+# Subtest: font files and screen image references survive durable save and portable export
+not ok 4 - font files and screen image references survive durable save and portable export
+  ---
+  duration_ms: 3.872938
+  type: 'test'
+  location: '/workspace/sites/galgame-studio/tests/storage.test.mjs:10:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    2 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 2
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/storage.test.mjs:10:785)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 1
+# fail 3
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 142.500902

@@ -1,0 +1,28 @@
+{
+  "baseline": "0cb21b6723ac6962b97200657169061bc26df1d0",
+  "current": "532b93bc73b9cb54c3eb7c19adaaa0e0a22c0811",
+  "cases": [
+    "既有角色對話",
+    "長中文單行",
+    "多行對話",
+    "選項與長下拉文字",
+    "巢狀重複積木",
+    "分離積木串",
+    "新字串插槽（允許必要控制項差異）"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "syntaxChecked": true,
+  "browserExecuted": false,
+  "screenshotsProduced": false,
+  "visualAcceptance": "blocked",
+  "sha256": "f8a29622ec1544e0be7359be7cdba5581adf45850e403a6504657ffd4d7c07ab"
+}

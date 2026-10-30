@@ -1,0 +1,20 @@
+PASS dist/app.js
+PASS src/block-insert-transaction.mjs
+PASS src/section-delete.mjs
+PASS src/sections.mjs
+PASS src/storage-format.mjs
+PASS src/packaging.mjs
+PASS scripts/serve-local.mjs
+PASS scripts/asset-path.mjs
+PASS scripts/test-local.mjs
+PASS scripts/generate-feature-matrix.mjs
+PASS scripts/generate-script-guide.mjs
+PASS scripts/generate-features.mjs
+PASS scripts/verify-static-assets.mjs
+PASS tests/04012-r2-palette.test.mjs
+PASS tests/04012-r2-editor.test.mjs
+PASS tests/04012-r2-layout.test.mjs
+PASS tests/04012-r2-player.test.mjs
+PASS tests/04012-r2-release.test.mjs
+PASS tests/local-development.test.mjs
+19 syntax checks passed; JSX checked by esbuild

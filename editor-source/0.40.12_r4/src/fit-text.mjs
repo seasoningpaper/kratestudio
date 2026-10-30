@@ -1,0 +1,1 @@
+export function fitChoice(button,fontSize){if(!button?.clientHeight||!button.clientWidth)return;let size=Math.max(1,fontSize);button.style.fontSize=size+'px';for(let i=0;i<12&&(button.scrollHeight>button.clientHeight+1||button.scrollWidth>button.clientWidth+1);i++){size*=.88;button.style.fontSize=size+'px'}}

@@ -1,0 +1,15 @@
+✔ C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution (36.382844ms)
+✔ C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution (94.069897ms)
+✔ C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution (154.257855ms)
+✔ C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (1467.445413ms)
+✔ C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2137.548166ms)
+✔ C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data (2814.342655ms)
+✔ C6 unsupported future event fails explicitly before source apply rather than being silently deleted (1.644817ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7128.759346

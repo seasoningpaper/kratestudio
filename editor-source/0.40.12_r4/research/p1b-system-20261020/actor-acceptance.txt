@@ -1,0 +1,22 @@
+✔ actor isolation: designer edits the selected animation event, not the earlier character cue (811.892978ms)
+✔ actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions (704.597937ms)
+✔ actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM (1297.893689ms)
+✔ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (2.201715ms)
+✔ actor isolation: a new character cue without motion does not replay the previous one-shot (0.214443ms)
+✔ actor isolation: nested placement in visual state never aliases authored event parameters (0.183837ms)
+✔ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.512672ms)
+✔ actor isolation: numeric actor IDs survive event reordering as strings (0.35175ms)
+✔ actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names (10.280059ms)
+✔ actor isolation: every existing motion targets one actor without replacing or restarting other actors (0.623939ms)
+✔ actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state (0.304378ms)
+✔ actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent (1.090422ms)
+✔ actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity (0.360743ms)
+✔ actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source (0.95006ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3285.124805

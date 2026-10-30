@@ -1,0 +1,82 @@
+{
+  "sha": "ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "node_id": "MDY6Q29tbWl0MjYyMTMzMzcwOmFkMzZlNjBkOTQzNjY1MGI2YzM0MGUyZjc5YTE0OTdkYTJhNWE2YTM=",
+  "commit": {
+    "author": {
+      "name": "Zolt\u00e1n Sz\u0151gy\u00e9nyi",
+      "email": "zoltan.szogyenyi@gmail.com",
+      "date": "2020-12-21T18:25:58Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2020-12-21T18:25:58Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "82e3a7cd662892f96d16eb1bcd3387dbc04e41cc",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/trees/82e3a7cd662892f96d16eb1bcd3387dbc04e41cc"
+    },
+    "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/git/commits/ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJf4Oi2CRBK7hj4Ov3rIwAAdHIIAFpXI0xIJE6IQkHHcWhF/Cbm\nTxuTRPwIQtbWcxr5Veo0+eBqa7+GsV1tpczk0XaAqY9icR4+UBO3UyGv519Wj+ZH\nMdmUbCeEl+7ps8B5v0R5Bcm70aTDwvPPjtPnBobtt5KowoDOb4PR1IqscXR/6gOT\nQpwMEwhm4ApSdXOOcmxnoTiX8kq2LF8bqA0F8VdOVE2jdAuczvzxFMXEGGQWbjcO\nx6t1U4ZJLynVLjqdP3qmPFXNFBOiLEM4EcvV/2O3SLpL5RhEigurKm/Y2LU7dCIy\nPgbLXGJrUyRwVw70tOiGmLET+B+0+q31YwG1+HYHqR3m4g1OlpCoFJG/UWp9a/8=\n=witZ\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 82e3a7cd662892f96d16eb1bcd3387dbc04e41cc\nparent 871d5ea7abe7ed5c842fbb537aaa4cb262856df2\nauthor Zolt\u00e1n Sz\u0151gy\u00e9nyi <zoltan.szogyenyi@gmail.com> 1608575158 +0200\ncommitter GitHub <noreply@github.com> 1608575158 +0200\n\nUpdate README.md",
+      "verified_at": "2024-01-16T19:59:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/commits/ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "html_url": "https://github.com/themesberg/neumorphism-ui-bootstrap/commit/ad36e60d9436650b6c340e2f79a1497da2a5a6a3",
+  "comments_url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/commits/ad36e60d9436650b6c340e2f79a1497da2a5a6a3/comments",
+  "author": {
+    "login": "zoltanszogyenyi",
+    "id": 8052108,
+    "node_id": "MDQ6VXNlcjgwNTIxMDg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8052108?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zoltanszogyenyi",
+    "html_url": "https://github.com/zoltanszogyenyi",
+    "followers_url": "https://api.github.com/users/zoltanszogyenyi/followers",
+    "following_url": "https://api.github.com/users/zoltanszogyenyi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoltanszogyenyi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zoltanszogyenyi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zoltanszogyenyi/subscriptions",
+    "organizations_url": "https://api.github.com/users/zoltanszogyenyi/orgs",
+    "repos_url": "https://api.github.com/users/zoltanszogyenyi/repos",
+    "events_url": "https://api.github.com/users/zoltanszogyenyi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zoltanszogyenyi/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "871d5ea7abe7ed5c842fbb537aaa4cb262856df2",
+      "url": "https://api.github.com/repos/themesberg/neumorphism-ui-bootstrap/commits/871d5ea7abe7ed5c842fbb537aaa4cb262856df2",
+      "html_url": "https://github.com/themesberg/neumorphism-ui-bootstrap/commit/871d5ea7abe7ed5c842fbb537aaa4cb262856df2"
+    }
+  ]
+}

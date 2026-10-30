@@ -1,0 +1,34 @@
+✔ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (768.475277ms)
+✔ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (773.952116ms)
+✔ r2 editor: pending section delete refuses a changed ownership range (230.417801ms)
+✔ r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events (267.39483ms)
+✖ r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate (643.675278ms)
+✔ r2 layout: separator and all three densities persist without changing event data; legacy strong remains representable (927.221416ms)
+✔ r2 layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus (2.442576ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4502.947053
+
+✖ failing tests:
+
+test at tests/04012-r2-layout.test.mjs:6:1
+✖ r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate (643.675278ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r2-layout.test.mjs:6:663)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

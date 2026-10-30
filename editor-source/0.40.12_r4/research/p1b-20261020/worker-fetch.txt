@@ -1,0 +1,6 @@
+PASS index.html equals tested source
+PASS app.js equals tested source
+PASS workspace.js equals tested source
+PASS player.js equals tested source
+PASS style.css equals tested source
+PASS player.css equals tested source

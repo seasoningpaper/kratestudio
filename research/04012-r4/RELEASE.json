@@ -1,0 +1,64 @@
+{
+  "version": "0.40.12_r4",
+  "releaseType": "公開測試修訂版",
+  "projectId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "sitesVersion": 61,
+  "publishedSource": "3fa39c9a7e8c9f0bb27b26cb5c4c929ad385f4b6",
+  "savedVersionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_12f1906f9e988191beaa02938de23991",
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000001cb88209ac60bd4cad39e480",
+    "content_hash": "sha256:82d3be07dab9e172509ae2b8b06bb5d5d11a9424ded186853988fd64f235e78a",
+    "size_bytes": 11151360,
+    "file_count": 38
+  },
+  "deployment": {
+    "id": "appgdep_6ad9c2a15ddc81918861636cc508d4e3",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 視覺化故事創作平台 0.40.12_r3 — 公開測試修訂版",
+    "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_12f1906f9e988191beaa02938de23991",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad04b4f4db081918fe4a0e9d541130f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-22T08:00:47.611974+00:00"
+  },
+  "site": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 視覺化故事創作平台 0.40.12_r4 — 公開測試修訂版",
+    "version": 61,
+    "status": "active",
+    "access": "public",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site"
+  },
+  "rollback": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_f4f80619ee9881919d5e09c4421f56f3",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "version_number": 60,
+    "source": {
+      "commit_sha": "49fa62c2988f103739486d8fad2d2ed61fa41bc8"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000003d708209bef5b9e44575145f",
+      "content_hash": "sha256:5def11d6acf00b11eb57fba113b8c401ca404bffa2ff9f6383a89b16ac3e0371",
+      "size_bytes": 11130880,
+      "file_count": 37
+    },
+    "deployment_id": "appgdep_6ad9a8a196f481919e1789ce2bf3293b"
+  },
+  "verification": {
+    "uniqueAutomatedTests": 146,
+    "syntaxFiles": 13,
+    "localWorkerAssets": 36,
+    "archiveWorkerExact": true,
+    "productionBrowser": false,
+    "physicalTouch": false,
+    "audioListening": false,
+    "near5GbBrowserWriteReload": false
+  }
+}

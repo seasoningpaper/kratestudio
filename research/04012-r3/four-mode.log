@@ -1,0 +1,14 @@
+✔ 04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow (36.410125ms)
+✔ 04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow (60.996881ms)
+✔ 04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow (57.577747ms)
+✔ 04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields (1685.393248ms)
+✔ 04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields (2035.773268ms)
+✔ 04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields (2224.884505ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6798.723155

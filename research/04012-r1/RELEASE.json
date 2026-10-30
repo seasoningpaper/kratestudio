@@ -1,0 +1,43 @@
+{
+  "version": "0.40.12_r1",
+  "releaseType": "測試修訂版",
+  "source": "2d4ee8a8922fffe28c60549d1420b744ac7577a6",
+  "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "siteVersion": 58,
+  "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_aed0ade748d88191874221e41d6f06f2",
+  "deploymentId": "appgdep_6ad8c437f5088191af25d1f92d3b8e91",
+  "status": "succeeded",
+  "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+  "updatedAtUtc": "2026-10-21T13:55:16.603584+00:00",
+  "updatedAtTaipei": "2026/10/21 21:55:16",
+  "title": "Koi Maker 視覺化故事創作平台 0.40.12_r1",
+  "siteStatus": "active",
+  "audience": "public",
+  "sourceZip": "Koi-Maker-0.40.12_r1-published-source.zip",
+  "sourceZipBytes": 13030644,
+  "sourceZipSha256": "1a8b92b3f8879124b139789ce3154140ad1d9faa84c1d778ea61950c560168ca",
+  "archiveSha256": "sha256:826570a413e44f076ac81c40345cdcae2b12bd99efa35975fe83f320b92c5ea9",
+  "tests": {
+    "uniquePassed": 199,
+    "syntaxFiles": 20,
+    "build": "passed",
+    "workerAssets": 33
+  },
+  "rollback": {
+    "siteVersion": 57,
+    "source": "d855a55fb7981cc71db50bc977fbe276af976a69",
+    "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_22224ccfd248819191fc73558f062c91",
+    "developmentBefore": "f9169682dc2283a1513d9b43d4945fe54fbe2f1c",
+    "backup": "Koi-Maker-before-0.40.12_r1-f916968.zip",
+    "backupSha256": "f062ce91258aec85f1416984634a66c17c61c377ba7bfedca0db981c2a8f1b25"
+  },
+  "manualPending": [
+    "240FPS／真實刷新率影格驗收",
+    "過場舊景閃回使用者回報尚未獨立重現",
+    "真人瀏覽器視覺、觸控、聽感",
+    "原始完整專案章節／互動／素材"
+  ],
+  "guiProtection": "No CSS/Logo/theme changes; HTML version strings only; Header/category/toolbar strict DOM passed; new toolbox entries and necessary until fields only",
+  "noStorageMigration": true,
+  "postDeploymentVerification": "Native Sites succeeded + get_site active/public/58/title/original URL; no real-browser assertion"
+}

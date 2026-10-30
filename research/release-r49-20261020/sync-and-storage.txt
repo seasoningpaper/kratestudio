@@ -1,0 +1,27 @@
+✔ P0-D clean KOI file follows block/event edits without manual refresh (382.350558ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (306.42612ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (161.584313ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (258.299871ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (360.337208ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (316.50402ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (211.987897ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.663652ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (13.235532ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.449428ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.19844ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (2.107992ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.501117ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (3.157908ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.679476ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.492814ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.346363ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (1.005979ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (47.235454ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2542.877669

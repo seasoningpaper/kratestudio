@@ -1,0 +1,2 @@
+const cache=new Map();if(typeof window!=='undefined')window.KoiBlockFeedback=blockFeedback;
+export function blockFeedback(kind,enabled=true){if(!enabled||typeof Audio==='undefined')return;const files={connect:'click.mp3',disconnect:'disconnect.wav',delete:'delete.mp3'};if(!files[kind])return;try{let a=cache.get(kind);if(!a){a=new Audio('assets/ui/'+files[kind]);a.preload='auto';a.volume=.35;cache.set(kind,a)}a.currentTime=0;const playing=a.play();playing?.catch?.(()=>{})}catch{}}

@@ -1,0 +1,76 @@
+TAP version 13
+# Subtest: R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID
+ok 1 - R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID
+  ---
+  duration_ms: 898.506589
+  type: 'test'
+  ...
+# Subtest: R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references
+ok 2 - R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references
+  ---
+  duration_ms: 2.503433
+  type: 'test'
+  ...
+# Subtest: R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid
+ok 3 - R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid
+  ---
+  duration_ms: 0.712725
+  type: 'test'
+  ...
+# Subtest: R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently
+ok 4 - R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently
+  ---
+  duration_ms: 0.496729
+  type: 'test'
+  ...
+# Subtest: R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts
+ok 5 - R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts
+  ---
+  duration_ms: 0.591652
+  type: 'test'
+  ...
+# Subtest: R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs
+ok 6 - R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs
+  ---
+  duration_ms: 0.435447
+  type: 'test'
+  ...
+# Subtest: R2-G: real asset reference dialog shows primary and secondary typed usages without changing the project
+ok 7 - R2-G: real asset reference dialog shows primary and secondary typed usages without changing the project
+  ---
+  duration_ms: 774.064063
+  type: 'test'
+  ...
+# Subtest: legacy Base64 project migrates only after durable save and verification
+ok 8 - legacy Base64 project migrates only after durable save and verification
+  ---
+  duration_ms: 7.888029
+  type: 'test'
+  ...
+# Subtest: transaction failures leave the previous project and files intact
+ok 9 - transaction failures leave the previous project and files intact
+  ---
+  duration_ms: 4.238079
+  type: 'test'
+  ...
+# Subtest: deleting an asset unlinks all scene, sprite, CG and audio references
+ok 10 - deleting an asset unlinks all scene, sprite, CG and audio references
+  ---
+  duration_ms: 1.108341
+  type: 'test'
+  ...
+# Subtest: font files and screen image references survive durable save and portable export
+ok 11 - font files and screen image references survive durable save and portable export
+  ---
+  duration_ms: 2.570194
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2699.875005

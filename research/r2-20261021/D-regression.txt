@@ -1,0 +1,130 @@
+TAP version 13
+# Subtest: typed variables rename all references, delete safely, and SQL mutations are atomic
+ok 1 - typed variables rename all references, delete safely, and SQL mutations are atomic
+  ---
+  duration_ms: 5.73836
+  type: 'test'
+  ...
+# Subtest: visual tables and SQL share records, export in project and resolve in runtime dialogue
+ok 2 - visual tables and SQL share records, export in project and resolve in runtime dialogue
+  ---
+  duration_ms: 1.593337
+  type: 'test'
+  ...
+# Subtest: interface geometry clamps to canvas and repeated actor swaps retain new image and motion state
+ok 3 - interface geometry clamps to canvas and repeated actor swaps retain new image and motion state
+  ---
+  duration_ms: 1.845639
+  type: 'test'
+  ...
+# Subtest: game interface designer drag, touch coordinates, labels, hover assets and motion persist through tabs and player
+ok 4 - game interface designer drag, touch coordinates, labels, hover assets and motion persist through tabs and player
+  ---
+  duration_ms: 1259.472158
+  type: 'test'
+  ...
+# Subtest: variable CRUD and table editor are visual, stay synchronized, and old font preferences do not mask authored styles
+ok 5 - variable CRUD and table editor are visual, stay synchronized, and old font preferences do not mask authored styles
+  ---
+  duration_ms: 807.378756
+  type: 'test'
+  ...
+# Subtest: P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing
+ok 6 - P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing
+  ---
+  duration_ms: 1.572346
+  type: 'test'
+  ...
+# Subtest: P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations
+ok 7 - P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations
+  ---
+  duration_ms: 1.309068
+  type: 'test'
+  ...
+# Subtest: P1-A screen background profiles, template export and asset references remain separate
+ok 8 - P1-A screen background profiles, template export and asset references remain separate
+  ---
+  duration_ms: 2.380447
+  type: 'test'
+  ...
+# Subtest: P1-A game designer selects library backgrounds, creates one missing background and persists configuration
+ok 9 - P1-A game designer selects library backgrounds, creates one missing background and persists configuration
+  ---
+  duration_ms: 1044.641952
+  type: 'test'
+  ...
+# Subtest: P1-A title library background, fit and position reach desktop/mobile designer and player
+ok 10 - P1-A title library background, fit and position reach desktop/mobile designer and player
+  ---
+  duration_ms: 1089.859454
+  type: 'test'
+  ...
+# Subtest: P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings
+ok 11 - P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings
+  ---
+  duration_ms: 1607.466646
+  type: 'test'
+  ...
+# Subtest: P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue
+ok 12 - P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue
+  ---
+  duration_ms: 458.668603
+  type: 'test'
+  ...
+# Subtest: P1-A importing a background in game designer keeps the asset and one new background through portable restore
+ok 13 - P1-A importing a background in game designer keeps the asset and one new background through portable restore
+  ---
+  duration_ms: 484.258094
+  type: 'test'
+  ...
+# Subtest: P1-A mobile menu background saves independently and reloads alongside title and scene defaults
+ok 14 - P1-A mobile menu background saves independently and reloads alongside title and scene defaults
+  ---
+  duration_ms: 1081.663875
+  type: 'test'
+  ...
+# Subtest: template group movement moves nested slots once and clamps the complete group inside the canvas
+ok 15 - template group movement moves nested slots once and clamps the complete group inside the canvas
+  ---
+  duration_ms: 2.472773
+  type: 'test'
+  ...
+# Subtest: copying local save elements uses world coordinates and pasting creates independent IDs
+ok 16 - copying local save elements uses world coordinates and pasting creates independent IDs
+  ---
+  duration_ms: 0.551803
+  type: 'test'
+  ...
+# Subtest: dropped images retain their aspect ratio in both portrait and landscape logical canvases
+ok 17 - dropped images retain their aspect ratio in both portrait and landscape logical canvases
+  ---
+  duration_ms: 0.779567
+  type: 'test'
+  ...
+# Subtest: template text is in logical pixels and image fill never silently stretches artwork
+ok 18 - template text is in logical pixels and image fill never silently stretches artwork
+  ---
+  duration_ms: 0.429598
+  type: 'test'
+  ...
+# Subtest: migrated default font sizes do not overwrite new creator-authored font choices
+ok 19 - migrated default font sizes do not overwrite new creator-authored font choices
+  ---
+  duration_ms: 2.177737
+  type: 'test'
+  ...
+# Subtest: r2 reduces prior defaults but retains explicitly authored typography from the previous schema
+ok 20 - r2 reduces prior defaults but retains explicitly authored typography from the previous schema
+  ---
+  duration_ms: 0.256677
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8638.829665

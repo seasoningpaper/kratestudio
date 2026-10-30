@@ -1,0 +1,44 @@
+✔ 04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow (21.427296ms)
+✔ 04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow (27.808233ms)
+✔ 04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow (40.594074ms)
+✔ 04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields (1340.478511ms)
+✔ 04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields (1579.679435ms)
+✔ 04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields (1810.807707ms)
+✔ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (612.132799ms)
+✔ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (572.366113ms)
+✔ P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect (597.062767ms)
+✔ P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts (581.287906ms)
+✔ P1-B context extraction still plays immediately and only after a successful detach (471.75029ms)
+✔ P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback (360.286795ms)
+✔ P1-B dragging a tail out of a floating stack detects its real external connection (298.746174ms)
+✔ P1-B opening CG/music gallery preserves the existing title BGM instance and playback position (275.66251ms)
+✔ P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM (299.658119ms)
+✔ P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it (481.938693ms)
+✔ P1-B gallery preview volume follows master/music/mute plus its own gain (216.030432ms)
+✔ P1-B gallery audio rejection keeps BGM focus and reports an error without throwing (212.818828ms)
+✔ P1-B game BGM also continues while viewing CG and respects gallery focus after returning (345.343749ms)
+✔ P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context (279.111112ms)
+✔ P1-B muted preference is also applied to gallery music and remains muted after resuming BGM (274.759623ms)
+✔ P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped (216.643622ms)
+✔ P1-B an explicit script music stop is not undone when gallery music ends (413.334026ms)
+✔ C2: checkbox selection, active editing, all and clear remain independent without touching canonical events (913.975647ms)
+✔ C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work (761.315265ms)
+✔ C2: section checkbox participates in selection; closed groups do not hide a newly located cursor (730.153773ms)
+✔ C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic (782.733852ms)
+✔ C2: batch move preserves order, unknown fields and incoming cross-chapter destinations (779.047091ms)
+✔ C2: batch delete requires confirmation, clears dangling branch targets and is undoable (664.819431ms)
+✔ C2: changing chapters while deletion is pending cancels the old operation (680.256314ms)
+✔ C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact (701.028898ms)
+✔ C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity (644.015638ms)
+✔ C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection (683.442219ms)
+✔ C2: bounded 500-event list selection and bulk movement retain all event semantics (1206.864284ms)
+✔ C2: bounded 1000-event list selection and bulk movement retain all event semantics (1627.806594ms)
+✔ C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict (722.431137ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 23670.899789

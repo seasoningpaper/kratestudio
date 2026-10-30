@@ -1,0 +1,76 @@
+TAP version 13
+# Subtest: sound track persists across dialogue changes, independently replaces voice, and stops explicitly
+ok 1 - sound track persists across dialogue changes, independently replaces voice, and stops explicitly
+  ---
+  duration_ms: 2.170918
+  type: 'test'
+  ...
+# Subtest: same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX
+ok 2 - same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX
+  ---
+  duration_ms: 4.241167
+  type: 'test'
+  ...
+# Subtest: ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops
+ok 3 - ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops
+  ---
+  duration_ms: 0.469727
+  type: 'test'
+  ...
+# Subtest: KOI sound loops and selective/all stops compile to runtime events
+ok 4 - KOI sound loops and selective/all stops compile to runtime events
+  ---
+  duration_ms: 4.650133
+  type: 'test'
+  ...
+# Subtest: KOI event source round-trips attributes, quotes, semicolons and existing numeric branches
+ok 5 - KOI event source round-trips attributes, quotes, semicolons and existing numeric branches
+  ---
+  duration_ms: 2.175536
+  type: 'test'
+  ...
+# Subtest: options, GUI, screens and modules apply to the same project with real activity references
+ok 6 - options, GUI, screens and modules apply to the same project with real activity references
+  ---
+  duration_ms: 7.944502
+  type: 'test'
+  ...
+# Subtest: continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters
+ok 7 - continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters
+  ---
+  duration_ms: 1.100648
+  type: 'test'
+  ...
+# Subtest: R2-E Medium: parser preserves legacy looping defaults and explicit native volume/loop flags
+ok 8 - R2-E Medium: parser preserves legacy looping defaults and explicit native volume/loop flags
+  ---
+  duration_ms: 4.071431
+  type: 'test'
+  ...
+# Subtest: R2-E Medium: mixer applies per-cue volume and loop, same-file cue restart and safe gallery resume
+ok 9 - R2-E Medium: mixer applies per-cue volume and loop, same-file cue restart and safe gallery resume
+  ---
+  duration_ms: 2.707888
+  type: 'test'
+  ...
+# Subtest: R2-E: synchronous/rejected audio restrictions never escape mixer play or focus resume
+ok 10 - R2-E: synchronous/rejected audio restrictions never escape mixer play or focus resume
+  ---
+  duration_ms: 6.931297
+  type: 'test'
+  ...
+# Subtest: R2-E: music cue state survives save/load, does not alter source event parameters
+ok 11 - R2-E: music cue state survives save/load, does not alter source event parameters
+  ---
+  duration_ms: 1.352386
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 109.841166

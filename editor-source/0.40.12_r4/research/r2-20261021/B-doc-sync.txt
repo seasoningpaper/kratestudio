@@ -1,0 +1,58 @@
+TAP version 13
+# Subtest: P0-D clean KOI file follows block/event edits without manual refresh
+ok 1 - P0-D clean KOI file follows block/event edits without manual refresh
+  ---
+  duration_ms: 489.405015
+  type: 'test'
+  ...
+# Subtest: P0-D global Undo and Redo restore the same source draft in the code editor
+ok 2 - P0-D global Undo and Redo restore the same source draft in the code editor
+  ---
+  duration_ms: 362.62278
+  type: 'test'
+  ...
+# Subtest: P0-D applying reordered source preserves foreign jumps by destination event ID
+ok 3 - P0-D applying reordered source preserves foreign jumps by destination event ID
+  ---
+  duration_ms: 221.80648
+  type: 'test'
+  ...
+# Subtest: P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history
+ok 4 - P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history
+  ---
+  duration_ms: 353.344594
+  type: 'test'
+  ...
+# Subtest: P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history
+ok 5 - P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history
+  ---
+  duration_ms: 383.483141
+  type: 'test'
+  ...
+# Subtest: P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration
+ok 6 - P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration
+  ---
+  duration_ms: 343.687703
+  type: 'test'
+  ...
+# Subtest: P0-D chapter changes show the correctly bound script and preserve both chapters independently
+ok 7 - P0-D chapter changes show the correctly bound script and preserve both chapters independently
+  ---
+  duration_ms: 232.964119
+  type: 'test'
+  ...
+# Subtest: P1-C reference schema: 35 entries each retain all 15 required documentation fields
+ok 8 - P1-C reference schema: 35 entries each retain all 15 required documentation fields
+  ---
+  duration_ms: 7.034901
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2916.648624

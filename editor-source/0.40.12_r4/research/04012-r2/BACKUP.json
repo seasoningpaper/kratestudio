@@ -1,0 +1,10 @@
+{
+  "base": "136a54067a7fb9a6fe837e207d95840a46c072d8",
+  "tag": "before-04012-r2-136a540",
+  "archive": "Koi-Maker-before-0.40.12_r2-136a540.zip",
+  "bytes": 13102872,
+  "sha256": "48fbe7e8fe41cf94ae72559c8ffcbccda93e1f6065c5aa9907c05f96f6d7398a",
+  "crc": "passed",
+  "rollbackSites": 58,
+  "rollbackSource": "2d4ee8a8922fffe28c60549d1420b744ac7577a6"
+}

@@ -1,0 +1,15 @@
+✔ game interface designer drag, touch coordinates, labels, hover assets and motion persist through tabs and player (1262.897275ms)
+✔ screen layout import validates actions, isolates mobile geometry and retains real slot positions (3.904089ms)
+✔ custom save layout reaches the real player, moves slots and executes a configured quick-save button (1434.712692ms)
+✔ game layout elements can resize, nudge and lock without losing focus or changing the story (886.840566ms)
+✔ template navigation has one route per screen and left-side changes immediately update the preview (1055.712916ms)
+✔ autoplay rejection offers a themed play action and broken title video falls back to the title background (389.176751ms)
+✔ returning to the same video event restarts the media rather than leaving the finished frame stuck (211.033407ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6298.435734

@@ -1,0 +1,12 @@
+✔ official originals are byte-for-byte the two uploaded files and remain separate from deploy assets (7.37995ms)
+✔ transparent rasters and icons contain actual alpha, correct dimensions and only the original symbol (80.048047ms)
+✔ all existing light and dark presets switch the correct logo without changing src, palette or project data (3737.42444ms)
+✔ persisted dark preference is restored by a fresh document using the real storage and startup path (557.618143ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4756.310472

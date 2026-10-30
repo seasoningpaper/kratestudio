@@ -1,0 +1,30 @@
+{
+  "version": "0.40.12_r2",
+  "namedUniquePassingTests": 190,
+  "syntaxChecks": 19,
+  "build": "passed",
+  "workerAssets": 34,
+  "knownUnresolvedCriticalHigh": [],
+  "fourModeSemanticSizes": [
+    50,
+    300,
+    500
+  ],
+  "eventListBoundedSizes": [
+    500,
+    1000
+  ],
+  "dataModelMigration": "none",
+  "storageLimitChanged": false,
+  "capacity5GB": "not implemented; current 2GiB",
+  "GUI": "authorized local changes only; source/DOM contracts passed, pixels pending",
+  "rollback": "Sites58 / 2d4ee8a; development base 136a540",
+  "manualPending": [
+    "new multi-resolution and dark/light pixels",
+    "real touch",
+    "240FPS intro and typing",
+    "listening",
+    "Windows11 actual use"
+  ],
+  "publicationEligibility": "automated core gate passed; user authorized non-blocking manual items pending"
+}

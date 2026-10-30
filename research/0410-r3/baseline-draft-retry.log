@@ -1,0 +1,9 @@
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (645.543346ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1093.628492

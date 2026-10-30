@@ -1,0 +1,65 @@
+{
+  "scope": "explicit isolated byte-count fixture; not user production project or real media decode",
+  "eventReferencesToSameAsset": 50,
+  "storedAssets": 9,
+  "bytes": 3915,
+  "metadataBytes": 3879,
+  "categories": [
+    {
+      "id": "character",
+      "label": "角色立繪",
+      "color": "#719cb0",
+      "bytes": 6,
+      "assets": 1
+    },
+    {
+      "id": "background",
+      "label": "背景",
+      "color": "#8ca58c",
+      "bytes": 6,
+      "assets": 1
+    },
+    {
+      "id": "image",
+      "label": "CG／一般圖片",
+      "color": "#aa9ab3",
+      "bytes": 6,
+      "assets": 1
+    },
+    {
+      "id": "music",
+      "label": "音樂",
+      "color": "#a5a16f",
+      "bytes": 1,
+      "assets": 1
+    },
+    {
+      "id": "sound",
+      "label": "音效",
+      "color": "#bd957f",
+      "bytes": 2,
+      "assets": 1
+    },
+    {
+      "id": "voice",
+      "label": "語音",
+      "color": "#829cbd",
+      "bytes": 3,
+      "assets": 1
+    },
+    {
+      "id": "video",
+      "label": "影片",
+      "color": "#ac8593",
+      "bytes": 4,
+      "assets": 1
+    },
+    {
+      "id": "other",
+      "label": "專案資料及其他",
+      "color": "#9699a0",
+      "bytes": 3887,
+      "assets": 2
+    }
+  ]
+}

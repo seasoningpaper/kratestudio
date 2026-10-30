@@ -1,0 +1,10 @@
+✔ P1-A title library background, fit and position reach desktop/mobile designer and player (1196.465231ms)
+✔ P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue (568.069198ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2102.304746

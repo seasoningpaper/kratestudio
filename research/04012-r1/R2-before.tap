@@ -1,0 +1,57 @@
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (557.157872ms)
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (377.92889ms)
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (300.328184ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0 (306.686741ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180 (532.913327ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 2
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2470.654477
+
+✖ failing tests:
+
+test at tests/04012-player-frames.test.mjs:5:29
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (557.157872ms)
+  AssertionError [ERR_ASSERTION]: completed next text was committed before any typing tick: ["新句"]
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-player-frames.test.mjs:7:422)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/04012-player-frames.test.mjs:5:29
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (377.92889ms)
+  AssertionError [ERR_ASSERTION]: completed next text was committed before any typing tick: ["新句"]
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-player-frames.test.mjs:7:422)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/04012-player-frames.test.mjs:5:29
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (300.328184ms)
+  AssertionError [ERR_ASSERTION]: completed next text was committed before any typing tick: ["新句"]
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-player-frames.test.mjs:7:422)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

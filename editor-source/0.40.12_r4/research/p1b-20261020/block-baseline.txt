@@ -1,0 +1,28 @@
+✖ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (644.449921ms)
+✖ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (377.522814ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1544.281771
+
+✖ failing tests:
+
+test at tests/p1b-block-audio.test.mjs:8:1
+✖ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (644.449921ms)
+  TypeError: Cannot set properties of null (setting 'getBoundingClientRect')
+      at controls (file:///workspace/sites/galgame-studio/tests/p1b-block-audio.test.mjs:6:148)
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1b-block-audio.test.mjs:8:163)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests/p1b-block-audio.test.mjs:9:1
+✖ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (377.522814ms)
+  TypeError: Cannot set properties of null (setting 'getBoundingClientRect')
+      at controls (file:///workspace/sites/galgame-studio/tests/p1b-block-audio.test.mjs:6:148)
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1b-block-audio.test.mjs:9:161)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

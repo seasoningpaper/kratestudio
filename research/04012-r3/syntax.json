@@ -1,0 +1,47 @@
+[
+  {
+    "file": "src/storage.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/storage-policy.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/storage-capacity.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/storage-format.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/project-backup.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/packaging.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/verify-large-backup.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/test-local.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/app.js",
+    "exitCode": 0,
+    "output": ""
+  }
+]

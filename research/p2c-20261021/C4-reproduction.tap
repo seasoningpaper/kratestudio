@@ -1,0 +1,1840 @@
+✖ C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged (500.275984ms)
+✖ C4 reproduction: second touch cannot move or finish the first game-template gesture (501.071044ms)
+✖ C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later (416.618108ms)
+✖ C4 reproduction: second touch cannot move or finish the first menu-template gesture (379.440458ms)
+✖ C4 reproduction: lost pointer capture cancels a menu-template draft (379.119658ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 0
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2530.767764
+
+✖ failing tests:
+
+test at tests/p2c-mobile.test.mjs:8:1
+✖ C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged (500.275984ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + HTMLButtonElement {
+  +   Symbol(SameObject caches): [Object: null prototype] {
+  +     classList: DOMTokenList {},
+  +     style: CSSStyleDeclaration {
+  +       '0': '--block-color',
+  +       '1': 'pointer-events',
+  +       '2': 'z-index',
+  +       '3': 'width',
+  +       '4': 'left',
+  +       '5': 'top'
+  +     }
+  +   }
+  + }
+  - null
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p2c-mobile.test.mjs:8:292)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {},
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p2c-mobile.test.mjs:9:1
+✖ C4 reproduction: second touch cannot move or finish the first game-template gesture (501.071044ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      accent: '#b77390',
+      autoDelay: 1800,
+  +   gameUI: {
+  +     aspect: '16:9',
+  +     boxStyle: 'classic',
+  +     elements: {
+  +       'button:auto': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '自動',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 10,
+  +         y: 96.2
+  +       },
+  +       'button:hide': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '隱藏',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 90,
+  +         y: 96.2
+  +       },
+  +       'button:history': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '歷史',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 0,
+  +         y: 96.2
+  +       },
+  +       'button:home': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '回首頁',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 80,
+  +         y: 96.2
+  +       },
+  +       'button:load': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '讀檔',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 60,
+  +         y: 96.2
+  +       },
+  +       'button:quickLoad': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: 'Q.讀取',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 40,
+  +         y: 96.2
+  +       },
+  +       'button:quickSave': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: 'Q.儲存',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 30,
+  +         y: 96.2
+  +       },
+  +       'button:save': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '存檔',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 50,
+  +         y: 96.2
+  +       },
+  +       'button:settings': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '設定',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 70,
+  +         y: 96.2
+  +       },
+  +       'button:skip': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '已讀快轉',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 20,
+  +         y: 96.2
+  +       },
+  +       'title:gallery': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '回憶鑑賞',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 66
+  +       },
+  +       'title:load': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '讀取進度',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 56
+  +       },
+  +       'title:resume': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '繼續故事',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 46
+  +       },
+  +       'title:settings': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '遊戲設定',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 76
+  +       },
+  +       'title:start': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '開始故事',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 36
+  +       },
+  +       choices: {
+  +         background: '#fff6f2',
+  +         color: '#945872',
+  +         h: 38,
+  +         hover: '#ead1dd',
+  +         w: 54,
+  +         x: 23,
+  +         y: 18
+  +       },
+  +       dialogue: {
+  +         background: '#fff8f0',
+  +         color: '#5a4450',
+  +         h: 21,
+  +         opacity: 0.93,
+  +         w: 86,
+  +         x: 14,
+  +         y: 79
+  +       },
+  +       name: {
+  +         background: '#b77390',
+  +         color: '#ffffff',
+  +         h: 7,
+  +         w: 22,
+  +         x: 7,
+  +         y: 61
+  +       },
+  +       subtitle: {
+  +         color: '#6e4a5f',
+  +         h: 5,
+  +         w: 84,
+  +         x: 8,
+  +         y: 29
+  +       },
+  +       title: {
+  +         color: '#5a4450',
+  +         h: 19,
+  +         w: 84,
+  +         x: 8,
+  +         y: 10
+  +       },
+  +       toolbar: {
+  +         background: '#3b2b3b',
+  +         h: 3.8,
+  +         opacity: 0.8,
+  +         w: 100,
+  +         x: 0,
+  +         y: 96.2
+  +       }
+  +     },
+  +     features: {},
+  +     font: 'system',
+  +     fontSize: 18,
+  +     lineHeight: 1.9,
+  +     nameStyle: 'tab',
+  +     orientation: 'landscape',
+  +     requireRotation: false,
+  +     titleFeatures: {},
+  +     titleStyle: 'classic',
+  +     toolbarPreset: ''
+  +   },
+      subtitle: '一段屬於你的春日物語',
+      textSpeed: 35
+    }
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p2c-mobile.test.mjs:9:450)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390', gameUI: { aspect: '16:9', orientation: 'landscape', requireRotation: false, titleStyle: 'classic', toolbarPreset: '', features: {}, titleFeatures: {}, font: 'system', fontSize: 18, lineHeight: 1.9, boxStyle: 'classic', nameStyle: 'tab', elements: [Object] } },
+    expected: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p2c-mobile.test.mjs:10:1
+✖ C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later (416.618108ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      accent: '#b77390',
+      autoDelay: 1800,
+  +   gameUI: {
+  +     aspect: '16:9',
+  +     boxStyle: 'classic',
+  +     elements: {
+  +       'button:auto': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '自動',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 10,
+  +         y: 96.2
+  +       },
+  +       'button:hide': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '隱藏',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 90,
+  +         y: 96.2
+  +       },
+  +       'button:history': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '歷史',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 0,
+  +         y: 96.2
+  +       },
+  +       'button:home': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '回首頁',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 80,
+  +         y: 96.2
+  +       },
+  +       'button:load': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '讀檔',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 60,
+  +         y: 96.2
+  +       },
+  +       'button:quickLoad': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: 'Q.讀取',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 40,
+  +         y: 96.2
+  +       },
+  +       'button:quickSave': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: 'Q.儲存',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 30,
+  +         y: 96.2
+  +       },
+  +       'button:save': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '存檔',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 50,
+  +         y: 96.2
+  +       },
+  +       'button:settings': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '設定',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 70,
+  +         y: 96.2
+  +       },
+  +       'button:skip': {
+  +         background: 'transparent',
+  +         color: '#fff7f3',
+  +         h: 3.8,
+  +         hover: '#b77390',
+  +         hoverColor: '#ffffff',
+  +         label: '已讀快轉',
+  +         opacity: 1,
+  +         w: 10,
+  +         x: 20,
+  +         y: 96.2
+  +       },
+  +       'title:gallery': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '回憶鑑賞',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 66
+  +       },
+  +       'title:load': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '讀取進度',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 56
+  +       },
+  +       'title:resume': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '繼續故事',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 46
+  +       },
+  +       'title:settings': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '遊戲設定',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 76
+  +       },
+  +       'title:start': {
+  +         background: '#fff8f0',
+  +         color: '#6e4a5f',
+  +         h: 8,
+  +         hover: '#ead1dd',
+  +         hoverColor: '#784e68',
+  +         label: '開始故事',
+  +         opacity: 0.8,
+  +         w: 32,
+  +         x: 8,
+  +         y: 36
+  +       },
+  +       choices: {
+  +         background: '#fff6f2',
+  +         color: '#945872',
+  +         h: 38,
+  +         hover: '#ead1dd',
+  +         w: 54,
+  +         x: 23,
+  +         y: 18
+  +       },
+  +       dialogue: {
+  +         background: '#fff8f0',
+  +         color: '#5a4450',
+  +         h: 21,
+  +         opacity: 0.93,
+  +         w: 86,
+  +         x: 13.25,
+  +         y: 74
+  +       },
+  +       name: {
+  +         background: '#b77390',
+  +         color: '#ffffff',
+  +         h: 7,
+  +         w: 22,
+  +         x: 7,
+  +         y: 61
+  +       },
+  +       subtitle: {
+  +         color: '#6e4a5f',
+  +         h: 5,
+  +         w: 84,
+  +         x: 8,
+  +         y: 29
+  +       },
+  +       title: {
+  +         color: '#5a4450',
+  +         h: 19,
+  +         w: 84,
+  +         x: 8,
+  +         y: 10
+  +       },
+  +       toolbar: {
+  +         background: '#3b2b3b',
+  +         h: 3.8,
+  +         opacity: 0.8,
+  +         w: 100,
+  +         x: 0,
+  +         y: 96.2
+  +       }
+  +     },
+  +     features: {},
+  +     font: 'system',
+  +     fontSize: 18,
+  +     lineHeight: 1.9,
+  +     nameStyle: 'tab',
+  +     orientation: 'landscape',
+  +     requireRotation: false,
+  +     titleFeatures: {},
+  +     titleStyle: 'classic',
+  +     toolbarPreset: ''
+  +   },
+      subtitle: '一段屬於你的春日物語',
+      textSpeed: 35
+    }
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p2c-mobile.test.mjs:10:503)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390', gameUI: { aspect: '16:9', orientation: 'landscape', requireRotation: false, titleStyle: 'classic', toolbarPreset: '', features: {}, titleFeatures: {}, font: 'system', fontSize: 18, lineHeight: 1.9, boxStyle: 'classic', nameStyle: 'tab', elements: [Object] } },
+    expected: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p2c-mobile.test.mjs:11:1
+✖ C4 reproduction: second touch cannot move or finish the first menu-template gesture (379.440458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      accent: '#b77390',
+      autoDelay: 1800,
+  +   menuTemplates: {
+  +     gallery: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '回憶鑑賞',
+  +           w: 80,
+  +           x: 20,
+  +           y: 24.5
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     history: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '對話回看',
+  +           w: 80,
+  +           x: 20,
+  +           y: 24.5
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     load: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         'slot:0': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 16
+  +         },
+  +         'slot:1': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 16
+  +         },
+  +         'slot:2': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 16
+  +         },
+  +         'slot:3': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 43
+  +         },
+  +         'slot:4': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 43
+  +         },
+  +         'slot:5': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 43
+  +         },
+  +         'slot:6': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 70
+  +         },
+  +         'slot:7': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 70
+  +         },
+  +         'slot:8': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 70
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '讀取進度',
+  +           w: 80,
+  +           x: 20,
+  +           y: 24.5
+  +         },
+  +         pages: {
+  +           h: 13,
+  +           label: '存檔頁碼',
+  +           w: 100,
+  +           x: 0,
+  +           y: 0
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     save: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         'slot:0': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 16
+  +         },
+  +         'slot:1': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 16
+  +         },
+  +         'slot:2': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 16
+  +         },
+  +         'slot:3': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 43
+  +         },
+  +         'slot:4': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 43
+  +         },
+  +         'slot:5': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 43
+  +         },
+  +         'slot:6': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 70
+  +         },
+  +         'slot:7': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 70
+  +         },
+  +         'slot:8': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 70
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '儲存進度',
+  +           w: 80,
+  +           x: 20,
+  +           y: 24.5
+  +         },
+  +         pages: {
+  +           h: 13,
+  +           label: '存檔頁碼',
+  +           w: 100,
+  +           x: 0,
+  +           y: 0
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     settings: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '遊戲設定',
+  +           w: 80,
+  +           x: 20,
+  +           y: 24.5
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     }
+  +   },
+      subtitle: '一段屬於你的春日物語',
+      textSpeed: 35
+    }
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p2c-mobile.test.mjs:11:471)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390', menuTemplates: { save: [Object], load: [Object], history: [Object], settings: [Object], gallery: [Object] } },
+    expected: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p2c-mobile.test.mjs:12:1
+✖ C4 reproduction: lost pointer capture cancels a menu-template draft (379.119658ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      accent: '#b77390',
+      autoDelay: 1800,
+  +   menuTemplates: {
+  +     gallery: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '回憶鑑賞',
+  +           w: 80,
+  +           x: 14,
+  +           y: 18
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     history: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '對話回看',
+  +           w: 80,
+  +           x: 14,
+  +           y: 18
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     load: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         'slot:0': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 16
+  +         },
+  +         'slot:1': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 16
+  +         },
+  +         'slot:2': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 16
+  +         },
+  +         'slot:3': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 43
+  +         },
+  +         'slot:4': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 43
+  +         },
+  +         'slot:5': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 43
+  +         },
+  +         'slot:6': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 70
+  +         },
+  +         'slot:7': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 70
+  +         },
+  +         'slot:8': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 70
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '讀取進度',
+  +           w: 80,
+  +           x: 14,
+  +           y: 18
+  +         },
+  +         pages: {
+  +           h: 13,
+  +           label: '存檔頁碼',
+  +           w: 100,
+  +           x: 0,
+  +           y: 0
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     save: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         'slot:0': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 16
+  +         },
+  +         'slot:1': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 16
+  +         },
+  +         'slot:2': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 16
+  +         },
+  +         'slot:3': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 43
+  +         },
+  +         'slot:4': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 43
+  +         },
+  +         'slot:5': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 43
+  +         },
+  +         'slot:6': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 2,
+  +           y: 70
+  +         },
+  +         'slot:7': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 35,
+  +           y: 70
+  +         },
+  +         'slot:8': {
+  +           fontSize: 9,
+  +           h: 24,
+  +           w: 30,
+  +           x: 68,
+  +           y: 70
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '儲存進度',
+  +           w: 80,
+  +           x: 14,
+  +           y: 18
+  +         },
+  +         pages: {
+  +           h: 13,
+  +           label: '存檔頁碼',
+  +           w: 100,
+  +           x: 0,
+  +           y: 0
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     },
+  +     settings: {
+  +       background: '#faf7f1',
+  +       color: '#493b46',
+  +       elements: {
+  +         'nav:close': {
+  +           action: 'close',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '返回',
+  +           w: 17,
+  +           x: 3,
+  +           y: 75
+  +         },
+  +         'nav:gallery': {
+  +           action: 'gallery',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '鑑賞',
+  +           w: 17,
+  +           x: 3,
+  +           y: 64
+  +         },
+  +         'nav:history': {
+  +           action: 'history',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '歷史',
+  +           w: 17,
+  +           x: 3,
+  +           y: 20
+  +         },
+  +         'nav:load': {
+  +           action: 'load',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '讀檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 42
+  +         },
+  +         'nav:save': {
+  +           action: 'save',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '存檔',
+  +           w: 17,
+  +           x: 3,
+  +           y: 31
+  +         },
+  +         'nav:settings': {
+  +           action: 'settings',
+  +           fontSize: 10,
+  +           h: 9,
+  +           label: '設定',
+  +           w: 17,
+  +           x: 3,
+  +           y: 53
+  +         },
+  +         body: {
+  +           h: 75,
+  +           w: 73,
+  +           x: 24,
+  +           y: 20
+  +         },
+  +         close: {
+  +           action: 'close',
+  +           fontSize: 24,
+  +           h: 8,
+  +           label: '×',
+  +           w: 6,
+  +           x: 91,
+  +           y: 4
+  +         },
+  +         header: {
+  +           fontSize: 14,
+  +           h: 9,
+  +           label: '遊戲設定',
+  +           w: 80,
+  +           x: 14,
+  +           y: 18
+  +         }
+  +       },
+  +       extras: [],
+  +       field: '#eee5ed',
+  +       grid: true,
+  +       gridStep: 2,
+  +       layoutActive: true,
+  +       layoutPreset: 'sidebar',
+  +       navBackground: '#eee5ed',
+  +       schema: 3,
+  +       snap: true,
+  +       typography: 3
+  +     }
+  +   },
+      subtitle: '一段屬於你的春日物語',
+      textSpeed: 35
+    }
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p2c-mobile.test.mjs:12:482)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390', menuTemplates: { save: [Object], load: [Object], history: [Object], settings: [Object], gallery: [Object] } },
+    expected: { subtitle: '一段屬於你的春日物語', textSpeed: 35, autoDelay: 1800, accent: '#b77390' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

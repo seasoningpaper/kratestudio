@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "sourceIdentical": true,
+      "sha256": "9f42d97d257d5d2d70b2d26b64a4d212d84426d601278476bf0e9a2c88038a04"
+    },
+    {
+      "path": "/workspace.js",
+      "status": 200,
+      "sourceIdentical": true,
+      "sha256": "ce003327e86c4d8ed3432e3e387a5709df6e72374f7dbf6d7e9eed06040d979f"
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "sourceIdentical": true,
+      "sha256": "2666655edc8b0af4eafe91d73de437215ed982106c6880b208a2a1aca95edca6"
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "sourceIdentical": true,
+      "sha256": "451a7b71652370826b061b35ede1c04c58c53c98b865ccfb6e034d0845c80181"
+    },
+    {
+      "path": "/player.js",
+      "status": 200,
+      "sourceIdentical": true,
+      "sha256": "0dff98a50a919618473b7f6e4bdfce5ac27fafd27087645308430bd002dba136"
+    }
+  ],
+  "playerBaselineIdentical": true
+}

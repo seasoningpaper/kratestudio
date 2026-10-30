@@ -1,0 +1,6 @@
+PASS index.html matches checked source
+PASS app.js matches checked source
+PASS workspace.js matches checked source
+PASS player.js matches checked source
+PASS style.css matches checked source
+PASS player.css matches checked source

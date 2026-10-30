@@ -1,0 +1,7 @@
+dist/server/index.js
+dist/workspace.js
+src/game-designer.jsx
+src/layout-tools.mjs
+src/menu-template-editor.jsx
+src/template-operations.mjs
+worker/index.js

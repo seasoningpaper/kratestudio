@@ -1,0 +1,22 @@
+{
+  "repo": "adobe/spectrum-css",
+  "snapshotCommit": "9a6a60b78a75a3f1c53b38eb56d7211d98f0090f",
+  "snapshotDate": "2021-12-10T21:27:35Z",
+  "evidence": "https://github.com/adobe/spectrum-css/commit/9a6a60b78a75a3f1c53b38eb56d7211d98f0090f",
+  "source": "https://github.com/adobe/spectrum-css/tree/9a6a60b78a75a3f1c53b38eb56d7211d98f0090f",
+  "files": [
+    "LICENSE",
+    "components/actionbutton/actionbutton-generated.css",
+    "components/actionbutton/index.css",
+    "components/actionbutton/skin.css",
+    "components/button/clearbutton.css",
+    "components/button/index.css",
+    "components/button/logicbutton.css",
+    "components/button/skin.css",
+    "components/buttongroup/index.css",
+    "components/commons/basebutton.css",
+    "components/cyclebutton/index.css",
+    "components/cyclebutton/skin.css"
+  ],
+  "status": "source-downloaded-not-yet-reviewed"
+}

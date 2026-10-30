@@ -1,0 +1,47 @@
+✔ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (2.880155ms)
+✔ actor isolation: a new character cue without motion does not replay the previous one-shot (0.192299ms)
+✔ actor isolation: nested placement in visual state never aliases authored event parameters (0.183186ms)
+✔ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.573083ms)
+✔ actor isolation: numeric actor IDs survive event reordering as strings (0.284378ms)
+✔ actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names (12.056805ms)
+✔ actor isolation: every existing motion targets one actor without replacing or restarting other actors (0.726133ms)
+✔ actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state (0.384439ms)
+✔ actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent (1.114337ms)
+✔ actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity (0.311729ms)
+✔ actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source (1.095949ms)
+✔ actor isolation: moving A to center does not delete another actor already in that position (0.168113ms)
+✔ actor isolation: simultaneous A/B/C cues keep separate targets, durations and replay tokens (0.468946ms)
+✔ sound track persists across dialogue changes, independently replaces voice, and stops explicitly (3.090882ms)
+✔ same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX (1.12294ms)
+✔ ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops (0.816248ms)
+✔ KOI sound loops and selective/all stops compile to runtime events (3.510868ms)
+✔ KOI event source round-trips attributes, quotes, semicolons and existing numeric branches (1.836324ms)
+✔ options, GUI, screens and modules apply to the same project with real activity references (6.231197ms)
+✔ continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters (0.888076ms)
+✔ input, interpolation, branching, and rollback restore the complete variable state (4.615325ms)
+✔ save/load preserves state, actors, history, background, and variables (0.836679ms)
+✔ logic loops are bounded and cross chapter jumps execute (1.371214ms)
+✔ visual and audio control events are applied before dialogue (0.387223ms)
+✔ save data follows stable event IDs after inserting a scene event (1.399396ms)
+✔ preview from a selected line restores preceding scene and character state (0.398439ms)
+✔ minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact (0.802327ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.772948ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (14.132058ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.469807ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.178118ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (2.604019ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (3.008969ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (4.143295ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.925863ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.455436ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.383207ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (1.315059ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (65.592473ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 568.819887

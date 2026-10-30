@@ -1,0 +1,12 @@
+{
+  "publishedSource": "3fa39c9a7e8c9f0bb27b26cb5c4c929ad385f4b6",
+  "runtimeFilesCompared": 175,
+  "allMatchPublishedSource": true,
+  "currentLocalWorkerAssets": 36,
+  "nativeSitesVersion": 61,
+  "nativeDeploymentStatus": "succeeded",
+  "productionBrowserInspection": "not executed",
+  "physicalTouch": "not executed",
+  "near5GbBrowserWriteReload": "not executed",
+  "sourceZipVerifierFirstFailure": "Directory entries were incorrectly included in a file-only ZIP set comparison. Verifier corrected once; CRC and all936 tracked bytes verified. Source/archive unchanged."
+}

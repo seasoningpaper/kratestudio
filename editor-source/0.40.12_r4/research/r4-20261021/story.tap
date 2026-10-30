@@ -1,0 +1,16 @@
+✔ R4 supplied source: missing original modules remain an explicit untested dependency (8.58878ms)
+✔ R4 supplied original: null is invalid even after a successful fig-right show; never auto-repair story data (6.447623ms)
+✔ R4 supplied correction: real branch execution covers all option edges and seven endings without alias errors (388.106173ms)
+✔ R4 supplied correction: Script roundtrip preserves all fields, IDs, target types and branch execution (111.121676ms)
+✔ R4 lifecycle: conditional branch skips invalid off-route targets; jump carries the actual actors across chapters and save/load (1.73259ms)
+✔ R4 lifecycle: repeat center/right show, replacement and waiting exit 20 times without stale aliases (2.020444ms)
+✔ R4 target namespaces: filename, role ID and empty position never alias an unrelated actor (0.543789ms)
+✔ R4 edit lifecycle: reordering and copied events keep string targets and independent parameters (2.114306ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 642.567973

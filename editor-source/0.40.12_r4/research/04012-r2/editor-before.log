@@ -1,0 +1,48 @@
+✖ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (501.857129ms)
+✖ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (326.600093ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1279.431914
+
+✖ failing tests:
+
+test at tests/04012-r2-editor.test.mjs:7:1
+✖ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (501.857129ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /區段.*謝幕離開/. Input:
+  
+  '刪除第 1 個事件「謝幕離開」？\n可使用復原還原。'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r2-editor.test.mjs:7:458)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at process.processTimers (node:internal/timers:568:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '刪除第 1 個事件「謝幕離開」？\n可使用復原還原。',
+    expected: /區段.*謝幕離開/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/04012-r2-editor.test.mjs:8:1
+✖ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (326.600093ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /本章 2 個事件.*專案 3 個事件/. Input:
+  
+  '2 個章節　6 個事件'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r2-editor.test.mjs:8:395)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2 個章節　6 個事件',
+    expected: /本章 2 個事件.*專案 3 個事件/,
+    operator: 'match',
+    diff: 'simple'
+  }

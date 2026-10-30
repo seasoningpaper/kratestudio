@@ -1,0 +1,3914 @@
+{
+  "sha": "875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "tree": [
+    {
+      "path": ".babelrc.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ef8cb6df6547918b34a2a54f8f50a705fe28d3",
+      "size": 375,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a4ef8cb6df6547918b34a2a54f8f50a705fe28d3"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d5248e86f3723738102016ccbe9d8ed7d6ee1a8",
+      "size": 208,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9d5248e86f3723738102016ccbe9d8ed7d6ee1a8"
+    },
+    {
+      "path": ".eslintignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1d5490eef65f63241681755659c1bba976a01f5",
+      "size": 56,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e1d5490eef65f63241681755659c1bba976a01f5"
+    },
+    {
+      "path": ".eslintrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cfaeea153db3c90fa2054b012370d22c2f19a33",
+      "size": 7123,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8cfaeea153db3c90fa2054b012370d22c2f19a33"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b6fd140ecbe03396c82d8914b6ae9008a8abdb",
+      "size": 359,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/21b6fd140ecbe03396c82d8914b6ae9008a8abdb"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d50da02075a0afe2719813e34f9224673833a170",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/d50da02075a0afe2719813e34f9224673833a170"
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbdd8108239b9b30e7213f7a527798486327fa57",
+      "size": 14278,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/cbdd8108239b9b30e7213f7a527798486327fa57"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4df3258637a70045bfcb2b5fc2b4833587b6acfa",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/4df3258637a70045bfcb2b5fc2b4833587b6acfa"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1f91096434230f610393742b784e8e7bb4ca8a9",
+      "size": 714,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c1f91096434230f610393742b784e8e7bb4ca8a9"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f866e2141e955bcf5b13682e8a3ee6b41225983",
+      "size": 426,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4f866e2141e955bcf5b13682e8a3ee6b41225983"
+    },
+    {
+      "path": ".github/SUPPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de3c4b552e9a99de3a9d5c30f4e200bc97a755b0",
+      "size": 458,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/de3c4b552e9a99de3a9d5c30f4e200bc97a755b0"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7534de2614ecf01c2fbfc550a70903df30f5ca6c",
+      "size": 529,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7534de2614ecf01c2fbfc550a70903df30f5ca6c"
+    },
+    {
+      "path": ".stylelintignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bc488e5f8718d1cba9e7592bad4f00afb4d7469",
+      "size": 45,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7bc488e5f8718d1cba9e7592bad4f00afb4d7469"
+    },
+    {
+      "path": ".stylelintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65940be24473e3707675052b94203eb918f4f47",
+      "size": 7405,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c65940be24473e3707675052b94203eb918f4f47"
+    },
+    {
+      "path": ".travis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc16945169a105ee291c9a6081db679af30e6419",
+      "size": 782,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/bc16945169a105ee291c9a6081db679af30e6419"
+    },
+    {
+      "path": "CNAME",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c853392c25d3a670446641f4b44b22770b3bbe",
+      "size": 17,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/52c853392c25d3a670446641f4b44b22770b3bbe"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d9922f25f4d7f4f3250886c9eb6d90b4eb9d034",
+      "size": 3274,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9d9922f25f4d7f4f3250886c9eb6d90b4eb9d034"
+    },
+    {
+      "path": "Gemfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f624d8539a2a10b4d0bd69f1d8ac1230603ffa5",
+      "size": 199,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9f624d8539a2a10b4d0bd69f1d8ac1230603ffa5"
+    },
+    {
+      "path": "Gemfile.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2855b67d3c9ededa26d82d255300c5bb0422dd4b",
+      "size": 1905,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2855b67d3c9ededa26d82d255300c5bb0422dd4b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86f4b8ca04f8d10574f189b8f73bdf0d575675e3",
+      "size": 1131,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/86f4b8ca04f8d10574f189b8f73bdf0d575675e3"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2231dd0db3898519ee816cdac02594c492ba11d6",
+      "size": 9265,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2231dd0db3898519ee816cdac02594c492ba11d6"
+    },
+    {
+      "path": "_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07aaac0a7671230eb1ad10f913315faa1588ee6f",
+      "size": 2511,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/07aaac0a7671230eb1ad10f913315faa1588ee6f"
+    },
+    {
+      "path": "_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "585d3dee6bf3d7adaced1ae0ba2d70b95e689d02",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/585d3dee6bf3d7adaced1ae0ba2d70b95e689d02"
+    },
+    {
+      "path": "_data/breakpoints.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c8cfe293c09599865775a15273e0c435e9fb7e4",
+      "size": 418,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3c8cfe293c09599865775a15273e0c435e9fb7e4"
+    },
+    {
+      "path": "_data/browser-bugs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef63f26cd51340fa9842e5e7a938deca1312613",
+      "size": 9113,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1ef63f26cd51340fa9842e5e7a938deca1312613"
+    },
+    {
+      "path": "_data/browser-features.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c8701f689970b1d35983b35e137c5da3e9bb1af",
+      "size": 3244,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6c8701f689970b1d35983b35e137c5da3e9bb1af"
+    },
+    {
+      "path": "_data/colors.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "202270cdcb79ca3a982623e354052bffc0bacf21",
+      "size": 401,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/202270cdcb79ca3a982623e354052bffc0bacf21"
+    },
+    {
+      "path": "_data/examples.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "673fde40b656621b3f689de3627a4ac91240ffe6",
+      "size": 2870,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/673fde40b656621b3f689de3627a4ac91240ffe6"
+    },
+    {
+      "path": "_data/grays.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e50f9e140afb03abfd861d50c425da1c18b271",
+      "size": 261,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d6e50f9e140afb03abfd861d50c425da1c18b271"
+    },
+    {
+      "path": "_data/nav.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98bd2c5d5e79bb0812efa950f784340e5277e277",
+      "size": 1678,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/98bd2c5d5e79bb0812efa950f784340e5277e277"
+    },
+    {
+      "path": "_data/theme-colors.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef5002acd06197461d458ef7caab5138284a731",
+      "size": 257,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/bef5002acd06197461d458ef7caab5138284a731"
+    },
+    {
+      "path": "_data/translations.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b5771c480eead52c93c57548272dc1df612025",
+      "size": 521,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/38b5771c480eead52c93c57548272dc1df612025"
+    },
+    {
+      "path": "_includes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dead0c2f9458d52bf981ed526971fd094e98c47f",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/dead0c2f9458d52bf981ed526971fd094e98c47f"
+    },
+    {
+      "path": "_includes/ads.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10df1344d771d312be03559e6dbaa2b9fc0a2474",
+      "size": 137,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/10df1344d771d312be03559e6dbaa2b9fc0a2474"
+    },
+    {
+      "path": "_includes/bugify.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a02bd23ec0c894c354d69f215b3b8093d9dbf15",
+      "size": 2059,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6a02bd23ec0c894c354d69f215b3b8093d9dbf15"
+    },
+    {
+      "path": "_includes/callout-danger-async-methods.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca35e0b775ea38a765994c94058ec9340c256b8f",
+      "size": 503,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ca35e0b775ea38a765994c94058ec9340c256b8f"
+    },
+    {
+      "path": "_includes/callout-info-mediaqueries-breakpoints.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3988ce1a30299d627926202663bae96e8f55ffe",
+      "size": 510,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d3988ce1a30299d627926202663bae96e8f55ffe"
+    },
+    {
+      "path": "_includes/callout-warning-color-assistive-technologies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98214eb58d27fce34f8ad61f8f5f125b945dbe1a",
+      "size": 512,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/98214eb58d27fce34f8ad61f8f5f125b945dbe1a"
+    },
+    {
+      "path": "_includes/callout.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff9450dc44f8df3a152b1a2df5f3519bffcfff78",
+      "size": 351,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ff9450dc44f8df3a152b1a2df5f3519bffcfff78"
+    },
+    {
+      "path": "_includes/docs-navbar.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c6d00ca27aa4334c8cb93e7d5bfe995068f4dd",
+      "size": 3673,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/95c6d00ca27aa4334c8cb93e7d5bfe995068f4dd"
+    },
+    {
+      "path": "_includes/docs-sidebar.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0a0982bccdfcf79d97b2eb9bd14280a6a5a9c91",
+      "size": 2299,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c0a0982bccdfcf79d97b2eb9bd14280a6a5a9c91"
+    },
+    {
+      "path": "_includes/example.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d12626b66a1b46ceb6c22ab4d5209c3b8cabe7",
+      "size": 750,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/24d12626b66a1b46ceb6c22ab4d5209c3b8cabe7"
+    },
+    {
+      "path": "_includes/favicons.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97dab4ba8f8a3b51ca5dbc11c1869078bc4dabdb",
+      "size": 748,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/97dab4ba8f8a3b51ca5dbc11c1869078bc4dabdb"
+    },
+    {
+      "path": "_includes/footer.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e16577c13aa9d8124c246b0e48669fef9a45943",
+      "size": 1148,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8e16577c13aa9d8124c246b0e48669fef9a45943"
+    },
+    {
+      "path": "_includes/header.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d3753e1cba66eb8722df52e72c4f066bfe3612",
+      "size": 1540,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/85d3753e1cba66eb8722df52e72c4f066bfe3612"
+    },
+    {
+      "path": "_includes/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7648a2c7cbcc61c4ff076283ecc58d6b253c8b3",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/e7648a2c7cbcc61c4ff076283ecc58d6b253c8b3"
+    },
+    {
+      "path": "_includes/icons/bootstrap.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "816028bd8eda1d3ccd998632cf142e06f92c66e7",
+      "size": 890,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/816028bd8eda1d3ccd998632cf142e06f92c66e7"
+    },
+    {
+      "path": "_includes/icons/download.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa5f3f1beee845e38e7ba77517dba7730570ba33",
+      "size": 482,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/aa5f3f1beee845e38e7ba77517dba7730570ba33"
+    },
+    {
+      "path": "_includes/icons/github.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d6ad18040403905f17ce76073884252ae76e158",
+      "size": 1116,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5d6ad18040403905f17ce76073884252ae76e158"
+    },
+    {
+      "path": "_includes/icons/import.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9dbb269689d04c9393ce8d42d8c470223effee",
+      "size": 441,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0a9dbb269689d04c9393ce8d42d8c470223effee"
+    },
+    {
+      "path": "_includes/icons/lightning.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be6f475ef40ab3f3d75eed740e6f4a940ff9a595",
+      "size": 442,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/be6f475ef40ab3f3d75eed740e6f4a940ff9a595"
+    },
+    {
+      "path": "_includes/icons/menu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03e15dc49225ff2ce3f29dc4b72c409d504a59e1",
+      "size": 410,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/03e15dc49225ff2ce3f29dc4b72c409d504a59e1"
+    },
+    {
+      "path": "_includes/icons/slack.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3927fa458b1542c17724d75c368844dba7c638d5",
+      "size": 1362,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3927fa458b1542c17724d75c368844dba7c638d5"
+    },
+    {
+      "path": "_includes/icons/twitter.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "450c393b92ff4d1be91b37cb5a37ef5d30b03119",
+      "size": 861,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/450c393b92ff4d1be91b37cb5a37ef5d30b03119"
+    },
+    {
+      "path": "_includes/scripts.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c262149f28c5a0e3e5917e9f9a2a83b542f663e",
+      "size": 1376,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7c262149f28c5a0e3e5917e9f9a2a83b542f663e"
+    },
+    {
+      "path": "_includes/skippy.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c73089bc37bc50a54a2413ed1887d770de7205c",
+      "size": 166,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2c73089bc37bc50a54a2413ed1887d770de7205c"
+    },
+    {
+      "path": "_includes/social.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "277ee2313d3701c635a86c4033878d3be6b35487",
+      "size": 1290,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/277ee2313d3701c635a86c4033878d3be6b35487"
+    },
+    {
+      "path": "_layouts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0494293acb544bd7d452b9073bd7ef6db563869a",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/0494293acb544bd7d452b9073bd7ef6db563869a"
+    },
+    {
+      "path": "_layouts/default.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f4cdccb061f33ff6a79de54695106884e6d0b9",
+      "size": 429,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/28f4cdccb061f33ff6a79de54695106884e6d0b9"
+    },
+    {
+      "path": "_layouts/docs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d2125508e4cd8e72ae4574c0aa1cc1febf320c3",
+      "size": 884,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1d2125508e4cd8e72ae4574c0aa1cc1febf320c3"
+    },
+    {
+      "path": "_layouts/examples.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8fbcdec78313ad001663fe377e8b58883cf487",
+      "size": 551,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1f8fbcdec78313ad001663fe377e8b58883cf487"
+    },
+    {
+      "path": "_layouts/home.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a23d49ce96009f83af53494887ce174e10ce66",
+      "size": 256,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/88a23d49ce96009f83af53494887ce174e10ce66"
+    },
+    {
+      "path": "_layouts/redirect.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cf445d68276d9c95b6538f1fcf59d1531ab3cff",
+      "size": 1134,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6cf445d68276d9c95b6538f1fcf59d1531ab3cff"
+    },
+    {
+      "path": "_layouts/simple.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd9afd167b9e2383e37875e0b25fe56bcb91bb2",
+      "size": 288,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dfd9afd167b9e2383e37875e0b25fe56bcb91bb2"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5793281ae53aad52bd75e0df55f34f5260de18ad",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/5793281ae53aad52bd75e0df55f34f5260de18ad"
+    },
+    {
+      "path": "assets/brand",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5decd8803340fdb3d2d5b67cbf9bc6a8c3a0e5b",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/a5decd8803340fdb3d2d5b67cbf9bc6a8c3a0e5b"
+    },
+    {
+      "path": "assets/brand/bootstrap-outline.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8af913436f5eb8655541b51b27556429d0339656",
+      "size": 1306,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8af913436f5eb8655541b51b27556429d0339656"
+    },
+    {
+      "path": "assets/brand/bootstrap-punchout.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd9005d3bb7e9d79e03ba7f4de10ebdf0eae63f",
+      "size": 1140,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8dd9005d3bb7e9d79e03ba7f4de10ebdf0eae63f"
+    },
+    {
+      "path": "assets/brand/bootstrap-social-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd35e5d47d2f972897ca8a1a51529ea128730ab",
+      "size": 23959,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/fdd35e5d47d2f972897ca8a1a51529ea128730ab"
+    },
+    {
+      "path": "assets/brand/bootstrap-social.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468ab5b5956a653f29639c0f5bb2f18357470fcb",
+      "size": 231733,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/468ab5b5956a653f29639c0f5bb2f18357470fcb"
+    },
+    {
+      "path": "assets/brand/bootstrap-solid.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b624a024736454c9be7487206b7c6f770c34ba7b",
+      "size": 1127,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b624a024736454c9be7487206b7c6f770c34ba7b"
+    },
+    {
+      "path": "assets/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a064161393e5c1a6ccab338842a3fc835e1f768",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/7a064161393e5c1a6ccab338842a3fc835e1f768"
+    },
+    {
+      "path": "assets/css/docs.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d83c39ff6d683eb5fda0c618695dc7b8c29f0b81",
+      "size": 21487,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d83c39ff6d683eb5fda0c618695dc7b8c29f0b81"
+    },
+    {
+      "path": "assets/css/docs.min.css.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1946c4cd3597cd2febb76bb92ae18d96cb657a4b",
+      "size": 73396,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1946c4cd3597cd2febb76bb92ae18d96cb657a4b"
+    },
+    {
+      "path": "assets/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a6c7ff8416ae290472b56d5378a82024cb894c7",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/4a6c7ff8416ae290472b56d5378a82024cb894c7"
+    },
+    {
+      "path": "assets/img/bootstrap-stack.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cae17fe2e73f5775aff7990cacd5404e9b4654a",
+      "size": 52160,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7cae17fe2e73f5775aff7990cacd5404e9b4654a"
+    },
+    {
+      "path": "assets/img/bootstrap-themes.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3876a18ee3357754d5439d80abe25c7d30f7a02d",
+      "size": 80588,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3876a18ee3357754d5439d80abe25c7d30f7a02d"
+    },
+    {
+      "path": "assets/img/favicons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "408f79e2c523ad8e0339f16c2c61f078b0e6cbaa",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/408f79e2c523ad8e0339f16c2c61f078b0e6cbaa"
+    },
+    {
+      "path": "assets/img/favicons/android-chrome-192x192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547386f3714c7b0a58c5fe519863f4a11e039b91",
+      "size": 1935,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/547386f3714c7b0a58c5fe519863f4a11e039b91"
+    },
+    {
+      "path": "assets/img/favicons/android-chrome-512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae76488dcc9aeb77ea2f9183c3872527deb2738",
+      "size": 4269,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/eae76488dcc9aeb77ea2f9183c3872527deb2738"
+    },
+    {
+      "path": "assets/img/favicons/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "447cec2c47da7a30359729a36d3c5096dbde5a15",
+      "size": 1738,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/447cec2c47da7a30359729a36d3c5096dbde5a15"
+    },
+    {
+      "path": "assets/img/favicons/browserconfig.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b193171af328234b05407f66d2c4ca7b659b1eb",
+      "size": 292,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8b193171af328234b05407f66d2c4ca7b659b1eb"
+    },
+    {
+      "path": "assets/img/favicons/favicon-16x16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f7d11880f60757cd3f1de2681def0e59e6b81b2",
+      "size": 310,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5f7d11880f60757cd3f1de2681def0e59e6b81b2"
+    },
+    {
+      "path": "assets/img/favicons/favicon-32x32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d752fd5d71545548fb0baf3f3a1b500e13e520b9",
+      "size": 491,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d752fd5d71545548fb0baf3f3a1b500e13e520b9"
+    },
+    {
+      "path": "assets/img/favicons/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14cd5241248de28b16b4aa382ad5ba8f2ce3742b",
+      "size": 550,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/14cd5241248de28b16b4aa382ad5ba8f2ce3742b"
+    },
+    {
+      "path": "assets/img/favicons/mstile-144x144.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "262a3c2e143d781bbe36dcaded90c4b2656f74bf",
+      "size": 1479,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/262a3c2e143d781bbe36dcaded90c4b2656f74bf"
+    },
+    {
+      "path": "assets/img/favicons/mstile-150x150.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb87faf74f15ea00e1a38555dc6162fb117a4fbe",
+      "size": 1428,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/bb87faf74f15ea00e1a38555dc6162fb117a4fbe"
+    },
+    {
+      "path": "assets/img/favicons/mstile-310x150.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc36a726824e23d17fff5efeada0b71128ea3cd",
+      "size": 1746,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2fc36a726824e23d17fff5efeada0b71128ea3cd"
+    },
+    {
+      "path": "assets/img/favicons/mstile-310x310.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f00d0c66a700d890ecf356f9ba2eb348b33283b",
+      "size": 3085,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7f00d0c66a700d890ecf356f9ba2eb348b33283b"
+    },
+    {
+      "path": "assets/img/favicons/mstile-70x70.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4da2de9e366dac645b2f46c292c930c60964d4f0",
+      "size": 1104,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4da2de9e366dac645b2f46c292c930c60964d4f0"
+    },
+    {
+      "path": "assets/img/favicons/safari-pinned-tab.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "086866a177496e17efc59a8d46863fe64f9738fa",
+      "size": 1025,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/086866a177496e17efc59a8d46863fe64f9738fa"
+    },
+    {
+      "path": "assets/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44e110662866280acbc3cd0e899b698d12a960da",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/44e110662866280acbc3cd0e899b698d12a960da"
+    },
+    {
+      "path": "assets/js/.eslintrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea25a91bacdd997d6476d4444a20b207426b8b6",
+      "size": 490,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7ea25a91bacdd997d6476d4444a20b207426b8b6"
+    },
+    {
+      "path": "assets/js/docs.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d89dedcc06fe829919c5a0922b6a73258b89de79",
+      "size": 51850,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d89dedcc06fe829919c5a0922b6a73258b89de79"
+    },
+    {
+      "path": "assets/js/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44ea63e12b363776b63b02cf4b11c7b430e58485",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/44ea63e12b363776b63b02cf4b11c7b430e58485"
+    },
+    {
+      "path": "assets/js/src/application.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f1af444c9ffece58a3ba4b288aaf01f6a40acab",
+      "size": 4779,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1f1af444c9ffece58a3ba4b288aaf01f6a40acab"
+    },
+    {
+      "path": "assets/js/src/ie-emulation-modes-warning.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2ae1222bb1c4f81de009fe614e36212d4fad1a",
+      "size": 2005,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ca2ae1222bb1c4f81de009fe614e36212d4fad1a"
+    },
+    {
+      "path": "assets/js/src/pwa.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22a0dde6d7ce896162709d791c383f910270bb2d",
+      "size": 545,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/22a0dde6d7ce896162709d791c383f910270bb2d"
+    },
+    {
+      "path": "assets/js/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81afca407037cfa14a94cede22cafe0cfdfe48c2",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/81afca407037cfa14a94cede22cafe0cfdfe48c2"
+    },
+    {
+      "path": "assets/js/vendor/anchor.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee4e3b3f4d0867948ba09511e6334cbd4408c633",
+      "size": 5389,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ee4e3b3f4d0867948ba09511e6334cbd4408c633"
+    },
+    {
+      "path": "assets/js/vendor/clipboard.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00ee5153525b2b4dc197184bb74ef26d2f0f757",
+      "size": 10662,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b00ee5153525b2b4dc197184bb74ef26d2f0f757"
+    },
+    {
+      "path": "assets/js/vendor/holder.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62255af4faa8d9f50eaca749e23396f783b1da25",
+      "size": 32283,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/62255af4faa8d9f50eaca749e23396f783b1da25"
+    },
+    {
+      "path": "assets/js/vendor/jquery-slim.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ca9b24ba13e964450fef6135b85e47cf109aa0",
+      "size": 69917,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f4ca9b24ba13e964450fef6135b85e47cf109aa0"
+    },
+    {
+      "path": "assets/js/vendor/popper.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640b1a69fb9b308658edb8be13f5133674f28bcb",
+      "size": 20495,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/640b1a69fb9b308658edb8be13f5133674f28bcb"
+    },
+    {
+      "path": "assets/scss",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca0a15335bc695b90d2b3fb0b12b5b8a594c038a",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/ca0a15335bc695b90d2b3fb0b12b5b8a594c038a"
+    },
+    {
+      "path": "assets/scss/_ads.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375a9e01fa3838bbd21febe58563889dd055071e",
+      "size": 593,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/375a9e01fa3838bbd21febe58563889dd055071e"
+    },
+    {
+      "path": "assets/scss/_algolia.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4014ab973c81571b92c5fd09d53347fb51200b47",
+      "size": 3422,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4014ab973c81571b92c5fd09d53347fb51200b47"
+    },
+    {
+      "path": "assets/scss/_anchor.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e02390ed3e388fd46845cce039c4742161b95af",
+      "size": 172,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2e02390ed3e388fd46845cce039c4742161b95af"
+    },
+    {
+      "path": "assets/scss/_brand.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d5c5a4cf45f26c854b7dd0e72b29af37366c011",
+      "size": 1827,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2d5c5a4cf45f26c854b7dd0e72b29af37366c011"
+    },
+    {
+      "path": "assets/scss/_browser-bugs.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f42158b37992ba5defaae2a33944d0a503c356e2",
+      "size": 195,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f42158b37992ba5defaae2a33944d0a503c356e2"
+    },
+    {
+      "path": "assets/scss/_buttons.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e37857fdb59d66085490a81355c7a32cf5e2051",
+      "size": 628,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1e37857fdb59d66085490a81355c7a32cf5e2051"
+    },
+    {
+      "path": "assets/scss/_callouts.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "401bfd6f525309a60aa6c17db44728040013900c",
+      "size": 695,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/401bfd6f525309a60aa6c17db44728040013900c"
+    },
+    {
+      "path": "assets/scss/_clipboard-js.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27d1d4f8478010a2c9b7eb727368b5b728e49f6",
+      "size": 574,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e27d1d4f8478010a2c9b7eb727368b5b728e49f6"
+    },
+    {
+      "path": "assets/scss/_colors.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d2825c5700e860229fa51f2d5b9419549641909",
+      "size": 419,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8d2825c5700e860229fa51f2d5b9419549641909"
+    },
+    {
+      "path": "assets/scss/_component-examples.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bafcc4235172327ba1d505cae8932bdc279960d",
+      "size": 6345,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5bafcc4235172327ba1d505cae8932bdc279960d"
+    },
+    {
+      "path": "assets/scss/_content.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "decb6c4c3bb7be1a3d0ca5d59f8d68d39e562d61",
+      "size": 1995,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/decb6c4c3bb7be1a3d0ca5d59f8d68d39e562d61"
+    },
+    {
+      "path": "assets/scss/_examples.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ec7a2998f9fb563c209bdbabf3d13ff6ac0ba2",
+      "size": 363,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a4ec7a2998f9fb563c209bdbabf3d13ff6ac0ba2"
+    },
+    {
+      "path": "assets/scss/_footer.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab605d285ef8890d6591dacea312e94eb3f6e911",
+      "size": 459,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ab605d285ef8890d6591dacea312e94eb3f6e911"
+    },
+    {
+      "path": "assets/scss/_masthead.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3cea069cda872c167675bb28e8b6949d7cb964",
+      "size": 887,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0e3cea069cda872c167675bb28e8b6949d7cb964"
+    },
+    {
+      "path": "assets/scss/_nav.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c6bad642b725b6c28d5a12c87643654384b3bc",
+      "size": 1685,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/73c6bad642b725b6c28d5a12c87643654384b3bc"
+    },
+    {
+      "path": "assets/scss/_sidebar.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfbd60d256fbcbdc46a34f2d53ca72e3944e189",
+      "size": 2724,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0cfbd60d256fbcbdc46a34f2d53ca72e3944e189"
+    },
+    {
+      "path": "assets/scss/_skiplink.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ca3074a8c5ee8b91961f917b6d13c685253fec0",
+      "size": 213,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7ca3074a8c5ee8b91961f917b6d13c685253fec0"
+    },
+    {
+      "path": "assets/scss/_syntax.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e66c5da2205b8a6bb10dceeed01bedb9bbde2597",
+      "size": 1669,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e66c5da2205b8a6bb10dceeed01bedb9bbde2597"
+    },
+    {
+      "path": "assets/scss/_variables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b60a21368b60b3b1b4c1778b7dae360506d49fe4",
+      "size": 382,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b60a21368b60b3b1b4c1778b7dae360506d49fe4"
+    },
+    {
+      "path": "assets/scss/docs.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "887a72b3e50abfc64ed3cd2ec9c60b188ce6e776",
+      "size": 1521,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/887a72b3e50abfc64ed3cd2ec9c60b188ce6e776"
+    },
+    {
+      "path": "build",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19286eec31cc8fc5e7f3c898b46a90f56b5f6df5",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/19286eec31cc8fc5e7f3c898b46a90f56b5f6df5"
+    },
+    {
+      "path": "build/.eslintrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76e7f37b6348334aeae551261b2484708e9a7d41",
+      "size": 385,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/76e7f37b6348334aeae551261b2484708e9a7d41"
+    },
+    {
+      "path": "build/.htmllintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba2c6b3a392719b3b0ecfc279a7e30d2e1b7749b",
+      "size": 1260,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ba2c6b3a392719b3b0ecfc279a7e30d2e1b7749b"
+    },
+    {
+      "path": "build/change-version.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7102dc0830d2986e49a41540fa251203b540e763",
+      "size": 2740,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7102dc0830d2986e49a41540fa251203b540e763"
+    },
+    {
+      "path": "build/gcp-key.json.enc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1856a2f1c95b55f73101734af73272433bdee8",
+      "size": 2304,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6e1856a2f1c95b55f73101734af73272433bdee8"
+    },
+    {
+      "path": "build/generate-sri.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6790e4404f1ee82c4fc2e21602c3507bc3c29e6",
+      "size": 1505,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f6790e4404f1ee82c4fc2e21602c3507bc3c29e6"
+    },
+    {
+      "path": "build/lint-vars.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8d71cc69da657cacc31e73f3a66e77e65e40f1",
+      "size": 2067,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1b8d71cc69da657cacc31e73f3a66e77e65e40f1"
+    },
+    {
+      "path": "build/postcss.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "157291ffd2e2a77e2ff31f64b547cb5d83b2c95c",
+      "size": 238,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/157291ffd2e2a77e2ff31f64b547cb5d83b2c95c"
+    },
+    {
+      "path": "build/rollup.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93370d31dacc7fd18be8a8ee5dff1dc9eb989578",
+      "size": 1408,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/93370d31dacc7fd18be8a8ee5dff1dc9eb989578"
+    },
+    {
+      "path": "build/sauce_browsers.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b112d9c5b1ed6ba98b9a91d59353e1d31bc493cc",
+      "size": 1221,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b112d9c5b1ed6ba98b9a91d59353e1d31bc493cc"
+    },
+    {
+      "path": "build/saucelabs-unit-test.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a0142e033abd964f152498b9d66fd903b2ccc0a",
+      "size": 3139,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5a0142e033abd964f152498b9d66fd903b2ccc0a"
+    },
+    {
+      "path": "build/ship.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e3b256e914c15d4a96cd8807c143d66074eb5c64",
+      "size": 2834,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e3b256e914c15d4a96cd8807c143d66074eb5c64"
+    },
+    {
+      "path": "build/upload-preview.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "320a0af06b35a6b155ed5c3517beef9cf65d35c2",
+      "size": 713,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/320a0af06b35a6b155ed5c3517beef9cf65d35c2"
+    },
+    {
+      "path": "build/vnu-jar.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "111e0340991f3c70bca232e3f853775425b0dc26",
+      "size": 2587,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/111e0340991f3c70bca232e3f853775425b0dc26"
+    },
+    {
+      "path": "build/workbox.config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dcfadac7039362052f48caa16d279ffa30a073f",
+      "size": 156,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0dcfadac7039362052f48caa16d279ffa30a073f"
+    },
+    {
+      "path": "build/workbox.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aa6a608a8b1b717d02f9573bb293ab18eae6ebc",
+      "size": 1722,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1aa6a608a8b1b717d02f9573bb293ab18eae6ebc"
+    },
+    {
+      "path": "composer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1a99c1376ab24df447a3a3f629895fb0b01022f",
+      "size": 745,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e1a99c1376ab24df447a3a3f629895fb0b01022f"
+    },
+    {
+      "path": "dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bc2b3cdb8718c1d2d58b861f834d4fa73a4b845",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/2bc2b3cdb8718c1d2d58b861f834d4fa73a4b845"
+    },
+    {
+      "path": "dist/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e240a9899a46ba875b00750a39c42a79bae122c3",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/e240a9899a46ba875b00750a39c42a79bae122c3"
+    },
+    {
+      "path": "dist/css/bootstrap-grid.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6798f23d28af5f7f6d5f749c7c19322073e86604",
+      "size": 37644,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6798f23d28af5f7f6d5f749c7c19322073e86604"
+    },
+    {
+      "path": "dist/css/bootstrap-grid.css.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8922d4ce71fcff6ac73d2e764f6bde3a87ff698c",
+      "size": 97570,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8922d4ce71fcff6ac73d2e764f6bde3a87ff698c"
+    },
+    {
+      "path": "dist/css/bootstrap-grid.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79c746da5c4fab876fb2b03fe8c68da5615bfeb7",
+      "size": 28977,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/79c746da5c4fab876fb2b03fe8c68da5615bfeb7"
+    },
+    {
+      "path": "dist/css/bootstrap-grid.min.css.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f971ad312f192c9896d5bca15a93c375239ac3",
+      "size": 68240,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/62f971ad312f192c9896d5bca15a93c375239ac3"
+    },
+    {
+      "path": "dist/css/bootstrap-reboot.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0f40ff14e158e5c5786d1d8f1e97ca50c39618",
+      "size": 4800,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9f0f40ff14e158e5c5786d1d8f1e97ca50c39618"
+    },
+    {
+      "path": "dist/css/bootstrap-reboot.css.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee4c7392505b99a6ad5a9c6aa46ff5bbcccc19f4",
+      "size": 59714,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ee4c7392505b99a6ad5a9c6aa46ff5bbcccc19f4"
+    },
+    {
+      "path": "dist/css/bootstrap-reboot.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb965cc5051132d1622f653a417d235d0765426f",
+      "size": 3937,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/eb965cc5051132d1622f653a417d235d0765426f"
+    },
+    {
+      "path": "dist/css/bootstrap-reboot.min.css.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5a961ac49c3270c496e9c889658a655ff83f1c4",
+      "size": 25871,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e5a961ac49c3270c496e9c889658a655ff83f1c4"
+    },
+    {
+      "path": "dist/css/bootstrap.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7220f3c05f3f22f062bcf26b927261168379c3f9",
+      "size": 172839,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7220f3c05f3f22f062bcf26b927261168379c3f9"
+    },
+    {
+      "path": "dist/css/bootstrap.css.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e75d56a9cc1f71c9fc9927eb514d353be55e97c8",
+      "size": 425225,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e75d56a9cc1f71c9fc9927eb514d353be55e97c8"
+    },
+    {
+      "path": "dist/css/bootstrap.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e490fd02e925f0db35238f287b18b76131ad3d5e",
+      "size": 140421,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e490fd02e925f0db35238f287b18b76131ad3d5e"
+    },
+    {
+      "path": "dist/css/bootstrap.min.css.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d5a1494c42a16b959242d8572cc72e22e82d45c",
+      "size": 557893,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2d5a1494c42a16b959242d8572cc72e22e82d45c"
+    },
+    {
+      "path": "dist/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f28b286e271a1e63092e22f74b67c05a4d0a878b",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/f28b286e271a1e63092e22f74b67c05a4d0a878b"
+    },
+    {
+      "path": "dist/js/bootstrap.bundle.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bea2ea30148b1f78c6075991eaa5983e68af32f",
+      "size": 210612,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9bea2ea30148b1f78c6075991eaa5983e68af32f"
+    },
+    {
+      "path": "dist/js/bootstrap.bundle.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9fca36d82ae7dca11686b231ef681c0598ccee",
+      "size": 359500,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ca9fca36d82ae7dca11686b231ef681c0598ccee"
+    },
+    {
+      "path": "dist/js/bootstrap.bundle.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0608e8b3c743bb81e497ac5b3024a4382268268",
+      "size": 70808,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e0608e8b3c743bb81e497ac5b3024a4382268268"
+    },
+    {
+      "path": "dist/js/bootstrap.bundle.min.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "130a7080153892869705f8a715216de6b4090a58",
+      "size": 293699,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/130a7080153892869705f8a715216de6b4090a58"
+    },
+    {
+      "path": "dist/js/bootstrap.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "546a94f851df42393003fa301f0ef20149b36517",
+      "size": 122441,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/546a94f851df42393003fa301f0ef20149b36517"
+    },
+    {
+      "path": "dist/js/bootstrap.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b50f7d4713bbc18673130048235b8aa9b26c027",
+      "size": 212918,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7b50f7d4713bbc18673130048235b8aa9b26c027"
+    },
+    {
+      "path": "dist/js/bootstrap.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac9842d74832e3d96b248a68518ab35e844979a",
+      "size": 50676,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/eac9842d74832e3d96b248a68518ab35e844979a"
+    },
+    {
+      "path": "dist/js/bootstrap.min.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cbfeaca870034d3f34ec606173d259d795cf54e",
+      "size": 176602,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2cbfeaca870034d3f34ec606173d259d795cf54e"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe5982a8ddd8ed6d9fc55983f24f8d39a5b0c905",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/fe5982a8ddd8ed6d9fc55983f24f8d39a5b0c905"
+    },
+    {
+      "path": "docs/4.1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ace19288567d7d283a724e1f68ecf29e95ae4fda",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/ace19288567d7d283a724e1f68ecf29e95ae4fda"
+    },
+    {
+      "path": "docs/4.1/about",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "072472a33fe1d29bcf1abc0a6695524909ab7a1e",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/072472a33fe1d29bcf1abc0a6695524909ab7a1e"
+    },
+    {
+      "path": "docs/4.1/about/brand.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7992258ad4a6b2c4a250c257ce06cc0fd232011a",
+      "size": 2940,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7992258ad4a6b2c4a250c257ce06cc0fd232011a"
+    },
+    {
+      "path": "docs/4.1/about/license.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39720029d7e7145cb34b3a3682801dc8e14bfd2d",
+      "size": 1717,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/39720029d7e7145cb34b3a3682801dc8e14bfd2d"
+    },
+    {
+      "path": "docs/4.1/about/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23dd7affe05165496e9ec879f0c782bc9eed0d9b",
+      "size": 2458,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/23dd7affe05165496e9ec879f0c782bc9eed0d9b"
+    },
+    {
+      "path": "docs/4.1/about/translations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "576259d356e2fe35c05eb1ac7ff2653bf6156795",
+      "size": 630,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/576259d356e2fe35c05eb1ac7ff2653bf6156795"
+    },
+    {
+      "path": "docs/4.1/browser-bugs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2340f90c299a81916dbf33a01d36c94423d47edb",
+      "size": 2534,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2340f90c299a81916dbf33a01d36c94423d47edb"
+    },
+    {
+      "path": "docs/4.1/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fdc871c0e285062e60ff029ff7640b919372137e",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/fdc871c0e285062e60ff029ff7640b919372137e"
+    },
+    {
+      "path": "docs/4.1/components/alerts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c6cb993663fb8549bf2e07ff283c0b6fa34f8a2",
+      "size": 4540,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6c6cb993663fb8549bf2e07ff283c0b6fa34f8a2"
+    },
+    {
+      "path": "docs/4.1/components/badge.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e97cbe7630568fc0de14a035f9077c378bde30d",
+      "size": 3599,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0e97cbe7630568fc0de14a035f9077c378bde30d"
+    },
+    {
+      "path": "docs/4.1/components/breadcrumb.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a64c12856b552cd2bbdf9f453029fa32b7ab1ce",
+      "size": 2308,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6a64c12856b552cd2bbdf9f453029fa32b7ab1ce"
+    },
+    {
+      "path": "docs/4.1/components/button-group.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2261a5e7294fcc1f92a89a7a90ea0aa7273a76b2",
+      "size": 9450,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2261a5e7294fcc1f92a89a7a90ea0aa7273a76b2"
+    },
+    {
+      "path": "docs/4.1/components/buttons.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f999fd552eedabc389a7148b8d794c5fef40f4b1",
+      "size": 8002,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f999fd552eedabc389a7148b8d794c5fef40f4b1"
+    },
+    {
+      "path": "docs/4.1/components/card.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92cc1321fa62e63f2e4ca5274eb948c1fc42eaac",
+      "size": 27241,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/92cc1321fa62e63f2e4ca5274eb948c1fc42eaac"
+    },
+    {
+      "path": "docs/4.1/components/carousel.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c4a0472ec2f1de9121fe800312726eda615bb21",
+      "size": 14180,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7c4a0472ec2f1de9121fe800312726eda615bb21"
+    },
+    {
+      "path": "docs/4.1/components/collapse.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ebd52b7a4ebe912fc2f0298efd085b1c66d5a5",
+      "size": 12604,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/01ebd52b7a4ebe912fc2f0298efd085b1c66d5a5"
+    },
+    {
+      "path": "docs/4.1/components/dropdowns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca223784179ec57e93c0cd055e361cdc5a63e8d",
+      "size": 36670,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4ca223784179ec57e93c0cd055e361cdc5a63e8d"
+    },
+    {
+      "path": "docs/4.1/components/forms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eb34bae95141518d3fdc0e13c929227dd84ffdb",
+      "size": 55753,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0eb34bae95141518d3fdc0e13c929227dd84ffdb"
+    },
+    {
+      "path": "docs/4.1/components/input-group.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fddca987a24c20ac9cbe17e87be47b12f5e60c83",
+      "size": 13369,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/fddca987a24c20ac9cbe17e87be47b12f5e60c83"
+    },
+    {
+      "path": "docs/4.1/components/jumbotron.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c146215653cebe1cc5ecfa58ec4aa4340468489c",
+      "size": 1263,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c146215653cebe1cc5ecfa58ec4aa4340468489c"
+    },
+    {
+      "path": "docs/4.1/components/list-group.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ecb249b37d943c83fd0ae021185dd398ff809de",
+      "size": 18470,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7ecb249b37d943c83fd0ae021185dd398ff809de"
+    },
+    {
+      "path": "docs/4.1/components/modal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed09170e1ec6a4c8a8563808755285653573b1e",
+      "size": 29489,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3ed09170e1ec6a4c8a8563808755285653573b1e"
+    },
+    {
+      "path": "docs/4.1/components/navbar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3b235c3e1d9b2aacd3195237099d6cbad19f8d8",
+      "size": 24489,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d3b235c3e1d9b2aacd3195237099d6cbad19f8d8"
+    },
+    {
+      "path": "docs/4.1/components/navs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86173e9a232afc1e0d2bf2053211ab059a35467e",
+      "size": 35953,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/86173e9a232afc1e0d2bf2053211ab059a35467e"
+    },
+    {
+      "path": "docs/4.1/components/pagination.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b20b0624d7d753c7d351932190a54dace4f9e743",
+      "size": 6538,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b20b0624d7d753c7d351932190a54dace4f9e743"
+    },
+    {
+      "path": "docs/4.1/components/popovers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14a1ac9b374b5fb043338ea20e1c9a56e442a11d",
+      "size": 15398,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/14a1ac9b374b5fb043338ea20e1c9a56e442a11d"
+    },
+    {
+      "path": "docs/4.1/components/progress.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e342b06d93cb709e14aa02638bb30e916cc0edad",
+      "size": 6640,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e342b06d93cb709e14aa02638bb30e916cc0edad"
+    },
+    {
+      "path": "docs/4.1/components/scrollspy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8799d8a06bc24d7e4a9c01fa1c8c4290c3357a",
+      "size": 18947,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6d8799d8a06bc24d7e4a9c01fa1c8c4290c3357a"
+    },
+    {
+      "path": "docs/4.1/components/tooltips.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90bcc15ce6989afeb5e7ef4879d7c1377448894b",
+      "size": 15915,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/90bcc15ce6989afeb5e7ef4879d7c1377448894b"
+    },
+    {
+      "path": "docs/4.1/content",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc5bceb75e4d6e0f033cb171570851ddcd554d56",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/bc5bceb75e4d6e0f033cb171570851ddcd554d56"
+    },
+    {
+      "path": "docs/4.1/content/code.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1ce12ccdcf8ff0abdd41bdd9e467644ced8d0a5",
+      "size": 1666,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d1ce12ccdcf8ff0abdd41bdd9e467644ced8d0a5"
+    },
+    {
+      "path": "docs/4.1/content/figures.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7041997ba94d7f754ab02585db2a816b1e38bfd3",
+      "size": 1421,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7041997ba94d7f754ab02585db2a816b1e38bfd3"
+    },
+    {
+      "path": "docs/4.1/content/images.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49576da9d6c5035e12e2e096400be39b7626b1b7",
+      "size": 3407,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/49576da9d6c5035e12e2e096400be39b7626b1b7"
+    },
+    {
+      "path": "docs/4.1/content/reboot.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b9375d0a1df5a1f4123c78c5e09b62eebe10c51",
+      "size": 12819,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0b9375d0a1df5a1f4123c78c5e09b62eebe10c51"
+    },
+    {
+      "path": "docs/4.1/content/tables.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5de8049f592e4f0600fe2a8fd6ff5659f3db72d",
+      "size": 18567,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d5de8049f592e4f0600fe2a8fd6ff5659f3db72d"
+    },
+    {
+      "path": "docs/4.1/content/typography.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "795f807b60ca7d95ecaa10eaa082f904805236f2",
+      "size": 11378,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/795f807b60ca7d95ecaa10eaa082f904805236f2"
+    },
+    {
+      "path": "docs/4.1/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b597edb1ec7fdf3410d4188d67959b712575439",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/1b597edb1ec7fdf3410d4188d67959b712575439"
+    },
+    {
+      "path": "docs/4.1/examples/.eslintrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04fd6ae131d974e02e01b72aba49381bfacb86d",
+      "size": 185,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f04fd6ae131d974e02e01b72aba49381bfacb86d"
+    },
+    {
+      "path": "docs/4.1/examples/.stylelintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a77dcedb652626fbd30582ddf2639de41b32387",
+      "size": 339,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6a77dcedb652626fbd30582ddf2639de41b32387"
+    },
+    {
+      "path": "docs/4.1/examples/album",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "821ae16b657dc17a14c42ee9552281d2f22e306f",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/821ae16b657dc17a14c42ee9552281d2f22e306f"
+    },
+    {
+      "path": "docs/4.1/examples/album/album.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eabbf9b2f542cbe5fd1d1b1596fe3fbbe23f53d",
+      "size": 655,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7eabbf9b2f542cbe5fd1d1b1596fe3fbbe23f53d"
+    },
+    {
+      "path": "docs/4.1/examples/album/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac765aaa4d0db38ac401e1d84d09371b00469339",
+      "size": 12744,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ac765aaa4d0db38ac401e1d84d09371b00469339"
+    },
+    {
+      "path": "docs/4.1/examples/blog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54ea9d66a85775bdd26096e0934a7f4e7afdba30",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/54ea9d66a85775bdd26096e0934a7f4e7afdba30"
+    },
+    {
+      "path": "docs/4.1/examples/blog/blog.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "399b7e8730fa8b6a6c504b1be67a27453ea8c78a",
+      "size": 2086,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/399b7e8730fa8b6a6c504b1be67a27453ea8c78a"
+    },
+    {
+      "path": "docs/4.1/examples/blog/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fad7bb517d312b11fca167006d35edd272723ef",
+      "size": 12774,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2fad7bb517d312b11fca167006d35edd272723ef"
+    },
+    {
+      "path": "docs/4.1/examples/carousel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "309fb28dd72f4bfed95ccaf975ad9e4351cea2d8",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/309fb28dd72f4bfed95ccaf975ad9e4351cea2d8"
+    },
+    {
+      "path": "docs/4.1/examples/carousel/carousel.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b5a7e49271dbd6b79eb860ac012e74d7a59d71",
+      "size": 1658,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f9b5a7e49271dbd6b79eb860ac012e74d7a59d71"
+    },
+    {
+      "path": "docs/4.1/examples/carousel/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0a2891f9a7cc8e81cefea09ae41483e6f61bf5",
+      "size": 10159,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5f0a2891f9a7cc8e81cefea09ae41483e6f61bf5"
+    },
+    {
+      "path": "docs/4.1/examples/checkout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5b9f5dfcf558dff6614cbb9cb261f08bca8b843",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/d5b9f5dfcf558dff6614cbb9cb261f08bca8b843"
+    },
+    {
+      "path": "docs/4.1/examples/checkout/form-validation.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd88d5a4037098d8455518d643af3e11e7809561",
+      "size": 287,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/fd88d5a4037098d8455518d643af3e11e7809561"
+    },
+    {
+      "path": "docs/4.1/examples/checkout/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e5eafcbe0d5c9d95c1170628c51b7ae8fcc7f5",
+      "size": 11926,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d8e5eafcbe0d5c9d95c1170628c51b7ae8fcc7f5"
+    },
+    {
+      "path": "docs/4.1/examples/cover",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "512860997c25a4bb2c758ce882acbf76641c7ea3",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/512860997c25a4bb2c758ce882acbf76641c7ea3"
+    },
+    {
+      "path": "docs/4.1/examples/cover/cover.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c6d33cdd58d82b8936fd0209c691184883d5e67",
+      "size": 1399,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7c6d33cdd58d82b8936fd0209c691184883d5e67"
+    },
+    {
+      "path": "docs/4.1/examples/cover/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a0effca577e81106934d5958a0af2b5133ae8f8",
+      "size": 2346,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0a0effca577e81106934d5958a0af2b5133ae8f8"
+    },
+    {
+      "path": "docs/4.1/examples/dashboard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3b1062940d5ab973589ce65cc9f3a54793c991a",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/b3b1062940d5ab973589ce65cc9f3a54793c991a"
+    },
+    {
+      "path": "docs/4.1/examples/dashboard/dashboard.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39180973996cb2ec6790b6e12849a16d324035da",
+      "size": 1747,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/39180973996cb2ec6790b6e12849a16d324035da"
+    },
+    {
+      "path": "docs/4.1/examples/dashboard/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96d2d8d9ded8dd508c323fba34859837f798d93",
+      "size": 10164,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d96d2d8d9ded8dd508c323fba34859837f798d93"
+    },
+    {
+      "path": "docs/4.1/examples/floating-labels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99b8fc7a317dc61d16f03b6361af360849ff727a",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/99b8fc7a317dc61d16f03b6361af360849ff727a"
+    },
+    {
+      "path": "docs/4.1/examples/floating-labels/floating-labels.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c1d91bf36ada55210a5290c05132bbcdf8e7209",
+      "size": 1581,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2c1d91bf36ada55210a5290c05132bbcdf8e7209"
+    },
+    {
+      "path": "docs/4.1/examples/floating-labels/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe38f370811c7ac0064003802f373a5993dc186",
+      "size": 1824,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ebe38f370811c7ac0064003802f373a5993dc186"
+    },
+    {
+      "path": "docs/4.1/examples/grid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8dfc28516e398d740a51fcf88e1ccbdb17c34398",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/8dfc28516e398d740a51fcf88e1ccbdb17c34398"
+    },
+    {
+      "path": "docs/4.1/examples/grid/grid.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78f5dfda6240423afb95c3ad812af6fd356a37c5",
+      "size": 372,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/78f5dfda6240423afb95c3ad812af6fd356a37c5"
+    },
+    {
+      "path": "docs/4.1/examples/grid/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0be50f81639b2e58b21d71f75dfccc29cc75179e",
+      "size": 5271,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0be50f81639b2e58b21d71f75dfccc29cc75179e"
+    },
+    {
+      "path": "docs/4.1/examples/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb984382fff02d2e28e11e7f2540d6a8c1649a3",
+      "size": 1001,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3bb984382fff02d2e28e11e7f2540d6a8c1649a3"
+    },
+    {
+      "path": "docs/4.1/examples/jumbotron",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6184b8d1a3f3abbb72cc8622d57dbdd713c30a1e",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/6184b8d1a3f3abbb72cc8622d57dbdd713c30a1e"
+    },
+    {
+      "path": "docs/4.1/examples/jumbotron/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5499cc6308e0287b97a82d7f05bc3533580bcb2f",
+      "size": 4989,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5499cc6308e0287b97a82d7f05bc3533580bcb2f"
+    },
+    {
+      "path": "docs/4.1/examples/jumbotron/jumbotron.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d751264eff13e677c08ddb4c19bad74a04fbc7ab",
+      "size": 107,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d751264eff13e677c08ddb4c19bad74a04fbc7ab"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-bottom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42bec9ef4e658e9366aa5408ecf82a4ca4f5bd4c",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/42bec9ef4e658e9366aa5408ecf82a4ca4f5bd4c"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-bottom/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "539e739d23eeaab106d45d1aa5653d9b4840be55",
+      "size": 2852,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/539e739d23eeaab106d45d1aa5653d9b4840be55"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-fixed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aadd89d10510bf65de27bb94bc9e356cd0ea94fe",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/aadd89d10510bf65de27bb94bc9e356cd0ea94fe"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-fixed/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5196ffbe2dfc10ce2250483312a97930c89403",
+      "size": 2777,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1c5196ffbe2dfc10ce2250483312a97930c89403"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-fixed/navbar-top-fixed.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c77c0c1475bd7d71a83a731f091789b15f5a2a14",
+      "size": 87,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c77c0c1475bd7d71a83a731f091789b15f5a2a14"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "feed25916bb19392abb57d723aaa23a259b04747",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/feed25916bb19392abb57d723aaa23a259b04747"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-static/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1eebd7196c6aa39d7fff6088646b29959884bc0",
+      "size": 2783,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c1eebd7196c6aa39d7fff6088646b29959884bc0"
+    },
+    {
+      "path": "docs/4.1/examples/navbar-static/navbar-top.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25bbdde0946469e97e59ab00a68f251375a5dece",
+      "size": 67,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/25bbdde0946469e97e59ab00a68f251375a5dece"
+    },
+    {
+      "path": "docs/4.1/examples/navbars",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e22901e5dac067096922bbb6ead52d46c075a8fb",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/e22901e5dac067096922bbb6ead52d46c075a8fb"
+    },
+    {
+      "path": "docs/4.1/examples/navbars/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb439718720054fd95c9a11bf50b96d0a40da945",
+      "size": 16618,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/eb439718720054fd95c9a11bf50b96d0a40da945"
+    },
+    {
+      "path": "docs/4.1/examples/navbars/navbar.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70d209409d82d89c25b9abac2ef9f032d4cea7de",
+      "size": 69,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/70d209409d82d89c25b9abac2ef9f032d4cea7de"
+    },
+    {
+      "path": "docs/4.1/examples/offcanvas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62e8e0f7646d824649920da23f53e968e9712cd7",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/62e8e0f7646d824649920da23f53e968e9712cd7"
+    },
+    {
+      "path": "docs/4.1/examples/offcanvas/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed315db328211f707ca6680ff11d6ae2cfdf8e33",
+      "size": 7713,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ed315db328211f707ca6680ff11d6ae2cfdf8e33"
+    },
+    {
+      "path": "docs/4.1/examples/offcanvas/offcanvas.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7edfa0bc9cbd0e026f95b1218f3d6fbbeae8193b",
+      "size": 1522,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7edfa0bc9cbd0e026f95b1218f3d6fbbeae8193b"
+    },
+    {
+      "path": "docs/4.1/examples/offcanvas/offcanvas.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3e467118c5f6aa9b0a25354fd0a78a3db85b45",
+      "size": 148,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/bc3e467118c5f6aa9b0a25354fd0a78a3db85b45"
+    },
+    {
+      "path": "docs/4.1/examples/pricing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1061787f4becbf579446c07b92122f9f6976c6a",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/e1061787f4becbf579446c07b92122f9f6976c6a"
+    },
+    {
+      "path": "docs/4.1/examples/pricing/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36fae88d254f5f6d3a0b39d19e4757d383483e88",
+      "size": 6160,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/36fae88d254f5f6d3a0b39d19e4757d383483e88"
+    },
+    {
+      "path": "docs/4.1/examples/pricing/pricing.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b52205c6edf7d856874866d72e310b6a129d77e",
+      "size": 377,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1b52205c6edf7d856874866d72e310b6a129d77e"
+    },
+    {
+      "path": "docs/4.1/examples/product",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "425d7806c88cda5dca8ced147fc9bbd441d82c32",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/425d7806c88cda5dca8ced147fc9bbd441d82c32"
+    },
+    {
+      "path": "docs/4.1/examples/product/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32f1e23478813916efa3d5fbd03a5ab9fea02767",
+      "size": 9286,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/32f1e23478813916efa3d5fbd03a5ab9fea02767"
+    },
+    {
+      "path": "docs/4.1/examples/product/product.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc0d15c8ce991517b0d1cae02010694ee4d4ff84",
+      "size": 1335,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/cc0d15c8ce991517b0d1cae02010694ee4d4ff84"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc89b9df47dcd27bacfb47099b78a270e35f8afc",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/cc89b9df47dcd27bacfb47099b78a270e35f8afc"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/album.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "162269c4618d8d3caedc3b9695d503d89f470d56",
+      "size": 26370,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/162269c4618d8d3caedc3b9695d503d89f470d56"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/blog.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5480314b4be5882138dad695bdbcaa6c37a4179",
+      "size": 36944,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f5480314b4be5882138dad695bdbcaa6c37a4179"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/carousel.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39df35930cec6965f5442987bc4fc19e862c9e7a",
+      "size": 31465,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/39df35930cec6965f5442987bc4fc19e862c9e7a"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/checkout.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3c5af4b0678ffb5256071a76b02329f19ddb85",
+      "size": 28180,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3e3c5af4b0678ffb5256071a76b02329f19ddb85"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/cover.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d20fb2ed65b990f3789f5720783be2dec2930e7",
+      "size": 17953,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9d20fb2ed65b990f3789f5720783be2dec2930e7"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/dashboard.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52b23dff6939d25e75027fd15fae5a92e4841520",
+      "size": 26556,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/52b23dff6939d25e75027fd15fae5a92e4841520"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/floating-labels.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d284bfe04d996ed7dfb03a95b77879f09f93718",
+      "size": 11053,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5d284bfe04d996ed7dfb03a95b77879f09f93718"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/grid.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7a111b0c4a9aebb28fe7d06a626594b7958c837",
+      "size": 33860,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d7a111b0c4a9aebb28fe7d06a626594b7958c837"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/jumbotron.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d83dffa6f1a354b9e3ea95809448169c68e0230",
+      "size": 38408,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4d83dffa6f1a354b9e3ea95809448169c68e0230"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/navbar-bottom.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a62faa182e234601d3637d8a6985529ff7484f48",
+      "size": 11316,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a62faa182e234601d3637d8a6985529ff7484f48"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/navbar-fixed.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ce8ca576c6c629358b913bf2ebbdb91b6979826",
+      "size": 13616,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1ce8ca576c6c629358b913bf2ebbdb91b6979826"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/navbar-static.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758aa61e8acb061432c4f79b64e768d19742333d",
+      "size": 14893,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/758aa61e8acb061432c4f79b64e768d19742333d"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/navbars.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce11b8d2cdc75a81b001d0b941a04c4a47c91853",
+      "size": 27187,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ce11b8d2cdc75a81b001d0b941a04c4a47c91853"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/offcanvas.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5287dde8893bd15b056457ce77cf8ebe68c2e20",
+      "size": 23975,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e5287dde8893bd15b056457ce77cf8ebe68c2e20"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/pricing.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ddac54ea86103735e97c79e79502c4c9600d8f1",
+      "size": 29128,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9ddac54ea86103735e97c79e79502c4c9600d8f1"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/product.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dfe454821782b4ca6917d7b546333b70de99eeb",
+      "size": 27953,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1dfe454821782b4ca6917d7b546333b70de99eeb"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/sign-in.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b3431de9c7c5c7408219aed21a8a273620ab738",
+      "size": 5680,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8b3431de9c7c5c7408219aed21a8a273620ab738"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/starter-template.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "436c452de1aaa732d146cb002c05ac64acf0f2c6",
+      "size": 11334,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/436c452de1aaa732d146cb002c05ac64acf0f2c6"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/sticky-footer-navbar.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9478901f6f780e54791fa83c6d5210ae6b77bed8",
+      "size": 15836,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9478901f6f780e54791fa83c6d5210ae6b77bed8"
+    },
+    {
+      "path": "docs/4.1/examples/screenshots/sticky-footer.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a008a0ac3a5c7dc1181d0522a3ed68e43016265",
+      "size": 9665,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5a008a0ac3a5c7dc1181d0522a3ed68e43016265"
+    },
+    {
+      "path": "docs/4.1/examples/sign-in",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7411f4700aa12f02bfbb1d013b9cb6e321652d41",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/7411f4700aa12f02bfbb1d013b9cb6e321652d41"
+    },
+    {
+      "path": "docs/4.1/examples/sign-in/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a4d90cbdc6cc9fa2ebb265e66f2a640c2589d0e",
+      "size": 1462,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0a4d90cbdc6cc9fa2ebb265e66f2a640c2589d0e"
+    },
+    {
+      "path": "docs/4.1/examples/sign-in/signin.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90cc93e5b97ba7cd9419492a48c4c6f95b052830",
+      "size": 767,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/90cc93e5b97ba7cd9419492a48c4c6f95b052830"
+    },
+    {
+      "path": "docs/4.1/examples/starter-template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe99dadd69817113435bc22a58f55f19cbb476e1",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/fe99dadd69817113435bc22a58f55f19cbb476e1"
+    },
+    {
+      "path": "docs/4.1/examples/starter-template/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b016685988155a9d7a5ddd7203f706c321acf838",
+      "size": 3196,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b016685988155a9d7a5ddd7203f706c321acf838"
+    },
+    {
+      "path": "docs/4.1/examples/starter-template/starter-template.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f64cd294e36174df2fb1c9a75f29ab95b1d1376",
+      "size": 98,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5f64cd294e36174df2fb1c9a75f29ab95b1d1376"
+    },
+    {
+      "path": "docs/4.1/examples/sticky-footer-navbar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "134764578d33d2c384204116e0debd00f3533a38",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/134764578d33d2c384204116e0debd00f3533a38"
+    },
+    {
+      "path": "docs/4.1/examples/sticky-footer-navbar/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "166c54522bde93c01b497547c16e9a054372d482",
+      "size": 3104,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/166c54522bde93c01b497547c16e9a054372d482"
+    },
+    {
+      "path": "docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07fd56a64051333f7799a58eefec9d8fd02482f0",
+      "size": 693,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/07fd56a64051333f7799a58eefec9d8fd02482f0"
+    },
+    {
+      "path": "docs/4.1/examples/sticky-footer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f1b9935fa34708bfb29726619c3c1e01632035e",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/0f1b9935fa34708bfb29726619c3c1e01632035e"
+    },
+    {
+      "path": "docs/4.1/examples/sticky-footer/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e00111c4854a3b688fc1206b3a1ff13aab583a54",
+      "size": 1122,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e00111c4854a3b688fc1206b3a1ff13aab583a54"
+    },
+    {
+      "path": "docs/4.1/examples/sticky-footer/sticky-footer.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe29104f4e494e1f6e2077fe979a1bb2b04fc2b",
+      "size": 613,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ebe29104f4e494e1f6e2077fe979a1bb2b04fc2b"
+    },
+    {
+      "path": "docs/4.1/examples/tooltip-viewport",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3aae5ef517a8bfe9227c5fc8cd579bc2b2513db0",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/3aae5ef517a8bfe9227c5fc8cd579bc2b2513db0"
+    },
+    {
+      "path": "docs/4.1/examples/tooltip-viewport/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dae9001595378e1b19d6ffb5112fee8de7db0337",
+      "size": 2417,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dae9001595378e1b19d6ffb5112fee8de7db0337"
+    },
+    {
+      "path": "docs/4.1/examples/tooltip-viewport/tooltip-viewport.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26aa2e3482fcaa95d352954e383298fa928a7e75",
+      "size": 385,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/26aa2e3482fcaa95d352954e383298fa928a7e75"
+    },
+    {
+      "path": "docs/4.1/examples/tooltip-viewport/tooltip-viewport.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc75e18c63374b46ca647b571208d6625f1d44bf",
+      "size": 583,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dc75e18c63374b46ca647b571208d6625f1d44bf"
+    },
+    {
+      "path": "docs/4.1/extend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "139b5726dd8debe43ae6fb2174036ea95ba270e1",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/139b5726dd8debe43ae6fb2174036ea95ba270e1"
+    },
+    {
+      "path": "docs/4.1/extend/approach.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62031981f6bbf12f0f7ef372a37b6de84e5a1faf",
+      "size": 7111,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/62031981f6bbf12f0f7ef372a37b6de84e5a1faf"
+    },
+    {
+      "path": "docs/4.1/extend/icons.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32ee49d24a058338003bd94505de88a7c936011",
+      "size": 1063,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d32ee49d24a058338003bd94505de88a7c936011"
+    },
+    {
+      "path": "docs/4.1/extend/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a87e064702bcc5a2df2b4d7b50b9464204681136",
+      "size": 59,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a87e064702bcc5a2df2b4d7b50b9464204681136"
+    },
+    {
+      "path": "docs/4.1/getting-started",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ae723a09e0817896b2e7e9059eac75cec5cddb4",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/8ae723a09e0817896b2e7e9059eac75cec5cddb4"
+    },
+    {
+      "path": "docs/4.1/getting-started/accessibility.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a0c0b0ebe14eaa1eac3e7e0ee46aba00589c47b",
+      "size": 4529,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5a0c0b0ebe14eaa1eac3e7e0ee46aba00589c47b"
+    },
+    {
+      "path": "docs/4.1/getting-started/best-practices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e7af39ee9091e30af0cef863ab2a85a1d5261ec",
+      "size": 675,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1e7af39ee9091e30af0cef863ab2a85a1d5261ec"
+    },
+    {
+      "path": "docs/4.1/getting-started/browsers-devices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4b0c8d735a95e22ad54ccce2a0d866bf8f43b7",
+      "size": 9892,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8a4b0c8d735a95e22ad54ccce2a0d866bf8f43b7"
+    },
+    {
+      "path": "docs/4.1/getting-started/build-tools.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0185b374a46b68309daf9bd3a869b971ed0d9086",
+      "size": 3528,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0185b374a46b68309daf9bd3a869b971ed0d9086"
+    },
+    {
+      "path": "docs/4.1/getting-started/contents.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c95549f00c1c6d3e309c30ff833d9dac64cc845a",
+      "size": 5408,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c95549f00c1c6d3e309c30ff833d9dac64cc845a"
+    },
+    {
+      "path": "docs/4.1/getting-started/download.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0845564cb237d2ac6c87625300e9c38b80984e6",
+      "size": 4703,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e0845564cb237d2ac6c87625300e9c38b80984e6"
+    },
+    {
+      "path": "docs/4.1/getting-started/introduction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b381dd795ea99b51e2aa3e130b8d8d095a0bf52",
+      "size": 7232,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9b381dd795ea99b51e2aa3e130b8d8d095a0bf52"
+    },
+    {
+      "path": "docs/4.1/getting-started/javascript.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da7011e76f0c00a2c08a580a8f26980bb573b2fe",
+      "size": 6906,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/da7011e76f0c00a2c08a580a8f26980bb573b2fe"
+    },
+    {
+      "path": "docs/4.1/getting-started/theming.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4610b47c1da9736a2d425a83b502357ac2fba165",
+      "size": 18121,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4610b47c1da9736a2d425a83b502357ac2fba165"
+    },
+    {
+      "path": "docs/4.1/getting-started/webpack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8a57cf9667a027260f747255a5ca70a6e4d071c",
+      "size": 3423,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e8a57cf9667a027260f747255a5ca70a6e4d071c"
+    },
+    {
+      "path": "docs/4.1/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f772f5485371f583a2e3b78b6da088335bada296",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/f772f5485371f583a2e3b78b6da088335bada296"
+    },
+    {
+      "path": "docs/4.1/layout/grid.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d341b68a118bbdb16b8c8586ff7b07dc8f11b95",
+      "size": 25640,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5d341b68a118bbdb16b8c8586ff7b07dc8f11b95"
+    },
+    {
+      "path": "docs/4.1/layout/media-object.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500fa3e315a4919e160beab00f2c93a92690489f",
+      "size": 8084,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/500fa3e315a4919e160beab00f2c93a92690489f"
+    },
+    {
+      "path": "docs/4.1/layout/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b2f44d33fb9b9fae6be7e3ce0dc3a552ae3f597",
+      "size": 6656,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0b2f44d33fb9b9fae6be7e3ce0dc3a552ae3f597"
+    },
+    {
+      "path": "docs/4.1/layout/utilities-for-layout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a62a5abe04d63b90115cbcda57a765e6ba2badf6",
+      "size": 2039,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a62a5abe04d63b90115cbcda57a765e6ba2badf6"
+    },
+    {
+      "path": "docs/4.1/migration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6798d87290408ca2a383c5c3bbf6ffb7b0b86141",
+      "size": 27562,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6798d87290408ca2a383c5c3bbf6ffb7b0b86141"
+    },
+    {
+      "path": "docs/4.1/utilities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e80642069bbe27e44bf48c09e68286d6d16d53d3",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/e80642069bbe27e44bf48c09e68286d6d16d53d3"
+    },
+    {
+      "path": "docs/4.1/utilities/borders.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e67cc41c9e809595151fe639bd6ccb9397946c97",
+      "size": 2519,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e67cc41c9e809595151fe639bd6ccb9397946c97"
+    },
+    {
+      "path": "docs/4.1/utilities/clearfix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4cb084bf86a022b9bffb7cf15fed5433f7c9299",
+      "size": 1031,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f4cb084bf86a022b9bffb7cf15fed5433f7c9299"
+    },
+    {
+      "path": "docs/4.1/utilities/close-icon.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a848c012e76b08046b550a24b27295630ff61e40",
+      "size": 424,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a848c012e76b08046b550a24b27295630ff61e40"
+    },
+    {
+      "path": "docs/4.1/utilities/colors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acfcf2475a585e9b133753484d6aa494e00d2236",
+      "size": 3120,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/acfcf2475a585e9b133753484d6aa494e00d2236"
+    },
+    {
+      "path": "docs/4.1/utilities/display.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd77a876cbd95d441ee869561446edd1737e6da3",
+      "size": 4099,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dd77a876cbd95d441ee869561446edd1737e6da3"
+    },
+    {
+      "path": "docs/4.1/utilities/embed.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4713c598c9dffd131185c9dae099b68066011785",
+      "size": 1701,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4713c598c9dffd131185c9dae099b68066011785"
+    },
+    {
+      "path": "docs/4.1/utilities/flex.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83e950cf72469f994abeebc47c0d76b99a6dfc09",
+      "size": 23153,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/83e950cf72469f994abeebc47c0d76b99a6dfc09"
+    },
+    {
+      "path": "docs/4.1/utilities/float.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec05d3ec7505daf0d2202cb3c8f65efb35f3b1d3",
+      "size": 1761,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ec05d3ec7505daf0d2202cb3c8f65efb35f3b1d3"
+    },
+    {
+      "path": "docs/4.1/utilities/image-replacement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0982d6e9ced97147fee039bd5f96dd6f9ea47b",
+      "size": 804,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dc0982d6e9ced97147fee039bd5f96dd6f9ea47b"
+    },
+    {
+      "path": "docs/4.1/utilities/position.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c819df080db09edf24f1c56ea2d1a70702a67ac2",
+      "size": 1527,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c819df080db09edf24f1c56ea2d1a70702a67ac2"
+    },
+    {
+      "path": "docs/4.1/utilities/screenreaders.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "311102c6ad18e116d2425e51cf8322bb9d76e341",
+      "size": 853,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/311102c6ad18e116d2425e51cf8322bb9d76e341"
+    },
+    {
+      "path": "docs/4.1/utilities/shadows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54409b5edfb7ef0dbe385589305438e705cc0e87",
+      "size": 803,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/54409b5edfb7ef0dbe385589305438e705cc0e87"
+    },
+    {
+      "path": "docs/4.1/utilities/sizing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7e578a643c608596b5e274fbc37514932e46f54",
+      "size": 2099,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e7e578a643c608596b5e274fbc37514932e46f54"
+    },
+    {
+      "path": "docs/4.1/utilities/spacing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b374748e03c8cc62ee1a37d1dfa8aab103c1156f",
+      "size": 3078,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b374748e03c8cc62ee1a37d1dfa8aab103c1156f"
+    },
+    {
+      "path": "docs/4.1/utilities/text.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972b90066452c62d633479bdb9519aea1fceea4e",
+      "size": 3321,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/972b90066452c62d633479bdb9519aea1fceea4e"
+    },
+    {
+      "path": "docs/4.1/utilities/vertical-align.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc4f0b950a9bf437b588b5a2c826a01e93a0c659",
+      "size": 1377,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/bc4f0b950a9bf437b588b5a2c826a01e93a0c659"
+    },
+    {
+      "path": "docs/4.1/utilities/visibility.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e127139fd3320b3822a7228cf1eaf76ac36ab8f",
+      "size": 751,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9e127139fd3320b3822a7228cf1eaf76ac36ab8f"
+    },
+    {
+      "path": "favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b48b3442ad90fd9b5bcbef8a9f703c1852de1561",
+      "size": 5430,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b48b3442ad90fd9b5bcbef8a9f703c1852de1561"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f5e9b6d5d3423c30dd5aca420e736dcc4bbc30",
+      "size": 4385,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/67f5e9b6d5d3423c30dd5aca420e736dcc4bbc30"
+    },
+    {
+      "path": "js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "703c0926eb19fb687eb1ef93be73a5ac541a9ddc",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/703c0926eb19fb687eb1ef93be73a5ac541a9ddc"
+    },
+    {
+      "path": "js/dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58559e22561562eae3d08045b768e5cd118c7f76",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/58559e22561562eae3d08045b768e5cd118c7f76"
+    },
+    {
+      "path": "js/dist/alert.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef02417248ed778480d076908c85f83d6f52432",
+      "size": 4960,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1ef02417248ed778480d076908c85f83d6f52432"
+    },
+    {
+      "path": "js/dist/alert.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9487339ba92c59ab2f50605c3bc2f0baa82a0d9b",
+      "size": 8191,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9487339ba92c59ab2f50605c3bc2f0baa82a0d9b"
+    },
+    {
+      "path": "js/dist/button.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88b8d08c165a2f0566686fdfab008e2254c3e3d9",
+      "size": 5221,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/88b8d08c165a2f0566686fdfab008e2254c3e3d9"
+    },
+    {
+      "path": "js/dist/button.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3650e720994c9c53ab28c16aae5f9dcf715b8974",
+      "size": 8975,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3650e720994c9c53ab28c16aae5f9dcf715b8974"
+    },
+    {
+      "path": "js/dist/carousel.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e29841b6269f24e7d775c53946502f4ea1f5c3af",
+      "size": 15953,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e29841b6269f24e7d775c53946502f4ea1f5c3af"
+    },
+    {
+      "path": "js/dist/carousel.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "495d3d4d23b09f07f38720a0312b8f4fec9108e3",
+      "size": 28108,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/495d3d4d23b09f07f38720a0312b8f4fec9108e3"
+    },
+    {
+      "path": "js/dist/collapse.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ef8b8c05075a9ceaa7969d0b595838ae4ba65b",
+      "size": 11867,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/57ef8b8c05075a9ceaa7969d0b595838ae4ba65b"
+    },
+    {
+      "path": "js/dist/collapse.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bf66b5ca241c5445f3e6b56f07e5a667b2fa2ac",
+      "size": 21055,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1bf66b5ca241c5445f3e6b56f07e5a667b2fa2ac"
+    },
+    {
+      "path": "js/dist/dropdown.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5d69fac69165bca8bf9ec09f8fcc045888949c9",
+      "size": 15846,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d5d69fac69165bca8bf9ec09f8fcc045888949c9"
+    },
+    {
+      "path": "js/dist/dropdown.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964f4394ed756b2ba31dc1a1977b2d58368e873b",
+      "size": 27761,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/964f4394ed756b2ba31dc1a1977b2d58368e873b"
+    },
+    {
+      "path": "js/dist/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "003da4c52b2b09a2627a7919af8d4af55ccf281f",
+      "size": 913,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/003da4c52b2b09a2627a7919af8d4af55ccf281f"
+    },
+    {
+      "path": "js/dist/index.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cf8266958ab7041cf6422aabba2e60a04a05a53",
+      "size": 2214,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8cf8266958ab7041cf6422aabba2e60a04a05a53"
+    },
+    {
+      "path": "js/dist/modal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2effa83b4f5bad79224191502efbd546501f64c",
+      "size": 18781,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d2effa83b4f5bad79224191502efbd546501f64c"
+    },
+    {
+      "path": "js/dist/modal.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "932c51ee1aa7a4cf5b04579ee5eb48d570508f65",
+      "size": 33348,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/932c51ee1aa7a4cf5b04579ee5eb48d570508f65"
+    },
+    {
+      "path": "js/dist/popover.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceaa1adee4b576cd1579f883d994510ff36ec5c8",
+      "size": 6686,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ceaa1adee4b576cd1579f883d994510ff36ec5c8"
+    },
+    {
+      "path": "js/dist/popover.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a3ac131d1e3b50ea3aa73052269d81eef4ebb65",
+      "size": 9092,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8a3ac131d1e3b50ea3aa73052269d81eef4ebb65"
+    },
+    {
+      "path": "js/dist/scrollspy.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a48cfbd215aef94651ecd465fd53f6dd4e18ff",
+      "size": 10634,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/70a48cfbd215aef94651ecd465fd53f6dd4e18ff"
+    },
+    {
+      "path": "js/dist/scrollspy.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c50f8e4b30bd1cd39ba90f38432dd46894f4d61",
+      "size": 18395,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4c50f8e4b30bd1cd39ba90f38432dd46894f4d61"
+    },
+    {
+      "path": "js/dist/tab.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b8563a7636b7bf52acff2b77c57e766c0f1295c",
+      "size": 7486,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7b8563a7636b7bf52acff2b77c57e766c0f1295c"
+    },
+    {
+      "path": "js/dist/tab.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46aab92f72a13044c82507dc20dfc62bf3ce6725",
+      "size": 13685,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/46aab92f72a13044c82507dc20dfc62bf3ce6725"
+    },
+    {
+      "path": "js/dist/tooltip.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67426d8adad3c6e33555fc53ff2ae7a1ce02c65b",
+      "size": 20278,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/67426d8adad3c6e33555fc53ff2ae7a1ce02c65b"
+    },
+    {
+      "path": "js/dist/tooltip.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c15499f6efb4c11faa04ea9c8d86f0e010157f",
+      "size": 37536,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/29c15499f6efb4c11faa04ea9c8d86f0e010157f"
+    },
+    {
+      "path": "js/dist/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dda90ba5f6d3b9c74ce19e48004936de43b1a425",
+      "size": 4380,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dda90ba5f6d3b9c74ce19e48004936de43b1a425"
+    },
+    {
+      "path": "js/dist/util.js.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1d119589328266d8ff65545c706892920b26427",
+      "size": 8289,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a1d119589328266d8ff65545c706892920b26427"
+    },
+    {
+      "path": "js/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e0db40e03edcdbb74f8ac332a6e57ea3f7448a6",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/1e0db40e03edcdbb74f8ac332a6e57ea3f7448a6"
+    },
+    {
+      "path": "js/src/alert.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd31c00999b5b49cb900bf743851875b0f3341ec",
+      "size": 4151,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/cd31c00999b5b49cb900bf743851875b0f3341ec"
+    },
+    {
+      "path": "js/src/button.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3828f7102220dd444de2e006cf3fed210afa2a5d",
+      "size": 4672,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3828f7102220dd444de2e006cf3fed210afa2a5d"
+    },
+    {
+      "path": "js/src/carousel.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd68b4c0d00db4c41d60b02985c31db495aa638",
+      "size": 14285,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4fd68b4c0d00db4c41d60b02985c31db495aa638"
+    },
+    {
+      "path": "js/src/collapse.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3b3599ecc730db49c659009debae4dcf93a6635",
+      "size": 10494,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c3b3599ecc730db49c659009debae4dcf93a6635"
+    },
+    {
+      "path": "js/src/dropdown.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94c79158257c55ddd1b1c089c23e72dfdaa6a3f9",
+      "size": 14488,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/94c79158257c55ddd1b1c089c23e72dfdaa6a3f9"
+    },
+    {
+      "path": "js/src/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d29d1654df4e6e0933f3ea956034be47fc65f5f0",
+      "size": 1365,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d29d1654df4e6e0933f3ea956034be47fc65f5f0"
+    },
+    {
+      "path": "js/src/modal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13802e276ef7103ed5606c135cbd174cfd252d88",
+      "size": 16743,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/13802e276ef7103ed5606c135cbd174cfd252d88"
+    },
+    {
+      "path": "js/src/popover.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16585d125073116012c49fc202734600c0cf44a4",
+      "size": 4710,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/16585d125073116012c49fc202734600c0cf44a4"
+    },
+    {
+      "path": "js/src/scrollspy.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c46940f53f5c8075367489c285a5dd9901b3e6c",
+      "size": 9218,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1c46940f53f5c8075367489c285a5dd9901b3e6c"
+    },
+    {
+      "path": "js/src/tab.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c59a05fed9bca2050b74b07b01930f768712fa4",
+      "size": 6923,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6c59a05fed9bca2050b74b07b01930f768712fa4"
+    },
+    {
+      "path": "js/src/tooltip.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f751ee3c94c1e8427c56b1650ae29b857eb47c90",
+      "size": 18629,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f751ee3c94c1e8427c56b1650ae29b857eb47c90"
+    },
+    {
+      "path": "js/src/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f309e699356de90171488fc808ec7f31b17f420b",
+      "size": 4172,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f309e699356de90171488fc808ec7f31b17f420b"
+    },
+    {
+      "path": "js/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8d8c33756657033256cacf0d0015eb87fe0d318",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/a8d8c33756657033256cacf0d0015eb87fe0d318"
+    },
+    {
+      "path": "js/tests/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ba3d694e8e53ef7cc1a341a3ba07198087a948c",
+      "size": 3321,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1ba3d694e8e53ef7cc1a341a3ba07198087a948c"
+    },
+    {
+      "path": "js/tests/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f48ce44eb9db900cdec155edea57fc2f6e0bd8b1",
+      "size": 4492,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f48ce44eb9db900cdec155edea57fc2f6e0bd8b1"
+    },
+    {
+      "path": "js/tests/karma-bundle.conf.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74d4c77a6d7b6285aed292b450d43059242145b9",
+      "size": 1499,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/74d4c77a6d7b6285aed292b450d43059242145b9"
+    },
+    {
+      "path": "js/tests/karma.conf.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2b0a676bdcd8f96ebaba0dd73daed7a3264cb50",
+      "size": 2107,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a2b0a676bdcd8f96ebaba0dd73daed7a3264cb50"
+    },
+    {
+      "path": "js/tests/unit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8555fced4e5f6410bf861c557f8ccee3e598e3b0",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/8555fced4e5f6410bf861c557f8ccee3e598e3b0"
+    },
+    {
+      "path": "js/tests/unit/.eslintrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93aaa05f821adbbf5401992e91344602d832b49d",
+      "size": 676,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/93aaa05f821adbbf5401992e91344602d832b49d"
+    },
+    {
+      "path": "js/tests/unit/alert.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "165c91f1e14fcd30fd801f0a4df585a9511d3e25",
+      "size": 2875,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/165c91f1e14fcd30fd801f0a4df585a9511d3e25"
+    },
+    {
+      "path": "js/tests/unit/button.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc2719c3a085a4a25ec0b6b66bd625aa37eed64a",
+      "size": 7344,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/cc2719c3a085a4a25ec0b6b66bd625aa37eed64a"
+    },
+    {
+      "path": "js/tests/unit/carousel.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12bb89e4f4ad2797f245e3f9b3f044f4f723a29b",
+      "size": 36530,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/12bb89e4f4ad2797f245e3f9b3f044f4f723a29b"
+    },
+    {
+      "path": "js/tests/unit/collapse.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a99f16325dad82d878e0e59a3b6e714a2ee6aae",
+      "size": 34158,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4a99f16325dad82d878e0e59a3b6e714a2ee6aae"
+    },
+    {
+      "path": "js/tests/unit/dropdown.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3d3704137d7bd559caf55dcca6de9a46debd07",
+      "size": 35154,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0e3d3704137d7bd559caf55dcca6de9a46debd07"
+    },
+    {
+      "path": "js/tests/unit/modal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8b321a7c22f03f737582bdd206c8d6f7352199c",
+      "size": 26038,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c8b321a7c22f03f737582bdd206c8d6f7352199c"
+    },
+    {
+      "path": "js/tests/unit/popover.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eef811d609aa06d2eb71910182968e17ecf78db",
+      "size": 17412,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3eef811d609aa06d2eb71910182968e17ecf78db"
+    },
+    {
+      "path": "js/tests/unit/scrollspy.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "095e744b76364154e1561aeda717659c00ca5460",
+      "size": 27058,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/095e744b76364154e1561aeda717659c00ca5460"
+    },
+    {
+      "path": "js/tests/unit/tab.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb8d8d078f66c665d757f553abdb05f22659699",
+      "size": 16396,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/5fb8d8d078f66c665d757f553abdb05f22659699"
+    },
+    {
+      "path": "js/tests/unit/tooltip.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d022c5dcd2e258f65f78c22658d8b078135459",
+      "size": 31248,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/20d022c5dcd2e258f65f78c22658d8b078135459"
+    },
+    {
+      "path": "js/tests/unit/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4303ea15b3a7ecf0dbc9934aee497a1e58290f2",
+      "size": 3621,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f4303ea15b3a7ecf0dbc9934aee497a1e58290f2"
+    },
+    {
+      "path": "js/tests/visual",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0436cb69f9abff181ae79e95d148a09dcb4e967",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/b0436cb69f9abff181ae79e95d148a09dcb4e967"
+    },
+    {
+      "path": "js/tests/visual/alert.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b5cc350c6c0e9cec021c2b0136e5fca56d949e",
+      "size": 2518,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d6b5cc350c6c0e9cec021c2b0136e5fca56d949e"
+    },
+    {
+      "path": "js/tests/visual/button.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3de316ac8ee6a760919db9001d7bbbad39e38ca8",
+      "size": 3011,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3de316ac8ee6a760919db9001d7bbbad39e38ca8"
+    },
+    {
+      "path": "js/tests/visual/carousel.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e19272c2d09a50d9cc824318fdfdc5866dbbe327",
+      "size": 2712,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e19272c2d09a50d9cc824318fdfdc5866dbbe327"
+    },
+    {
+      "path": "js/tests/visual/collapse.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3005920957de504f4706b57319ea20f7b664db9b",
+      "size": 4128,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3005920957de504f4706b57319ea20f7b664db9b"
+    },
+    {
+      "path": "js/tests/visual/dropdown.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3bacc2950f246778ee307ea92a43dbda661efaa",
+      "size": 10769,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e3bacc2950f246778ee307ea92a43dbda661efaa"
+    },
+    {
+      "path": "js/tests/visual/modal.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7e7767ebaa6eab7811f0c62b1a35ecaf9eeb0fc",
+      "size": 15179,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d7e7767ebaa6eab7811f0c62b1a35ecaf9eeb0fc"
+    },
+    {
+      "path": "js/tests/visual/popover.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2fb493450a00b13239b4e9816853f2446206de",
+      "size": 1960,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ec2fb493450a00b13239b4e9816853f2446206de"
+    },
+    {
+      "path": "js/tests/visual/scrollspy.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b57185187aa7986336266a225e5efe30e94574f0",
+      "size": 19115,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b57185187aa7986336266a225e5efe30e94574f0"
+    },
+    {
+      "path": "js/tests/visual/tab.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6034722e75f60d7d0ca11ab1425efa9a5bbe1ba",
+      "size": 32329,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a6034722e75f60d7d0ca11ab1425efa9a5bbe1ba"
+    },
+    {
+      "path": "js/tests/visual/tooltip.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91713044ab13e32be12ef58e2dbf68b34b56b96e",
+      "size": 3147,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/91713044ab13e32be12ef58e2dbf68b34b56b96e"
+    },
+    {
+      "path": "nuget",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aede03bd22ce269ed3246fdf1d7b83620dab5dd0",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/aede03bd22ce269ed3246fdf1d7b83620dab5dd0"
+    },
+    {
+      "path": "nuget/MyGet.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71110b5c1e3d14ca1c6a9a8ae784e4e1ebd6d7dc",
+      "size": 935,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/71110b5c1e3d14ca1c6a9a8ae784e4e1ebd6d7dc"
+    },
+    {
+      "path": "nuget/bootstrap.nuspec",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b98f1da4d174f9005cb9d0943bace9db156bc4e",
+      "size": 1385,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4b98f1da4d174f9005cb9d0943bace9db156bc4e"
+    },
+    {
+      "path": "nuget/bootstrap.sass.nuspec",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15e6ca11bcc7569a2272f77ef92528d16e3bc2f5",
+      "size": 1409,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/15e6ca11bcc7569a2272f77ef92528d16e3bc2f5"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f0f04883e510430ef7df122a5fdc9afe173eca8",
+      "size": 508131,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3f0f04883e510430ef7df122a5fdc9afe173eca8"
+    },
+    {
+      "path": "package.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "556ad2d78abdc133970e7f1b806bc1eb489c8f2d",
+      "size": 528,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/556ad2d78abdc133970e7f1b806bc1eb489c8f2d"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c630a444b4344b0059902bc45afd70ffbfc9067b",
+      "size": 9614,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c630a444b4344b0059902bc45afd70ffbfc9067b"
+    },
+    {
+      "path": "robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aef3fa1f64a16c82670d8036c1c926c5ebb9e16c",
+      "size": 123,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/aef3fa1f64a16c82670d8036c1c926c5ebb9e16c"
+    },
+    {
+      "path": "sache.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd1a8c44fc26ff760f44b043ffebc048449e1417",
+      "size": 249,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/cd1a8c44fc26ff760f44b043ffebc048449e1417"
+    },
+    {
+      "path": "scss",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93ca0371958aeef0df1b7ddfd1091f8d5b8539c1",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/93ca0371958aeef0df1b7ddfd1091f8d5b8539c1"
+    },
+    {
+      "path": "scss/_alert.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd43e2376a19ef7242532f843e8271d6aa7e72ba",
+      "size": 1150,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dd43e2376a19ef7242532f843e8271d6aa7e72ba"
+    },
+    {
+      "path": "scss/_badge.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b87a1b00495abc8b00d4c813ec301c22cb320f80",
+      "size": 982,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b87a1b00495abc8b00d4c813ec301c22cb320f80"
+    },
+    {
+      "path": "scss/_breadcrumb.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be309506903bea488037819734c641b657ef5c48",
+      "size": 1278,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/be309506903bea488037819734c641b657ef5c48"
+    },
+    {
+      "path": "scss/_button-group.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54951703459cc042907edc7d2202e706e3b1d01e",
+      "size": 3740,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/54951703459cc042907edc7d2202e706e3b1d01e"
+    },
+    {
+      "path": "scss/_buttons.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a55f34093719b2d5e71d7279a2cbfd0e9b28bf",
+      "size": 2740,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/70a55f34093719b2d5e71d7279a2cbfd0e9b28bf"
+    },
+    {
+      "path": "scss/_card.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28d7e624474c54deed9251445f3e2b7c0273e713",
+      "size": 6037,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/28d7e624474c54deed9251445f3e2b7c0273e713"
+    },
+    {
+      "path": "scss/_carousel.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6274fc4620c2df2bd771b14c935794b81510fc38",
+      "size": 5232,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6274fc4620c2df2bd771b14c935794b81510fc38"
+    },
+    {
+      "path": "scss/_close.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "871cb08fd8e5feeba57130a9a0daed899c08efe4",
+      "size": 860,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/871cb08fd8e5feeba57130a9a0daed899c08efe4"
+    },
+    {
+      "path": "scss/_code.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de20fa0deea3bb4435458d597a0ff76abc2d1dc",
+      "size": 1065,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9de20fa0deea3bb4435458d597a0ff76abc2d1dc"
+    },
+    {
+      "path": "scss/_custom-forms.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54fa8751ce0411f1e83bce216c84c04e09c334e0",
+      "size": 11377,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/54fa8751ce0411f1e83bce216c84c04e09c334e0"
+    },
+    {
+      "path": "scss/_dropdown.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee6f658087ecbdc2ad234d22f2b74f2b8ebb9068",
+      "size": 3753,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ee6f658087ecbdc2ad234d22f2b74f2b8ebb9068"
+    },
+    {
+      "path": "scss/_forms.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c079bd5c4f070ca7bd35d1c6522d3514f91a6293",
+      "size": 8819,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c079bd5c4f070ca7bd35d1c6522d3514f91a6293"
+    },
+    {
+      "path": "scss/_functions.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b44d7d99861a5ff593e32edeaa44bd2dfbe40752",
+      "size": 2661,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b44d7d99861a5ff593e32edeaa44bd2dfbe40752"
+    },
+    {
+      "path": "scss/_grid.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a227515379c4bd9979039bc0e86ca3626123b96b",
+      "size": 1016,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a227515379c4bd9979039bc0e86ca3626123b96b"
+    },
+    {
+      "path": "scss/_images.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bce02f63140fa5d793e1d0b64b93eece69f5c64",
+      "size": 1146,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2bce02f63140fa5d793e1d0b64b93eece69f5c64"
+    },
+    {
+      "path": "scss/_input-group.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78d7bc99aa895eb49dd465ec3789aa7374b9f91e",
+      "size": 4862,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/78d7bc99aa895eb49dd465ec3789aa7374b9f91e"
+    },
+    {
+      "path": "scss/_jumbotron.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7966bba1e22a62689973b6cb377d97802e2c5bbb",
+      "size": 378,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7966bba1e22a62689973b6cb377d97802e2c5bbb"
+    },
+    {
+      "path": "scss/_list-group.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f145c1d30fc5ad43ecf62c19b85af2d138410bb",
+      "size": 2887,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9f145c1d30fc5ad43ecf62c19b85af2d138410bb"
+    },
+    {
+      "path": "scss/_media.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b573052c14affa5bdca02ac9e3e7a4168768925b",
+      "size": 83,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b573052c14affa5bdca02ac9e3e7a4168768925b"
+    },
+    {
+      "path": "scss/_mixins.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8710166660c0e21ebd0ed390187052501f74a917",
+      "size": 984,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8710166660c0e21ebd0ed390187052501f74a917"
+    },
+    {
+      "path": "scss/_modal.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea8112371de1620af96b72e4dbd29e3830e9610",
+      "size": 4645,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/fea8112371de1620af96b72e4dbd29e3830e9610"
+    },
+    {
+      "path": "scss/_nav.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc82161e3413142b17c0dd8342b0450a43786957",
+      "size": 2022,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/fc82161e3413142b17c0dd8342b0450a43786957"
+    },
+    {
+      "path": "scss/_navbar.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05025273f853099df90a5d13ac2c4980ccb9717d",
+      "size": 6529,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/05025273f853099df90a5d13ac2c4980ccb9717d"
+    },
+    {
+      "path": "scss/_pagination.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9349f3f900ff356a135e0a113e913c54f5548efb",
+      "size": 1874,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9349f3f900ff356a135e0a113e913c54f5548efb"
+    },
+    {
+      "path": "scss/_popover.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef5f628bdec02858d22a7d732459f58ae7c1e50",
+      "size": 4536,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3ef5f628bdec02858d22a7d732459f58ae7c1e50"
+    },
+    {
+      "path": "scss/_print.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "410216dd74c2f0a25f1050366b2542a78e54a7cc",
+      "size": 2747,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/410216dd74c2f0a25f1050366b2542a78e54a7cc"
+    },
+    {
+      "path": "scss/_progress.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ac3e0c93f24aae812a15a603e137492ab82bf18",
+      "size": 864,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0ac3e0c93f24aae812a15a603e137492ab82bf18"
+    },
+    {
+      "path": "scss/_reboot.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd23f16d1b520ffddf37b129b5be4db1d31ddb33",
+      "size": 11614,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dd23f16d1b520ffddf37b129b5be4db1d31ddb33"
+    },
+    {
+      "path": "scss/_root.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad550df3b49b5374b82c0266a00a9c6e416b6155",
+      "size": 572,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ad550df3b49b5374b82c0266a00a9c6e416b6155"
+    },
+    {
+      "path": "scss/_tables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b32732f23afaef489d06ea763c11a7c6347c17f4",
+      "size": 3538,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b32732f23afaef489d06ea763c11a7c6347c17f4"
+    },
+    {
+      "path": "scss/_tooltip.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1286ebfcf9038a8c0e1535f498a47c98407bb149",
+      "size": 2503,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1286ebfcf9038a8c0e1535f498a47c98407bb149"
+    },
+    {
+      "path": "scss/_transitions.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d91e27176a9ffe2fe0687e8f16328d2e2f1dd9",
+      "size": 311,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/c8d91e27176a9ffe2fe0687e8f16328d2e2f1dd9"
+    },
+    {
+      "path": "scss/_type.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57d610f0c1c64ecd9a4db74656b2d8d1e58ade6e",
+      "size": 2115,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/57d610f0c1c64ecd9a4db74656b2d8d1e58ade6e"
+    },
+    {
+      "path": "scss/_utilities.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c7a7cdd341adeba2db6dab494abb63af315e8ce",
+      "size": 436,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/6c7a7cdd341adeba2db6dab494abb63af315e8ce"
+    },
+    {
+      "path": "scss/_variables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e174294c9315e5247e939b9feb7dbe751cea033",
+      "size": 37718,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1e174294c9315e5247e939b9feb7dbe751cea033"
+    },
+    {
+      "path": "scss/bootstrap-grid.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84bfe90287d8ed8f4327367ee1805ae3a9fdf1d2",
+      "size": 649,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/84bfe90287d8ed8f4327367ee1805ae3a9fdf1d2"
+    },
+    {
+      "path": "scss/bootstrap-reboot.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0feb6240609b40c84a07a140d31852143e56d88",
+      "size": 411,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/a0feb6240609b40c84a07a140d31852143e56d88"
+    },
+    {
+      "path": "scss/bootstrap.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e05ce1cf9ae0548f343eb7eeddcbec842312137a",
+      "size": 882,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e05ce1cf9ae0548f343eb7eeddcbec842312137a"
+    },
+    {
+      "path": "scss/mixins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed5119fe89328996f45f2c41d7e85d3d8808ed3a",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/ed5119fe89328996f45f2c41d7e85d3d8808ed3a"
+    },
+    {
+      "path": "scss/mixins/_alert.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db5a7eb4549ec1406985347113efa74287a2f219",
+      "size": 242,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/db5a7eb4549ec1406985347113efa74287a2f219"
+    },
+    {
+      "path": "scss/mixins/_background-variant.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "494439d2b45fd21205a9cc4880dc83501c63d5f3",
+      "size": 474,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/494439d2b45fd21205a9cc4880dc83501c63d5f3"
+    },
+    {
+      "path": "scss/mixins/_badge.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeca0b40de92773d3925c557edb2c6642ff37645",
+      "size": 230,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/eeca0b40de92773d3925c557edb2c6642ff37645"
+    },
+    {
+      "path": "scss/mixins/_border-radius.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2024febcfa82ffa56efb6a3c26255613da03d211",
+      "size": 722,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/2024febcfa82ffa56efb6a3c26255613da03d211"
+    },
+    {
+      "path": "scss/mixins/_box-shadow.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2410e53ac3e59c5b0907c1ac079e4c7bc683f86",
+      "size": 87,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b2410e53ac3e59c5b0907c1ac079e4c7bc683f86"
+    },
+    {
+      "path": "scss/mixins/_breakpoints.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1ad684cc76e58d07333a38e0d6e0451b8f47de8",
+      "size": 4468,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d1ad684cc76e58d07333a38e0d6e0451b8f47de8"
+    },
+    {
+      "path": "scss/mixins/_buttons.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06ad6772fa4bddb4c46df06a026c4ca493ce01a8",
+      "size": 3182,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/06ad6772fa4bddb4c46df06a026c4ca493ce01a8"
+    },
+    {
+      "path": "scss/mixins/_caret.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82aea42101a65aa34756547fc3dc9dd04f83732c",
+      "size": 1478,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/82aea42101a65aa34756547fc3dc9dd04f83732c"
+    },
+    {
+      "path": "scss/mixins/_clearfix.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11a977b7373dab15046354e1b27b88f29acdf44f",
+      "size": 93,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/11a977b7373dab15046354e1b27b88f29acdf44f"
+    },
+    {
+      "path": "scss/mixins/_float.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48fa8b6d59e3d4f8c31dd48d22a29572e61ce699",
+      "size": 193,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/48fa8b6d59e3d4f8c31dd48d22a29572e61ce699"
+    },
+    {
+      "path": "scss/mixins/_forms.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec18ba58c5a1b038598907d31a6cc3d7fa6867e",
+      "size": 3201,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/dec18ba58c5a1b038598907d31a6cc3d7fa6867e"
+    },
+    {
+      "path": "scss/mixins/_gradients.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88c4d64b7f7ef50faabf977b168076bb9750da17",
+      "size": 2050,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/88c4d64b7f7ef50faabf977b168076bb9750da17"
+    },
+    {
+      "path": "scss/mixins/_grid-framework.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b37f868f198be0b678dda85a84bc058c247efeb",
+      "size": 1899,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/7b37f868f198be0b678dda85a84bc058c247efeb"
+    },
+    {
+      "path": "scss/mixins/_grid.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b75ebcbca0ceec5d315ec319b7cd1a5907c49f19",
+      "size": 1606,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b75ebcbca0ceec5d315ec319b7cd1a5907c49f19"
+    },
+    {
+      "path": "scss/mixins/_hover.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57823e34baa74c0c5d83741be7e30202dbd91165",
+      "size": 747,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/57823e34baa74c0c5d83741be7e30202dbd91165"
+    },
+    {
+      "path": "scss/mixins/_image.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0544f0d2a348a6aa65896cae1424b9df55ad6c1e",
+      "size": 1172,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/0544f0d2a348a6aa65896cae1424b9df55ad6c1e"
+    },
+    {
+      "path": "scss/mixins/_list-group.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd47a4e9fa86d1468055d65fc88146e92bd073c7",
+      "size": 431,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/cd47a4e9fa86d1468055d65fc88146e92bd073c7"
+    },
+    {
+      "path": "scss/mixins/_lists.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25185626698393b1365199f93aadd8d3350dc9d5",
+      "size": 168,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/25185626698393b1365199f93aadd8d3350dc9d5"
+    },
+    {
+      "path": "scss/mixins/_nav-divider.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fb37b6224720ec2ee926c8932cc4286acfe3624",
+      "size": 261,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4fb37b6224720ec2ee926c8932cc4286acfe3624"
+    },
+    {
+      "path": "scss/mixins/_pagination.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff36eb6b40a8ad577ae61f304cc5f23402d74cef",
+      "size": 453,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/ff36eb6b40a8ad577ae61f304cc5f23402d74cef"
+    },
+    {
+      "path": "scss/mixins/_reset-text.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71edb0061aea4a3a355d2cc5cdab58a323bc40b3",
+      "size": 547,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/71edb0061aea4a3a355d2cc5cdab58a323bc40b3"
+    },
+    {
+      "path": "scss/mixins/_resize.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f233a63c988deb5a59dde3bba962082fbdfd57",
+      "size": 202,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/66f233a63c988deb5a59dde3bba962082fbdfd57"
+    },
+    {
+      "path": "scss/mixins/_screen-reader.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "812591bc5e32312505a4cee99d9dcd4289e44349",
+      "size": 733,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/812591bc5e32312505a4cee99d9dcd4289e44349"
+    },
+    {
+      "path": "scss/mixins/_size.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9dd48e8dfdacc6104c2cf360ea30bb65970a32b",
+      "size": 98,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b9dd48e8dfdacc6104c2cf360ea30bb65970a32b"
+    },
+    {
+      "path": "scss/mixins/_table-row.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84f1d305aaf5287dbdf5baea2ff561ff57e425ec",
+      "size": 647,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/84f1d305aaf5287dbdf5baea2ff561ff57e425ec"
+    },
+    {
+      "path": "scss/mixins/_text-emphasis.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58db3e0fc75fd8326509cc100b46a59b1e13a032",
+      "size": 259,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/58db3e0fc75fd8326509cc100b46a59b1e13a032"
+    },
+    {
+      "path": "scss/mixins/_text-hide.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b8f218b50802839e93eadd8e5a95e3e380d6c47",
+      "size": 336,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4b8f218b50802839e93eadd8e5a95e3e380d6c47"
+    },
+    {
+      "path": "scss/mixins/_text-truncate.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3504bb1aa5d7aa2c3d75aedd4a03916afaa7e4d9",
+      "size": 168,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3504bb1aa5d7aa2c3d75aedd4a03916afaa7e4d9"
+    },
+    {
+      "path": "scss/mixins/_transition.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f853821344c96488b541496dbca01b3a4b763379",
+      "size": 274,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f853821344c96488b541496dbca01b3a4b763379"
+    },
+    {
+      "path": "scss/mixins/_visibility.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe523d0ee365bb91541276f6dddbd72b72c5a543",
+      "size": 134,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/fe523d0ee365bb91541276f6dddbd72b72c5a543"
+    },
+    {
+      "path": "scss/utilities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7b0b0db9a34580e278fc773758c5c4ce0167a66",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/c7b0b0db9a34580e278fc773758c5c4ce0167a66"
+    },
+    {
+      "path": "scss/utilities/_align.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b7df9f76c2c8ddaf8468d9e536bc04da761e63d",
+      "size": 420,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/8b7df9f76c2c8ddaf8468d9e536bc04da761e63d"
+    },
+    {
+      "path": "scss/utilities/_background.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f18b2f3f36483973876a382d6e1bdc1f346361a",
+      "size": 397,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1f18b2f3f36483973876a382d6e1bdc1f346361a"
+    },
+    {
+      "path": "scss/utilities/_borders.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8832ef728241e0cecb5ae33b7298f5fed1205a7",
+      "size": 1551,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b8832ef728241e0cecb5ae33b7298f5fed1205a7"
+    },
+    {
+      "path": "scss/utilities/_clearfix.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e92522a94d82a571b84ac1de470bcb70b176023c",
+      "size": 37,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e92522a94d82a571b84ac1de470bcb70b176023c"
+    },
+    {
+      "path": "scss/utilities/_display.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20aeeb5f3e7586bba0fe69bff02057b15b2309f3",
+      "size": 1409,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/20aeeb5f3e7586bba0fe69bff02057b15b2309f3"
+    },
+    {
+      "path": "scss/utilities/_embed.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3362b6fdb19fff6c8d5998ceefdb41c7538eb5c",
+      "size": 727,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/d3362b6fdb19fff6c8d5998ceefdb41c7538eb5c"
+    },
+    {
+      "path": "scss/utilities/_flex.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d4266e0d087794f655ecceb7a367859a1ac513a",
+      "size": 2769,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/3d4266e0d087794f655ecceb7a367859a1ac513a"
+    },
+    {
+      "path": "scss/utilities/_float.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01655e9a5212731038b8a99633a8a7ed73ecf6a1",
+      "size": 320,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/01655e9a5212731038b8a99633a8a7ed73ecf6a1"
+    },
+    {
+      "path": "scss/utilities/_position.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ecdeeb9be1242dd6a1fb6212b3f30ac3b161a88",
+      "size": 674,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9ecdeeb9be1242dd6a1fb6212b3f30ac3b161a88"
+    },
+    {
+      "path": "scss/utilities/_screenreaders.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f26fde03538350e750a76cf2415a62f960976af",
+      "size": 115,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/9f26fde03538350e750a76cf2415a62f960976af"
+    },
+    {
+      "path": "scss/utilities/_shadows.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d03fcd59c1fc62db7549347003ae43ff6ec709",
+      "size": 249,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/f5d03fcd59c1fc62db7549347003ae43ff6ec709"
+    },
+    {
+      "path": "scss/utilities/_sizing.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e95a4db36ace76169cda75daf7764974d6000db9",
+      "size": 298,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/e95a4db36ace76169cda75daf7764974d6000db9"
+    },
+    {
+      "path": "scss/utilities/_spacing.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e2354b126309957e658c9c6bcbb905097bfd4e",
+      "size": 1406,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/b2e2354b126309957e658c9c6bcbb905097bfd4e"
+    },
+    {
+      "path": "scss/utilities/_text.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f6eba506ca1728a5d2410d480cd23863e620c8f",
+      "size": 1555,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/4f6eba506ca1728a5d2410d480cd23863e620c8f"
+    },
+    {
+      "path": "scss/utilities/_visibility.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "823406dc3c74b6f53f1764b7e5c905b57bed27ba",
+      "size": 121,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/823406dc3c74b6f53f1764b7e5c905b57bed27ba"
+    },
+    {
+      "path": "sw.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a49289a17369be47de1476ac7c83a8f8dca2701",
+      "size": 120,
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/blobs/1a49289a17369be47de1476ac7c83a8f8dca2701"
+    }
+  ],
+  "truncated": false
+}

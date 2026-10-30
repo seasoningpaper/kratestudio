@@ -1,0 +1,82 @@
+{
+  "sha": "877c2ef172c492961135c707e2e4a77477690cd6",
+  "node_id": "MDY6Q29tbWl0MjMwNzY4OTEwOjg3N2MyZWYxNzJjNDkyOTYxMTM1YzcwN2UyZTRhNzc0Nzc2OTBjZDY=",
+  "commit": {
+    "author": {
+      "name": "Adam",
+      "email": "adamgiebl@gmail.com",
+      "date": "2020-12-29T15:51:28Z"
+    },
+    "committer": {
+      "name": "Adam",
+      "email": "adamgiebl@gmail.com",
+      "date": "2020-12-29T15:51:28Z"
+    },
+    "message": "improving responsivity on different devices",
+    "tree": {
+      "sha": "d4fbc1ccfb5e11f15dbe734ab86bcef2d55a9fac",
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/trees/d4fbc1ccfb5e11f15dbe734ab86bcef2d55a9fac"
+    },
+    "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/commits/877c2ef172c492961135c707e2e4a77477690cd6",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/adamgiebl/neumorphism/commits/877c2ef172c492961135c707e2e4a77477690cd6",
+  "html_url": "https://github.com/adamgiebl/neumorphism/commit/877c2ef172c492961135c707e2e4a77477690cd6",
+  "comments_url": "https://api.github.com/repos/adamgiebl/neumorphism/commits/877c2ef172c492961135c707e2e4a77477690cd6/comments",
+  "author": {
+    "login": "adamgiebl",
+    "id": 31918685,
+    "node_id": "MDQ6VXNlcjMxOTE4Njg1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/31918685?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/adamgiebl",
+    "html_url": "https://github.com/adamgiebl",
+    "followers_url": "https://api.github.com/users/adamgiebl/followers",
+    "following_url": "https://api.github.com/users/adamgiebl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/adamgiebl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/adamgiebl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/adamgiebl/subscriptions",
+    "organizations_url": "https://api.github.com/users/adamgiebl/orgs",
+    "repos_url": "https://api.github.com/users/adamgiebl/repos",
+    "events_url": "https://api.github.com/users/adamgiebl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/adamgiebl/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "adamgiebl",
+    "id": 31918685,
+    "node_id": "MDQ6VXNlcjMxOTE4Njg1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/31918685?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/adamgiebl",
+    "html_url": "https://github.com/adamgiebl",
+    "followers_url": "https://api.github.com/users/adamgiebl/followers",
+    "following_url": "https://api.github.com/users/adamgiebl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/adamgiebl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/adamgiebl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/adamgiebl/subscriptions",
+    "organizations_url": "https://api.github.com/users/adamgiebl/orgs",
+    "repos_url": "https://api.github.com/users/adamgiebl/repos",
+    "events_url": "https://api.github.com/users/adamgiebl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/adamgiebl/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "7ad11459cd3592d5963a0d61617c5bb7d6e64fd3",
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/commits/7ad11459cd3592d5963a0d61617c5bb7d6e64fd3",
+      "html_url": "https://github.com/adamgiebl/neumorphism/commit/7ad11459cd3592d5963a0d61617c5bb7d6e64fd3"
+    }
+  ]
+}

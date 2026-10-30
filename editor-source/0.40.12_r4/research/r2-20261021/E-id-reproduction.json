@@ -1,0 +1,12 @@
+{
+  "case": "刪除audio/same不應刪images/same",
+  "before": {
+    "images": 1,
+    "audio": 1
+  },
+  "actual": {
+    "images": 0,
+    "audio": 0
+  },
+  "baselineFailure": true
+}

@@ -1,0 +1,58 @@
+✔ 04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged (4.531263ms)
+✔ 04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging (0.615776ms)
+✔ 04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution (1.011631ms)
+✔ 04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename (1.608248ms)
+✔ 04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs (747.85689ms)
+✔ 04012 R5: flag preset never overwrites an existing numeric variable or project input (0.388384ms)
+✔ 04012 R6: typed operator 0 >= 0 connects and executes (5.095461ms)
+✔ 04012 R6: typed operator 0 <= 0 connects and executes (0.300172ms)
+✔ 04012 R6: typed operator 0 != 0 connects and executes (0.237457ms)
+✔ 04012 R6: typed operator abs(-1) connects and executes (0.273691ms)
+✔ 04012 R6: typed operator floor(1.5) connects and executes (0.316126ms)
+✔ 04012 R6: typed operator ceil(1.5) connects and executes (0.27956ms)
+✔ 04012 R6: typed operator sqrt(4) connects and executes (0.256065ms)
+✔ 04012 R6: typed operator min(1,2) connects and executes (0.31227ms)
+✔ 04012 R6: typed operator max(1,2) connects and executes (0.326561ms)
+✔ 04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow (1248.885037ms)
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (509.728027ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (423.71552ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (318.246099ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0 (329.211125ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180 (534.084861ms)
+✔ 04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics (15.522465ms)
+✔ 04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative (1.668108ms)
+✔ 04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore (1060.533ms)
+✔ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (714.329006ms)
+✔ 04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow (24.339374ms)
+✔ 04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow (32.05621ms)
+✔ 04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow (44.858494ms)
+✔ 04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields (1400.304262ms)
+✔ 04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields (1650.789032ms)
+✔ 04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields (2110.053434ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 30
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13560.300534
+
+✖ failing tests:
+
+test at tests/04012-player-frames.test.mjs:5:29
+✖ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (509.728027ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  '' !== '前一段已完整顯示的長句'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-player-frames.test.mjs:7:279)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: '前一段已完整顯示的長句',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

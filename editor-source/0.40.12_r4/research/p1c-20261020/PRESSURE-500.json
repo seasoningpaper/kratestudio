@@ -1,0 +1,35 @@
+{
+  "environment": "Node.js + fake-indexeddb；不是實機瀏覽器效能",
+  "node": "v24.19.0",
+  "events": 500,
+  "assets": 132,
+  "bytes": 8575234,
+  "gameZipBytes": 11483207,
+  "timingsMilliseconds": {
+    "parse500": 23.92,
+    "engineLoad500": 1.98,
+    "play250": 28.17,
+    "save500With132Assets": 14.14,
+    "load500With132Assets": 5.91,
+    "portableExport": 23.79,
+    "portableRestoreSave": 768.04,
+    "gameZipExport": 76.78,
+    "gameZipRead": 23.5,
+    "compile1000": 11.93
+  },
+  "memoryBefore": {
+    "rss": 56987648,
+    "heapTotal": 20705280,
+    "heapUsed": 10531728,
+    "external": 4346480,
+    "arrayBuffers": 220591
+  },
+  "memoryAfter": {
+    "rss": 332595200,
+    "heapTotal": 175480832,
+    "heapUsed": 44925128,
+    "external": 63083602,
+    "arrayBuffers": 40349748
+  },
+  "limits": "60秒命令逾時；不跑512MiB/2GiB真實容量與長時間循環"
+}

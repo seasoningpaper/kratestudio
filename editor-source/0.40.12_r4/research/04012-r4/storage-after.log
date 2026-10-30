@@ -1,0 +1,36 @@
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer (1202.05677ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer (1047.991283ms)
+✔ r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged (440.927373ms)
+✔ public safety: 5GB format policy is separate from the retained r2 write limit (1.135903ms)
+✔ public safety: oversized save is rejected before IndexedDB access and preserves an existing save (9.465059ms)
+✔ public safety: oversized .koib manifest is rejected before payload read or object URL creation (1.053058ms)
+✔ public safety: large JSON and game ZIP are refused before buffered materialization (0.831183ms)
+✔ public safety: ordinary legacy JSON backup works without file picker, edits and reload preserve IDs (643.091617ms)
+✔ public safety: oversized JSON import refuses before reading and leaves project and events unchanged (317.460572ms)
+✔ public safety: visible capacity labels and footer disclose the write boundary without claiming 5GB browser support (429.251505ms)
+✔ public safety: font import and edited-image copies cannot bypass the common write boundary (1042.404776ms)
+✔ policy uses exactly 5,000,000,000 bytes with exact decimal boundaries (13.58391ms)
+✔ quota estimates are optional shared-origin estimates, never a guaranteed project allowance (0.853877ms)
+✔ capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets (2.552878ms)
+✔ same filename with distinct IDs is stored twice; duplicate IDs are rejected (0.5108ms)
+✔ atomic save/reload retains unknown data and exact bytes (8.596882ms)
+✔ quota and interrupted transaction leave previous snapshot and assets intact (2.906321ms)
+✔ asset deletion saves with accurate reduced payload without damaging other projects (2.401441ms)
+✔ stream backup roundtrip retains every field and binary asset with checksum (7.010069ms)
+✔ stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data (1.69808ms)
+✔ cancelled and failed writes abort the writer and never report a complete backup (0.673536ms)
+✔ legacy Base64 assets still save, load and export with original identifiers (1.662847ms)
+✔ single-file import caps are enforced before decoding or allocating oversized data (0.573574ms)
+✔ quota preflight rejects a changed project without beginning a transaction or overwriting saved state (0.971174ms)
+✔ r4 explicit test project alone can use the 5e9 policy; normal projects and invalid markers retain 2GiB protection (3.745678ms)
+✔ r4 experimental backend saves real Blobs, preserves other projects and rolls back quota/interrupted writes atomically (18.320348ms)
+✔ r4 experimental mode refuses unknown browser quota and cannot silently upgrade an existing normal project (2.014096ms)
+✔ r4 real UI: experimental creation refuses unsupported environments, cancellation preserves project, confirmed entry creates a separate empty project (1296.705164ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7800.42908

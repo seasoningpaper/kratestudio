@@ -1,0 +1,10 @@
+✔ R4 Inspector: null animation target stays visibly unspecified, not a fake fig-center default (612.501567ms)
+✔ R4 DOM 513: target editing, four modes, Undo/Redo and storage preserve full supplied event semantics (3083.611949ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4124.870161

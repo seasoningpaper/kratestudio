@@ -1,0 +1,12 @@
+✔ typed variables rename all references, delete safely, and SQL mutations are atomic (7.184281ms)
+✔ variable CRUD and table editor are visual, stay synchronized, and old font preferences do not mask authored styles (887.187652ms)
+✔ r3 KOI code editor precedes events, applies source to shared cards and retains file-local undo/redo (1276.027954ms)
+✔ R7 edited blocks survive event/flow/code mode changes, source refresh, storage and real player preview (1756.155522ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4718.577828

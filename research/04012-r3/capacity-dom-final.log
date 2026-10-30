@@ -1,0 +1,10 @@
+✔ capacity panel renders eight real categories and separate decimal browser estimate without altering events (942.416244ms)
+✔ capacity CSS is the sole new GUI CSS and remains scoped, flat and wrapping (4.523869ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1727.721128

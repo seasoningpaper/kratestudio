@@ -1,0 +1,26 @@
+{
+  "environment": "Node.js / jsdom actual React bundles; not physical touch, FPS or browser timing",
+  "results": [
+    {
+      "events": 50,
+      "choices": 2,
+      "layoutMs": 1.45,
+      "totalMs": 1454,
+      "idsReferencesUnknownsLoopsSourceUndoStorage": true
+    },
+    {
+      "events": 300,
+      "choices": 15,
+      "layoutMs": 2.1,
+      "totalMs": 1581,
+      "idsReferencesUnknownsLoopsSourceUndoStorage": true
+    },
+    {
+      "events": 500,
+      "choices": 25,
+      "layoutMs": 4.18,
+      "totalMs": 1762,
+      "idsReferencesUnknownsLoopsSourceUndoStorage": true
+    }
+  ]
+}

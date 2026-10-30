@@ -1,0 +1,82 @@
+{
+  "sha": "875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "node_id": "MDY6Q29tbWl0MjEyNjI0NDo4NzVlZDBiOTc1YTU4N2ZmZmNjMWIwYzYzMmUxY2M4ZjYxMmViYzVh",
+  "commit": {
+    "author": {
+      "name": "XhmikosR",
+      "email": "xhmikosr@gmail.com",
+      "date": "2018-04-09T09:08:46Z"
+    },
+    "committer": {
+      "name": "XhmikosR",
+      "email": "xhmikosr@gmail.com",
+      "date": "2018-04-09T19:44:22Z"
+    },
+    "message": "Clean up globals.\n\nAlso, add a missing license header in build/workbox.js.",
+    "tree": {
+      "sha": "15f77e5f0a34771973fe04e080d7403de05cd696",
+      "url": "https://api.github.com/repos/twbs/bootstrap/git/trees/15f77e5f0a34771973fe04e080d7403de05cd696"
+    },
+    "url": "https://api.github.com/repos/twbs/bootstrap/git/commits/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/twbs/bootstrap/commits/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "html_url": "https://github.com/twbs/bootstrap/commit/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "comments_url": "https://api.github.com/repos/twbs/bootstrap/commits/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a/comments",
+  "author": {
+    "login": "XhmikosR",
+    "id": 349621,
+    "node_id": "MDQ6VXNlcjM0OTYyMQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/349621?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/XhmikosR",
+    "html_url": "https://github.com/XhmikosR",
+    "followers_url": "https://api.github.com/users/XhmikosR/followers",
+    "following_url": "https://api.github.com/users/XhmikosR/following{/other_user}",
+    "gists_url": "https://api.github.com/users/XhmikosR/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/XhmikosR/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/XhmikosR/subscriptions",
+    "organizations_url": "https://api.github.com/users/XhmikosR/orgs",
+    "repos_url": "https://api.github.com/users/XhmikosR/repos",
+    "events_url": "https://api.github.com/users/XhmikosR/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/XhmikosR/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "XhmikosR",
+    "id": 349621,
+    "node_id": "MDQ6VXNlcjM0OTYyMQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/349621?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/XhmikosR",
+    "html_url": "https://github.com/XhmikosR",
+    "followers_url": "https://api.github.com/users/XhmikosR/followers",
+    "following_url": "https://api.github.com/users/XhmikosR/following{/other_user}",
+    "gists_url": "https://api.github.com/users/XhmikosR/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/XhmikosR/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/XhmikosR/subscriptions",
+    "organizations_url": "https://api.github.com/users/XhmikosR/orgs",
+    "repos_url": "https://api.github.com/users/XhmikosR/repos",
+    "events_url": "https://api.github.com/users/XhmikosR/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/XhmikosR/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "8f7bd419935adfcd53c471a0202083464800619e",
+      "url": "https://api.github.com/repos/twbs/bootstrap/commits/8f7bd419935adfcd53c471a0202083464800619e",
+      "html_url": "https://github.com/twbs/bootstrap/commit/8f7bd419935adfcd53c471a0202083464800619e"
+    }
+  ]
+}

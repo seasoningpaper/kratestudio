@@ -1,0 +1,17 @@
+✔ 04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged (4.080529ms)
+✔ 04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging (0.582957ms)
+✔ 04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution (1.015818ms)
+✔ 04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename (1.618174ms)
+✔ 04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs (762.512006ms)
+✔ 04012 R5: flag preset never overwrites an existing numeric variable or project input (0.416176ms)
+✔ 04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics (11.507283ms)
+✔ 04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative (1.135128ms)
+✔ 04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore (1049.923611ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1426.624402

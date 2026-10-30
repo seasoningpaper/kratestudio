@@ -1,0 +1,39 @@
+{
+  "children": [
+    {
+      "font": "14.4px",
+      "padding": "7px 5px",
+      "scroll": 124,
+      "text": "  春日物語",
+      "width": 124
+    },
+    {
+      "font": "14.4px",
+      "padding": "0px",
+      "scroll": 58,
+      "text": "春日物語",
+      "width": 58
+    },
+    {
+      "font": "15.6px",
+      "padding": "3px",
+      "scroll": 24,
+      "text": "",
+      "width": 24
+    },
+    {
+      "font": "15.6px",
+      "padding": "3px",
+      "scroll": 24,
+      "text": "",
+      "width": 24
+    },
+    {
+      "font": "15.6px",
+      "padding": "3px",
+      "scroll": 24,
+      "text": "",
+      "width": 24
+    }
+  ]
+}

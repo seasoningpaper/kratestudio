@@ -1,0 +1,28 @@
+✔ R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events (1099.14012ms)
+✔ R2-B Player DOM: waiting exit cleans only A in real Player and preserves B (766.331076ms)
+✔ R2-B Player DOM: parallel exit cleans only A in real Player and preserves B (547.645051ms)
+✔ R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue (884.837232ms)
+✔ R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor (364.054255ms)
+✔ R2-B: waiting exit retains target until completion, never removes other actors in same slot (2.695278ms)
+✔ R2-B: actual exit lifecycle fadeOut (0.359922ms)
+✔ R2-B: actual exit lifecycle exitLeft (0.494274ms)
+✔ R2-B: actual exit lifecycle exitRight (0.229936ms)
+✔ R2-B: actual exit lifecycle exitUp (0.230417ms)
+✔ R2-B: actual exit lifecycle exitDown (0.272811ms)
+✔ R2-B: legacy no-animation hide is immediate and isolates its exact key (0.30527ms)
+✔ R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone (0.417339ms)
+✔ R2-B: unique positional aliases work; exact numeric custom IDs take priority (0.473533ms)
+✔ R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor (0.326862ms)
+✔ R2-B: scene clear cancels pending exits; seeking past exit restores settled state (0.420293ms)
+✔ R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance (0.622488ms)
+✔ R2-B: repeated show/hide with expression, layer and wait stays independent across script copy (12.212397ms)
+✔ R2-B: native and legacy none syntax remain compatible and native directional exits are executable (3.740031ms)
+✔ R4 Player: completed parallel exit is not resurrected by a pending image transition (1269.961012ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4067.594393

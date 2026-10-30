@@ -1,0 +1,51 @@
+✔ legacy Base64 project migrates only after durable save and verification (48.394058ms)
+✔ many images beyond the old localStorage quota save as blobs and reload intact (217.329562ms)
+✔ projects above 512 MiB and below 1024 MiB now save and reload (590.706785ms)
+✔ 2048 MiB application limit rejects oversized projects without replacing previous save (243.32529ms)
+✔ transaction failures leave the previous project and files intact (12.081222ms)
+✔ deleting an asset unlinks all scene, sprite, CG and audio references (3.937119ms)
+✔ font files and screen image references survive durable save and portable export (8.147137ms)
+✔ projects above one GiB and below two GiB save under the 2048 MiB limit (86.293226ms)
+✔ bounded operators handle numeric, boolean and string reporters without evaluating code (13.522918ms)
+✔ nested counted loops run, save and rollback in the shared runtime; copied loops retain their own pairing (26.37012ms)
+✔ blocks edit the same dialogue as event and flow modes, and loop insertion is visible in every mode (3220.684824ms)
+✔ seven text-only tools retain all features, twelve themes recolor the editor and English preserves authored text (3500.716058ms)
+✖ video trim, speed and delayed skip apply to runtime and finish at the edited endpoint (770.380797ms)
+✔ flow grid settings persist and navigation controls stay in the top toolbar (2333.014291ms)
+✔ tool page headings, form labels and help switch language while variable names and authored asset names remain unchanged (3752.942112ms)
+✔ English player menus and save pages localize without translating authored story or custom button labels (1554.875622ms)
+✔ block reorder animates the moved stack and keeps the same event content (729.141562ms)
+✔ card paste preserves internal and preexisting destinations while creating unique event IDs (10.41705ms)
+✔ script CRUD updates chapter tabs, unlinks deleted chapter jumps, and supports undo (2608.786142ms)
+✔ tools and image editors live in separate tabs and retain unsaved script draft across switches (1619.450505ms)
+✔ flow keyboard shortcuts select, copy and paste the cards without intercepting text inputs (892.630168ms)
+✔ phone tools open the workspace and image adjustments survive other tabs changing the shared project (1621.582076ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 21
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28261.133381
+
+✖ failing tests:
+
+test at tests/version409.test.mjs:10:1
+✖ video trim, speed and delayed skip apply to runtime and finish at the edited endpoint (770.380797ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 1.5
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/version409.test.mjs:10:479)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at process.processTimers (node:internal/timers:568:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 1.5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

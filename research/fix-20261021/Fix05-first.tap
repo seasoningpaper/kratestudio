@@ -1,0 +1,25 @@
+✔ Fix-05 reference warning distinguishes cross-chapter jumps and choices from numeric actor IDs (1.573026ms)
+✔ Fix-05 single trash cancels without changes then deletes only its event and supports full Undo (564.79655ms)
+✔ Fix-05 cross-chapter reference risk is confirmed before deleting and Undo restores exact destination (382.438137ms)
+✔ Fix-05 pending delete is cancelled if its event or chapter changes; repeat group delete has no undefined guards (323.845822ms)
+✔ C2: checkbox selection, active editing, all and clear remain independent without touching canonical events (949.952215ms)
+✔ C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work (756.484771ms)
+✔ C2: section checkbox participates in selection; closed groups do not hide a newly located cursor (675.762716ms)
+✔ C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic (788.208789ms)
+✔ C2: batch move preserves order, unknown fields and incoming cross-chapter destinations (755.409847ms)
+✔ C2: batch delete requires confirmation, clears dangling branch targets and is undoable (644.688949ms)
+✔ C2: changing chapters while deletion is pending cancels the old operation (648.104003ms)
+✔ C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact (717.891684ms)
+✔ C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity (697.392694ms)
+✔ C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection (698.645475ms)
+✔ C2: bounded 500-event list selection and bulk movement retain all event semantics (1179.656534ms)
+✔ C2: bounded 1000-event list selection and bulk movement retain all event semantics (1706.115768ms)
+✔ C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict (730.608028ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13192.368168

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "dist/app.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/workspace.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/player.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/backgrounds.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/screen-layout.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/p1a-backgrounds.test.mjs",
+    "exit": 0,
+    "output": ""
+  }
+]

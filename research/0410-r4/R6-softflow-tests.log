@@ -1,0 +1,29 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.41.0-r3 test:softflow
+> node --test --test-concurrency=1 --test-timeout=30000 tests/0410-r3-gui.test.mjs tests/0410-r3-integration.test.mjs
+
+✔ r3 GUI preserves actual engine, block structure, persistence, script semantics, game skins and official Logo bytes (9.196398ms)
+✔ r3 GUI keeps original HTML controls except relocated theme input; mode order and identities remain (180.453955ms)
+✔ r3 GUI palettes update one token source without changing project data or unknown settings (68.895116ms)
+✔ r3 GUI predefined text and primary/focus states meet WCAG AA contrast (0.726476ms)
+✔ r3 file picker preserves native input, accept, multiple, folder, disabled and live status semantics (14.183919ms)
+✔ r3 file picker accepts original formats without MIME, rejects incompatible drops and formats decimal sizes (0.500856ms)
+✔ r3 form labels associate with real controls and groups have accessible names (13.583224ms)
+✔ r3 pointer light coalesces frames, ignores touch, cleans listeners and respects reduced motion (6.564098ms)
+✔ r3 style build uses one compatibility layer, no new important overrides and no direct game stylesheet replacement (4.906309ms)
+✔ r3 settings retain existing editable preferences and route all mutations through the shared commit (0.926577ms)
+✔ r3 release identity and existing hosting are preserved without new framework or desktop dependency (4.606416ms)
+✔ r3 insecure HTTP preview keeps cryptographic UUID identity and native API implementation (15.077538ms)
+✔ r3 requested removals leave ordinary asset reference tracking and real audio playback intact (1.934597ms)
+✔ r3 50 real editor mode round trip, source, unknown fields, loops, undo and persistence (1197.454264ms)
+✔ r3 300 real editor mode round trip, source, unknown fields, loops, undo and persistence (1606.44556ms)
+✔ r3 500 real editor mode round trip, source, unknown fields, loops, undo and persistence (1816.198354ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5722.878365

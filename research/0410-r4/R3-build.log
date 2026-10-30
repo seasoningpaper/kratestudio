@@ -1,0 +1,8 @@
+
+> koi-maker@0.41.0-r3 build
+> node scripts/generate-feature-matrix.mjs && node scripts/generate-script-guide.mjs && node scripts/generate-features.mjs && node scripts/generate-game-skins.mjs && node scripts/build-editor-styles.mjs && node scripts/bundle.mjs && node scripts/build-worker.mjs && node scripts/validate-worker.mjs
+
+{"total":126,"counts":{"A":100,"B":0,"C":2,"D":5,"E":2,"F":17}}
+Editor styles: one legacy layer and one semantic component source.
+Worker built with 62 app files, 13457 KB
+Artifact is valid ESM and exports default.fetch

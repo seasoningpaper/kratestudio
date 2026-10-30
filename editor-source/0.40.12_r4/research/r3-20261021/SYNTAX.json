@@ -1,0 +1,77 @@
+{
+  "count": 18,
+  "results": [
+    {
+      "file": "dist/server/index.js",
+      "passed": true
+    },
+    {
+      "file": "dist/workspace.js",
+      "passed": true
+    },
+    {
+      "file": "scripts/generate-feature-matrix.mjs",
+      "passed": true
+    },
+    {
+      "file": "scripts/generate-features.mjs",
+      "passed": true
+    },
+    {
+      "file": "scripts/generate-script-guide.mjs",
+      "passed": true
+    },
+    {
+      "file": "scripts/prepare-block-visual-review.mjs",
+      "passed": true
+    },
+    {
+      "file": "scripts/verify-static-assets.mjs",
+      "passed": true
+    },
+    {
+      "file": "src/asset-references.mjs",
+      "passed": true
+    },
+    {
+      "file": "src/packaging.mjs",
+      "passed": true
+    },
+    {
+      "file": "src/screen-layout.mjs",
+      "passed": true
+    },
+    {
+      "file": "src/story-search.mjs",
+      "passed": true
+    },
+    {
+      "file": "src/template-components.mjs",
+      "passed": true
+    },
+    {
+      "file": "src/validation.mjs",
+      "passed": true
+    },
+    {
+      "file": "tests/r3-authoring.test.mjs",
+      "passed": true
+    },
+    {
+      "file": "tests/r3-components.test.mjs",
+      "passed": true
+    },
+    {
+      "file": "tests/r3-release.test.mjs",
+      "passed": true
+    },
+    {
+      "file": "tests/r3-sync.test.mjs",
+      "passed": true
+    },
+    {
+      "file": "worker/index.js",
+      "passed": true
+    }
+  ]
+}

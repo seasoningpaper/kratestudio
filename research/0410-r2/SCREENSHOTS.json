@@ -1,0 +1,154 @@
+[
+  {
+    "number": 1,
+    "name": "螢幕擷取畫面 2026-10-23 234921(3).png",
+    "width": 924,
+    "height": 234,
+    "sha256": "05226d1f005ad4ef456f64774c9503ec77ae520957da8bfad0900354c66759ac",
+    "duplicateOf": null
+  },
+  {
+    "number": 2,
+    "name": "螢幕擷取畫面 2026-10-23 235001(3).png",
+    "width": 2048,
+    "height": 80,
+    "sha256": "458f1a4f21aefb5c167a13b5fa787a248b3ebd99f3a4a75e595fba3c1474363d",
+    "duplicateOf": null
+  },
+  {
+    "number": 3,
+    "name": "螢幕擷取畫面 2026-10-23 235053(3).png",
+    "width": 255,
+    "height": 73,
+    "sha256": "e8b3217a9f4d959fffff8ad6b3aacde6e9f59d83a208616b63ac09be2f40a5da",
+    "duplicateOf": null
+  },
+  {
+    "number": 4,
+    "name": "螢幕擷取畫面 2026-10-23 235134(3).png",
+    "width": 341,
+    "height": 318,
+    "sha256": "3f62219b255b2f3ae59352c778fd8a0773eeb4dba9f946f9a3c103b00b1d5248",
+    "duplicateOf": null
+  },
+  {
+    "number": 5,
+    "name": "螢幕擷取畫面 2026-10-23 235201(3).png",
+    "width": 2048,
+    "height": 1006,
+    "sha256": "bbce8057f7a47ea60561d222524b395943656d517c21eb49c163c2cf99c210f3",
+    "duplicateOf": null
+  },
+  {
+    "number": 6,
+    "name": "螢幕擷取畫面 2026-10-23 235300(3).png",
+    "width": 295,
+    "height": 598,
+    "sha256": "4fe2eb7dae060531ea0870287f5a688f502d09a378f6579cc019809e8142f2c4",
+    "duplicateOf": null
+  },
+  {
+    "number": 7,
+    "name": "螢幕擷取畫面 2026-10-23 235313(3).png",
+    "width": 1424,
+    "height": 169,
+    "sha256": "7cce184cf23e5bd991fec7ec14740028a46ddf261729a79c840533a7288c90ac",
+    "duplicateOf": null
+  },
+  {
+    "number": 8,
+    "name": "螢幕擷取畫面 2026-10-23 235426(3).png",
+    "width": 1218,
+    "height": 409,
+    "sha256": "d51f059ce8eb490be759c6b70c4d2be8f2fbceb77615b17debf9f16ae07f4df0",
+    "duplicateOf": null
+  },
+  {
+    "number": 9,
+    "name": "螢幕擷取畫面 2026-10-23 235500(3).png",
+    "width": 1426,
+    "height": 185,
+    "sha256": "7f3917b2443603ae52bc8188e127730a875ec52de529d1af6b4e2d0a3d03b7e0",
+    "duplicateOf": null
+  },
+  {
+    "number": 10,
+    "name": "螢幕擷取畫面 2026-10-23 235853 - 複製(2).png",
+    "width": 2048,
+    "height": 1029,
+    "sha256": "176027ae6fcb9a6e550692429ca3e0fbbb1d9ebce03f612e7c9d5f4d3bb5ee19",
+    "duplicateOf": null
+  },
+  {
+    "number": 11,
+    "name": "螢幕擷取畫面 2026-10-23 235853(3).png",
+    "width": 2048,
+    "height": 1029,
+    "sha256": "176027ae6fcb9a6e550692429ca3e0fbbb1d9ebce03f612e7c9d5f4d3bb5ee19",
+    "duplicateOf": 10
+  },
+  {
+    "number": 12,
+    "name": "螢幕擷取畫面 2026-10-24 000207 - 複製(2).png",
+    "width": 2048,
+    "height": 1515,
+    "sha256": "b45b0013f69802dec05a239382bb23ae4e40e1c9d34c6d9cf93e4b1293f3a3b8",
+    "duplicateOf": null
+  },
+  {
+    "number": 13,
+    "name": "螢幕擷取畫面 2026-10-24 000207(3).png",
+    "width": 2048,
+    "height": 1515,
+    "sha256": "b45b0013f69802dec05a239382bb23ae4e40e1c9d34c6d9cf93e4b1293f3a3b8",
+    "duplicateOf": 12
+  },
+  {
+    "number": 14,
+    "name": "螢幕擷取畫面 2026-10-24 000209 - 複製(2).png",
+    "width": 2047,
+    "height": 1123,
+    "sha256": "6114c262915026d74a163886c12f17fb027c5ae1cd8b42c171f078beb6e6c198",
+    "duplicateOf": null
+  },
+  {
+    "number": 15,
+    "name": "螢幕擷取畫面 2026-10-24 000209(3).png",
+    "width": 2047,
+    "height": 1123,
+    "sha256": "6114c262915026d74a163886c12f17fb027c5ae1cd8b42c171f078beb6e6c198",
+    "duplicateOf": 14
+  },
+  {
+    "number": 16,
+    "name": "螢幕擷取畫面 2026-10-24 000227 - 複製(2).png",
+    "width": 1470,
+    "height": 318,
+    "sha256": "cbeca9b9bfdd0b92a7d30a0f2dd843726601cdb18f042fc4b8faf2a40ac1301a",
+    "duplicateOf": null
+  },
+  {
+    "number": 17,
+    "name": "螢幕擷取畫面 2026-10-24 000227(3).png",
+    "width": 1470,
+    "height": 318,
+    "sha256": "cbeca9b9bfdd0b92a7d30a0f2dd843726601cdb18f042fc4b8faf2a40ac1301a",
+    "duplicateOf": 16
+  },
+  {
+    "number": 18,
+    "name": "螢幕擷取畫面 2026-10-24 000414(2).png",
+    "width": 512,
+    "height": 1436,
+    "sha256": "007c5e9153d846449dcea08d0081a374c6905cb7c1e5beb1c1a0f880deebddbd",
+    "duplicateOf": null
+  },
+  {
+    "number": 19,
+    "name": "螢幕擷取畫面 2026-10-24 000552(2).png",
+    "width": 1645,
+    "height": 1284,
+    "sha256": "633685d0a47252dfc87989a1efb9b59e19476f2047fe02da82ac8e4ddc8b085b",
+    "duplicateOf": null
+  }
+]

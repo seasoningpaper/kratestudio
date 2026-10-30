@@ -1,0 +1,21 @@
+✔ official originals are byte-for-byte the two uploaded files and remain separate from deploy assets (30.651495ms)
+✔ transparent rasters and icons contain actual alpha, correct dimensions and only the original symbol (627.263583ms)
+✔ header and application markup stay identical outside brand button, cache keys and favicon links (2290.681402ms)
+✔ logo-only CSS removes the previous recoloring filter while preserving every header and responsive rule (117.73683ms)
+✔ both logo assets are fetched up front and remain hidden until the stored theme has initialized (459.978261ms)
+✔ all existing light and dark presets switch the correct logo without changing src, palette or project data (28749.245706ms)
+✔ persisted dark preference is restored by a fresh document using the real storage and startup path (3972.032228ms)
+✔ clean logo click uses the existing project hub, focuses the current project and never reloads or initializes a project (1938.484996ms)
+✔ dirty navigation cancellation preserves the active editor, event IDs, data, history and existing draft (1339.123256ms)
+✔ confirmed navigation preserves pending source and rapid click/touch events ask only once (823.086582ms)
+✔ saved but unapplied program drafts and failed saves still request the existing confirmation dialog (897.626868ms)
+✔ secondary mouse buttons do not navigate; Enter/Space remain native accessible button activation (886.303446ms)
+✔ favicon paths reference only needed transparent 16/32/180 PNGs and no new PWA or user-game logo is introduced (604.057712ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 46393.423286

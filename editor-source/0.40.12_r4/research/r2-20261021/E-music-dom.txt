@@ -1,0 +1,32 @@
+TAP version 13
+# Subtest: R2-E Player DOM: synthetic BGM uses per-cue gain and stops scheduling after one melody when loop=false
+not ok 1 - R2-E Player DOM: synthetic BGM uses per-cue gain and stops scheduling after one melody when loop=false
+  ---
+  duration_ms: 509.984431
+  type: 'test'
+  location: '/workspace/sites/galgame-studio/tests/r2-music-dom.test.mjs:2:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(gains.some(v=>Math.abs(v-.07)<1e-8))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r2-music-dom.test.mjs:2:1248)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 856.545941

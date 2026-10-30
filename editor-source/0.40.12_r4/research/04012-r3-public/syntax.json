@@ -1,0 +1,52 @@
+[
+  {
+    "file": "src/storage-policy.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/storage.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/project-backup.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "src/packaging.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/generate-feature-matrix.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/generate-features.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/generate-script-guide.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/verify-static-assets.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "scripts/test-local.mjs",
+    "exitCode": 0,
+    "error": ""
+  },
+  {
+    "file": "dist/app.js",
+    "exitCode": 0,
+    "error": ""
+  }
+]

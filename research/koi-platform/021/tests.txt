@@ -1,0 +1,35 @@
+✔ public pages and internal links resolve, including trailing slash refresh (1223.582922ms)
+✔ account and write routes fail closed without fake cloud persistence (1.249813ms)
+✔ all retained editor runtime files match actual historical git blobs (528.699706ms)
+✔ playable demo handles both branches, local save/load, restart and corrupt saves (30.216635ms)
+✔ works filter actually hides the example rather than only changing its selected state (70.939822ms)
+✔ public pages contain no decorative English captions or banned separators (145.190044ms)
+✔ automatic background respects system motion and hidden tabs without controls or storage writes (76.260319ms)
+✔ creation walkthrough supports click, arrow keys, Home and End without touching stored projects (40.723026ms)
+✔ work keyword search combines with category and recovers after clearing an empty result (14.295513ms)
+✔ downloaded practice script parses with the actual 0.40.12_r4 parser and both branches finish (23.867765ms)
+✔ continuous showcase keeps real destinations, one keyboard copy and no visible motion controls (147.699403ms)
+✔ news categories filter the actual messages and recover to all (19.207965ms)
+✔ mobile menu closes on Escape, link selection and desktop resize (11.585125ms)
+✔ news sharing copies the current article and reports clipboard rejection honestly (18.505421ms)
+✔ removed characters and their artwork are no longer publicly available (133.436133ms)
+✔ twelve supplied illustrations and the approved copy stay correctly paired (131.657233ms)
+✔ dates use calendar days across leap day and DST; validate reversed and malformed dates (1.474331ms)
+✔ BMI computes numeric ratio and rejects invalid values (0.217637ms)
+✔ draws preserve original entries, sample without replacement, allow opt-in repeats and reject invalid counts (1.564868ms)
+✔ random rejection sampling excludes modulo bias (0.13926ms)
+✔ passwords include each selected set and exclude ambiguous characters without storage (6.020941ms)
+✔ selection sort preserves duplicate values and emits actual comparison/swap states (1.152902ms)
+✔ timer formats long durations and rounded remaining seconds (0.146892ms)
+✔ weather and currency render fetched values, dates and honest errors; no hardcoded live fallback (146.826961ms)
+✔ draw renders untrusted names as text and timer transitions pause/resume/reset (33.063385ms)
+✔ sort GUI steps, plays, stops and resets actual numeric states (74.746768ms)
+✔ hero changes actual slides without changing focus, storage or layout controls (62.408337ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3018.486088

@@ -1,0 +1,10 @@
+✔ P1-B opening CG/music gallery preserves the existing title BGM instance and playback position (280.663026ms)
+✔ P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM (318.303476ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 962.349257

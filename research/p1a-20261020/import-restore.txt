@@ -1,0 +1,29 @@
+✔ P1-A importing a background in game designer keeps the asset and one new background through portable restore (739.089458ms)
+✖ P1-A mobile menu background saves independently and reloads alongside title and scene defaults (996.716734ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 1
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2063.503577
+
+✖ failing tests:
+
+test at tests/p1a-backgrounds.test.mjs:14:1
+✖ P1-A mobile menu background saves independently and reloads alongside title and scene defaults (996.716734ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'portrait' !== 'bg'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1a-backgrounds.test.mjs:14:754)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'portrait',
+    expected: 'bg',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

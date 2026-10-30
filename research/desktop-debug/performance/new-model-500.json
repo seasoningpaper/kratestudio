@@ -1,0 +1,6 @@
+{
+  "n": 500,
+  "elapsedMs": 30.773566999999957,
+  "compared": "all event fields except scriptLine + full variable execution trace",
+  "result": "passed"
+}

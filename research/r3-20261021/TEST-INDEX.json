@@ -1,0 +1,1848 @@
+{
+  "uniquePassed": 173,
+  "currentUnresolvedFailures": 0,
+  "syntaxFiles": 18,
+  "workerAssets": 23,
+  "method": "依通過日誌的完整案例名稱去重；C5-first 僅保留未修改後仍有效的通過案例。C6-first 的六個初始失敗另外保留，測試診斷欄位正規化後已通過。此統計不含未重跑的歷史99項。",
+  "sourceLogs": [
+    "C5-first.tap",
+    "C6-regression.tap",
+    "C8-core.tap",
+    "C8-UI-media.tap",
+    "C8-new-final.tap",
+    "C8-storage.tap",
+    "C8-sync-migration.tap"
+  ],
+  "cases": [
+    {
+      "name": "R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 1139.799643
+        }
+      ]
+    },
+    {
+      "name": "R2-D DOM: template group drag and nudge share world deltas and one undo transaction",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 979.333266
+        }
+      ]
+    },
+    {
+      "name": "R2-D DOM: nested template canvas alignment persists and local editor undo restores",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 682.803479
+        }
+      ]
+    },
+    {
+      "name": "C5 migration preserves legacy desktop profiles, unknown fields and has exact reversible backup",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 2.76576
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 3.092572
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 3.618419
+        }
+      ]
+    },
+    {
+      "name": "C5 migration preserves legacy mobile profiles, unknown fields and has exact reversible backup",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 0.570943
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1.148354
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 0.842153
+        }
+      ]
+    },
+    {
+      "name": "C5 migration of absent templates is lazy, reversible and cannot change other pages",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 0.373811
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.373851
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 0.483444
+        }
+      ]
+    },
+    {
+      "name": "C5 groups expand selection, ungroup atomically, move in shared coordinates and never change actions",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 0.595849
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.98334
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 0.763596
+        }
+      ]
+    },
+    {
+      "name": "C5 duplicate built-ins produces independent extras, preserves actions and remaps copied group membership",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 0.458206
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.59712
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 0.67063
+        }
+      ]
+    },
+    {
+      "name": "C5 rejects duplicate, missing, cyclic/nested and multiply-parented group references before any write",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 0.528529
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.832127
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 0.8946
+        }
+      ]
+    },
+    {
+      "name": "C5 standalone import/export retains optional groups, typed actions, layers and validates references",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 0.940968
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 2.019198
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 1.302221
+        }
+      ]
+    },
+    {
+      "name": "C5 alignment and distribution operate on existing components without action or identity loss",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 0.566786
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 2.008093
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 0.732872
+        }
+      ]
+    },
+    {
+      "name": "C5 actual template UI creates groups, clones built-in navigation and restores both history and legacy backup",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C5-first.tap",
+          "elapsedMs": 1284.347427
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1398.321447
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 1339.965446
+        }
+      ]
+    },
+    {
+      "name": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 1.98604
+        }
+      ]
+    },
+    {
+      "name": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 15.292375
+        }
+      ]
+    },
+    {
+      "name": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 0.647094
+        }
+      ]
+    },
+    {
+      "name": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 0.184161
+        }
+      ]
+    },
+    {
+      "name": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 3.34281
+        }
+      ]
+    },
+    {
+      "name": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 0.59698
+        }
+      ]
+    },
+    {
+      "name": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 3.078871
+        }
+      ]
+    },
+    {
+      "name": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 0.762084
+        }
+      ]
+    },
+    {
+      "name": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 0.417346
+        }
+      ]
+    },
+    {
+      "name": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 0.3865
+        }
+      ]
+    },
+    {
+      "name": "P0-D invalid or duplicate value identities are rejected before source application",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 1.027595
+        }
+      ]
+    },
+    {
+      "name": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C6-regression.tap",
+          "elapsedMs": 50.668616
+        }
+      ]
+    },
+    {
+      "name": "input, interpolation, branching, and rollback restore the complete variable state",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 4.761633
+        }
+      ]
+    },
+    {
+      "name": "save/load preserves state, actors, history, background, and variables",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.749626
+        }
+      ]
+    },
+    {
+      "name": "logic loops are bounded and cross chapter jumps execute",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.959124
+        }
+      ]
+    },
+    {
+      "name": "visual and audio control events are applied before dialogue",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.583421
+        }
+      ]
+    },
+    {
+      "name": "save data follows stable event IDs after inserting a scene event",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.271074
+        }
+      ]
+    },
+    {
+      "name": "preview from a selected line restores preceding scene and character state",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.385899
+        }
+      ]
+    },
+    {
+      "name": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.756575
+        }
+      ]
+    },
+    {
+      "name": "P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.934448
+        }
+      ]
+    },
+    {
+      "name": "P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.581052
+        }
+      ]
+    },
+    {
+      "name": "P1-A screen background profiles, template export and asset references remain separate",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 2.538124
+        }
+      ]
+    },
+    {
+      "name": "P1-A game designer selects library backgrounds, creates one missing background and persists configuration",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1069.3342
+        }
+      ]
+    },
+    {
+      "name": "P1-A title library background, fit and position reach desktop/mobile designer and player",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1075.819233
+        }
+      ]
+    },
+    {
+      "name": "P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1597.702912
+        }
+      ]
+    },
+    {
+      "name": "P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 452.991685
+        }
+      ]
+    },
+    {
+      "name": "P1-A importing a background in game designer keeps the asset and one new background through portable restore",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 482.555052
+        }
+      ]
+    },
+    {
+      "name": "P1-A mobile menu background saves independently and reloads alongside title and scene defaults",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1074.539439
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 停止音訊",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 20.360426
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 互動",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.582124
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 鏡頭",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.01054
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 模型",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 2.2847
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 天氣",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.79998
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 濾鏡",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.093542
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 影片",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.931294
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 背景",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.839233
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 立繪",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.914954
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 動作",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 4.239072
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 變形",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.993606
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 對話",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.797887
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 旁白",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.441962
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 過場",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.459438
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 頭像",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.390436
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 文字框",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.39973
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 音樂",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.437876
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 音效",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.621136
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖音樂",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.513628
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 解鎖圖片",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.475611
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 淡幕",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.475622
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 等待",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.519406
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 標籤",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.35231
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 選項",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.635156
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 跳轉",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.179459
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 變數",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.581959
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 條件",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.46046
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 輸入",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.734364
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 特效",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.347993
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference: 結束",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.356767
+        }
+      ]
+    },
+    {
+      "name": "P1-C program reference: 事件資料",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.355164
+        }
+      ]
+    },
+    {
+      "name": "P1-C program reference: 設定檔",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.341263
+        }
+      ]
+    },
+    {
+      "name": "P1-C program reference: 遊戲介面檔",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 2.681916
+        }
+      ]
+    },
+    {
+      "name": "P1-C program reference: 功能畫面檔",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.57983
+        }
+      ]
+    },
+    {
+      "name": "P1-C program reference: 互動模組檔",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.154317
+        }
+      ]
+    },
+    {
+      "name": "P1-C reference schema: 35 entries each retain all 15 required documentation fields",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 12.80086
+        }
+      ]
+    },
+    {
+      "name": "P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.01024
+        }
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 7.5595
+        }
+      ]
+    },
+    {
+      "name": "P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.760246
+        }
+      ]
+    },
+    {
+      "name": "P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.297479
+        }
+      ]
+    },
+    {
+      "name": "P1-C diagnostic examples: intentional errors have lines and Chinese messages",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.919006
+        }
+      ]
+    },
+    {
+      "name": "P1-C audio stop: invalid channels diagnose without muting all tracks",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.31888
+        }
+      ]
+    },
+    {
+      "name": "R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 763.531891
+        }
+      ]
+    },
+    {
+      "name": "R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 3.231656
+        }
+      ]
+    },
+    {
+      "name": "R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.228732
+        }
+      ]
+    },
+    {
+      "name": "R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 0.710708
+        }
+      ]
+    },
+    {
+      "name": "R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.529596
+        }
+      ]
+    },
+    {
+      "name": "R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 1.447756
+        }
+      ]
+    },
+    {
+      "name": "r3 visible product title, description, UI revision and exported generator are consistent",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 6.003284
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 5.826995
+        }
+      ]
+    },
+    {
+      "name": "r3 keeps inherited CSS, logo, audio, storage schema and parser source byte-identical",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 58.945732
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 51.726109
+        }
+      ]
+    },
+    {
+      "name": "r3 generated KOI Script docs keep the language, compatibility format and new operations link",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-core.tap",
+          "elapsedMs": 2.475551
+        },
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 3.717559
+        }
+      ]
+    },
+    {
+      "name": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1695.375926
+        }
+      ]
+    },
+    {
+      "name": "P1-B opening CG/music gallery preserves the existing title BGM instance and playback position",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 300.478223
+        }
+      ]
+    },
+    {
+      "name": "P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 341.452988
+        }
+      ]
+    },
+    {
+      "name": "P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 499.471519
+        }
+      ]
+    },
+    {
+      "name": "P1-B gallery preview volume follows master/music/mute plus its own gain",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 215.626529
+        }
+      ]
+    },
+    {
+      "name": "P1-B gallery audio rejection keeps BGM focus and reports an error without throwing",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 217.220581
+        }
+      ]
+    },
+    {
+      "name": "P1-B game BGM also continues while viewing CG and respects gallery focus after returning",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 344.754262
+        }
+      ]
+    },
+    {
+      "name": "P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 281.891465
+        }
+      ]
+    },
+    {
+      "name": "P1-B muted preference is also applied to gallery music and remains muted after resuming BGM",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 276.921225
+        }
+      ]
+    },
+    {
+      "name": "P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 215.400431
+        }
+      ]
+    },
+    {
+      "name": "P1-B an explicit script music stop is not undone when gallery music ends",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 407.837201
+        }
+      ]
+    },
+    {
+      "name": "C2: checkbox selection, active editing, all and clear remain independent without touching canonical events",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1198.366264
+        }
+      ]
+    },
+    {
+      "name": "C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 783.803073
+        }
+      ]
+    },
+    {
+      "name": "C2: section checkbox participates in selection; closed groups do not hide a newly located cursor",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 687.889248
+        }
+      ]
+    },
+    {
+      "name": "C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 776.650197
+        }
+      ]
+    },
+    {
+      "name": "C2: batch move preserves order, unknown fields and incoming cross-chapter destinations",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 759.882265
+        }
+      ]
+    },
+    {
+      "name": "C2: batch delete requires confirmation, clears dangling branch targets and is undoable",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 638.172523
+        }
+      ]
+    },
+    {
+      "name": "C2: changing chapters while deletion is pending cancels the old operation",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 637.347798
+        }
+      ]
+    },
+    {
+      "name": "C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 690.480361
+        }
+      ]
+    },
+    {
+      "name": "C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 637.370131
+        }
+      ]
+    },
+    {
+      "name": "C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 678.146224
+        }
+      ]
+    },
+    {
+      "name": "C2: bounded 500-event list selection and bulk movement retain all event semantics",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1095.564545
+        }
+      ]
+    },
+    {
+      "name": "C2: bounded 1000-event list selection and bulk movement retain all event semantics",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1424.123488
+        }
+      ]
+    },
+    {
+      "name": "C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 692.923408
+        }
+      ]
+    },
+    {
+      "name": "C3: scroll rails project bounded camera at all zooms and restore identical world positions",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1.682011
+        }
+      ]
+    },
+    {
+      "name": "C3: wheel pans by default, Shift pans horizontally, modifier zoom preserves pointer world location",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 0.690799
+        }
+      ]
+    },
+    {
+      "name": "C3: locate resolves exact numeric IDs before ordinal and diagnoses ambiguous or missing sections",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1.425653
+        }
+      ]
+    },
+    {
+      "name": "C3 DOM: visible rails drag and keyboard navigation update only the camera; scale and story stay intact",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 904.368905
+        }
+      ]
+    },
+    {
+      "name": "C3 DOM: ordinary wheel pans, modifier wheel zooms, Space drag over a node never moves story positions",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 676.045662
+        }
+      ]
+    },
+    {
+      "name": "C3 DOM: locate hidden event expands its group and centers the real node without mutating layout",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 611.072168
+        }
+      ]
+    },
+    {
+      "name": "C3 DOM: view survives switching editor modes and rail drag cancellation does not move nodes",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 653.803882
+        }
+      ]
+    },
+    {
+      "name": "C3: bounded 300-event branches, cycles and cross-chapter links keep logic while producing finite scroll rails",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 28.284851
+        }
+      ]
+    },
+    {
+      "name": "C3: bounded 500-event branches, cycles and cross-chapter links keep logic while producing finite scroll rails",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 36.355635
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 789.337613
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first game-template gesture",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 610.947987
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 406.577349
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: second touch cannot move or finish the first menu-template gesture",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 472.897954
+        }
+      ]
+    },
+    {
+      "name": "C4 reproduction: lost pointer capture cancels a menu-template draft",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 377.800064
+        }
+      ]
+    },
+    {
+      "name": "C4: two-finger pinch preserves midpoint world coordinates and never edits blocks; cancel stops further zoom",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 444.337102
+        }
+      ]
+    },
+    {
+      "name": "C4: outward toolbox touch adds one fresh block and cancellation never inserts or plays disconnect",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 457.189489
+        }
+      ]
+    },
+    {
+      "name": "C4: touch stack disconnect sounds once before release; cancellation and autoplay rejection are safe",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 366.616437
+        }
+      ]
+    },
+    {
+      "name": "C4: desktop template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 757.571456
+        }
+      ]
+    },
+    {
+      "name": "C4: mobile template touch coordinates, Undo/Redo and save/reload use the displayed canvas",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 760.109808
+        }
+      ]
+    },
+    {
+      "name": "C4: menu-template touch coordinate mapping survives scaled canvas, Undo and storage without migration",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 694.945355
+        }
+      ]
+    },
+    {
+      "name": "C4: viewport resize cancels both template drafts without committing partial coordinates",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 714.880149
+        }
+      ]
+    },
+    {
+      "name": "R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1197.738437
+        }
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: waiting exit cleans only A in real Player and preserves B",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 644.27977
+        }
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: parallel exit cleans only A in real Player and preserves B",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 547.550196
+        }
+      ]
+    },
+    {
+      "name": "R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 839.731444
+        }
+      ]
+    },
+    {
+      "name": "R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 312.932157
+        }
+      ]
+    },
+    {
+      "name": "R2-E Player DOM: synthetic BGM uses per-cue gain and stops scheduling after one melody when loop=false",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 765.676775
+        }
+      ]
+    },
+    {
+      "name": "R2-E Medium: parser preserves legacy looping defaults and explicit native volume/loop flags",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 5.182043
+        }
+      ]
+    },
+    {
+      "name": "R2-E Medium: mixer applies per-cue volume and loop, same-file cue restart and safe gallery resume",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 0.771619
+        }
+      ]
+    },
+    {
+      "name": "R2-E: synchronous/rejected audio restrictions never escape mixer play or focus resume",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 7.945269
+        }
+      ]
+    },
+    {
+      "name": "R2-E: music cue state survives save/load, does not alter source event parameters",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-UI-media.tap",
+          "elapsedMs": 1.262792
+        }
+      ]
+    },
+    {
+      "name": "R3 global replace covers chapters and options while excluding labels, IDs, resources, unknown fields and interpolation names",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 4.216579
+        }
+      ]
+    },
+    {
+      "name": "R3 replace rejects unsaved native/legacy script drafts and stale previews before mutation",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1.060944
+        }
+      ]
+    },
+    {
+      "name": "R3 replace is literal, handles optional display names and has bounded work",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.53591
+        }
+      ]
+    },
+    {
+      "name": "R3 typed batch repair fixes missing/current references simultaneously and never crosses asset kinds or changes backups",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1.443669
+        }
+      ]
+    },
+    {
+      "name": "R3 repair validates entire batch before writing and does not cascade A→B→C",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.565704
+        }
+      ]
+    },
+    {
+      "name": "R3 diagnostics reports empty/nonexistent/numeric animation targets, unknown instructions and duplicate event IDs consistently",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1.359586
+        }
+      ]
+    },
+    {
+      "name": "R3 actual global-search entry previews, confirms, persists changes and supports app Undo/Redo",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1164.786966
+        }
+      ]
+    },
+    {
+      "name": "R3 actual asset-repair entry updates typed references and restores them with one Undo",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 787.862043
+        }
+      ]
+    },
+    {
+      "name": "R3 unified diagnostics includes secondary stems and template images but excludes literal dialogue and legacy backups",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1.052362
+        }
+      ]
+    },
+    {
+      "name": "R3 actual unified diagnostic UI shows animation failures with a filter and remains read-only",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 389.497753
+        }
+      ]
+    },
+    {
+      "name": "C5 grouping metadata never leaks profile identities, migration backups or group membership to other pages",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.856253
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 1.247971
+        }
+      ]
+    },
+    {
+      "name": "C5 unsupported future versions and malformed backups fail before mutating project data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 0.498135
+        },
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 0.769876
+        }
+      ]
+    },
+    {
+      "name": "r3 exported playable game ZIP preserves the project and embeds current generator",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-new-final.tap",
+          "elapsedMs": 1235.668836
+        }
+      ]
+    },
+    {
+      "name": "legacy Base64 project migrates only after durable save and verification",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-storage.tap",
+          "elapsedMs": 8.145184
+        }
+      ]
+    },
+    {
+      "name": "transaction failures leave the previous project and files intact",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-storage.tap",
+          "elapsedMs": 4.107659
+        }
+      ]
+    },
+    {
+      "name": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-storage.tap",
+          "elapsedMs": 0.98948
+        }
+      ]
+    },
+    {
+      "name": "font files and screen image references survive durable save and portable export",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-storage.tap",
+          "elapsedMs": 2.296688
+        }
+      ]
+    },
+    {
+      "name": "C6 50: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 46.357417
+        }
+      ]
+    },
+    {
+      "name": "C6 300: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 102.547328
+        }
+      ]
+    },
+    {
+      "name": "C6 500: shared event/block/code/flow derivations preserve every field, ID, destination and execution",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 218.006366
+        }
+      ]
+    },
+    {
+      "name": "C6 DOM 50: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 1493.30322
+        }
+      ]
+    },
+    {
+      "name": "C6 DOM 300: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 2011.723921
+        }
+      ]
+    },
+    {
+      "name": "C6 DOM 500: actual four-mode roundtrip, source apply, Undo/Redo and IndexedDB preserve unknown data",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 2824.986706
+        }
+      ]
+    },
+    {
+      "name": "C6 unsupported future event fails explicitly before source apply rather than being silently deleted",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 1.173031
+        }
+      ]
+    },
+    {
+      "name": "C6 CRUD 50: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 5.769554
+        }
+      ]
+    },
+    {
+      "name": "C6 CRUD 300: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 16.854551
+        }
+      ]
+    },
+    {
+      "name": "C6 CRUD 500: copy, delete and reorder keep cross-chapter destinations and nested parameters through canonical source",
+      "status": "passed",
+      "evidence": [
+        {
+          "log": "C8-sync-migration.tap",
+          "elapsedMs": 37.288836
+        }
+      ]
+    }
+  ],
+  "notExecuted": [
+    "真人瀏覽器視覺",
+    "實機觸控",
+    "音訊聽感",
+    "所有任意舊專案",
+    "512MiB/2GiB配置壓力測試",
+    "競品實際執行比較"
+  ]
+}

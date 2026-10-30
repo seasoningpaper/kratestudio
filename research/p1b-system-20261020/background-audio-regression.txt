@@ -1,0 +1,34 @@
+✔ P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing (1.201839ms)
+✔ P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations (1.107427ms)
+✔ P1-A screen background profiles, template export and asset references remain separate (2.363798ms)
+✔ P1-A game designer selects library backgrounds, creates one missing background and persists configuration (1082.903281ms)
+✔ P1-A title library background, fit and position reach desktop/mobile designer and player (1146.353133ms)
+✔ P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings (1738.480882ms)
+✔ P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue (491.563033ms)
+✔ P1-A importing a background in game designer keeps the asset and one new background through portable restore (519.69129ms)
+✔ P1-A mobile menu background saves independently and reloads alongside title and scene defaults (1169.394137ms)
+✔ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (634.869187ms)
+✔ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (582.929262ms)
+✔ P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect (635.637622ms)
+✔ P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts (624.508947ms)
+✔ P1-B context extraction still plays immediately and only after a successful detach (502.844843ms)
+✔ P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback (391.781054ms)
+✔ P1-B dragging a tail out of a floating stack detects its real external connection (305.315584ms)
+✔ P1-B opening CG/music gallery preserves the existing title BGM instance and playback position (299.369842ms)
+✔ P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM (297.835852ms)
+✔ P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it (480.125781ms)
+✔ P1-B gallery preview volume follows master/music/mute plus its own gain (211.533984ms)
+✔ P1-B gallery audio rejection keeps BGM focus and reports an error without throwing (210.655215ms)
+✔ P1-B game BGM also continues while viewing CG and respects gallery focus after returning (347.553899ms)
+✔ P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context (279.681279ms)
+✔ P1-B muted preference is also applied to gallery music and remains muted after resuming BGM (285.018861ms)
+✔ P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped (216.975864ms)
+✔ P1-B an explicit script music stop is not undone when gallery music ends (412.234346ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14151.487784

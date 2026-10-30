@@ -1,0 +1,21 @@
+✔ r2 GUI preserves actual engine, block structure, persistence, script semantics, game skins and official Logo bytes (7.18108ms)
+✔ r2 GUI keeps original HTML controls except relocated theme input; mode order and identities remain (144.532319ms)
+✔ r2 GUI palettes update one token source without changing project data or unknown settings (45.223587ms)
+✔ r2 GUI predefined text and primary/focus states meet WCAG AA contrast (0.544279ms)
+✔ r2 file picker preserves native input, accept, multiple, folder, disabled and live status semantics (13.608065ms)
+✔ r2 file picker accepts original formats without MIME, rejects incompatible drops and formats decimal sizes (0.453373ms)
+✔ r2 form labels associate with real controls and groups have accessible names (11.86468ms)
+✔ r2 pointer light coalesces frames, ignores touch, cleans listeners and respects reduced motion (4.9355ms)
+✔ r2 style build uses one compatibility layer, no new important overrides and no direct game stylesheet replacement (7.853131ms)
+✔ r2 settings retain existing editable preferences and route all mutations through the shared commit (1.0428ms)
+✔ r2 release identity and existing hosting are preserved without new framework or desktop dependency (1.712859ms)
+✔ r2 insecure HTTP preview keeps cryptographic UUID identity and native API implementation (9.500542ms)
+✔ r2 requested removals leave ordinary asset reference tracking and real audio playback intact (1.360368ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 738.880148

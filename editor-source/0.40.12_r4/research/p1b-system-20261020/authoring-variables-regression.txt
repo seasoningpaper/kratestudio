@@ -1,0 +1,24 @@
+✔ typed variables rename all references, delete safely, and SQL mutations are atomic (6.214907ms)
+✔ visual tables and SQL share records, export in project and resolve in runtime dialogue (1.758688ms)
+✔ interface geometry clamps to canvas and repeated actor swaps retain new image and motion state (1.847241ms)
+✔ game interface designer drag, touch coordinates, labels, hover assets and motion persist through tabs and player (1312.435453ms)
+✔ variable CRUD and table editor are visual, stay synchronized, and old font preferences do not mask authored styles (820.57342ms)
+✔ imported new typed variables are registered without changing names or existing initial values (6.512738ms)
+✔ a backward choice cannot move the first imported node to the bottom, and collapsed groups remove hidden gaps (2.421316ms)
+✔ wait events keep dialogue while timing passes, never show editor instructions or log them (1000.036868ms)
+✔ save browser has nine slots, twelve pages, preserves old slots and grows durably to fifty pages (426.530559ms)
+✔ project tools is one reusable tab, project selector is beside the version, and sidebar project CRUD preserves others (580.886572ms)
+✔ property variable select retains an imported variable and a single project tool tab retains its script draft (523.054169ms)
+✔ custom game fills its canvas without an implementation heading (97.714562ms)
+✔ desktop hold and drag reorders tabs without opening another page (611.384255ms)
+✔ active project duplication, rename and deletion keep independent assets and leave a usable last project (308.688039ms)
+✔ validation respects external option chapters, diagnoses typed arithmetic, and repaired imported conditions play (2.907168ms)
+✔ editing an animation target retains its actor key rather than converting it to a numeric jump index (344.366678ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6780.077472

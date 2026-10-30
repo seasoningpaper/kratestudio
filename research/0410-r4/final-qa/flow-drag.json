@@ -1,0 +1,45 @@
+{
+  "before": {
+    "bottom": 547,
+    "height": 88,
+    "left": 344,
+    "right": 560,
+    "top": 459,
+    "width": 216,
+    "x": 344,
+    "y": 459
+  },
+  "after": {
+    "rect": {
+      "bottom": 587,
+      "height": 88,
+      "left": 424,
+      "right": 640,
+      "top": 499,
+      "width": 216,
+      "x": 424,
+      "y": 499
+    },
+    "style": "left: 180px; top: 360px; width: 216px; height: 88px; --flow-scale: 1; --category-color: var(--category-story,#a35d7e);"
+  },
+  "undo": {
+    "bottom": 547,
+    "height": 88,
+    "left": 344,
+    "right": 560,
+    "top": 459,
+    "width": 216,
+    "x": 344,
+    "y": 459
+  },
+  "redo": {
+    "bottom": 587,
+    "height": 88,
+    "left": 424,
+    "right": 640,
+    "top": 499,
+    "width": 216,
+    "x": 424,
+    "y": 499
+  }
+}

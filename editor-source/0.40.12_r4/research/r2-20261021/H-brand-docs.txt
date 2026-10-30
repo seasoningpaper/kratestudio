@@ -1,0 +1,286 @@
+TAP version 13
+# Subtest: P1-C reference: 停止音訊
+ok 1 - P1-C reference: 停止音訊
+  ---
+  duration_ms: 11.623238
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 互動
+ok 2 - P1-C reference: 互動
+  ---
+  duration_ms: 1.044083
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 鏡頭
+ok 3 - P1-C reference: 鏡頭
+  ---
+  duration_ms: 0.644681
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 模型
+ok 4 - P1-C reference: 模型
+  ---
+  duration_ms: 1.575543
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 天氣
+ok 5 - P1-C reference: 天氣
+  ---
+  duration_ms: 0.566994
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 濾鏡
+ok 6 - P1-C reference: 濾鏡
+  ---
+  duration_ms: 0.73707
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 影片
+ok 7 - P1-C reference: 影片
+  ---
+  duration_ms: 0.508836
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 背景
+ok 8 - P1-C reference: 背景
+  ---
+  duration_ms: 0.523799
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 立繪
+ok 9 - P1-C reference: 立繪
+  ---
+  duration_ms: 0.784201
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 動作
+ok 10 - P1-C reference: 動作
+  ---
+  duration_ms: 0.561166
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 變形
+ok 11 - P1-C reference: 變形
+  ---
+  duration_ms: 1.124784
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 對話
+ok 12 - P1-C reference: 對話
+  ---
+  duration_ms: 0.5506
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 旁白
+ok 13 - P1-C reference: 旁白
+  ---
+  duration_ms: 0.446633
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 過場
+ok 14 - P1-C reference: 過場
+  ---
+  duration_ms: 0.554395
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 頭像
+ok 15 - P1-C reference: 頭像
+  ---
+  duration_ms: 0.534005
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 文字框
+ok 16 - P1-C reference: 文字框
+  ---
+  duration_ms: 0.363127
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 音樂
+ok 17 - P1-C reference: 音樂
+  ---
+  duration_ms: 0.416177
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 音效
+ok 18 - P1-C reference: 音效
+  ---
+  duration_ms: 0.356086
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 解鎖音樂
+ok 19 - P1-C reference: 解鎖音樂
+  ---
+  duration_ms: 0.520374
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 解鎖圖片
+ok 20 - P1-C reference: 解鎖圖片
+  ---
+  duration_ms: 0.447975
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 淡幕
+ok 21 - P1-C reference: 淡幕
+  ---
+  duration_ms: 0.406242
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 等待
+ok 22 - P1-C reference: 等待
+  ---
+  duration_ms: 0.448155
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 標籤
+ok 23 - P1-C reference: 標籤
+  ---
+  duration_ms: 0.30496
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 選項
+ok 24 - P1-C reference: 選項
+  ---
+  duration_ms: 0.570439
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 跳轉
+ok 25 - P1-C reference: 跳轉
+  ---
+  duration_ms: 0.996882
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 變數
+ok 26 - P1-C reference: 變數
+  ---
+  duration_ms: 0.433854
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 條件
+ok 27 - P1-C reference: 條件
+  ---
+  duration_ms: 0.450258
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 輸入
+ok 28 - P1-C reference: 輸入
+  ---
+  duration_ms: 0.304138
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 特效
+ok 29 - P1-C reference: 特效
+  ---
+  duration_ms: 0.281615
+  type: 'test'
+  ...
+# Subtest: P1-C reference: 結束
+ok 30 - P1-C reference: 結束
+  ---
+  duration_ms: 0.299951
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 事件資料
+ok 31 - P1-C program reference: 事件資料
+  ---
+  duration_ms: 0.323166
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 設定檔
+ok 32 - P1-C program reference: 設定檔
+  ---
+  duration_ms: 0.218509
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 遊戲介面檔
+ok 33 - P1-C program reference: 遊戲介面檔
+  ---
+  duration_ms: 0.995129
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 功能畫面檔
+ok 34 - P1-C program reference: 功能畫面檔
+  ---
+  duration_ms: 1.698879
+  type: 'test'
+  ...
+# Subtest: P1-C program reference: 互動模組檔
+ok 35 - P1-C program reference: 互動模組檔
+  ---
+  duration_ms: 0.143927
+  type: 'test'
+  ...
+# Subtest: P1-C reference schema: 35 entries each retain all 15 required documentation fields
+ok 36 - P1-C reference schema: 35 entries each retain all 15 required documentation fields
+  ---
+  duration_ms: 10.883364
+  type: 'test'
+  ...
+# Subtest: P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization
+ok 37 - P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization
+  ---
+  duration_ms: 1.162311
+  type: 'test'
+  ...
+# Subtest: P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish
+ok 38 - P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish
+  ---
+  duration_ms: 7.604413
+  type: 'test'
+  ...
+# Subtest: P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish
+ok 39 - P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish
+  ---
+  duration_ms: 2.274176
+  type: 'test'
+  ...
+# Subtest: P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent
+ok 40 - P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent
+  ---
+  duration_ms: 0.35169
+  type: 'test'
+  ...
+# Subtest: P1-C diagnostic examples: intentional errors have lines and Chinese messages
+ok 41 - P1-C diagnostic examples: intentional errors have lines and Chinese messages
+  ---
+  duration_ms: 1.261891
+  type: 'test'
+  ...
+# Subtest: P1-C audio stop: invalid channels diagnose without muting all tracks
+ok 42 - P1-C audio stop: invalid channels diagnose without muting all tracks
+  ---
+  duration_ms: 0.337829
+  type: 'test'
+  ...
+# Subtest: R2-H: formal product/description/version and script language names are consistent
+ok 43 - R2-H: formal product/description/version and script language names are consistent
+  ---
+  duration_ms: 104.746377
+  type: 'test'
+  ...
+# Subtest: R2-H: logo/styles/icons/fonts/audio retain prior design except explicit exit keyframes
+ok 44 - R2-H: logo/styles/icons/fonts/audio retain prior design except explicit exit keyframes
+  ---
+  duration_ms: 32.870255
+  type: 'test'
+  ...
+# Subtest: R2-H: prior public API names, event types and database schema remain compatible
+ok 45 - R2-H: prior public API names, event types and database schema remain compatible
+  ---
+  duration_ms: 464.635945
+  type: 'test'
+  ...
+# Subtest: R2-H: exported game retains content and carries precise maker generator metadata
+ok 46 - R2-H: exported game retains content and carries precise maker generator metadata
+  ---
+  duration_ms: 533.834805
+  type: 'test'
+  ...
+1..46
+# tests 46
+# suites 0
+# pass 46
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1656.430975

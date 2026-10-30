@@ -1,0 +1,24 @@
+{
+  "zoomNodeBefore": 94.15625,
+  "zoomNodeAfter": 105.828125,
+  "panBefore": {
+    "bottom": 305.109375,
+    "height": 43.109375,
+    "left": 605,
+    "right": 710.828125,
+    "top": 262,
+    "width": 105.828125,
+    "x": 605,
+    "y": 262
+  },
+  "panAfter": {
+    "bottom": 336.109375,
+    "height": 43.109375,
+    "left": 649,
+    "right": 754.828125,
+    "top": 293,
+    "width": 105.828125,
+    "x": 649,
+    "y": 293
+  }
+}

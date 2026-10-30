@@ -1,0 +1,9 @@
+{
+  "n": 500,
+  "passes": 2,
+  "elapsedMs": 159.15037700000005,
+  "ids": 500,
+  "fields": "all JSON fields except diagnostic scriptLine",
+  "executionSteps": 201,
+  "result": "passed"
+}

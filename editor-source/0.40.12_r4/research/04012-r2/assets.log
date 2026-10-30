@@ -1,0 +1,12 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.40.12-r2 check:assets
+> node scripts/verify-static-assets.mjs
+
+{
+  "assetCount": 34,
+  "allAssetsExact": true,
+  "rootStatus": 200,
+  "version": "0.40.12_r2",
+  "scope": "local Worker fetch; no production/browser verification"
+}

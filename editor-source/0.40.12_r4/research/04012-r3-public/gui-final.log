@@ -1,0 +1,11 @@
+✔ r3 public GUI: protected brand, CSS and navigation match r2 after explicit version and backup acceptance changes (15.023892ms)
+✔ r3 public release: parser/sync and player remain unchanged while package and displayed release versions agree (3.464068ms)
+✔ local handoff: application source, Logo, HTML and CSS remain byte-identical (52.222826ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 161.457392

@@ -1,0 +1,102 @@
+[
+  {
+    "file": "dist/app.js",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/engine.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/block-model.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/block-presets.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/stack-model.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/value-sockets.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/value-binding-sync.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/validation.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/packaging.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/generate-script-guide.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/generate-feature-matrix.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/generate-features.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/verify-static-assets.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/04012-role.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/04012-release.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/04012-player-frames.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/04012-control.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/04012-stack-stability.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/04012-operators.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/04012-sync.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  }
+]

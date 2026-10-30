@@ -1,0 +1,28 @@
+✖ event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch (495.831831ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 934.667818
+
+✖ failing tests:
+
+test at tests/actor-isolation-dom.test.mjs:10:1
+✖ event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch (495.831831ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'fade' !== 'shake'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation-dom.test.mjs:10:450)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'fade',
+    expected: 'shake',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

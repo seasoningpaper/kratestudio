@@ -1,0 +1,18 @@
+✔ 04012 R6: typed operator 0 >= 0 connects and executes (4.283222ms)
+✔ 04012 R6: typed operator 0 <= 0 connects and executes (0.282936ms)
+✔ 04012 R6: typed operator 0 != 0 connects and executes (0.297397ms)
+✔ 04012 R6: typed operator abs(-1) connects and executes (0.27883ms)
+✔ 04012 R6: typed operator floor(1.5) connects and executes (0.250837ms)
+✔ 04012 R6: typed operator ceil(1.5) connects and executes (0.224047ms)
+✔ 04012 R6: typed operator sqrt(4) connects and executes (0.191358ms)
+✔ 04012 R6: typed operator min(1,2) connects and executes (0.261423ms)
+✔ 04012 R6: typed operator max(1,2) connects and executes (0.384148ms)
+✔ 04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow (1181.397077ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1539.79071

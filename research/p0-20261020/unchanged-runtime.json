@@ -1,0 +1,27 @@
+[
+  {
+    "path": "dist/player.js",
+    "baselineIdentical": true,
+    "sha256": "0dff98a50a919618473b7f6e4bdfce5ac27fafd27087645308430bd002dba136"
+  },
+  {
+    "path": "dist/player.css",
+    "baselineIdentical": true,
+    "sha256": "65c451b70fd38010da49ff89ebc9049081c743673e4e2a717689bfa7e4a0f7fa"
+  },
+  {
+    "path": "src/player.jsx",
+    "baselineIdentical": true,
+    "sha256": "fd8cd4c80b3d264aa7999ac6c08e82e07721b7fe9b9dec5f6368898290d5c962"
+  },
+  {
+    "path": "src/engine.mjs",
+    "baselineIdentical": true,
+    "sha256": "9da7a8e6a595e93d714bf2263a7b71904ce9ad1fe3298380457338abceec0b3a"
+  },
+  {
+    "path": "src/expressions.mjs",
+    "baselineIdentical": true,
+    "sha256": "559f682ed7db994912665284722fc7927140c12d46eebe7dc03e7fcb6cc153bc"
+  }
+]

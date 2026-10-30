@@ -1,0 +1,113 @@
+✔ 04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged (6.904015ms)
+✔ 04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging (1.02918ms)
+✔ 04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution (1.728029ms)
+✔ 04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename (2.527648ms)
+✔ 04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs (1026.804489ms)
+✔ 04012 R5: flag preset never overwrites an existing numeric variable or project input (0.819108ms)
+✔ 04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched (0.595476ms)
+✔ 04012 R6: typed operator 0 >= 0 connects and executes (5.834285ms)
+✔ 04012 R6: typed operator 0 <= 0 connects and executes (0.500134ms)
+✔ 04012 R6: typed operator 0 != 0 connects and executes (0.358373ms)
+✔ 04012 R6: typed operator abs(-1) connects and executes (0.424802ms)
+✔ 04012 R6: typed operator floor(1.5) connects and executes (0.516368ms)
+✔ 04012 R6: typed operator ceil(1.5) connects and executes (0.531079ms)
+✔ 04012 R6: typed operator sqrt(4) connects and executes (0.38988ms)
+✔ 04012 R6: typed operator min(1,2) connects and executes (0.508166ms)
+✔ 04012 R6: typed operator max(1,2) connects and executes (0.512342ms)
+✔ 04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow (1320.929824ms)
+✔ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (722.63101ms)
+✔ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (702.105679ms)
+✔ r2 editor: pending section delete refuses a changed ownership range (300.952646ms)
+✔ r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events (304.195132ms)
+✔ r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate (657.713148ms)
+✔ r2 layout: separator and all three densities persist without changing event data; legacy strong remains representable (967.888319ms)
+✔ r2 layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus (3.229135ms)
+✖ r2 capacity: display derives from real bytes and unchanged application limit, never claims unverified 5 GB (1.049279ms)
+✔ r2 reproduction: a cancelled drag plus its compatibility click never inserts a block (687.535615ms)
+✔ r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion (811.629876ms)
+✔ r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each (1220.139902ms)
+✔ r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once (701.450961ms)
+✔ r2 transaction: the same token is rejected before recursive mutation and replay after Undo (504.983802ms)
+✔ r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks (767.012094ms)
+✔ r2 palette: repeat is one container transaction with owned body/end, not three independent roots (600.430644ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer (1309.08589ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer (1141.758475ms)
+✔ r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged (527.505644ms)
+✔ capacity panel renders eight real categories and separate decimal browser estimate without altering events (756.570436ms)
+✔ capacity CSS is the sole new GUI CSS and remains scoped, flat and wrapping (2.645241ms)
+✔ policy uses exactly 5,000,000,000 bytes with exact decimal boundaries (18.049091ms)
+✔ quota estimates are optional shared-origin estimates, never a guaranteed project allowance (1.053716ms)
+✔ capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets (3.755371ms)
+✔ same filename with distinct IDs is stored twice; duplicate IDs are rejected (0.737456ms)
+✔ atomic save/reload retains unknown data and exact bytes (10.965978ms)
+✔ quota and interrupted transaction leave previous snapshot and assets intact (4.667758ms)
+✔ asset deletion saves with accurate reduced payload without damaging other projects (2.953485ms)
+✔ stream backup roundtrip retains every field and binary asset with checksum (6.917611ms)
+✔ stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data (3.095371ms)
+✔ cancelled and failed writes abort the writer and never report a complete backup (0.66638ms)
+✔ legacy Base64 assets still save, load and export with original identifiers (1.498838ms)
+✔ 04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role (1.412579ms)
+✔ 04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics (14.968056ms)
+✔ 04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative (1.508482ms)
+✔ 04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore (1199.357378ms)
+✔ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (744.66973ms)
+✔ input, interpolation, branching, and rollback restore the complete variable state (6.187628ms)
+✔ save/load preserves state, actors, history, background, and variables (0.966256ms)
+✔ logic loops are bounded and cross chapter jumps execute (1.267274ms)
+✔ visual and audio control events are applied before dialogue (4.587134ms)
+✔ save data follows stable event IDs after inserting a scene event (0.573602ms)
+✔ preview from a selected line restores preceding scene and character state (0.277893ms)
+✔ minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact (0.55853ms)
+✔ multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP (2134.953931ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (449.843737ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (351.510319ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (155.316404ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (333.053888ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (465.761368ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (435.272848ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (262.366856ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.76306ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (15.787639ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.59202ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.20862ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (5.629377ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.703706ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (3.045738ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.812769ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.366945ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.454205ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (0.895482ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (58.891128ms)
+ℹ tests 80
+ℹ suites 0
+ℹ pass 79
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27641.366222
+
+✖ failing tests:
+
+test at tests/04012-r2-layout.test.mjs:12:1
+✖ r2 capacity: display derives from real bytes and unchanged application limit, never claims unverified 5 GB (1.049279ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 5000000000
+  - 2147483648
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-r2-layout.test.mjs:12:127)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 5000000000,
+    expected: 2147483648,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

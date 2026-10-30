@@ -1,0 +1,14 @@
+{
+  "formalReleaseReady": false,
+  "version": "0.41.0-dev.2",
+  "pending": [
+    "Windows 10/11與Portable實機啟動驗收",
+    "獨立遊戲EXE發行",
+    "koimaker封裝與完整舊資料遷移驗收",
+    "Engine Core完整分離與IR/Scene Graph驗收",
+    "意外終止與大型素材實機測試",
+    "原生關閉與中斷恢復的Windows實機驗收（自動化已通過）",
+    "正式品牌EXE圖示、版本資訊與簽章驗收",
+    "舊玩家存檔搬移與完整大容量備份還原"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "0.41.0-dev.1",
+  "platform": "win32-x64",
+  "exeSHA256": "70f046915f779cb19943829cf4814c28c1e23b8cc6af23f185f660e8f5b3ed15",
+  "asarSHA256": "2ff5a380b3e01e700aed1f467880a74b246190678a74c415b883bf09aef68ff8",
+  "verified": [
+    {
+      "file": "main.cjs",
+      "sha256": "fbf508166cc521a4a7c61c8c91b0525ba3930481741b3f4b3a855d7053e106b6"
+    },
+    {
+      "file": "preload.cjs",
+      "sha256": "48a28dfa0ca5877ca6854f0b2ea374984dff635664e330a72e06e1dcba16e916"
+    },
+    {
+      "file": "renderer/index.html",
+      "sha256": "99eccb91d147d6ccf9924558771a98eb9059895aca0a9451a4ac4520002f3ca4"
+    },
+    {
+      "file": "renderer/workspace.js",
+      "sha256": "c389aacb915c7734e83ad454a48e4b3bf91fec17749388a0493571c58830019d"
+    },
+    {
+      "file": "renderer/player.js",
+      "sha256": "4d3ad8d0182d3bb24c6f1a400384c9c7d57aa5bdd391d3adead457cafa29e05c"
+    },
+    {
+      "file": "renderer/app.js",
+      "sha256": "36c43e02072e5ac2f6284c22a0a307e5b02b43dc5474fb40588189346431ad7a"
+    },
+    {
+      "file": "renderer/style.css",
+      "sha256": "686e36cf4b0d42d03eb8682b5df729b9018ca1699ba342381b458b6868cb2c26"
+    },
+    {
+      "file": "renderer/brand.css",
+      "sha256": "edcff2220da8d320ec4086455fdc6728655be682d4be2f1bd7e9abe84f629e81"
+    }
+  ],
+  "windowsLaunchVerified": false,
+  "formalRelease": false
+}

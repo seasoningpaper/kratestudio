@@ -1,0 +1,8 @@
+; Koi Maker 0.40.12_r1 有上限重複直到；KOI Script 事件JSON擴充，需r1播放器。
+; 不需素材。匯入測試副本，預期計數為3；count=10是安全迭代上限。
+變數:計數 -運算=設定 -值=0;
+事件:{"id":"r1_example_loop","type":"repeat","text":"重複直到計數達3","repeatMode":"until","until":"=計數 >= 3","count":10};
+變數:計數 -運算=增加 -值=1;
+事件:{"id":"r1_example_close","type":"repeatEnd","text":"重複結束","loopId":"r1_example_loop"};
+旁白:已完成{計數}次。;
+結束:範例完成;

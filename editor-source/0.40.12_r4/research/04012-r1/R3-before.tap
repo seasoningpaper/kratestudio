@@ -1,0 +1,31 @@
+✖ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (714.338881ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1135.207531
+
+✖ failing tests:
+
+test at tests/04012-stack-stability.test.mjs:2:1
+✖ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (714.338881ms)
+  AssertionError [ERR_ASSERTION]: pointer drop must not auto-center the viewport
+  + actual - expected
+  
+  + 'translate(-600px,-430px) scale(1)'
+  - 'translate(16px,16px) scale(1)'
+               ^
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/04012-stack-stability.test.mjs:8:197)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'translate(-600px,-430px) scale(1)',
+    expected: 'translate(16px,16px) scale(1)',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

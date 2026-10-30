@@ -1,0 +1,15 @@
+{
+  "severity": "Medium",
+  "issue": "次要素材引用尚未涵蓋BGM stems與鏡頭分割圖",
+  "stemReferences": [],
+  "cameraReferences": [],
+  "stemAfterUnlink": [
+    {
+      "audio": "stem",
+      "gain": 0.5
+    }
+  ],
+  "cameraAfterUnlink": "split",
+  "impact": "手動刪除這類素材前未警告，刪除後留下無效次要引用；主要BGM與原專案不會被覆寫",
+  "next": "P2-B受控修復引用掃描；本輪不擴充新模組"
+}

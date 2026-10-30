@@ -1,0 +1,64 @@
+{
+  "version": "0.40.11_r2",
+  "releaseSource": {
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "checkout_path": "/workspace/sites/galgame-studio",
+    "commit_sha": "5b004f31b8ebfddfe9523703c73269af58cf71f1",
+    "archive": "/workspace/scratch/e00fc226fa87/Koi-Maker-0.40.11_r2-deployment.tar.gz"
+  },
+  "savedVersion": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_b839568b70e08191b5699f446715e55f",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "version_number": 54,
+    "source": {
+      "commit_sha": "5b004f31b8ebfddfe9523703c73269af58cf71f1"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000aa048209bf11543f5835b3f5",
+      "content_hash": "sha256:4a4160b1435f90ca9b8ccee9619ce2d53d3f9f7d1127f9d665b0a739aae244d1",
+      "size_bytes": 10024960,
+      "file_count": 24
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ad7b385130c8191bdfb2a5814eb9473",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 0.40.11",
+    "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_b839568b70e08191b5699f446715e55f",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad04b4f4db081918fe4a0e9d541130f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-20T18:31:44.883075+00:00"
+  },
+  "metadata": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 視覺小說創作平台 0.40.11_r2",
+    "description": "視覺化 Galgame 製作器測試版",
+    "status": "active",
+    "latest_version_number": 54,
+    "access_mode": "public",
+    "current_live_url": "https://koimaker.briny-angel-8862.chatgpt.site"
+  },
+  "rollback": {
+    "source": "48b545768e0e124776d269acc2138eb0e6522b46",
+    "savedVersionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_9827e9ae67048191b994ecf2771948f2",
+    "versionNumber": 53,
+    "zip": "Koi-Maker-0.40.11-complete-source.zip"
+  },
+  "verification": {
+    "automatedUniquePassed": 230,
+    "syntaxFiles": 24,
+    "staticAssets": 22,
+    "browser": false,
+    "auditory": false,
+    "touch": false
+  }
+}

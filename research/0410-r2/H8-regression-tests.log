@@ -1,0 +1,161 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.41.0-r2 test
+> node scripts/test-local.mjs
+
+✔ 04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged (4.358138ms)
+✔ 04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging (0.57917ms)
+✔ 04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution (0.969246ms)
+✔ 04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename (1.474685ms)
+✔ 04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs (730.726244ms)
+✔ 04012 R5: flag preset never overwrites an existing numeric variable or project input (0.43933ms)
+✔ 04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched (0.493762ms)
+✔ 04012 R6: typed operator 0 >= 0 connects and executes (4.506262ms)
+✔ 04012 R6: typed operator 0 <= 0 connects and executes (0.284528ms)
+✔ 04012 R6: typed operator 0 != 0 connects and executes (0.298719ms)
+✔ 04012 R6: typed operator abs(-1) connects and executes (0.202825ms)
+✔ 04012 R6: typed operator floor(1.5) connects and executes (0.272019ms)
+✔ 04012 R6: typed operator ceil(1.5) connects and executes (0.284057ms)
+✔ 04012 R6: typed operator sqrt(4) connects and executes (0.198618ms)
+✔ 04012 R6: typed operator min(1,2) connects and executes (0.191939ms)
+✔ 04012 R6: typed operator max(1,2) connects and executes (0.333812ms)
+✔ 04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow (1185.993365ms)
+✔ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (663.825128ms)
+✔ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (698.431528ms)
+✔ r2 editor: pending section delete refuses a changed ownership range (244.007931ms)
+✔ r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events (228.870132ms)
+✔ r2 reproduction: a cancelled drag plus its compatibility click never inserts a block (597.436665ms)
+✔ r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion (680.903881ms)
+✔ r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each (989.640017ms)
+✔ r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once (592.716172ms)
+✔ r2 transaction: the same token is rejected before recursive mutation and replay after Undo (488.95166ms)
+✔ r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks (743.725744ms)
+✔ r2 palette: repeat is one container transaction with owned body/end, not three independent roots (581.45023ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer (1175.161865ms)
+✔ r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer (1050.265763ms)
+✔ r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged (441.575585ms)
+✔ backup entry: original export button streams to file picker; original import button validates and restores the same complete project (553.800799ms)
+✔ backup entry: picker cancellation and corrupted import leave the current project untouched (281.219502ms)
+✔ r3 inherited layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate (620.460397ms)
+✔ r3 inherited layout: separator and all three densities persist without changing event data; legacy strong remains representable (921.417357ms)
+✔ r3 inherited layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus (2.478954ms)
+✔ public safety: 5GB format policy is separate from the retained r2 write limit (1.123368ms)
+✔ public safety: oversized save is rejected before IndexedDB access and preserves an existing save (12.647905ms)
+✔ public safety: oversized .koib manifest is rejected before payload read or object URL creation (1.281075ms)
+✔ public safety: large JSON and game ZIP are refused before buffered materialization (0.806362ms)
+✔ public safety: ordinary legacy JSON backup works without file picker, edits and reload preserve IDs (611.23154ms)
+✔ public safety: oversized JSON import refuses before reading and leaves project and events unchanged (279.65569ms)
+✔ public safety: visible capacity labels and footer disclose the write boundary without claiming 5GB browser support (430.830139ms)
+✔ public safety: font import and edited-image copies cannot bypass the common write boundary (1005.071636ms)
+✔ policy uses exactly 5,000,000,000 bytes with exact decimal boundaries (13.17752ms)
+✔ quota estimates are optional shared-origin estimates, never a guaranteed project allowance (0.781123ms)
+✔ capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets (2.63594ms)
+✔ same filename with distinct IDs is stored twice; duplicate IDs are rejected (0.59227ms)
+✔ atomic save/reload retains unknown data and exact bytes (8.221112ms)
+✔ quota and interrupted transaction leave previous snapshot and assets intact (3.166938ms)
+✔ asset deletion saves with accurate reduced payload without damaging other projects (2.287077ms)
+✔ stream backup roundtrip retains every field and binary asset with checksum (5.102187ms)
+✔ stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data (3.306768ms)
+✔ cancelled and failed writes abort the writer and never report a complete backup (0.633272ms)
+✔ legacy Base64 assets still save, load and export with original identifiers (1.628937ms)
+✔ single-file import caps are enforced before decoding or allocating oversized data (0.503135ms)
+✔ quota preflight rejects a changed project without beginning a transaction or overwriting saved state (0.883086ms)
+✔ r4 video reproduction: extracting a floating head must preserve the remaining tail world position (2.847378ms)
+✔ r4 statement inputs: 1 nested containers have measured spines, independent body detach and legal reinsert (0.923457ms)
+✔ r4 statement inputs: 2 nested containers have measured spines, independent body detach and legal reinsert (0.396496ms)
+✔ r4 statement inputs: 3 nested containers have measured spines, independent body detach and legal reinsert (0.380482ms)
+✔ r4 real editor pointer replay: floating head detach preserves tail DOM geometry, cancellation and Undo restore data (925.849127ms)
+✔ r4 real editor: paired C spines render and follow parent drag, no persistence on cancel (477.439841ms)
+✔ r4 video trash replay: deleting a floating stack never pans the viewport to the final story event (720.080511ms)
+✔ r4 capacity uses compact decimal units without altering underlying bytes (0.799462ms)
+✔ r4 capacity real panel: eight aligned categories, exact totals, readable free space and folded engineering details (626.976658ms)
+✔ r4 capacity CSS remains strictly local: 20px flat bar, aligned grid, mobile column and no global color/font changes (1.713294ms)
+✔ r4 explicit light-theme text default is black; existing accent and semantic muted colors remain intact (0.393671ms)
+✔ r4 Debug is a detached read-only projection of the actual Engine, with explicit checkpoint limitations (1.711591ms)
+✔ r4 Debug preview entry inspects the current event, pauses without project mutation, and is absent from standalone games (751.552277ms)
+✔ r4 folder game export streams assets into a fresh directory with the actual standalone runtime and no incomplete marker (14.423953ms)
+✔ r4 interrupted folder output remains explicitly incomplete, does not alter project and never overwrites prior output (2.568589ms)
+✔ r4 intro cover remains opaque while only title text animates: fade (488.090351ms)
+✔ r4 intro cover remains opaque while only title text animates: fadeOut (340.029506ms)
+✔ r4 intro cover remains opaque while only title text animates: left (248.339059ms)
+✔ r4 intro-to-black first commit cannot transition from the revealed old scene (322.167243ms)
+✔ r4 zero-second fade remains immediate instead of silently becoming a one-second CSS transition (1.041495ms)
+✔ r4 explicit test project alone can use the 5e9 policy; normal projects and invalid markers retain 2GiB protection (1.095996ms)
+✔ r4 experimental backend saves real Blobs, preserves other projects and rolls back quota/interrupted writes atomically (11.68904ms)
+✔ r4 experimental mode refuses unknown browser quota and cannot silently upgrade an existing normal project (1.682937ms)
+✔ r4 real UI: experimental creation refuses unsupported environments, cancellation preserves project, confirmed entry creates a separate empty project (1198.422198ms)
+✔ 04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role (1.036847ms)
+✔ 04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics (9.154615ms)
+✔ 04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative (1.41196ms)
+✔ 04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore (1039.783345ms)
+✔ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (679.924943ms)
+✔ r2 GUI preserves actual engine, block structure, persistence, script semantics, game skins and official Logo bytes (9.019773ms)
+✔ r2 GUI keeps original HTML controls except relocated theme input; mode order and identities remain (137.37651ms)
+✔ r2 GUI palettes update one token source without changing project data or unknown settings (45.227598ms)
+✔ r2 GUI predefined text and primary/focus states meet WCAG AA contrast (0.563917ms)
+✔ r2 file picker preserves native input, accept, multiple, folder, disabled and live status semantics (13.326093ms)
+✔ r2 file picker accepts original formats without MIME, rejects incompatible drops and formats decimal sizes (0.511619ms)
+✔ r2 form labels associate with real controls and groups have accessible names (10.500788ms)
+✔ r2 pointer light coalesces frames, ignores touch, cleans listeners and respects reduced motion (5.286855ms)
+✔ r2 style build uses one compatibility layer, no new important overrides and no direct game stylesheet replacement (4.842306ms)
+✔ r2 settings retain existing editable preferences and route all mutations through the shared commit (0.780823ms)
+✔ r2 release identity and existing hosting are preserved without new framework or desktop dependency (1.751211ms)
+✔ r2 insecure HTTP preview keeps cryptographic UUID identity and native API implementation (8.809547ms)
+✔ r2 requested removals leave ordinary asset reference tracking and real audio playback intact (1.503049ms)
+✔ input, interpolation, branching, and rollback restore the complete variable state (4.003636ms)
+✔ save/load preserves state, actors, history, background, and variables (0.626962ms)
+✔ logic loops are bounded and cross chapter jumps execute (1.052481ms)
+✔ visual and audio control events are applied before dialogue (1.101424ms)
+✔ save data follows stable event IDs after inserting a scene event (0.34643ms)
+✔ preview from a selected line restores preceding scene and character state (0.307763ms)
+✔ minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact (0.495475ms)
+✔ multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP (1461.636859ms)
+✔ local handoff: Windows and POSIX filesystem paths produce the same asset URL (1.074986ms)
+✔ local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly (212.108051ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (386.258977ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (295.782317ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (179.2879ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (233.593879ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (328.138357ms)
+✖ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (248.790185ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (242.011017ms)
+ℹ tests 116
+ℹ suites 0
+ℹ pass 115
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 34080.59231
+
+✖ failing tests:
+
+test at tests/p0d-dom.test.mjs:11:1
+✖ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (248.790185ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '; KOI 事件資料可保留所有欄位，亦可混用 背景:、對話:、選項: 等指令。\n' +
+  +   '事件:{"id":"a3029d1e-5617-4006-af35-bbac1b1841fc","type":"background","text":"教室_放學後","scene":"classroom"};\n' +
+  +   '事件:{"id":"a4bbf1da-167e-4195-bcb4-c9629e066c78","type":"dialogue","name":"小春","text":"今天也一起回家嗎？","speed":35};\n' +
+  +   '事件:{"id":"38ee88cc-c922-43e1-9f53-9af9ff691d07","type":"dialogue","name":"男主角","text":"嗯？可以啊。怎麼今天突然這樣問？","speed":35};\n' +
+  +   '事件:{"id":"8acc0ccc-6463-4494-84bc-485267004bac","type":"dialogue","name":"小春","text":"因為……今天的夕陽很漂亮，想和你一起看。","speed":35};\n' +
+  +   '事件:{"id":"b7d699d1-3d49-4b36-a2cf-4d75e0468309","type":"choice","text":"要不要一起回家？","options":[{"text":"好啊，一起回去吧。","target":5},{"text":"我還有點事，下次好嗎？","target":7}]};\n' +
+  +   '事件:{"id":"9cc6eb73-13b4-45bf-b035-82d1400e8e9a","type":"dialogue","name":"小春","text":"那我們走吧！我知道一條開滿櫻花的小路。","speed":35};\n' +
+  +   '事件:{"id":"d9705aed-15ac-4359-a41f-bf38a0078eda","type":"end","text":"夕陽將兩人的影子拉得好長。這個春天，故事才剛開始。"};\n' +
+  +   '事件:{"id":"dce68979-d5df-400e-b41b-3806d407ac60","type":"dialogue","name":"小春","text":"好，那說好了喔。明天，換我等你。","speed":35};\n' +
+  +   '事件:{"id":"de1f9960-1627-49ff-aff1-f0ca4bb0af5e","type":"end","text":"還有明天，還有無數個等待相遇的春日。"};\n'
+  - '旁白:尚未套用的儲存草稿;'
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/e00fc226fa87/koi-softflow-r2/tests/p0d-dom.test.mjs:11:717)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at process.processTimers (node:internal/timers:568:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '; KOI 事件資料可保留所有欄位，亦可混用 背景:、對話:、選項: 等指令。\n事件:{"id":"a3029d1e-5617-4006-af35-bbac1b1841fc","type":"background","text":"教室_放學後","scene":"classroom"};\n事件:{"id":"a4bbf1da-167e-4195-bcb4-c9629e066c78","type":"dialogue","name":"小春","text":"今天也一起回家嗎？","speed":35};\n事件:{"id":"38ee88cc-c922-43e1-9f53-9af9ff691d07","type":"dialogue","name":"男主角","text":"嗯？可以啊。怎麼今天突然這樣問？","speed":35};\n事件:{"id":"8acc0ccc-6463-4494-84bc-485267004bac","type":"dialogue","name":"小春","text":"因為……今天的夕陽很漂亮，想和你一起看。","speed":35};\n事件:{"id":"b7d699d1-3d49-4b36-a2cf-4d75e0468309","type":"choice","text":"要不要一起回家？","options":[{"text":"好啊，一起回去吧。","target":5},{"text":"我還有點事，下次好嗎？","target":7}]};\n事件:{"id":"9cc6eb73-13b4-45bf-b035-82d1400e8e9a","type":"dialogue","name":"小春","text":"那我們走吧！我知道一條開滿櫻花的小路。","speed":35};\n事件:{"id":"d9705aed-15ac-4359-a41f-bf38a0078eda","type":"end","text":"夕陽將兩人的影子拉得好長。這個春天，故事才剛開始。"};\n事件:{"id":"dce68979-d5df-400e-b41b-3806d407ac60","type":"dialogue","name":"小春","text":"好，那說好了喔。明天，換我等你。","speed":35};\n事件:{"id":"de1f9960-1627-49ff-aff1-f0ca4bb0af5e","type":"end","text":"還有明天，還有無數個等待相遇的春日。"};\n',
+    expected: '旁白:尚未套用的儲存草稿;',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

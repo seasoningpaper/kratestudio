@@ -1,0 +1,30 @@
+✔ legacy Base64 project migrates only after durable save and verification (10.113321ms)
+✖ transaction failures leave the previous project and files intact (4.211581ms)
+✔ font files and screen image references survive durable save and portable export (3.864203ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 2
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 143.17738
+
+✖ failing tests:
+
+test at tests/storage.test.mjs:8:1
+✖ transaction failures leave the previous project and files intact (4.211581ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 9
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/storage.test.mjs:8:525)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 9,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

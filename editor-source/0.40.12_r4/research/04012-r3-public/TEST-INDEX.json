@@ -1,0 +1,764 @@
+{
+  "baselineCases": 98,
+  "baselinePassed": 98,
+  "baselineMissing": [],
+  "uniquePassed": 107,
+  "explicitVersionAliases": {
+    "r3 public GUI: protected brand, CSS and navigation match r2 after explicit version and backup acceptance changes": "r3 development GUI: protected brand, base CSS, renderer and navigation match r2; only capacity CSS and backup file acceptance change",
+    "r3 public release: parser/sync and player remain unchanged while package and displayed release versions agree": "r3 development: author parser/sync, block interactions and player remain the verified r2 source; no unverified release version is shown"
+  },
+  "cases": [
+    {
+      "case": "04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: flag preset never overwrites an existing numeric variable or project input",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator 0 >= 0 connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator 0 <= 0 connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator 0 != 0 connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator abs(-1) connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator floor(1.5) connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator ceil(1.5) connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator sqrt(4) connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator min(1,2) connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator max(1,2) connects and executes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 editor: pending section delete refuses a changed ownership range",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 reproduction: a cancelled drag plus its compatibility click never inserts a block",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 transaction: the same token is rejected before recursive mutation and replay after Undo",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 palette: repeat is one container transaction with owned body/end, not three independent roots",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "backup entry: original export button streams to file picker; original import button validates and restores the same complete project",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "backup entry: picker cancellation and corrupted import leave the current project untouched",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "capacity panel renders eight real categories and separate decimal browser estimate without altering events",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "capacity CSS is the sole new GUI CSS and remains scoped, flat and wrapping",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r3 inherited layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate",
+      "baselineAlias": "r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r3 inherited layout: separator and all three densities persist without changing event data; legacy strong remains representable",
+      "baselineAlias": "r2 layout: separator and all three densities persist without changing event data; legacy strong remains representable",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r3 inherited layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus",
+      "baselineAlias": "r2 layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: 5GB format policy is separate from the retained r2 write limit",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: oversized save is rejected before IndexedDB access and preserves an existing save",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: oversized .koib manifest is rejected before payload read or object URL creation",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: large JSON and game ZIP are refused before buffered materialization",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: ordinary legacy JSON backup works without file picker, edits and reload preserve IDs",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: oversized JSON import refuses before reading and leaves project and events unchanged",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: visible capacity labels and footer disclose the write boundary without claiming 5GB browser support",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r3 public GUI: protected brand, CSS and navigation match r2 after explicit version and backup acceptance changes",
+      "baselineAlias": "r3 development GUI: protected brand, base CSS, renderer and navigation match r2; only capacity CSS and backup file acceptance change",
+      "logs": [
+        "npm-test.log",
+        "gui-final.log"
+      ]
+    },
+    {
+      "case": "r3 public release: parser/sync and player remain unchanged while package and displayed release versions agree",
+      "baselineAlias": "r3 development: author parser/sync, block interactions and player remain the verified r2 source; no unverified release version is shown",
+      "logs": [
+        "npm-test.log",
+        "gui-final.log"
+      ]
+    },
+    {
+      "case": "policy uses exactly 5,000,000,000 bytes with exact decimal boundaries",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "quota estimates are optional shared-origin estimates, never a guaranteed project allowance",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "same filename with distinct IDs is stored twice; duplicate IDs are rejected",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "atomic save/reload retains unknown data and exact bytes",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "quota and interrupted transaction leave previous snapshot and assets intact",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "asset deletion saves with accurate reduced payload without damaging other projects",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "stream backup roundtrip retains every field and binary asset with checksum",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "cancelled and failed writes abort the writer and never report a complete backup",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "legacy Base64 assets still save, load and export with original identifiers",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "single-file import caps are enforced before decoding or allocating oversized data",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "quota preflight rejects a changed project without beginning a transaction or overwriting saved state",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "input, interpolation, branching, and rollback restore the complete variable state",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "save/load preserves state, actors, history, background, and variables",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "logic loops are bounded and cross chapter jumps execute",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "visual and audio control events are applied before dialogue",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "save data follows stable event IDs after inserting a scene event",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "preview from a selected line restores preceding scene and character state",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "local handoff: Windows and POSIX filesystem paths produce the same asset URL",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "local handoff: application source, Logo, HTML and CSS remain byte-identical",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log",
+        "gui-final.log"
+      ]
+    },
+    {
+      "case": "local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "baselineAlias": null,
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D invalid or duplicate value identities are rejected before source application",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "baselineAlias": null,
+      "logs": [
+        "supplemental-sync.log"
+      ]
+    },
+    {
+      "case": "legacy Base64 project migrates only after durable save and verification",
+      "baselineAlias": null,
+      "logs": [
+        "legacy-storage.log"
+      ]
+    },
+    {
+      "case": "transaction failures leave the previous project and files intact",
+      "baselineAlias": null,
+      "logs": [
+        "legacy-storage.log"
+      ]
+    },
+    {
+      "case": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "baselineAlias": null,
+      "logs": [
+        "legacy-storage.log"
+      ]
+    },
+    {
+      "case": "font files and screen image references survive durable save and portable export",
+      "baselineAlias": null,
+      "logs": [
+        "legacy-storage.log"
+      ]
+    },
+    {
+      "case": "public safety: font import and edited-image copies cannot bypass the common write boundary",
+      "baselineAlias": null,
+      "logs": [
+        "font-image-guards.log"
+      ]
+    },
+    {
+      "case": "image editor saves one asset identity and event shortcut opens the selected image",
+      "baselineAlias": null,
+      "logs": [
+        "image-editor-regression.log"
+      ]
+    }
+  ]
+}

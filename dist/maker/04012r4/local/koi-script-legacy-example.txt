@@ -1,0 +1,16 @@
+; KOI Script — Koi Maker 0.40.12_r4 舊語法相容範例；資源同主範本，wait/duration是毫秒。
+bgm:warm.mp3;
+changeBg:room.png;
+changeFigure:hero.png -left -id=haru;
+setAnimation:enter-from-left -target=haru -duration=200 -hold=true;
+小雪:舊語法也能說話。 -voice=voice.wav;
+wait:100;
+choose:留下:留下|回家:回家;
+label:留下;
+setTransform:{"scale":{"x":1,"y":1}} -target=haru -hold=false;
+jumpLabel:結尾;
+label:回家;
+narration:我們明天再見。;
+label:結尾;
+bgm:none;
+end:相容範例結束;

@@ -1,0 +1,11 @@
+✔ 儲存期間替換素材後，下一次儲存必須保存新檔案而非舊快取 (30.251316ms)
+✔ SQLite開啟失敗會解除交易，不能永遠卡在同一專案儲存中 (15.129789ms)
+✔ project.json鏡像無法更新時仍可從完好的SQLite開啟專案 (12.608555ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 174.722712

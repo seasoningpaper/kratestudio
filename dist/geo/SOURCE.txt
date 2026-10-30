@@ -1,0 +1,7 @@
+Administrative boundary data derived from Ministry of Interior township boundaries via taiwan-atlas towns-10t.json.
+Source: https://cdn.jsdelivr.net/npm/taiwan-atlas/towns-10t.json
+Publisher: https://github.com/dkaoster/taiwan-atlas
+Government source: https://data.gov.tw/dataset/7441
+Retrieved: 2026-10-28
+Original SHA-256: 250f63cdef76679b67d2a34633a69355c8f1180ae6b55407e6c87789940feab0
+Converted locally from TopoJSON to geographic rings without additional simplification. Simplified boundaries are estimates, not survey-grade or address verification.

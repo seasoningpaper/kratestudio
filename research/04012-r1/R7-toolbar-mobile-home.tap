@@ -1,0 +1,14 @@
+✔ 04012 R8 DOM: Header brand, six category order/colors and workspace toolbar retain exact existing markup (505.95936ms)
+✔ Fix-06 logo opens an actual project-home work page and returns to the same editor without resetting history (496.077346ms)
+✔ Fix-06 logo confirms unsaved state or drafts; cancellation keeps editor, confirmation preserves exact project and Undo (428.501724ms)
+✔ Fix-06 project-home opens a stored project through existing switchProject and preserves the prior project (237.674474ms)
+✔ Fix-06 source protection retains official logos, colors, block silhouettes and original header/media rules (52.504019ms)
+✔ tests/p2c-mobile.test.mjs (380.847088ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2871.487989

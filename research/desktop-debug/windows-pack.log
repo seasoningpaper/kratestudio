@@ -1,0 +1,20 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker-desktop@0.41.0-dev.2 pack:win:dir
+> electron-builder --win --x64 --dir --config electron-builder.json
+
+  • electron-builder  version=26.15.3 os=6.18.55
+  • loaded configuration  file=/workspace/sites/galgame-studio/desktop/electron-builder.json
+  • author is missed in the package.json  appPackageFile=/workspace/sites/galgame-studio/desktop/package.json
+  • executing @electron/rebuild  electronVersion=45.0.0 arch=x64 buildFromSource=false workspaceRoot=/workspace/sites/galgame-studio/desktop projectDir=./ appDir=./
+  • installing native dependencies  arch=x64
+  • completed installing native dependencies
+  • packaging       platform=win32 arch=x64 electron=45.0.0 appOutDir=artifacts/win-unpacked
+  • downloaded      label=electron progress=100%
+  • downloaded electron zip extracted successfully  output=/workspace/sites/galgame-studio/desktop/artifacts/win-unpacked
+  • searching for node modules  pm=npm searchDir=/workspace/sites/galgame-studio/desktop
+  • searching for node modules  pm=traversal searchDir=/workspace/sites/galgame-studio/desktop
+  • using manual traversal of node_modules to build dependency tree
+  • no node modules returned while searching directories  searchDirectories=[""]
+  • updating asar integrity executable resource  executablePath=artifacts/win-unpacked/KoiMaker.exe
+  • executable resource editing and code signing skipped — signAndEditExecutable is false. To skip only code signing while keeping icon and metadata applied, use signExecutable: false instead.  exe=artifacts/win-unpacked/KoiMaker.exe

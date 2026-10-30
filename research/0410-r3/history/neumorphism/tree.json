@@ -1,0 +1,245 @@
+{
+  "sha": "877c2ef172c492961135c707e2e4a77477690cd6",
+  "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/trees/877c2ef172c492961135c707e2e4a77477690cd6",
+  "tree": [
+    {
+      "path": ".env",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f79a0f8e2c453e3d66ea13e945c81f1fcafab78",
+      "size": 24,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/4f79a0f8e2c453e3d66ea13e945c81f1fcafab78"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d29575de80483b005c29bfcac5061cd2f45313e",
+      "size": 310,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/4d29575de80483b005c29bfcac5061cd2f45313e"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a79227955771b997481062dba7e6a6c8b25c69",
+      "size": 160,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/27a79227955771b997481062dba7e6a6c8b25c69"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e88b47c75cec349793d3921f530ebc13401be38",
+      "size": 1518,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/7e88b47c75cec349793d3921f530ebc13401be38"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71e2703fc6d506630ac25dc4c63f30a7279861db",
+      "size": 616,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/71e2703fc6d506630ac25dc4c63f30a7279861db"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebbc672385523e4f2e5f4f47ee35cb5fce095781",
+      "size": 626903,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/ebbc672385523e4f2e5f4f47ee35cb5fce095781"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f210d3686d14956b5d5a7dcf2dce3690ac3229e",
+      "size": 1159,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/2f210d3686d14956b5d5a7dcf2dce3690ac3229e"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a47c685b96c82c420892335c1f7f3e4bd70cc7a",
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/trees/3a47c685b96c82c420892335c1f7f3e4bd70cc7a"
+    },
+    {
+      "path": "public/CNAME",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b68b820e849d3c140d262e06ea45a150b208c6a",
+      "size": 14,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/8b68b820e849d3c140d262e06ea45a150b208c6a"
+    },
+    {
+      "path": "public/android-chrome-192x192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf2320b36f1a9ed10a7b0ee9e971ae318ada530",
+      "size": 18058,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/dcf2320b36f1a9ed10a7b0ee9e971ae318ada530"
+    },
+    {
+      "path": "public/android-chrome-512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6e3e1a80e8183989252b3aad562d76ea12fe993",
+      "size": 92415,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/c6e3e1a80e8183989252b3aad562d76ea12fe993"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173c1b97d30c1747a350e41fef26ffbe426564ea",
+      "size": 16482,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/173c1b97d30c1747a350e41fef26ffbe426564ea"
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ccc051fcb6d2a890299868e583c4c940d2b20cb",
+      "size": 15406,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/1ccc051fcb6d2a890299868e583c4c940d2b20cb"
+    },
+    {
+      "path": "public/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a45c28e79264883b48f2863e0abde8f1972af55d",
+      "size": 6391,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/a45c28e79264883b48f2863e0abde8f1972af55d"
+    },
+    {
+      "path": "public/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1936a525264334c96ac8ea03ba77237cd32e608a",
+      "size": 513,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/1936a525264334c96ac8ea03ba77237cd32e608a"
+    },
+    {
+      "path": "public/ogImage.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "add331f75d152b0ecf32ef34106d933d671b5de1",
+      "size": 170897,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/add331f75d152b0ecf32ef34106d933d671b5de1"
+    },
+    {
+      "path": "public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01b0f9a10733b39c3bbeba1ccb1521d866f8e3a5",
+      "size": 57,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/01b0f9a10733b39c3bbeba1ccb1521d866f8e3a5"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3323eeeb4a7ca328ba004a0cbbb721e7a630011",
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/trees/c3323eeeb4a7ca328ba004a0cbbb721e7a630011"
+    },
+    {
+      "path": "src/App.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e6e5f5c981fa2e5074706ad54836c661434f71e",
+      "size": 543,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/2e6e5f5c981fa2e5074706ad54836c661434f71e"
+    },
+    {
+      "path": "src/App.style.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11eaa3442844e08b0ee0c4c8dbc00ae7ee3c3bc9",
+      "size": 867,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/11eaa3442844e08b0ee0c4c8dbc00ae7ee3c3bc9"
+    },
+    {
+      "path": "src/Configuration.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00775bf4b072df0b2484ee2e8e66e65e3212d41b",
+      "size": 7833,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/00775bf4b072df0b2484ee2e8e66e65e3212d41b"
+    },
+    {
+      "path": "src/ConfigurationRow.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "767ed749ad7d9a2184618c6f68aab88726f197fe",
+      "size": 501,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/767ed749ad7d9a2184618c6f68aab88726f197fe"
+    },
+    {
+      "path": "src/Preview.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9426d8aee6ce0be52006f0c19612fdc6c3f5cc56",
+      "size": 1509,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/9426d8aee6ce0be52006f0c19612fdc6c3f5cc56"
+    },
+    {
+      "path": "src/ShapeSwitcher.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e411ed3b8e7213906572f8ff8c3d041a6a20bf64",
+      "size": 3277,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/e411ed3b8e7213906572f8ff8c3d041a6a20bf64"
+    },
+    {
+      "path": "src/footer.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14b70882a76ff5db6a0bd19a97a7e01fa42640bf",
+      "size": 5258,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/14b70882a76ff5db6a0bd19a97a7e01fa42640bf"
+    },
+    {
+      "path": "src/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d414a1110de61a5f791e5963c0b60b112ebc74dd",
+      "size": 355,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/d414a1110de61a5f791e5963c0b60b112ebc74dd"
+    },
+    {
+      "path": "src/index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b44fe90b40e0394026d9d00781322d95b819a2b",
+      "size": 7749,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/8b44fe90b40e0394026d9d00781322d95b819a2b"
+    },
+    {
+      "path": "src/inputs.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb0138bd3718a07a1689612da1b4c3898b7a9e37",
+      "size": 4589,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/bb0138bd3718a07a1689612da1b4c3898b7a9e37"
+    },
+    {
+      "path": "src/serviceWorker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8703ddb7ecb007e7b15d290ce7d8f7f086c57407",
+      "size": 5003,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/8703ddb7ecb007e7b15d290ce7d8f7f086c57407"
+    },
+    {
+      "path": "src/utils.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f5cf0a791f464730197d25c5331376446c0630",
+      "size": 1700,
+      "url": "https://api.github.com/repos/adamgiebl/neumorphism/git/blobs/e0f5cf0a791f464730197d25c5331376446c0630"
+    }
+  ],
+  "truncated": false
+}

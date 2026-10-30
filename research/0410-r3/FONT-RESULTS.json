@@ -1,0 +1,57 @@
+[
+  {
+    "name": "超小",
+    "form": "10.4px",
+    "event": "11.2px",
+    "nav": "9.6px",
+    "overflow": 0,
+    "properties": "9.6px",
+    "save": "9.6px",
+    "scale": "0.8",
+    "tree": "9.6px"
+  },
+  {
+    "name": "小",
+    "form": "11.7px",
+    "event": "12.6px",
+    "nav": "10.8px",
+    "overflow": 0,
+    "properties": "10.8px",
+    "save": "10.8px",
+    "scale": "0.9",
+    "tree": "10.8px"
+  },
+  {
+    "name": "預設",
+    "form": "13px",
+    "event": "14px",
+    "nav": "12px",
+    "overflow": 0,
+    "properties": "12px",
+    "save": "12px",
+    "scale": "1",
+    "tree": "12px"
+  },
+  {
+    "name": "大",
+    "form": "14.3px",
+    "event": "15.4px",
+    "nav": "13.2px",
+    "overflow": 0,
+    "properties": "13.2px",
+    "save": "13.2px",
+    "scale": "1.1",
+    "tree": "13.2px"
+  },
+  {
+    "name": "特大",
+    "form": "15.6px",
+    "event": "16.8px",
+    "nav": "14.4px",
+    "overflow": 0,
+    "properties": "14.4px",
+    "save": "14.4px",
+    "scale": "1.2",
+    "tree": "14.4px"
+  }
+]

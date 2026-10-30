@@ -1,0 +1,11 @@
+{
+  "publishedSource": "3fa39c9a7e8c9f0bb27b26cb5c4c929ad385f4b6",
+  "zip": "Koi-Maker-0.40.12_r4-published-source.zip",
+  "files": 936,
+  "crc": "passed",
+  "allTrackedBytesExact": true,
+  "sha256": "09a914fcf61dd27c95eb30674a6c89a2d570cb54a64959d27de2dd549dd280ee",
+  "bytes": 13558651,
+  "archiveWorkerExact": true,
+  "firstValidationIssue": "ZIP directory entries were included in the file-only set comparison; corrected verifier without changing source/archive"
+}

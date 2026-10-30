@@ -1,0 +1,23 @@
+✔ r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo (699.443631ms)
+✔ r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes (675.746141ms)
+✔ arbitrary reorder retains target event identities in choices, conditions, jumps and other chapters (1.576336ms)
+✔ external choices remap in their destination chapter and never acquire phantom local flow edges (5.765182ms)
+✔ Fix-05 reference warning distinguishes cross-chapter jumps and choices from numeric actor IDs (1.592099ms)
+✔ Fix-05 single trash cancels without changes then deletes only its event and supports full Undo (506.888505ms)
+✔ Fix-05 cross-chapter reference risk is confirmed before deleting and Undo restores exact destination (390.674836ms)
+✔ Fix-05 pending delete is cancelled if its event or chapter changes; repeat group delete has no undefined guards (339.522698ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (437.225883ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (321.003978ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (174.765401ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (275.241903ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (310.348021ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (316.132213ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (228.252919ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5899.105971

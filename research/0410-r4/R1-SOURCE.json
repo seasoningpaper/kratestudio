@@ -1,0 +1,24 @@
+{
+  "siteVersion": 64,
+  "publishedCommit": "f2db20232f5349b2907c3836fdcf549e8c9b81ae",
+  "remoteHead": "3f9d5d7a98c140c0107b94a5547ef377da00134a",
+  "branch": "feature/softflow-0.41.0-r4",
+  "historicalHeaderCommit": "3fa39c9a7e8c9f0bb27b26cb5c4c929ad385f4b6",
+  "rollback": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_478d5161f36881918f0d22debfb405b6",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "version_number": 64,
+    "source": {
+      "commit_sha": "f2db20232f5349b2907c3836fdcf549e8c9b81ae"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000b3e481f89a71ee040a6365df",
+      "content_hash": "sha256:706ce45af6ec88f01590fca3dcab58b44add456f3906eca9e2d2633baedd1d62",
+      "size_bytes": 11847680,
+      "file_count": 41
+    },
+    "deployment_id": "appgdep_6adc59dbb85481918952c6c5f4f7a915"
+  },
+  "dataPolicy": "不清除或遷移使用者資料；只在隔離測試副本驗證。"
+}

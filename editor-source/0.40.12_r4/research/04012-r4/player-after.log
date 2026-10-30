@@ -1,0 +1,17 @@
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (511.645676ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (387.173434ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (251.552116ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0 (314.579792ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180 (526.063568ms)
+✔ r4 intro cover remains opaque while only title text animates: fade (529.220244ms)
+✔ r4 intro cover remains opaque while only title text animates: fadeOut (372.868784ms)
+✔ r4 intro cover remains opaque while only title text animates: left (251.419007ms)
+✔ r4 intro-to-black first commit cannot transition from the revealed old scene (289.75784ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4150.200905

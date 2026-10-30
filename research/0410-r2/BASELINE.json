@@ -1,0 +1,20 @@
+{
+  "head": "5f4a6ac29cbfe0be0e498ee256a9af8a7bc993a0",
+  "published": "baf3da10fedb9ec4fbb74dbc4f90ae04be9e1699",
+  "siteVersion": 62,
+  "reconstructed": true,
+  "files": {
+    "src/engine.mjs": "ab38aa043a24bb886db0f0591baa3a78a29e0da270795591198235e5546808ac",
+    "src/blocks-editor.jsx": "45461b23fc358410cc6889a7dfaae6369975e7848a7d4d1effaf4406eb6ed5da",
+    "src/block-model.mjs": "b388a8d5b80ac89cce991ae09bca06ff32b8bd3b1d67327771ef4fae0ddc50fe",
+    "src/storage.mjs": "fdfc7a41752646c158176475ddff9680f013ffae6efca19df6856cc83326f809",
+    "src/program-sync.mjs": "997fd8dadd152fb374e3ee94ea02108f7384d5f524f9792603e95ce58d6a4897",
+    "src/script-import.mjs": "5808ed4f631329dd49ca455266db6e7a341a3f23b45159e17355ccbac05b69a8",
+    "src/player.jsx": "b7702e100974b0ff008b4f55a1e437d48d7bc5dcf8bd8faa057e5422b221bb30",
+    "src/game-ui.mjs": "50ecf7b79d9e1b8b973eee986a15d82e5348ce2e8bada27f1615936e05bf88c3",
+    "src/game-skins.css": "c6b0c8c424ed0132412b1b6aeb9db56dd50f0dfb315edc97ddc75522401863a9",
+    "dist/brand.css": "edcff2220da8d320ec4086455fdc6728655be682d4be2f1bd7e9abe84f629e81",
+    "dist/assets/brand/koi-maker-light.png": "b534450409a9cb69f0577c0d06de7c954c07f8ef048a1cc0c63970eeef768bf5",
+    "dist/assets/brand/koi-maker-dark.png": "13f42aa308b79f41950b0e1b96d583b511c59815b3f7c3ba96774859bd390fc7"
+  }
+}

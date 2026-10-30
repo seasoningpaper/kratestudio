@@ -1,0 +1,46 @@
+✖ P1-B opening CG/music gallery preserves the existing title BGM instance and playback position (227.367082ms)
+✖ P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM (300.708647ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 944.447077
+
+✖ failing tests:
+
+test at tests/p1b-gallery-audio.test.mjs:9:1
+✖ P1-B opening CG/music gallery preserves the existing title BGM instance and playback position (227.367082ms)
+  AssertionError [ERR_ASSERTION]: 只開啟鑑賞不應暫停普通BGM
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1b-gallery-audio.test.mjs:9:291)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/p1b-gallery-audio.test.mjs:10:1
+✖ P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM (300.708647ms)
+  AssertionError [ERR_ASSERTION]: 鑑賞音樂暫停後應恢復原BGM
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1b-gallery-audio.test.mjs:10:421)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

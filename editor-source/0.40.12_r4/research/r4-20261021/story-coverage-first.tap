@@ -1,0 +1,39 @@
+✔ R4 supplied source: missing original modules remain an explicit untested dependency (10.334906ms)
+✔ R4 supplied original: null is invalid even after a successful fig-right show; never auto-repair story data (8.252647ms)
+✖ R4 supplied correction: real branch execution covers all option edges and seven endings without alias errors (378.112209ms)
+✔ R4 supplied correction: Script roundtrip preserves all fields, IDs, target types and branch execution (98.582493ms)
+✔ R4 lifecycle: conditional branch skips invalid off-route targets; jump carries the actual actors across chapters and save/load (1.829618ms)
+✔ R4 lifecycle: repeat center/right show, replacement and waiting exit 20 times without stale aliases (2.061434ms)
+✔ R4 target namespaces: filename, role ID and empty position never alias an unrelated actor (0.795186ms)
+✔ R4 edit lifecycle: reordering and copied events keep string targets and independent parameters (2.522322ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 7
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 644.204772
+
+✖ failing tests:
+
+test at tests/r4-story.test.mjs:17:1
+✖ R4 supplied correction: real branch execution covers all option edges and seven endings without alias errors (378.112209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  24 !== 25
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r4-story.test.mjs:20:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 24,
+    expected: 25,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,54 @@
+✖ R4 legacy: center alias matches the renderer default for a saved actor with no position (5.131261ms)
+✖ R4 legacy: default positions still require uniqueness, and exact custom IDs keep priority (0.327924ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 104.028855
+
+✖ failing tests:
+
+test at tests/r4-legacy-target.test.mjs:4:1
+✖ R4 legacy: center alias matches the renderer default for a saved actor with no position (5.131261ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '動畫目標不存在或不唯一：fig-center。目前舞台：A（未設定位置）。請使用舞台角色實例 ID，或只有一位角色的位置識別。'
+  - null
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r4-legacy-target.test.mjs:4:294)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '動畫目標不存在或不唯一：fig-center。目前舞台：A（未設定位置）。請使用舞台角色實例 ID，或只有一位角色的位置識別。',
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/r4-legacy-target.test.mjs:5:1
+✖ R4 legacy: default positions still require uniqueness, and exact custom IDs keep priority (0.327924ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  null !== 'A'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/r4-legacy-target.test.mjs:5:372)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: 'A',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

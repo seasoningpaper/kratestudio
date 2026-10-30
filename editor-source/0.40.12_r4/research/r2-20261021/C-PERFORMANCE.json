@@ -1,0 +1,54 @@
+{
+  "environment": "Node v24.19.0; synthetic copies; not browser render latency",
+  "crossingDefinition": "proper orthogonal intersections only; shared endpoints/collinear rails excluded",
+  "records": [
+    {
+      "n": 20,
+      "options": 2,
+      "layoutMs": 0.9225119999999976,
+      "routingMs": 1.9876309999999933,
+      "overlaps": 0,
+      "cardIntersections": 0,
+      "crossings": 0,
+      "feedbackEdges": 0,
+      "oldHeight": 2560,
+      "newHeight": 1728
+    },
+    {
+      "n": 100,
+      "options": 12,
+      "layoutMs": 1.0888750000000016,
+      "routingMs": 2.738701000000006,
+      "overlaps": 0,
+      "cardIntersections": 0,
+      "crossings": 5,
+      "feedbackEdges": 0,
+      "oldHeight": 12800,
+      "newHeight": 1728
+    },
+    {
+      "n": 300,
+      "options": 25,
+      "layoutMs": 2.090647000000004,
+      "routingMs": 4.484112999999994,
+      "overlaps": 0,
+      "cardIntersections": 0,
+      "crossings": 11,
+      "feedbackEdges": 0,
+      "oldHeight": 38400,
+      "newHeight": 2208
+    },
+    {
+      "n": 500,
+      "options": 25,
+      "layoutMs": 2.296219000000008,
+      "routingMs": 11.336574000000013,
+      "overlaps": 0,
+      "cardIntersections": 0,
+      "crossings": 11,
+      "feedbackEdges": 0,
+      "oldHeight": 64000,
+      "newHeight": 3488
+    }
+  ]
+}

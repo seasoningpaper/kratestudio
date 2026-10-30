@@ -1,0 +1,18 @@
+✔ P1-B opening CG/music gallery preserves the existing title BGM instance and playback position (290.167417ms)
+✔ P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM (297.794842ms)
+✔ P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it (477.446822ms)
+✔ P1-B gallery preview volume follows master/music/mute plus its own gain (215.488258ms)
+✔ P1-B gallery audio rejection keeps BGM focus and reports an error without throwing (213.823021ms)
+✔ P1-B game BGM also continues while viewing CG and respects gallery focus after returning (347.511125ms)
+✔ P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context (278.852393ms)
+✔ P1-B muted preference is also applied to gallery music and remains muted after resuming BGM (278.363769ms)
+✔ P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped (212.894669ms)
+✔ P1-B an explicit script music stop is not undone when gallery music ends (414.246744ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3408.233213

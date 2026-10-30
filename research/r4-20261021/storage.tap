@@ -1,0 +1,11 @@
+✔ transaction failures leave the previous project and files intact (11.832022ms)
+✔ deleting an asset unlinks all scene, sprite, CG and audio references (1.30847ms)
+✔ font files and screen image references survive durable save and portable export (3.49875ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 140.035339

@@ -1,0 +1,8 @@
+dist/app.js
+dist/server/index.js
+dist/workspace.js
+src/bulk-cards.mjs
+src/event-list.jsx
+src/workspace.jsx
+tests/version407.test.mjs
+worker/index.js

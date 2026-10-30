@@ -1,0 +1,19 @@
+{
+  "environment": "Node real temporary disk in <1 GB parts with exact range adapter (runtime file-Blob >4 GiB slicing bug); NOT browser IndexedDB/quota",
+  "payloadBytes": 4990000000,
+  "diskLimitBytes": 10100000000,
+  "timeoutSeconds": 180,
+  "results": {
+    "streamExport": "passed: every byte read/written with CRC32",
+    "streamImport": "passed: every byte verified with CRC32 and first/last byte per file",
+    "browserIndexedDB": "NOT EXECUTED: file-backed Node Blobs cannot be structured-cloned; no browser claim",
+    "browserQuota": "NOT EXECUTED",
+    "largeGameZip": "NOT SUPPORTED: bounded memory path rejects above 0.256 GB"
+  },
+  "projectBytes": 4990001156,
+  "exportMs": 33743.318495,
+  "importMs": 31122.161625999994,
+  "totalMs": 70479.13132100001,
+  "peakRSSBytes": 122171392,
+  "temporaryDataRemoved": true
+}

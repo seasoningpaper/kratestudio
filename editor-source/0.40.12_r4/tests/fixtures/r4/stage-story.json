@@ -1,0 +1,5317 @@
+{
+  "scope": "513 supplied events; prose anonymized, no original asset bytes, activity definitions or chapter metadata supplied",
+  "originalSha256": "519bb40adf695026c4e9207af268acefa2e272480b6d9289f8c60f79e531a153",
+  "suppliedCorrectionSha256": "24eb8accec427c9dd99e269df8fec7c0487d4697f079820c1e9da39eb3aaef6d",
+  "suppliedTargets": {
+    "214a3bc5-91c0-48af-abe4-097f6fb8e84c": "fig-right",
+    "34338adf-184a-444a-84e7-e2d3a7e05e2d": "fig-right",
+    "3ac19bcd-d898-4dd5-a1a3-101126f16834": "fig-center",
+    "81c3bac4-1c4e-4734-8110-0d9fe925853e": "fig-center",
+    "8ebd0073-51c9-4c46-a2eb-5b4c06c42376": "fig-center",
+    "a85ead49-b614-478f-a99c-a6b56448f624": "fig-center",
+    "0764e2aa-482f-4aeb-a498-c224163069dc": "fig-center",
+    "85ed216c-223c-470f-bc3d-122cef40fc19": "fig-center",
+    "4301c894-9e8e-4b78-adfc-d6b6db137110": "fig-center",
+    "1b9e657e-00b1-4d12-9158-e1bae585174a": "fig-left",
+    "4385998f-3d0f-4a94-9f0d-85a1357b825a": "fig-right",
+    "bc6c90ca-2334-49ce-91fb-e19511801d80": "fig-center",
+    "86e7cab5-3c98-41f8-914b-1312277122ff": "fig-center",
+    "218c28bd-65fb-4339-b923-d3446bb7916c": "fig-center",
+    "c83f140b-06a6-4245-993a-92f6246fc20e": "fig-center",
+    "eaad2928-1f5a-4be4-8db9-72378fefe677": "fig-center",
+    "9baae1de-496d-4bdf-a13f-512cd476cd28": "fig-center",
+    "996d51a0-16fe-4a0e-b709-9dbea3231a27": "fig-center",
+    "0d5143f3-5f38-47af-8f65-ea96729486ab": "fig-center",
+    "01b4ff1d-cbf2-4b54-b42c-d6b3f71f0d6e": "fig-center"
+  },
+  "events": [
+    {
+      "id": "cc2e23fa-18b0-4947-93b8-2c01a5bba158",
+      "type": "variable",
+      "text": "測試事件 0",
+      "variable": "好感度",
+      "operation": "add",
+      "value": 1
+    },
+    {
+      "id": "593216a2-331f-4641-b86b-70f3c96ba76d",
+      "type": "activity",
+      "activity": "74f5da82-7bc9-420c-b335-207c83416ed9",
+      "text": "測試事件 1",
+      "resultVariable": "互動分數"
+    },
+    {
+      "id": "9d6d0168-5579-45f0-84bd-4c21eed111f2",
+      "type": "variable",
+      "text": "測試事件 2",
+      "variable": "小瑾好感",
+      "operation": "set",
+      "value": 0,
+      "scriptLine": 6,
+      "blockDetached": false,
+      "blockPos": null
+    },
+    {
+      "id": "51453793-ed23-4920-9bed-dda668212236",
+      "type": "variable",
+      "text": "測試事件 3",
+      "variable": "依君好感",
+      "operation": "set",
+      "value": 0,
+      "scriptLine": 8,
+      "blockDetached": false,
+      "blockPos": null
+    },
+    {
+      "id": "9b5d961f-a00e-47ac-9341-c443c7a563c5",
+      "type": "variable",
+      "text": "測試事件 4",
+      "variable": "勇氣",
+      "operation": "set",
+      "value": 0,
+      "scriptLine": 9
+    },
+    {
+      "id": "6789e184-d8b2-40e1-bf79-288cc9b58df0",
+      "type": "variable",
+      "text": "測試事件 5",
+      "variable": "路線",
+      "operation": "set",
+      "value": 0,
+      "scriptLine": 10,
+      "blockDetached": false,
+      "blockStack": null,
+      "blockPos": null
+    },
+    {
+      "id": "e9ebd248-e97f-4001-afdf-ef14a45e24ee",
+      "type": "section",
+      "text": "序章",
+      "scriptLabel": "序章",
+      "scriptLine": 11
+    },
+    {
+      "id": "65b8b480-5b60-49e0-a015-3db1315bd2c7",
+      "type": "fade",
+      "text": "測試事件 7",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 13
+    },
+    {
+      "id": "2a87714e-21eb-4a5f-9534-7185e06daae7",
+      "type": "sound",
+      "text": "測試事件 8",
+      "audio": "08f12b2e-d1f6-4d4d-acb4-0f7a91405e76"
+    },
+    {
+      "id": "c714b69c-1e37-46c0-9f33-440c856054ce",
+      "type": "background",
+      "text": "測試事件 9",
+      "clearActors": false,
+      "scriptLine": 14,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_front_day1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "7f5a28e9-9c2c-4008-90a6-fc5f15f29d26"
+    },
+    {
+      "id": "3ca56d41-9cda-4ee9-93e6-051dcf873c02",
+      "type": "activity",
+      "activity": "f67a05ab-7bf1-4be7-8d69-b03212e990ca",
+      "text": "測試事件 10",
+      "resultVariable": "互動分數"
+    },
+    {
+      "id": "c460ab3e-c610-41ae-8bf5-36968b5de83d",
+      "type": "fade",
+      "text": "測試事件 11",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 15
+    },
+    {
+      "id": "4d2d3399-24ad-4cec-a3da-46a636d21331",
+      "type": "dialogue",
+      "text": "測試事件 12",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 16
+    },
+    {
+      "id": "334cab81-1315-49b1-85c3-0297f112d530",
+      "type": "dialogue",
+      "text": "測試事件 13",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 17
+    },
+    {
+      "id": "c05acf10-b505-4c93-82d6-bf2c1288dbda",
+      "type": "character",
+      "text": "測試事件 14",
+      "character": "fig-right",
+      "position": "right",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 18,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_me2_free.png",
+          "type": "image"
+        }
+      ],
+      "image": "c019ba9b-bd24-4c6e-932c-03ec6b7fd5a3"
+    },
+    {
+      "id": "214a3bc5-91c0-48af-abe4-097f6fb8e84c",
+      "type": "animation",
+      "text": "測試事件 15",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 19
+    },
+    {
+      "id": "82793c65-40c1-4c48-abda-2969f502d597",
+      "type": "dialogue",
+      "text": "測試事件 16",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 20
+    },
+    {
+      "id": "70824465-46f2-44bf-b7e6-6a4a2d7782aa",
+      "type": "dialogue",
+      "text": "測試事件 17",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 21
+    },
+    {
+      "id": "c7e4377a-dfa0-4c70-a6f8-2a6c62c14b2a",
+      "type": "character",
+      "text": "測試事件 18",
+      "character": "fig-right",
+      "position": "right",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 22,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_me2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "7b66a801-b22e-4824-b06f-99c66a492ccc"
+    },
+    {
+      "id": "34338adf-184a-444a-84e7-e2d3a7e05e2d",
+      "type": "animation",
+      "text": "測試事件 19",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 23
+    },
+    {
+      "id": "b35846b8-93fe-4717-a762-dd9c7eb89ddb",
+      "type": "dialogue",
+      "text": "測試事件 20",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 24
+    },
+    {
+      "id": "bad41f8d-45a8-4bf8-9fa1-03ee4fe56228",
+      "type": "dialogue",
+      "text": "測試事件 21",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 25
+    },
+    {
+      "id": "c481ce34-ae8a-42c5-8dab-cd8a91257ed8",
+      "type": "section",
+      "text": "新學期教室",
+      "scriptLabel": "新學期教室",
+      "scriptLine": 26
+    },
+    {
+      "id": "de3a16c5-69b6-4a42-b63c-6b5cfb685245",
+      "type": "fade",
+      "text": "測試事件 23",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 28
+    },
+    {
+      "id": "f914c370-532b-4f1b-8a4d-a209527da23e",
+      "type": "background",
+      "text": "測試事件 24",
+      "clearActors": false,
+      "scriptLine": 29,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_classroom1_day1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "638fe941-3387-47bf-9002-99559f729732"
+    },
+    {
+      "id": "83f57140-2430-4ab4-8148-fa0be0c80455",
+      "type": "fade",
+      "text": "測試事件 25",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 30
+    },
+    {
+      "id": "0c8bdaa3-69da-4280-b519-7c42a2f53403",
+      "type": "character",
+      "text": "測試事件 26",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 31,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_suspect.png",
+          "type": "image"
+        }
+      ],
+      "image": "b14e3e14-a51b-4864-8a78-044021f25a57"
+    },
+    {
+      "id": "3ac19bcd-d898-4dd5-a1a3-101126f16834",
+      "type": "animation",
+      "text": "測試事件 27",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 32
+    },
+    {
+      "id": "1a7b8504-6b61-4996-bce9-e6f90ad586e2",
+      "type": "dialogue",
+      "text": "測試事件 28",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 33
+    },
+    {
+      "id": "50830f7d-080d-4284-9cfc-9bebecc7f635",
+      "type": "dialogue",
+      "text": "測試事件 29",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 34
+    },
+    {
+      "id": "1bdca920-6650-4343-8474-955f71379c58",
+      "type": "character",
+      "text": "測試事件 30",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 35,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_embarrassed.png",
+          "type": "image"
+        }
+      ],
+      "image": "51e1ad46-a273-42a1-8ef9-c46eaf113d40"
+    },
+    {
+      "id": "81c3bac4-1c4e-4734-8110-0d9fe925853e",
+      "type": "animation",
+      "text": "測試事件 31",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 36
+    },
+    {
+      "id": "0e6c0941-31e6-4c21-80f9-276a10efdc73",
+      "type": "dialogue",
+      "text": "測試事件 32",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 37
+    },
+    {
+      "id": "b2b3f117-a2f4-4954-a415-deb5e62c7477",
+      "type": "dialogue",
+      "text": "測試事件 33",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 38
+    },
+    {
+      "id": "3f8d3439-178c-47da-a101-51fd63bd8fc9",
+      "type": "effect",
+      "text": "測試事件 34",
+      "effect": "shake",
+      "scriptLine": 39
+    },
+    {
+      "id": "2b527a40-693b-4359-8380-559e1baab3b2",
+      "type": "character",
+      "text": "測試事件 35",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 40,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_nervous.png",
+          "type": "image"
+        }
+      ],
+      "image": "1069eadf-0ca4-4f47-a80f-83f8ada7f7c6"
+    },
+    {
+      "id": "8ebd0073-51c9-4c46-a2eb-5b4c06c42376",
+      "type": "animation",
+      "text": "測試事件 36",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 41
+    },
+    {
+      "id": "ac85739f-fa65-408b-820d-aea1d8268f0b",
+      "type": "dialogue",
+      "text": "測試事件 37",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 42
+    },
+    {
+      "id": "7c0b1cbf-c35b-4226-8ae4-0e0afda5e8c9",
+      "type": "dialogue",
+      "text": "測試事件 38",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 43
+    },
+    {
+      "id": "93772dfe-3d65-44fe-a9f5-f2bc1e8d7b48",
+      "type": "character",
+      "text": "測試事件 39",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 44,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "a85ead49-b614-478f-a99c-a6b56448f624",
+      "type": "animation",
+      "text": "測試事件 40",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 45
+    },
+    {
+      "id": "3e3a3cfe-2270-45c0-9d76-5e98191573fe",
+      "type": "dialogue",
+      "text": "測試事件 41",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 46
+    },
+    {
+      "id": "ea1825dc-de6e-40b0-8b1d-d676e22a3589",
+      "type": "choice",
+      "text": "測試事件 42",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 43,
+          "scriptTarget": "初見溫柔"
+        },
+        {
+          "text": "選項 2",
+          "target": 50,
+          "scriptTarget": "初見玩笑"
+        },
+        {
+          "text": "選項 3",
+          "target": 57,
+          "scriptTarget": "初見安靜"
+        }
+      ],
+      "scriptLine": 47
+    },
+    {
+      "id": "69a72c46-fc7e-4319-a282-81562369d68b",
+      "type": "section",
+      "text": "初見溫柔",
+      "scriptLabel": "初見溫柔",
+      "scriptLine": 48
+    },
+    {
+      "id": "6a7837e0-ab08-48be-903e-140ac1cd0eb5",
+      "type": "variable",
+      "text": "測試事件 44",
+      "variable": "小瑾好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 49
+    },
+    {
+      "id": "1c872b7d-9c9c-47e0-b79f-8471c0985acd",
+      "type": "dialogue",
+      "text": "測試事件 45",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 50
+    },
+    {
+      "id": "b6ac91c7-1aef-497a-8ee9-adb8f963b34d",
+      "type": "character",
+      "text": "測試事件 46",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 51,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "0764e2aa-482f-4aeb-a498-c224163069dc",
+      "type": "animation",
+      "text": "測試事件 47",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 52
+    },
+    {
+      "id": "08710a1b-f798-455e-a547-d9daf42b4136",
+      "type": "dialogue",
+      "text": "測試事件 48",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 53
+    },
+    {
+      "id": "d3de3656-20eb-4958-8289-a3c8978f3b88",
+      "type": "jump",
+      "text": "測試事件 49",
+      "target": 63,
+      "scriptTarget": "初見合流",
+      "scriptLine": 54
+    },
+    {
+      "id": "c20b7f41-791e-4ab1-85fa-452ff1cbbeba",
+      "type": "section",
+      "text": "初見玩笑",
+      "scriptLabel": "初見玩笑",
+      "scriptLine": 55
+    },
+    {
+      "id": "59b09122-8ec6-4433-bbfc-1152cf4de95a",
+      "type": "variable",
+      "text": "測試事件 51",
+      "variable": "小瑾好感",
+      "operation": "add",
+      "value": 1,
+      "scriptLine": 56
+    },
+    {
+      "id": "a0d13063-c3e0-4f37-988e-a306e3bac1ae",
+      "type": "dialogue",
+      "text": "測試事件 52",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 57
+    },
+    {
+      "id": "08cbf8f1-e772-42f3-9ca9-8ee9068bd2d4",
+      "type": "character",
+      "text": "測試事件 53",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 58,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "0f305277-7578-40d0-8665-d22061ca6740"
+    },
+    {
+      "id": "85ed216c-223c-470f-bc3d-122cef40fc19",
+      "type": "animation",
+      "text": "測試事件 54",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 59
+    },
+    {
+      "id": "534f89cc-4da6-4245-8300-dd2cdb495c7f",
+      "type": "dialogue",
+      "text": "測試事件 55",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 60
+    },
+    {
+      "id": "9e6373d3-1e54-44f0-8224-d7dadcf7dd2d",
+      "type": "jump",
+      "text": "測試事件 56",
+      "target": 63,
+      "scriptTarget": "初見合流",
+      "scriptLine": 61
+    },
+    {
+      "id": "7bcf7588-f82b-42d1-8d09-5ee796319e11",
+      "type": "section",
+      "text": "初見安靜",
+      "scriptLabel": "初見安靜",
+      "scriptLine": 62
+    },
+    {
+      "id": "1aed3e6a-03d2-476e-b794-dbf4fe908fe0",
+      "type": "dialogue",
+      "text": "測試事件 58",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 63
+    },
+    {
+      "id": "99d4242c-b56a-4877-85e0-c762dd21ea2b",
+      "type": "character",
+      "text": "測試事件 59",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 64,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_awkward.png",
+          "type": "image"
+        }
+      ],
+      "image": "edcfc6b4-08cd-4825-8a6c-1796052fe451"
+    },
+    {
+      "id": "4301c894-9e8e-4b78-adfc-d6b6db137110",
+      "type": "animation",
+      "text": "測試事件 60",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 65
+    },
+    {
+      "id": "2f3bcc4c-8b8b-4b5b-bdb7-56bdfc9bb28a",
+      "type": "dialogue",
+      "text": "測試事件 61",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 66
+    },
+    {
+      "id": "a19e0a96-d2f5-4690-9a95-2d9439140ad6",
+      "type": "jump",
+      "text": "測試事件 62",
+      "target": 63,
+      "scriptTarget": "初見合流",
+      "scriptLine": 67
+    },
+    {
+      "id": "c71bea99-65b2-472a-9df6-49a05caeba6d",
+      "type": "section",
+      "text": "初見合流",
+      "scriptLabel": "初見合流",
+      "scriptLine": 68
+    },
+    {
+      "id": "471ef0e2-167b-43da-a940-44708be6cab6",
+      "type": "character",
+      "text": "測試事件 64",
+      "character": "fig-left",
+      "position": "left",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 69,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "1b9e657e-00b1-4d12-9158-e1bae585174a",
+      "type": "animation",
+      "text": "測試事件 65",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 70
+    },
+    {
+      "id": "29e9ee8e-6419-4bf5-a7e8-9399719099d4",
+      "type": "dialogue",
+      "text": "測試事件 66",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 71
+    },
+    {
+      "id": "1d9548db-3b89-4686-9632-397730441796",
+      "type": "character",
+      "text": "測試事件 67",
+      "character": "fig-right",
+      "position": "right",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 72,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_silent_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "0a6e032e-d922-40e7-b9ea-bba09f66e4d5"
+    },
+    {
+      "id": "4385998f-3d0f-4a94-9f0d-85a1357b825a",
+      "type": "animation",
+      "text": "測試事件 68",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 73
+    },
+    {
+      "id": "44f1c155-8412-482b-b19d-6d0e0661e106",
+      "type": "dialogue",
+      "text": "測試事件 69",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 74
+    },
+    {
+      "id": "5cffc17c-f41c-4685-b5bf-5fa0e9e6855d",
+      "type": "dialogue",
+      "text": "測試事件 70",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 75
+    },
+    {
+      "id": "229b4083-800c-4cd9-91ac-80c46fff2048",
+      "type": "section",
+      "text": "午休",
+      "scriptLabel": "午休",
+      "scriptLine": 76
+    },
+    {
+      "id": "64d3c2bb-dbef-4564-a1eb-0563b87276de",
+      "type": "intro",
+      "text": "測試事件 72",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 77
+    },
+    {
+      "id": "46414caf-b7eb-4669-bcf2-303cb0b7b550",
+      "type": "fade",
+      "text": "測試事件 73",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 78
+    },
+    {
+      "id": "44cd8752-9425-4bec-bc7e-9294faa7d3e9",
+      "type": "background",
+      "text": "測試事件 74",
+      "clearActors": false,
+      "scriptLine": 79,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_classroom2_day1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "b711671f-f903-43fc-b7a1-991a1e786c21"
+    },
+    {
+      "id": "3f76ab5e-d0e4-4690-9353-55475a22f4da",
+      "type": "fade",
+      "text": "測試事件 75",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 80
+    },
+    {
+      "id": "65349300-aca5-4791-a404-4f2dabf48e30",
+      "type": "character",
+      "text": "測試事件 76",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 81,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "bc6c90ca-2334-49ce-91fb-e19511801d80",
+      "type": "animation",
+      "text": "測試事件 77",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 82
+    },
+    {
+      "id": "ea90abf4-a7fc-4f9d-b90f-88819beaa2aa",
+      "type": "dialogue",
+      "text": "測試事件 78",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 83
+    },
+    {
+      "id": "95eb9571-51de-4d84-8d15-d0ae38718051",
+      "type": "dialogue",
+      "text": "測試事件 79",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 84
+    },
+    {
+      "id": "a82e5825-483f-4e49-92a5-ef2f6dcfbf04",
+      "type": "dialogue",
+      "text": "測試事件 80",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 85
+    },
+    {
+      "id": "650b82fe-f5f1-4254-a4d2-9cef15ee3000",
+      "type": "dialogue",
+      "text": "測試事件 81",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 86
+    },
+    {
+      "id": "6d468951-9ea9-40bb-aee0-7b08a557ac57",
+      "type": "dialogue",
+      "text": "測試事件 82",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 87
+    },
+    {
+      "id": "2246db00-5641-4084-8625-3e2ebc01a594",
+      "type": "dialogue",
+      "text": "測試事件 83",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 88
+    },
+    {
+      "id": "40a64fa5-8eb4-4e2c-95f6-f100710cdbae",
+      "type": "dialogue",
+      "text": "測試事件 84",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 89
+    },
+    {
+      "id": "079ea465-b3e3-4aa6-b997-76f6ee3e0e54",
+      "type": "character",
+      "text": "測試事件 85",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 90,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_embarrassed.png",
+          "type": "image"
+        }
+      ],
+      "image": "51e1ad46-a273-42a1-8ef9-c46eaf113d40"
+    },
+    {
+      "id": "af63bd7a-cc9a-4fd9-a41c-6193cfce92c5",
+      "type": "dialogue",
+      "text": "測試事件 86",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 91
+    },
+    {
+      "id": "639cc556-a13f-41c9-ada8-e6f582ec4dda",
+      "type": "dialogue",
+      "text": "測試事件 87",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 92
+    },
+    {
+      "id": "d0872dd7-2dca-4aef-a581-57be38615ed0",
+      "type": "dialogue",
+      "text": "測試事件 88",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 93
+    },
+    {
+      "id": "c0798d3e-379c-4c36-9622-b01429446ac3",
+      "type": "dialogue",
+      "text": "測試事件 89",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 94
+    },
+    {
+      "id": "4c1d6d37-558d-4092-b8f5-27e6c2b4b91b",
+      "type": "dialogue",
+      "text": "測試事件 90",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 95
+    },
+    {
+      "id": "08656519-f5e3-4903-b4ce-89b74897792c",
+      "type": "dialogue",
+      "text": "測試事件 91",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 96
+    },
+    {
+      "id": "d3015efd-fc97-499c-9adb-3bba108a0a01",
+      "type": "character",
+      "text": "測試事件 92",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 97,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "96b81b4d-326c-4eb2-ad86-02458241ca18",
+      "type": "dialogue",
+      "text": "測試事件 93",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 98
+    },
+    {
+      "id": "aaaa86ce-c6a1-451c-81cf-6e6c002ffb5c",
+      "type": "dialogue",
+      "text": "測試事件 94",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 99
+    },
+    {
+      "id": "59396c6f-25cf-4250-8a1d-8f315e48df6d",
+      "type": "dialogue",
+      "text": "測試事件 95",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 100
+    },
+    {
+      "id": "c4d74eca-dcf0-4630-a845-ca9080efb3e9",
+      "type": "dialogue",
+      "text": "測試事件 96",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 101
+    },
+    {
+      "id": "ca21058b-a0d0-4009-b8df-021156b8c1c6",
+      "type": "dialogue",
+      "text": "測試事件 97",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 102
+    },
+    {
+      "id": "7f41a4c3-4468-4ce6-ab17-5e8aec8654cd",
+      "type": "dialogue",
+      "text": "測試事件 98",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 103
+    },
+    {
+      "id": "ddddd6d7-cc46-475b-af28-bd5d9453724d",
+      "type": "choice",
+      "text": "測試事件 99",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 100,
+          "scriptTarget": "午餐一起"
+        },
+        {
+          "text": "選項 2",
+          "target": 105,
+          "scriptTarget": "午餐再約"
+        }
+      ],
+      "scriptLine": 104
+    },
+    {
+      "id": "943aa681-3413-4fc6-b643-b56e49e9996b",
+      "type": "section",
+      "text": "午餐一起",
+      "scriptLabel": "午餐一起",
+      "scriptLine": 105
+    },
+    {
+      "id": "d38c7603-1707-43cb-be58-2fe14a5b1187",
+      "type": "variable",
+      "text": "測試事件 101",
+      "variable": "小瑾好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 106
+    },
+    {
+      "id": "38f1ff7a-8f92-465a-9896-ea4778a7e5d0",
+      "type": "dialogue",
+      "text": "測試事件 102",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 107
+    },
+    {
+      "id": "9384667b-3a0a-4b6c-8dda-ccf4629d9c96",
+      "type": "dialogue",
+      "text": "測試事件 103",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 108
+    },
+    {
+      "id": "34d1cf7f-3359-4369-9e5e-0fccba1ec644",
+      "type": "jump",
+      "text": "測試事件 104",
+      "target": 109,
+      "scriptTarget": "午餐合流",
+      "scriptLine": 109
+    },
+    {
+      "id": "58c4872b-fbf0-41bb-a475-7f0590ac59bd",
+      "type": "section",
+      "text": "午餐再約",
+      "scriptLabel": "午餐再約",
+      "scriptLine": 110,
+      "pos": {
+        "x": 532.0299650493421,
+        "y": 4729.202681692023
+      }
+    },
+    {
+      "id": "7ca19ce7-b776-4c2c-99f0-0d80e7b85f76",
+      "type": "dialogue",
+      "text": "測試事件 106",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 111
+    },
+    {
+      "id": "349a06ec-320c-403d-9ada-a96489ce19aa",
+      "type": "dialogue",
+      "text": "測試事件 107",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 112
+    },
+    {
+      "id": "1bdd1152-c782-4f94-8138-152ec0ed53da",
+      "type": "jump",
+      "text": "測試事件 108",
+      "target": 109,
+      "scriptTarget": "午餐合流",
+      "scriptLine": 113
+    },
+    {
+      "id": "7b3e0313-cc12-4bfd-a290-384962ca1b74",
+      "type": "section",
+      "text": "午餐合流",
+      "scriptLabel": "午餐合流",
+      "scriptLine": 114
+    },
+    {
+      "id": "9728478d-6063-40d4-a4aa-322cee9749cf",
+      "type": "character",
+      "text": "測試事件 110",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 115,
+      "image": ""
+    },
+    {
+      "id": "2788e185-9084-4326-b0ca-2a351f231f51",
+      "type": "wait",
+      "text": "測試事件 111",
+      "duration": 0.5,
+      "scriptLine": 116
+    },
+    {
+      "id": "393369a8-fd68-44a5-bfee-124dae5085ae",
+      "type": "jump",
+      "text": "測試事件 112",
+      "target": 113,
+      "scriptTarget": "社團",
+      "scriptLine": 117
+    },
+    {
+      "id": "5b0b55ef-af9d-481e-b8ad-dbb99b53b140",
+      "type": "section",
+      "text": "社團",
+      "scriptLabel": "社團",
+      "scriptLine": 118
+    },
+    {
+      "id": "6fe365d3-b239-4fa3-bffa-05e90e189eff",
+      "type": "intro",
+      "text": "測試事件 114",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 119
+    },
+    {
+      "id": "67e2c163-14aa-41c9-b94d-b8a010f1a4a7",
+      "type": "fade",
+      "text": "測試事件 115",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 120
+    },
+    {
+      "id": "7d3926a0-23bd-4788-bc5b-d44fc4ab66e5",
+      "type": "background",
+      "text": "測試事件 116",
+      "clearActors": false,
+      "scriptLine": 121,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_club1_day1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "032e69b4-fade-4e73-a84f-653c693be350"
+    },
+    {
+      "id": "603b7021-6d07-455f-b70a-8b3a663e8e21",
+      "type": "fade",
+      "text": "測試事件 117",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 122
+    },
+    {
+      "id": "65a7e663-c239-4418-a59a-164ffa51c8b0",
+      "type": "character",
+      "text": "測試事件 118",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 123,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "86e7cab5-3c98-41f8-914b-1312277122ff",
+      "type": "animation",
+      "text": "測試事件 119",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 124
+    },
+    {
+      "id": "3e1ebec5-5c9f-4974-91b1-bacc94dc0ea0",
+      "type": "dialogue",
+      "text": "測試事件 120",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 125
+    },
+    {
+      "id": "b4ed16aa-7143-4ff9-a282-b2b79cb0a221",
+      "type": "dialogue",
+      "text": "測試事件 121",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 126
+    },
+    {
+      "id": "426d99fd-006b-4e55-83e6-686e0a672d74",
+      "type": "dialogue",
+      "text": "測試事件 122",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 127
+    },
+    {
+      "id": "446a5aa1-759d-46c6-a4f0-983d019d87b8",
+      "type": "dialogue",
+      "text": "測試事件 123",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 128
+    },
+    {
+      "id": "7c884907-bff3-4b8f-951e-13c3cd5cca17",
+      "type": "dialogue",
+      "text": "測試事件 124",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 129
+    },
+    {
+      "id": "432750b6-9cf6-4b4c-a49a-215992b2528e",
+      "type": "dialogue",
+      "text": "測試事件 125",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 130
+    },
+    {
+      "id": "88eaf33b-3eae-4abf-af0d-9b95b9960ee8",
+      "type": "dialogue",
+      "text": "測試事件 126",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 131
+    },
+    {
+      "id": "37adffb7-337c-49c2-835b-3277b81bb389",
+      "type": "character",
+      "text": "測試事件 127",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 132,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "2fd5e9b4-773e-4136-94d6-2323cab71c66",
+      "type": "dialogue",
+      "text": "測試事件 128",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 133
+    },
+    {
+      "id": "6c9dbe0a-d570-4255-9453-2192e0d8c17d",
+      "type": "dialogue",
+      "text": "測試事件 129",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 134
+    },
+    {
+      "id": "cf1f791e-dfad-44fb-a57d-dd143b8acc6e",
+      "type": "dialogue",
+      "text": "測試事件 130",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 135
+    },
+    {
+      "id": "c725af8a-7016-4191-8ff8-9e1e564b6fcd",
+      "type": "dialogue",
+      "text": "測試事件 131",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 136
+    },
+    {
+      "id": "4dabe903-27f4-4315-ad91-e74d5aa5bd4f",
+      "type": "dialogue",
+      "text": "測試事件 132",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 137
+    },
+    {
+      "id": "1f1139de-ee8e-4167-9963-48ceba584ba3",
+      "type": "dialogue",
+      "text": "測試事件 133",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 138
+    },
+    {
+      "id": "7e1017ae-3546-4c6e-a425-cd459b698f42",
+      "type": "character",
+      "text": "測試事件 134",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 139,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "d03e4306-998d-4a25-b4f9-405353593eac",
+      "type": "dialogue",
+      "text": "測試事件 135",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 140
+    },
+    {
+      "id": "7f60dcd8-783f-46ce-ad3b-229038556e5d",
+      "type": "dialogue",
+      "text": "測試事件 136",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 141
+    },
+    {
+      "id": "d585859f-e4b2-4684-94fb-d994c489b15e",
+      "type": "dialogue",
+      "text": "測試事件 137",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 142
+    },
+    {
+      "id": "bd400b3d-a252-46c1-a380-81d872d20eac",
+      "type": "dialogue",
+      "text": "測試事件 138",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 143
+    },
+    {
+      "id": "6772138c-b8a9-4965-8797-282226aa5be9",
+      "type": "dialogue",
+      "text": "測試事件 139",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 144
+    },
+    {
+      "id": "a0c56466-0874-4259-88d6-b82209c60d11",
+      "type": "choice",
+      "text": "測試事件 140",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 141,
+          "scriptTarget": "社團協助"
+        },
+        {
+          "text": "選項 2",
+          "target": 146,
+          "scriptTarget": "社團規劃"
+        }
+      ],
+      "scriptLine": 145
+    },
+    {
+      "id": "35263952-7879-4c64-bc60-838bda00c811",
+      "type": "section",
+      "text": "社團協助",
+      "scriptLabel": "社團協助",
+      "scriptLine": 146
+    },
+    {
+      "id": "e97f22ee-ac2f-4427-a597-c4467c5f226b",
+      "type": "variable",
+      "text": "測試事件 142",
+      "variable": "雅婷好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 147
+    },
+    {
+      "id": "419cee31-6777-4330-af5d-a09048e571ce",
+      "type": "dialogue",
+      "text": "測試事件 143",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 148
+    },
+    {
+      "id": "4fe12781-9997-41ca-95bc-d029ca0b37ea",
+      "type": "dialogue",
+      "text": "測試事件 144",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 149
+    },
+    {
+      "id": "f75bf734-5ac9-4ae5-98fc-cc5209855d35",
+      "type": "jump",
+      "text": "測試事件 145",
+      "target": 151,
+      "scriptTarget": "社團合流",
+      "scriptLine": 150
+    },
+    {
+      "id": "1c29dcdc-50f5-431f-8b26-5fa0d8417164",
+      "type": "section",
+      "text": "社團規劃",
+      "scriptLabel": "社團規劃",
+      "scriptLine": 151
+    },
+    {
+      "id": "48005476-3f58-4925-a616-a334e9ea2819",
+      "type": "variable",
+      "text": "測試事件 147",
+      "variable": "雅婷好感",
+      "operation": "add",
+      "value": 1,
+      "scriptLine": 152
+    },
+    {
+      "id": "621dc5cc-b005-4439-8499-45d083f816b7",
+      "type": "dialogue",
+      "text": "測試事件 148",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 153
+    },
+    {
+      "id": "56bb744b-f06b-46d3-83fc-92450f5902aa",
+      "type": "dialogue",
+      "text": "測試事件 149",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 154
+    },
+    {
+      "id": "237104ec-ecac-4892-ae88-0629a703bfba",
+      "type": "jump",
+      "text": "測試事件 150",
+      "target": 151,
+      "scriptTarget": "社團合流",
+      "scriptLine": 155
+    },
+    {
+      "id": "651494b2-830d-4d90-8157-cccf8fa8a55e",
+      "type": "section",
+      "text": "社團合流",
+      "scriptLabel": "社團合流",
+      "scriptLine": 156
+    },
+    {
+      "id": "52c18be6-6b17-4ba5-bc62-aca84ea3a16d",
+      "type": "character",
+      "text": "測試事件 152",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 157,
+      "image": ""
+    },
+    {
+      "id": "e2f3f9d1-1841-40cb-8f8a-f0cd292d6710",
+      "type": "wait",
+      "text": "測試事件 153",
+      "duration": 0.5,
+      "scriptLine": 158
+    },
+    {
+      "id": "dd668ef5-f04c-478a-8d1d-124433819fb9",
+      "type": "jump",
+      "text": "測試事件 154",
+      "target": 155,
+      "scriptTarget": "圖書館前",
+      "scriptLine": 159
+    },
+    {
+      "id": "cbfe6d3b-5710-46f4-b416-47f14c66ac3f",
+      "type": "section",
+      "text": "圖書館前",
+      "scriptLabel": "圖書館前",
+      "scriptLine": 160
+    },
+    {
+      "id": "8f4420f4-94b3-425b-9f43-b6a8b20a94b2",
+      "type": "intro",
+      "text": "測試事件 156",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 161
+    },
+    {
+      "id": "c66a3ae6-6109-49b9-95cf-d315fc236087",
+      "type": "fade",
+      "text": "測試事件 157",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 162
+    },
+    {
+      "id": "cb622eeb-2055-4832-9340-27f43639b99d",
+      "type": "background",
+      "text": "測試事件 158",
+      "clearActors": false,
+      "scriptLine": 163,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_hallway21_day1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "919352b3-9c3a-4c1a-811b-5f854c83d767"
+    },
+    {
+      "id": "737ef220-1790-41d2-8f09-b0d8742ba9d8",
+      "type": "fade",
+      "text": "測試事件 159",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 164
+    },
+    {
+      "id": "376fadbb-9ac2-43c1-be64-21be51897e26",
+      "type": "character",
+      "text": "測試事件 160",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 165,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "218c28bd-65fb-4339-b923-d3446bb7916c",
+      "type": "animation",
+      "text": "測試事件 161",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 166
+    },
+    {
+      "id": "f16b361e-c085-4233-b77f-0d3977870419",
+      "type": "dialogue",
+      "text": "測試事件 162",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 167
+    },
+    {
+      "id": "0848ed7f-d61e-4f35-9255-c56c1cddc84f",
+      "type": "dialogue",
+      "text": "測試事件 163",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 168
+    },
+    {
+      "id": "3a13c52e-7986-4824-95b5-f81818598f27",
+      "type": "dialogue",
+      "text": "測試事件 164",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 169
+    },
+    {
+      "id": "e7bcc8fd-5da7-424b-9dc5-9e1987cd2f41",
+      "type": "dialogue",
+      "text": "測試事件 165",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 170
+    },
+    {
+      "id": "db79e2f5-403e-4e1f-a686-24e97441b631",
+      "type": "dialogue",
+      "text": "測試事件 166",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 171
+    },
+    {
+      "id": "ef0e0720-8f26-4d07-8cb6-a9b4aee04164",
+      "type": "dialogue",
+      "text": "測試事件 167",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 172
+    },
+    {
+      "id": "b4a34e7e-d41b-4512-8681-0d7b1ea9e888",
+      "type": "dialogue",
+      "text": "測試事件 168",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 173
+    },
+    {
+      "id": "bd2220f9-bee4-43b1-bbdd-f8a9acae877a",
+      "type": "character",
+      "text": "測試事件 169",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 174,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_silent_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "0a6e032e-d922-40e7-b9ea-bba09f66e4d5"
+    },
+    {
+      "id": "ed3c86be-4ab4-4ff6-a0c8-1f304f249d9c",
+      "type": "dialogue",
+      "text": "測試事件 170",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 175
+    },
+    {
+      "id": "efd0b747-def5-4e60-a342-7244ad98bc00",
+      "type": "dialogue",
+      "text": "測試事件 171",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 176
+    },
+    {
+      "id": "f39fbc24-9d91-4d38-aebe-ac392930a112",
+      "type": "dialogue",
+      "text": "測試事件 172",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 177
+    },
+    {
+      "id": "7a1f23cd-9984-48bd-b54d-6ecdf94243b4",
+      "type": "dialogue",
+      "text": "測試事件 173",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 178
+    },
+    {
+      "id": "5093f9cc-81c5-455f-b60f-c31cabd35b30",
+      "type": "dialogue",
+      "text": "測試事件 174",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 179
+    },
+    {
+      "id": "d933b179-740a-4c5a-b453-e9b626c8fdf1",
+      "type": "dialogue",
+      "text": "測試事件 175",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 180
+    },
+    {
+      "id": "a60a7db8-8cc2-4884-828f-5f3a638916ae",
+      "type": "character",
+      "text": "測試事件 176",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 181,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "b5bda2f9-729e-4eca-969d-e9b471db6825",
+      "type": "dialogue",
+      "text": "測試事件 177",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 182
+    },
+    {
+      "id": "7188bbc0-eb4f-4bd3-845c-f3467dd24cf5",
+      "type": "dialogue",
+      "text": "測試事件 178",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 183
+    },
+    {
+      "id": "6463b0f5-9ecb-4633-8eeb-e5195f952645",
+      "type": "dialogue",
+      "text": "測試事件 179",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 184
+    },
+    {
+      "id": "7efc8a9a-25e6-4f9e-b0a8-c59a120ed053",
+      "type": "dialogue",
+      "text": "測試事件 180",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 185
+    },
+    {
+      "id": "54d59619-5844-4c77-b41e-c5ad1d5ee97f",
+      "type": "dialogue",
+      "text": "測試事件 181",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 186
+    },
+    {
+      "id": "92701977-7f0b-42eb-88f2-5fd4a8d59678",
+      "type": "choice",
+      "text": "測試事件 182",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 183,
+          "scriptTarget": "星星答應"
+        },
+        {
+          "text": "選項 2",
+          "target": 188,
+          "scriptTarget": "星星改天"
+        }
+      ],
+      "scriptLine": 187
+    },
+    {
+      "id": "879e8261-d3aa-46d0-9bc7-c67bb8b8cd30",
+      "type": "section",
+      "text": "星星答應",
+      "scriptLabel": "星星答應",
+      "scriptLine": 188
+    },
+    {
+      "id": "40bac039-8a9c-408b-88f0-a7c1a7bcfbcd",
+      "type": "variable",
+      "text": "測試事件 184",
+      "variable": "依君好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 189
+    },
+    {
+      "id": "e77f48ec-7374-42cd-b6d8-024aef004370",
+      "type": "dialogue",
+      "text": "測試事件 185",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 190
+    },
+    {
+      "id": "aa777405-6b90-4d41-b05d-6eaab9c20384",
+      "type": "dialogue",
+      "text": "測試事件 186",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 191
+    },
+    {
+      "id": "acd87eaa-656f-412f-bd2c-ac17571a14db",
+      "type": "jump",
+      "text": "測試事件 187",
+      "target": 192,
+      "scriptTarget": "星星合流",
+      "scriptLine": 192
+    },
+    {
+      "id": "7709f082-4057-4b1e-8bcc-030b1dd32571",
+      "type": "section",
+      "text": "星星改天",
+      "scriptLabel": "星星改天",
+      "scriptLine": 193
+    },
+    {
+      "id": "676796d2-7b4e-44c1-9df2-2272e421a47b",
+      "type": "dialogue",
+      "text": "測試事件 189",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 194
+    },
+    {
+      "id": "f993be70-d9cb-4706-acd0-4e97dd07e3fa",
+      "type": "dialogue",
+      "text": "測試事件 190",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 195
+    },
+    {
+      "id": "faa04b03-5c8c-4a81-9709-e3477351cf16",
+      "type": "jump",
+      "text": "測試事件 191",
+      "target": 192,
+      "scriptTarget": "星星合流",
+      "scriptLine": 196
+    },
+    {
+      "id": "5c348c69-c066-4e5a-a6c0-32acac93ed9d",
+      "type": "section",
+      "text": "星星合流",
+      "scriptLabel": "星星合流",
+      "scriptLine": 197
+    },
+    {
+      "id": "7b31499d-f66b-4b11-a7c4-ba1e18fcad58",
+      "type": "character",
+      "text": "測試事件 193",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 198,
+      "image": ""
+    },
+    {
+      "id": "2552ba29-d10e-47ce-b25b-48ced4fe269b",
+      "type": "wait",
+      "text": "測試事件 194",
+      "duration": 0.5,
+      "scriptLine": 199
+    },
+    {
+      "id": "4a05600c-1ec3-44c7-a524-249384173f40",
+      "type": "jump",
+      "text": "測試事件 195",
+      "target": 196,
+      "scriptTarget": "放學走廊",
+      "scriptLine": 200
+    },
+    {
+      "id": "9bbcaa13-5869-423b-bd42-5af9acb77e6f",
+      "type": "section",
+      "text": "放學走廊",
+      "scriptLabel": "放學走廊",
+      "scriptLine": 201
+    },
+    {
+      "id": "af2b7674-05dc-41df-a420-55a264c22c0d",
+      "type": "intro",
+      "text": "測試事件 197",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 202
+    },
+    {
+      "id": "556b0d0a-4ecd-4548-af96-ae19a246d598",
+      "type": "fade",
+      "text": "測試事件 198",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 203
+    },
+    {
+      "id": "c97389f5-25b0-40d1-9c95-563f43dddb17",
+      "type": "background",
+      "text": "測試事件 199",
+      "clearActors": false,
+      "scriptLine": 204,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_hallway_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "c3956f8f-67b3-482d-a5de-799b29b1002f"
+    },
+    {
+      "id": "eab8d83f-6458-42c9-8e73-c41b0f2580f9",
+      "type": "fade",
+      "text": "測試事件 200",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 205
+    },
+    {
+      "id": "487ef99c-d478-40f4-aafd-f368dd4fe769",
+      "type": "character",
+      "text": "測試事件 201",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 206,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_dissatisfied.png",
+          "type": "image"
+        }
+      ],
+      "image": "27e00ded-f825-4d09-bd85-b9cc49e3efe5"
+    },
+    {
+      "id": "c83f140b-06a6-4245-993a-92f6246fc20e",
+      "type": "animation",
+      "text": "測試事件 202",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 207
+    },
+    {
+      "id": "b5fb8d62-8486-46bd-849f-69c9610ff847",
+      "type": "dialogue",
+      "text": "測試事件 203",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 208
+    },
+    {
+      "id": "3af2aa28-ca8d-47b7-866e-d76ca4994269",
+      "type": "dialogue",
+      "text": "測試事件 204",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 209
+    },
+    {
+      "id": "eb138635-71e3-40f6-a884-19a0d9514bdf",
+      "type": "dialogue",
+      "text": "測試事件 205",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 210
+    },
+    {
+      "id": "ae9ebd78-5535-48ed-9edc-cbcc939ab004",
+      "type": "dialogue",
+      "text": "測試事件 206",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 211
+    },
+    {
+      "id": "b1d898b9-22d8-46f5-a222-38753d2e5799",
+      "type": "dialogue",
+      "text": "測試事件 207",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 212
+    },
+    {
+      "id": "3753db75-7860-44a2-be2e-283355a99b85",
+      "type": "dialogue",
+      "text": "測試事件 208",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 213
+    },
+    {
+      "id": "35a80a4d-b5de-415d-91ca-798a2393d52a",
+      "type": "dialogue",
+      "text": "測試事件 209",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 214
+    },
+    {
+      "id": "b4ead1e9-275e-4f49-a78a-1aa3067eadee",
+      "type": "character",
+      "text": "測試事件 210",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 215,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_awkward.png",
+          "type": "image"
+        }
+      ],
+      "image": "edcfc6b4-08cd-4825-8a6c-1796052fe451"
+    },
+    {
+      "id": "12f36739-925a-42e3-a0d4-d8914a49a9bc",
+      "type": "dialogue",
+      "text": "測試事件 211",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 216
+    },
+    {
+      "id": "a91518e6-11c9-4fc4-a22b-4f4e62371f50",
+      "type": "dialogue",
+      "text": "測試事件 212",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 217
+    },
+    {
+      "id": "de968bae-c4af-4d33-ab34-21bf2eee44f9",
+      "type": "dialogue",
+      "text": "測試事件 213",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 218
+    },
+    {
+      "id": "f1b6cebd-c6fe-421c-80a3-06a86ea58618",
+      "type": "dialogue",
+      "text": "測試事件 214",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 219
+    },
+    {
+      "id": "37a41795-214b-4181-b403-4060ea2da5a5",
+      "type": "dialogue",
+      "text": "測試事件 215",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 220
+    },
+    {
+      "id": "71f8d1e9-cd4b-4361-8cb8-f454be440000",
+      "type": "dialogue",
+      "text": "測試事件 216",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 221
+    },
+    {
+      "id": "0f3f4035-065d-4206-a627-2cbd186426b7",
+      "type": "character",
+      "text": "測試事件 217",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 222,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "505e54b6-a061-4486-9afa-afaae57d6527",
+      "type": "dialogue",
+      "text": "測試事件 218",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 223
+    },
+    {
+      "id": "f2f9e144-980c-44ec-be99-f1d265f9e4af",
+      "type": "dialogue",
+      "text": "測試事件 219",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 224
+    },
+    {
+      "id": "854a7a86-f43c-47c1-bd5c-d2ff27603968",
+      "type": "dialogue",
+      "text": "測試事件 220",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 225
+    },
+    {
+      "id": "dab2dcbb-a020-4b50-9d0e-d2825a9fd92e",
+      "type": "dialogue",
+      "text": "測試事件 221",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 226
+    },
+    {
+      "id": "dde8b3c4-b40e-4a70-90ff-3b00dc549087",
+      "type": "choice",
+      "text": "測試事件 222",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 223,
+          "scriptTarget": "走廊道歉"
+        },
+        {
+          "text": "選項 2",
+          "target": 228,
+          "scriptTarget": "走廊帶過"
+        }
+      ],
+      "scriptLine": 227
+    },
+    {
+      "id": "b5f6e1ce-ade7-4814-a8f8-474969ac1bdc",
+      "type": "section",
+      "text": "走廊道歉",
+      "scriptLabel": "走廊道歉",
+      "scriptLine": 228
+    },
+    {
+      "id": "07670bf5-27e8-42a7-8582-79c745ade725",
+      "type": "variable",
+      "text": "測試事件 224",
+      "variable": "小瑾好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 229
+    },
+    {
+      "id": "dbc87ff5-56dc-495b-ae97-de19842c5892",
+      "type": "dialogue",
+      "text": "測試事件 225",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 230
+    },
+    {
+      "id": "756fd5e5-f7f2-42eb-a540-ea57b5ad381e",
+      "type": "dialogue",
+      "text": "測試事件 226",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 231
+    },
+    {
+      "id": "7a58d4ac-5acb-477e-a401-18bfe8d4d4f4",
+      "type": "jump",
+      "text": "測試事件 227",
+      "target": 232,
+      "scriptTarget": "走廊合流",
+      "scriptLine": 232
+    },
+    {
+      "id": "cc1d3eab-98ca-4292-ad90-841499f6217c",
+      "type": "section",
+      "text": "走廊帶過",
+      "scriptLabel": "走廊帶過",
+      "scriptLine": 233
+    },
+    {
+      "id": "48ca2ebd-f03e-47e1-9568-3d0cd6bc6b4d",
+      "type": "dialogue",
+      "text": "測試事件 229",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 234
+    },
+    {
+      "id": "585bbe0b-2d02-49cb-92da-e81dcdb4e746",
+      "type": "dialogue",
+      "text": "測試事件 230",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 235
+    },
+    {
+      "id": "40bd9c39-e819-4324-b5ab-b92c558e1f42",
+      "type": "jump",
+      "text": "測試事件 231",
+      "target": 232,
+      "scriptTarget": "走廊合流",
+      "scriptLine": 236
+    },
+    {
+      "id": "ecc428a9-6d8e-4b76-902f-1585fd7b6389",
+      "type": "section",
+      "text": "走廊合流",
+      "scriptLabel": "走廊合流",
+      "scriptLine": 237
+    },
+    {
+      "id": "5cae18ac-a2e9-4735-b085-49eec157ba6a",
+      "type": "character",
+      "text": "測試事件 233",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 238,
+      "image": ""
+    },
+    {
+      "id": "a83f3272-f50a-454c-a778-97425f124390",
+      "type": "wait",
+      "text": "測試事件 234",
+      "duration": 0.5,
+      "scriptLine": 239
+    },
+    {
+      "id": "85791498-3749-4666-bd1f-08f38799d629",
+      "type": "jump",
+      "text": "測試事件 235",
+      "target": 236,
+      "scriptTarget": "期中前夕",
+      "scriptLine": 240
+    },
+    {
+      "id": "2df1534b-bd09-487d-9ede-5ff620aca373",
+      "type": "section",
+      "text": "期中前夕",
+      "scriptLabel": "期中前夕",
+      "scriptLine": 241
+    },
+    {
+      "id": "5d251fc4-e693-41ce-8939-fb4db219d62e",
+      "type": "intro",
+      "text": "測試事件 237",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 242
+    },
+    {
+      "id": "1a9d5102-ac32-45e0-9e24-5799dfbbaae3",
+      "type": "fade",
+      "text": "測試事件 238",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 243
+    },
+    {
+      "id": "7a95a91a-8a32-4592-b174-8f1986ce53be",
+      "type": "background",
+      "text": "測試事件 239",
+      "clearActors": false,
+      "scriptLine": 244,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_classroom3_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "bc768012-50a8-4f03-bb4f-12faaee3f5c0"
+    },
+    {
+      "id": "c7cca065-98d5-482d-8887-14821cc6986d",
+      "type": "fade",
+      "text": "測試事件 240",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 245
+    },
+    {
+      "id": "9d3e8ce1-319b-4a28-ae66-130b6ebf4aa6",
+      "type": "character",
+      "text": "測試事件 241",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 246,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "eaad2928-1f5a-4be4-8db9-72378fefe677",
+      "type": "animation",
+      "text": "測試事件 242",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 247
+    },
+    {
+      "id": "91df1423-0959-47be-92fb-98fa6eb22ed1",
+      "type": "dialogue",
+      "text": "測試事件 243",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 248
+    },
+    {
+      "id": "d264d96e-d426-47b5-adbc-41f20f338b91",
+      "type": "dialogue",
+      "text": "測試事件 244",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 249
+    },
+    {
+      "id": "211ba462-a28e-4059-aeb1-0f68b1ed07c5",
+      "type": "dialogue",
+      "text": "測試事件 245",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 250
+    },
+    {
+      "id": "7f3f852e-5c48-41a3-87a1-ae58120923be",
+      "type": "dialogue",
+      "text": "測試事件 246",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 251
+    },
+    {
+      "id": "a323f6fd-5ee3-4256-a0ad-96a077810c5e",
+      "type": "dialogue",
+      "text": "測試事件 247",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 252
+    },
+    {
+      "id": "8b93c3ee-7caa-4d0d-b8b7-8208ee60be8f",
+      "type": "dialogue",
+      "text": "測試事件 248",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 253
+    },
+    {
+      "id": "29025eac-ef22-4ec1-83e8-5f66f6716b2b",
+      "type": "dialogue",
+      "text": "測試事件 249",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 254
+    },
+    {
+      "id": "b53a90ac-d9de-479d-ab7f-a8c66595a556",
+      "type": "character",
+      "text": "測試事件 250",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 255,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_thinking.png",
+          "type": "image"
+        }
+      ],
+      "image": "159fbaa7-591f-4d64-87db-edcd4108d634"
+    },
+    {
+      "id": "3731fe5f-9fe7-4517-b42a-14017ab8ddc2",
+      "type": "dialogue",
+      "text": "測試事件 251",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 256
+    },
+    {
+      "id": "38ff933e-9806-4a44-92e1-065110e642f5",
+      "type": "dialogue",
+      "text": "測試事件 252",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 257
+    },
+    {
+      "id": "fe65b8e0-a221-4d31-9964-59fb76df3fd1",
+      "type": "dialogue",
+      "text": "測試事件 253",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 258
+    },
+    {
+      "id": "fe4e7ac4-c1c3-45f0-9085-ba37a6778287",
+      "type": "dialogue",
+      "text": "測試事件 254",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 259
+    },
+    {
+      "id": "2061a6c2-2b5b-4135-9328-bf86c44f77d9",
+      "type": "dialogue",
+      "text": "測試事件 255",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 260
+    },
+    {
+      "id": "bcc526a8-19e0-498e-8e21-cac850037cd6",
+      "type": "dialogue",
+      "text": "測試事件 256",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 261
+    },
+    {
+      "id": "bba62702-9a4c-4b71-9ed2-3262169ede43",
+      "type": "character",
+      "text": "測試事件 257",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 262,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "55f57ab0-7ef6-401f-b008-e219efe211b4",
+      "type": "dialogue",
+      "text": "測試事件 258",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 263
+    },
+    {
+      "id": "9f88e60b-5657-462c-9ca1-4cf9455878ea",
+      "type": "dialogue",
+      "text": "測試事件 259",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 264
+    },
+    {
+      "id": "0de8d609-f7e3-41ab-ae29-01f9e9819417",
+      "type": "dialogue",
+      "text": "測試事件 260",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 265
+    },
+    {
+      "id": "28c6826c-cf8f-4306-8565-c0689c04ced8",
+      "type": "dialogue",
+      "text": "測試事件 261",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 266
+    },
+    {
+      "id": "9b08078f-0410-4d08-9d2c-e5e8dcf76932",
+      "type": "choice",
+      "text": "測試事件 262",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 263,
+          "scriptTarget": "複習認真"
+        },
+        {
+          "text": "選項 2",
+          "target": 268,
+          "scriptTarget": "複習休息"
+        }
+      ],
+      "scriptLine": 267
+    },
+    {
+      "id": "4e563254-aa3b-4229-8df5-7620f57a71a9",
+      "type": "section",
+      "text": "複習認真",
+      "scriptLabel": "複習認真",
+      "scriptLine": 268
+    },
+    {
+      "id": "d991d67b-2a0a-4f18-8184-ea5a781efbbb",
+      "type": "variable",
+      "text": "測試事件 264",
+      "variable": "依君好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 269
+    },
+    {
+      "id": "21357d6e-28ab-4d04-adb0-269a19bd1c86",
+      "type": "dialogue",
+      "text": "測試事件 265",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 270
+    },
+    {
+      "id": "ec0632c9-31c8-451f-a91b-7389e52ae76c",
+      "type": "dialogue",
+      "text": "測試事件 266",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 271
+    },
+    {
+      "id": "65235203-8ee0-474d-b41d-c9e637c128ac",
+      "type": "jump",
+      "text": "測試事件 267",
+      "target": 273,
+      "scriptTarget": "複習合流",
+      "scriptLine": 272
+    },
+    {
+      "id": "3b342f7f-2a66-4895-a8e4-fe1cdc23cddc",
+      "type": "section",
+      "text": "複習休息",
+      "scriptLabel": "複習休息",
+      "scriptLine": 273
+    },
+    {
+      "id": "776d41a0-38ac-4556-ad56-08fd66db2f14",
+      "type": "variable",
+      "text": "測試事件 269",
+      "variable": "依君好感",
+      "operation": "add",
+      "value": 1,
+      "scriptLine": 274
+    },
+    {
+      "id": "a60722a0-60de-4b63-b04f-00ae2395b4e6",
+      "type": "dialogue",
+      "text": "測試事件 270",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 275
+    },
+    {
+      "id": "546b2723-37e6-4d08-a776-79cdc3250496",
+      "type": "dialogue",
+      "text": "測試事件 271",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 276
+    },
+    {
+      "id": "8c682ec7-6c18-4a3a-b36b-7caf1bfa971c",
+      "type": "jump",
+      "text": "測試事件 272",
+      "target": 273,
+      "scriptTarget": "複習合流",
+      "scriptLine": 277
+    },
+    {
+      "id": "09fc41e2-a010-407a-8455-c29b6d6bf3da",
+      "type": "section",
+      "text": "複習合流",
+      "scriptLabel": "複習合流",
+      "scriptLine": 278
+    },
+    {
+      "id": "de8bd084-95b5-4225-8ef4-9bcaa581a642",
+      "type": "character",
+      "text": "測試事件 274",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 279,
+      "image": ""
+    },
+    {
+      "id": "1a3383f9-aa1a-4139-b1a9-c831d897854e",
+      "type": "wait",
+      "text": "測試事件 275",
+      "duration": 0.5,
+      "scriptLine": 280
+    },
+    {
+      "id": "24d2aaec-8c4c-4b99-bea8-745a631987d5",
+      "type": "jump",
+      "text": "測試事件 276",
+      "target": 277,
+      "scriptTarget": "學園祭準備",
+      "scriptLine": 281
+    },
+    {
+      "id": "5a0fb020-7119-4d56-9d7a-d547d222fe50",
+      "type": "section",
+      "text": "學園祭準備",
+      "scriptLabel": "學園祭準備",
+      "scriptLine": 282
+    },
+    {
+      "id": "442e9065-e698-4b90-b53e-b27299e5eec1",
+      "type": "intro",
+      "text": "測試事件 278",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 283
+    },
+    {
+      "id": "5660a1b0-9441-42d0-bab4-108b032f2e52",
+      "type": "fade",
+      "text": "測試事件 279",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 284
+    },
+    {
+      "id": "e9776076-0f39-4b25-8306-b7fb1fe24e66",
+      "type": "background",
+      "text": "測試事件 280",
+      "clearActors": false,
+      "scriptLine": 285,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_club3_day3.png",
+          "type": "image"
+        }
+      ],
+      "scene": "03d77964-b78a-46c0-aafc-dae838ccbb4f"
+    },
+    {
+      "id": "328d2d67-02e4-4b95-a3cc-3e8a04fae697",
+      "type": "fade",
+      "text": "測試事件 281",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 286
+    },
+    {
+      "id": "0cf0c055-5f37-46b6-8a21-4f2785443167",
+      "type": "character",
+      "text": "測試事件 282",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 287,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "9baae1de-496d-4bdf-a13f-512cd476cd28",
+      "type": "animation",
+      "text": "測試事件 283",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 288
+    },
+    {
+      "id": "23c7625e-e768-4b21-a8c2-61aa0b56338e",
+      "type": "dialogue",
+      "text": "測試事件 284",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 289
+    },
+    {
+      "id": "67d558e8-c5c7-4ff4-87f0-9a7fca9e6298",
+      "type": "dialogue",
+      "text": "測試事件 285",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 290
+    },
+    {
+      "id": "2ba2be75-ef74-411d-8e62-f71b9eeebcf0",
+      "type": "dialogue",
+      "text": "測試事件 286",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 291
+    },
+    {
+      "id": "6f4010be-87b0-4aee-90ea-d7bdf74ba1cd",
+      "type": "dialogue",
+      "text": "測試事件 287",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 292
+    },
+    {
+      "id": "06aa630b-9dd7-416f-80e7-cf7e3eb30f4c",
+      "type": "dialogue",
+      "text": "測試事件 288",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 293
+    },
+    {
+      "id": "13828dbb-6305-4d0e-87b1-af084f31eb4b",
+      "type": "dialogue",
+      "text": "測試事件 289",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 294
+    },
+    {
+      "id": "df0d9df2-52b6-41e4-bb49-7bc0009f1455",
+      "type": "dialogue",
+      "text": "測試事件 290",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 295
+    },
+    {
+      "id": "695c773a-8a17-424d-9b8e-032af0e6ef23",
+      "type": "character",
+      "text": "測試事件 291",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 296,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "52656f31-6688-4735-878e-f0fe9721be70",
+      "type": "dialogue",
+      "text": "測試事件 292",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 297
+    },
+    {
+      "id": "c0fbec6f-ca17-4e1e-83fd-e01cba1b12cf",
+      "type": "dialogue",
+      "text": "測試事件 293",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 298
+    },
+    {
+      "id": "cafe5396-3a6f-4891-a928-5f30c148d544",
+      "type": "dialogue",
+      "text": "測試事件 294",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 299
+    },
+    {
+      "id": "f1b791a1-c66b-4bf3-9ff3-150cf63066f2",
+      "type": "dialogue",
+      "text": "測試事件 295",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 300
+    },
+    {
+      "id": "e904f4aa-7bfa-46f5-b510-7a268d0420df",
+      "type": "dialogue",
+      "text": "測試事件 296",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 301
+    },
+    {
+      "id": "97e57b30-6578-4ad6-9042-1bc2b483ea00",
+      "type": "dialogue",
+      "text": "測試事件 297",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 302
+    },
+    {
+      "id": "20b7ed13-9766-47ee-8a0f-2ca3eebf3fe6",
+      "type": "character",
+      "text": "測試事件 298",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 303,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "3b83904e-5dc1-432e-bcf7-b2e67ec38ab0",
+      "type": "dialogue",
+      "text": "測試事件 299",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 304
+    },
+    {
+      "id": "18030b7b-ae94-4dff-9711-db17782f8995",
+      "type": "dialogue",
+      "text": "測試事件 300",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 305
+    },
+    {
+      "id": "ca40f7fc-67c8-4c7d-bd20-4e46407f9e35",
+      "type": "dialogue",
+      "text": "測試事件 301",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 306
+    },
+    {
+      "id": "cd60e41e-50c1-4890-9b4a-8c3b98cf76c9",
+      "type": "dialogue",
+      "text": "測試事件 302",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 307
+    },
+    {
+      "id": "039e349b-4194-4e2a-ba7b-810ee4e40336",
+      "type": "choice",
+      "text": "測試事件 303",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 304,
+          "scriptTarget": "彩排支持"
+        },
+        {
+          "text": "選項 2",
+          "target": 309,
+          "scriptTarget": "彩排重練"
+        }
+      ],
+      "scriptLine": 308
+    },
+    {
+      "id": "3d775a1c-0ac0-44ca-af07-c604ae3b99b7",
+      "type": "section",
+      "text": "彩排支持",
+      "scriptLabel": "彩排支持",
+      "scriptLine": 309
+    },
+    {
+      "id": "73ec2a41-0d90-478f-8a0d-5e3206d4584b",
+      "type": "variable",
+      "text": "測試事件 305",
+      "variable": "雅婷好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 310
+    },
+    {
+      "id": "435ddadd-2f92-404d-b7e0-ad1b2cfc33ff",
+      "type": "dialogue",
+      "text": "測試事件 306",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 311
+    },
+    {
+      "id": "62f76973-4cdf-450c-9c2d-faa34bb6a252",
+      "type": "dialogue",
+      "text": "測試事件 307",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 312
+    },
+    {
+      "id": "fdc24c44-4e7e-4165-8a3d-d230910df48b",
+      "type": "jump",
+      "text": "測試事件 308",
+      "target": 314,
+      "scriptTarget": "彩排合流",
+      "scriptLine": 313
+    },
+    {
+      "id": "a3f067c9-9be1-49d7-bcc5-a6a757e439bf",
+      "type": "section",
+      "text": "彩排重練",
+      "scriptLabel": "彩排重練",
+      "scriptLine": 314
+    },
+    {
+      "id": "10bc34dd-95a4-4ae6-883a-0d58183a942c",
+      "type": "variable",
+      "text": "測試事件 310",
+      "variable": "雅婷好感",
+      "operation": "add",
+      "value": 1,
+      "scriptLine": 315
+    },
+    {
+      "id": "9f566ff1-af19-4329-bbb9-32bae69f9064",
+      "type": "dialogue",
+      "text": "測試事件 311",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 316
+    },
+    {
+      "id": "0a7d7e78-ca77-42c1-9921-4fe093f9f907",
+      "type": "dialogue",
+      "text": "測試事件 312",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 317
+    },
+    {
+      "id": "bac80339-5938-4202-8248-f7337e880a33",
+      "type": "jump",
+      "text": "測試事件 313",
+      "target": 314,
+      "scriptTarget": "彩排合流",
+      "scriptLine": 318
+    },
+    {
+      "id": "40e85aff-5f94-493b-8270-105248adf993",
+      "type": "section",
+      "text": "彩排合流",
+      "scriptLabel": "彩排合流",
+      "scriptLine": 319
+    },
+    {
+      "id": "3b8f4f2d-9689-45f2-9d10-904a4c1ecf8a",
+      "type": "character",
+      "text": "測試事件 315",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 320,
+      "image": ""
+    },
+    {
+      "id": "c97cef93-8d83-4cf4-8aa3-9665588195ff",
+      "type": "wait",
+      "text": "測試事件 316",
+      "duration": 0.5,
+      "scriptLine": 321
+    },
+    {
+      "id": "97e31586-0ab5-4001-861d-f8641e6dc3a9",
+      "type": "jump",
+      "text": "測試事件 317",
+      "target": 318,
+      "scriptTarget": "校門雨後",
+      "scriptLine": 322
+    },
+    {
+      "id": "a6de1ac8-6077-4f41-a954-6336ddc9c8d0",
+      "type": "section",
+      "text": "校門雨後",
+      "scriptLabel": "校門雨後",
+      "scriptLine": 323
+    },
+    {
+      "id": "8ca3385d-0208-468e-9a1e-48332e771ece",
+      "type": "intro",
+      "text": "測試事件 319",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 324
+    },
+    {
+      "id": "0a91c82e-9a59-4669-84f8-496040e2ddc8",
+      "type": "fade",
+      "text": "測試事件 320",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 325
+    },
+    {
+      "id": "f2f3fcce-a4d1-4bff-b0d5-73246317ca78",
+      "type": "background",
+      "text": "測試事件 321",
+      "clearActors": false,
+      "scriptLine": 326,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_front_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "82372e7f-27ba-41b9-a70d-d3a7d09ccb5e"
+    },
+    {
+      "id": "de68f556-33f1-4075-aa68-47dce6384c0b",
+      "type": "fade",
+      "text": "測試事件 322",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 327
+    },
+    {
+      "id": "4066cd66-f86e-455d-9750-9b9df160d232",
+      "type": "character",
+      "text": "測試事件 323",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 328,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_nervous.png",
+          "type": "image"
+        }
+      ],
+      "image": "1069eadf-0ca4-4f47-a80f-83f8ada7f7c6"
+    },
+    {
+      "id": "996d51a0-16fe-4a0e-b709-9dbea3231a27",
+      "type": "animation",
+      "text": "測試事件 324",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 329
+    },
+    {
+      "id": "9f2e25aa-1f54-4068-b765-c79f8738ea9f",
+      "type": "dialogue",
+      "text": "測試事件 325",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 330
+    },
+    {
+      "id": "c6676f3d-7c1d-4cb1-b5d5-b707ebf9702e",
+      "type": "dialogue",
+      "text": "測試事件 326",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 331
+    },
+    {
+      "id": "219b88ea-ad0b-4065-9d45-238267ac5c46",
+      "type": "dialogue",
+      "text": "測試事件 327",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 332
+    },
+    {
+      "id": "3fc58585-7ecd-4199-badb-70495bd3fa08",
+      "type": "dialogue",
+      "text": "測試事件 328",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 333
+    },
+    {
+      "id": "ee628d9d-aa53-45ae-97a2-f1aa40c0f3d3",
+      "type": "dialogue",
+      "text": "測試事件 329",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 334
+    },
+    {
+      "id": "99dd4971-471e-4a93-b07c-2f9cadc2e87c",
+      "type": "dialogue",
+      "text": "測試事件 330",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 335
+    },
+    {
+      "id": "804d1c82-1241-4a33-b539-d7f2c972aa53",
+      "type": "dialogue",
+      "text": "測試事件 331",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 336
+    },
+    {
+      "id": "f0fb4c65-8cbc-475e-8cef-c9f8934b5d6a",
+      "type": "character",
+      "text": "測試事件 332",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 337,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_dissatisfied.png",
+          "type": "image"
+        }
+      ],
+      "image": "27e00ded-f825-4d09-bd85-b9cc49e3efe5"
+    },
+    {
+      "id": "31501888-4332-44d3-a8ae-ebe124ceed19",
+      "type": "dialogue",
+      "text": "測試事件 333",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 338
+    },
+    {
+      "id": "f6ccce05-07b5-44de-8fb6-a4936e151d84",
+      "type": "dialogue",
+      "text": "測試事件 334",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 339
+    },
+    {
+      "id": "98cb8a7d-1dff-4267-b13f-11b4607d3b76",
+      "type": "dialogue",
+      "text": "測試事件 335",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 340
+    },
+    {
+      "id": "d09cd9e0-5933-4b3a-994c-2001f84f1d27",
+      "type": "dialogue",
+      "text": "測試事件 336",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 341
+    },
+    {
+      "id": "c28c5083-334d-45b2-a69a-0cc26a02ddd9",
+      "type": "dialogue",
+      "text": "測試事件 337",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 342
+    },
+    {
+      "id": "99dcefcd-8b5f-435c-a7e4-e985b460d413",
+      "type": "dialogue",
+      "text": "測試事件 338",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 343
+    },
+    {
+      "id": "75214763-ebe7-40b6-8d08-7dc55d96a820",
+      "type": "character",
+      "text": "測試事件 339",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 344,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "ac302415-ee27-408c-8b57-0bfc65e2ea1a",
+      "type": "dialogue",
+      "text": "測試事件 340",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 345
+    },
+    {
+      "id": "fa4db3a3-eaf6-4860-9afd-26a525140c3b",
+      "type": "dialogue",
+      "text": "測試事件 341",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 346
+    },
+    {
+      "id": "19b71a9a-ef9e-4301-8f5e-d1ebbe4d9baa",
+      "type": "dialogue",
+      "text": "測試事件 342",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 347
+    },
+    {
+      "id": "433de20f-dca8-45ff-a0ba-d8112fbe93b9",
+      "type": "dialogue",
+      "text": "測試事件 343",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 348
+    },
+    {
+      "id": "0bf84b08-4415-41e9-83f9-93bc1e7e464c",
+      "type": "choice",
+      "text": "測試事件 344",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 345,
+          "scriptTarget": "雨後慢行"
+        },
+        {
+          "text": "選項 2",
+          "target": 350,
+          "scriptTarget": "雨後逗趣"
+        }
+      ],
+      "scriptLine": 349
+    },
+    {
+      "id": "671c89eb-371f-48e9-ac72-41055364cd9f",
+      "type": "section",
+      "text": "雨後慢行",
+      "scriptLabel": "雨後慢行",
+      "scriptLine": 350
+    },
+    {
+      "id": "8e54d9e1-2615-4bfc-8ab2-5014b253cb32",
+      "type": "variable",
+      "text": "測試事件 346",
+      "variable": "小瑾好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 351
+    },
+    {
+      "id": "52bc4106-a2a0-46d6-b33a-ce11181d3599",
+      "type": "dialogue",
+      "text": "測試事件 347",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 352
+    },
+    {
+      "id": "0d070792-6798-45af-9f34-98827917575a",
+      "type": "dialogue",
+      "text": "測試事件 348",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 353
+    },
+    {
+      "id": "0d9bc1d3-369b-4feb-aa3c-b4d4a7bfb987",
+      "type": "jump",
+      "text": "測試事件 349",
+      "target": 355,
+      "scriptTarget": "雨後合流",
+      "scriptLine": 354
+    },
+    {
+      "id": "0fcb63f7-6a9f-4890-b68b-759709dfdbde",
+      "type": "section",
+      "text": "雨後逗趣",
+      "scriptLabel": "雨後逗趣",
+      "scriptLine": 355
+    },
+    {
+      "id": "18653a63-3285-48f4-b492-90193ee1b5ff",
+      "type": "variable",
+      "text": "測試事件 351",
+      "variable": "小瑾好感",
+      "operation": "add",
+      "value": 1,
+      "scriptLine": 356
+    },
+    {
+      "id": "b7d168cc-8248-4e3b-9692-351c2ac32f55",
+      "type": "dialogue",
+      "text": "測試事件 352",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 357
+    },
+    {
+      "id": "3a4206fa-3cc2-4eda-b845-b9d33f6c0ae0",
+      "type": "dialogue",
+      "text": "測試事件 353",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 358
+    },
+    {
+      "id": "68d867dd-3045-4e8e-99cc-dbaba53287e2",
+      "type": "jump",
+      "text": "測試事件 354",
+      "target": 355,
+      "scriptTarget": "雨後合流",
+      "scriptLine": 359
+    },
+    {
+      "id": "cca57abe-2323-458d-9234-184293172fb4",
+      "type": "section",
+      "text": "雨後合流",
+      "scriptLabel": "雨後合流",
+      "scriptLine": 360
+    },
+    {
+      "id": "a4c6f21d-4704-4659-87f6-36de47ddeaa1",
+      "type": "character",
+      "text": "測試事件 356",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 361,
+      "image": ""
+    },
+    {
+      "id": "fee682df-5439-4c04-929b-abb6d2ce9084",
+      "type": "wait",
+      "text": "測試事件 357",
+      "duration": 0.5,
+      "scriptLine": 362
+    },
+    {
+      "id": "f112922c-b79a-4c3e-99e4-0abcb25aa690",
+      "type": "jump",
+      "text": "測試事件 358",
+      "target": 359,
+      "scriptTarget": "屋頂黃昏",
+      "scriptLine": 363
+    },
+    {
+      "id": "26c78083-312d-4f76-9aaa-6d245d0b7f67",
+      "type": "section",
+      "text": "屋頂黃昏",
+      "scriptLabel": "屋頂黃昏",
+      "scriptLine": 364
+    },
+    {
+      "id": "b9b380d4-71c0-4fe9-a39f-25938475e2b4",
+      "type": "intro",
+      "text": "測試事件 360",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 365
+    },
+    {
+      "id": "123d8b3a-0785-429f-8b5c-a14408368935",
+      "type": "fade",
+      "text": "測試事件 361",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 366
+    },
+    {
+      "id": "810598bb-fc1b-47e5-90f6-5b065498fb5b",
+      "type": "background",
+      "text": "測試事件 362",
+      "clearActors": false,
+      "scriptLine": 367,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_roof_evening2.png",
+          "type": "image"
+        }
+      ],
+      "scene": "dec58777-25a0-43df-9ca2-55a9da13aac1"
+    },
+    {
+      "id": "6956c6ce-a34f-4011-81ce-1d2be36510bb",
+      "type": "fade",
+      "text": "測試事件 363",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 368
+    },
+    {
+      "id": "8e5d9098-40b1-43d5-92f2-0fbf1e35a0b5",
+      "type": "character",
+      "text": "測試事件 364",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 369,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "0d5143f3-5f38-47af-8f65-ea96729486ab",
+      "type": "animation",
+      "text": "測試事件 365",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 370
+    },
+    {
+      "id": "c7700dcf-3e7d-4a72-8acb-8d6842816a7e",
+      "type": "dialogue",
+      "text": "測試事件 366",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 371
+    },
+    {
+      "id": "28d2edcc-6e79-4ab0-b835-78efe7373810",
+      "type": "dialogue",
+      "text": "測試事件 367",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 372
+    },
+    {
+      "id": "bd8121dc-dfff-4004-9b06-39c0f9b2398f",
+      "type": "dialogue",
+      "text": "測試事件 368",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 373
+    },
+    {
+      "id": "e4101b95-a2df-46ae-b4e4-fbb8fceb3e4c",
+      "type": "dialogue",
+      "text": "測試事件 369",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 374
+    },
+    {
+      "id": "66faaabe-dd15-4699-96fe-63c0bf958603",
+      "type": "dialogue",
+      "text": "測試事件 370",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 375
+    },
+    {
+      "id": "b9a252f0-8686-41bb-ad64-a95909ea560e",
+      "type": "dialogue",
+      "text": "測試事件 371",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 376
+    },
+    {
+      "id": "6a6805b9-fb89-4798-b76d-93b83d0d8858",
+      "type": "dialogue",
+      "text": "測試事件 372",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 377
+    },
+    {
+      "id": "477a4c2a-adbc-4e47-adfe-89cb4fdfaee6",
+      "type": "character",
+      "text": "測試事件 373",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 378,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "709fb30b-5976-408b-a0a0-5d8f542063cd",
+      "type": "dialogue",
+      "text": "測試事件 374",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 379
+    },
+    {
+      "id": "0cbd86c0-f091-44ee-ab86-5093dbb9958c",
+      "type": "dialogue",
+      "text": "測試事件 375",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 380
+    },
+    {
+      "id": "08486893-1711-400d-9856-f485902435d1",
+      "type": "dialogue",
+      "text": "測試事件 376",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 381
+    },
+    {
+      "id": "50a85566-a743-4bac-977f-53f8edff330b",
+      "type": "dialogue",
+      "text": "測試事件 377",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 382
+    },
+    {
+      "id": "764aeda5-3448-4f44-a1c7-10619e597772",
+      "type": "dialogue",
+      "text": "測試事件 378",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 383
+    },
+    {
+      "id": "f4d1db3c-c279-4799-bbac-b41ceb85cd9b",
+      "type": "dialogue",
+      "text": "測試事件 379",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 384
+    },
+    {
+      "id": "ee80c4bd-b902-4666-8c58-61bd7818336a",
+      "type": "character",
+      "text": "測試事件 380",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 385,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "59c38b58-aa1f-42cd-8bfb-7f464a2a0b9b",
+      "type": "dialogue",
+      "text": "測試事件 381",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 386
+    },
+    {
+      "id": "4aa4e212-09f0-4dbc-a129-4ce007fb0b3f",
+      "type": "dialogue",
+      "text": "測試事件 382",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 387
+    },
+    {
+      "id": "9a1b904c-9278-40d3-978a-f14385713cdf",
+      "type": "dialogue",
+      "text": "測試事件 383",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 388
+    },
+    {
+      "id": "1a0cc078-2c73-44d2-ae31-fb9d63bb26fb",
+      "type": "dialogue",
+      "text": "測試事件 384",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 389
+    },
+    {
+      "id": "bb83d038-a879-4fae-b565-8e2ee4c8893c",
+      "type": "dialogue",
+      "text": "測試事件 385",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 390
+    },
+    {
+      "id": "db111cbb-fbc6-4b0d-8667-6b120c722e71",
+      "type": "dialogue",
+      "text": "測試事件 386",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 391
+    },
+    {
+      "id": "f6b6dbc3-3c3e-47f9-956d-b7937b657c4e",
+      "type": "choice",
+      "text": "測試事件 387",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 388,
+          "scriptTarget": "屋頂坦白"
+        },
+        {
+          "text": "選項 2",
+          "target": 393,
+          "scriptTarget": "屋頂陪伴"
+        }
+      ],
+      "scriptLine": 392
+    },
+    {
+      "id": "ba27cb9e-a303-47f8-8c84-80c4dc595766",
+      "type": "section",
+      "text": "屋頂坦白",
+      "scriptLabel": "屋頂坦白",
+      "scriptLine": 393
+    },
+    {
+      "id": "f232a6da-66bc-46b9-89d8-4a1d670e7f4c",
+      "type": "variable",
+      "text": "測試事件 389",
+      "variable": "依君好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 394
+    },
+    {
+      "id": "73037089-41d3-4300-8d8f-c4e140b72ae0",
+      "type": "dialogue",
+      "text": "測試事件 390",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 395
+    },
+    {
+      "id": "43c41c92-3680-43aa-956d-7dabaa009674",
+      "type": "dialogue",
+      "text": "測試事件 391",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 396
+    },
+    {
+      "id": "497e93bb-a412-4ed1-bafb-3480f4e20cc7",
+      "type": "jump",
+      "text": "測試事件 392",
+      "target": 397,
+      "scriptTarget": "屋頂合流",
+      "scriptLine": 397
+    },
+    {
+      "id": "a44aeedc-0d11-4f98-a25e-5f208213f906",
+      "type": "section",
+      "text": "屋頂陪伴",
+      "scriptLabel": "屋頂陪伴",
+      "scriptLine": 398
+    },
+    {
+      "id": "b7179ebf-b30a-4e0c-9fbb-f596ec5b01a7",
+      "type": "variable",
+      "text": "測試事件 394",
+      "variable": "依君好感",
+      "operation": "add",
+      "value": 1,
+      "scriptLine": 399
+    },
+    {
+      "id": "e15f93bf-ac56-4abd-95e9-c04c2347c9b0",
+      "type": "dialogue",
+      "text": "測試事件 395",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 400
+    },
+    {
+      "id": "bd1947eb-29d9-4efa-97ae-f802f8179ae6",
+      "type": "jump",
+      "text": "測試事件 396",
+      "target": 397,
+      "scriptTarget": "屋頂合流",
+      "scriptLine": 401
+    },
+    {
+      "id": "4118aea5-498d-4743-b6a5-9bc081845549",
+      "type": "section",
+      "text": "屋頂合流",
+      "scriptLabel": "屋頂合流",
+      "scriptLine": 402
+    },
+    {
+      "id": "a13c1f00-87b3-4e33-b475-a2a17bf1eca6",
+      "type": "character",
+      "text": "測試事件 398",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 403,
+      "image": ""
+    },
+    {
+      "id": "8718a725-dcae-44c0-8973-5035f2cf773d",
+      "type": "wait",
+      "text": "測試事件 399",
+      "duration": 0.5,
+      "scriptLine": 404
+    },
+    {
+      "id": "30d8c826-a875-41c8-9ffb-1d30f68d1b1b",
+      "type": "jump",
+      "text": "測試事件 400",
+      "target": 401,
+      "scriptTarget": "學園祭夜晚",
+      "scriptLine": 405
+    },
+    {
+      "id": "a2788644-c556-4fc1-b2ce-b7218cd4681d",
+      "type": "section",
+      "text": "學園祭夜晚",
+      "scriptLabel": "學園祭夜晚",
+      "scriptLine": 406
+    },
+    {
+      "id": "4d1a071c-bad3-4a0d-8872-108e02b04038",
+      "type": "intro",
+      "text": "測試事件 402",
+      "duration": 1.2,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#171b29",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1200,
+      "scriptLine": 407
+    },
+    {
+      "id": "0b49f991-b778-4322-9229-551e9ef7562e",
+      "type": "fade",
+      "text": "測試事件 403",
+      "direction": "out",
+      "duration": 0.5,
+      "wait": false,
+      "scriptLine": 408
+    },
+    {
+      "id": "dc20e014-7c94-4a29-a95d-1e810c171c10",
+      "type": "background",
+      "text": "測試事件 404",
+      "clearActors": false,
+      "scriptLine": 409,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_club4_night1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "ce721dfe-9a89-40b3-921d-907cc55550cd"
+    },
+    {
+      "id": "9582f536-e21b-4c52-9b51-7c4327abb790",
+      "type": "fade",
+      "text": "測試事件 405",
+      "direction": "in",
+      "duration": 0.7,
+      "wait": false,
+      "scriptLine": 410
+    },
+    {
+      "id": "f1e85f58-090c-4fab-b27d-63908dece23a",
+      "type": "character",
+      "text": "測試事件 406",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 411,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "01b4ff1d-cbf2-4b54-b42c-d6b3f71f0d6e",
+      "type": "animation",
+      "text": "測試事件 407",
+      "animationName": "fadeIn",
+      "target": null,
+      "motion": "fade",
+      "motionDuration": 400,
+      "scriptLine": 412
+    },
+    {
+      "id": "b4be5807-f8ba-48ae-b88f-0b331a1712e2",
+      "type": "dialogue",
+      "text": "測試事件 408",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 413
+    },
+    {
+      "id": "20b0641f-3e88-4e90-a54b-8ceefc094a12",
+      "type": "dialogue",
+      "text": "測試事件 409",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 414
+    },
+    {
+      "id": "c699b30f-f171-4e09-bf32-2a1e92b0aba0",
+      "type": "dialogue",
+      "text": "測試事件 410",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 415
+    },
+    {
+      "id": "d62fa1a2-2b60-41c4-a0f7-84d814dab79c",
+      "type": "dialogue",
+      "text": "測試事件 411",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 416
+    },
+    {
+      "id": "46142ac5-8980-424a-a3d7-b57dc2c4a8ea",
+      "type": "dialogue",
+      "text": "測試事件 412",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 417
+    },
+    {
+      "id": "49caaa4a-4b69-4deb-b57f-ce3d34a22c6d",
+      "type": "dialogue",
+      "text": "測試事件 413",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 418
+    },
+    {
+      "id": "14563f34-216a-420c-82fe-e9d082f42b83",
+      "type": "dialogue",
+      "text": "測試事件 414",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 419
+    },
+    {
+      "id": "e46424e8-181a-46e5-8b2a-010fd9da13e9",
+      "type": "character",
+      "text": "測試事件 415",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 420,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing2.png",
+          "type": "image"
+        }
+      ],
+      "image": "f4209670-142e-4d5d-87d5-787642874f2d"
+    },
+    {
+      "id": "beb562c5-3d14-4877-8fce-7e0f490c38ed",
+      "type": "dialogue",
+      "text": "測試事件 416",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 421
+    },
+    {
+      "id": "a50de12a-5bd7-49f9-bed1-bdba5ebf0a7e",
+      "type": "dialogue",
+      "text": "測試事件 417",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 422
+    },
+    {
+      "id": "51a98021-a1d6-41d4-88ec-43608e123a25",
+      "type": "dialogue",
+      "text": "測試事件 418",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 423
+    },
+    {
+      "id": "04c0fe54-8350-4ac3-b4b3-ace83451e1c9",
+      "type": "dialogue",
+      "text": "測試事件 419",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 424
+    },
+    {
+      "id": "d2df04e5-dd52-4ef3-8d3c-176f91336fd2",
+      "type": "dialogue",
+      "text": "測試事件 420",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 425
+    },
+    {
+      "id": "7af9b432-8a4c-4f1c-acf8-b659f9d0841f",
+      "type": "dialogue",
+      "text": "測試事件 421",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 426
+    },
+    {
+      "id": "c5b8e4bd-31d0-4cc8-8a4f-b69dc94e1e60",
+      "type": "character",
+      "text": "測試事件 422",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 400,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 427,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "247a9e61-cf32-41c2-aea9-f2d5c2ce6f0d",
+      "type": "dialogue",
+      "text": "測試事件 423",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 428
+    },
+    {
+      "id": "58c68034-b90e-48fb-bf28-89107fc90e75",
+      "type": "dialogue",
+      "text": "測試事件 424",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 429
+    },
+    {
+      "id": "59438e10-7c96-48dd-b0a6-bcfb639b6fb9",
+      "type": "dialogue",
+      "text": "測試事件 425",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 430
+    },
+    {
+      "id": "5369ae0b-e385-43ff-a22c-54592a117cde",
+      "type": "dialogue",
+      "text": "測試事件 426",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 431
+    },
+    {
+      "id": "def72cf5-2905-45ad-9f6f-7444bcbe9046",
+      "type": "dialogue",
+      "text": "測試事件 427",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 432
+    },
+    {
+      "id": "567700c0-fae0-413f-95db-31d85166c112",
+      "type": "choice",
+      "text": "測試事件 428",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 429,
+          "scriptTarget": "謝幕留下"
+        },
+        {
+          "text": "選項 2",
+          "target": 434,
+          "scriptTarget": "謝幕離開"
+        }
+      ],
+      "scriptLine": 433
+    },
+    {
+      "id": "8cc07fe7-6b04-4d96-b9a1-5423c3d6c74a",
+      "type": "section",
+      "text": "謝幕留下",
+      "scriptLabel": "謝幕留下",
+      "scriptLine": 434
+    },
+    {
+      "id": "b8e86099-9f98-4804-b589-9edb7cfc8934",
+      "type": "variable",
+      "text": "測試事件 430",
+      "variable": "雅婷好感",
+      "operation": "add",
+      "value": 2,
+      "scriptLine": 435
+    },
+    {
+      "id": "9b72ff96-e01e-410c-9a9d-9cdd1cfc38dd",
+      "type": "dialogue",
+      "text": "測試事件 431",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 436
+    },
+    {
+      "id": "0839dceb-9614-43c0-a6ef-50382d5d70da",
+      "type": "dialogue",
+      "text": "測試事件 432",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 437
+    },
+    {
+      "id": "ccad2a09-fb1d-4b03-8aba-94ae7bdc58c4",
+      "type": "jump",
+      "text": "測試事件 433",
+      "target": 438,
+      "scriptTarget": "謝幕合流",
+      "scriptLine": 438
+    },
+    {
+      "id": "8e2b60a0-fd12-4f8e-a839-7dd842dd879d",
+      "type": "section",
+      "text": "謝幕離開",
+      "scriptLabel": "謝幕離開",
+      "scriptLine": 439
+    },
+    {
+      "id": "02520e3a-9bdd-4700-ad37-381356ec9a94",
+      "type": "dialogue",
+      "text": "測試事件 435",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 440
+    },
+    {
+      "id": "0fc357fd-9123-4d9a-a6d2-d7efd347114e",
+      "type": "dialogue",
+      "text": "測試事件 436",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 441
+    },
+    {
+      "id": "7a32fd61-bf36-4b8d-ad1b-e38bd1ae3945",
+      "type": "jump",
+      "text": "測試事件 437",
+      "target": 438,
+      "scriptTarget": "謝幕合流",
+      "scriptLine": 442
+    },
+    {
+      "id": "02d101b5-c6dd-45ff-b1a2-e8dc64382e0e",
+      "type": "section",
+      "text": "謝幕合流",
+      "scriptLabel": "謝幕合流",
+      "scriptLine": 443
+    },
+    {
+      "id": "eb002b00-9422-4677-89a7-1b80cf49ed18",
+      "type": "character",
+      "text": "測試事件 439",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "hide",
+      "scriptLine": 444,
+      "image": ""
+    },
+    {
+      "id": "74b9d099-481f-407c-9ad8-8293259ed33b",
+      "type": "intro",
+      "text": "測試事件 440",
+      "duration": 1.4,
+      "wait": false,
+      "introFont": 36,
+      "backgroundColor": "#000000",
+      "fontColor": "#ffffff",
+      "motion": "fade",
+      "motionDuration": 1400,
+      "scriptLine": 445
+    },
+    {
+      "id": "d341f312-4ad2-4d7d-8a2c-849a9c096ff9",
+      "type": "background",
+      "text": "測試事件 441",
+      "clearActors": false,
+      "scriptLine": 446,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_front_evening2.png",
+          "type": "image"
+        }
+      ],
+      "scene": "698a068b-7a36-4744-b83b-1a724bb0a14f"
+    },
+    {
+      "id": "c280a733-6675-43a5-b059-57425ff530f9",
+      "type": "dialogue",
+      "text": "測試事件 442",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 447
+    },
+    {
+      "id": "7168722c-5601-4485-9734-eb182f7071d5",
+      "type": "dialogue",
+      "text": "測試事件 443",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 448
+    },
+    {
+      "id": "4fb42fe0-0277-4742-9566-16ad40d233be",
+      "type": "choice",
+      "text": "測試事件 444",
+      "options": [
+        {
+          "text": "選項 1",
+          "target": 445,
+          "scriptTarget": "選擇小瑾"
+        },
+        {
+          "text": "選項 2",
+          "target": 447,
+          "scriptTarget": "選擇雅婷"
+        },
+        {
+          "text": "選項 3",
+          "target": 449,
+          "scriptTarget": "選擇依君"
+        },
+        {
+          "text": "選項 4",
+          "target": 451,
+          "scriptTarget": "選擇單身"
+        }
+      ],
+      "scriptLine": 449
+    },
+    {
+      "id": "3aff6141-678c-4cd3-adf6-bb83ad13b104",
+      "type": "section",
+      "text": "選擇小瑾",
+      "scriptLabel": "選擇小瑾",
+      "scriptLine": 450
+    },
+    {
+      "id": "ec9150c8-36a1-4c55-8aba-ff4ea4e864ec",
+      "type": "condition",
+      "text": "測試事件 446",
+      "variable": "小瑾好感",
+      "operator": ">=",
+      "value": 6,
+      "target": 457,
+      "elseTarget": 467,
+      "scriptLine": 451
+    },
+    {
+      "id": "96bcb645-09c4-40af-ac01-706854a42e66",
+      "type": "section",
+      "text": "選擇雅婷",
+      "scriptLabel": "選擇雅婷",
+      "scriptLine": 452
+    },
+    {
+      "id": "cdac6b5e-4708-4295-b4e5-199b48978cf4",
+      "type": "condition",
+      "text": "測試事件 448",
+      "variable": "雅婷好感",
+      "operator": ">=",
+      "value": 5,
+      "target": 476,
+      "elseTarget": 486,
+      "scriptLine": 453
+    },
+    {
+      "id": "0bb1dfde-4c54-4ded-bcf6-158866ea7299",
+      "type": "section",
+      "text": "選擇依君",
+      "scriptLabel": "選擇依君",
+      "scriptLine": 454
+    },
+    {
+      "id": "4c877f15-b803-4660-a6e4-e94a15c92864",
+      "type": "condition",
+      "text": "測試事件 450",
+      "variable": "依君好感",
+      "operator": ">=",
+      "value": 5,
+      "target": 494,
+      "elseTarget": 504,
+      "scriptLine": 455
+    },
+    {
+      "id": "c87894e4-160c-4756-82e4-5ffccc67bd63",
+      "type": "section",
+      "text": "選擇單身",
+      "scriptLabel": "選擇單身",
+      "scriptLine": 456
+    },
+    {
+      "id": "d8b0884d-0a42-4851-b348-2a55fc741a39",
+      "type": "background",
+      "text": "測試事件 452",
+      "clearActors": false,
+      "scriptLine": 457,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_roof_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "206952e1-7080-4faa-bfac-45a4eb020976"
+    },
+    {
+      "id": "4f096837-1f18-4f6c-91d6-4fee5ddc90f6",
+      "type": "dialogue",
+      "text": "測試事件 453",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 458
+    },
+    {
+      "id": "7dd1e9e4-923f-4f0a-b31e-2fbdbfb3575c",
+      "type": "dialogue",
+      "text": "測試事件 454",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 459
+    },
+    {
+      "id": "3f5a524f-89bd-41c6-8c49-ac4640840042",
+      "type": "fade",
+      "text": "測試事件 455",
+      "direction": "out",
+      "duration": 1.2,
+      "wait": false,
+      "scriptLine": 460
+    },
+    {
+      "id": "8fa8a2d9-c8a1-439a-a97e-8363408f7a98",
+      "type": "end",
+      "text": "測試事件 456",
+      "scriptLine": 461
+    },
+    {
+      "id": "9c15180c-3f73-4b6b-9b6b-c260a1ce8257",
+      "type": "section",
+      "text": "小瑾好結局",
+      "scriptLabel": "小瑾好結局",
+      "scriptLine": 462
+    },
+    {
+      "id": "a0148781-755b-456b-a86d-60f6fff6d1ab",
+      "type": "background",
+      "text": "測試事件 458",
+      "clearActors": false,
+      "scriptLine": 463,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_front_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "82372e7f-27ba-41b9-a70d-d3a7d09ccb5e"
+    },
+    {
+      "id": "35ae5902-56e8-4ee5-bf27-55bbbf69a7ed",
+      "type": "character",
+      "text": "測試事件 459",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "motionDuration": 800,
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 464,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_embarrassed.png",
+          "type": "image"
+        }
+      ],
+      "image": "51e1ad46-a273-42a1-8ef9-c46eaf113d40"
+    },
+    {
+      "id": "fb1c856e-da03-48ff-ad5e-25f0aea7d031",
+      "type": "dialogue",
+      "text": "測試事件 460",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 465
+    },
+    {
+      "id": "a0a7db83-4c42-407f-aa9c-6830863c084f",
+      "type": "dialogue",
+      "text": "測試事件 461",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 466
+    },
+    {
+      "id": "e6912536-76b3-49e0-835b-53ac2c3dc1f6",
+      "type": "character",
+      "text": "測試事件 462",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 467,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "b27702f3-bfea-4785-8aec-13ac8dd50a63",
+      "type": "dialogue",
+      "text": "測試事件 463",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 468
+    },
+    {
+      "id": "962ebf43-2ddd-4207-9ba3-4ef270d886ae",
+      "type": "dialogue",
+      "text": "測試事件 464",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 469
+    },
+    {
+      "id": "2a2782df-93f2-481d-8de8-e7246c3c39fd",
+      "type": "fade",
+      "text": "測試事件 465",
+      "direction": "out",
+      "duration": 1.2,
+      "wait": false,
+      "scriptLine": 470
+    },
+    {
+      "id": "534febf4-417d-4a09-a51a-b25ddacf403b",
+      "type": "end",
+      "text": "測試事件 466",
+      "scriptLine": 471
+    },
+    {
+      "id": "eb4902bb-0aa5-43dc-a245-fe2d883e0744",
+      "type": "section",
+      "text": "小瑾普通結局",
+      "scriptLabel": "小瑾普通結局",
+      "scriptLine": 472
+    },
+    {
+      "id": "f429240a-e835-4b47-8c2e-521b440d2cca",
+      "type": "background",
+      "text": "測試事件 468",
+      "clearActors": false,
+      "scriptLine": 473,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_classroom1_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "1327c111-f6f4-4f1e-8090-81a91b518d31"
+    },
+    {
+      "id": "7ad64ece-2064-4e45-9d71-9975c8397907",
+      "type": "character",
+      "text": "測試事件 469",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 474,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_awkward.png",
+          "type": "image"
+        }
+      ],
+      "image": "edcfc6b4-08cd-4825-8a6c-1796052fe451"
+    },
+    {
+      "id": "8f8e0a4c-5378-4fcc-92cf-b0d2eca6698d",
+      "type": "dialogue",
+      "text": "測試事件 470",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 475
+    },
+    {
+      "id": "3544f6e3-c882-4a24-afbc-f14f1c47d7c5",
+      "type": "dialogue",
+      "text": "測試事件 471",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 476
+    },
+    {
+      "id": "d1e0d9d1-bcdf-46d9-9886-5eea16320204",
+      "type": "character",
+      "text": "測試事件 472",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 477,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_xiaojin2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "fab45998-71a3-4a7e-b6d7-19a1708e2b9d"
+    },
+    {
+      "id": "370ac698-529f-453e-856b-05091b728060",
+      "type": "dialogue",
+      "text": "測試事件 473",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 478
+    },
+    {
+      "id": "90147b77-c49e-41e4-abeb-40269ddbf2fc",
+      "type": "fade",
+      "text": "測試事件 474",
+      "direction": "out",
+      "duration": 1.2,
+      "wait": false,
+      "scriptLine": 479
+    },
+    {
+      "id": "bff1dd97-c92a-476a-b881-031d433ae374",
+      "type": "end",
+      "text": "測試事件 475",
+      "scriptLine": 480
+    },
+    {
+      "id": "3e9cf096-e557-4be7-9d43-9b373c8954d3",
+      "type": "section",
+      "text": "雅婷好結局",
+      "scriptLabel": "雅婷好結局",
+      "scriptLine": 481
+    },
+    {
+      "id": "41189a26-5721-4923-b561-044f4372c4fe",
+      "type": "background",
+      "text": "測試事件 477",
+      "clearActors": false,
+      "scriptLine": 482,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_club3_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "534115ac-6b94-4300-bc42-d9e72591abe3"
+    },
+    {
+      "id": "42116777-b85f-49f1-8c70-48b63ef94ba3",
+      "type": "character",
+      "text": "測試事件 478",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 483,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_shy.png",
+          "type": "image"
+        }
+      ],
+      "image": "2b82932b-0dfc-4f82-94c9-0bdd297ebdcc"
+    },
+    {
+      "id": "6e083a86-764c-4aaf-9b62-e94a52b65022",
+      "type": "dialogue",
+      "text": "測試事件 479",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 484
+    },
+    {
+      "id": "d8cd9ad7-6808-43ce-a8ef-f03c379c5360",
+      "type": "dialogue",
+      "text": "測試事件 480",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 485
+    },
+    {
+      "id": "b79887f5-39a1-4d7d-9e35-6947cec90a2f",
+      "type": "character",
+      "text": "測試事件 481",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 486,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "14dbcc2d-fdd2-4187-9a57-19e912319bca",
+      "type": "dialogue",
+      "text": "測試事件 482",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 487
+    },
+    {
+      "id": "e71867ca-07b4-46a4-acda-1f41ff955ccf",
+      "type": "dialogue",
+      "text": "測試事件 483",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 488
+    },
+    {
+      "id": "ab2eec7e-aa75-44ed-a291-ad1724037274",
+      "type": "fade",
+      "text": "測試事件 484",
+      "direction": "out",
+      "duration": 1.2,
+      "wait": false,
+      "scriptLine": 489
+    },
+    {
+      "id": "36bf4c83-6b2d-4ab5-9d7a-48f55f082047",
+      "type": "end",
+      "text": "測試事件 485",
+      "scriptLine": 490
+    },
+    {
+      "id": "bb953ac2-4537-4653-9c91-fc222dee9c31",
+      "type": "section",
+      "text": "雅婷普通結局",
+      "scriptLabel": "雅婷普通結局",
+      "scriptLine": 491
+    },
+    {
+      "id": "e93b0194-8c78-4893-bbef-1e6b861ab327",
+      "type": "background",
+      "text": "測試事件 487",
+      "clearActors": false,
+      "scriptLine": 492,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_club1_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "9cfe2ab9-f32e-427b-9692-d06240a623b9"
+    },
+    {
+      "id": "1fd1cdbb-3338-43d4-b34d-3bb390c31417",
+      "type": "character",
+      "text": "測試事件 488",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 493,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yating2_laughing.png",
+          "type": "image"
+        }
+      ],
+      "image": "8ff0f8dd-5b92-49d8-ad33-26d58d24e6a5"
+    },
+    {
+      "id": "e19b797c-2178-4fc7-9b36-e1e30f1faabd",
+      "type": "dialogue",
+      "text": "測試事件 489",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 494
+    },
+    {
+      "id": "1b4af2c5-642d-4a16-8ed3-8bd28337a13b",
+      "type": "dialogue",
+      "text": "測試事件 490",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 495
+    },
+    {
+      "id": "9ba7431d-8e63-4e5e-8a6f-75ecb0cbdd27",
+      "type": "dialogue",
+      "text": "測試事件 491",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 496
+    },
+    {
+      "id": "24c5defd-9e80-498f-9d2e-878803ea7a8c",
+      "type": "fade",
+      "text": "測試事件 492",
+      "direction": "out",
+      "duration": 1.2,
+      "wait": false,
+      "scriptLine": 497
+    },
+    {
+      "id": "f609c9ec-5c6e-434e-884a-c9043a7c985b",
+      "type": "end",
+      "text": "測試事件 493",
+      "scriptLine": 498
+    },
+    {
+      "id": "4cdb46cd-0dcd-46d0-8891-ea93bf28061c",
+      "type": "section",
+      "text": "依君好結局",
+      "scriptLabel": "依君好結局",
+      "scriptLine": 499
+    },
+    {
+      "id": "a35f34fb-3e30-45a6-a8e0-77b7a6f9e543",
+      "type": "background",
+      "text": "測試事件 495",
+      "clearActors": false,
+      "scriptLine": 500,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_roof_night1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "2a30cfcb-12bb-49f4-9a8b-aa5b4564906b"
+    },
+    {
+      "id": "b03a2423-1895-4223-8d52-962fffb9c3bf",
+      "type": "character",
+      "text": "測試事件 496",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 501,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "8cb08c42-1461-46b8-b65a-2a153ed07329"
+    },
+    {
+      "id": "028a9b28-1812-4304-afcb-62ea27155ea1",
+      "type": "dialogue",
+      "text": "測試事件 497",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 502
+    },
+    {
+      "id": "2e3dba20-a52c-4dde-a540-a9453ff9b11f",
+      "type": "dialogue",
+      "text": "測試事件 498",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 503
+    },
+    {
+      "id": "80135545-7a4a-49fe-8048-c57c7a0c9bbd",
+      "type": "character",
+      "text": "測試事件 499",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 504,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_happy.png",
+          "type": "image"
+        }
+      ],
+      "image": "b7e11081-f131-4b52-b21c-895fb1813b60"
+    },
+    {
+      "id": "bc3dd18a-488a-4192-939b-e0980dba45d8",
+      "type": "dialogue",
+      "text": "測試事件 500",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 505
+    },
+    {
+      "id": "51863a69-cd94-4bca-9e59-3328d207faf9",
+      "type": "dialogue",
+      "text": "測試事件 501",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 506
+    },
+    {
+      "id": "4668d571-2e65-4e8e-be1f-09a144ac348a",
+      "type": "fade",
+      "text": "測試事件 502",
+      "direction": "out",
+      "duration": 1.2,
+      "wait": false,
+      "scriptLine": 507
+    },
+    {
+      "id": "c2493b5f-049f-4b0e-88a5-da875eedf443",
+      "type": "end",
+      "text": "測試事件 503",
+      "scriptLine": 508
+    },
+    {
+      "id": "c9b9b3e2-99b3-40cb-939c-29f4eca8e261",
+      "type": "section",
+      "text": "依君普通結局",
+      "scriptLabel": "依君普通結局",
+      "scriptLine": 509
+    },
+    {
+      "id": "9d4ca475-3dde-41a2-b937-48d2e80e2254",
+      "type": "background",
+      "text": "測試事件 505",
+      "clearActors": false,
+      "scriptLine": 510,
+      "resourceRefs": [
+        {
+          "field": "scene",
+          "filename": "smp_hallway21_evening1.png",
+          "type": "image"
+        }
+      ],
+      "scene": "e1b89160-51c8-4b56-bb80-f30a63e2ccbf"
+    },
+    {
+      "id": "ef3930c4-e3fa-4823-88e8-a2fc7498953a",
+      "type": "character",
+      "text": "測試事件 506",
+      "character": "fig-center",
+      "position": "center",
+      "vertical": "bottom",
+      "replaceMode": "slot",
+      "action": "show",
+      "scriptLine": 511,
+      "resourceRefs": [
+        {
+          "field": "image",
+          "filename": "character_yijun2_silent_smile.png",
+          "type": "image"
+        }
+      ],
+      "image": "0a6e032e-d922-40e7-b9ea-bba09f66e4d5"
+    },
+    {
+      "id": "f31d9fdc-0def-42fc-a72d-423658a63eb4",
+      "type": "dialogue",
+      "text": "測試事件 507",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 512
+    },
+    {
+      "id": "50d50057-e130-487b-85d1-872b8da3406b",
+      "type": "dialogue",
+      "text": "測試事件 508",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 513
+    },
+    {
+      "id": "e5b508ee-e2f1-4ec6-bc0f-c4333bf3b974",
+      "type": "dialogue",
+      "text": "測試事件 509",
+      "name": "測試角色",
+      "showName": true,
+      "bold": false,
+      "scriptLine": 514
+    },
+    {
+      "id": "f19b96ef-90d3-4949-97c2-2211376075dc",
+      "type": "dialogue",
+      "text": "測試事件 510",
+      "name": "測試角色",
+      "showName": false,
+      "bold": false,
+      "scriptLine": 515
+    },
+    {
+      "id": "4173d8f1-a739-4365-8706-fd0e14dc8edb",
+      "type": "fade",
+      "text": "測試事件 511",
+      "direction": "out",
+      "duration": 1.2,
+      "wait": false,
+      "scriptLine": 516
+    },
+    {
+      "id": "46f99fec-9d95-4844-9f56-d5722fd52160",
+      "type": "end",
+      "text": "測試事件 512",
+      "scriptLine": 517
+    }
+  ]
+}

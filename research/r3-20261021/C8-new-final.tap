@@ -1,0 +1,33 @@
+✔ R3 global replace covers chapters and options while excluding labels, IDs, resources, unknown fields and interpolation names (4.216579ms)
+✔ R3 replace rejects unsaved native/legacy script drafts and stale previews before mutation (1.060944ms)
+✔ R3 replace is literal, handles optional display names and has bounded work (0.53591ms)
+✔ R3 typed batch repair fixes missing/current references simultaneously and never crosses asset kinds or changes backups (1.443669ms)
+✔ R3 repair validates entire batch before writing and does not cascade A→B→C (0.565704ms)
+✔ R3 diagnostics reports empty/nonexistent/numeric animation targets, unknown instructions and duplicate event IDs consistently (1.359586ms)
+✔ R3 actual global-search entry previews, confirms, persists changes and supports app Undo/Redo (1164.786966ms)
+✔ R3 actual asset-repair entry updates typed references and restores them with one Undo (787.862043ms)
+✔ R3 unified diagnostics includes secondary stems and template images but excludes literal dialogue and legacy backups (1.052362ms)
+✔ R3 actual unified diagnostic UI shows animation failures with a filter and remains read-only (389.497753ms)
+✔ C5 migration preserves legacy desktop profiles, unknown fields and has exact reversible backup (3.092572ms)
+✔ C5 migration preserves legacy mobile profiles, unknown fields and has exact reversible backup (1.148354ms)
+✔ C5 migration of absent templates is lazy, reversible and cannot change other pages (0.373851ms)
+✔ C5 groups expand selection, ungroup atomically, move in shared coordinates and never change actions (0.98334ms)
+✔ C5 duplicate built-ins produces independent extras, preserves actions and remaps copied group membership (0.59712ms)
+✔ C5 rejects duplicate, missing, cyclic/nested and multiply-parented group references before any write (0.832127ms)
+✔ C5 standalone import/export retains optional groups, typed actions, layers and validates references (2.019198ms)
+✔ C5 alignment and distribution operate on existing components without action or identity loss (2.008093ms)
+✔ C5 actual template UI creates groups, clones built-in navigation and restores both history and legacy backup (1398.321447ms)
+✔ C5 grouping metadata never leaks profile identities, migration backups or group membership to other pages (0.856253ms)
+✔ C5 unsupported future versions and malformed backups fail before mutating project data (0.498135ms)
+✔ r3 visible product title, description, UI revision and exported generator are consistent (5.826995ms)
+✔ r3 keeps inherited CSS, logo, audio, storage schema and parser source byte-identical (51.726109ms)
+✔ r3 generated KOI Script docs keep the language, compatibility format and new operations link (3.717559ms)
+✔ r3 exported playable game ZIP preserves the project and embeds current generator (1235.668836ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2819.257467

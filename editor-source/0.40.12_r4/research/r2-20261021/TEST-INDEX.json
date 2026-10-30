@@ -1,0 +1,1195 @@
+{
+  "scope": "本輪R2不重複案例；歷史249項不重計；真人另列",
+  "uniqueCases": 230,
+  "passed": 230,
+  "failedUnresolved": [],
+  "earlierFailures": [
+    {
+      "name": "R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events",
+      "status": "failed",
+      "log": "B-dom-1.txt"
+    },
+    {
+      "name": "P1-C reference schema: 35 entries each retain all 15 required documentation fields",
+      "status": "failed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo",
+      "status": "failed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-E Player DOM: synthetic BGM uses per-cue gain and stops scheduling after one melody when loop=false",
+      "status": "failed",
+      "log": "E-music-dom.txt"
+    },
+    {
+      "name": "transaction failures leave the previous project and files intact",
+      "status": "failed",
+      "log": "I-storage.txt"
+    },
+    {
+      "name": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "status": "failed",
+      "log": "I-storage.txt"
+    },
+    {
+      "name": "font files and screen image references survive durable save and portable export",
+      "status": "failed",
+      "log": "I-storage.txt"
+    }
+  ],
+  "cases": [
+    {
+      "name": "KOI event source round-trips attributes, quotes, semicolons and existing numeric branches",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "KOI sound loops and selective/all stops compile to runtime events",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "P0-C intrinsic field measurement expands and shrinks, and reflow supplies the actual snap connector at every zoom",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "P0-C string sockets retain exact Unicode, newlines, quotes, voice/speed, fallback and serialize in KOI Script",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "P0-C string values beginning with equals stay literal and edits preserve the attached identity",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D invalid or duplicate value identities are rejected before source application",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A game designer selects library backgrounds, creates one missing background and persists configuration",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A importing a background in game designer keeps the asset and one new background through portable restore",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A mobile menu background saves independently and reloads alongside title and scene defaults",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A screen background profiles, template export and asset references remain separate",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-A title library background, fit and position reach desktop/mobile designer and player",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "P1-B a play event followed by rejected playback releases focus rather than leaving BGM stopped",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B an explicit script music stop is not undone when gallery music ends",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B changing audition rows never lets a stale pause resume BGM; ended and close restore it",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B context extraction still plays immediately and only after a successful detach",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B dragging a tail out of a floating stack detects its real external connection",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B explicitly playing gallery music takes focus, pausing it resumes the same underlying BGM",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B gallery audio rejection keeps BGM focus and reports an error without throwing",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B gallery preview volume follows master/music/mute plus its own gain",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B game BGM also continues while viewing CG and respects gallery focus after returning",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B linked stack disconnect plays before release exactly once and cancellation preserves data",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B muted preference is also applied to gallery music and remains muted after resuming BGM",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B opening CG/music gallery preserves the existing title BGM instance and playback position",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B single-block extraction sounds before release and empty drop does not repeat disconnect",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-B synthesized BGM observes the same gallery ownership and resumes without replacing its context",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C audio stop: invalid channels diagnose without muting all tracks",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C branch: missing condition destinations and broken next references never fall into another event",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C branches: nested conditions, both choice routes and rejoin retain variables, labels and IDs after round-trip",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C compatibility: seconds versus milliseconds, native versus legacy waits and explicit flags retain intent",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C diagnostic examples: intentional errors have lines and Chinese messages",
+      "status": "passed",
+      "log": "H-templates.txt"
+    },
+    {
+      "name": "P1-C event JSON: all 30 existing event types retain IDs and deep parameters through serialization",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C legacy: every directly parsed legacy command is recognized in automatic import mode",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C missing labels: diagnostics retain unresolved destinations and playback stops rather than picking a label",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C playable template: koi-script-example.txt parses, round-trips and both routes finish",
+      "status": "passed",
+      "log": "H-templates.txt"
+    },
+    {
+      "name": "P1-C playable template: koi-script-legacy-example.txt parses, round-trips and both routes finish",
+      "status": "passed",
+      "log": "H-templates.txt"
+    },
+    {
+      "name": "P1-C program reference: 事件資料",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C program reference: 互動模組檔",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C program reference: 功能畫面檔",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C program reference: 設定檔",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C program reference: 遊戲介面檔",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference schema: 35 entries each retain all 15 required documentation fields",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 互動",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 停止音訊",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 動作",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 天氣",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 對話",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 影片",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 文字框",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 旁白",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 條件",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 標籤",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 模型",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 淡幕",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 濾鏡",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 特效",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 立繪",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 等待",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 結束",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 背景",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 解鎖圖片",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 解鎖音樂",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 變形",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 變數",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 跳轉",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 輸入",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 過場",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 選項",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 鏡頭",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 音效",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 音樂",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C reference: 頭像",
+      "status": "passed",
+      "log": "H-brand-docs.txt"
+    },
+    {
+      "name": "P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "P1-C targets: null, blank, missing, hidden, aliases, custom and numeric IDs are resolved without guessing",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "R2-B DOM: exit-position selector writes a real unique positional target and removes only that actor",
+      "status": "passed",
+      "log": "I-exit-position.txt"
+    },
+    {
+      "name": "R2-B DOM: explicit exit picker creates existing character model; properties and Undo/Redo isolate events",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-B Player DOM: panel pauses parallel cleanup, resuming removes actor without resetting dialogue",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-B Player DOM: parallel exit cleans only A in real Player and preserves B",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-B Player DOM: waiting exit cleans only A in real Player and preserves B",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitDown",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitLeft",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitRight",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle exitUp",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: actual exit lifecycle fadeOut",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: legacy no-animation hide is immediate and isolates its exact key",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: native and legacy none syntax remain compatible and native directional exits are executable",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: repeated show/hide with expression, layer and wait stays independent across script copy",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: scene clear cancels pending exits; seeking past exit restores settled state",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: unique positional aliases work; exact numeric custom IDs take priority",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-B: waiting exit retains target until completion, never removes other actors in same slot",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "R2-C DOM capacity: one bounded 500-event auto-arrange retains all story fields",
+      "status": "passed",
+      "log": "C-capacity.txt"
+    },
+    {
+      "name": "R2-C DOM: auto layout writes only positions, Undo restores authored coordinates and Redo restores new layout",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-C DOM: event mode supports Ctrl/Shift selection, full selection, group drag and undo",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-C DOM: flow group drag uses scaled world delta and one Undo transaction",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-C: 100 events with bounded layered layout, intact story and no card crossings",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: 20 events with bounded layered layout, intact story and no card crossings",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: 300 events with bounded layered layout, intact story and no card crossings",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: 500 events with bounded layered layout, intact story and no card crossings",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: a too-large layout fails before touching original project coordinates",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: explicit manual coordinates stay intact until the auto action and serialized snapshots restore them",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: group reordering retains event IDs and all same/cross-chapter references",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: loops, repeated jumps, self links, conditions and cross-chapter jumps never mutate destinations",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-C: merges center, branches occupy neighboring columns and port order is deterministic",
+      "status": "passed",
+      "log": "C-test-1.txt"
+    },
+    {
+      "name": "R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-D DOM: nested template canvas alignment persists and local editor undo restores",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-D DOM: template group drag and nudge share world deltas and one undo transaction",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-D: bottom respects explicit canvas/selection frames and locks",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: canvas center, duplicate IDs, single-selection and group bounds preserve source",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: center-x respects explicit canvas/selection frames and locks",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: center-y respects explicit canvas/selection frames and locks",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: desktop/mobile persistence retains logical coordinates without changing event formats",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: distribute-x preserves equal spacing and endpoint bounds",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: distribute-y preserves equal spacing and endpoint bounds",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: left respects explicit canvas/selection frames and locks",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: nested templates use world coordinates for canvas centering and reject unsafe out-of-parent alignment atomically",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: parent/child selection translates once and locked nested items remain intact",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: right respects explicit canvas/selection frames and locks",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-D: top respects explicit canvas/selection frames and locks",
+      "status": "passed",
+      "log": "D-model-1.txt"
+    },
+    {
+      "name": "R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "R2-E Medium: mixer applies per-cue volume and loop, same-file cue restart and safe gallery resume",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "R2-E Medium: parser preserves legacy looping defaults and explicit native volume/loop flags",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "R2-E Player DOM: synthetic BGM uses per-cue gain and stops scheduling after one melody when loop=false",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "R2-E: music cue state survives save/load, does not alter source event parameters",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "R2-E: synchronous/rejected audio restrictions never escape mixer play or focus resume",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "R2-G: real asset reference dialog shows primary and secondary typed usages without changing the project",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "R2-H: exported game retains content and carries precise maker generator metadata",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-H: formal product/description/version and script language names are consistent",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-H: logo/styles/icons/fonts/audio retain prior design except explicit exit keyframes",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "R2-H: prior public API names, event types and database schema remain compatible",
+      "status": "passed",
+      "log": "I-integration.txt"
+    },
+    {
+      "name": "a backward choice cannot move the first imported node to the bottom, and collapsed groups remove hidden gaps",
+      "status": "passed",
+      "log": "C-regression.txt"
+    },
+    {
+      "name": "actor isolation: a new character cue without motion does not replay the previous one-shot",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: copy/delete/reorder and KOI round-trip retain independent cue parameters and numeric actor names",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: designer edits the selected animation event, not the earlier character cue",
+      "status": "passed",
+      "log": "B-dom-1.txt"
+    },
+    {
+      "name": "actor isolation: every existing motion targets one actor without replacing or restarting other actors",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: explicit waiting animations remain sequential engine steps with separate durations",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: four editors, copy, flow patch, undo/redo and IndexedDB preserve individual motions",
+      "status": "passed",
+      "log": "B-dom-1.txt"
+    },
+    {
+      "name": "actor isolation: legacy non-wait cues remain nonblocking; explicit wait and native KOI retain their intent",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: moving A to center does not delete another actor already in that position",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: nested placement in visual state never aliases authored event parameters",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: numeric actor IDs survive event reordering as strings",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: player runs waiting cues in order, pauses with panels and retains unrelated actor DOM",
+      "status": "passed",
+      "log": "B-dom-1.txt"
+    },
+    {
+      "name": "actor isolation: position aliases resolve a unique actor and diagnostics reject ambiguity",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: repeated animation event IDs receive new run tokens while scene changes clear expired stage state",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: saved motion steps resume their exact actor cue and rapid independent updates do not mutate source",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "actor isolation: simultaneous A/B/C cues keep separate targets, durations and replay tokens",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "auto arrange clears old coordinates and immediately fits the freshly arranged visible nodes",
+      "status": "passed",
+      "log": "C-dom-2.txt"
+    },
+    {
+      "name": "background and character tracks remain independent, swaps retain placement, hides affect one actor",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "context reconnect restores original predecessor and every local/cross-chapter destination by event ID",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "copying local save elements uses world coordinates and pasting creates independent IDs",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "displayed cards stay aligned to world coordinates within half a physical pixel at every zoom",
+      "status": "passed",
+      "log": "C-regression.txt"
+    },
+    {
+      "name": "dropped images retain their aspect ratio in both portrait and landscape logical canvases",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "editor timeline and runtime use the same actor and background reduction",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "event identity: stale inspector patches stay bound to the rendered ID after reorder and chapter switch",
+      "status": "passed",
+      "log": "B-dom-1.txt"
+    },
+    {
+      "name": "extracting a floating head keeps its healed child stack anchored and rejoining never resets it to defaults",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "fit places all nodes inside a phone viewport and branch layout has separate lanes",
+      "status": "passed",
+      "log": "C-regression.txt"
+    },
+    {
+      "name": "font files and screen image references survive durable save and portable export",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "game interface designer drag, touch coordinates, labels, hover assets and motion persist through tabs and player",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "input, interpolation, branching, and rollback restore the complete variable state",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "interface geometry clamps to canvas and repeated actor swaps retain new image and motion state",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "invalid self-connections do not mutate events or targets; stale floating IDs never bridge attached cards",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "joined floating components get one root, stay connected after dragging their root, and split correctly",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "legacy Base64 project migrates only after durable save and verification",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "logic loops are bounded and cross chapter jumps execute",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "migrated default font sizes do not overwrite new creator-authored font choices",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "mobile port dragging changes the real destination; wire removal and undo restore it",
+      "status": "passed",
+      "log": "C-regression.txt"
+    },
+    {
+      "name": "motion controls: hidden waiting animation can be restored by tapping the stage",
+      "status": "passed",
+      "log": "B-dom-1.txt"
+    },
+    {
+      "name": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "status": "passed",
+      "log": "E-regression-1.txt"
+    },
+    {
+      "name": "named sections retain original indices and aggregate event, option and extension counts",
+      "status": "passed",
+      "log": "C-regression.txt"
+    },
+    {
+      "name": "nested-loop tail extraction carries siblings inside its container without detaching enclosing loops",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "new actor defaults do not choose backgrounds or merge unrelated unbound sprites",
+      "status": "passed",
+      "log": "B-model-2.txt"
+    },
+    {
+      "name": "new loop and choice snap previews use the same expanded and compact geometry as the inserted stack",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "options, GUI, screens and modules apply to the same project with real activity references",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "preview from a selected line restores preceding scene and character state",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "r2 reduces prior defaults but retains explicitly authored typography from the previous schema",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "repeat boundaries move together, insertion cannot create crossed loops, and reconnected execution matches the original",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "save data follows stable event IDs after inserting a scene event",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "save/load preserves state, actors, history, background, and variables",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "single unplug heals the remaining chain and reconnect restores the same execution and branch identities",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    },
+    {
+      "name": "sound track persists across dialogue changes, independently replaces voice, and stops explicitly",
+      "status": "passed",
+      "log": "E-music-1.txt"
+    },
+    {
+      "name": "template group movement moves nested slots once and clamps the complete group inside the canvas",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "template text is in logical pixels and image fill never silently stretches artwork",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "tests/event-order.test.mjs",
+      "status": "passed",
+      "log": "C-regression.txt"
+    },
+    {
+      "name": "transaction failures leave the previous project and files intact",
+      "status": "passed",
+      "log": "I-storage-2.txt"
+    },
+    {
+      "name": "typed variables rename all references, delete safely, and SQL mutations are atomic",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "variable CRUD and table editor are visual, stay synchronized, and old font preferences do not mask authored styles",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "visual and audio control events are applied before dialogue",
+      "status": "passed",
+      "log": "B-regression.txt"
+    },
+    {
+      "name": "visual tables and SQL share records, export in project and resolve in runtime dialogue",
+      "status": "passed",
+      "log": "D-regression.txt"
+    },
+    {
+      "name": "whole story stack reconnects to the start dock when no other blocks remain",
+      "status": "passed",
+      "log": "I-blocks.txt"
+    }
+  ]
+}

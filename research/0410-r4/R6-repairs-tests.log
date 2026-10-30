@@ -1,0 +1,11 @@
+✔ r4 native color live preview, cancel and reset preserve project data and unrelated preferences (1358.005695ms)
+✔ r4 header initializes one project location and preserves menu keyboard access (342.648548ms)
+✔ r4 all five persisted sizes survive settings, mode switches and storage round trips without changing game typography (2543.423308ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4683.874767

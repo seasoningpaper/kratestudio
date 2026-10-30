@@ -1,0 +1,7 @@
+node_modules/
+desktop/node_modules/
+desktop/out/
+desktop/artifacts/
+
+# Isolated full-app browser fixtures are never release assets.
+/dist/_qa/

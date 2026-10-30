@@ -1,0 +1,36 @@
+✔ same imported actor changes slot without duplicates, but explicitly named instances remain independent (4.125893ms)
+✖ slot hide removes moved sprites, move-to-center replaces its occupant, and show clears stale fade-out (1.357194ms)
+✔ asset filters, range selection and deletion handle video backgrounds and font references (0.948398ms)
+✔ disabled block feedback does not allocate audio; enabled feedback reuses separate sound channels (0.289896ms)
+✔ module clips are sequential, rebind named resources, preserve animation targets and reject executable event types (0.627575ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.468708
+
+✖ failing tests:
+
+test at tests/version4010.test.mjs:4:1
+✖ slot hide removes moved sprites, move-to-center replaces its occupant, and show clears stale fade-out (1.357194ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/version4010.test.mjs:4:428)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

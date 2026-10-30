@@ -1,0 +1,21 @@
+{
+  "repo": "adamgiebl/neumorphism",
+  "snapshotCommit": "877c2ef172c492961135c707e2e4a77477690cd6",
+  "snapshotDate": "2020-12-29T15:51:28Z",
+  "evidence": "https://github.com/adamgiebl/neumorphism/commit/877c2ef172c492961135c707e2e4a77477690cd6",
+  "source": "https://github.com/adamgiebl/neumorphism/tree/877c2ef172c492961135c707e2e4a77477690cd6",
+  "files": [
+    "LICENSE.md",
+    "src/App.js",
+    "src/App.style.js",
+    "src/Configuration.js",
+    "src/ConfigurationRow.js",
+    "src/Preview.js",
+    "src/ShapeSwitcher.js",
+    "src/index.js",
+    "src/inputs.scss",
+    "src/serviceWorker.js",
+    "src/utils.js"
+  ],
+  "status": "source-downloaded-not-yet-reviewed"
+}

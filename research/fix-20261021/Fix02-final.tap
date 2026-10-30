@@ -1,0 +1,21 @@
+✔ Fix-02 actual measured content can shrink a detailed character block below the estimated 310px (1.198515ms)
+✔ Fix-02 intrinsic measurement uses unscaled content, expands then shrinks and keeps connector padding (0.46507ms)
+✔ Fix-02 dialogue captions and controls remain separate layout units, with auto-sized multiline text (550.934722ms)
+✔ P0-B legal independent nested stacks are validated by ownership rather than flat array order (2.493906ms)
+✔ P0-B default tail includes section markers, while single extraction heals and reconnects by identity (0.485891ms)
+✔ P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation (554.49503ms)
+✔ P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets (484.21509ms)
+✔ P0-C string sockets retain exact Unicode, newlines, quotes, voice/speed, fallback and serialize in KOI Script (12.704152ms)
+✔ P0-C moving and replacing a value keeps one owner, preserves displaced values, and rejects illegal slots atomically (1.49451ms)
+✔ P0-C text variables interpolate and number expressions retain existing runtime semantics (1.928865ms)
+✔ P0-C copied value sockets get fresh identities and never change the original template (0.842599ms)
+✔ P0-C intrinsic field measurement expands and shrinks, and reflow supplies the actual snap connector at every zoom (0.588917ms)
+✔ P0-C string values beginning with equals stay literal and edits preserve the attached identity (1.588442ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2437.000627

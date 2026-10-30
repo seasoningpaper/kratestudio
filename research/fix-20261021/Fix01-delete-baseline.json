@@ -1,0 +1,8 @@
+{
+  "baseline": "95a99a3",
+  "method": "actual bundled app deleteEvent(0), confirmation accepted, fixture copy",
+  "result": "reproduced",
+  "error": "projectId is not defined",
+  "projectChanged": false,
+  "severity": "High"
+}

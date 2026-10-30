@@ -1,0 +1,17 @@
+✔ all ten timeline segments preserve given speed, RPM and shifts (1.302066ms)
+✔ cruise exactly ten seconds and braking activates retarder only while moving (0.940358ms)
+✔ timeline remains finite and bounded including invalid input (6.256114ms)
+✔ manual throttle reaches all six gears; brakes stop and remain bounded (2.874344ms)
+✔ fundamental, resonance and retarder parameters match specified formulas; poor condition stronger (0.912707ms)
+✔ white noise worklet generates finite nonconstant data (6.934842ms)
+✔ no audio until gesture; play, pause, resume, replay and stop release one engine (139.516237ms)
+✔ manual mode, volume, RPM, pedals and visibility controls are real state transitions (182.286624ms)
+✔ turning on loop replays sequence, switching modes closes audio and clears pedals (37.06295ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 745.4694

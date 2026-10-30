@@ -1,0 +1,16 @@
+✔ C4 reproduction: vertical touch on palette cancels drag preview and leaves events unchanged (731.791648ms)
+✔ C4 reproduction: second touch cannot move or finish the first game-template gesture (648.213097ms)
+✔ C4 reproduction: lost pointer capture cancels a game-template draft rather than saving it later (369.025827ms)
+✔ C4 reproduction: second touch cannot move or finish the first menu-template gesture (446.197237ms)
+✔ C4 reproduction: lost pointer capture cancels a menu-template draft (376.24065ms)
+✔ R2-D DOM: align canvas/selection and Undo/Redo in existing GameDesigner preserve events (1199.52022ms)
+✔ R2-D DOM: template group drag and nudge share world deltas and one undo transaction (1017.088722ms)
+✔ R2-D DOM: nested template canvas alignment persists and local editor undo restores (724.012181ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3369.128495

@@ -1,0 +1,15 @@
+# Koi Maker 0.40.11_r3 已發布（測試修訂版）
+
+正式網址：https://koimaker.briny-angel-8862.chatgpt.site/
+
+Sites第55版，來源1d7d0ce84d8b6d775173de0f01dc3f033adb0d7d；原生部署appgdep_6ad85a9752548191b73ed437877295ba於2026-10-21T06:24:38.965479Z回報succeeded。發布後get_site確認active／public／latest55／原網址及新標題。沒有真人瀏覽器功能、視覺、觸控或音訊聽感通過宣稱。
+
+173項不重複案例、18語法、建置與23Worker資產通過；本輪已測範圍無未解決Critical／High。設定模板群組及元件操作為列明範圍，閱讀／音量內部控制尚未完全拆開。新三項工具見USER-GUIDE；完整限制與人工程序見FINAL-REPORT及MANUAL-ACCEPTANCE。發布來源ZIP與部署包已於部署前保存並校驗；精確hash與原生IDs在RELEASE.json。
+
+## 回復
+
+保留Sites54／0.40.11_r2／5b004f31b8ebfddfe9523703c73269af58cf71f1，saved version為appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_b839568b70e08191b5699f446715e55f，原完整ZIP及部署包保留。需要時在同一Sites專案發布該已保存版本，保留public與網址；確認succeeded後再更新metadata標題，不以建立新站或清除localStorage／IndexedDB處理。Sites53／48b5457也保留。
+
+回復程式不會自動移除r3可選metadata；啟用模板群組後若需要還原，先匯出專案副本，再用「回復元件化前版面」恢復原始整頁desktop／mobile；不需清空專案。新資料只按明確操作寫入，可選欄位與舊schema保持相容。進行任何回復前先保留當時資料副本。
+
+部署後交接commit只追加報告、來源與備份指引，執行來源與已發布1d7d0ce一致；交接SHA由Git輸出及完整ZIP內git來源記錄對照。下一輪優先真人回報修補，再評估內部表單元件拆分或多代備份，不直接啟動完整工程模式。

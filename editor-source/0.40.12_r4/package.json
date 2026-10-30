@@ -1,0 +1,30 @@
+{
+  "name": "koi-maker",
+  "version": "0.40.12-r4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-feature-matrix.mjs && node scripts/generate-script-guide.mjs && node scripts/generate-features.mjs && node scripts/generate-game-skins.mjs && node scripts/bundle.mjs && node scripts/build-worker.mjs && node scripts/validate-worker.mjs",
+    "test": "node scripts/test-local.mjs",
+    "predev": "npm run build",
+    "dev": "node scripts/serve-local.mjs",
+    "start": "node scripts/serve-local.mjs",
+    "test:local": "node scripts/test-local.mjs",
+    "test:all": "node scripts/test-local.mjs --all",
+    "check:assets": "node scripts/verify-static-assets.mjs"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "fake-indexeddb": "^6.2.0",
+    "jsdom": "^26.0.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "checkpoint": "f9169682dc2283a1513d9b43d4945fe54fbe2f1c",
+  "files": {
+    "dist/index.html": "a0a8d89a6daae46eec7b7d384af7460bc6528d7d9dca64aa868fde32c14e3021",
+    "dist/style.css": "86891fb05e0165410aa5952ba870fed998ebe4df4288331a754d74bb7fc475a8",
+    "dist/player.css": "802eb21fdb2a9afd36e7fd2f8c0c4d27b1f243715036185e59ad8f36030c7f5c",
+    "dist/brand.css": "edcff2220da8d320ec4086455fdc6728655be682d4be2f1bd7e9abe84f629e81",
+    "dist/editor-fixes.css": "0ad73f065cae7806f1aa20384d3c1d556a5ff8a6d74ccc000997655e9f201fa2",
+    "dist/assets/brand/koi-maker-light.png": "b534450409a9cb69f0577c0d06de7c954c07f8ef048a1cc0c63970eeef768bf5",
+    "dist/assets/brand/koi-maker-dark.png": "13f42aa308b79f41950b0e1b96d583b511c59815b3f7c3ba96774859bd390fc7",
+    "src/editor-settings.jsx": "49cb7067caccd481ff785b7a946d4770cc6c3ae3d094c60209b77fe0b9cf59e7",
+    "src/theme.mjs": "315cc55d2e40d5dfa50f1a3af357a0a852d58862485d4dc7294769321eb86477",
+    "src/game-skins.css": "c6b0c8c424ed0132412b1b6aeb9db56dd50f0dfb315edc97ddc75522401863a9",
+    ".openai/hosting.json": "976f9ef3cc76219b958bb9bc64734655b754d7a5f51c93e76a49f6199635fa8a",
+    "src/storage.mjs": "5711aa8f960b2fa8c2207d4c9ce0bd150975c6599d49eb7d275b948380c29e3d",
+    "pnpm-lock.yaml": "1da27a4b2174b99e767a6cea66b272eec8bc0f30827fb6635bb5bec1a4378000"
+  },
+  "visualScreenshots": "pending: existing managed preview browser limitation; no substitute browser or invented screenshot acceptance"
+}

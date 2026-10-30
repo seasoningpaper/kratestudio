@@ -1,0 +1,23 @@
+{
+  "decision": "blocked",
+  "reason": "H04: original fig-right/fig-center animation/exit failures require the affected project event sequence; not yet reproduced or resolved",
+  "productVersion": "0.40.11_r3",
+  "liveSiteVersion": 56,
+  "liveSource": "03b922cd49c4be7348d394f39f15321bdb91d924",
+  "liveVersionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_1049a606188c8191b4d3f70b491c92d4",
+  "rollbackSiteVersions": [
+    55,
+    54
+  ],
+  "beforeCheckpoint": "95a99a3e383d2386ffb04f53b38d465d73fa4c35",
+  "beforeSourceZip": "Koi-Maker-before-fix-95a99a3.zip",
+  "nativeDeployAttempted": false,
+  "manualPending": true,
+  "automated": {
+    "uniqueCases": 113,
+    "syntaxFiles": 12,
+    "workerAssets": 30,
+    "build": "passed"
+  },
+  "note": "Source push/archive is a development handoff; no save_site_version/deploy call for this fix batch"
+}

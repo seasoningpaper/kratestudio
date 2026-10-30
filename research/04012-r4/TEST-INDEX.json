@@ -1,0 +1,1566 @@
+{
+  "uniquePassed": 146,
+  "actualFailedFinal": 0,
+  "baseline98": {
+    "passed": 94,
+    "superseded": 4,
+    "missing": 0
+  },
+  "baselineAudit": [
+    {
+      "case": "04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged",
+      "status": "passed",
+      "current": "04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged"
+    },
+    {
+      "case": "04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging",
+      "status": "passed",
+      "current": "04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging"
+    },
+    {
+      "case": "04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution",
+      "status": "passed",
+      "current": "04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution"
+    },
+    {
+      "case": "04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename",
+      "status": "passed",
+      "current": "04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename"
+    },
+    {
+      "case": "04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs",
+      "status": "passed",
+      "current": "04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs"
+    },
+    {
+      "case": "04012 R5: flag preset never overwrites an existing numeric variable or project input",
+      "status": "passed",
+      "current": "04012 R5: flag preset never overwrites an existing numeric variable or project input"
+    },
+    {
+      "case": "04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched",
+      "status": "passed",
+      "current": "04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched"
+    },
+    {
+      "case": "04012 R6: typed operator 0 >= 0 connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator 0 >= 0 connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator 0 <= 0 connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator 0 <= 0 connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator 0 != 0 connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator 0 != 0 connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator abs(-1) connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator abs(-1) connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator floor(1.5) connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator floor(1.5) connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator ceil(1.5) connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator ceil(1.5) connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator sqrt(4) connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator sqrt(4) connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator min(1,2) connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator min(1,2) connects and executes"
+    },
+    {
+      "case": "04012 R6: typed operator max(1,2) connects and executes",
+      "status": "passed",
+      "current": "04012 R6: typed operator max(1,2) connects and executes"
+    },
+    {
+      "case": "04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow",
+      "status": "passed",
+      "current": "04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow"
+    },
+    {
+      "case": "r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo",
+      "status": "passed",
+      "current": "r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo"
+    },
+    {
+      "case": "r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes",
+      "status": "passed",
+      "current": "r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes"
+    },
+    {
+      "case": "r2 editor: pending section delete refuses a changed ownership range",
+      "status": "passed",
+      "current": "r2 editor: pending section delete refuses a changed ownership range"
+    },
+    {
+      "case": "r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events",
+      "status": "passed",
+      "current": "r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events"
+    },
+    {
+      "case": "r2 reproduction: a cancelled drag plus its compatibility click never inserts a block",
+      "status": "passed",
+      "current": "r2 reproduction: a cancelled drag plus its compatibility click never inserts a block"
+    },
+    {
+      "case": "r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion",
+      "status": "passed",
+      "current": "r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion"
+    },
+    {
+      "case": "r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each",
+      "status": "passed",
+      "current": "r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each"
+    },
+    {
+      "case": "r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once",
+      "status": "passed",
+      "current": "r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once"
+    },
+    {
+      "case": "r2 transaction: the same token is rejected before recursive mutation and replay after Undo",
+      "status": "passed",
+      "current": "r2 transaction: the same token is rejected before recursive mutation and replay after Undo"
+    },
+    {
+      "case": "r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks",
+      "status": "passed",
+      "current": "r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks"
+    },
+    {
+      "case": "r2 palette: repeat is one container transaction with owned body/end, not three independent roots",
+      "status": "passed",
+      "current": "r2 palette: repeat is one container transaction with owned body/end, not three independent roots"
+    },
+    {
+      "case": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer",
+      "status": "passed",
+      "current": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer"
+    },
+    {
+      "case": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer",
+      "status": "passed",
+      "current": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer"
+    },
+    {
+      "case": "r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged",
+      "status": "passed",
+      "current": "r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged"
+    },
+    {
+      "case": "capacity panel renders eight real categories and separate decimal browser estimate without altering events",
+      "status": "superseded-by-authorized-r4-spec",
+      "current": "r4 capacity real panel: eight aligned categories, exact totals, readable free space and folded engineering details"
+    },
+    {
+      "case": "capacity CSS is the sole new GUI CSS and remains scoped, flat and wrapping",
+      "status": "superseded-by-authorized-r4-spec",
+      "current": "r4 capacity CSS remains strictly local: 20px flat bar, aligned grid, mobile column and no global color/font changes"
+    },
+    {
+      "case": "r2 layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate",
+      "status": "passed",
+      "current": "r3 inherited layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate"
+    },
+    {
+      "case": "r2 layout: separator and all three densities persist without changing event data; legacy strong remains representable",
+      "status": "passed",
+      "current": "r3 inherited layout: separator and all three densities persist without changing event data; legacy strong remains representable"
+    },
+    {
+      "case": "r2 layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus",
+      "status": "passed",
+      "current": "r3 inherited layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus"
+    },
+    {
+      "case": "r3 development GUI: protected brand, base CSS, renderer and navigation match r2; only capacity CSS and backup file acceptance change",
+      "status": "superseded-by-authorized-r4-spec",
+      "current": "r4 protected GUI: original Logo, base CSS, typography, block silhouettes and navigation are preserved"
+    },
+    {
+      "case": "r3 development: author parser/sync, block interactions and player remain the verified r2 source; no unverified release version is shown",
+      "status": "superseded-by-authorized-r4-spec",
+      "current": "r4 parser, four-mode sources and storage identity remain unchanged; release sources agree"
+    },
+    {
+      "case": "policy uses exactly 5,000,000,000 bytes with exact decimal boundaries",
+      "status": "passed",
+      "current": "policy uses exactly 5,000,000,000 bytes with exact decimal boundaries"
+    },
+    {
+      "case": "quota estimates are optional shared-origin estimates, never a guaranteed project allowance",
+      "status": "passed",
+      "current": "quota estimates are optional shared-origin estimates, never a guaranteed project allowance"
+    },
+    {
+      "case": "capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets",
+      "status": "passed",
+      "current": "capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets"
+    },
+    {
+      "case": "same filename with distinct IDs is stored twice; duplicate IDs are rejected",
+      "status": "passed",
+      "current": "same filename with distinct IDs is stored twice; duplicate IDs are rejected"
+    },
+    {
+      "case": "atomic save/reload retains unknown data and exact bytes",
+      "status": "passed",
+      "current": "atomic save/reload retains unknown data and exact bytes"
+    },
+    {
+      "case": "quota and interrupted transaction leave previous snapshot and assets intact",
+      "status": "passed",
+      "current": "quota and interrupted transaction leave previous snapshot and assets intact"
+    },
+    {
+      "case": "asset deletion saves with accurate reduced payload without damaging other projects",
+      "status": "passed",
+      "current": "asset deletion saves with accurate reduced payload without damaging other projects"
+    },
+    {
+      "case": "stream backup roundtrip retains every field and binary asset with checksum",
+      "status": "passed",
+      "current": "stream backup roundtrip retains every field and binary asset with checksum"
+    },
+    {
+      "case": "stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data",
+      "status": "passed",
+      "current": "stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data"
+    },
+    {
+      "case": "cancelled and failed writes abort the writer and never report a complete backup",
+      "status": "passed",
+      "current": "cancelled and failed writes abort the writer and never report a complete backup"
+    },
+    {
+      "case": "legacy Base64 assets still save, load and export with original identifiers",
+      "status": "passed",
+      "current": "legacy Base64 assets still save, load and export with original identifiers"
+    },
+    {
+      "case": "single-file import caps are enforced before decoding or allocating oversized data",
+      "status": "passed",
+      "current": "single-file import caps are enforced before decoding or allocating oversized data"
+    },
+    {
+      "case": "quota preflight rejects a changed project without beginning a transaction or overwriting saved state",
+      "status": "passed",
+      "current": "quota preflight rejects a changed project without beginning a transaction or overwriting saved state"
+    },
+    {
+      "case": "04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role",
+      "status": "passed",
+      "current": "04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role"
+    },
+    {
+      "case": "04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics",
+      "status": "passed",
+      "current": "04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics"
+    },
+    {
+      "case": "04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative",
+      "status": "passed",
+      "current": "04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative"
+    },
+    {
+      "case": "04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore",
+      "status": "passed",
+      "current": "04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore"
+    },
+    {
+      "case": "04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position",
+      "status": "passed",
+      "current": "04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position"
+    },
+    {
+      "case": "input, interpolation, branching, and rollback restore the complete variable state",
+      "status": "passed",
+      "current": "input, interpolation, branching, and rollback restore the complete variable state"
+    },
+    {
+      "case": "save/load preserves state, actors, history, background, and variables",
+      "status": "passed",
+      "current": "save/load preserves state, actors, history, background, and variables"
+    },
+    {
+      "case": "logic loops are bounded and cross chapter jumps execute",
+      "status": "passed",
+      "current": "logic loops are bounded and cross chapter jumps execute"
+    },
+    {
+      "case": "visual and audio control events are applied before dialogue",
+      "status": "passed",
+      "current": "visual and audio control events are applied before dialogue"
+    },
+    {
+      "case": "save data follows stable event IDs after inserting a scene event",
+      "status": "passed",
+      "current": "save data follows stable event IDs after inserting a scene event"
+    },
+    {
+      "case": "preview from a selected line restores preceding scene and character state",
+      "status": "passed",
+      "current": "preview from a selected line restores preceding scene and character state"
+    },
+    {
+      "case": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact",
+      "status": "passed",
+      "current": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact"
+    },
+    {
+      "case": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "status": "passed",
+      "current": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP"
+    },
+    {
+      "case": "local handoff: Windows and POSIX filesystem paths produce the same asset URL",
+      "status": "passed",
+      "current": "local handoff: Windows and POSIX filesystem paths produce the same asset URL"
+    },
+    {
+      "case": "local handoff: application source, Logo, HTML and CSS remain byte-identical",
+      "status": "passed",
+      "current": "local handoff: application source, Logo, HTML and CSS remain byte-identical"
+    },
+    {
+      "case": "local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly",
+      "status": "passed",
+      "current": "local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly"
+    },
+    {
+      "case": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "status": "passed",
+      "current": "P0-D clean KOI file follows block/event edits without manual refresh"
+    },
+    {
+      "case": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "status": "passed",
+      "current": "P0-D global Undo and Redo restore the same source draft in the code editor"
+    },
+    {
+      "case": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "status": "passed",
+      "current": "P0-D applying reordered source preserves foreign jumps by destination event ID"
+    },
+    {
+      "case": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "status": "passed",
+      "current": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history"
+    },
+    {
+      "case": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "status": "passed",
+      "current": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history"
+    },
+    {
+      "case": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "status": "passed",
+      "current": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration"
+    },
+    {
+      "case": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "status": "passed",
+      "current": "P0-D chapter changes show the correctly bound script and preserve both chapters independently"
+    },
+    {
+      "case": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "status": "passed",
+      "current": "P0-D derived synchronization is idempotent and never writes a competing event list"
+    },
+    {
+      "case": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "status": "passed",
+      "current": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities"
+    },
+    {
+      "case": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "status": "passed",
+      "current": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation"
+    },
+    {
+      "case": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "status": "passed",
+      "current": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter"
+    },
+    {
+      "case": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "status": "passed",
+      "current": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity"
+    },
+    {
+      "case": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "status": "passed",
+      "current": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter"
+    },
+    {
+      "case": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "status": "passed",
+      "current": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal"
+    },
+    {
+      "case": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "status": "passed",
+      "current": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names"
+    },
+    {
+      "case": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "status": "passed",
+      "current": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names"
+    },
+    {
+      "case": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "status": "passed",
+      "current": "P0-D drafts also detect concurrent variable changes when chapter events did not change"
+    },
+    {
+      "case": "P0-D invalid or duplicate value identities are rejected before source application",
+      "status": "passed",
+      "current": "P0-D invalid or duplicate value identities are rejected before source application"
+    },
+    {
+      "case": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "status": "passed",
+      "current": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work"
+    },
+    {
+      "case": "04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "status": "passed",
+      "current": "04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow"
+    },
+    {
+      "case": "04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "status": "passed",
+      "current": "04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow"
+    },
+    {
+      "case": "04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "status": "passed",
+      "current": "04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow"
+    },
+    {
+      "case": "04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields",
+      "status": "passed",
+      "current": "04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields"
+    },
+    {
+      "case": "04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields",
+      "status": "passed",
+      "current": "04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields"
+    },
+    {
+      "case": "04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields",
+      "status": "passed",
+      "current": "04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields"
+    },
+    {
+      "case": "legacy Base64 project migrates only after durable save and verification",
+      "status": "passed",
+      "current": "legacy Base64 project migrates only after durable save and verification"
+    },
+    {
+      "case": "transaction failures leave the previous project and files intact",
+      "status": "passed",
+      "current": "transaction failures leave the previous project and files intact"
+    },
+    {
+      "case": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "status": "passed",
+      "current": "deleting an asset unlinks all scene, sprite, CG and audio references"
+    },
+    {
+      "case": "font files and screen image references survive durable save and portable export",
+      "status": "passed",
+      "current": "font files and screen image references survive durable save and portable export"
+    },
+    {
+      "case": "backup entry: original export button streams to file picker; original import button validates and restores the same complete project",
+      "status": "passed",
+      "current": "backup entry: original export button streams to file picker; original import button validates and restores the same complete project"
+    },
+    {
+      "case": "backup entry: picker cancellation and corrupted import leave the current project untouched",
+      "status": "passed",
+      "current": "backup entry: picker cancellation and corrupted import leave the current project untouched"
+    }
+  ],
+  "cases": [
+    {
+      "case": "04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 35",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 5",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "04012 R2: next dialogue first DOM commit never inherits completed text at speed 80",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: flag preset never overwrites an existing numeric variable or project input",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator 0 != 0 connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator 0 <= 0 connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator 0 >= 0 connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator abs(-1) connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator ceil(1.5) connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator floor(1.5) connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator max(1,2) connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator min(1,2) connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R6: typed operator sqrt(4) connects and executes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: batch delete requires confirmation, clears dangling branch targets and is undoable",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: batch move preserves order, unknown fields and incoming cross-chapter destinations",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: bounded 1000-event list selection and bulk movement retain all event semantics",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: bounded 500-event list selection and bulk movement retain all event semantics",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: changing chapters while deletion is pending cancels the old operation",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: checkbox selection, active editing, all and clear remain independent without touching canonical events",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "C2: section checkbox participates in selection; closed groups do not hide a newly located cursor",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D 1000 native statements retain identities with a prepended instruction in bounded work",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D applying reordered source preserves foreign jumps by destination event ID",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D chapter changes show the correctly bound script and preserve both chapters independently",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D clean KOI file follows block/event edits without manual refresh",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D derived synchronization is idempotent and never writes a competing event list",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D drafts also detect concurrent variable changes when chapter events did not change",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D global Undo and Redo restore the same source draft in the code editor",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D invalid or duplicate value identities are rejected before source application",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal",
+      "status": "passed",
+      "logs": [
+        "sync-events-regression.log"
+      ]
+    },
+    {
+      "case": "asset deletion saves with accurate reduced payload without damaging other projects",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "atomic save/reload retains unknown data and exact bytes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "backup entry: original export button streams to file picker; original import button validates and restores the same complete project",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "backup entry: picker cancellation and corrupted import leave the current project untouched",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "cancelled and failed writes abort the writer and never report a complete backup",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "capacity categories sum exact UTF-8 metadata plus stored rows; references do not multiply assets",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "deleting an asset unlinks all scene, sprite, CG and audio references",
+      "status": "passed",
+      "logs": [
+        "legacy-regression.log"
+      ]
+    },
+    {
+      "case": "font files and screen image references survive durable save and portable export",
+      "status": "passed",
+      "logs": [
+        "legacy-regression.log"
+      ]
+    },
+    {
+      "case": "input, interpolation, branching, and rollback restore the complete variable state",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "legacy Base64 assets still save, load and export with original identifiers",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "legacy Base64 project migrates only after durable save and verification",
+      "status": "passed",
+      "logs": [
+        "legacy-regression.log"
+      ]
+    },
+    {
+      "case": "local handoff: Windows and POSIX filesystem paths produce the same asset URL",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "local handoff: application source, Logo, HTML and CSS remain byte-identical",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "logic loops are bounded and cross chapter jumps execute",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "policy uses exactly 5,000,000,000 bytes with exact decimal boundaries",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "preview from a selected line restores preceding scene and character state",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "public safety: 5GB format policy is separate from the retained r2 write limit",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: font import and edited-image copies cannot bypass the common write boundary",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: large JSON and game ZIP are refused before buffered materialization",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: ordinary legacy JSON backup works without file picker, edits and reload preserve IDs",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: oversized .koib manifest is rejected before payload read or object URL creation",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: oversized JSON import refuses before reading and leaves project and events unchanged",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: oversized save is rejected before IndexedDB access and preserves an existing save",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "public safety: visible capacity labels and footer disclose the write boundary without claiming 5GB browser support",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "quota and interrupted transaction leave previous snapshot and assets intact",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "quota estimates are optional shared-origin estimates, never a guaranteed project allowance",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "quota preflight rejects a changed project without beginning a transaction or overwriting saved state",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real desktop renderer",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real mobile renderer",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r2 editor: a section crossing a loop boundary is diagnosed without deleting neighboring events",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 editor: footer and list use the same event definition and explicitly distinguish chapter/project scopes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 editor: pending section delete refuses a changed ownership range",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 editor: section deletion confirms all owned events, warns foreign references, cancels safely and restores by Undo",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r2 palette: Escape, blur, lost capture, secondary cancellation and outside drop cannot synthesize new blocks",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r2 palette: keyboard add remains independent after a drag; ordinary pointer click inserts once",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r2 palette: repeat is one container transaction with owned body/end, not three independent roots",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r2 palette: repeated pointerup, wrong pointer and rapid independent drags preserve exact IDs and one Undo each",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r2 reproduction: a cancelled drag plus its compatibility click never inserts a block",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r2 reproduction: a completed drag plus delayed compatibility clicks remains one insertion",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r2 transaction: the same token is rejected before recursive mutation and replay after Undo",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r3 inherited layout source contract: equal four-column tabs and fixed section actions retain theme, block shape and keyboard focus",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r3 inherited layout: section controls share one header and keep checkbox, collapse, rename and delete targets separate",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r3 inherited layout: separator and all three densities persist without changing event data; legacy strong remains representable",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 Debug is a detached read-only projection of the actual Engine, with explicit checkpoint limitations",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 Debug preview entry inspects the current event, pauses without project mutation, and is absent from standalone games",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 capacity CSS remains strictly local: 20px flat bar, aligned grid, mobile column and no global color/font changes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 capacity real panel: eight aligned categories, exact totals, readable free space and folded engineering details",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 capacity uses compact decimal units without altering underlying bytes",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 experimental backend saves real Blobs, preserves other projects and rolls back quota/interrupted writes atomically",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 experimental mode refuses unknown browser quota and cannot silently upgrade an existing normal project",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 explicit light-theme text default is black; existing accent and semantic muted colors remain intact",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 explicit test project alone can use the 5e9 policy; normal projects and invalid markers retain 2GiB protection",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 folder game export streams assets into a fresh directory with the actual standalone runtime and no incomplete marker",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 interrupted folder output remains explicitly incomplete, does not alter project and never overwrites prior output",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 intro cover remains opaque while only title text animates: fade",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r4 intro cover remains opaque while only title text animates: fadeOut",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r4 intro cover remains opaque while only title text animates: left",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r4 intro-to-black first commit cannot transition from the revealed old scene",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r4 parser, four-mode sources and storage identity remain unchanged; release sources agree",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r4 protected GUI: original Logo, base CSS, typography, block silhouettes and navigation are preserved",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "r4 real UI: experimental creation refuses unsupported environments, cancellation preserves project, confirmed entry creates a separate empty project",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "r4 real editor pointer replay: floating head detach preserves tail DOM geometry, cancellation and Undo restore data",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r4 real editor: paired C spines render and follow parent drag, no persistence on cancel",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r4 statement inputs: 1 nested containers have measured spines, independent body detach and legal reinsert",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r4 statement inputs: 2 nested containers have measured spines, independent body detach and legal reinsert",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r4 statement inputs: 3 nested containers have measured spines, independent body detach and legal reinsert",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r4 video reproduction: extracting a floating head must preserve the remaining tail world position",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r4 video trash replay: deleting a floating stack never pans the viewport to the final story event",
+      "status": "passed",
+      "logs": [
+        "blocks-final.log"
+      ]
+    },
+    {
+      "case": "r4 zero-second fade remains immediate instead of silently becoming a one-second CSS transition",
+      "status": "passed",
+      "logs": [
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "same filename with distinct IDs is stored twice; duplicate IDs are rejected",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "save data follows stable event IDs after inserting a scene event",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "save/load preserves state, actors, history, background, and variables",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    },
+    {
+      "case": "single-file import caps are enforced before decoding or allocating oversized data",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "stream backup rejects truncation, corrupt bytes and unsupported versions before replacing data",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "stream backup roundtrip retains every field and binary asset with checksum",
+      "status": "passed",
+      "logs": [
+        "npm-test.log"
+      ]
+    },
+    {
+      "case": "transaction failures leave the previous project and files intact",
+      "status": "passed",
+      "logs": [
+        "legacy-regression.log"
+      ]
+    },
+    {
+      "case": "visual and audio control events are applied before dialogue",
+      "status": "passed",
+      "logs": [
+        "npm-test.log",
+        "final-affected.log"
+      ]
+    }
+  ],
+  "limitations": [
+    "JSDOM/fake-indexeddb is not real browser, touch, audio or 4–5GB proof",
+    "Original historical tests are retained; four source/version/CSS assertions superseded by explicit r4 requirements, not falsely counted unchanged passes"
+  ]
+}

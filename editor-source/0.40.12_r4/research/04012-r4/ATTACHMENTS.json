@@ -1,0 +1,74 @@
+[
+  {
+    "name": "螢幕擷取畫面 2026-10-22 151702(1).png",
+    "sha256": "1abf661204f085c06962eb6b73551a45ce77f2487eb795839b6cc8bd52441cf2",
+    "bytes": 469763,
+    "media": {}
+  },
+  {
+    "name": "螢幕擷取畫面 2026-10-22 150622(2).png",
+    "sha256": "83ec60d009c1a35c427566d9bb1fef38cd6ba2bbafee30fe3327acd59d8786c9",
+    "bytes": 317347,
+    "media": {}
+  },
+  {
+    "name": "F011835A-877B-4B16-9507-D38ED234AC3A.png",
+    "sha256": "43582c9944c8ef85d533e433708b424f0be9a41d8b786e4449a76859f8dd61b4",
+    "bytes": 506867,
+    "media": {}
+  },
+  {
+    "name": "2026-10-22 15-11-04(3).mp4",
+    "sha256": "d5d9c89a7a019fffbf8f509e3eebc6764c401e8e2065b821db4a4b7200e31757",
+    "bytes": 14417618,
+    "media": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 2560,
+          "height": 1440,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "19.166667",
+        "size": "14417618"
+      }
+    }
+  },
+  {
+    "name": "螢幕擷取畫面 2026-10-22 151454(1).png",
+    "sha256": "7b10e2ca90ad0115d7570b2311bf618ca18f96985f35a57d88ac9093d20e441c",
+    "bytes": 285546,
+    "media": {}
+  },
+  {
+    "name": "2026-10-22 15-14-11(2).mp4",
+    "sha256": "1ef2e2d70f2fccd439b78c0e6d550e17c18fd44c27042bedfbe8ddf453833870",
+    "bytes": 22086860,
+    "media": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 2560,
+          "height": 1440,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "29.233333",
+        "size": "22086860"
+      }
+    }
+  }
+]

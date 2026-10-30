@@ -1,0 +1,72 @@
+[
+  {
+    "file": "dist/app.js",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/motion-state.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "src/packaging.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/generate-script-guide.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/generate-feature-matrix.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/generate-features.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "scripts/verify-static-assets.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/r4-story.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/r4-exit-state.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/r4-legacy-target.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/r4-target-dom.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/r4-exit-preload.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/r4-release.test.mjs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/r4-story-fixture.mjs",
+    "exitCode": 0,
+    "output": ""
+  }
+]

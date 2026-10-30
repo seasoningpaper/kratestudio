@@ -1,0 +1,9 @@
+✔ SQLite已提交但索引尚未更新即終止，新專案重開後不會消失 (150.56118ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 283.378041

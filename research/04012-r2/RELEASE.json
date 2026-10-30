@@ -1,0 +1,54 @@
+{
+  "version": "0.40.12_r2",
+  "projectId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "sitesVersion": 59,
+  "publishedSource": "20901c7d8891e901ca9af0ceb6d2e6cd6e1cfad3",
+  "savedVersionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_65261dce0c648191903ca31b0126fb83",
+  "deployment": {
+    "id": "appgdep_6ad8ffb6539c81918cdb33b808d73041",
+    "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 視覺化故事創作平台 0.40.12_r1",
+    "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_65261dce0c648191903ca31b0126fb83",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad04b4f4db081918fe4a0e9d541130f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-21T18:09:07.478098+00:00"
+  },
+  "site": {
+    "title": "Koi Maker 視覺化故事創作平台 0.40.12_r2",
+    "status": "active",
+    "access": "public",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site"
+  },
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000e7d8820989b01986367113c1",
+    "content_hash": "sha256:ff46e6e6ce8be5f28ba2e88b08d14d861667e3d90551f57159882d0a99b3e505",
+    "size_bytes": 11100160,
+    "file_count": 36
+  },
+  "previous": {
+    "sitesVersion": 58,
+    "source": "2d4ee8a8922fffe28c60549d1420b744ac7577a6",
+    "savedVersionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_aed0ade748d88191874221e41d6f06f2"
+  },
+  "publishedSourceZip": {
+    "file": "Koi-Maker-0.40.12_r2-published-source.zip",
+    "bytes": 13262912,
+    "sha256": "f82f9b3717cba4fe5014a3f81d9fcca2e6b16533cb44e6b6e1e726dd31214d42"
+  },
+  "manualPending": [
+    "real multi-resolution light/dark pixels",
+    "physical touch",
+    "240FPS intro and typing",
+    "audio listening",
+    "Windows11 actual installation and GUI"
+  ],
+  "productionFetch": "search service could not fetch; no browser claim",
+  "screenshot": "current native screenshot object remains Sites58; not misrepresented as r2"
+}

@@ -1,0 +1,10 @@
+✔ P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback (678.961064ms)
+✔ P1-B dragging a tail out of a floating stack detects its real external connection (447.357704ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1607.89141

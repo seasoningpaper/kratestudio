@@ -1,0 +1,11 @@
+✔ local handoff: Windows and POSIX filesystem paths produce the same asset URL (0.973294ms)
+✔ local handoff: application source, Logo, HTML and CSS remain byte-identical (62.515503ms)
+✔ local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly (221.129994ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 389.560046

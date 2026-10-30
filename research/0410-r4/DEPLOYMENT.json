@@ -1,0 +1,26 @@
+{
+  "status": "succeeded",
+  "version": "0.41.0_r4",
+  "site_version": 65,
+  "project_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_1461059333648191805e99fe5a611e7f",
+  "deployment_id": "appgdep_6adcbec0727c8191a99dd2c4b596e033",
+  "published_source_commit": "39a7cbcfd6c7e479061a0e8c4e999d5c363204df",
+  "url": "https://koimaker.briny-angel-8862.chatgpt.site/",
+  "audience": "public",
+  "updated_at": "2026-10-24T14:21:00.902482+00:00",
+  "archive_content_hash": "sha256:8dcc99334c24f46fa3efecf9580a890d4e500e3d80188f70d16571f86b78ff1d",
+  "rollback": {
+    "site_version": 64,
+    "version_id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_478d5161f36881918f0d22debfb405b6",
+    "deployment_id": "appgdep_6adc59dbb85481918952c6c5f4f7a915",
+    "commit": "f2db20232f5349b2907c3836fdcf549e8c9b81ae",
+    "archive_content_hash": "sha256:706ce45af6ec88f01590fca3dcab58b44add456f3906eca9e2d2633baedd1d62"
+  },
+  "post_deploy_browser": {
+    "title": "Koi Maker 視覺化故事創作平台 0.41.0_r4 — 公開測試修訂版",
+    "header": "測試版 0.41.0_r4",
+    "sidebar": "Koi Maker 0.41.0_r4",
+    "screenshot": "final-qa/r4-production.jpg"
+  }
+}

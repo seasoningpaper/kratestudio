@@ -1,0 +1,131 @@
+{
+  "preservedFiles": [
+    {
+      "file": "dist/style.css",
+      "identicalToR50": true,
+      "sha256": "451a7b71652370826b061b35ede1c04c58c53c98b865ccfb6e034d0845c80181"
+    },
+    {
+      "file": "dist/player.css",
+      "identicalToR50": true,
+      "sha256": "65c451b70fd38010da49ff89ebc9049081c743673e4e2a717689bfa7e4a0f7fa"
+    },
+    {
+      "file": "src/block-audio.mjs",
+      "identicalToR50": true,
+      "sha256": "5d487e7a66e4e6d75258b123c7ac02a3e93f143b82deefa5855fbb11c7717a85"
+    },
+    {
+      "file": "src/engine.mjs",
+      "identicalToR50": true,
+      "sha256": "9da7a8e6a595e93d714bf2263a7b71904ce9ad1fe3298380457338abceec0b3a"
+    },
+    {
+      "file": "src/storage.mjs",
+      "identicalToR50": true,
+      "sha256": "bfb17a50a0eea8f41ce015a18bae1850330fe4b416424888a5e48b5ad09b4586"
+    },
+    {
+      "file": "src/program-sync.mjs",
+      "identicalToR50": true,
+      "sha256": "997fd8dadd152fb374e3ee94ea02108f7384d5f524f9792603e95ce58d6a4897"
+    },
+    {
+      "file": "src/backgrounds.mjs",
+      "identicalToR50": true,
+      "sha256": "59d63211c57f1fcd15e117b497e015859fa8660b56a615f7f4f0f2b7053a4a3f"
+    },
+    {
+      "file": "src/game-designer.jsx",
+      "identicalToR50": true,
+      "sha256": "c77569f26176177b498fbe250099c166db4eeb27e0c777a12ba3632eac68ac67"
+    },
+    {
+      "file": "src/menu-template-editor.jsx",
+      "identicalToR50": true,
+      "sha256": "027acc92df46410bc373b68030304d5f3b5987b22ce6c1fa27ba946448a05e46"
+    },
+    {
+      "file": "qa/p0-c-visual-review.html",
+      "identicalToR50": true,
+      "sha256": "f8a29622ec1544e0be7359be7cdba5581adf45850e403a6504657ffd4d7c07ab"
+    },
+    {
+      "file": "dist/assets/ui/click.mp3",
+      "identicalToR50": true,
+      "sha256": "1048f2539ac47e4eaa4bd1688968c0d7b9956bd6fef507644ee5131924c6517c"
+    },
+    {
+      "file": "dist/assets/ui/delete.mp3",
+      "identicalToR50": true,
+      "sha256": "6ea0afab062cb3ba5409dc65d7a9fdf85d602b1870d231d80bdf3cc5b32432b6"
+    },
+    {
+      "file": "dist/assets/ui/disconnect.wav",
+      "identicalToR50": true,
+      "sha256": "af6be7442f17223421cc012c59bf72bd5303e2878d0287acb4d0368d3995cf8a"
+    },
+    {
+      "file": "research/p1a-20261020/MANUAL-P1-A.md",
+      "identicalToR50": true,
+      "sha256": "1f9a4c756630fee863798976c25a94c89f327f6a3499241d5cbca588cb9ee298"
+    },
+    {
+      "file": "research/p1a-20261020/REPORT.md",
+      "identicalToR50": true,
+      "sha256": "737924ed95396f41e0a266a46c5920baaaeb762feb752d8259d3e96f4e9d0f37"
+    },
+    {
+      "file": "research/p1a-20261020/build.txt",
+      "identicalToR50": true,
+      "sha256": "61a0ca1d9fcae5e4b19a25e26c8ddcf0b540083c72edcdc21d1ab5969c5d4dcc"
+    },
+    {
+      "file": "research/p1a-20261020/first-tests.txt",
+      "identicalToR50": true,
+      "sha256": "4792afa4e22a129a2f229e3ec0ab6292f7404a3256eb94745da45b38e828cae5"
+    },
+    {
+      "file": "research/p1a-20261020/focused-regression.txt",
+      "identicalToR50": true,
+      "sha256": "74af859779eeea41c3cd4954b88b07692aed627d4d1bd637b930896e8b756bec"
+    },
+    {
+      "file": "research/p1a-20261020/import-restore.txt",
+      "identicalToR50": true,
+      "sha256": "102df40cef95aeaa2fde633ad17cda4150dd283c7bc669033934e455bb2d5ec5"
+    },
+    {
+      "file": "research/p1a-20261020/mobile-restore-retry1.txt",
+      "identicalToR50": true,
+      "sha256": "89f5bdb75b6927987d1d6a4c66bd00798e6280e011f1b8d725cc072fd495f325"
+    },
+    {
+      "file": "research/p1a-20261020/p0d-regression.txt",
+      "identicalToR50": true,
+      "sha256": "989e760ad2fa72367070ed4bf96cb3fc88e79bd10e7f7da8a6a05060bf59680c"
+    },
+    {
+      "file": "research/p1a-20261020/preserved-files.json",
+      "identicalToR50": true,
+      "sha256": "822f4c75df9a1e2a0662bcbeb768dd9fff3812cfe7659d5146f1303291d69447"
+    },
+    {
+      "file": "research/p1a-20261020/retry1-tests.txt",
+      "identicalToR50": true,
+      "sha256": "ea0bd88a495e5227db47965b1abb7229295ee4286edea3b4515bc410234f1f42"
+    },
+    {
+      "file": "research/p1a-20261020/syntax.json",
+      "identicalToR50": true,
+      "sha256": "c63bffce2da760ba0bda6b6edc664f2858c1b7e549a3551420772f15cdc71673"
+    },
+    {
+      "file": "research/p1a-20261020/worker-fetch.txt",
+      "identicalToR50": true,
+      "sha256": "e3936747a934ad8841ec93b64e2e2c6a24fb014282085a6666d409d6a233a3d0"
+    }
+  ],
+  "htmlOnlyChange": "sidebar label: KOI Maker  0.40.10_r50",
+  "browserVisualQA": "未執行"
+}

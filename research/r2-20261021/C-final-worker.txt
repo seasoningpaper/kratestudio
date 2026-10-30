@@ -1,0 +1,2 @@
+Worker built with 22 app files, 5568 KB
+Artifact is valid ESM and exports default.fetch

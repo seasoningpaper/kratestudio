@@ -1,0 +1,15 @@
+{
+  "environment": "Node file-backed Blob and real temporary disk; NOT a real browser IndexedDB/quota test",
+  "payloadBytes": 4990000000,
+  "diskLimitBytes": 10100000000,
+  "timeoutSeconds": 180,
+  "results": {},
+  "projectBytes": 695033796,
+  "error": {
+    "name": "AssertionError",
+    "message": "The expression evaluated to a falsy value:\n\n  assert.ok(report.projectBytes>2147483648&&report.projectBytes<5e9)\n"
+  },
+  "totalMs": 3480.27249,
+  "peakRSSBytes": 49803264,
+  "temporaryDataRemoved": true
+}

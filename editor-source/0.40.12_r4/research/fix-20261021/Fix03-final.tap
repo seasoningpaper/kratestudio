@@ -1,0 +1,32 @@
+✔ Fix-03 primitive animation numeric and boolean sockets reject incompatible or unevaluated values atomically (2.540672ms)
+✔ Fix-03 child detach, primitive editing and independent copies retain fallbacks and exact script/runtime semantics (11.265309ms)
+✔ Fix-03 actual numeric/boolean modules share global Undo/Redo and survive project save and reload (922.419534ms)
+✔ Fix-03 detaching an optional module restores absence and runtime defaults after JSON reload (0.884621ms)
+✔ P0-C real pointer drop, atomic undo/redo, detachment, long multiline edit, save/reload and cancellation (682.876943ms)
+✔ P0-A rapid additions use live selection, unique IDs, unchanged toolbox templates and stable downstream targets (512.448353ms)
+✔ P0-C string sockets retain exact Unicode, newlines, quotes, voice/speed, fallback and serialize in KOI Script (13.013509ms)
+✔ P0-C moving and replacing a value keeps one owner, preserves displaced values, and rejects illegal slots atomically (1.538465ms)
+✔ P0-C text variables interpolate and number expressions retain existing runtime semantics (2.83802ms)
+✔ P0-C copied value sockets get fresh identities and never change the original template (0.988778ms)
+✔ P0-C intrinsic field measurement expands and shrinks, and reflow supplies the actual snap connector at every zoom (0.674534ms)
+✔ P0-C string values beginning with equals stay literal and edits preserve the attached identity (1.384252ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.55527ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (13.204397ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.416437ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.302766ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (2.407072ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.597499ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (2.504678ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.967866ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.376156ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.315745ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (0.944341ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (46.786135ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3162.550523

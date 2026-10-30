@@ -1,0 +1,51 @@
+✔ P1-A background zoom respects image and canvas aspect, clamps positions and keeps legacy sizing (0.83852ms)
+✔ P1-A inserting a missing chapter background preserves IDs and all incoming branch destinations (1.293604ms)
+✔ P1-A screen background profiles, template export and asset references remain separate (2.135278ms)
+✔ P1-A game designer selects library backgrounds, creates one missing background and persists configuration (1067.124609ms)
+✖ P1-A title library background, fit and position reach desktop/mobile designer and player (1093.050638ms)
+✔ P1-A save/load/settings backgrounds use the existing surface and preserve separate desktop/mobile settings (1625.765966ms)
+✖ P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue (335.344776ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 5
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4490.943745
+
+✖ failing tests:
+
+test at tests/p1a-backgrounds.test.mjs:10:1
+✖ P1-A title library background, fit and position reach desktop/mobile designer and player (1093.050638ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /AQIDBA/. Input:
+  
+  'url("blob:nodedata:6a1866af-1ef7-44c2-b87b-657b8340430c")'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1a-backgrounds.test.mjs:10:827)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'url("blob:nodedata:6a1866af-1ef7-44c2-b87b-657b8340430c")',
+    expected: /AQIDBA/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/p1a-backgrounds.test.mjs:12:1
+✖ P1-A switching a scene resets previous fit/position/zoom and keeps one background below the dialogue (335.344776ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /AQIDBA/. Input:
+  
+  'url("blob:nodedata:88e13ac7-7f68-42ae-b64c-e83c485df505")'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p1a-backgrounds.test.mjs:12:491)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'url("blob:nodedata:88e13ac7-7f68-42ae-b64c-e83c485df505")',
+    expected: /AQIDBA/,
+    operator: 'match',
+    diff: 'simple'
+  }

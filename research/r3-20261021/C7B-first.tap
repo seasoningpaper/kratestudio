@@ -1,0 +1,16 @@
+✔ R3 global replace covers chapters and options while excluding labels, IDs, resources, unknown fields and interpolation names (2.60308ms)
+✔ R3 replace rejects unsaved native/legacy script drafts and stale previews before mutation (0.90846ms)
+✔ R3 replace is literal, handles optional display names and has bounded work (0.362044ms)
+✔ R3 typed batch repair fixes missing/current references simultaneously and never crosses asset kinds or changes backups (0.98323ms)
+✔ R3 repair validates entire batch before writing and does not cascade A→B→C (0.408602ms)
+✔ R3 diagnostics reports empty/nonexistent/numeric animation targets, unknown instructions and duplicate event IDs consistently (0.735635ms)
+✔ R3 actual global-search entry previews, confirms, persists changes and supports app Undo/Redo (1014.339708ms)
+✔ R3 actual asset-repair entry updates typed references and restores them with one Undo (767.678537ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2218.018917

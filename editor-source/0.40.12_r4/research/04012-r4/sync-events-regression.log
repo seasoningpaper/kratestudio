@@ -1,0 +1,44 @@
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 5 (487.274039ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 35 (355.583012ms)
+✔ 04012 R2: next dialogue first DOM commit never inherits completed text at speed 80 (270.870936ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 0 (314.117289ms)
+✔ 04012 R2: intro stays until new chapter scene assets are ready, without exposing the old stage 180 (529.74753ms)
+✔ 04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow (19.890193ms)
+✔ 04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow (25.593725ms)
+✔ 04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow (36.994033ms)
+✔ 04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields (1375.653221ms)
+✔ 04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields (1525.31403ms)
+✔ 04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields (1835.016024ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.70379ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (15.065041ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.482909ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.219461ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (2.963589ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.644863ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (2.714093ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.840838ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.451781ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.337459ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (0.909431ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (57.28681ms)
+✔ C2: checkbox selection, active editing, all and clear remain independent without touching canonical events (923.911251ms)
+✔ C2: Shift anchor uses stable IDs; Ctrl/Command toggle and range union work (757.253656ms)
+✔ C2: section checkbox participates in selection; closed groups do not hide a newly located cursor (669.746069ms)
+✔ C2: batch copy creates independent nested values and fresh identities, remaps internal branches; Undo/Redo is atomic (745.458661ms)
+✔ C2: batch move preserves order, unknown fields and incoming cross-chapter destinations (750.5236ms)
+✔ C2: batch delete requires confirmation, clears dangling branch targets and is undoable (642.317736ms)
+✔ C2: changing chapters while deletion is pending cancels the old operation (642.94653ms)
+✔ C2: safe batch setting affects only dialogue fields and leaves labels, branch text and unknown data intact (677.335624ms)
+✔ C2: list preferences persist through project save/reload and Undo/Redo without changing storage identity (619.67574ms)
+✔ C2: scrolling survives checkbox renders and chapter switches; keyboard editing does not replace batch selection (666.705657ms)
+✔ C2: bounded 500-event list selection and bulk movement retain all event semantics (1125.930753ms)
+✔ C2: bounded 1000-event list selection and bulk movement retain all event semantics (1451.170869ms)
+✔ C2: batch dialogue edits preserve unsaved KOI Script drafts and mark an explicit conflict (691.581895ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18361.992695

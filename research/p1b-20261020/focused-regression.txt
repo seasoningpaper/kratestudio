@@ -1,0 +1,16 @@
+✔ stack detach/attach moves the full tail and preserves animation targets and numeric story edges (3.06649ms)
+✔ music crossfade keeps desired stems, fades removed sources, respects volume and disposes channels (110.256616ms)
+✔ custom audio playback replaces native controls and starting another track pauses the first (347.534181ms)
+✔ r5 pointer cancellation, Escape, outside drops and mode changes never detach or reorder events (968.77187ms)
+✔ r6 right-click exposes single, following and whole-stack detach with one-step undo (1247.565629ms)
+✔ r6 Alt-drag extracts a single statement and its original neighbors remain connected (400.426568ms)
+✔ autoplay rejection offers a themed play action and broken title video falls back to the title background (390.436299ms)
+✔ returning to the same video event restarts the media rather than leaving the finished frame stuck (199.11489ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4827.314515

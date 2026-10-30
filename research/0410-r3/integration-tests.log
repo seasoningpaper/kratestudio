@@ -1,0 +1,11 @@
+✔ r3 50 real editor mode round trip, source, unknown fields, loops, undo and persistence (1666.700189ms)
+✔ r3 300 real editor mode round trip, source, unknown fields, loops, undo and persistence (1419.888028ms)
+✔ r3 500 real editor mode round trip, source, unknown fields, loops, undo and persistence (1592.717156ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5217.484102

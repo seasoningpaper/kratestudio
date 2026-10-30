@@ -1,0 +1,37 @@
+[
+  {
+    "file": "dist/app.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/player.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "dist/workspace.js",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/stack-model.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "src/block-audio.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/p1b-block-audio.test.mjs",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "file": "tests/p1b-gallery-audio.test.mjs",
+    "exit": 0,
+    "output": ""
+  }
+]

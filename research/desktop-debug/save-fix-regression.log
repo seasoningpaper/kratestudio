@@ -1,0 +1,42 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker-desktop@0.41.0-dev.1 test
+> node --test --test-concurrency=1 --test-timeout=20000 tests/*.test.ts tests/*.test.mjs
+
+✔ 真實SQLite保存、關閉及重開後完整保留事件ID與未知欄位 (19.923269ms)
+✔ 專案資料夾與預期目錄存在，使用者ID不構成路徑 (13.515284ms)
+✔ 重複事件ID、錯誤集合及未知結構明確拒絕 (0.556783ms)
+✔ 分段二進位素材真正落盤且重新讀取一致 (18.675407ms)
+✔ 素材舊版本保留，Undo後可重新引用舊內容 (29.325046ms)
+✔ 取消及未寫完的交易不覆寫舊事件或素材 (16.657446ms)
+✔ 新專案取消後不出現在專案清單 (7.307685ms)
+✔ 拒絕重複交易、重複分段與過大分段 (6.080531ms)
+✔ 配額不足在寫入前拒絕且保留原專案 (15.417795ms)
+✔ 5GB邊界拒絕不是大量占用磁碟的假壓測 (6.319425ms)
+✔ 複製專案會複製已授權素材且保留獨立狀態 (28.055311ms)
+✔ 未知或外部素材參照不允許讀取檔案 (4.595137ms)
+✔ 路徑穿越及符號連結穿越拒絕 (5.647041ms)
+✔ 新版本SQLite拒絕載入且原document不變 (13.34324ms)
+✔ JSON鏡像損壞由SQLite主資料恢復 (11.723438ms)
+✔ 偏好、遊戲存檔及解鎖鍵維持原名稱並存入SQLite (8.475319ms)
+✔ 刪除專案僅回收、不刪除素材或專案檔案 (15.982308ms)
+✔ IPC只允許主程式URL，拒絕外部頁、子路徑、帳密與無效URL (0.316277ms)
+✔ Renderer provider透過真實SQLite保存及恢復，不呼叫瀏覽器儲存 (23.561854ms)
+✔ 素材由data URL遷移為原生二進位，重複存檔不重新上傳 (27.823585ms)
+✔ 失去preload橋接時停止，不退回IndexedDB (0.765511ms)
+✔ 原生素材串流尊重背壓與取消，不預載整個素材 (1.988327ms)
+✔ 桌面生成版本沿用相同DOM、CSS和Logo，只變更版本文案與啟動腳本 (113.890237ms)
+✔ 同一實際UI在原生provider下切換四模式、Undo/Redo、儲存及重載 (448.912582ms)
+✔ 儲存期間替換素材後，下一次儲存必須保存新檔案而非舊快取 (30.72184ms)
+✔ SQLite開啟失敗會解除交易，不能永遠卡在同一專案儲存中 (15.575858ms)
+✔ project.json鏡像無法更新時仍可從完好的SQLite開啟專案 (13.550155ms)
+✔ Electron安全設定與preload能力採固定白名單，沒有暴露原始IPC或Node檔案權限 (1.086294ms)
+✔ 正式安裝版與Portable在P0待驗時確實被阻擋 (52.292784ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1644.885956

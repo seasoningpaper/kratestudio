@@ -1,0 +1,26 @@
+✔ 04012 R7 50: until, flag, role and operators preserve all fields and execution through code/block/flow (29.288516ms)
+✔ 04012 R7 300: until, flag, role and operators preserve all fields and execution through code/block/flow (38.010363ms)
+✔ 04012 R7 500: until, flag, role and operators preserve all fields and execution through code/block/flow (55.752873ms)
+✔ 04012 R7 DOM 50: actual four modes, Undo/Redo and project storage preserve new fields (1432.359114ms)
+✔ 04012 R7 DOM 300: actual four modes, Undo/Redo and project storage preserve new fields (1588.511515ms)
+✔ 04012 R7 DOM 500: actual four modes, Undo/Redo and project storage preserve new fields (1871.21637ms)
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.741177ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (14.522942ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.726289ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.286075ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (3.329648ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.856944ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (3.502235ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.878055ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.410239ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.347116ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (0.929031ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (48.306002ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5613.876909

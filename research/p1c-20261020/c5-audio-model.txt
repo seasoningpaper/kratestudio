@@ -1,0 +1,15 @@
+✔ sound track persists across dialogue changes, independently replaces voice, and stops explicitly (2.860859ms)
+✔ same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX (1.273038ms)
+✔ ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops (0.316367ms)
+✔ KOI sound loops and selective/all stops compile to runtime events (2.436299ms)
+✔ KOI event source round-trips attributes, quotes, semicolons and existing numeric branches (1.675254ms)
+✔ options, GUI, screens and modules apply to the same project with real activity references (5.859064ms)
+✔ continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters (1.113527ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 113.975209

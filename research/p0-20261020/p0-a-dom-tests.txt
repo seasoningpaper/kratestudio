@@ -1,0 +1,13 @@
+✔ card paste preserves internal and preexisting destinations while creating unique event IDs (29.529333ms)
+✔ script CRUD updates chapter tabs, unlinks deleted chapter jumps, and supports undo (1601.157412ms)
+✔ tools and image editors live in separate tabs and retain unsaved script draft across switches (1309.100687ms)
+✔ flow keyboard shortcuts select, copy and paste the cards without intercepting text inputs (852.642493ms)
+✔ phone tools open the workspace and image adjustments survive other tabs changing the shared project (1284.27065ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9059.218551

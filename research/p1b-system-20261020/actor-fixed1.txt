@@ -1,0 +1,14 @@
+✔ actor isolation: designer edits the selected animation event, not the earlier character cue (818.918264ms)
+✔ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (2.458722ms)
+✔ actor isolation: a new character cue without motion does not replay the previous one-shot (0.315866ms)
+✔ actor isolation: nested placement in visual state never aliases authored event parameters (0.419772ms)
+✔ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.367724ms)
+✔ actor isolation: numeric actor IDs survive event reordering as strings (0.374915ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1257.142318

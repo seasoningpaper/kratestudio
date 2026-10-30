@@ -1,0 +1,34 @@
+✔ P0-D clean KOI file follows block/event edits without manual refresh (362.448637ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (286.127712ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (140.851106ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (245.659625ms)
+✖ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (206.680177ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (262.802452ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (221.968134ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2079.118595
+
+✖ failing tests:
+
+test at tests/p0d-dom.test.mjs:10:1
+✖ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (206.680177ms)
+  AssertionError [ERR_ASSERTION]: {"events":[{"id":"a","type":"dialogue","name":"小春","text":"積木字串","custom":{"keep":true},"blockInputs":{"text":{"kind":"string","value":"積木字串","id":"75cce53b-f073-4c6f-afac-08c6e3a65ac1","output":"積木字串","fallback":"原文"}}},{"id":"b","type":"dialogue","text":"事件欄位更新"},{"id":"end","type":"end","text":"結尾"}],"errors":[]}
+  
+  '積木字串' !== '事件欄位更新'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/p0d-dom.test.mjs:10:750)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '積木字串',
+    expected: '事件欄位更新',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

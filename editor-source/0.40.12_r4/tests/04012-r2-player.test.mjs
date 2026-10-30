@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import JSZip from 'jszip';
+import {setup,wait,set} from './p1c-dom-harness.mjs';
+import {gameUI,elementStyle} from '../src/game-ui.mjs';
+
+for(const device of ['desktop','mobile'])test('r2 Player: existing dialogue radius control applies 0/4/8/custom, saves, restores and reaches the real '+device+' renderer',{timeout:10000},async()=>{
+ const h=await setup();try{h.w.__tools('gameDesigner');await wait();set(h.w,h.d.querySelector('[aria-label="畫面編輯版面"]'),device);await wait();const before=JSON.stringify(h.w.__p().chapters);for(const n of [0,4,8,13]){set(h.w,h.d.querySelector('[aria-label="圓角 px"]'),String(n));await wait();assert.equal(gameUI(h.w.__p(),device).elements.dialogue.radius,n)}await h.w.KoiStorage.saveProject(h.w.__p());const restored=await h.w.KoiStorage.loadProject(h.w.__p().id);assert.equal(gameUI(restored,device).elements.dialogue.radius,13);h.w.KoiPlayer.mount(restored,{start:{chapter:0,index:0},previewDevice:device});await wait(140);assert.equal(h.d.querySelector('.koi-player .game-textbox').style.borderRadius,'13px');assert.equal(JSON.stringify(h.w.__p().chapters),before);assert.equal(h.errors.length,0)}finally{h.dom.window.close()}
+});
+test('r2 Player: HTML5 game export preserves dialogue radius and legacy default remains unchanged',{timeout:10000},async()=>{const h=await setup();try{const p=h.w.__p();assert.equal(elementStyle(gameUI(p).elements.dialogue,p).borderRadius,'2px');p.settings.gameUI={...gameUI(p),elements:{...gameUI(p).elements,dialogue:{...gameUI(p).elements.dialogue,radius:8}}};h.w.fetch=async url=>{const b=await readFile('dist/'+url);return{ok:true,text:async()=>b.toString(),arrayBuffer:async()=>b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)}};const blob=await h.w.KoiPackage.zipGame(p),bytes=await new Promise((resolve,reject)=>{const r=new h.w.FileReader();r.onload=()=>resolve(Buffer.from(r.result.split(',')[1],'base64'));r.onerror=reject;r.readAsDataURL(blob)}),zip=await JSZip.loadAsync(bytes),game=await zip.file('game.js').async('string');assert.ok(game.includes('"radius":8'));assert.equal(await zip.file('player.js').async('string'),await readFile('dist/player.js','utf8'))}finally{h.dom.window.close()}});

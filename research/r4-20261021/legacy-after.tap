@@ -1,0 +1,37 @@
+✔ P1-C jump: invalid chapter or index diagnoses instead of guessing, falling through or ending (3.674426ms)
+✔ P1-C branch: missing condition destinations and broken next references never fall into another event (1.631218ms)
+✔ P1-C animation: explicit empty targets remain invalid instead of implicitly selecting the last actor (3.98939ms)
+✔ P1-C flags: explicit false does not loop audio, block intros, mute or skip movies, or follow the camera (1.279908ms)
+✔ P1-C legacy: every directly parsed legacy command is recognized in automatic import mode (1.144815ms)
+✔ P1-C save: corrupted state or rollback history is rejected atomically and old valid saves remain usable (0.688447ms)
+✔ P1-C branches: nested conditions, both choice routes and rejoin retain variables, labels and IDs after round-trip (12.679539ms)
+✔ P1-C targets: null, blank, missing, hidden, aliases, custom and numeric IDs are resolved without guessing (1.277485ms)
+✔ P1-C missing labels: diagnostics retain unresolved destinations and playback stops rather than picking a label (0.632513ms)
+✔ R2-B: waiting exit retains target until completion, never removes other actors in same slot (3.04713ms)
+✔ R2-B: actual exit lifecycle fadeOut (0.434014ms)
+✔ R2-B: actual exit lifecycle exitLeft (0.469567ms)
+✔ R2-B: actual exit lifecycle exitRight (0.255625ms)
+✔ R2-B: actual exit lifecycle exitUp (0.234914ms)
+✔ R2-B: actual exit lifecycle exitDown (0.228374ms)
+✔ R2-B: legacy no-animation hide is immediate and isolates its exact key (0.229987ms)
+✔ R2-B: explicit missing and ambiguous exit targets diagnose without deleting anyone (0.462567ms)
+✔ R2-B: unique positional aliases work; exact numeric custom IDs take priority (0.887757ms)
+✔ R2-B: nonwaiting exit advances dialogue and stale callback cannot remove a reappearing actor (0.360943ms)
+✔ R2-B: scene clear cancels pending exits; seeking past exit restores settled state (0.537079ms)
+✔ R2-B: saved waiting/nonwaiting exits round-trip and rollback returns the prior instance (0.592453ms)
+✔ R2-B: repeated show/hide with expression, layer and wait stays independent across script copy (12.576519ms)
+✔ R2-B: native and legacy none syntax remain compatible and native directional exits are executable (3.832745ms)
+✔ R4: reconcile only the same completed exit, never remove other actors or mutate live state (1.469964ms)
+✔ R4: reappearance and slot replacement survive an old exit completion (0.746044ms)
+✔ R4: later exit token and explicit animation cancellation are not mistaken for completed exits (0.313212ms)
+✔ R4: pending and saved legacy actors without exit metadata are preserved (0.238309ms)
+✔ R4 legacy: center alias matches the renderer default for a saved actor with no position (3.867277ms)
+✔ R4 legacy: default positions still require uniqueness, and exact custom IDs keep priority (0.1858ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 148.404562

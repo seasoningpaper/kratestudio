@@ -1,0 +1,17 @@
+{
+  "source": "49161bc2ed86cb05ae024ffe634438258a269a24",
+  "productionSource": "20901c7d8891e901ca9af0ceb6d2e6cd6e1cfad3",
+  "sitesVersion": 59,
+  "audience": "public",
+  "backup": "/workspace/scratch/e00fc226fa87/Koi-Maker-before-0.40.12_r3-49161bc.zip",
+  "backupSha256": "18207cfd67e3c1a07547f714427d586acea994ddedd8ae2fe029623f51ee20be",
+  "guiHashes": {
+    "dist/index.html": "18da1757e58a51509798052870dfe171cd4850b2bf8f04307668f2e0994769ac",
+    "dist/style.css": "686e36cf4b0d42d03eb8682b5df729b9018ca1699ba342381b458b6868cb2c26",
+    "dist/editor-fixes.css": "faadc800a4509671b151f8141657765135af7dac02d1684673752f63a8a701ab",
+    "dist/brand.css": "edcff2220da8d320ec4086455fdc6728655be682d4be2f1bd7e9abe84f629e81",
+    "dist/player.css": "802eb21fdb2a9afd36e7fd2f8c0c4d27b1f243715036185e59ad8f36030c7f5c"
+  },
+  "visualAcceptance": "未執行新截圖比較；已保留 r2 DOM/CSS 與來源。既有管理預覽缺少安全內容 crypto.randomUUID，未使用替代瀏覽器。",
+  "userProjectBackup": "無法存取使用者正式瀏覽器 IndexedDB。原始碼備份不包含使用者專案；未清除或更改正式資料。"
+}

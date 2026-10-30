@@ -1,0 +1,70 @@
+{
+  "version": "0.40.12_r3",
+  "releaseType": "公開測試修訂版",
+  "projectId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+  "sitesVersion": 60,
+  "publishedSource": "49fa62c2988f103739486d8fad2d2ed61fa41bc8",
+  "savedVersionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_f4f80619ee9881919d5e09c4421f56f3",
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000003d708209bef5b9e44575145f",
+    "content_hash": "sha256:5def11d6acf00b11eb57fba113b8c401ca404bffa2ff9f6383a89b16ac3e0371",
+    "size_bytes": 11130880,
+    "file_count": 37
+  },
+  "deployment": {
+    "id": "appgdep_6ad9a8a196f481919e1789ce2bf3293b",
+    "status": "succeeded",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site",
+    "versionId": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_f4f80619ee9881919d5e09c4421f56f3",
+    "updatedAt": "2026-10-22T06:09:49.757620+00:00",
+    "failureMessage": null
+  },
+  "site": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f",
+    "title": "Koi Maker 視覺化故事創作平台 0.40.12_r3 — 公開測試修訂版",
+    "version": 60,
+    "access": "public",
+    "status": "active",
+    "url": "https://koimaker.briny-angel-8862.chatgpt.site"
+  },
+  "rollback": {
+    "id": "appgprj_6ad04b4f4db081918fe4a0e9d541130f~appgver_65261dce0c648191903ca31b0126fb83",
+    "version": 59,
+    "source": "20901c7d8891e901ca9af0ceb6d2e6cd6e1cfad3",
+    "archive": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000e7d8820989b01986367113c1",
+      "content_hash": "sha256:ff46e6e6ce8be5f28ba2e88b08d14d861667e3d90551f57159882d0a99b3e505",
+      "size_bytes": 11100160,
+      "file_count": 36
+    }
+  },
+  "limits": {
+    "policyBytes": 5000000000,
+    "writeBytes": 2147483648,
+    "bufferedExportBytes": 256000000,
+    "bufferedImportFileBytes": 350000000
+  },
+  "tests": {
+    "baselinePassed": 98,
+    "baselineTotal": 98,
+    "uniquePassed": 107,
+    "workerAssets": 35,
+    "syntaxChecks": 10
+  },
+  "manualPending": [
+    "正式站瀏覽器互動及逐個HTTP資產探測",
+    "多解析度深淺色像素",
+    "實機觸控",
+    "240FPS",
+    "聽感",
+    "Windows11實機"
+  ],
+  "authorSyntax": "未實作，下一優先工作包",
+  "publishedSourceZip": {
+    "file": "Koi-Maker-0.40.12_r3-published-source.zip",
+    "bytes": 13404636,
+    "sha256": "f08a83064eb71f137c46a37010dfbf083992cc34911f806546604b617c5fc4d3"
+  }
+}

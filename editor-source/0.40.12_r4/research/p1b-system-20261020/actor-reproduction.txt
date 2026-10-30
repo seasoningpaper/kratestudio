@@ -1,0 +1,136 @@
+✖ actor isolation: designer edits the selected animation event, not the earlier character cue (835.82596ms)
+✖ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (2.544594ms)
+✖ actor isolation: a new character cue without motion does not replay the previous one-shot (0.277578ms)
+✖ actor isolation: nested placement in visual state never aliases authored event parameters (0.298129ms)
+✖ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.456278ms)
+✖ actor isolation: numeric actor IDs survive event reordering as strings (0.335415ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 0
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1335.629279
+
+✖ failing tests:
+
+test at tests/actor-isolation-dom.test.mjs:6:1
+✖ actor isolation: designer edits the selected animation event, not the earlier character cue (835.82596ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'bounce' !== 'fade'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation-dom.test.mjs:6:729)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'bounce',
+    expected: 'fade',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/actor-isolation.test.mjs:3:1
+✖ actor isolation: explicit waiting animations remain sequential engine steps with separate durations (2.544594ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'd' !== 'm1'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation.test.mjs:3:155)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'd',
+    expected: 'm1',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/actor-isolation.test.mjs:4:1
+✖ actor isolation: a new character cue without motion does not replay the previous one-shot (0.277578ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'shake' !== 'none'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation.test.mjs:4:291)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'shake',
+    expected: 'none',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/actor-isolation.test.mjs:5:1
+✖ actor isolation: nested placement in visual state never aliases authored event parameters (0.298129ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  99 !== 2
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation.test.mjs:5:279)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 99,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/actor-isolation.test.mjs:6:1
+✖ actor isolation: an unavailable target produces a runtime diagnostic instead of silently skipping (0.456278ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /動畫目標.*missing/. Input:
+  
+  ''
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation.test.mjs:6:200)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: /動畫目標.*missing/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/actor-isolation.test.mjs:7:1
+✖ actor isolation: numeric actor IDs survive event reordering as strings (0.335415ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== '2'
+  
+      at TestContext.<anonymous> (file:///workspace/sites/galgame-studio/tests/actor-isolation.test.mjs:7:163)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: '2',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

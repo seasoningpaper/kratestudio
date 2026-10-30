@@ -1,0 +1,14 @@
+✔ R2-E Critical DOM: bulk deleting an audio row never selects or deletes an image with the same ID (742.42308ms)
+✔ R2-E Critical: removing audio with a cross-kind ID preserves image/video/font bytes and their references (2.130589ms)
+✔ R2-E: ambiguous untyped deletion fails before mutation; legacy unique-ID API remains valid (0.7574ms)
+✔ R2-E Medium: music stems and camera split secondary references are tracked and cleared consistently (0.580625ms)
+✔ R2-E: typed fonts/video removal and all reference warnings agree without rewriting dialogue/drafts (0.566673ms)
+✔ R2-E: typed bulk selection keys distinguish all valid cross-kind duplicate IDs (0.515666ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1146.041913

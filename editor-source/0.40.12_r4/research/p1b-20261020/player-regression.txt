@@ -1,0 +1,12 @@
+✔ player title, quick save/load, history, settings, ending collection, and nine save slots (831.380771ms)
+✔ grouped settings apply and persist text, display, audio and reset preferences (921.811266ms)
+✔ automatic advance waits for voice completion (1321.338231ms)
+✔ CG hides actors temporarily and explicit background clear removes them in editor and player (837.216708ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4336.315016

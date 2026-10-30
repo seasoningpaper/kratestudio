@@ -1,0 +1,16 @@
+✔ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (742.828993ms)
+✔ P1-B linked stack disconnect plays before release exactly once and cancellation preserves data (742.901052ms)
+✔ P1-B single-block extraction sounds before release and empty drop does not repeat disconnect (724.385452ms)
+✔ P1-B clicks, tiny movement, toolbox drags and complete floating stacks never emit disconnect (596.521597ms)
+✔ P1-B muted feedback stays silent and autoplay rejection is caught without repeated attempts (604.513301ms)
+✔ P1-B context extraction still plays immediately and only after a successful detach (488.806451ms)
+✔ P1-B attached value blocks sound once while moving and detach buttons retain immediate feedback (375.161907ms)
+✔ P1-B dragging a tail out of a floating stack detects its real external connection (307.737431ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4309.829

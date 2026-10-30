@@ -1,0 +1,28 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.41.0-r4 test:portal
+> node --test tests/portal-foundation.test.mjs
+
+✔ public pages and internal links resolve, including trailing slash refresh (554.013484ms)
+✔ account and write routes fail closed without fake cloud persistence (1.341884ms)
+✔ all retained editor runtime files match actual historical git blobs (601.622781ms)
+✔ playable demo handles both branches, local save/load, restart and corrupt saves (32.451662ms)
+✔ works filter actually hides the example rather than only changing its selected state (92.637528ms)
+✔ public pages contain no decorative English captions or banned separators (114.961249ms)
+✔ automatic background respects system motion and hidden tabs without controls or storage writes (49.402276ms)
+✔ creation walkthrough supports click, arrow keys, Home and End without touching stored projects (34.517979ms)
+✔ work keyword search combines with category and recovers after clearing an empty result (14.803521ms)
+✔ downloaded practice script parses with the actual 0.40.12_r4 parser and both branches finish (25.347681ms)
+✔ continuous showcase keeps real destinations, one keyboard copy and reversible manual pause (39.364095ms)
+✔ news categories filter the actual messages and recover to all (14.007571ms)
+✔ mobile menu closes on Escape, link selection and desktop resize (13.412414ms)
+✔ news sharing copies the current article and reports clipboard rejection honestly (25.163658ms)
+✔ all eight character links land on matching profiles with original assets and no fake accounts (126.808288ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2139.016119

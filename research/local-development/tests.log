@@ -1,0 +1,53 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> koi-maker@0.40.12-r1 test
+> node scripts/test-local.mjs
+
+✔ 04012 R5: repeat-until stops after the body changes its Boolean condition; legacy count loops stay unchanged (4.478033ms)
+✔ 04012 R5: true entry skips body; invalid Boolean and exhausted cap diagnose without hanging (0.657499ms)
+✔ 04012 R5: interactive repeat frames save/load, rollback and nested repeats keep exact execution (1.001366ms)
+✔ 04012 R5: until socket rejects number/string, preserves fallback and participates in variable rename (2.033477ms)
+✔ 04012 R5 DOM: flag presets and until use existing events, one-step Undo/Redo, persistence and independent IDs (781.473838ms)
+✔ 04012 R5: flag preset never overwrites an existing numeric variable or project input (0.662987ms)
+✔ 04012 R7: nested count loops inside until keep distinct frames and old unknown until fields stay untouched (0.473132ms)
+✔ 04012 R6: typed operator 0 >= 0 connects and executes (5.776526ms)
+✔ 04012 R6: typed operator 0 <= 0 connects and executes (0.287913ms)
+✔ 04012 R6: typed operator 0 != 0 connects and executes (0.435195ms)
+✔ 04012 R6: typed operator abs(-1) connects and executes (0.249505ms)
+✔ 04012 R6: typed operator floor(1.5) connects and executes (0.245088ms)
+✔ 04012 R6: typed operator ceil(1.5) connects and executes (0.403657ms)
+✔ 04012 R6: typed operator sqrt(4) connects and executes (0.208674ms)
+✔ 04012 R6: typed operator min(1,2) connects and executes (0.19304ms)
+✔ 04012 R6: typed operator max(1,2) connects and executes (0.311889ms)
+✔ 04012 R6 DOM: operators and primitive reporters honor search; presets keep existing expression workflow (1232.750614ms)
+✔ 04012 R7: duplicate character IDs reject references instead of choosing an arbitrary role (1.143459ms)
+✔ 04012 R5 role: typed reference only fits dialogue name, keeps stable character ID and literal execution semantics (11.461314ms)
+✔ 04012 R5 role: central rename follows reference; deletion diagnoses and preserves authored name; manual editing stays authoritative (1.335328ms)
+✔ 04012 R5 DOM: real role palette, typed connection, detach, Undo/Redo and IndexedDB restore (1096.163819ms)
+✔ 04012 R3: extracting one block preserves drop coordinates and viewport without replaying its old FLIP position (687.264118ms)
+✔ input, interpolation, branching, and rollback restore the complete variable state (4.361248ms)
+✔ save/load preserves state, actors, history, background, and variables (0.727914ms)
+✔ logic loops are bounded and cross chapter jumps execute (0.936408ms)
+✔ visual and audio control events are applied before dialogue (1.167506ms)
+✔ save data follows stable event IDs after inserting a scene event (0.35927ms)
+✔ preview from a selected line restores preceding scene and character state (0.256606ms)
+✔ minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact (0.540953ms)
+✔ multi-photo import decodes, stores >8 MB images, applies background, and exports all assets in ZIP (1511.973362ms)
+✔ local handoff: Windows and POSIX filesystem paths produce the same asset URL (1.049979ms)
+✔ local handoff: application source, Logo, HTML and CSS remain byte-identical (59.201963ms)
+✔ local handoff: localhost serves exact root, scripts, CSS and nested Logo; HEAD and missing routes behave correctly (234.46401ms)
+✔ P0-D clean KOI file follows block/event edits without manual refresh (396.484699ms)
+✔ P0-D global Undo and Redo restore the same source draft in the code editor (329.551562ms)
+✔ P0-D applying reordered source preserves foreign jumps by destination event ID (139.488509ms)
+✔ P0-D a conflicting source draft stays editable and rejecting Apply does not lose event edits or undo history (259.135062ms)
+✔ P0-D event properties, bound blocks, flow links, duplication and source share IDs and one global history (342.509449ms)
+✔ P0-D applied source and dirty drafts survive IndexedDB save/load and same-project editor restoration (294.984093ms)
+✔ P0-D chapter changes show the correctly bound script and preserve both chapters independently (211.083062ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10044.808165

@@ -1,0 +1,22 @@
+{
+  "repo": "twbs/bootstrap",
+  "snapshotCommit": "875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "snapshotDate": "2018-04-09T19:44:22Z",
+  "evidence": "https://github.com/twbs/bootstrap/commit/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "source": "https://github.com/twbs/bootstrap/tree/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
+  "files": [
+    "LICENSE",
+    "assets/scss/_buttons.scss",
+    "assets/scss/_nav.scss",
+    "assets/scss/_variables.scss",
+    "docs/4.1/examples/checkout/form-validation.css",
+    "docs/4.1/examples/navbar-fixed/navbar-top-fixed.css",
+    "docs/4.1/examples/navbar-static/navbar-top.css",
+    "docs/4.1/examples/navbars/navbar.css",
+    "docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css",
+    "scss/_button-group.scss",
+    "scss/_buttons.scss",
+    "scss/_custom-forms.scss"
+  ],
+  "status": "source-downloaded-not-yet-reviewed"
+}

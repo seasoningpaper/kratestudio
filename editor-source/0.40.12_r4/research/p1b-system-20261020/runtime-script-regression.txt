@@ -1,0 +1,27 @@
+✔ sound track persists across dialogue changes, independently replaces voice, and stops explicitly (3.388621ms)
+✔ same-step play-stop-play retains only the final cue; music stop removes stems without stopping SFX (1.150111ms)
+✔ ended one-shot is not replayed by subsequent cards, loading skips old one-shots but restores loops (0.329305ms)
+✔ KOI sound loops and selective/all stops compile to runtime events (3.138454ms)
+✔ KOI event source round-trips attributes, quotes, semicolons and existing numeric branches (1.548901ms)
+✔ options, GUI, screens and modules apply to the same project with real activity references (5.99851ms)
+✔ continuous blocks snap above or below with tolerance, exclude their own stack, and use separate audio filters (1.118133ms)
+✔ input, interpolation, branching, and rollback restore the complete variable state (4.447224ms)
+✔ save/load preserves state, actors, history, background, and variables (0.57766ms)
+✔ logic loops are bounded and cross chapter jumps execute (1.011312ms)
+✔ visual and audio control events are applied before dialogue (0.366532ms)
+✔ save data follows stable event IDs after inserting a scene event (1.137782ms)
+✔ preview from a selected line restores preceding scene and character state (0.309386ms)
+✔ minigame result blocks ordinary advance, feeds conditions and rolls back with actor placement intact (0.414654ms)
+✔ arbitrary reorder retains target event identities in choices, conditions, jumps and other chapters (1.430093ms)
+✔ external choices remap in their destination chapter and never acquire phantom local flow edges (6.148785ms)
+✔ background and character tracks remain independent, swaps retain placement, hides affect one actor (4.13893ms)
+✔ editor timeline and runtime use the same actor and background reduction (1.369722ms)
+✔ new actor defaults do not choose backgrounds or merge unrelated unbound sprites (0.606844ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 403.968036

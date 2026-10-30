@@ -1,0 +1,20 @@
+✔ P0-D derived synchronization is idempotent and never writes a competing event list (1.98604ms)
+✔ P0-D clean source tracks insert, copy, detach, reconnect and delete without duplicate identities (15.292375ms)
+✔ P0-D dirty source and external event edits are both retained; stale apply is rejected without mutation (0.647094ms)
+✔ P0-D legacy drafts survive initialization and missing bound chapters cannot overwrite another chapter (0.184161ms)
+✔ P0-D native KOI commands keep IDs through repeated apply and prepending a new line keeps foreign jump identity (3.34281ms)
+✔ P0-D field edits keep value identity and fallback; changing event type preserves displaced reporter (0.59698ms)
+✔ P0-D variable rename updates text, numeric expressions, bound metadata and loose reporters while leaving quoted names literal (3.078871ms)
+✔ P0-D deleting variables materializes reporter values and expressions without resurrecting deleted names (0.762084ms)
+✔ P0-D independent chapter sources are selected without replacing drafts or creating duplicate file names (0.417346ms)
+✔ P0-D drafts also detect concurrent variable changes when chapter events did not change (0.3865ms)
+✔ P0-D invalid or duplicate value identities are rejected before source application (1.027595ms)
+✔ P0-D 1000 native statements retain identities with a prepended instruction in bounded work (50.668616ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 184.538426
